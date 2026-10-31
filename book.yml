@@ -1,0 +1,21 @@
+# Book-level settings. Rename the compendium here and nowhere else.
+title: INFERENCE
+title_accent: "."            # the cobalt full stop after the wordmark
+subtitle: The AI compendium for the business mind
+edition: Placement Edition 2027 · Draft 0.1
+running_head: INFERENCE · The AI compendium
+publisher: Compiled by students, for students
+license: Free to share with attribution. Not for sale.
+cover_sentence: "Will AI replace the analyst or make the analyst ?"   # tokens on the cover attention matrix
+back_blurb: "Every B-school recruiter now asks about AI. Most compendiums still don't teach it. This one starts from first principles and ends in the interview room."
+
+# Placement tracks. Colours live in design/tokens.css as --t-<id>.
+tracks:
+  - { id: foundations, name: Foundations,  short: FND }
+  - { id: consulting,  name: Consulting,   short: CON }
+  - { id: marketing,   name: Marketing,    short: MKT }
+  - { id: product,     name: Product,      short: PM  }
+  - { id: operations,  name: Operations,   short: OPS }
+  - { id: finance,     name: Finance,      short: FIN }
+  - { id: hr,          name: HR & People,  short: HR  }
+  - { id: strategy,    name: Strategy & GM, short: GM }

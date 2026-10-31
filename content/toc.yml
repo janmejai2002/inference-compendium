@@ -1,0 +1,51 @@
+# The table of contents is the master plan. The TOC sessions (prompts/01-toc-session.md)
+# own this file. Chapter files live in content/chapters/<id>.md and are optional:
+# a chapter without a file renders as "planned" in the contents.
+#
+# status: planned | outlining | researching | drafting | review | final
+#
+# THIS IS A PLACEHOLDER STRUCTURE so the pipeline has something to render.
+# Replace it with the output of the TOC session.
+parts:
+  - id: p1
+    n: I
+    title: How the machine thinks
+    track: foundations
+    deck: First principles of AI for people who will never write a line of code.
+    chapters:
+      - id: what-is-a-model
+        title: What is a model, really?
+        status: drafting
+      - id: how-llms-work
+        title: Next-token prediction, and why it looks like thinking
+        status: planned
+      - id: limits
+        title: Where the machine breaks
+        status: planned
+  - id: p2
+    n: II
+    title: AI at work, by function
+    track: strategy
+    deck: The same ideas, seen through the six placement lenses.
+    chapters:
+      - id: ai-in-consulting
+        title: The consultant's new toolkit
+        track: consulting
+        status: planned
+      - id: ai-in-marketing
+        title: Marketing when content is free
+        track: marketing
+        status: planned
+      - id: ai-in-product
+        title: Building AI products
+        track: product
+        status: planned
+  - id: p3
+    n: III
+    title: The interview room
+    track: strategy
+    deck: Cases, guesstimates and GD topics where AI is the subject.
+    chapters:
+      - id: ai-cases
+        title: AI cases, worked end to end
+        status: planned

@@ -1,0 +1,27 @@
+{
+  "name": "ai-compendium",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An AI compendium for B-school placements — magazine-grade, source-traced, built from Markdown.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "pdf": "node scripts/build.mjs && node scripts/pdf.mjs",
+    "check": "node scripts/check.mjs",
+    "check:links": "node scripts/check.mjs --links",
+    "status": "node scripts/status.mjs",
+    "new": "node scripts/new-chapter.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^5.5.0",
+    "markdown-it": "^15.0.3",
+    "markdown-it-attrs": "^5.0.1",
+    "markdown-it-container": "^4.0.0",
+    "markdown-it-mark": "^4.0.0",
+    "pagedjs": "^0.4.3",
+    "playwright-core": "^1.64.1",
+    "qrcode": "^1.5.4"
+  }
+}

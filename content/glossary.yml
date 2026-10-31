@@ -1,0 +1,23 @@
+# GLOSSARY. Use [[id]] or [[id|display text]] in a chapter. The first use in each chapter
+# puts the definition in the margin rail; every term is collected in the back-of-book glossary.
+model:
+  term: Model
+  def: A rule, learned from examples, that turns an input into an output. A prediction machine.
+parameter:
+  term: Parameter
+  def: One adjustable number inside a model (a "weight"). Training sets its value. Large language models have billions.
+training:
+  term: Training
+  def: Adjusting a model's parameters, example after example, to shrink its error. Expensive, done once.
+inference:
+  term: Inference
+  def: Using a trained model to produce an output. Cheap per use, done millions of times. The book is named after it.
+token:
+  term: Token
+  def: The unit of text a language model reads and writes, roughly three-quarters of an English word.
+llm:
+  term: Large language model (LLM)
+  def: A model trained to predict the next token of text, at a scale that makes it useful for writing, reasoning and conversation.
+overfitting:
+  term: Overfitting
+  def: When a model memorises its training examples instead of the pattern, so it fails on new cases.

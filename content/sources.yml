@@ -1,0 +1,84 @@
+# SOURCE REGISTRY. Every video, article, paper or report the book cites lives here, once.
+# Chapters reference sources by id: {{watch karpathy-intro-llms}}, {{read wolfram-chatgpt}}.
+# Rules: docs/SOURCES.md. `npm run check` enforces the tier allowlist; `npm run check:links` pings URLs.
+#
+# type:     video | article | paper | report | podcast | book
+# tier:     A = primary / originator   B = established editorial or analysis   C = allowed with a reason
+# verified: set true only after a human or agent has opened the URL and confirmed title, author, date,
+#           and any timestamps or figures quoted from it.
+
+3b1b-neural-network:
+  type: video
+  title: "But what is a neural network?"
+  creator: Grant Sanderson
+  publisher: 3Blue1Brown
+  year: 2017
+  minutes: 19
+  url: https://www.youtube.com/watch?v=aircAruvnKk
+  tier: A
+  why: The clearest visual explanation of what "parameters" and "layers" are. Watch it before the next chapter and the word "weights" will never be abstract again.
+  verified: false
+
+karpathy-intro-llms:
+  type: video
+  title: "[1hr Talk] Intro to Large Language Models"
+  creator: Andrej Karpathy
+  publisher: YouTube
+  year: 2023
+  minutes: 60
+  url: https://www.youtube.com/watch?v=zjkBMFhNj_g
+  tier: A
+  why: A founding member of OpenAI explains, for a general audience, what an LLM is physically (two files) and how it is trained. The single best hour you can spend on this chapter.
+  marks:
+    - { t: "0:20",  label: "An LLM is two files: parameters + code" }
+    - { t: "4:17",  label: "Training as lossy compression of the internet" }
+    - { t: "14:14", label: "From document generator to assistant" }
+  verified: false
+
+wolfram-chatgpt:
+  type: article
+  title: "What Is ChatGPT Doing … and Why Does It Work?"
+  creator: Stephen Wolfram
+  publisher: Stephen Wolfram Writings
+  year: 2023
+  minutes: 90
+  url: https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
+  tier: A
+  why: Long, patient and illustrated. Read the first three sections ("It's just adding one word at a time" through "Where do the probabilities come from?") and stop there for now.
+  verified: false
+
+hbs-jagged-frontier:
+  type: paper
+  title: "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality"
+  creator: Dell'Acqua, McFowland, Mollick, Lifshitz-Assaf, Kellogg, Rajendran, Krayer, Candelon, Lakhani
+  publisher: Harvard Business School Working Paper 24-013
+  year: 2023
+  minutes: 40
+  url: https://www.hbs.edu/faculty/Pages/item.aspx?num=64700
+  tier: A
+  why: 758 BCG consultants, randomised. The most cited evidence on what AI does to consulting work, including where it made people worse.
+  verified: false
+
+mollick-centaurs:
+  type: article
+  title: "Centaurs and Cyborgs on the Jagged Frontier"
+  creator: Ethan Mollick
+  publisher: One Useful Thing
+  year: 2023
+  minutes: 12
+  url: https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged
+  tier: B
+  why: A co-author of the BCG study explains its findings in plain language. Read this if you will not read the paper.
+  verified: false
+
+stanford-ai-index:
+  type: report
+  title: "AI Index Report"
+  creator: Stanford Institute for Human-Centered AI
+  publisher: Stanford HAI
+  year: 2025
+  minutes: 30
+  url: https://hai.stanford.edu/ai-index
+  tier: A
+  why: The annual reference for numbers on AI capability, cost, investment and adoption. Read the "Top takeaways" page and quote from it, not from news articles about it.
+  verified: false

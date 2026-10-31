@@ -1,0 +1,111 @@
+/* ==========================================================================
+   INFERENCE — web reader
+   One reading column + a margin rail. Below 1100px the rail folds into the
+   text as indented notes. Dark mode comes from tokens.css.
+   ========================================================================== */
+
+html { font-size: 112.5%; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-text); }
+*, *::before, *::after { box-sizing: border-box; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* ---------- Top bar ---------- */
+.topbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  display: flex; align-items: center; gap: 1rem;
+  padding-block: .55rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--rule);
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+.wordmark { font-family: var(--f-display); font-weight: 900; font-stretch: 70%; font-size: 1.2rem; letter-spacing: .02em; color: var(--ink); text-decoration: none; }
+.wordmark span { color: var(--accent); }
+.topbar .where { flex: 1; min-width: 0; font-family: var(--f-display); font-stretch: 105%; font-size: var(--s-small); color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.topbar nav { display: flex; gap: .9rem; }
+.topbar nav a { font-family: var(--f-display); font-stretch: 110%; font-weight: 650; font-size: var(--s-micro); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); text-decoration: none; }
+.topbar nav a:hover { color: var(--accent); }
+.progress { position: absolute; left: 0; bottom: -1px; height: 2px; width: 0; background: var(--track, var(--accent)); }
+.mode {
+  font-family: var(--f-display); font-stretch: 110%; font-weight: 650; font-size: var(--s-micro); letter-spacing: .1em; text-transform: uppercase;
+  border: 1px solid var(--rule); background: transparent; color: var(--ink-2); padding: .35em .6em; cursor: pointer;
+}
+.mode[aria-pressed="true"] { background: var(--marker); color: #111427; border-color: var(--marker); }
+
+/* ---------- Reading layout ---------- */
+.read {
+  padding-block: 3rem 6rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.read .chapter { max-width: calc(var(--measure) + var(--gap) + var(--rail)); margin: 0 auto; }
+.read .opener, .read .prose, .read .answers { max-width: var(--measure); }
+.read .opener { margin-bottom: 3rem; }
+.read .opener .tab { position: absolute; right: calc(-1 * (var(--gap) + var(--rail))); top: 0; }
+
+@media (min-width: 1100px) {
+  .read .chapter { padding-right: 0; }
+  .read .sn {
+    float: right; clear: right;
+    width: var(--rail);
+    margin: .3em calc(-1 * (var(--rail) + var(--gap))) 1em 0;
+  }
+  .read .blk-case, .read .fig.wide, .read .blk-recap { margin-right: calc(-1 * (var(--rail) + var(--gap))); }
+  .read .blk-case, .read .fig.wide, .read .blk-recap { clear: right; }
+}
+@media (max-width: 1099.98px) {
+  .read .opener .tab { position: static; margin-bottom: 1rem; }
+  .read .sn { margin: .6em 0 .8em 1.2em; padding-left: .8em; border-left: 2px solid var(--rule); }
+  :root { --s-mega: 6.5rem; --s-h1: 2.8rem; }
+}
+@media (max-width: 560px) {
+  html { font-size: 106.25%; }
+  :root { --s-mega: 5rem; --s-h1: 2.3rem; --s-h2: 1.65rem; }
+  .media { grid-template-columns: 1fr; gap: .6em; }
+  .media-tag { flex-direction: row; align-items: center; flex-wrap: wrap; gap: .6em; }
+  .media-qr { display: none; }
+  .blk-myth { grid-template-columns: 1fr; }
+  .blk-myth .blk-b > p:first-child { border-right: 0; border-bottom: 1px solid var(--rule-strong); }
+  .topbar nav { display: none; }
+}
+
+/* On screen the QR is noise — show an Open link instead (print shows the QR) */
+@media screen and (min-width: 561px) {
+  .read .media-qr svg { opacity: .85; }
+}
+
+/* Skim mode: dims everything except highlights, recaps and headings */
+.skim .prose > p, .skim .prose > ul, .skim .prose > ol, .skim .blk:not(.blk-recap):not(.blk-stat), .skim .media, .skim .fig, .skim .prose table { opacity: .28; transition: opacity .2s; }
+.skim .prose mark { opacity: 1; }
+.skim .prose p:has(mark) { opacity: 1; color: color-mix(in srgb, var(--ink) 45%, transparent); }
+.skim .prose p:has(mark) mark { color: var(--ink); }
+
+/* Chapter pager */
+.pager { max-width: var(--measure); margin: 4rem auto 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; border-top: 2px solid var(--rule-strong); padding-top: 1rem; }
+.pager a { text-decoration: none; color: var(--ink); font-family: var(--f-display); font-weight: 750; font-stretch: 90%; font-size: 1.1rem; line-height: 1.2; }
+.pager a span { display: block; font-family: var(--f-display); font-stretch: 118%; font-weight: 650; font-size: var(--s-micro); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin-bottom: .3em; }
+.pager a.next { text-align: right; grid-column: 2; }
+
+/* ---------- Home ---------- */
+.home-hero {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 2.5rem; align-items: end;
+  max-width: 76rem; margin: 0 auto; padding-block: 3.5rem 2.5rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.home-hero h1 { margin: 0; font-family: var(--f-display); font-weight: 900; font-stretch: 62%; font-size: clamp(4.5rem, 13vw, 11rem); line-height: .8; letter-spacing: -.02em; }
+.home-hero h1 span { color: var(--accent); }
+.home-hero .sub { font-family: var(--f-text); font-style: italic; font-size: 1.4rem; line-height: 1.3; color: var(--ink-2); margin: 1rem 0 1.4rem; max-width: 28rem; }
+.home-hero .actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.btn { display: inline-flex; align-items: center; gap: .5em; font-family: var(--f-display); font-stretch: 110%; font-weight: 700; font-size: var(--s-small); letter-spacing: .06em; text-transform: uppercase; text-decoration: none; padding: .8em 1.1em; border: 1.5px solid var(--ink); color: var(--ink); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn:hover { transform: translateY(-1px); }
+.home-hero .matrix svg { width: 100%; height: auto; display: block; }
+.home-toc {
+  max-width: 76rem; margin: 0 auto; padding-block: 1rem 6rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+@media (max-width: 800px) { .home-hero { grid-template-columns: 1fr; } }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }

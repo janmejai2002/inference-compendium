@@ -1,0 +1,45 @@
+# Which domains may be cited, and at what tier. `npm run check` flags any source whose
+# URL is not on this list ("needs review") or whose declared tier is better than its domain allows.
+# Add a domain only after reading docs/SOURCES.md. A is best.
+A:   # primary sources and originators
+  - arxiv.org
+  - openai.com
+  - anthropic.com
+  - deepmind.google
+  - ai.google
+  - ai.meta.com
+  - research.google
+  - hai.stanford.edu
+  - hbs.edu
+  - nber.org
+  - oecd.org
+  - niti.gov.in
+  - rbi.org.in
+  - meity.gov.in
+  - writings.stephenwolfram.com
+  - nature.com
+  - science.org
+  - karpathy.ai
+B:   # established editorial and analysis
+  - hbr.org
+  - sloanreview.mit.edu
+  - technologyreview.com
+  - economist.com
+  - ft.com
+  - mckinsey.com
+  - bcg.com
+  - bain.com
+  - a16z.com
+  - stratechery.com
+  - ben-evans.com
+  - oneusefulthing.org
+  - livemint.com
+  - the-ken.com
+  - economictimes.indiatimes.com
+  - knowledge.wharton.upenn.edu
+C:   # platforms: the CREATOR decides the tier, not the platform. A source here may be
+     # declared A or B only if `creator` is a named originator (e.g. Karpathy, 3Blue1Brown);
+     # check prints a reminder for every such case.
+  - youtube.com
+  - substack.com
+  - medium.com

@@ -1,0 +1,101 @@
+/* ==========================================================================
+   INFERENCE — design tokens
+   Single source of truth for colour, type and rhythm. Every other stylesheet
+   reads from here. Change the identity here, never in components.
+
+   Layout concept: a working study book — one wide reading column with an
+   outer "margin rail" for notes, terms and QR codes; highlighter marks carry
+   the skim layer; coloured thumb-tabs mark the placement track.
+   ========================================================================== */
+
+:root,
+.is-paper {
+  /* Paper & ink (cool neutrals, biased toward the cobalt accent) */
+  --paper:        #FFFFFF;
+  --paper-2:      #F2F3F8;   /* panels, case fills */
+  --paper-3:      #E4E6F0;   /* deeper fill, table stripes */
+  --ink:          #111427;   /* blue-black body ink */
+  --ink-2:        #3B4060;   /* secondary text */
+  --ink-3:        #6E7391;   /* captions, meta */
+  --rule:         #D3D6E4;   /* hairlines */
+  --rule-strong:  #111427;
+
+  /* Signal */
+  --accent:       #2337E6;   /* cobalt — the book's one loud colour */
+  --accent-ink:   #1B2BB8;
+  --accent-wash:  #E8EBFE;
+  --marker:       #FFE45C;   /* highlighter yellow — the skim layer */
+  --marker-soft:  #FFF3B0;
+  --on-accent:    #FFFFFF;
+
+  /* Placement tracks (thumb tabs, lens blocks, chips) */
+  --t-foundations: #2337E6;
+  --t-consulting:  #0B7A5C;
+  --t-marketing:   #D63A73;
+  --t-product:     #7438E0;
+  --t-operations:  #D9720B;
+  --t-finance:     #0E8BA3;
+  --t-hr:          #B83A26;
+  --t-strategy:    #3B4256;
+
+  /* Desk (the surface pages sit on in the design book / reader shell) */
+  --desk:         #E6E8F0;
+  --desk-ink:     #111427;
+  --desk-ink-2:   #4A5070;
+  --desk-rule:    #C9CCDA;
+  --desk-raise:   #F7F8FB;
+
+  /* Type */
+  --f-display: 'Archivo', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --f-text:    'Literata', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  --f-mono:    'IBM Plex Mono', ui-monospace, 'Cascadia Mono', Consolas, monospace;
+
+  /* Scale (rem — print sets the root size, so everything rescales together) */
+  --s-micro: .6875rem;
+  --s-small: .8125rem;
+  --s-body:  1rem;
+  --s-lead:  1.25rem;
+  --s-h3:    1.3rem;
+  --s-h2:    2rem;
+  --s-h1:    3.6rem;
+  --s-mega:  9rem;
+
+  --measure: 37rem;
+  --rail:    13rem;
+  --gap:     2rem;
+
+  color-scheme: light;
+}
+
+/* Web reader dark mode — paper turns to night ink. Print never uses this. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper:   #0E1120; --paper-2: #171B30; --paper-3: #20253F;
+    --ink:     #E7E9F4; --ink-2:   #B4B9D2; --ink-3:   #8389A8;
+    --rule:    #2C3150; --rule-strong: #E7E9F4;
+    --accent:  #8593FF; --accent-ink: #A9B2FF; --accent-wash: #1C2250;
+    --marker:  #5C5113; --marker-soft: #3A3410; --on-accent: #0E1120;
+    --desk: #070914; --desk-ink: #E7E9F4; --desk-ink-2: #9AA0BE; --desk-rule: #232843; --desk-raise: #11152A;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper:   #0E1120; --paper-2: #171B30; --paper-3: #20253F;
+  --ink:     #E7E9F4; --ink-2:   #B4B9D2; --ink-3:   #8389A8;
+  --rule:    #2C3150; --rule-strong: #E7E9F4;
+  --accent:  #8593FF; --accent-ink: #A9B2FF; --accent-wash: #1C2250;
+  --marker:  #5C5113; --marker-soft: #3A3410; --on-accent: #0E1120;
+  --desk: #070914; --desk-ink: #E7E9F4; --desk-ink-2: #9AA0BE; --desk-rule: #232843; --desk-raise: #11152A;
+  color-scheme: dark;
+}
+
+/* A physical page is always paper, whatever the screen theme. */
+.is-paper {
+  --paper: #FFFFFF; --paper-2: #F2F3F8; --paper-3: #E4E6F0;
+  --ink: #111427; --ink-2: #3B4060; --ink-3: #6E7391;
+  --rule: #D3D6E4; --rule-strong: #111427;
+  --accent: #2337E6; --accent-ink: #1B2BB8; --accent-wash: #E8EBFE;
+  --marker: #FFE45C; --marker-soft: #FFF3B0; --on-accent: #FFFFFF;
+  color-scheme: light;
+  color: var(--ink);
+}
