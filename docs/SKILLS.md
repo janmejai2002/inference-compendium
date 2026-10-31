@@ -6,6 +6,7 @@ Built as the work showed a need (see `notes/workflow-log.md`). Agents propose ne
 |---|---|---|
 | `/toc` | command | open-ended TOC discussion; writes only `notes/toc/` |
 | `/toc-compile` | command | settled discussion → `content/toc.yml` + rationale |
+| `/build-v1` | command | whole v1 edition in one session: TOC → research packets → chapters in waves → verifier → PDF (`prompts/03-v1-build.md`) |
 | `/toc-import` | command | a toc.yml made in another chat → repo |
 | `/chapter <id>` | command | research and write one chapter |
 | `/verify-sources` | command | open and verify sources in `content/sources.yml` |
