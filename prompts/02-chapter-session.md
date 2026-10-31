@@ -15,7 +15,7 @@ You are writing chapter **`$CHAPTER_ID`** of INFERENCE, the AI compendium for B-
 
 ## Work in four steps, and stop for my approval after step 2
 
-**1. Sources first.** Verify the seed sources and find better ones if needed: 4–8 for the chapter, tier A or B. Open each one. Confirm title, author, date; for videos, note timestamps worth watching and what to skip. Add them to `content/sources.yml` with `verified: true` only if you actually checked. Report anything you couldn't verify.
+**1. Sources first** (use the `source-hunt` skill). Verify the seed sources and find better ones if needed: 4–8 for the chapter, tier A or B. Open each one. Confirm title, author, date; for videos, note timestamps worth watching and what to skip. Add them to `content/sources.yml` with `verified: true` only if you actually checked. Report anything you couldn't verify.
 
 **2. Outline (checkpoint).** Following the chapter arc, give me: the hook puzzle, 3–4 objectives with Bloom verbs, the first-principles derivation as numbered steps, the concept cards, the case (real and sourced, or marked Illustrative), which lenses, the interview question, the try-it prompt, and the check questions. Flag every factual claim and the source that backs it.
 

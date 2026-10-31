@@ -4,3 +4,5 @@ dist/
 Thumbs.db
 *.log
 scripts/_*.tmp.mjs
+.venv/
+notes/scratch/

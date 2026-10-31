@@ -28,3 +28,12 @@ A4, mirrored margins: inner 20, text column 128, gap 6, rail 44, outer 12 (mm); 
 - Components must work in three places: web reader (light and dark), print, design book. Check all three with `npm run pdf` and `npm run dev`.
 - Paged.js only applies `page:` and `break-*` rules reliably on plain class selectors (`.opener-page`, not `.print .opener-page`).
 - Figures use the SVG classes listed in `docs/AUTHORING.md`, never hard-coded colours.
+
+## Black-and-white print
+
+Most campus print shops print mono; the PDF and web stay full colour. We design for colour and **proof** for B&W rather than designing down. `npm run proof:bw` writes `dist/pages-bw/`, the pages as a mono laser printer sees them. Checked 2026-10-31: everything reads.
+
+- **Never let colour carry meaning alone.** Every track colour sits next to a label (thumb tab text, "CONSULTING LENS", chips). A new component must pass this too.
+- Highlighter yellow prints as a light grey band (~86% luminance): visible, text stays black on it. Don't lighten `--marker`.
+- Cobalt prints as a dark grey: fine for headings and rules, too dark for large tinted panels.
+- Full-bleed dark pages (cover, part openers, back cover) are toner-heavy and shops can't print to the edge. For a mono print run, print the cover separately in colour or accept the white border; the inside pages need no change.

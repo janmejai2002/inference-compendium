@@ -3,6 +3,7 @@
 // (what each page contains), which the design book uses to show real spreads.
 //   node scripts/pdf.mjs            PDF + page images
 //   node scripts/pdf.mjs --no-shots PDF only (faster)
+//   node scripts/pdf.mjs --bw       also dist/pages-bw/: the same pages as a mono laser printer sees them
 import fs from 'node:fs';
 import path from 'node:path';
 import { chromium } from 'playwright-core';
@@ -13,6 +14,7 @@ import { serve } from './lib/serve.mjs';
 
 const DIST = path.join(ROOT, 'dist');
 const shots = !process.argv.includes('--no-shots');
+const bw = process.argv.includes('--bw');
 
 async function launch() {
   const tries = [{}, { channel: 'chrome' }, { channel: 'msedge' }];
@@ -56,6 +58,18 @@ if (shots) {
     await page.screenshot({ fullPage: true, clip: { x: bb.x, y: bb.y, width: bb.width, height: bb.width * 297 / 210 }, path: path.join(dir, `p-${String(i + 1).padStart(3, '0')}.jpg`), type: 'jpeg', quality: 84 });
   }
   fs.writeFileSync(path.join(dir, 'pages.json'), JSON.stringify(info, null, 1));
+}
+if (bw) {
+  // Mono printers print luminance; grayscale() is a close stand-in for proofing.
+  const dir = path.join(DIST, 'pages-bw');
+  fs.rmSync(dir, { recursive: true, force: true });
+  fs.mkdirSync(dir, { recursive: true });
+  await page.addStyleTag({ content: '.pagedjs_pages { filter: grayscale(1); }' });
+  const els = await page.$$('.pagedjs_page');
+  for (let i = 0; i < els.length; i++) {
+    const bb = await els[i].boundingBox();
+    await page.screenshot({ fullPage: true, clip: { x: bb.x, y: bb.y, width: bb.width, height: bb.width * 297 / 210 }, path: path.join(dir, `p-${String(i + 1).padStart(3, '0')}.jpg`), type: 'jpeg', quality: 84 });
+  }
 }
 await browser.close();
 await server.close();

@@ -14,20 +14,21 @@ git clone <this repo>
 cd <repo>
 npm install
 npm run pdf          # → dist/INFERENCE.pdf, dist/design.html, dist/index.html
+npm run browser:setup  # optional: Camoufox for source research (needs Python 3.10+)
 npm run dev          # → http://127.0.0.1:4321, live reload while you write
 ```
 
 ## How the work flows
 
 ```
-TOC session ──► content/toc.yml
+/toc discussions ──► notes/toc/ ──► /toc-compile ──► content/toc.yml
                      │
 Chapter session ──► content/chapters/<id>.md + content/sources.yml + content/glossary.yml
                      │
 npm run check ──► npm run pdf ──► git commit ──► push
 ```
 
-Each step has a ready prompt in `prompts/` and a slash command in `.claude/commands/` (`/toc`, `/chapter <id>`, `/verify-sources`, `/ship`). Agents start from `CLAUDE.md`; current progress is in `STATUS.md`.
+Each step has a ready prompt in `prompts/` and a slash command in `.claude/commands/` (`/toc`, `/toc-compile`, `/chapter <id>`, `/verify-sources`, `/ship`; full list in `docs/SKILLS.md`). Agents start from `CLAUDE.md`; current progress is in `STATUS.md`.
 
 ## Working together
 

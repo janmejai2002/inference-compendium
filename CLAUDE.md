@@ -6,7 +6,8 @@ A magazine-grade AI compendium for Indian B-school placement prep (consulting, m
 
 | Task | Read | Don't read |
 |---|---|---|
-| Plan or change the table of contents | `prompts/01-toc-session.md`, `content/toc.yml` | design/, scripts/ |
+| Discuss the table of contents | `prompts/01-toc-session.md`, `notes/toc/DISCUSSION.md` | design/, scripts/, chapters |
+| Turn the discussion into toc.yml | `.claude/commands/toc-compile.md`, `docs/TOC-SCHEMA.md` | design/, scripts/ |
 | Write or edit a chapter | `prompts/02-chapter-session.md`, `docs/AUTHORING.md`, that chapter's file | other chapters, design/ |
 | Add or verify sources | `docs/SOURCES.md`, `content/sources.yml` | chapters |
 | Change the look | `docs/DESIGN.md`, `design/*.css` | content/ |
@@ -22,6 +23,8 @@ npm run new -- <id>     scaffold content/chapters/<id>.md (id must already be in
 npm run build           dist/ web + print.html + design book   (~0.1 s)
 npm run pdf             build + dist/INFERENCE.pdf + page images (~5 s)
 npm run dev             http://127.0.0.1:4321 with live reload
+npm run proof:bw        pdf + dist/pages-bw/ (pages as a mono printer sees them)
+npm run browser:setup   one-time: Camoufox into .venv/ for scripts/browse.py
 ```
 
 `npm run pdf` needs Chrome or Edge installed (it uses the system browser via playwright-core) and an internet connection for Google Fonts.
@@ -48,7 +51,15 @@ content/source-policy.yml  domain → tier allowlist
 design/                    tokens, components, web, print, specimen CSS
 scripts/                   build, pdf, check, status, new-chapter, dev
 prompts/                   paste-in prompts for TOC and chapter sessions
+notes/                     working notes between sessions (TOC discussion, workflow log); never rendered
+.claude/                   project commands and skills (see docs/SKILLS.md)
 editions/                  committed PDF snapshots of milestones
 ```
 
-Source searching and verification may use the Camoufox browser if it is installed on the machine; otherwise use normal web fetch.
+## Research and tools
+
+Finding or checking sources: use the `source-hunt` skill (WebFetch → Camoufox via `scripts/browse.py` → Agent Reach for YouTube, Reddit, LinkedIn). Project skills, commands and scripts are listed in `docs/SKILLS.md`.
+
+## Be observant
+
+This project grows its own tools. Follow the `workflow-scout` skill: log friction and repeated work in `notes/workflow-log.md`, and propose a rule, script, command or skill when something repeats. Build only what the user approves.

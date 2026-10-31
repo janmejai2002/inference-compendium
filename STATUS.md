@@ -1,6 +1,6 @@
 # Status
 
-_Last updated 2026-10-31, setup session._
+_Last updated 2026-10-31, setup session (2): name confirmed, B&W proofing, research tools, project skills._
 
 ## Where we are
 - **Pipeline: working.** Markdown → web edition, A4 print book (Paged.js), PDF with bookmarks and clickable contents, design book. `npm run pdf` takes ~5 s.
@@ -10,15 +10,16 @@ _Last updated 2026-10-31, setup session._
 - First edition snapshot: `editions/INFERENCE-design-0.1.pdf`.
 
 ## Next
-1. **TOC session** (`/toc`, or paste `prompts/01-toc-session.md` into a new chat). Phase 1 = it interviews you.
-2. Name: confirm or replace the working title "INFERENCE" (`book.yml`).
+1. **TOC discussion** (`/toc` in Claude Code here). Open-ended, research-backed, builds nothing; state lives in `notes/toc/DISCUSSION.md`. Run as many sessions as needed, then `/toc-compile`.
+2. Invite the co-editor to the GitHub repo once we have their username.
 3. Verify the six sample sources (`/verify-sources`).
 4. Then one `/chapter <id>` session per chapter.
 
 ## Open questions for the editors
-- Final name; one book vs core book + track supplements; target length.
+- Name: **INFERENCE**, confirmed 2026-10-31.
+- One book vs core book + track supplements; target length. (For the TOC discussion.)
 - Who else contributes, and does everyone work through pull requests?
-- Print: will the campus shop print colour, or must the book work in black and white? (Thumb tabs and highlights are designed to survive B&W.)
+- Print: campus shops mostly print **B&W**; online editions stay colour. Design unchanged, proofed with `npm run proof:bw` (see docs/DESIGN.md).
 
 ## Design backlog
 - An "advance organiser" chapter map on the opener page (the empty middle of the opener page is reserved for it).
