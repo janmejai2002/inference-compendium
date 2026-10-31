@@ -1,0 +1,20 @@
+consulting|MBA management consultant
+consulting|MBA strategy consultant associate
+consulting|business analyst consulting MBA
+product|product manager MBA
+product|associate product manager MBA
+marketing|brand manager MBA
+marketing|marketing manager MBA
+marketing|category manager MBA
+finance|MBA finance corporate finance
+finance|investment banking associate MBA
+finance|equity research associate MBA
+finance|credit analyst MBA bank
+operations|supply chain manager MBA
+operations|operations manager MBA
+operations|procurement manager MBA
+hr|HR business partner MBA
+hr|talent acquisition manager MBA
+general|management trainee MBA
+general|chief of staff MBA
+general|business development manager MBA

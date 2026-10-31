@@ -1,0 +1,43 @@
+model_basics|Welch Labs how ChatGPT works
+model_basics|Computerphile large language models
+model_basics|CGP Grey OR Kurzgesagt artificial intelligence explained
+model_basics|Veritasium AI neural networks
+model_basics|Karpathy deep dive into LLMs like ChatGPT
+training|Welch Labs training AI
+hallucination|Computerphile AI hallucination
+hallucination|Wall Street Journal AI chatbot mistakes lawyers fake citations
+cost_economics|Bloomberg Originals AI data centers cost
+cost_economics|CNBC Nvidia AI chips explained
+cost_economics|Asianometry AI chips
+cost_economics|Wendover OR Johnny Harris AI energy
+cost_economics|Patrick Boyle AI bubble
+prompting|Karpathy how I use LLMs
+prompting|Ethan Mollick co-intelligence talk
+agents|Anthropic Claude agents computer use demo
+agents|OpenAI agent launch livestream
+agents|CNBC AI agents explained business
+agents|Y Combinator AI agents vertical
+evaluation|Anthropic how we evaluate AI models
+ai_business|CNBC how OpenAI makes money
+ai_business|Bloomberg Originals AI race
+ai_business|Stratechery Ben Thompson AI interview
+ai_business|a16z AI business models
+ai_business|Lenny's Podcast AI product
+ai_business|Harvard Business Review AI strategy video
+ai_business|Stanford GSB AI business strategy
+ai_business|McKinsey AI ROI state of AI
+ai_work|60 Minutes AI jobs
+ai_work|CNBC AI replacing entry level jobs
+ai_work|Stanford AI Index 2026
+ai_work|Dwarkesh Patel AI economy
+consulting_ai|McKinsey Lilli AI consultants
+consulting_ai|BCG AI consultants study jagged frontier
+consulting_ai|will AI replace management consultants
+consulting_ai|consulting case interview AI generative AI case
+consulting_ai|Accenture Julie Sweet AI
+india_ai|Think School AI India
+india_ai|Nikhil Kamath AI podcast
+india_ai|CNBC-TV18 AI India
+india_ai|Mint AI India explained
+india_ai|IndiaAI mission explained
+india_ai|Nandan Nilekani AI

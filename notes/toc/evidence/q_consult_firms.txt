@@ -1,0 +1,15 @@
+mckinsey|McKinsey consultant
+bcg|Boston Consulting Group consultant
+bain|Bain & Company consultant
+kearney|Kearney consultant
+accenture-strategy|Accenture Strategy consultant
+ey-parthenon|EY-Parthenon
+deloitte|Deloitte consulting strategy
+pwc|PwC Strategy& consultant
+kpmg|KPMG consulting strategy
+am|Alvarez & Marsal consultant
+zs|ZS Associates consultant
+oliver-wyman|Oliver Wyman
+roland-berger|Roland Berger
+adl|Arthur D. Little
+redseer|Redseer Strategy Consultants

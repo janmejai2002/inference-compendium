@@ -6,3 +6,6 @@ Thumbs.db
 scripts/_*.tmp.mjs
 .venv/
 notes/scratch/
+
+# third-party casebook PDFs/extracts: keep local, never commit (URLs listed in research-casebooks-2025-26.md)
+notes/toc/evidence/casebooks/raw/

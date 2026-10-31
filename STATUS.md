@@ -1,6 +1,6 @@
 # Status
 
-_Last updated 2026-10-31, setup session (2): name confirmed, B&W proofing, research tools, project skills._
+_Last updated 2026-11-01, TOC session 1: market research done, v1 structure accepted._
 
 ## Where we are
 - **Pipeline: working.** Markdown → web edition, A4 print book (Paged.js), PDF with bookmarks and clickable contents, design book. `npm run pdf` takes ~5 s.
@@ -10,7 +10,8 @@ _Last updated 2026-10-31, setup session (2): name confirmed, B&W proofing, resea
 - First edition snapshot: `editions/INFERENCE-design-0.1.pdf`.
 
 ## Next
-1. **TOC discussion** (`/toc` in Claude Code here). Open-ended, research-backed, builds nothing; state lives in `notes/toc/DISCUSSION.md`. Run as many sessions as needed, then `/toc-compile`.
+1. **TOC session 1 done (2026-10-31 → 11-01).** Research in `notes/toc/` (JD scan of 1,403 unique LinkedIn JDs, recruiter reports, consulting firms, curricula, 7 casebooks, 102 videos scored). v1 structure accepted: opener + 7 foundation + 3 business + 3 consulting chapters + 2 inserts (`notes/toc/DISCUSSION.md`). Recommendations and harness plan: `notes/toc/PLAN-next.md`.
+   **Next:** `/toc-compile`, then the v1 build (prompt in `prompts/03-v1-build.md`).
 2. Invite the co-editor to the GitHub repo once we have their username.
 3. Verify the six sample sources (`/verify-sources`).
 4. Then one `/chapter <id>` session per chapter.

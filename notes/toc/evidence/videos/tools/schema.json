@@ -1,0 +1,15 @@
+{"type":"object","required":["concepts","watchability","clarity","concept_fit","business_relevance","density","authority","durability","accuracy_flags","is_pitch","best_segment","one_line_why","key_insights"],
+"properties":{
+"concepts":{"type":"array","items":{"type":"string"},"description":"which of the listed book concepts this video teaches (ids)"},
+"watchability":{"type":"integer","minimum":1,"maximum":5},
+"clarity":{"type":"integer","minimum":1,"maximum":5},
+"concept_fit":{"type":"integer","minimum":1,"maximum":5},
+"business_relevance":{"type":"integer","minimum":1,"maximum":5},
+"density":{"type":"integer","minimum":1,"maximum":5},
+"authority":{"type":"integer","minimum":1,"maximum":5},
+"durability":{"type":"integer","minimum":1,"maximum":5},
+"accuracy_flags":{"type":"array","items":{"type":"string"},"description":"claims that are wrong or outdated as of Oct 2026, with timestamp"},
+"is_pitch":{"type":"boolean"},
+"best_segment":{"type":"string","description":"start-end timestamps of the most valuable stretch, e.g. 02:10-07:45"},
+"one_line_why":{"type":"string"},
+"key_insights":{"type":"array","items":{"type":"string"},"maxItems":5,"description":"up to 5 insights with timestamps, each one sentence"}}}

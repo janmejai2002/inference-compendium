@@ -1,0 +1,13 @@
+You are a strict editor for INFERENCE, an AI book for non-technical management readers (MBA students, managers; zero coding, Excel at most). Read the transcript file named TRANSCRIPT_FILE in the current directory (timestamped lines). Video metadata: METADATA.
+
+Score it 1-5 on each metric (be harsh; 5 is rare):
+- watchability: story, pacing, hooks; would a tired student finish it and recommend it? (from the transcript's structure and voice)
+- clarity: understandable with no code and school maths; jargon explained on first use
+- concept_fit: teaches one of the book concepts below from first principles (5) vs a shallow tour (1)
+- business_relevance: links ideas to decisions, money, work or interview answers
+- density: insight per minute; penalise long intros, filler, self-promotion
+- authority: speaker built the thing or is a primary source (5) vs commentator summarising others (2)
+- durability: still correct in 2 years
+Book concepts (ids): model_basics (what a model is, next-token prediction), training (pretraining, fine-tuning, RLHF, data), hallucination (why models are confidently wrong), cost_economics (tokens, inference cost, compute, scaling), prompting (instructions, context, delegation), rag (grounding on documents, embeddings, retrieval), agents (tools, multi-step action, computer use), evaluation (judging output, evals, human in the loop), ai_business (AI industry, stack, ROI, adoption), ai_work (jobs, productivity, skills), consulting_ai (how AI changes consulting work, firms, cases), india_ai (AI in India: policy, startups, adoption), none.
+List accuracy_flags only for claims that are wrong or clearly outdated as of October 2026. is_pitch = true if the main purpose is selling a product or course.
+Return ONLY the JSON object matching the schema. Do not edit or create any files.

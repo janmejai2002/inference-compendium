@@ -1,0 +1,22 @@
+model_basics|how large language models work explained
+model_basics|Andrej Karpathy intro to large language models
+model_basics|what is ChatGPT actually doing next word prediction explained
+model_basics|neural networks explained visually
+training|how ChatGPT was trained RLHF explained
+training|pretraining fine tuning explained simply
+training|Karpathy how I use LLMs
+hallucination|why AI hallucinates explained
+hallucination|AI chatbots make things up why
+cost_economics|cost of running AI inference tokens explained
+cost_economics|why AI needs so much compute data centers explained
+cost_economics|Nvidia GPUs AI chips explained
+prompting|how to write good prompts for AI work
+prompting|Ethan Mollick using AI at work
+prompting|prompt engineering explained Anthropic
+rag|retrieval augmented generation explained
+rag|what are embeddings vector databases explained simply
+agents|what are AI agents explained
+agents|AI agents how they work tools computer use
+agents|agentic AI explained business
+evaluation|how to evaluate AI outputs evals explained
+evaluation|AI benchmarks explained are they meaningful
