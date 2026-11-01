@@ -50,7 +50,7 @@ content/figures/<id>.svg   figures; use classes from design/components.css, not 
 content/source-policy.yml  domain → tier allowlist
 design/                    tokens, components, web, print, specimen CSS
 scripts/                   build, pdf, check, status, new-chapter, dev
-prompts/                   paste-in prompts for TOC and chapter sessions
+prompts/                   paste-in prompts for TOC, chapter and build sessions (04 = Antigravity build)
 notes/                     working notes between sessions (TOC discussion, workflow log); never rendered
 .claude/                   project commands and skills (see docs/SKILLS.md)
 editions/                  committed PDF snapshots of milestones
