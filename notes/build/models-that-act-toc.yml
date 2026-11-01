@@ -1,0 +1,12 @@
+questions:
+  - "A client wants an AI agent that reads supplier emails and updates their ERP. What could go wrong, and what would you ask before agreeing?"
+  - "Each step of an agent workflow succeeds 95% of the time and the job has 12 steps. Do you ship it unattended? What do you change?"
+  - "Your team's AI assistant can read client files, browse the web and send email. A partner asks if that is safe. Respond."
+seed_sources:
+  - { title: "Building effective agents", url: "https://www.anthropic.com/engineering/building-effective-agents", tier: A }
+  - { title: "Measuring AI Ability to Complete Long Software Tasks", url: "https://arxiv.org/abs/2503.14499", tier: A }
+  - { title: "Project Vend", url: "https://www.anthropic.com/research/project-vend-1", tier: A }
+  - { title: "LLM01:2025 Prompt Injection", url: "https://genai.owasp.org/llmrisk/llm01-prompt-injection/", tier: B }
+  - { title: "The lethal trifecta for AI agents", url: "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/", tier: C }
+  - { title: "Mitigating the risk of prompt injections in browser use", url: "https://www.anthropic.com/research/prompt-injection-defenses", tier: A }
+  - { title: "Understanding prompt injections: a frontier security challenge", url: "https://openai.com/index/prompt-injections/", tier: A }

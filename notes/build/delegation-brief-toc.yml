@@ -1,0 +1,10 @@
+questions:
+  - "A partner wants a first-pass summary of 40 pages of client interview notes by tomorrow. Write the brief you would give an AI tool and tell me what you would check before it goes in the deck."
+  - "A junior says starting every prompt with 'You are a world-class strategist' improves answers. How would you find out?"
+  - "An Indian bank wants GenAI to draft credit memos. What must the instruction to the model contain, and where does a human sign off?"
+seed_sources:
+  - { title: "Prompting best practices (Anthropic)", url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices", tier: A }
+  - { title: "Prompt engineering (OpenAI)", url: "https://developers.openai.com/api/docs/guides/prompt-engineering", tier: A }
+  - { title: "Prompt design strategies (Google Gemini API)", url: "https://ai.google.dev/gemini-api/docs/prompting-strategies", tier: A }
+  - { title: "Prompting Science Report 3 (Wharton)", url: "https://arxiv.org/abs/2508.00614", tier: A }
+  - { title: "Lesson 7: Effective prompting techniques (Anthropic)", url: "https://www.youtube.com/watch?v=2YCaBqP8muw", tier: A }

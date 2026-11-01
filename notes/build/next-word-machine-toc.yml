@@ -1,0 +1,10 @@
+questions:
+  - "A client's Hindi support bot costs about three times the English one for the same volume. Why might that be, and what would you check?"
+  - "Explain to a CFO in two minutes why a chatbot can state a wrong figure fluently."
+  - "Estimate the monthly cost of summarising 10,000 customer emails with an LLM. State your assumptions."
+seed_sources:
+  - { title: "Large Language Models explained briefly", url: "https://www.youtube.com/watch?v=LPZh9BOjkQs", tier: A }
+  - { title: "[1hr Talk] Intro to Large Language Models", url: "https://www.youtube.com/watch?v=zjkBMFhNj_g", tier: A }
+  - { title: "Scaling Laws for Neural Language Models", url: "https://arxiv.org/abs/2001.08361", tier: A }
+  - { title: "Language Model Tokenizers Introduce Unfairness Between Languages", url: "https://arxiv.org/abs/2305.15425", tier: A }
+  - { title: "Understanding and counting tokens", url: "https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them", tier: A }

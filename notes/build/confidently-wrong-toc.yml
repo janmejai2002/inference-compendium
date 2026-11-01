@@ -1,0 +1,10 @@
+questions:
+  - "A partner pastes a number a chatbot gave you into a client deck. What do you do before it goes in?"
+  - "Why could a model with higher benchmark accuracy be riskier to deploy?"
+  - "Our bank wants GenAI to summarise loan-officer notes. Where could bias or invented facts get in, and who is accountable?"
+seed_sources:
+  - { title: "Why language models hallucinate (OpenAI)", url: "https://openai.com/index/why-language-models-hallucinate/", tier: A }
+  - { title: "Why Language Models Hallucinate (Kalai et al.)", url: "https://arxiv.org/abs/2509.04664", tier: A }
+  - { title: "Intro to Large Language Models (Karpathy)", url: "https://www.youtube.com/watch?v=zjkBMFhNj_g", tier: A }
+  - { title: "Large Legal Fictions (Dahl et al.)", url: "https://arxiv.org/abs/2401.01301", tier: A }
+  - { title: "Indian-BhED (Khandelwal et al.)", url: "https://arxiv.org/abs/2309.08573", tier: A }

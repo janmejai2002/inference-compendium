@@ -1,0 +1,13 @@
+questions:
+  - "Our AI checker flags 67 of 1,000 invoices and the vendor says it is 90% accurate. Should the client trust a flag? (base rates, false positives vs negatives)"
+  - "You ask the firm's AI tool for a market size and it returns a confident number. What do you do before it goes in the deck? (prompt, review, challenge, decide)"
+  - "A client's team found AI makes analysts 25% faster. How would you decide whether it can touch client-ready work? (jagged frontier, evals, sign-off)"
+seed_sources:
+  - { title: "Navigating the Jagged Technological Frontier", url: "https://pubsonline.informs.org/doi/10.1287/orsc.2025.21838", tier: A }
+  - { title: "The Impact of Generative AI on Critical Thinking (Lee et al., CHI 2025)", url: "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/", tier: A }
+  - { title: "Complacency and bias in human use of automation", url: "https://pubmed.ncbi.nlm.nih.gov/21077562/", tier: A }
+  - { title: "Demystifying evals for AI agents", url: "https://anthropic.com/engineering/demystifying-evals-for-ai-agents", tier: A }
+  - { title: "Evaluation best practices (OpenAI)", url: "https://developers.openai.com/api/docs/guides/evaluation-best-practices", tier: A }
+  - { title: "Your AI Product Needs Evals (Hamel Husain)", url: "https://hamel.dev/blog/posts/evals/", tier: C }
+  - { title: "Where McKinsey, and Consulting, Go From Here (HBR IdeaCast)", url: "https://hbr.org/podcast/2026/01/where-mckinsey-and-consulting-go-from-here", tier: B }
+  - { title: "LLM as a Judge (IBM Technology)", url: "https://www.youtube.com/watch?v=trfUBIDeI1Y", tier: C }

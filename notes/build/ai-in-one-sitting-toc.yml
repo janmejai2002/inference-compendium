@@ -1,0 +1,9 @@
+questions:
+  - "Explain generative AI to a CEO who has never used it, in two minutes, and name one thing it will get wrong."
+  - "A model gives you a market-size answer and a confident summary. What do you check before it goes to the client?"
+  - "Your client's team uses ChatGPT daily but sees no profit effect. What do you recommend?"
+seed_sources:
+  - { title: "The state of AI in 2026: On the road to ROI", url: "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai", tier: B }
+  - { title: "AI Is Reshaping Jobs Faster Than Companies Are Reshaping Work", url: "https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work", tier: B }
+  - { title: "Inside the AI Index: 12 Takeaways from the 2026 Report", url: "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report", tier: A }
+  - { title: "Large Language Models explained briefly", url: "https://www.youtube.com/watch?v=LPZh9BOjkQs", tier: A }

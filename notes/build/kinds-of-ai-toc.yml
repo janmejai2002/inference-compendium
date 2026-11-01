@@ -1,0 +1,9 @@
+questions:
+  - "A telecom's churn is rising. Would you recommend a chatbot, a prediction model, or both, and what data would you ask for first?"
+  - "A bank wants GenAI use cases. Split the list into tasks for a language model and tasks for a classic ML model, with one example of each."
+  - "Convince a sceptical founder of a traditional consumer-goods firm to adopt AI. Where along the value chain do you start, and why?"
+seed_sources:
+  - { title: "The economic potential of generative AI (MGI, 2023)", url: "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier", tier: B }
+  - { title: "RBI Statement on Developmental and Regulatory Policies, 6 Dec 2024 (MuleHunter.AI)", url: "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=59245", tier: A }
+  - { title: "RBI Governor keynote, Global Fintech Fest 2025", url: "https://www.rbi.org.in/scripts/BS_SpeechesView.aspx?Id=1525", tier: A }
+  - { title: "The Simple Economics of Machine Intelligence (HBR, 2016)", url: "https://hbr.org/2016/11/the-simple-economics-of-machine-intelligence", tier: B }

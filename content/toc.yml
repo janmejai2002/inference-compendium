@@ -20,6 +20,15 @@ parts:
         tracks: [consulting]
         prereq: []
         pages: 10
+        questions:
+          - Explain generative AI to a CEO who has never used it, in two minutes, and name one thing it will get wrong.
+          - A model gives you a market-size answer and a confident summary. What do you check before it goes to the client?
+          - Your client's team uses ChatGPT daily but sees no profit effect. What do you recommend?
+        seed_sources:
+          - {title: 'The state of AI in 2026: On the road to ROI', url: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai, tier: B}
+          - {title: AI Is Reshaping Jobs Faster Than Companies Are Reshaping Work, url: https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work, tier: B}
+          - {title: 'Inside the AI Index: 12 Takeaways from the 2026 Report', url: https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report, tier: A}
+          - {title: Large Language Models explained briefly, url: https://www.youtube.com/watch?v=LPZh9BOjkQs, tier: A}
         status: planned
 
   - id: p1
@@ -33,42 +42,114 @@ parts:
         deck: Predictive models and generative models solve different business problems. Pick the wrong one and the project fails before it starts.
         tracks: [consulting]
         prereq: []
+        questions:
+          - A telecom's churn is rising. Would you recommend a chatbot, a prediction model, or both, and what data would you ask for first?
+          - A bank wants GenAI use cases. Split the list into tasks for a language model and tasks for a classic ML model, with one example of each.
+          - Convince a sceptical founder of a traditional consumer-goods firm to adopt AI. Where along the value chain do you start, and why?
+        seed_sources:
+          - {title: 'The economic potential of generative AI (MGI, 2023)', url: https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier, tier: B}
+          - {title: 'RBI Statement on Developmental and Regulatory Policies, 6 Dec 2024 (MuleHunter.AI)', url: https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=59245, tier: A}
+          - {title: 'RBI Governor keynote, Global Fintech Fest 2025', url: https://www.rbi.org.in/scripts/BS_SpeechesView.aspx?Id=1525, tier: A}
+          - {title: 'The Simple Economics of Machine Intelligence (HBR, 2016)', url: https://hbr.org/2016/11/the-simple-economics-of-machine-intelligence, tier: B}
         status: planned
       - id: next-word-machine
         title: A model predicts the next word
         deck: Next-token prediction, parameters and why scale matters; tokens and context as your first feel for cost.
         tracks: [consulting]
         prereq: [kinds-of-ai]
+        questions:
+          - A client's Hindi support bot costs about three times the English one for the same volume. Why might that be, and what would you check?
+          - Explain to a CFO in two minutes why a chatbot can state a wrong figure fluently.
+          - Estimate the monthly cost of summarising 10,000 customer emails with an LLM. State your assumptions.
+        seed_sources:
+          - {title: Large Language Models explained briefly, url: https://www.youtube.com/watch?v=LPZh9BOjkQs, tier: A}
+          - {title: '[1hr Talk] Intro to Large Language Models', url: https://www.youtube.com/watch?v=zjkBMFhNj_g, tier: A}
+          - {title: Scaling Laws for Neural Language Models, url: https://arxiv.org/abs/2001.08361, tier: A}
+          - {title: Language Model Tokenizers Introduce Unfairness Between Languages, url: https://arxiv.org/abs/2305.15425, tier: A}
+          - {title: Understanding and counting tokens, url: https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them, tier: A}
         status: planned
       - id: confidently-wrong
         title: Why models are confidently wrong
         deck: Pretraining, fine-tuning and feedback explain both the fluency and the hallucinations. Bias enters here too.
         tracks: [consulting]
         prereq: [next-word-machine]
+        questions:
+          - A partner pastes a number a chatbot gave you into a client deck. What do you do before it goes in?
+          - Why could a model with higher benchmark accuracy be riskier to deploy?
+          - Our bank wants GenAI to summarise loan-officer notes. Where could bias or invented facts get in, and who is accountable?
+        seed_sources:
+          - {title: Why language models hallucinate (OpenAI), url: https://openai.com/index/why-language-models-hallucinate/, tier: A}
+          - {title: Why Language Models Hallucinate (Kalai et al.), url: https://arxiv.org/abs/2509.04664, tier: A}
+          - {title: Intro to Large Language Models (Karpathy), url: https://www.youtube.com/watch?v=zjkBMFhNj_g, tier: A}
+          - {title: Large Legal Fictions (Dahl et al.), url: https://arxiv.org/abs/2401.01301, tier: A}
+          - {title: Indian-BhED (Khandelwal et al.), url: https://arxiv.org/abs/2309.08573, tier: A}
         status: planned
       - id: delegation-brief
         title: A prompt is a delegation brief
         deck: Instructions, context, examples and iteration. A checklist you can trust, not a bag of tricks.
         tracks: [consulting]
         prereq: [next-word-machine]
+        questions:
+          - A partner wants a first-pass summary of 40 pages of client interview notes by tomorrow. Write the brief you would give an AI tool and tell me what you would check before it goes in the deck.
+          - A junior says starting every prompt with 'You are a world-class strategist' improves answers. How would you find out?
+          - An Indian bank wants GenAI to draft credit memos. What must the instruction to the model contain, and where does a human sign off?
+        seed_sources:
+          - {title: Prompting best practices (Anthropic), url: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices, tier: A}
+          - {title: Prompt engineering (OpenAI), url: https://developers.openai.com/api/docs/guides/prompt-engineering, tier: A}
+          - {title: Prompt design strategies (Google Gemini API), url: https://ai.google.dev/gemini-api/docs/prompting-strategies, tier: A}
+          - {title: Prompting Science Report 3 (Wharton), url: https://arxiv.org/abs/2508.00614, tier: A}
+          - {title: 'Lesson 7: Effective prompting techniques (Anthropic)', url: https://www.youtube.com/watch?v=2YCaBqP8muw, tier: A}
         status: planned
       - id: your-documents
         title: Giving the model your documents
         deck: Retrieval and embeddings in plain words, why "ChatGPT on our data" is hard, and what leaks.
         tracks: [consulting]
         prereq: [next-word-machine, confidently-wrong]
+        questions:
+          - A partner wants a chatbot over ten years of the firm's past engagement decks. What can go wrong, and what do you check before saying yes?
+          - A client's staff are pasting contracts into a free chatbot. Advise the CFO.
+          - When would you paste 500 pages into the prompt instead of building a retrieval system?
+        seed_sources:
+          - {title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al.), url: https://arxiv.org/abs/2005.11401, tier: A}
+          - {title: Introducing Contextual Retrieval (Anthropic), url: https://www.anthropic.com/news/contextual-retrieval, tier: A}
+          - {title: Seven Failure Points When Engineering a RAG System (Barnett et al.), url: https://arxiv.org/abs/2401.05856, tier: A}
+          - {title: Lost in the Middle (Liu et al.), url: https://arxiv.org/abs/2307.03172, tier: A}
+          - {title: Samsung Bans Staff's AI Use After Spotting ChatGPT Data Leak (Bloomberg), url: https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak, tier: B}
+          - {title: 'Digital Personal Data Protection Act, 2023 (MeitY)', url: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf, tier: A}
         status: planned
       - id: models-that-act
         title: "Agents: models that act, and how they break"
         deck: Tools, multi-step work and failure rates; prompt injection and why an agent is a security question.
         tracks: [consulting]
         prereq: [delegation-brief, your-documents]
+        questions:
+          - A client wants an AI agent that reads supplier emails and updates their ERP. What could go wrong, and what would you ask before agreeing?
+          - Each step of an agent workflow succeeds 95% of the time and the job has 12 steps. Do you ship it unattended? What do you change?
+          - Your team's AI assistant can read client files, browse the web and send email. A partner asks if that is safe. Respond.
+        seed_sources:
+          - {title: Building effective agents, url: https://www.anthropic.com/engineering/building-effective-agents, tier: A}
+          - {title: Measuring AI Ability to Complete Long Software Tasks, url: https://arxiv.org/abs/2503.14499, tier: A}
+          - {title: Project Vend, url: https://www.anthropic.com/research/project-vend-1, tier: A}
+          - {title: LLM01:2025 Prompt Injection, url: https://genai.owasp.org/llmrisk/llm01-prompt-injection/, tier: B}
+          - {title: The lethal trifecta for AI agents, url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/, tier: C}
+          - {title: Mitigating the risk of prompt injections in browser use, url: https://www.anthropic.com/research/prompt-injection-defenses, tier: A}
         status: planned
       - id: judging-output
         title: Judging AI output is the job now
         deck: Error rates, base rates, false positives and evals; a four-step protocol to prompt, review, challenge and decide.
         tracks: [consulting]
         prereq: [confidently-wrong, delegation-brief]
+        questions:
+          - Our AI checker flags 67 of 1,000 invoices and the vendor says it is 90% accurate. Should the client trust a flag? (base rates, false positives vs negatives)
+          - You ask the firm's AI tool for a market size and it returns a confident number. What do you do before it goes in the deck? (prompt, review, challenge, decide)
+          - A client's team found AI makes analysts 25% faster. How would you decide whether it can touch client-ready work? (jagged frontier, evals, sign-off)
+        seed_sources:
+          - {title: Navigating the Jagged Technological Frontier, url: https://pubsonline.informs.org/doi/10.1287/orsc.2025.21838, tier: A}
+          - {title: 'The Impact of Generative AI on Critical Thinking (Lee et al., CHI 2025)', url: https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/, tier: A}
+          - {title: Complacency and bias in human use of automation, url: https://pubmed.ncbi.nlm.nih.gov/21077562/, tier: A}
+          - {title: Demystifying evals for AI agents, url: https://anthropic.com/engineering/demystifying-evals-for-ai-agents, tier: A}
+          - {title: Evaluation best practices (OpenAI), url: https://developers.openai.com/api/docs/guides/evaluation-best-practices, tier: A}
+          - {title: Your AI Product Needs Evals (Hamel Husain), url: https://hamel.dev/blog/posts/evals/, tier: C}
         status: planned
 
   - id: p2
@@ -82,18 +163,49 @@ parts:
         deck: Inference cost, chips, data centres, clouds, labs and apps; the valuations and the debt behind the boom.
         tracks: [consulting, finance]
         prereq: [next-word-machine]
+        questions:
+          - A private-equity fund is considering a Rs 5,000 crore stake in an Indian data-centre operator. How would you decide whether AI demand justifies the price?
+          - A large Indian bank spends Rs 40 crore a year on its own servers. Should it move to cloud or buy AI as an API?
+          - A consumer-electronics giant weighs buying an AI-assistant company for $500M. Who pays for the compute behind it, and how does that change your offer?
+        seed_sources:
+          - {title: Alphabet Q3 2026 results (8-K Ex. 99.1), url: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm, tier: A}
+          - {title: 'Oracle Form 10-Q, quarter ended 31 Aug 2026', url: https://www.sec.gov/Archives/edgar/data/0001341439/000119312526389274/orcl-20260831.htm, tier: A}
+          - {title: 'AI Index Report 2026, Chapter 4: Economy', url: https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf, tier: A}
+          - {title: 'Democratising AI in India (PIB, 10 Feb 2026)', url: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf, tier: A}
+          - {title: Why Wall Street is Ignoring Big Tech's Debt (Patrick Boyle), url: https://www.youtube.com/watch?v=NufJ7g63KSY, tier: B}
         status: planned
       - id: pilots-stall
         title: Why AI pilots stall
         deck: Most companies use AI and few see profit from it. The gap is change management and workflow redesign.
         tracks: [consulting, operations, hr]
         prereq: [judging-output]
+        questions:
+          - A client's GenAI pilots work in demos but nothing has reached production after a year. What do you diagnose first?
+          - Employees say AI saves them a day a week, but costs have not fallen. Where did the time go?
+          - How would you decide whether to scale, stop or redesign a pilot?
+        seed_sources:
+          - {title: 'The state of AI in 2026: On the road to ROI', url: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai, tier: B}
+          - {title: The Widening AI Value Gap, url: https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap, tier: B}
+          - {title: AI Is Reshaping Jobs Faster Than Companies Are Reshaping Work, url: https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work, tier: B}
+          - {title: 'MIT report: 95% of generative AI pilots at companies are failing (Fortune)', url: https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/, tier: B}
+          - {title: India's AI shift from pilots to performance (EY-CII), url: https://www.ey.com/en_in/newsroom/2025/11/india-s-ai-shift-from-pilots-to-performance-47-percent-of-enterprises-have-multiple-ai-use-cases-live-in-production-ey-cii-report, tier: C}
         status: planned
       - id: work-changes
         title: How the work changes
         deck: What the evidence on jobs says (a split, not a collapse), what shifts at entry level, and where India stands.
         tracks: [consulting, hr]
         prereq: [pilots-stall]
+        questions:
+          - Your client, a 40,000-person Indian services firm, asks whether AI will let it cut its graduate intake. What evidence would you want before answering, and what would you tell them today?
+          - Surveys show 32% of firms expected AI headcount cuts and 14% reported them a year later. Give three reasons the forecast and the outcome differ, and say what that means for a workforce plan.
+          - India is second in Claude.ai use but around 101st per capita, and 45% of its use is software tasks. Structure the opportunity for a non-IT Indian business function.
+        seed_sources:
+          - {title: AI job losses fall short of forecasts (McKinsey Chart of the Week), url: https://www.mckinsey.com/featured-insights/charts/ai-job-losses-fall-short-of-forecasts, tier: B}
+          - {title: 'India Country Brief: The Anthropic Economic Index', url: https://www.anthropic.com/research/india-brief-economic-index, tier: A}
+          - {title: Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of AI, url: https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/, tier: A}
+          - {title: Evaluating the Impact of AI on the Labor Market (Yale Budget Lab), url: https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs, tier: B}
+          - {title: Future of Jobs Report 2025 (WEF press release), url: https://www.weforum.org/media/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces, tier: B}
+          - {title: BCG AI at Work 2026, url: https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work, tier: B}
         status: planned
 
   - id: p3
@@ -107,6 +219,15 @@ parts:
         deck: The jagged-frontier study, firm-built assistants and agents, outcome-based fees, and the pyramid debate.
         tracks: [consulting]
         prereq: [judging-output, work-changes]
+        questions:
+          - A client asks whether AI means your firm should charge a fixed fee tied to results instead of billing team time. Walk through what you would want to know before saying yes.
+          - A senior partner says juniors are no longer needed because AI builds the first-draft slides. Do you agree? What would you check before answering?
+          - An AI tool gives your team a clean market-size answer in two minutes. How do you decide whether it is inside or outside what the tool does reliably?
+        seed_sources:
+          - {title: Navigating the Jagged Technological Frontier (Organization Science 2026), url: https://pubsonline.informs.org/doi/10.1287/orsc.2025.21838, tier: A}
+          - {title: Is McKinsey losing its crown to AI? (The Economist), url: https://www.youtube.com/watch?v=QXAXNcRs7gQ, tier: B}
+          - {title: BCG Reports $14.4 Billion in Revenue, url: https://www.bcg.com/press/23april2026-bcg-revenue-22nd-consecutive-year-growth, tier: B}
+          - {title: Top consultancies freeze starting salaries as AI threatens pyramid model (FT), url: https://www.irishtimes.com/business/2025/12/01/top-consultancies-freeze-starting-salaries-as-ai-threatens-pyramid-model, tier: B}
         status: planned
       - id: ai-casebook
         title: The INFERENCE AI casebook
@@ -114,12 +235,32 @@ parts:
         tracks: [consulting]
         prereq: [who-pays, pilots-stall, consulting-firm]
         pages: 20
+        questions:
+          - A bank asks which GenAI use cases to build first. Walk me through how you would choose, and name one it should not automate.
+          - A founder says his AI product automates 80% of support. How would you test that before we invest?
+          - Estimate how many AI prompts Indians send in a day, then tell me what that costs to serve.
+        seed_sources:
+          - {title: 'TRAI Press Release 104/2026, June 2026 subscription data', url: https://www.trai.gov.in/sites/default/files/2026-07/PR_No104of2026_0.pdf, tier: A}
+          - {title: 'IndiaAI Mission Expands AI Ecosystem with Affordable Compute (PIB, 25 Mar 2026)', url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245069&reg=3&lang=1, tier: A}
+          - {title: 'India''s AI Moment (PIB backgrounder, 17 Feb 2026)', url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2229397&reg=48&lang=2, tier: A}
+          - {title: India Data Centre H1 2026 Update (Cushman & Wakefield), url: https://www.cushmanwakefield.com/en/india/news/2026/09/india-data-centre-h1-2026-update, tier: B}
+          - {title: Claude API pricing, url: https://platform.claude.com/docs/en/about-claude/pricing, tier: A}
+          - {title: ChatGPT Business pricing, url: https://openai.com/business/pricing/, tier: A}
         status: planned
       - id: interview-room
         title: The interview room
         deck: Being screened by AI, AI-assisted case rounds, and the questions to expect with the shape of a strong answer.
         tracks: [consulting]
         prereq: [consulting-firm]
+        questions:
+          - A client wants to use a chatbot to answer customer queries. Which parts would you automate first, and what could go wrong?
+          - Here is an AI-drafted market-entry structure. What would you check before you show it to a client?
+          - Should an Indian bank let AI draft credit memos? Give a recommendation and name the risk you would manage first.
+        seed_sources:
+          - {title: India's campus talent landscape pivots to skill-based hiring as 86 percent of employers adopt AI in recruitment, url: https://www.deloitte.com/in/en/about/press-room/india-s-campus-talent-landscape-pivots-to-skill-based-hiring-as-86-percent-of-employers-adopt-ai-in-recruitment--deloitte-india.html, tier: C}
+          - {title: Responsible AI in hiring (BCG careers), url: https://careers.bcg.com/global/en/careers-in-ai/responsible-ai-in-hiring, tier: B}
+          - {title: McKinsey AI-Assisted Interview Privacy Notice, url: https://www.mckinsey.com/ai-assisted-interview-privacy-notice, tier: B}
+          - {title: Where McKinsey and Consulting Go From Here (HBR IdeaCast 1060), url: https://hbr.org/podcast/2026/01/where-mckinsey-and-consulting-go-from-here, tier: B}
         status: planned
 
   - id: p4
@@ -134,6 +275,15 @@ parts:
         deck: The current frontier models and products, with dates. Out of date by design; check the web edition.
         tracks: [consulting]
         pages: 2
+        questions:
+          - A client asks which AI model to standardise on across 5,000 staff. What do you ask before you answer?
+          - A vendor deck says its model is number one on a benchmark. How much do you trust it, and what would you check?
+          - Model prices fell 50% in six weeks. How does that change a business case built in July?
+        seed_sources:
+          - {title: 'GPT-6 Astra: A new generation of intelligence', url: https://openai.com/index/gpt-6-astra/, tier: A}
+          - {title: Introducing Claude Fable 5.1 and Claude Mythos 5.1, url: https://www.anthropic.com/claude-fable-and-mythos-5-1, tier: A}
+          - {title: 'Gemini 4 Argon: Built to solve your hardest problems', url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/, tier: A}
+          - {title: 'Inside the AI Index: 12 Takeaways from the 2026 Report', url: https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report, tier: A}
         status: planned
       - id: india-briefing
         n: B
@@ -141,4 +291,14 @@ parts:
         deck: DPDP Act, RBI FREE-AI, the IndiaAI Mission and how India uses AI, in two pages.
         tracks: [consulting, finance]
         pages: 2
+        questions:
+          - A bank wants an LLM to summarise customer complaints. What privacy and governance checks do you run first?
+          - India has no AI-specific law. Is that a risk or an advantage for a company deploying AI here? Take a side.
+          - India is second by volume on Claude.ai but about 101st per head. What does that tell a client about the market?
+        seed_sources:
+          - {title: Government notifies DPDP Rules to empower citizens and protect privacy, url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190014&reg=3&lang=2, tier: A}
+          - {title: RBI FREE-AI Committee report (press release), url: https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61018, tier: A}
+          - {title: India AI Governance Guidelines, url: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf, tier: A}
+          - {title: Cabinet Approves IndiaAI Mission, url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012355, tier: A}
+          - {title: 'India Country Brief: The Anthropic Economic Index', url: https://www.anthropic.com/research/india-brief-economic-index, tier: A}
         status: planned

@@ -1,0 +1,10 @@
+questions:
+  - "A bank wants an LLM to summarise customer complaints. What privacy and governance checks do you run first?"
+  - "India has no AI-specific law. Is that a risk or an advantage for a company deploying AI here? Take a side."
+  - "India is second by volume on Claude.ai but about 101st per head. What does that tell a client about the market?"
+seed_sources:
+  - { title: "Government notifies DPDP Rules to empower citizens and protect privacy", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190014&reg=3&lang=2", tier: A }
+  - { title: "RBI FREE-AI Committee report (press release)", url: "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61018", tier: A }
+  - { title: "India AI Governance Guidelines", url: "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf", tier: A }
+  - { title: "Cabinet Approves IndiaAI Mission", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012355", tier: A }
+  - { title: "India Country Brief: The Anthropic Economic Index", url: "https://www.anthropic.com/research/india-brief-economic-index", tier: A }

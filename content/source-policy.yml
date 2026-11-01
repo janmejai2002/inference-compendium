@@ -2,6 +2,30 @@
 # URL is not on this list ("needs review") or whose declared tier is better than its domain allows.
 # Add a domain only after reading docs/SOURCES.md. A is best.
 A:   # primary sources and originators
+  - deepseek.com
+  - bharatgen.com
+  - informs.org
+  - microsoft.com
+  - nih.gov
+  - sec.gov
+  - aboutamazon.com
+  - atmeta.com
+  - abc.xyz
+  - pib.gov.in
+  - trai.gov.in
+  - indiaai.gov.in
+  - sebi.gov.in
+  - claude.com
+  - ai.google.dev
+  - blog.google
+  - sarvam.ai
+  - metr.org
+  - epoch.ai
+  - stanford.edu
+  - yale.edu
+  - owasp.org
+  - x.ai
+  - mistral.ai
   - arxiv.org
   - openai.com
   - anthropic.com
@@ -21,6 +45,14 @@ A:   # primary sources and originators
   - science.org
   - karpathy.ai
 B:   # established editorial and analysis
+  - fortune.com
+  - deloitte.com
+  - ey.com
+  - wsj.com
+  - bloomberg.com
+  - irishtimes.com
+  - weforum.org
+  - cushmanwakefield.com
   - hbr.org
   - sloanreview.mit.edu
   - technologyreview.com
@@ -38,6 +70,13 @@ B:   # established editorial and analysis
   - economictimes.indiatimes.com
   - knowledge.wharton.upenn.edu
 C:   # platforms: the CREATOR decides the tier, not the platform. A source here may be
+  - simonwillison.net
+  - hamel.dev
+  - support.google.com
+  - github.com
+  - lawnext.com
+  - theregister.com
+  - damiencharlotin.com
      # declared A or B only if `creator` is a named originator (e.g. Karpathy, 3Blue1Brown);
      # check prints a reminder for every such case.
   - youtube.com

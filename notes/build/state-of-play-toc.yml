@@ -1,0 +1,9 @@
+questions:
+  - "A client asks which AI model to standardise on across 5,000 staff. What do you ask before you answer?"
+  - "A vendor deck says its model is number one on a benchmark. How much do you trust it, and what would you check?"
+  - "Model prices fell 50% in six weeks. How does that change a business case built in July?"
+seed_sources:
+  - { title: "GPT-6 Astra: A new generation of intelligence", url: "https://openai.com/index/gpt-6-astra/", tier: A }
+  - { title: "Introducing Claude Fable 5.1 and Claude Mythos 5.1", url: "https://www.anthropic.com/claude-fable-and-mythos-5-1", tier: A }
+  - { title: "Gemini 4 Argon: Built to solve your hardest problems", url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/", tier: A }
+  - { title: "Inside the AI Index: 12 Takeaways from the 2026 Report", url: "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report", tier: A }

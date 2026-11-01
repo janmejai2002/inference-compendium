@@ -1,0 +1,12 @@
+questions:
+  - "Your client, a 40,000-person Indian services firm, asks whether AI will let it cut its graduate intake. What evidence would you want before answering, and what would you tell them today?"
+  - "Surveys show 32% of firms expected AI headcount cuts and 14% reported them a year later. Give three reasons the forecast and the outcome differ, and say what that means for a workforce plan."
+  - "India is second in Claude.ai use but around 101st per capita, and 45% of its use is software tasks. Structure the opportunity for a non-IT Indian business function."
+seed_sources:
+  - { title: "AI job losses fall short of forecasts (McKinsey Chart of the Week)", url: "https://www.mckinsey.com/featured-insights/charts/ai-job-losses-fall-short-of-forecasts", tier: B }
+  - { title: "India Country Brief: The Anthropic Economic Index", url: "https://www.anthropic.com/research/india-brief-economic-index", tier: A }
+  - { title: "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of AI", url: "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/", tier: A }
+  - { title: "Evaluating the Impact of AI on the Labor Market (Yale Budget Lab)", url: "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs", tier: B }
+  - { title: "Future of Jobs Report 2025 (WEF press release)", url: "https://www.weforum.org/media/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces", tier: B }
+  - { title: "BCG AI at Work 2026", url: "https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work", tier: B }
+  - { title: "Deloitte India Campus Workforce Trends 2026", url: "https://www.deloitte.com/in/en/about/press-room/india-s-campus-talent-landscape-pivots-to-skill-based-hiring-as-86-percent-of-employers-adopt-ai-in-recruitment--deloitte-india.html", tier: B }

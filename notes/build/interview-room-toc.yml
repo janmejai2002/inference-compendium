@@ -1,0 +1,9 @@
+questions:
+  - "A client wants to use a chatbot to answer customer queries. Which parts would you automate first, and what could go wrong?"
+  - "Here is an AI-drafted market-entry structure. What would you check before you show it to a client?"
+  - "Should an Indian bank let AI draft credit memos? Give a recommendation and name the risk you would manage first."
+seed_sources:
+  - { title: "India's campus talent landscape pivots to skill-based hiring as 86 percent of employers adopt AI in recruitment", url: "https://www.deloitte.com/in/en/about/press-room/india-s-campus-talent-landscape-pivots-to-skill-based-hiring-as-86-percent-of-employers-adopt-ai-in-recruitment--deloitte-india.html", tier: C }
+  - { title: "Responsible AI in hiring (BCG careers)", url: "https://careers.bcg.com/global/en/careers-in-ai/responsible-ai-in-hiring", tier: B }
+  - { title: "McKinsey AI-Assisted Interview Privacy Notice", url: "https://www.mckinsey.com/ai-assisted-interview-privacy-notice", tier: B }
+  - { title: "Where McKinsey and Consulting Go From Here (HBR IdeaCast 1060)", url: "https://hbr.org/podcast/2026/01/where-mckinsey-and-consulting-go-from-here", tier: B }

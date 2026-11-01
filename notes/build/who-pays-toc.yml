@@ -1,0 +1,10 @@
+questions:
+  - "A private-equity fund is considering a Rs 5,000 crore stake in an Indian data-centre operator. How would you decide whether AI demand justifies the price?"
+  - "A large Indian bank spends Rs 40 crore a year on its own servers. Should it move to cloud or buy AI as an API?"
+  - "A consumer-electronics giant weighs buying an AI-assistant company for $500M. Who pays for the compute behind it, and how does that change your offer?"
+seed_sources:
+  - { title: "Alphabet Q3 2026 results (8-K Ex. 99.1)", url: "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm", tier: A }
+  - { title: "Oracle Form 10-Q, quarter ended 31 Aug 2026", url: "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526389274/orcl-20260831.htm", tier: A }
+  - { title: "AI Index Report 2026, Chapter 4: Economy", url: "https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf", tier: A }
+  - { title: "Democratising AI in India (PIB, 10 Feb 2026)", url: "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf", tier: A }
+  - { title: "Why Wall Street is Ignoring Big Tech's Debt (Patrick Boyle)", url: "https://www.youtube.com/watch?v=NufJ7g63KSY", tier: B }

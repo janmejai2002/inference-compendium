@@ -1,0 +1,13 @@
+questions:
+  - "A partner wants a chatbot over ten years of the firm's past engagement decks. What can go wrong, and what do you check before saying yes?"
+  - "A client's staff are pasting contracts into a free chatbot. Advise the CFO."
+  - "When would you paste 500 pages into the prompt instead of building a retrieval system?"
+seed_sources:
+  - { title: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al.)", url: "https://arxiv.org/abs/2005.11401", tier: A }
+  - { title: "Introducing Contextual Retrieval (Anthropic)", url: "https://www.anthropic.com/news/contextual-retrieval", tier: A }
+  - { title: "Seven Failure Points When Engineering a RAG System (Barnett et al.)", url: "https://arxiv.org/abs/2401.05856", tier: A }
+  - { title: "Lost in the Middle (Liu et al.)", url: "https://arxiv.org/abs/2307.03172", tier: A }
+  - { title: "Samsung Bans Staff's AI Use After Spotting ChatGPT Data Leak (Bloomberg)", url: "https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak", tier: B }
+  - { title: "Digital Personal Data Protection Act, 2023 (MeitY)", url: "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf", tier: A }
+  - { title: "Enterprise privacy at OpenAI", url: "https://openai.com/enterprise-privacy", tier: A }
+  - { title: "What is Retrieval-Augmented Generation (RAG)? (IBM Technology)", url: "https://www.youtube.com/watch?v=T-D1OfcDW1M", tier: A }

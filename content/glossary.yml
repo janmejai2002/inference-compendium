@@ -21,3 +21,33 @@ llm:
 overfitting:
   term: Overfitting
   def: When a model memorises its training examples instead of the pattern, so it fails on new cases.
+context-window:
+  term: Context window
+  def: The maximum number of tokens a model can take in at once, prompt and answer together. Anything outside it, the model cannot see.
+tokenizer:
+  term: Tokenizer
+  def: The fixed rule that chops text into tokens before a model reads it. It decides how many tokens, and so how much money, a given text costs.
+scaling-law:
+  term: Scaling law
+  def: The measured finding that a language model's next-token error falls smoothly and predictably as parameters, data and compute grow.
+temperature:
+  term: Temperature
+  def: A setting that controls how often a model picks a less likely next token. Low is predictable; high is varied.
+predictive-ai:
+  term: Predictive AI
+  def: Models that learn from past examples to score, classify or forecast a number for a new case (will this customer leave, how much milk sells tomorrow). Also called classic machine learning.
+generative-ai:
+  term: Generative AI
+  def: Models, usually built on a foundation model, that produce new text, images, code or audio. One model can do many tasks and works on unstructured data.
+rule-based-system:
+  term: Rule-based system
+  def: Software that follows if-then logic written by people. Transparent and predictable, but it only knows the rules someone thought to write.
+structured-data:
+  term: Structured data
+  def: Data that fits rows and columns with a fixed meaning per column, like a transactions table. Unstructured data is free text, images, audio and video.
+classification:
+  term: Classification
+  def: A prediction that puts a case into a category (fraud or not, will churn or not). Forecasting a number instead is called regression.
+label:
+  term: Label
+  def: The known right answer attached to a past example (this loan defaulted, this account was a mule). A predictive model learns from labelled history.

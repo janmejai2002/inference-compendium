@@ -1,0 +1,12 @@
+questions:
+  - "A bank asks which GenAI use cases to build first. Walk me through how you would choose, and name one it should not automate."
+  - "A founder says his AI product automates 80% of support. How would you test that before we invest?"
+  - "Estimate how many AI prompts Indians send in a day, then tell me what that costs to serve."
+seed_sources:
+  - { title: "TRAI Press Release 104/2026, June 2026 subscription data", url: "https://www.trai.gov.in/sites/default/files/2026-07/PR_No104of2026_0.pdf", tier: A }
+  - { title: "IndiaAI Mission Expands AI Ecosystem with Affordable Compute (PIB, 25 Mar 2026)", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245069&reg=3&lang=1", tier: A }
+  - { title: "India's AI Moment (PIB backgrounder, 17 Feb 2026)", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2229397&reg=48&lang=2", tier: A }
+  - { title: "India Data Centre H1 2026 Update (Cushman & Wakefield)", url: "https://www.cushmanwakefield.com/en/india/news/2026/09/india-data-centre-h1-2026-update", tier: B }
+  - { title: "Claude API pricing", url: "https://platform.claude.com/docs/en/about-claude/pricing", tier: A }
+  - { title: "ChatGPT Business pricing", url: "https://openai.com/business/pricing/", tier: A }
+  - { title: "India Country Brief: The Anthropic Economic Index", url: "https://www.anthropic.com/research/india-brief-economic-index", tier: A }
