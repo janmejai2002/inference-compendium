@@ -40,8 +40,9 @@ export async function loadBook() {
   for (const part of toc.parts || []) {
     part.chapters = part.chapters || [];
     for (const c of part.chapters) {
-      n += 1;
-      c.n = String(n).padStart(2, '0');
+      // An explicit `n` in toc.yml (opener "00", inserts "A", "B") does not advance the count.
+      if (c.n != null) c.n = String(c.n);
+      else { n += 1; c.n = String(n).padStart(2, '0'); }
       c.part = part;
       c.track = c.track || part.track || 'foundations';
       const file = path.join(ROOT, 'content', 'chapters', `${c.id}.md`);

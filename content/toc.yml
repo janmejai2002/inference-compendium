@@ -1,51 +1,144 @@
-# The table of contents is the master plan. The TOC sessions (prompts/01-toc-session.md)
-# own this file. Chapter files live in content/chapters/<id>.md and are optional:
-# a chapter without a file renders as "planned" in the contents.
+# The table of contents is the master plan. Compiled 2026-11-01 from notes/toc/DISCUSSION.md
+# → "Candidate structure (v1, accepted 2026-11-01)". Rationale: docs/TOC-RATIONALE.md.
+# Chapter files live in content/chapters/<id>.md; a chapter without a file renders as "planned".
 #
-# status: planned | outlining | researching | drafting | review | final
-#
-# THIS IS A PLACEHOLDER STRUCTURE so the pipeline has something to render.
-# Replace it with the output of the TOC session.
+# status: planned | outlining | researching | drafting | draft | review | final
+# n: optional explicit number (opener "00", inserts "A", "B"); it does not advance the count.
+# v1 = foundations + consulting. Every chapter's primary lens for v1 is consulting.
+# The design sample what-is-a-model.md (sample: true) is kept outside the v1 TOC.
 parts:
+  - id: p0
+    n: "0"
+    title: Start here
+    track: foundations
+    deck: The whole foundation in one sitting. Read it first; reread it the night before.
+    chapters:
+      - id: ai-in-one-sitting
+        n: "00"
+        title: AI in one sitting
+        deck: All of Part I in ten pages, written to double as the night-before recap.
+        tracks: [consulting]
+        prereq: []
+        pages: 10
+        status: planned
+
   - id: p1
     n: I
-    title: How the machine thinks
+    title: Foundations
     track: foundations
-    deck: First principles of AI for people who will never write a line of code.
+    deck: How the machine works, where it breaks, and how to direct it. Mandatory, in order.
     chapters:
-      - id: what-is-a-model
-        title: What is a model, really?
-        status: drafting
-      - id: how-llms-work
-        title: Next-token prediction, and why it looks like thinking
+      - id: kinds-of-ai
+        title: Not all AI is ChatGPT
+        deck: Predictive models and generative models solve different business problems. Pick the wrong one and the project fails before it starts.
+        tracks: [consulting]
+        prereq: []
         status: planned
-      - id: limits
-        title: Where the machine breaks
+      - id: next-word-machine
+        title: A model predicts the next word
+        deck: Next-token prediction, parameters and why scale matters; tokens and context as your first feel for cost.
+        tracks: [consulting]
+        prereq: [kinds-of-ai]
         status: planned
+      - id: confidently-wrong
+        title: Why models are confidently wrong
+        deck: Pretraining, fine-tuning and feedback explain both the fluency and the hallucinations. Bias enters here too.
+        tracks: [consulting]
+        prereq: [next-word-machine]
+        status: planned
+      - id: delegation-brief
+        title: A prompt is a delegation brief
+        deck: Instructions, context, examples and iteration. A checklist you can trust, not a bag of tricks.
+        tracks: [consulting]
+        prereq: [next-word-machine]
+        status: planned
+      - id: your-documents
+        title: Giving the model your documents
+        deck: Retrieval and embeddings in plain words, why "ChatGPT on our data" is hard, and what leaks.
+        tracks: [consulting]
+        prereq: [next-word-machine, confidently-wrong]
+        status: planned
+      - id: models-that-act
+        title: "Agents: models that act, and how they break"
+        deck: Tools, multi-step work and failure rates; prompt injection and why an agent is a security question.
+        tracks: [consulting]
+        prereq: [delegation-brief, your-documents]
+        status: planned
+      - id: judging-output
+        title: Judging AI output is the job now
+        deck: Error rates, base rates, false positives and evals; a four-step protocol to prompt, review, challenge and decide.
+        tracks: [consulting]
+        prereq: [confidently-wrong, delegation-brief]
+        status: planned
+
   - id: p2
     n: II
-    title: AI at work, by function
+    title: AI in business
     track: strategy
-    deck: The same ideas, seen through the six placement lenses.
+    deck: Who pays for AI, why most pilots stall, and what really happens to jobs.
     chapters:
-      - id: ai-in-consulting
-        title: The consultant's new toolkit
-        track: consulting
+      - id: who-pays
+        title: Who pays for intelligence
+        deck: Inference cost, chips, data centres, clouds, labs and apps; the valuations and the debt behind the boom.
+        tracks: [consulting, finance]
+        prereq: [next-word-machine]
         status: planned
-      - id: ai-in-marketing
-        title: Marketing when content is free
-        track: marketing
+      - id: pilots-stall
+        title: Why AI pilots stall
+        deck: Most companies use AI and few see profit from it. The gap is change management and workflow redesign.
+        tracks: [consulting, operations, hr]
+        prereq: [judging-output]
         status: planned
-      - id: ai-in-product
-        title: Building AI products
-        track: product
+      - id: work-changes
+        title: How the work changes
+        deck: What the evidence on jobs says (a split, not a collapse), what shifts at entry level, and where India stands.
+        tracks: [consulting, hr]
+        prereq: [pilots-stall]
         status: planned
+
   - id: p3
     n: III
-    title: The interview room
-    track: strategy
-    deck: Cases, guesstimates and GD topics where AI is the subject.
+    title: Consulting
+    track: consulting
+    deck: What AI does to the firm, a casebook no other casebook has, and the interview itself.
     chapters:
-      - id: ai-cases
-        title: AI cases, worked end to end
+      - id: consulting-firm
+        title: What AI does to a consulting firm
+        deck: The jagged-frontier study, firm-built assistants and agents, outcome-based fees, and the pyramid debate.
+        tracks: [consulting]
+        prereq: [judging-output, work-changes]
+        status: planned
+      - id: ai-casebook
+        title: The INFERENCE AI casebook
+        deck: Ten cases and ten guesstimates on AI due diligence, adoption, use-case mapping and sizing usage, each with a model answer.
+        tracks: [consulting]
+        prereq: [who-pays, pilots-stall, consulting-firm]
+        pages: 20
+        status: planned
+      - id: interview-room
+        title: The interview room
+        deck: Being screened by AI, AI-assisted case rounds, and the questions to expect with the shape of a strong answer.
+        tracks: [consulting]
+        prereq: [consulting-firm]
+        status: planned
+
+  - id: p4
+    n: IV
+    title: Inserts
+    track: strategy
+    deck: Short, dated pages that the web edition replaces every term.
+    chapters:
+      - id: state-of-play
+        n: A
+        title: State of play, November 2026
+        deck: The current frontier models and products, with dates. Out of date by design; check the web edition.
+        tracks: [consulting]
+        pages: 2
+        status: planned
+      - id: india-briefing
+        n: B
+        title: India briefing
+        deck: DPDP Act, RBI FREE-AI, the IndiaAI Mission and how India uses AI, in two pages.
+        tracks: [consulting, finance]
+        pages: 2
         status: planned
