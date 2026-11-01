@@ -25,3 +25,9 @@ Do not read other chapters, the research files, design/ or scripts/.
 
 ## Return (≤ 10 lines)
 Words, sources added (verified/unverified), Watch/Read cards, figures, verifier mismatches found/fixed, and what the editors must still check.
+
+## Added after wave 1
+- **NotebookLM:** before drafting, ask the relevant notebook(s) listed in BRIEF.md 2–3 questions on your chapter's core explanation and its common misconceptions. Use answers to sharpen explanations and locate sources; cite only the original source after opening it.
+- **Chapter numbers are stable now:** 00 opener, 01 kinds-of-ai, 02 next-word-machine, 03 confidently-wrong, 04 delegation-brief, 05 your-documents, 06 models-that-act, 07 judging-output, 08 who-pays, 09 pilots-stall, 10 work-changes, 11 consulting-firm, 12 ai-casebook, 13 interview-room, inserts A state-of-play, B india-briefing. Refer to other chapters as "chapter 5" etc.
+- **agy** can take 500 s+; run it in the background with a 900 s timeout, and capture the whole output to a file in your scratchpad (not a tail).
+- `npm run new` is fixed; use it.

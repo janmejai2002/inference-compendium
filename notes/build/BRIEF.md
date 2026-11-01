@@ -45,3 +45,11 @@ A receipt of ≤ 10 lines. Your full work goes to the file named in your task.
 - **Allowlist** is updated for all domains the packets used. YouTube subtitle fetches (agent-reach) are rate-limited; use `yt-dlp` auto-captions to check marks, or leave the video `verified: false`.
 - **Model names (Nov 2026):** Claude Fable 5.1 and Claude Mythos 5.1 are ONE model under two access tiers (1 Sep 2026); Opus/Sonnet/Haiku 5.5 are newer. OpenAI: GPT-6 Astra is the frontier (3 Sep); Sol/Luna/Terra are GPT-6/6.1 tiers. Google: Gemini 4 Argon (13 Oct). In chapters, avoid model names except where the point needs one; the `state-of-play` insert owns them.
 - **NotebookLM** appears in Google's help pages as "Gemini Notebook" (rename seen 16 Jul 2026, snippet only). Write "NotebookLM (now listed by Google as Gemini Notebook)" at first mention.
+
+## NotebookLM (auth restored 2026-11-01; query with `nlm query notebook <id> "<question>"`)
+Use these to check explanations and find which original source says what. A NotebookLM answer is an AI summary: **never cite it**; cite the original source it points to, after opening it.
+- `175d3ad1-ff59-419c-901f-ccf3715be822` INFERENCE Foundations (12 vetted videos; alias `inference-found`): every Part I chapter and the opener.
+- `a9cb0efc-c9b6-49a8-8812-53df9633f433` B-School AI Tooling Research Bank (35 sources): delegation-brief, judging-output, interview-room, ai-casebook.
+- `923dd45c-1a9a-4147-875a-afc7ae853647` Security and Governance of Multi-Agent AI Systems (54) and `444adb37-fcf6-4f74-b838-9b952429cf54` LLM Prompt Injection survey (97): models-that-act.
+- `ed7b9ed6-b9ae-4f37-af87-a1094fce0b8e` Case Comps Decks (59): ai-casebook, for structure patterns only; never copy text.
+Auth expires again → `bash C:/Users/Janmejai/.local/bin/nlm-relogin.sh` (needs a notebooklm.google.com tab open in Brave); if it fails, skip and say so.

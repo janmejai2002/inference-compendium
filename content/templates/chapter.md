@@ -1,10 +1,10 @@
 ---
 id: {{ID}}
-title: {{TITLE}}
-deck: One or two sentences: why this chapter matters for a placement interview.
+title: "{{TITLE}}"
+deck: "One or two sentences on why this chapter matters for a placement interview."
 level: Zero to one
 tracks: [{{TRACK}}]
-hook: A concrete business puzzle the chapter will let the reader solve. Real, specific, Indian context where natural.
+hook: "A concrete business puzzle the chapter will let the reader solve. Real, specific, Indian context where natural."
 objectives:
   - "**Define** ..."
   - "**Explain** ..."

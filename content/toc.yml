@@ -51,7 +51,7 @@ parts:
           - {title: 'RBI Statement on Developmental and Regulatory Policies, 6 Dec 2024 (MuleHunter.AI)', url: https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=59245, tier: A}
           - {title: 'RBI Governor keynote, Global Fintech Fest 2025', url: https://www.rbi.org.in/scripts/BS_SpeechesView.aspx?Id=1525, tier: A}
           - {title: 'The Simple Economics of Machine Intelligence (HBR, 2016)', url: https://hbr.org/2016/11/the-simple-economics-of-machine-intelligence, tier: B}
-        status: planned
+        status: draft
       - id: next-word-machine
         title: A model predicts the next word
         deck: Next-token prediction, parameters and why scale matters; tokens and context as your first feel for cost.
@@ -67,7 +67,7 @@ parts:
           - {title: Scaling Laws for Neural Language Models, url: https://arxiv.org/abs/2001.08361, tier: A}
           - {title: Language Model Tokenizers Introduce Unfairness Between Languages, url: https://arxiv.org/abs/2305.15425, tier: A}
           - {title: Understanding and counting tokens, url: https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them, tier: A}
-        status: planned
+        status: draft
       - id: confidently-wrong
         title: Why models are confidently wrong
         deck: Pretraining, fine-tuning and feedback explain both the fluency and the hallucinations. Bias enters here too.

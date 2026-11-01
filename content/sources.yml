@@ -44,7 +44,7 @@ wolfram-chatgpt:
   minutes: 90
   url: https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
   tier: A
-  why: Long, patient and illustrated. Read the first three sections ("It's just adding one word at a time" through "Where do the probabilities come from?") and stop there for now.
+  why: Long, patient and illustrated. Read the first two sections and stop there for now.
   verified: false
 
 hbs-jagged-frontier:
@@ -350,3 +350,21 @@ hbr-simple-economics-machine-intelligence:
   tier: B
   why: "Frames AI as cheaper prediction, which is why churn, credit and demand questions are AI questions. Body paywalled at verification, so only title, authors, date and standfirst were checked."
   verified: false
+
+ibm-predictive-vs-generative:
+  type: video
+  title: "Predictive vs Generative AI: How They Work and When to Use Each"
+  creator: Martin Keen
+  publisher: IBM Technology
+  year: 2026
+  minutes: 12
+  url: https://www.youtube.com/watch?v=phOhGqpXss4
+  tier: B
+  why: "Twelve minutes that match this chapter: what each family outputs, what data it eats, the standard predictive use cases, and the churn-list-then-email combination. Skip 8:10 to 9:30 (transformers and diffusion; the next chapter covers the mechanism)."
+  marks:
+    - { t: "0:17",  label: "Two questions: what will happen, and what could this look like" }
+    - { t: "2:36",  label: "Structured data in, versus unstructured data in" }
+    - { t: "3:30",  label: "LLMs predict the next token, so are they predictive? Why they still count as generative" }
+    - { t: "7:19",  label: "Predictive use cases: fraud, demand forecasting, maintenance, credit scoring" }
+    - { t: "10:41", label: "Using both: a churn model picks the customers, a generative model writes the emails" }
+  verified: true
