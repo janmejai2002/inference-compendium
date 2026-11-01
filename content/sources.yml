@@ -368,3 +368,385 @@ ibm-predictive-vs-generative:
     - { t: "7:19",  label: "Predictive use cases: fraud, demand forecasting, maintenance, credit scoring" }
     - { t: "10:41", label: "Using both: a churn model picks the customers, a generative model writes the emails" }
   verified: true
+
+claude-prompting-best-practices:
+  type: article
+  title: "Prompting best practices"
+  creator: Anthropic
+  publisher: Anthropic (Claude docs)
+  year: 2026
+  minutes: 15
+  url: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
+  tier: A
+  why: "The vendor's own reference. Its first rule treats the model as a brilliant new employee who lacks your context, which is the delegation idea in one sentence. Read \"Be clear and direct\" only."
+  verified: true
+
+anthropic-prompt-overview:
+  type: article
+  title: "Prompt engineering overview"
+  creator: Anthropic
+  publisher: Anthropic (Claude docs)
+  year: 2026
+  minutes: 3
+  url: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
+  tier: A
+  why: "Says to define success criteria and a way to test against them before tuning any prompt."
+  verified: true
+
+openai-prompt-engineering:
+  type: article
+  title: "Prompt engineering"
+  creator: OpenAI
+  publisher: OpenAI (developer docs)
+  year: 2026
+  minutes: 10
+  url: https://developers.openai.com/api/docs/guides/prompt-engineering
+  tier: A
+  why: "The junior-coworker versus senior-coworker analogy, and the same instructions, examples and context structure as the other labs."
+  verified: true
+
+gemini-prompt-strategies:
+  type: article
+  title: "Prompt design strategies"
+  creator: Google
+  publisher: Google AI for Developers (Gemini API docs)
+  year: 2026
+  minutes: 10
+  url: https://ai.google.dev/gemini-api/docs/prompting-strategies
+  tier: A
+  why: "Google's version of the same checklist: clear instructions, examples, context, iteration."
+  verified: true
+
+mollick-prompting-guide:
+  type: article
+  title: "A guide to prompting AI (for what it is worth)"
+  creator: Ethan Mollick
+  publisher: One Useful Thing
+  year: 2023
+  minutes: 8
+  url: https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what
+  tier: B
+  why: "The sceptic's case: most prompting tips are ritual, and the best method is to work with the model interactively."
+  verified: true
+
+wharton-psr1:
+  type: paper
+  title: "Prompting Science Report 1: Prompt Engineering is Complicated and Contingent"
+  creator: Meincke, Mollick, Mollick, Shapiro
+  publisher: Wharton Generative AI Labs (arXiv 2503.04818)
+  year: 2025
+  minutes: 15
+  url: https://arxiv.org/abs/2503.04818
+  tier: A
+  why: "100 trials per question show that politeness washes out while dropping the format instruction hurts."
+  verified: true
+
+wharton-psr2:
+  type: paper
+  title: "Prompting Science Report 2: The Decreasing Value of Chain of Thought in Prompting"
+  creator: Meincke, Mollick, Mollick, Shapiro
+  publisher: Wharton Generative AI Labs (arXiv 2506.07142)
+  year: 2025
+  minutes: 15
+  url: https://arxiv.org/abs/2506.07142
+  tier: A
+  why: "Step-by-step instructions add little for reasoning models and cost more time and tokens."
+  verified: true
+
+wharton-psr3:
+  type: paper
+  title: "Prompting Science Report 3: I'll pay you or I'll kill you -- but will you care?"
+  creator: Meincke, Mollick, Mollick, Shapiro
+  publisher: Wharton Generative AI Labs (arXiv 2508.00614)
+  year: 2025
+  minutes: 15
+  url: https://arxiv.org/abs/2508.00614
+  tier: A
+  why: "Tests tips and threats on five models. No meaningful average gain, but single questions swing by tens of points. Read the first three pages and Figure 4."
+  verified: true
+
+anthropic-fluency-prompting:
+  type: video
+  title: "Lesson 7: Effective prompting techniques (Deep Dive) | AI Fluency: Framework & Foundations Course"
+  creator: Anthropic
+  publisher: YouTube
+  year: 2025
+  minutes: 12
+  url: https://www.youtube.com/watch?v=2YCaBqP8muw
+  tier: A
+  why: "Anthropic states the delegation idea outright in twelve minutes. Skip 3:40 to 4:30, whose plain-language demo contains a wrong answer, and 5:00 to 5:40, a coding example."
+  marks:
+    - { t: "0:35", label: "Prompting as explaining a task to a helpful new colleague" }
+    - { t: "2:01", label: "The six tips: context, examples, constraints, steps, think first, role" }
+    - { t: "2:15", label: "Say what you want, why, and who you are; a vague request made specific" }
+    - { t: "6:51", label: "Let the model think before it answers, not explain afterwards" }
+    - { t: "8:45", label: "Ask the AI to help write the prompt" }
+    - { t: "9:17", label: "Iterate, ask how confident it is, restart a derailed chat" }
+    - { t: "11:24", label: "As models improve, some techniques become less necessary" }
+  verified: true
+
+mollick-sinek-skills:
+  type: video
+  title: "The AI Skills Nobody is Teaching (And Everyone Needs)"
+  creator: Ethan Mollick
+  publisher: YouTube (Simon Sinek)
+  year: 2026
+  minutes: 58
+  url: https://www.youtube.com/watch?v=9YMYVb1ASCg
+  tier: B
+  why: "Mollick's current position on prompt tricks, in his words. Watch the clip from 7:00 to 8:30, not the whole interview."
+  marks:
+    - { t: "7:00", label: "Prompt tricks no longer matter; instruct the model as you would a person (to 7:22)" }
+  verified: true
+
+ibm-rag-vs-finetuning:
+  type: video
+  title: "RAG vs. Fine Tuning"
+  creator: IBM Technology
+  publisher: YouTube
+  year: 2024
+  minutes: 8
+  url: https://www.youtube.com/watch?v=00Q0G84kq3M
+  tier: B
+  why: "IBM's official channel gives the second meaning of fine-tuning (specialising a model in a domain, baked into its weights), the foil to the alignment meaning. Skip 0:00 to 2:30."
+  marks:
+    - { t: "2:32", label: "Fine-tuning specialises a model in a domain" }
+    - { t: "3:10", label: "The knowledge becomes part of the model's weights" }
+    - { t: "5:06", label: "Baked in: what that costs when facts change" }
+    - { t: "8:07", label: "Combining fine-tuning with RAG" }
+  verified: true
+
+kalai-why-lms-hallucinate:
+  type: paper
+  title: "Why Language Models Hallucinate"
+  creator: Adam Tauman Kalai, Ofir Nachum, Santosh S. Vempala, Edwin Zhang
+  publisher: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2509.04664
+  tier: A
+  why: "The originators' argument that hallucination comes from the training objective and accuracy-only grading. Abstract page checked; the theorems in the full text were not."
+  verified: true
+
+openai-why-lms-hallucinate:
+  type: article
+  title: "Why language models hallucinate"
+  creator: OpenAI
+  publisher: OpenAI
+  year: 2025
+  url: https://openai.com/index/why-language-models-hallucinate/
+  tier: A
+  why: "Plain-language version of Kalai et al. with the SimpleQA table (abstention 52% vs 1%, error 26% vs 75%) and the exam-guessing analogy. About six minutes."
+  verified: true
+
+dahl-large-legal-fictions:
+  type: paper
+  title: "Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models"
+  creator: Matthew Dahl, Varun Magesh, Mirac Suzgun, Daniel E. Ho
+  publisher: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2401.01301
+  tier: A
+  why: "Measured rate: hallucinations between 58% (ChatGPT 4) and 88% (Llama 2) on verifiable questions about random federal court cases. 2023-era models."
+  verified: true
+
+lawnext-mata-sanctions:
+  type: article
+  title: "Court imposes sanctions on lawyers who filed bogus cases after relying on ChatGPT for legal research"
+  creator: LawNext
+  publisher: LawNext
+  year: 2023
+  url: https://www.lawnext.com/2023/06/court-imposes-sanctions-on-lawyers-who-filed-bogus-cases-after-relying-on-chatgpt-for-legal-research.html
+  tier: C
+  why: "Clearest accessible account of the 22 Jun 2023 Mata v. Avianca sanctions order ($5,000, Judge Castel); the opinion itself was not fetchable (403)."
+  verified: true
+
+register-deloitte-dewr:
+  type: article
+  title: "Deloitte refunds Aussie gov after AI fabrications slip into $440K welfare report"
+  creator: Carly Page
+  publisher: The Register
+  year: 2025
+  url: https://www.theregister.com/2025/10/06/deloitte_ai_report_australia/
+  tier: C
+  why: "Detailed account of the fabricated references, who flagged them, the GPT-4o disclosure and the partial refund. No allowlisted primary was reachable."
+  verified: true
+
+willison-deloitte-refund:
+  type: article
+  title: "Deloitte to pay money back to Albanese government after using AI in $440,000 report"
+  creator: Simon Willison
+  publisher: simonwillison.net
+  year: 2025
+  url: https://simonwillison.net/2025/Oct/6/deloitte-to-pay-money-back/
+  tier: C
+  why: "Quotes The Guardian original and gives the report dates (4 Jul and 26 Sep 2025). Used for dates only."
+  verified: true
+
+charlotin-hallucination-cases:
+  type: article
+  title: "AI Hallucination Cases Database"
+  creator: Damien Charlotin
+  publisher: damiencharlotin.com
+  year: 2026
+  url: https://www.damiencharlotin.com/hallucinations/
+  tier: C
+  why: "The only systematic count of court decisions involving AI-fabricated content (2,246 cases, 1,517 in the USA, as of 31 Oct 2026). Includes some alleged cases."
+  verified: true
+
+vectara-hallucination-leaderboard:
+  type: report
+  title: "Vectara Hallucination Leaderboard"
+  creator: Vectara
+  publisher: GitHub
+  year: 2026
+  url: https://github.com/vectara/hallucination-leaderboard
+  tier: C
+  why: "Public benchmark of faithfulness when summarising a supplied document (lowest 1.8%, most listed frontier models between about 5% and 11%, updated 22 Oct 2026). Vendor-run; cite as one benchmark."
+  verified: true
+
+khandelwal-indian-bhed:
+  type: paper
+  title: "Indian-BhED: A Dataset for Measuring India-Centric Biases in Large Language Models"
+  creator: Khyati Khandelwal, Manuel Tonneau, Andrew M. Bean, Hannah Rose Kirk, Scott A. Hale
+  publisher: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2309.08573
+  tier: A
+  why: "India-specific evidence that caste and religion stereotypes come out of models trained on web text (63 to 79% caste, 69 to 72% religion, for GPT-2, GPT-2 Large and GPT-3.5)."
+  verified: true
+
+ibm-rlhf-explained:
+  type: video
+  title: "Reinforcement Learning from Human Feedback (RLHF) Explained"
+  creator: IBM Technology
+  publisher: YouTube
+  year: 2024
+  minutes: 11
+  url: https://www.youtube.com/watch?v=T_X4XFwKX8k
+  tier: B
+  why: "Eleven minutes from IBM's official channel on the step that turns a text completer into an assistant: demonstrations, a reward model learned from human comparisons, and the limits, including rater bias. Skip 1:12 to 4:12 (general reinforcement-learning vocabulary)."
+  marks:
+    - { t: "0:34",  label: "The same question with and without RLHF" }
+    - { t: "5:02",  label: "Supervised fine-tuning: pretraining optimises for completion, not for what the user wants" }
+    - { t: "6:52",  label: "Why raters compare two answers instead of scoring 1 to 10" }
+    - { t: "8:20",  label: "Push the reward too hard and the model games it" }
+    - { t: "9:20",  label: "Limits: subjective raters, no ground truth, bias from a narrow rater pool" }
+  verified: true
+
+lewis-rag-2020:
+  type: paper
+  title: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+  creator: Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela
+  publisher: arXiv 2005.11401 (NeurIPS 2020)
+  year: 2020
+  url: https://arxiv.org/abs/2005.11401
+  tier: A
+  why: "The paper that named RAG. Read the abstract only; it states the idea (a model plus a searchable memory of documents) in one paragraph."
+  verified: true
+
+anthropic-contextual-retrieval:
+  type: article
+  title: "Introducing Contextual Retrieval"
+  creator: Anthropic
+  publisher: Anthropic
+  year: 2024
+  minutes: 12
+  url: https://www.anthropic.com/news/contextual-retrieval
+  tier: A
+  why: "A lab's own test of how often retrieval misses (5.7% down to 1.9%), plus the rule of thumb to skip retrieval below about 500 pages. Vendor-run numbers; read the results and the 'revenue grew by 3%' example, skip the code and cost sections."
+  verified: true
+
+barnett-rag-failure-points:
+  type: paper
+  title: "Seven Failure Points When Engineering a Retrieval Augmented Generation System"
+  creator: Scott Barnett, Stefanus Kurniawan, Srikanth Thudumu, Zach Brannelly, Mohamed Abdelrazek
+  publisher: arXiv 2401.05856
+  year: 2024
+  url: https://arxiv.org/abs/2401.05856
+  tier: A
+  why: "Seven concrete ways a 'chat with our documents' system fails, from three real case studies. Use the list as a due-diligence checklist."
+  verified: true
+
+liu-lost-in-the-middle:
+  type: paper
+  title: "Lost in the Middle: How Language Models Use Long Contexts"
+  creator: Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, Percy Liang
+  publisher: arXiv 2307.03172 (TACL)
+  year: 2023
+  url: https://arxiv.org/abs/2307.03172
+  tier: A
+  why: "The standard evidence that pasting everything into a long prompt does not guarantee the model uses it; answers buried in the middle are missed more. 2023 models, so read it as a direction."
+  verified: true
+
+gurman-samsung-chatgpt:
+  type: article
+  title: "Samsung Bans Staff's AI Use After Spotting ChatGPT Data Leak"
+  creator: Mark Gurman
+  publisher: Bloomberg
+  year: 2023
+  url: https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak
+  tier: B
+  why: "The first report of the Samsung episode, from the outlet that saw the memo. Paywalled: only the headline, byline, date (2 May 2023) and the two-paragraph lede were checked, and the chapter uses nothing beyond them."
+  verified: true
+
+dpdp-act-2023:
+  type: report
+  title: "The Digital Personal Data Protection Act, 2023 (No. 22 of 2023)"
+  creator: Government of India, Legislative Department
+  publisher: MeitY (Gazette of India, Extraordinary)
+  year: 2023
+  minutes: 15
+  url: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf
+  tier: A
+  why: "The law itself. Read section 8 (duties of the Data Fiduciary) and the Schedule of penalties, up to Rs 250 crore for failing to secure data. Check MeitY for which provisions have commenced."
+  verified: true
+
+openai-enterprise-privacy:
+  type: article
+  title: "Enterprise privacy at OpenAI"
+  creator: OpenAI
+  publisher: OpenAI
+  year: 2026
+  url: https://openai.com/enterprise-privacy
+  tier: A
+  why: "What a vendor actually promises business customers (no training on business data by default, admin control of access and connected sources). A promise, not an audit."
+  verified: true
+
+greshake-indirect-injection:
+  type: paper
+  title: "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection"
+  creator: Kai Greshake, Sahar Abdelnabi, Shailesh Mishra, Christoph Endres, Thorsten Holz, Mario Fritz
+  publisher: arXiv 2302.12173
+  year: 2023
+  url: https://arxiv.org/abs/2302.12173
+  tier: A
+  why: "First clear demonstration that a document the model retrieves can carry instructions that hijack it. Sets up the agents chapter."
+  verified: true
+
+google-notebooklm-help:
+  type: article
+  title: "Learn about Gemini Notebook (NotebookLM) - Help"
+  creator: Google
+  publisher: Google Help
+  year: 2026
+  url: https://support.google.com/notebooklm/answer/16164461
+  tier: C
+  why: "Google's own description of source-grounded answers with in-line citations and its stated no-training terms. Admitted because the vendor help page is the only authoritative statement of what the free tool does with your files."
+  verified: true
+
+ibm-what-is-rag:
+  type: video
+  title: "What is Retrieval-Augmented Generation (RAG)?"
+  creator: Marina Danilevsky
+  publisher: IBM Technology (YouTube)
+  year: 2023
+  minutes: 7
+  url: https://www.youtube.com/watch?v=T-D1OfcDW1M
+  tier: A
+  why: "An IBM Research scientist explains RAG in under seven minutes with one story (which planet has the most moons? Jupiter, she recalls; Saturn, says the current source) and no code. Watch to 5:45; skip the closing minute on improving the retriever and generator."
+  marks:
+    - { t: "1:00", label: "The out-of-date, unsourced answer" }
+    - { t: "3:02", label: "Add a content store the model asks first" }
+    - { t: "4:13", label: "The prompt now has three parts" }
+    - { t: "5:13", label: "Fewer made-up answers; it can say it does not know" }
+  verified: true

@@ -51,3 +51,45 @@ classification:
 label:
   term: Label
   def: The known right answer attached to a past example (this loan defaulted, this account was a mule). A predictive model learns from labelled history.
+prompt:
+  term: Prompt
+  def: The instructions and material you give a model in one request. Everything the model knows about your task comes from the prompt plus its training.
+few-shot:
+  term: Few-shot examples
+  def: A handful of worked input-and-output examples placed in a prompt so the model copies the pattern. Zero-shot means no examples.
+chain-of-thought:
+  term: Chain of thought
+  def: Asking a model to reason step by step before giving its answer. Reasoning models now do this on their own.
+reasoning-model:
+  term: Reasoning model
+  def: A model trained to work through a problem internally before it answers. Slower and dearer per answer, better on multi-step tasks.
+eval:
+  term: Eval
+  def: A fixed set of test questions with known good answers, run against a prompt or model to measure it, the way a mock exam measures a student.
+retrieval-augmented-generation:
+  term: Retrieval-augmented generation (RAG)
+  def: Fetching the passages most relevant to a question from your own documents and pasting them into the prompt, so the model answers from them. The model's weights do not change.
+embedding:
+  term: Embedding
+  def: A list of numbers that stands for the meaning of a piece of text, so that passages with similar meaning sit close together. Retrieval systems search by it.
+chunk:
+  term: Chunk
+  def: A short passage (a paragraph or a few hundred words) cut from a longer document so it can be indexed and retrieved on its own.
+data-fiduciary:
+  term: Data Fiduciary
+  def: Under India's DPDP Act 2023, whoever decides why and how personal data is processed. It stays responsible even when a vendor does the processing.
+pretraining:
+  term: Pretraining
+  def: The first and largest stage of training an LLM, where it learns to predict the next token over a huge collection of text. The result completes documents; it is not yet an assistant.
+fine-tuning:
+  term: Fine-tuning
+  def: Further training of a pretrained model on a smaller, chosen set of examples. Used two ways - to turn a completer into an assistant (format and behaviour), or to specialise a model in a domain's style and vocabulary.
+rlhf:
+  term: RLHF
+  def: Reinforcement learning from human feedback. People compare pairs of model answers; a reward model learns their preferences; the LLM is trained to produce answers that score well.
+hallucination:
+  term: Hallucination
+  def: A fluent, confident output that is false or unsupported, such as an invented citation or figure. It comes from the same next-token process that produces correct answers.
+abstention:
+  term: Abstention
+  def: When a model declines to answer or says it does not know. Scoreboards that count only accuracy give an abstention zero, the same as a wrong guess.

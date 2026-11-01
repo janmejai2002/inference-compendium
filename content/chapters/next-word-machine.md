@@ -25,19 +25,21 @@ A chatbot writes the first piece of its answer, reads everything again including
 2. If you had read enough text, you could put a probability on each possible continuation: "unchanged" very likely, "purple" almost never.
 3. A machine that outputs those probabilities can write. Pick a likely next piece, stick it on the end, and you have a slightly longer text.
 4. Feed the longer text back in and ask again. Each pass adds one piece.
-5. ∴ An answer from a chatbot is a chain of next-piece guesses. There is no separate step where it looks the answer up.
+5. ∴ An answer from a chatbot is a chain of next-piece guesses. Inside the model there is no separate step where it looks the answer up. (Some products add a search or document step around the model; the model itself still only continues text.)
 :::
 
 {{figure next-word-machine-pick | One step of the loop. The model scores every candidate for the next token, picks one, appends it, and runs again on the longer text. A 300-word answer is a few hundred of these steps. | Illustrative probabilities}}
 
-Step 3 says "a likely" piece on purpose. Products sample, so a less likely token sometimes wins. A setting called [[temperature]] controls how often. Wolfram reports that for essays a temperature of 0.8 "seems best", a value found by trying things out; no theory produced it [@wolfram-chatgpt]. Sampling is why the same question in two chats gets two different answers, and why clients ask "Why did it say something different yesterday?" Every answer is a fresh draw from the same probabilities. If you need the same output every time, such as a fixed label for each support ticket, you have to design for it: constrain the task, lower the randomness, check the result.
+Step 3 says "a likely" piece on purpose. Products sample, so a less likely token sometimes wins. A setting called [[temperature]] controls how often. Wolfram reports that for essays a temperature of 0.8 "seems best", a value found by trying things out; no theory produced it [@wolfram-chatgpt]. Chat products also go through a second round of training on example conversations and human ratings, which is what turns a raw text-continuer into something that answers questions politely. The loop underneath stays the same.
+
+Sampling is why the same question in two chats gets two different answers, and why clients ask "Why did it say something different yesterday?" Every answer is a fresh draw from the same probabilities. If you need the same output every time, such as a fixed label for each support ticket, you have to design for it: constrain the task, lower the randomness, check the result.
 
 ::: concept Next-token prediction
 **Plain words.** The model's only job: given the text so far, give a probability to every possible next token. Writing an answer is this job done hundreds of times in a row.
 
 **Analogy.** A seasoned court stenographer who can often finish a lawyer's sentence. They are right most of the time because they have heard thousands of similar arguments, and they could still finish a sentence wrongly with full confidence.
 
-**Misconception.** "It looks up facts like a database, then phrases them nicely." A plain model stores no list of facts and fetches nothing. It continues text in the way its training made most likely. When the likeliest continuation is false, it writes the falsehood just as fluently.
+**Misconception.** "It looks up facts like a database, then phrases them nicely." The model itself stores no list of facts and fetches nothing. It continues text in the way its training made most likely. When the likeliest continuation is false, it writes the falsehood just as fluently.
 :::
 
 ## Where the probabilities come from

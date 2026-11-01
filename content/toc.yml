@@ -99,7 +99,7 @@ parts:
           - {title: Prompt design strategies (Google Gemini API), url: https://ai.google.dev/gemini-api/docs/prompting-strategies, tier: A}
           - {title: Prompting Science Report 3 (Wharton), url: https://arxiv.org/abs/2508.00614, tier: A}
           - {title: 'Lesson 7: Effective prompting techniques (Anthropic)', url: https://www.youtube.com/watch?v=2YCaBqP8muw, tier: A}
-        status: planned
+        status: draft
       - id: your-documents
         title: Giving the model your documents
         deck: Retrieval and embeddings in plain words, why "ChatGPT on our data" is hard, and what leaks.
@@ -116,7 +116,7 @@ parts:
           - {title: Lost in the Middle (Liu et al.), url: https://arxiv.org/abs/2307.03172, tier: A}
           - {title: Samsung Bans Staff's AI Use After Spotting ChatGPT Data Leak (Bloomberg), url: https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak, tier: B}
           - {title: 'Digital Personal Data Protection Act, 2023 (MeitY)', url: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf, tier: A}
-        status: planned
+        status: draft
       - id: models-that-act
         title: "Agents: models that act, and how they break"
         deck: Tools, multi-step work and failure rates; prompt injection and why an agent is a security question.
