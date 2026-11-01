@@ -535,7 +535,7 @@ openai-why-lms-hallucinate:
   year: 2025
   url: https://openai.com/index/why-language-models-hallucinate/
   tier: A
-  why: "Plain-language version of Kalai et al. with the SimpleQA table (abstention 52% vs 1%, error 26% vs 75%) and the exam-guessing analogy. About six minutes."
+  why: "Plain-language version of Kalai et al. with the SimpleQA table (abstention 52% vs 1%, error 26% vs 75%) and the exam-guessing analogy. About eight minutes (the page lists a 7:53 audio read)."
   verified: true
 
 dahl-large-legal-fictions:
