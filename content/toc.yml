@@ -228,7 +228,7 @@ parts:
           - {title: Is McKinsey losing its crown to AI? (The Economist), url: https://www.youtube.com/watch?v=QXAXNcRs7gQ, tier: B}
           - {title: BCG Reports $14.4 Billion in Revenue, url: https://www.bcg.com/press/23april2026-bcg-revenue-22nd-consecutive-year-growth, tier: B}
           - {title: Top consultancies freeze starting salaries as AI threatens pyramid model (FT), url: https://www.irishtimes.com/business/2025/12/01/top-consultancies-freeze-starting-salaries-as-ai-threatens-pyramid-model, tier: B}
-        status: planned
+        status: draft
       - id: ai-casebook
         title: The INFERENCE AI casebook
         deck: Ten cases and ten guesstimates on AI due diligence, adoption, use-case mapping and sizing usage, each with a model answer.

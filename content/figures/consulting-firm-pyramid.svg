@@ -1,0 +1,41 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Transformation of the consulting firm: The traditional leverage pyramid versus the AI pod. On the left, a wide junior base generates billable hours through manual drafting and modeling. On the right, AI assistants and agents handle initial synthesis, reshaping the pyramid into an hourglass or diamond with outcome-based fee structures.">
+  <text class="t-display" x="20" y="26" font-size="15">The Traditional Billable Pyramid</text>
+  <text class="t-display" x="350" y="26" font-size="15">The AI-Enabled Pod &amp; Fee Model</text>
+
+  <!-- Left: Traditional Pyramid -->
+  <!-- Partners -->
+  <polygon points="170,42 120,82 220,82" class="paper acc-s" stroke-width="1.5"/>
+  <text x="170" y="70" text-anchor="middle" font-size="10" font-weight="bold">Partners</text>
+
+  <!-- Managers -->
+  <polygon points="120,86 220,86 250,136 90,136" class="paper acc-s" stroke-width="1.5"/>
+  <text x="170" y="114" text-anchor="middle" font-size="10" font-weight="bold">Engagement Managers</text>
+
+  <!-- Analysts -->
+  <polygon points="90,140 250,140 290,200 50,200" class="wash acc-s" stroke-width="1.5"/>
+  <text x="170" y="165" text-anchor="middle" font-size="11" font-weight="bold">Large Junior Analyst Pool</text>
+  <text x="170" y="182" text-anchor="middle" font-size="9">Manual slide drafting, financial models, data pulls</text>
+
+  <text x="170" y="222" text-anchor="middle" font-size="9.5" font-weight="bold">Time-and-Materials Billing</text>
+  <text x="170" y="238" text-anchor="middle" font-size="8.5" fill="#555">Profits scale directly with billable junior hours</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="335" x2="335" y1="20" y2="255" stroke-width="1"/>
+
+  <!-- Right: Diamond / Pod Structure -->
+  <rect class="paper acc-s" x="360" y="42" width="250" height="48" rx="4" stroke-width="1.5"/>
+  <text x="372" y="62" font-size="10.5" font-weight="bold">Partners &amp; Industry Directors</text>
+  <text x="372" y="77" font-size="9">Strategic relationship, thesis generation, risk ownership</text>
+
+  <rect class="wash acc-s" x="350" y="96" width="270" height="56" rx="4" stroke-width="2"/>
+  <text class="t-display" x="362" y="116" font-size="11.5">AI Engine &amp; Internal Agents</text>
+  <text x="362" y="132" font-size="9">McKinsey Lilli (75%+ adoption) &amp; 20,000 agents;</text>
+  <text x="362" y="144" font-size="8.5" fill="#555">automated synthesis, slide generation, benchmark parsing</text>
+
+  <rect class="paper acc-s" x="370" y="158" width="230" height="48" rx="4" stroke-width="1.5"/>
+  <text x="382" y="178" font-size="10.5" font-weight="bold">Compact Associate Pods</text>
+  <text x="382" y="193" font-size="9">Auditing output, testing boundaries, client immersion</text>
+
+  <text x="485" y="222" text-anchor="middle" font-size="9.5" font-weight="bold">Outcome &amp; Value-Based Pricing</text>
+  <text x="485" y="238" text-anchor="middle" font-size="8.5" fill="#555">McKinsey ~25% outcome fees; BCG variable on 75% of AI cases</text>
+</svg>

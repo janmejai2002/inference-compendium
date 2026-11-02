@@ -151,3 +151,11 @@ skill-premium:
 capacity-leakage:
   term: Capacity leakage
   def: The dissipation of hours saved through task automation into unstructured downtime or redundant revisions rather than captured enterprise output.
+
+outcome-based-pricing:
+  term: Outcome-based pricing
+  def: A commercial fee structure where a professional services firm ties a portion of its advisory fees to the client achieving agreed-upon business performance metrics or operational milestones, rather than billing strictly for time and materials.
+
+pyramid-model:
+  term: Pyramid model
+  def: The traditional organizational hierarchy of professional service firms where large cohorts of junior analysts perform routine drafting and analysis to support a smaller tier of partners, financing apprentice development through billable hourly rates.
