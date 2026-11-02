@@ -1,0 +1,48 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Why AI pilots stall: The gap between individual adoption and enterprise EBIT. While ~90% of firms use AI and 80% of workers report personal gains, only 25% redesign workflows, causing freed hours to leak. As a result, only 37% report EBIT impact and only 6% become high performers.">
+  <text class="t-display" x="20" y="26" font-size="15">The AI Value Funnel</text>
+  <text class="t-display" x="350" y="26" font-size="15">The Three Redesign Levers</text>
+
+  <!-- Left: The Funnel -->
+  <!-- Tier 1: Wide Tool Use -->
+  <rect class="paper acc-s" x="20" y="42" width="300" height="52" rx="4" stroke-width="1.5"/>
+  <text x="32" y="62" font-size="11" font-weight="bold">1. Widespread Tool Use (~90%)</text>
+  <text x="32" y="78" font-size="9.5">88% use AI regularly; 80% report personal speedup.</text>
+  <text x="32" y="90" font-size="8.5" fill="#666">Source: McKinsey (2026); BCG AI at Work (2026)</text>
+
+  <!-- Down arrow 1 -->
+  <path d="M 170 94 L 170 106 M 165 101 L 170 106 L 175 101" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Tier 2: The Redesign Chasm -->
+  <rect class="paper acc-s" x="40" y="108" width="260" height="56" rx="4" stroke-width="1.5"/>
+  <text x="52" y="126" font-size="11" font-weight="bold">2. Workflow Redesign Gap (25%)</text>
+  <text x="52" y="142" font-size="9.5">Only 25% redesign workflows; 66% get zero guidance</text>
+  <text x="52" y="154" font-size="9.5">on saved time. 42% save 1 day/wk, but hours leak.</text>
+
+  <!-- Down arrow 2 -->
+  <path d="M 170 164 L 170 176 M 165 171 L 170 176 L 175 171" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Tier 3: Bottom-Line Impact -->
+  <rect class="wash acc-s" x="65" y="178" width="210" height="52" rx="4" stroke-width="2"/>
+  <text class="t-display" x="77" y="198" font-size="11.5">3. EBIT Realization (37%)</text>
+  <text x="77" y="214" font-size="9.5">37% report EBIT impact (flat YoY).</text>
+  <text x="77" y="226" font-size="9" font-weight="bold">Only 6% are high performers (≥5% EBIT).</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="335" x2="335" y1="20" y2="255" stroke-width="1"/>
+
+  <!-- Right: 3 Redesign Levers -->
+  <rect class="paper acc-s" x="350" y="42" width="270" height="60" rx="4" stroke-width="1.5"/>
+  <text x="362" y="62" font-size="11" font-weight="bold">A. End-to-End Process Redesign</text>
+  <text x="362" y="78" font-size="9.5">Do not insert AI into legacy routes. Cut steps,</text>
+  <text x="362" y="92" font-size="9.5">collapse sign-off tiers, and restructure role handoffs.</text>
+
+  <rect class="paper acc-s" x="350" y="112" width="270" height="60" rx="4" stroke-width="1.5"/>
+  <text x="362" y="132" font-size="11" font-weight="bold">B. Capacity Reallocation</text>
+  <text x="362" y="148" font-size="9.5">Freed time is not freed capacity. Assign specific</text>
+  <text x="362" y="162" font-size="9.5">new output targets or reduce contractor overhead.</text>
+
+  <rect class="paper acc-s" x="350" y="182" width="270" height="60" rx="4" stroke-width="1.5"/>
+  <text x="362" y="202" font-size="11" font-weight="bold">C. P&amp;L-Linked Metrics</text>
+  <text x="362" y="218" font-size="9.5">Stop measuring software logins and user prompts.</text>
+  <text x="362" y="232" font-size="9.5">Measure unit gross margin, cycle time, and EBIT.</text>
+</svg>

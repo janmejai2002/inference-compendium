@@ -189,7 +189,7 @@ parts:
           - {title: AI Is Reshaping Jobs Faster Than Companies Are Reshaping Work, url: https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work, tier: B}
           - {title: 'MIT report: 95% of generative AI pilots at companies are failing (Fortune)', url: https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/, tier: B}
           - {title: India's AI shift from pilots to performance (EY-CII), url: https://www.ey.com/en_in/newsroom/2025/11/india-s-ai-shift-from-pilots-to-performance-47-percent-of-enterprises-have-multiple-ai-use-cases-live-in-production-ey-cii-report, tier: C}
-        status: planned
+        status: draft
       - id: work-changes
         title: How the work changes
         deck: What the evidence on jobs says (a split, not a collapse), what shifts at entry level, and where India stands.
