@@ -150,7 +150,7 @@ parts:
           - {title: Demystifying evals for AI agents, url: https://anthropic.com/engineering/demystifying-evals-for-ai-agents, tier: A}
           - {title: Evaluation best practices (OpenAI), url: https://developers.openai.com/api/docs/guides/evaluation-best-practices, tier: A}
           - {title: Your AI Product Needs Evals (Hamel Husain), url: https://hamel.dev/blog/posts/evals/, tier: C}
-        status: planned
+        status: draft
 
   - id: p2
     n: II

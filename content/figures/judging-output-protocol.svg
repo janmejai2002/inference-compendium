@@ -1,0 +1,68 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Left: The four-step judgment protocol: Prompt, Review, Challenge, Decide. Right: The base rate trap: why a 90% accurate fraud detector flags 67 of 1,000 invoices, but only 18 are real errors (27% precision).">
+  <text class="t-display" x="20" y="28" font-size="16">The Four-Step Protocol</text>
+  <text class="t-display" x="360" y="28" font-size="16">The Base Rate Trap (1,000 Invoices)</text>
+
+  <!-- Left: 4-Step Protocol -->
+  <rect class="paper acc-s" x="20" y="44" width="310" height="48" rx="4" stroke-width="1.5"/>
+  <text x="35" y="64" font-size="12" font-weight="bold">1. Prompt with constraints</text>
+  <text x="35" y="80" font-size="10">State standard, context, format, and ask to flag doubts</text>
+
+  <rect class="paper acc-s" x="20" y="100" width="310" height="48" rx="4" stroke-width="1.5"/>
+  <text x="35" y="120" font-size="12" font-weight="bold">2. Review against the world</text>
+  <text x="35" y="136" font-size="10">Check numbers against source docs, sanity-check units</text>
+
+  <rect class="paper acc-s" x="20" y="156" width="310" height="48" rx="4" stroke-width="1.5"/>
+  <text x="35" y="176" font-size="12" font-weight="bold">3. Challenge the reasoning</text>
+  <text x="35" y="192" font-size="10">Stress-test assumptions: 'What must be true for this to hold?'</text>
+
+  <rect class="wash acc-s" x="20" y="212" width="310" height="48" rx="4" stroke-width="2"/>
+  <text class="t-display" x="35" y="232" font-size="13">4. Decide and sign off</text>
+  <text x="35" y="248" font-size="10">The human owns the signature, the advice, and the liability</text>
+
+  <text x="20" y="285" font-size="11">Automation bias makes humans trust fluent text.</text>
+  <text x="20" y="302" font-size="11">Only an explicit challenge protocol breaks complacency.</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="345" x2="345" y1="20" y2="310" stroke-width="1"/>
+
+  <!-- Right: 2x2 Matrix -->
+  <rect class="paper rule-s" x="360" y="44" width="260" height="180" rx="4" stroke-width="1"/>
+  
+  <!-- Header row -->
+  <line class="rule-s" x1="360" x2="620" y1="84" y2="84" stroke-width="1"/>
+  <line class="rule-s" x1="450" x2="450" y1="44" y2="224" stroke-width="1"/>
+  <line class="rule-s" x1="535" x2="535" y1="44" y2="224" stroke-width="1"/>
+
+  <text x="405" y="68" text-anchor="middle" font-size="10" font-weight="bold">Actual State</text>
+  <text x="492" y="62" text-anchor="middle" font-size="10" font-weight="bold">Real Error</text>
+  <text x="492" y="76" text-anchor="middle" font-size="9">(20 invoices)</text>
+  <text x="577" y="62" text-anchor="middle" font-size="10" font-weight="bold">Clean</text>
+  <text x="577" y="76" text-anchor="middle" font-size="9">(980 invoices)</text>
+
+  <!-- Row 1: AI Flags -->
+  <line class="rule-s" x1="360" x2="620" y1="140" y2="140" stroke-width="1"/>
+  <text x="368" y="106" font-size="10" font-weight="bold">AI Flags</text>
+  <text x="368" y="122" font-size="9">(67 alerts)</text>
+  
+  <text x="492" y="106" text-anchor="middle" font-size="12" font-weight="bold">18</text>
+  <text x="492" y="122" text-anchor="middle" font-size="9">True Positives</text>
+
+  <text x="577" y="106" text-anchor="middle" font-size="12" font-weight="bold" fill="#c0392b">49</text>
+  <text x="577" y="122" text-anchor="middle" font-size="9">False Positives</text>
+
+  <!-- Row 2: AI Clears -->
+  <text x="368" y="172" font-size="10">AI Clears</text>
+  <text x="368" y="188" font-size="9">(933 items)</text>
+
+  <text x="492" y="172" text-anchor="middle" font-size="11">2</text>
+  <text x="492" y="188" text-anchor="middle" font-size="9">False Negatives</text>
+
+  <text x="577" y="172" text-anchor="middle" font-size="11">931</text>
+  <text x="577" y="188" text-anchor="middle" font-size="9">True Negatives</text>
+
+  <!-- Precision calculation -->
+  <text x="360" y="248" font-size="11" font-weight="bold">Precision = 18 / (18 + 49) = 26.9%</text>
+  <text x="360" y="266" font-size="11">Despite 90% accuracy on real errors, nearly</text>
+  <text x="360" y="282" font-size="11">3 out of 4 alerts (73%) are false alarms.</text>
+  <text x="360" y="298" font-size="11">When the base rate is low, false positives dominate.</text>
+</svg>

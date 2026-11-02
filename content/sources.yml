@@ -850,3 +850,234 @@ ibm-agent-skills:
   tier: B
   why: "Short plain explainer of agent skills; notes public skills can carry malware and prompt injection. Marks and year unchecked."
   verified: false
+
+lee-critical-thinking-2025:
+  type: paper
+  title: "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers"
+  creator: "Lee, Sarkar, Tankelevitch, Drosos, Rintel, Banks, Wilson"
+  publisher: "CHI 2025 (Microsoft Research and Carnegie Mellon)"
+  year: 2025
+  url: https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/
+  tier: A
+  why: "319 knowledge workers. Those who trusted AI most reported thinking critically least. Self-reported, so a signal, not a measurement."
+  verified: true
+
+parasuraman-manzey-2010:
+  type: paper
+  title: "Complacency and bias in human use of automation: an attentional integration"
+  creator: "Raja Parasuraman, Dietrich H. Manzey"
+  publisher: "Human Factors 52(3)"
+  year: 2010
+  url: https://pubmed.ncbi.nlm.nih.gov/21077562/
+  tier: A
+  why: "The review behind the term automation bias. Experts over-trust imperfect aids and training alone does not fix it."
+  verified: true
+
+anthropic-demystifying-evals:
+  type: article
+  title: "Demystifying evals for AI agents"
+  creator: "Grace, Hadfield, Olivares, De Jonghe"
+  publisher: "Anthropic Engineering"
+  year: 2026
+  url: https://anthropic.com/engineering/demystifying-evals-for-ai-agents
+  tier: A
+  why: "The lab's own definition of an eval, the three kinds of grader, and the advice to start with 20-50 real failures."
+  verified: true
+
+openai-eval-best-practices:
+  type: article
+  title: "Evaluation best practices"
+  creator: "OpenAI"
+  publisher: "OpenAI developer docs"
+  year: 2026
+  url: https://developers.openai.com/api/docs/guides/evaluation-best-practices
+  tier: A
+  why: "Why output that varies needs structured tests, and why automated graders must be calibrated against human judgment."
+  verified: true
+
+husain-evals:
+  type: article
+  title: "Your AI Product Needs Evals"
+  creator: "Hamel Husain"
+  publisher: "hamel.dev"
+  year: 2024
+  url: https://hamel.dev/blog/posts/evals/
+  tier: C
+  why: "The most-cited practitioner account of error analysis; evals start with a person reading outputs and marking pass or fail. Admitted because no lab publishes this in plain language."
+  verified: true
+
+hbr-ideacast-sternfels:
+  type: podcast
+  title: "Where McKinsey, and Consulting, Go From Here"
+  creator: "Bob Sternfels (with Adi Ignatius and Alison Beard)"
+  publisher: "HBR IdeaCast, episode 1060"
+  year: 2026
+  url: https://hbr.org/podcast/2026/01/where-mckinsey-and-consulting-go-from-here
+  tier: B
+  why: "The head of McKinsey on why humans must supply the judgment models lack. Audio not heard in full; quote the page wording only."
+  verified: false
+
+fortune-mckinsey-ai-interview:
+  type: article
+  title: "How to get hired at McKinsey: AI tools, liberal arts, creativity"
+  creator: "Fortune"
+  publisher: "Fortune"
+  year: 2026
+  url: https://fortune.com/2026/01/14/how-to-get-hired-at-mckinsey-ai-tools-liberal-arts-creativity
+  tier: C
+  why: "The open report of the Lilli interview pilot. The line comes from a prep firm and McKinsey has not confirmed it; a reported signal only."
+  verified: true
+
+ibm-llm-as-judge:
+  type: video
+  title: "LLM as a Judge: Scaling AI Evaluation Strategies"
+  creator: "IBM Technology"
+  publisher: "IBM Technology (YouTube)"
+  year: 2025
+  minutes: 6
+  marks:
+    - { t: "0:42", label: "Direct assessment vs pairwise comparison" }
+    - { t: "3:42", label: "Where automated judges struggle" }
+    - { t: "4:02", label: "Positional bias" }
+    - { t: "4:42", label: "Self-enhancement and verbosity bias" }
+  url: https://www.youtube.com/watch?v=trfUBIDeI1Y
+  tier: C
+  why: "Six minutes on how an AI can grade AI at scale and where it is biased (position, length, self-preference). Skip the closing pitch for IBM's EvalAssist."
+  verified: true
+
+alphabet-q3-2026:
+  type: report
+  title: "Alphabet Q3 2026 results (8-K, Exhibit 99.1)"
+  creator: "Alphabet Inc."
+  publisher: "SEC EDGAR"
+  year: 2026
+  url: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm
+  tier: A
+  why: "The company's own filing: $51.4B capex in a quarter, negative free cash flow, Google Cloud up 103%. Read the cash-flow table, not the commentary."
+  verified: true
+
+microsoft-fy27-q1:
+  type: report
+  title: "Microsoft FY27 Q1 earnings release"
+  creator: "Microsoft"
+  publisher: "Microsoft Investor Relations"
+  year: 2026
+  url: https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast
+  tier: A
+  why: "Azure revenue in dollars ($33.2B), capex $39.4B and a $677B contracted backlog. The backlog explains why they keep building."
+  verified: true
+
+amazon-q3-2026:
+  type: report
+  title: "Amazon.com Announces Third Quarter Results"
+  creator: "Amazon.com, Inc."
+  publisher: "Amazon Investor Relations"
+  year: 2026
+  url: https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx
+  tier: A
+  why: "AWS at $46.0B a quarter, about $220B of 2026 capex and negative trailing free cash flow. The cloud is growing and cash is going out faster."
+  verified: true
+
+meta-q3-2026:
+  type: report
+  title: "Meta Reports Third Quarter 2026 Results"
+  creator: "Meta Platforms, Inc."
+  publisher: "Meta Investor Relations"
+  year: 2026
+  url: https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx
+  tier: A
+  why: "A company with no cloud to rent out still plans $135-145B of 2026 capex. Quarterly capex nearly equalled operating cash flow."
+  verified: true
+
+oracle-10q-aug-2026:
+  type: report
+  title: "Oracle Corporation Form 10-Q, quarter ended 31 August 2026"
+  creator: "Oracle Corporation"
+  publisher: "SEC EDGAR"
+  year: 2026
+  url: https://www.sec.gov/Archives/edgar/data/0001341439/000119312526389274/orcl-20260831.htm
+  tier: A
+  why: "$664B of contracted backlog next to about $125B of borrowings. The clearest primary document on who funds the build-out with debt."
+  verified: true
+
+anthropic-series-h:
+  type: article
+  title: "Anthropic raises $65B Series H at $965B valuation"
+  creator: "Anthropic"
+  publisher: "Anthropic"
+  year: 2026
+  url: https://www.anthropic.com/news/series-h
+  tier: A
+  why: "A lab's own statement of run-rate revenue ($47B+), valuation and contracted gigawatts. A company claim, so read it as one."
+  verified: true
+
+stanford-ai-index-2026-economy:
+  type: report
+  title: "AI Index Report 2026, Chapter 4: Economy"
+  creator: "Stanford Institute for Human-Centered AI"
+  publisher: "Stanford HAI"
+  year: 2026
+  url: https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf
+  tier: A
+  why: "Investment, lab revenue (Epoch AI data), compute spend and hyperscaler capex in one place. Read section 4.2, pages 188 to 191."
+  verified: true
+
+stanford-ai-index-2026-rd:
+  type: report
+  title: "AI Index Report 2026, Chapter 1: Research and Development"
+  creator: "Stanford Institute for Human-Centered AI"
+  publisher: "Stanford HAI"
+  year: 2026
+  url: https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_1_research_development.pdf
+  tier: A
+  why: "Compute, chips, data centres and power: 17.1M H100-equivalents, 29.6 GW of AI data-centre capacity, one foundry (TSMC) behind the chips."
+  verified: true
+
+stanford-ai-index-2025-rd:
+  type: report
+  title: "AI Index Report 2025, Chapter 1: Research and Development"
+  creator: "Stanford Institute for Human-Centered AI"
+  publisher: "Stanford HAI"
+  year: 2025
+  url: https://hai.stanford.edu/assets/files/hai_ai-index-report-2025_chapter1_final.pdf
+  tier: A
+  why: "Source of the 280-fold fall in the price of GPT-3.5-level answers ($20 to $0.07 per million tokens, Nov 2022 to Oct 2024), from Epoch and Artificial Analysis data."
+  verified: true
+
+epoch-inference-price-trends:
+  type: article
+  title: "LLM inference prices have fallen rapidly but unequally across tasks"
+  creator: "Ben Cottier, Ben Snodin, David Owen, Tom Adamczewski"
+  publisher: "Epoch AI"
+  year: 2025
+  url: https://epoch.ai/data-insights/llm-inference-price-trends
+  tier: A
+  why: "The originator of the '9x to 900x a year' range, with the warning that the fastest declines may not persist."
+  verified: false
+
+pib-democratising-ai-2026:
+  type: report
+  title: "Democratising AI in India"
+  creator: "Press Information Bureau, Government of India"
+  publisher: "PIB"
+  year: 2026
+  url: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf
+  tier: A
+  why: "The government's own numbers on IndiaAI Mission compute (38,000+ GPUs, about Rs 65 an hour), the Rs 10,371.92 crore outlay and 1,280 MW of data-centre capacity. Dated 10 Feb 2026."
+  verified: true
+
+boyle-big-tech-debt:
+  type: video
+  title: "Why Wall Street is Ignoring Big Tech's Debt"
+  creator: "Patrick Boyle"
+  publisher: "YouTube"
+  year: 2026
+  minutes: 8
+  url: https://www.youtube.com/watch?v=NufJ7g63KSY
+  tier: B
+  why: "A finance lecturer explains circular vendor financing and why the capex-to-revenue gap worries lenders. Watch 13:00 to 20:45 only."
+  marks:
+    - { t: "13:01", label: "Circular vendor financing: chipmakers finance their own customers" }
+    - { t: "16:00", label: "Big Market Delusion: every firm priced as the winner" }
+    - { t: "18:01", label: "The buildout against the revenue needed to justify it" }
+  verified: false
