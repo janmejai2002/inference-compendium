@@ -1213,3 +1213,113 @@ stanford-ai-index-2026-takeaways:
   tier: A
   why: "The AI Index's own summary, including the roughly 20% fall in employment of software developers aged 22-25 since 2024."
   verified: true
+
+trai-pr104-2026:
+  type: report
+  title: "Highlights of Telecom Subscription Data at the end of June 2026 (Press Release No. 104/2026)"
+  creator: "Telecom Regulatory Authority of India"
+  publisher: "TRAI"
+  year: 2026
+  url: https://www.trai.gov.in/sites/default/files/2026-07/PR_No104of2026_0.pdf
+  tier: A
+  why: "The regulator's official count of Indian telecom and broadband subscribers (June 2026), providing the primary denominator for market-sizing guesstimates."
+  verified: true
+
+pib-indiaai-compute-2026-03:
+  type: report
+  title: "IndiaAI Mission Expands AI Ecosystem with Affordable Compute and Startup Support"
+  creator: "Ministry of Electronics and IT (PIB Delhi)"
+  publisher: "Press Information Bureau"
+  year: 2026
+  url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245069&reg=3&lang=1
+  tier: A
+  why: "Official government statement confirming over 38,000 GPUs onboarded to the common compute pool and Rs 10,372 crore outlay."
+  verified: true
+
+pib-india-ai-moment-2026-02:
+  type: report
+  title: "India's AI Moment (PIB Backgrounder)"
+  creator: "Press Information Bureau"
+  publisher: "Press Information Bureau"
+  year: 2026
+  url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2229397&reg=48&lang=2
+  tier: A
+  why: "Government backgrounder detailing subsidized GPU access at Rs 65 per hour and national compute allocation."
+  verified: true
+
+cw-india-dc-h1-2026:
+  type: article
+  title: "India's data centre development pipeline through 2030 reaches 3,860 MW (India Data Centre H1 2026 Update)"
+  creator: "Cushman & Wakefield (Aditi Vij)"
+  publisher: "Cushman & Wakefield"
+  year: 2026
+  url: https://www.cushmanwakefield.com/en/india/news/2026/09/india-data-centre-h1-2026-update
+  tier: B
+  why: "Authoritative real estate benchmark for operational data centre capacity (1,789 MW) and 3,860 MW pipeline in India."
+  verified: true
+
+anthropic-api-pricing:
+  type: article
+  title: "Pricing (Claude API)"
+  creator: "Anthropic"
+  publisher: "Anthropic"
+  year: 2026
+  url: https://platform.claude.com/docs/en/about-claude/pricing
+  tier: A
+  why: "Official per-million-token API pricing documentation for calculating corporate inference bills."
+  verified: true
+
+openai-chatgpt-business-pricing:
+  type: article
+  title: "ChatGPT Business pricing (India)"
+  creator: "OpenAI"
+  publisher: "OpenAI"
+  year: 2026
+  url: https://openai.com/business/pricing/
+  tier: A
+  why: "Official localized subscription pricing (Rs 1,800/month/seat) used for enterprise software sizing."
+  verified: true
+
+bcg-responsible-ai-hiring:
+  type: article
+  title: "Responsible AI in hiring"
+  creator: "BCG"
+  publisher: "BCG Careers"
+  year: 2026
+  url: https://careers.bcg.com/global/en/careers-in-ai/responsible-ai-in-hiring
+  tier: B
+  why: "The firm's official guidance on what candidates may do with AI and how BCG uses AI in hiring."
+  verified: true
+
+bain-london-recruiting-faq:
+  type: article
+  title: "London university recruiting FAQ (AI use)"
+  creator: "Bain & Company"
+  publisher: "Bain"
+  year: 2026
+  url: https://www.bain.com/ru/careers/recruiting/london-recruiting/
+  tier: B
+  why: "Official recruitment FAQ documenting that Bain bans AI in online assessments and virtual interviews."
+  verified: true
+
+mckinsey-ai-interview-notice:
+  type: article
+  title: "McKinsey AI-Assisted Interview Privacy Notice"
+  creator: "McKinsey & Company"
+  publisher: "McKinsey"
+  year: 2026
+  url: https://www.mckinsey.com/ai-assisted-interview-privacy-notice
+  tier: B
+  why: "McKinsey's official policy on its AI-powered screening interview, checking objective criteria only."
+  verified: true
+
+fortune-mckinsey-ai-hiring:
+  type: article
+  title: "McKinsey challenges graduates to master AI tools as it shifts hiring hunt toward liberal arts majors"
+  creator: "Jake Angelo"
+  publisher: "Fortune"
+  year: 2026
+  url: https://fortune.com/2026/01/14/how-to-get-hired-at-mckinsey-ai-tools-liberal-arts-creativity/
+  tier: B
+  why: "Reported account of the McKinsey final-round pilot where candidates prompt AI, review its output, and apply judgment."
+  verified: true

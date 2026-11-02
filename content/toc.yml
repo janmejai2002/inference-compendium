@@ -246,7 +246,7 @@ parts:
           - {title: India Data Centre H1 2026 Update (Cushman & Wakefield), url: https://www.cushmanwakefield.com/en/india/news/2026/09/india-data-centre-h1-2026-update, tier: B}
           - {title: Claude API pricing, url: https://platform.claude.com/docs/en/about-claude/pricing, tier: A}
           - {title: ChatGPT Business pricing, url: https://openai.com/business/pricing/, tier: A}
-        status: planned
+        status: draft
       - id: interview-room
         title: The interview room
         deck: Being screened by AI, AI-assisted case rounds, and the questions to expect with the shape of a strong answer.

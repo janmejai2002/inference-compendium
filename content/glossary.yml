@@ -159,3 +159,19 @@ outcome-based-pricing:
 pyramid-model:
   term: Pyramid model
   def: The traditional organizational hierarchy of professional service firms where large cohorts of junior analysts perform routine drafting and analysis to support a smaller tier of partners, financing apprentice development through billable hourly rates.
+
+guesstimate:
+  term: Guesstimate
+  def: A structured analytical exercise in consulting interviews where a candidate estimates an unknown market size, operational volume, or financial metric by decomposing the problem into transparent, defensible mathematical assumptions.
+
+containment-rate:
+  term: Containment rate
+  def: The percentage of customer inquiries or support tickets resolved entirely by automated AI workflows without escalating to a human agent.
+
+asynchronous-interview:
+  term: Asynchronous video interview
+  def: A structured recruitment evaluation where a candidate records responses to computerized prompts without a live human interviewer present, often evaluated by automated scoring algorithms or recorded for subsequent recruiter review.
+
+resume-parsing:
+  term: Resume parsing
+  def: The automated extraction and semantic matching of skills, certifications, and employment history from candidate curriculum vitae documents against predefined job description parameters.
