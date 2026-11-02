@@ -1,0 +1,77 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The AI Capital and Value Chain. Capital flows from hyperscaler capex and lab funding down into chipmakers, foundries, data centres and energy utilities, while inference prices per token fall sharply for end users.">
+  <text class="t-display" x="20" y="28" font-size="16">The AI Capital &amp; Infrastructure Chain</text>
+  <text class="t-display" x="380" y="28" font-size="16">Capex &amp; Debt Stack (2026)</text>
+
+  <!-- Left: Value Chain Layers -->
+  <!-- Layer 1: Hardware & Fabs -->
+  <rect class="paper acc-s" x="20" y="44" width="320" height="42" rx="4" stroke-width="1.5"/>
+  <text x="35" y="62" font-size="11" font-weight="bold">1. Equipment &amp; Fabs (Monopoly bottleneck)</text>
+  <text x="35" y="76" font-size="9">TSMC fabs almost all leading chips; ASML lithography</text>
+
+  <!-- Layer 2: Chip Designers -->
+  <rect class="paper acc-s" x="20" y="94" width="320" height="42" rx="4" stroke-width="1.5"/>
+  <text x="35" y="112" font-size="11" font-weight="bold">2. Chips &amp; Accelerators (Nvidia &gt;60% share)</text>
+  <text x="35" y="126" font-size="9">17.1M H100-equivalents globally; hyperscaler custom silicon</text>
+
+  <!-- Layer 3: Power & Data Centres -->
+  <rect class="paper acc-s" x="20" y="144" width="320" height="42" rx="4" stroke-width="1.5"/>
+  <text x="35" y="162" font-size="11" font-weight="bold">3. Power &amp; Facilities (29.6 GW global capacity)</text>
+  <text x="35" y="176" font-size="9">Cooling, grid substations, land; 11.8 GW chip power</text>
+
+  <!-- Layer 4: Cloud & Hyperscalers -->
+  <rect class="paper acc-s" x="20" y="194" width="320" height="42" rx="4" stroke-width="1.5"/>
+  <text x="35" y="212" font-size="11" font-weight="bold">4. Hyperscalers &amp; Clouds (The Capex Engine)</text>
+  <text x="35" y="226" font-size="9">Alphabet, Microsoft, AWS, Meta, Oracle; negative free cash flow</text>
+
+  <!-- Layer 5: Frontier Model Labs -->
+  <rect class="wash acc-s" x="20" y="244" width="320" height="42" rx="4" stroke-width="2"/>
+  <text class="t-display" x="35" y="262" font-size="12">5. Frontier Labs &amp; Enterprise APIs</text>
+  <text x="35" y="276" font-size="9">Token price dropped 280x in 18 months ($20 to $0.07/M)</text>
+
+  <text x="20" y="306" font-size="10">Capital flows left-to-right from cloud debt to physical assets.</text>
+  <text x="20" y="320" font-size="10">Unit prices collapse while aggregate infrastructure spend surges.</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="360" x2="360" y1="20" y2="315" stroke-width="1"/>
+
+  <!-- Right: 2026 Corporate Capex & Debt Reality -->
+  <rect class="paper rule-s" x="380" y="44" width="240" height="242" rx="4" stroke-width="1"/>
+  <text x="395" y="68" font-size="11" font-weight="bold">Company (Q3 2026)</text>
+  <text x="545" y="68" font-size="11" font-weight="bold">Financial Reality</text>
+  <line class="rule-s" x1="380" x2="620" y1="76" y2="76" stroke-width="1"/>
+
+  <text x="395" y="96" font-size="11" font-weight="bold">Alphabet</text>
+  <text x="395" y="110" font-size="9">Q3 Capex: $51.4B</text>
+  <text x="545" y="96" font-size="10" fill="#c0392b">-$9.1B FCF</text>
+  <text x="545" y="110" font-size="9">Cloud up 103%</text>
+
+  <line class="rule-s" x1="395" x2="605" y1="120" y2="120" stroke-width="0.5"/>
+
+  <text x="395" y="138" font-size="11" font-weight="bold">Microsoft</text>
+  <text x="395" y="152" font-size="9">Q1 FY27 Capex: $39.4B</text>
+  <text x="545" y="138" font-size="10">$677B RPO</text>
+  <text x="545" y="152" font-size="9">Backlog up 73%</text>
+
+  <line class="rule-s" x1="395" x2="605" y1="162" y2="162" stroke-width="0.5"/>
+
+  <text x="395" y="180" font-size="11" font-weight="bold">Amazon (AWS)</text>
+  <text x="395" y="194" font-size="9">2026 Capex: ~$220B</text>
+  <text x="545" y="180" font-size="10" fill="#c0392b">-$42.4B FCF</text>
+  <text x="545" y="194" font-size="9">AWS $46.0B/qtr</text>
+
+  <line class="rule-s" x1="395" x2="605" y1="204" y2="204" stroke-width="0.5"/>
+
+  <text x="395" y="222" font-size="11" font-weight="bold">Oracle</text>
+  <text x="395" y="236" font-size="9">Contract RPO: $664B</text>
+  <text x="545" y="222" font-size="10">$125B Debt</text>
+  <text x="545" y="236" font-size="9">Borrowings</text>
+
+  <line class="rule-s" x1="395" x2="605" y1="246" y2="246" stroke-width="0.5"/>
+
+  <text x="395" y="264" font-size="11" font-weight="bold">Meta</text>
+  <text x="395" y="278" font-size="9">2026 Capex: $135-145B</text>
+  <text x="545" y="264" font-size="10">Capex ≈ OCF</text>
+  <text x="545" y="278" font-size="9">Q3 Capex $34.9B</text>
+
+  <text x="380" y="306" font-size="10">Source: SEC filings (Alphabet, Oracle), corporate releases (Oct 2026)</text>
+</svg>

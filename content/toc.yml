@@ -173,7 +173,7 @@ parts:
           - {title: 'AI Index Report 2026, Chapter 4: Economy', url: https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf, tier: A}
           - {title: 'Democratising AI in India (PIB, 10 Feb 2026)', url: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf, tier: A}
           - {title: Why Wall Street is Ignoring Big Tech's Debt (Patrick Boyle), url: https://www.youtube.com/watch?v=NufJ7g63KSY, tier: B}
-        status: planned
+        status: draft
       - id: pilots-stall
         title: Why AI pilots stall
         deck: Most companies use AI and few see profit from it. The gap is change management and workflow redesign.

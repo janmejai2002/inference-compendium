@@ -132,3 +132,10 @@ remaining-performance-obligation:
 inference-cost:
   term: Inference cost
   def: The direct computational and financial cost incurred by hardware to generate tokens and serve model predictions to users after training is complete.
+
+ebit:
+  term: Earnings before interest and taxes (EBIT)
+  def: An accounting metric measuring a company's operating profit, isolating core operational performance from financing structures and tax rates.
+workflow-redesign:
+  term: Workflow redesign
+  def: Restructuring operational processes, roles, and handoffs end to end to capture the full economic benefit of automation, rather than inserting AI tools into unchanged legacy routines.
