@@ -139,3 +139,15 @@ ebit:
 workflow-redesign:
   term: Workflow redesign
   def: Restructuring operational processes, roles, and handoffs end to end to capture the full economic benefit of automation, rather than inserting AI tools into unchanged legacy routines.
+
+occupational-exposure:
+  term: Occupational exposure
+  def: The degree to which the specific tasks comprising a job can be performed or augmented by artificial intelligence models.
+
+skill-premium:
+  term: Skill premium
+  def: The percentage wage or compensation differential paid to workers possessing specialized, high-demand capabilities relative to peers with standard qualifications.
+
+capacity-leakage:
+  term: Capacity leakage
+  def: The dissipation of hours saved through task automation into unstructured downtime or redundant revisions rather than captured enterprise output.

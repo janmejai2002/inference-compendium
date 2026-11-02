@@ -206,7 +206,7 @@ parts:
           - {title: Evaluating the Impact of AI on the Labor Market (Yale Budget Lab), url: https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs, tier: B}
           - {title: Future of Jobs Report 2025 (WEF press release), url: https://www.weforum.org/media/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces, tier: B}
           - {title: BCG AI at Work 2026, url: https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work, tier: B}
-        status: planned
+        status: draft
 
   - id: p3
     n: III

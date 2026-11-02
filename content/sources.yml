@@ -1136,3 +1136,80 @@ ey-cii-aidea-india-2026:
   tier: C
   why: "The only India enterprise survey opened: 200 organisations, 47% with multiple GenAI use cases live, 23% in pilot, 59% citing a talent shortage. Press release by the survey's author."
   verified: true
+
+mckinsey-ai-job-losses:
+  type: article
+  title: "AI job losses fall short of forecasts"
+  creator: "Dan Tinkoff, Lieven Van der Veken, Michael Chui, Tara Balakrishnan"
+  publisher: "McKinsey & Company (Chart of the Week)"
+  year: 2026
+  url: https://www.mckinsey.com/featured-insights/charts/ai-job-losses-fall-short-of-forecasts
+  tier: B
+  why: "One chart that sets forecast against outcome: 32% expected AI head-count cuts, 14% reported them. Read it before you trust any jobs headline."
+  verified: true
+
+anthropic-india-brief:
+  type: report
+  title: "India Country Brief: The Anthropic Economic Index"
+  creator: "Anthropic"
+  publisher: "Anthropic"
+  year: 2026
+  url: https://www.anthropic.com/research/india-brief-economic-index
+  tier: A
+  why: "The originator's data on how India uses Claude: second by volume, far lower per capita, and the highest share of software tasks of any country."
+  verified: true
+
+stanford-canaries:
+  type: paper
+  title: "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence"
+  creator: "Erik Brynjolfsson, Bharat Chandar, Ruyu Chen"
+  publisher: "Stanford Digital Economy Lab"
+  year: 2026
+  url: https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/
+  tier: A
+  why: "The main evidence that early-career workers in exposed jobs are where AI shows up in employment data, and experienced workers are not affected the same way. Revised August 2026."
+  verified: true
+
+yale-budget-lab-ai-labor:
+  type: report
+  title: "Evaluating the Impact of AI on the Labor Market: Current State of Affairs"
+  creator: "Martha Gimbel, Molly Kinder, Joshua Kendall, Maddie Lee"
+  publisher: "The Budget Lab at Yale"
+  year: 2025
+  url: https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs
+  tier: B
+  why: "The sceptical counterweight. No discernible economy-wide disruption 33 months after ChatGPT. US data from October 2025; check for later updates."
+  verified: true
+
+wef-future-of-jobs-2025:
+  type: report
+  title: "Future of Jobs Report 2025: 78 Million New Job Opportunities by 2030 but Urgent Upskilling Needed"
+  creator: "World Economic Forum"
+  publisher: "World Economic Forum"
+  year: 2025
+  url: https://www.weforum.org/media/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces
+  tier: B
+  why: "The long-range forecast, 170 million roles created and 92 million displaced by 2030. A projection from employer surveys; read it beside measured data."
+  verified: true
+
+deloitte-india-campus-2026:
+  type: report
+  title: "India's campus talent landscape pivots to skill-based hiring as 86 percent of employers adopt AI in recruitment (Campus Workforce Trends 2026)"
+  creator: "Deloitte India"
+  publisher: "Deloitte"
+  year: 2026
+  url: https://www.deloitte.com/in/en/about/press-room/india-s-campus-talent-landscape-pivots-to-skill-based-hiring-as-86-percent-of-employers-adopt-ai-in-recruitment--deloitte-india.html
+  tier: B
+  why: "Employer-reported view of Indian campus hiring, with MBA pay by institute tier and AI skill premiums. A press release for its own survey."
+  verified: true
+
+stanford-ai-index-2026-takeaways:
+  type: article
+  title: "Inside the AI Index: 12 Takeaways from the 2026 Report"
+  creator: "Shana Lynch"
+  publisher: "Stanford HAI"
+  year: 2026
+  url: https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report
+  tier: A
+  why: "The AI Index's own summary, including the roughly 20% fall in employment of software developers aged 22-25 since 2024."
+  verified: true

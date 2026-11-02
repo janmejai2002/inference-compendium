@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The AI labor split: Aggregate stability versus the early-career divergence. On the left, aggregate employment shows minimal change, with only 14% reporting cuts despite 32% expecting them. On the right, early-career workers aged 22 to 25 face a 19% employment gap in exposed roles while senior roles expand.">
+  <text class="t-display" x="20" y="26" font-size="15">Aggregate Stability</text>
+  <text class="t-display" x="350" y="26" font-size="15">The Entry-Level Divergence</text>
+
+  <!-- Left: Aggregate labor market -->
+  <rect class="paper acc-s" x="20" y="42" width="300" height="95" rx="4" stroke-width="1.5"/>
+  <text x="32" y="64" font-size="11" font-weight="bold">Forecast vs. Outcome (McKinsey 2026)</text>
+  <text x="32" y="82" font-size="10">Expected headcount cuts in 2025: 32%</text>
+  <text x="32" y="98" font-size="10" font-weight="bold" fill="#27ae60">Actual headcount cuts reported in 2026: 14%</text>
+  <text x="32" y="116" font-size="9" fill="#555">Two-thirds reported little or no change in overall employment.</text>
+  <text x="32" y="128" font-size="8.5" fill="#777">Source: McKinsey Chart of the Week (Sep 2026)</text>
+
+  <rect class="paper acc-s" x="20" y="148" width="300" height="95" rx="4" stroke-width="1.5"/>
+  <text x="32" y="170" font-size="11" font-weight="bold">Economy-Wide Evidence (Yale Budget Lab)</text>
+  <text x="32" y="188" font-size="9.5">No discernible aggregate disruption to employment</text>
+  <text x="32" y="202" font-size="9.5">or unemployment 33 months post-ChatGPT.</text>
+  <text x="32" y="222" font-size="9.5">Labor market transitions predate widespread AI.</text>
+  <text x="32" y="235" font-size="8.5" fill="#777">Source: Gimbel et al., Yale Budget Lab (Oct 2025)</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="335" x2="335" y1="20" y2="255" stroke-width="1"/>
+
+  <!-- Right: Early-career divergence -->
+  <rect class="paper acc-s" x="350" y="42" width="270" height="95" rx="4" stroke-width="1.5"/>
+  <text x="362" y="64" font-size="11" font-weight="bold">Early-Career Deficit (Stanford DEL)</text>
+  <text x="362" y="84" font-size="13" font-weight="bold" fill="#c0392b">-19% Employment Gap</text>
+  <text x="362" y="102" font-size="9.5">For workers aged 22-25 in AI-exposed roles</text>
+  <text x="362" y="116" font-size="9.5">relative to counterfactual; seniors show no gap.</text>
+  <text x="362" y="129" font-size="8.5" fill="#777">Source: Brynjolfsson et al., Stanford (Aug 2026)</text>
+
+  <rect class="wash acc-s" x="350" y="148" width="270" height="95" rx="4" stroke-width="2"/>
+  <text class="t-display" x="362" y="170" font-size="11.5">Software Developers Aged 22-25</text>
+  <text x="362" y="190" font-size="13" font-weight="bold" fill="#c0392b">Plummeted ~20%</text>
+  <text x="362" y="208" font-size="9.5">Since 2024 in the US, even as older colleagues'</text>
+  <text x="362" y="222" font-size="9.5">headcount continues to expand.</text>
+  <text x="362" y="235" font-size="8.5" fill="#777">Source: Stanford HAI AI Index 2026 (Lynch)</text>
+</svg>
