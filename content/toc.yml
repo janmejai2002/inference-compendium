@@ -133,7 +133,7 @@ parts:
           - {title: LLM01:2025 Prompt Injection, url: https://genai.owasp.org/llmrisk/llm01-prompt-injection/, tier: B}
           - {title: The lethal trifecta for AI agents, url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/, tier: C}
           - {title: Mitigating the risk of prompt injections in browser use, url: https://www.anthropic.com/research/prompt-injection-defenses, tier: A}
-        status: planned
+        status: draft
       - id: judging-output
         title: Judging AI output is the job now
         deck: Error rates, base rates, false positives and evals; a four-step protocol to prompt, review, challenge and decide.

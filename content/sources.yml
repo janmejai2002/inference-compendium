@@ -750,3 +750,103 @@ ibm-what-is-rag:
     - { t: "4:13", label: "The prompt now has three parts" }
     - { t: "5:13", label: "Fewer made-up answers; it can say it does not know" }
   verified: true
+
+anthropic-building-effective-agents:
+  type: article
+  title: "Building effective agents"
+  creator: "Erik S., Barry Zhang"
+  publisher: Anthropic
+  year: 2024
+  url: https://www.anthropic.com/engineering/building-effective-agents
+  tier: A
+  why: "The originator's definition of workflows versus agents, and the plain warning about cost and compounding errors."
+  verified: true
+
+metr-long-tasks:
+  type: paper
+  title: "Measuring AI Ability to Complete Long Software Tasks"
+  creator: "Thomas Kwa, Ben West, Joel Becker et al."
+  publisher: "METR (arXiv 2503.14499)"
+  year: 2025
+  url: https://arxiv.org/abs/2503.14499
+  tier: A
+  why: "Introduces the 50% time horizon, the clearest measure of how long a task an agent can finish. Software tasks only."
+  verified: true
+
+anthropic-project-vend:
+  type: article
+  title: "Project Vend: Can Claude run a small shop?"
+  creator: Anthropic
+  publisher: Anthropic
+  year: 2025
+  url: https://www.anthropic.com/research/project-vend-1
+  tier: A
+  why: "A lab publishing its own agent's business failures, with concrete examples. Confirm exact title string."
+  verified: false
+
+owasp-llm01-prompt-injection:
+  type: article
+  title: "LLM01:2025 Prompt Injection"
+  creator: OWASP GenAI Security Project
+  publisher: OWASP
+  year: 2025
+  url: https://genai.owasp.org/llmrisk/llm01-prompt-injection/
+  tier: B
+  why: "The industry security body ranks prompt injection first among LLM application risks. Domain needs adding to source-policy.yml."
+  verified: true
+
+willison-lethal-trifecta:
+  type: article
+  title: "The lethal trifecta for AI agents: private data, untrusted content, and external communication"
+  creator: Simon Willison
+  publisher: simonwillison.net
+  year: 2025
+  url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
+  tier: C
+  why: "Clearest plain statement of when an agent can leak data, by the developer who named prompt injection; a personal blog, not peer reviewed. Domain needs adding. Confirm exact title string."
+  verified: false
+
+anthropic-prompt-injection-browser:
+  type: article
+  title: "Mitigating the risk of prompt injections in browser use"
+  creator: Anthropic
+  publisher: Anthropic
+  year: 2025
+  url: https://www.anthropic.com/research/prompt-injection-defenses
+  tier: A
+  why: "A lab's own measured attack success rates and its statement that the problem is unsolved."
+  verified: true
+
+openai-prompt-injections:
+  type: article
+  title: "Understanding prompt injections: a frontier security challenge"
+  creator: OpenAI
+  publisher: OpenAI
+  year: 2025
+  url: https://openai.com/index/prompt-injections/
+  tier: A
+  why: "Plain-language definition with an email-agent example, from a lab that ships agents."
+  verified: true
+
+ft-mckinsey-agents-2026:
+  type: article
+  title: "McKinsey challenges graduates to use AI chatbot in recruitment overhaul"
+  creator: "Financial Times (republished by the Irish Times)"
+  publisher: Irish Times
+  year: 2026
+  url: https://www.irishtimes.com/business/2026/01/14/mckinsey-challenges-graduates-to-use-ai-chatbot-in-recruitment-overhaul
+  tier: B
+  why: "Sternfels' own 20,000-agent figure and the Lilli interview test. Self-reported by the firm. Domain needs adding."
+  verified: true
+
+ibm-agent-skills:
+  type: video
+  title: "What AI Agent Skills Are and How They Work"
+  creator: IBM Technology
+  publisher: IBM Technology
+  year: 2026
+  minutes: 12
+  url: https://www.youtube.com/watch?v=Lg-meK5IU8Q
+  tier: B
+  why: "Short plain explainer of agent skills; notes public skills can carry malware and prompt injection. Marks and year unchecked."
+  verified: false

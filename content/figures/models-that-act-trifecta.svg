@@ -1,0 +1,69 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Left: Simon Willison's lethal trifecta of AI agent security: private data access, untrusted content, and external communication. When all three meet, an agent is vulnerable to data theft and unauthorized action. Right: Compounding error curve showing how task reliability drops sharply across multi-step chains even at 95% single-step accuracy.">
+  <text class="t-display" x="20" y="28" font-size="16">The Lethal Trifecta (Agent Security)</text>
+  <text class="t-display" x="380" y="28" font-size="16">Compounding Failure</text>
+
+  <!-- Left: Trifecta -->
+  <!-- Pillar 1: Private Data -->
+  <rect class="paper acc-s" x="20" y="46" width="160" height="52" rx="4" stroke-width="2"/>
+  <text x="100" y="68" text-anchor="middle" font-size="12" font-weight="bold">1. Private Data</text>
+  <text x="100" y="86" text-anchor="middle" font-size="10">Internal files, databases, ERP</text>
+
+  <!-- Pillar 2: Untrusted Content -->
+  <rect class="paper acc-s" x="20" y="112" width="160" height="52" rx="4" stroke-width="2"/>
+  <text x="100" y="134" text-anchor="middle" font-size="12" font-weight="bold">2. Untrusted Content</text>
+  <text x="100" y="152" text-anchor="middle" font-size="10">Inbound emails, web pages, PDFs</text>
+
+  <!-- Pillar 3: External Communication -->
+  <rect class="paper acc-s" x="20" y="178" width="160" height="52" rx="4" stroke-width="2"/>
+  <text x="100" y="200" text-anchor="middle" font-size="12" font-weight="bold">3. External Action</text>
+  <text x="100" y="218" text-anchor="middle" font-size="10">Email out, API write, payment</text>
+
+  <!-- Arrows to danger box -->
+  <path class="ink-s" d="M180 72 H210 V140 H235" fill="none" stroke-width="1.5"/>
+  <path class="ink-s" d="M180 138 H235" fill="none" stroke-width="1.5"/>
+  <path class="ink-s" d="M180 204 H210 V140 H235" fill="none" stroke-width="1.5"/>
+  <path class="ink" d="M230 135 L238 140 L230 145 Z"/>
+
+  <!-- Danger Center -->
+  <rect class="wash acc-s" x="240" y="105" width="115" height="70" rx="4" stroke-width="2"/>
+  <text class="t-display" x="297" y="132" text-anchor="middle" font-size="13">Lethal</text>
+  <text class="t-display" x="297" y="148" text-anchor="middle" font-size="13">Trifecta</text>
+  <text x="297" y="165" text-anchor="middle" font-size="9">Exfiltration &amp; fraud</text>
+
+  <text x="20" y="254" font-size="11">Break the trifecta: remove outbound action or</text>
+  <text x="20" y="270" font-size="11">isolate untrusted data from private files.</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="365" x2="365" y1="20" y2="295" stroke-width="1"/>
+
+  <!-- Right: Compounding Error Table / Steps -->
+  <rect class="paper rule-s" x="380" y="46" width="240" height="184" rx="4" stroke-width="1"/>
+  <text x="395" y="70" font-size="11" font-weight="bold">Steps (n)</text>
+  <text x="475" y="70" font-size="11" font-weight="bold">At 99% / step</text>
+  <text x="560" y="70" font-size="11" font-weight="bold">At 95% / step</text>
+  <line class="rule-s" x1="380" x2="620" y1="78" y2="78" stroke-width="1"/>
+
+  <text x="395" y="98" font-size="11">1 step</text>
+  <text x="475" y="98" font-size="11">99.0%</text>
+  <text x="560" y="98" font-size="11">95.0%</text>
+
+  <text x="395" y="124" font-size="11">5 steps</text>
+  <text x="475" y="124" font-size="11">95.1%</text>
+  <text x="560" y="124" font-size="11">77.4%</text>
+
+  <text x="395" y="150" font-size="11">10 steps</text>
+  <text x="475" y="150" font-size="11">90.4%</text>
+  <text x="560" y="150" font-size="11" font-weight="bold">59.9%</text>
+
+  <text x="395" y="176" font-size="11">12 steps</text>
+  <text x="475" y="176" font-size="11">88.6%</text>
+  <text x="560" y="176" font-size="11" font-weight="bold">54.0%</text>
+
+  <text x="395" y="202" font-size="11">20 steps</text>
+  <text x="475" y="202" font-size="11">81.8%</text>
+  <text x="560" y="202" font-size="11">35.8%</text>
+
+  <text x="380" y="254" font-size="11">Probability multiplies: Success = pⁿ</text>
+  <text x="380" y="270" font-size="11">A 12-step task at 95% fails nearly half the time (54%).</text>
+  <text x="380" y="286" font-size="11">Unattended autonomy needs verification at every handoff.</text>
+</svg>

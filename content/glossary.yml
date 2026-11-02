@@ -93,3 +93,16 @@ hallucination:
 abstention:
   term: Abstention
   def: When a model declines to answer or says it does not know. Scoreboards that count only accuracy give an abstention zero, the same as a wrong guess.
+
+agent:
+  term: Agent
+  def: An AI system that dynamically directs its own process, chooses tools, and takes actions in the world to accomplish a goal.
+workflow:
+  term: Workflow
+  def: A system where large language models and tools are orchestrated through predefined, fixed code paths.
+tool-call:
+  term: Tool call
+  def: A structured command from a model to an external software program (such as a database, browser or calculator) to fetch data or take action.
+prompt-injection:
+  term: Prompt injection
+  def: A vulnerability where untrusted text or user inputs hijack an AI model's instructions, altering its behavior or triggering unauthorized actions.
