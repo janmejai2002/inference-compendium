@@ -45,6 +45,29 @@ ${devReload}
 }
 
 // ---------------------------------------------------------------- shared fragments
+export function getAuthors(book) {
+  if (Array.isArray(book.authors) && book.authors.length) return book.authors;
+  if (book.author) return [{ name: book.author, linkedin: book.linkedin, github: book.github }];
+  return [
+    { name: 'Janmejai Singh Minhas', linkedin: 'https://linkedin.com/in/janmejai', github: 'https://github.com/janmejai2002' },
+    { name: 'Chaitanya Sharma', linkedin: 'https://www.linkedin.com/in/chaitanya-sharma-b7a5b925b/', github: 'https://github.com/chaitanya-sharma' }
+  ];
+}
+
+export function formatAuthors(book, { format = 'text' } = {}) {
+  const list = getAuthors(book);
+  if (format === 'names') {
+    return list.map((a) => esc(a.name)).join(' & ');
+  }
+  if (format === 'meta') {
+    return list.map((a) => a.name).join(', ');
+  }
+  if (format === 'print-links') {
+    return list.map((a) => `<b>${esc(a.name)}</b> (<a href="${esc(a.linkedin)}" style="color:inherit;text-decoration:none;">LinkedIn</a> · <a href="${esc(a.github)}" style="color:inherit;text-decoration:none;">GitHub</a>)`).join(' & ');
+  }
+  return list.map((a) => `<b>${esc(a.name)}</b> (<a href="${esc(a.linkedin)}" target="_blank" rel="noopener">LinkedIn</a> · <a href="${esc(a.github)}" target="_blank" rel="noopener">GitHub</a>)`).join(' & ');
+}
+
 function contents(ctx, { print = false, rel = '' } = {}) {
   return ctx.toc.parts.map((p) => `<section class="toc-part" style="--part: var(--t-${p.track})">
   <div class="toc-part-h"><span class="toc-part-n">${esc(p.n)}</span><span class="toc-part-t">${esc(p.title)}</span>${p.deck ? `<p class="toc-part-d">${esc(p.deck)}</p>` : ''}</div>
@@ -65,18 +88,19 @@ function coverHtml(ctx) {
   <div class="matrix">${attentionMatrix(book.cover_sentence, { cell: 46, font: 12 })}</div>
   <div class="tracks">${book.tracks.map((t) => `<span style="background: var(--t-${t.id})"></span>`).join('')}</div>
   <p class="sub">${esc(book.subtitle)}</p>
-  <div class="foot"><span>${esc(book.edition)}</span><span>${esc(book.publisher)}</span></div>
+  <div class="foot"><span>${esc(book.edition)}</span><span>Compiled by ${formatAuthors(book, { format: 'print-links' })}</span></div>
 </section>`;
 }
 
 function howToRead(ctx) {
+  const { book } = ctx;
   const paths = ['consulting', 'marketing', 'product'].map((t) => {
     const tr = ctx.trackById[t];
     const list = ctx.chapters.filter((c) => c.track === t || c.track === 'foundations' || (c.tracks || []).includes(t));
     return `<div class="path"><span class="chip" style="--chip: var(--t-${t})">${esc(tr.name)}</span><ol>${list.map((c) => `<li>${c.n} · ${esc(c.title)}</li>`).join('')}</ol></div>`;
   }).join('');
   return `<section class="front" id="how-to-read">
-  <div class="kicker">Before you begin</div>
+  <div class="kicker">Before you begin · Curated by ${formatAuthors(book, { format: 'names' })}</div>
   <h1>Three ways to read this book</h1>
   <p class="intro">This compendium is dense on purpose. It is also built so that you never have to read all of it at once. Pick the speed that matches how much time is left before your interview.</p>
   <div class="speeds">
@@ -130,12 +154,12 @@ function backMatter(ctx, cited, terms) {
   <ol class="src-index">${src}</ol>
   <div class="colophon" style="margin-top:9mm">
     <div class="kicker" style="margin-bottom:2mm">Colophon</div>
-    <p>Set in Archivo, Literata and IBM Plex Mono. Written in Markdown, laid out with Paged.js, rendered by Chromium. ${esc(book.edition)}. ${esc(book.license)}</p>
+    <p>Compiled and edited by ${formatAuthors(book, { format: 'print-links' })}. Set in Archivo, Literata and IBM Plex Mono. Written in Markdown, laid out with Paged.js, rendered by Chromium. ${esc(book.edition)}. ${esc(book.license)}</p>
   </div>
 </section>
 <section class="backcover">
   <p class="blurb">${esc(book.back_blurb)}</p>
-  <div class="fine"><span>${esc(book.title)}${esc(book.title_accent || '')} ${esc(book.subtitle)}</span><span>${esc(book.edition)}</span></div>
+  <div class="fine"><span>${esc(book.title)}${esc(book.title_accent || '')} ${esc(book.subtitle)} · Curated by ${formatAuthors(book, { format: 'print-links' })}</span><span>${esc(book.edition)}</span></div>
 </section>`;
 }
 
@@ -153,6 +177,10 @@ function webChapter(c, ctx, i, written) {
 <main class="read">
 ${r.html}
 <nav class="pager">${prev ? `<a href="${prev.id}.html"><span>Previous</span>${esc(prev.title)}</a>` : '<span></span>'}${next ? `<a class="next" href="${next.id}.html"><span>Next</span>${esc(next.title)}</a>` : ''}</nav>
+<footer class="ch-foot" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-family: var(--f-mono); font-size: 0.8rem; color: var(--ink-3); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
+  <span>${esc(ctx.book.title)} · ${esc(ctx.book.edition)}</span>
+  <span>Curated & compiled by ${formatAuthors(ctx.book, { format: 'html-links' })}</span>
+</footer>
 </main>
 <script>
 (() => {
@@ -163,7 +191,23 @@ ${r.html}
   addEventListener('scroll', () => { const h = document.documentElement; p.style.width = (100 * h.scrollTop / (h.scrollHeight - h.clientHeight)) + '%'; }, { passive: true });
 })();
 </script>`;
-  return { html: shell({ title: `${c.title} · ${ctx.book.title}`, css: ['tokens', 'components', 'web'], body, rel: '../' }), r };
+  return {
+    html: shell({
+      title: `${c.title} · ${ctx.book.title}`,
+      css: ['tokens', 'components', 'web'],
+      body,
+      rel: '../',
+      extraHead: `
+<meta name="author" content="${esc(formatAuthors(ctx.book, { format: 'meta' }))}">
+<meta name="description" content="${esc(c.deck || ctx.book.subtitle)}">
+<meta property="og:title" content="${esc(c.title)} · ${esc(ctx.book.title)}">
+<meta property="og:description" content="${esc(c.deck || ctx.book.subtitle)}">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+`
+    }),
+    r
+  };
 }
 
 function home(ctx) {
@@ -175,12 +219,31 @@ function home(ctx) {
     <div class="kicker">${esc(book.edition)}</div>
     <h1>${esc(book.title)}<span>${esc(book.title_accent || '')}</span></h1>
     <p class="sub">${esc(book.subtitle)}. ${esc(book.back_blurb)}</p>
+    <div class="byline" style="margin: 1.2rem 0; font-family: var(--f-mono); font-size: 0.85rem; color: var(--ink-2);">
+      Curated & compiled by ${formatAuthors(book, { format: 'html-links' })}
+    </div>
     <div class="actions"><a class="btn primary" href="#contents">Start reading</a><a class="btn" href="design.html">See the design book</a></div>
   </div>
   <div class="matrix">${attentionMatrix(book.cover_sentence, { cell: 40, fg: 'var(--accent)', label: 'var(--ink-2)', mask: 'var(--rule)', font: 12 })}</div>
 </section>
-<main class="home-toc" id="contents">${contents(ctx)}</main>`;
-  return shell({ title: `${book.title} — ${book.subtitle}`, css: ['tokens', 'components', 'web'], body });
+<main class="home-toc" id="contents">${contents(ctx)}</main>
+<footer class="home-foot" style="margin: 4rem auto 2rem; max-width: 1200px; padding: 2rem 1.5rem 0; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; font-family: var(--f-mono); font-size: 0.8rem; color: var(--ink-3);">
+  <span>${esc(book.title)} · ${esc(book.edition)}</span>
+  <span>Curated & compiled by ${formatAuthors(book, { format: 'html-links' })}</span>
+</footer>`;
+  return shell({
+    title: `${book.title} — ${book.subtitle}`,
+    css: ['tokens', 'components', 'web'],
+    body,
+    extraHead: `
+<meta name="author" content="${esc(formatAuthors(book, { format: 'meta' }))}">
+<meta name="description" content="${esc(book.subtitle)}. ${esc(book.back_blurb)}">
+<meta property="og:title" content="${esc(book.title)} · ${esc(book.subtitle)}">
+<meta property="og:description" content="${esc(book.subtitle)}. ${esc(book.back_blurb)}">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+`
+  });
 }
 
 function printBook(ctx) {
@@ -197,7 +260,9 @@ function printBook(ctx) {
     return chs.length ? partOpener(p, ctx) + chs.join('\n') : '';
   }).join('\n');
   const tracks = JSON.stringify(Object.fromEntries(ctx.book.tracks.map((t, i) => [t.id, { i, short: t.short }])));
-  const extraHead = `<style>@page :left { @top-left { content: "${esc(ctx.book.running_head)}"; } }</style>
+  const extraHead = `<meta name="author" content="${esc(formatAuthors(ctx.book, { format: 'meta' }))}">
+<meta name="description" content="${esc(ctx.book.subtitle)}">
+<style>@page :left { @top-left { content: "${esc(ctx.book.running_head)}"; } }</style>
 <script>window.PagedConfig = { auto: true, after: () => { window.__pagedDone = true; } };</script>
 <script src="js/paged.polyfill.js"></script>
 <script>

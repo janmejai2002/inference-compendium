@@ -2,9 +2,16 @@
 title: INFERENCE
 title_accent: "."            # the cobalt full stop after the wordmark
 subtitle: The AI compendium for the business mind
-edition: Placement Edition 2027 · Draft 0.1
+edition: 2027 · Draft 0.1
 running_head: INFERENCE · The AI compendium
-publisher: Compiled by students, for students
+authors:
+  - name: Janmejai Singh Minhas
+    linkedin: https://linkedin.com/in/janmejai
+    github: https://github.com/janmejai2002
+  - name: Chaitanya Sharma
+    linkedin: https://www.linkedin.com/in/chaitanya-sharma-b7a5b925b/
+    github: https://github.com/chaitanya-sharma
+publisher: Compiled by Janmejai Singh Minhas and Chaitanya Sharma
 license: Free to share with attribution. Not for sale.
 cover_sentence: "Will AI replace the analyst or make the analyst ?"   # tokens on the cover attention matrix
 back_blurb: "Every B-school recruiter now asks about AI. Most compendiums still don't teach it. This one starts from first principles and ends in the interview room."

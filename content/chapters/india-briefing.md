@@ -24,7 +24,7 @@ The primary statutory constraint on any AI model processing personal text, voice
 2. Training or prompting an AI model with customer data constitutes automated data processing.
 3. Engaging a third-party cloud vendor or API provider does not transfer statutory liability: the primary enterprise remains legally responsible for breaches and unlawful processing.
 4. The DPDP framework requires explicit, purpose-specific consent notices and grants individuals statutory rights of access, correction, and erasure.
-5. ∴ An enterprise cannot shield itself behind a vendor's algorithms; if an AI system ingests customer data without standalone consent or fails to erase customer records upon request, the deploying enterprise faces statutory penalties.
+5. An enterprise cannot shield itself behind a vendor's algorithms; if an AI system ingests customer data without standalone consent or fails to erase customer records upon request, the deploying enterprise faces statutory penalties.
 :::
 
 The DPDP Rules establish concrete operational mandates that directly impact AI architecture:

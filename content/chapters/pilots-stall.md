@@ -26,7 +26,7 @@ Closing this gap requires understanding why technology pilots stall between init
 3. If the surrounding organizational workflow remains unchanged (retaining identical review tiers, fixed job descriptions, and unmonitored schedules), the hours saved remain trapped inside individual employee calendars.
 4. Because enterprise operating expenses (salaries, office leases, and vendor retainers) are fixed in the short term, completing isolated tasks faster does not reduce operating expenses.
 5. Unless corporate leadership reorganizes operational handoffs and reallocates freed hours toward revenue-generating activities or cost reductions, total firm output and expenses remain unchanged.
-6. ∴ Automating individual tasks without restructuring workflows and reallocating capacity produces zero bottom-line EBIT impact.
+6. Automating individual tasks without restructuring workflows and reallocating capacity produces zero bottom-line EBIT impact.
 :::
 
 ## The ROI gap: widespread use, flat earnings

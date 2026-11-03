@@ -25,7 +25,7 @@ A chatbot writes the first piece of its answer, reads everything again including
 2. If you had read enough text, you could put a probability on each possible continuation: "unchanged" very likely, "purple" almost never.
 3. A machine that outputs those probabilities can write. Pick a likely next piece, stick it on the end, and you have a slightly longer text.
 4. Feed the longer text back in and ask again. Each pass adds one piece.
-5. ∴ An answer from a chatbot is a chain of next-piece guesses. Inside the model there is no separate step where it looks the answer up. (Some products add a search or document step around the model; the model itself still only continues text.)
+5. An answer from a chatbot is a chain of next-piece guesses. Inside the model there is no separate step where it looks the answer up. (Some products add a search or document step around the model; the model itself still only continues text.)
 :::
 
 {{figure next-word-machine-pick | One step of the loop. The model scores every candidate for the next token, picks one, appends it, and runs again on the longer text. A 300-word answer is a few hundred of these steps. | Illustrative probabilities}}

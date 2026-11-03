@@ -27,7 +27,7 @@ Navigating this transition requires understanding how cognitive automation resha
 4. Foundation models automate the junior execution layer: drafting presentation decks, extracting table data, and writing initial spreadsheet routines at negligible marginal cost.
 5. As clients recognize that software can produce first-draft deliverables, they resist paying premium hourly rates for routine analytical labor.
 6. To preserve revenue and margins, consulting firms must decouple their fees from junior hours, adopting [[outcome-based-pricing|outcome-based pricing]] and deploying internal AI tools that enhance senior leverage.
-7. ∴ Artificial intelligence changes the consulting revenue engine from a labor-arbitrage pyramid into a specialized judgment and technology pod.
+7. Artificial intelligence changes the consulting revenue engine from a labor-arbitrage pyramid into a specialized judgment and technology pod.
 :::
 
 ## The empirical benchmark: BCG and the jagged frontier

@@ -47,6 +47,17 @@ body.print { margin: 0; background: var(--paper); color: var(--ink); -webkit-pri
 body.print *, body.print *::before, body.print *::after { box-sizing: border-box; }
 :root { --s-mega: 9.5rem; --s-h1: 3.9rem; }
 
+/* Paged.js page-break rules: plain selectors required (see docs/DESIGN.md) */
+h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+h2 + p, h3 + p, h4 + p,
+h2 + .blk, h3 + .blk,
+h2 + .media, h3 + .media,
+h2 + .fig, h3 + .fig { break-before: avoid; page-break-before: avoid; }
+.blk { break-inside: avoid; page-break-inside: avoid; }
+.blk-case { break-inside: auto; }
+.blk-principle { break-inside: avoid; page-break-inside: avoid; }
+.blk-principle ol > li { break-inside: avoid; page-break-inside: avoid; }
+
 /* Running-head source */
 .print .chapter-title { string-set: chapter content(text); }
 
@@ -55,13 +66,13 @@ body.print *, body.print *::before, body.print *::after { box-sizing: border-box
 .print .prose p { margin: 0; orphans: 2; widows: 2; }
 .print .prose p + p { text-indent: 1.3em; }
 .print .prose .lede { text-align: left; }
-.print .prose h2 { margin: 1.7em 0 .5em; break-after: avoid; text-align: left; }
-.print .prose h3, .print .prose h4 { break-after: avoid; text-align: left; }
+.print .prose h2 { margin: 1.7em 0 .5em; text-align: left; }
+.print .prose h3, .print .prose h4 { text-align: left; }
 .print .prose ul, .print .prose ol { margin: .5em 0 .8em; text-align: left; }
 .print .prose h2 + p, .print .prose h3 + p, .print .prose h4 + p, .print .blk + p, .print .media + p, .print .fig + p { text-indent: 0; }
 .print .blk, .print .media { text-align: left; }
 .print .blk p + p { text-indent: 0; margin-top: .5em; }
-.print .blk-case, .print .blk-principle { break-inside: auto; }
+.print .blk-case { break-inside: auto; }
 .print .prose a { color: inherit; text-decoration: none; }
 
 /* ---------- Margin rail ---------- */

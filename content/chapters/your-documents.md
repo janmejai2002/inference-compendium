@@ -26,7 +26,7 @@ A model can know something because it absorbed it in training, so the knowledge 
 3. A model does read whatever is in its context window, and every next-token prediction depends on that text.
 4. So put the relevant passage in the prompt, next to the question, and tell the model to answer from it.
 5. You have thousands of pages and the window holds only so much, so a search step has to choose which passages go in.
-6. ∴ "AI on our documents" is two systems in a row: a search engine that picks the pages, and a model that writes from them. The answer can be no better than the pages the search hands over.
+6. "AI on our documents" is two systems in a row: a search engine that picks the pages, and a model that writes from them. The answer can be no better than the pages the search hands over.
 :::
 
 Marina Danilevsky of IBM Research tells it with a family story. Her children asked which planet has the most moons. She said Jupiter, from an old article; a current source said Saturn. No source and out of date: the two faults she pins on language models [@ibm-what-is-rag]. With retrieval, the prompt has three parts: "the instruction to pay attention to, the retrieved content, together with the user's question." When the moon count changes again, you update the store and leave the model alone.

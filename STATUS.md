@@ -1,12 +1,14 @@
 # Status
 
-_Last updated 2026-11-03, v1 build completed: all 14 units + 2 inserts drafted and verified._
+_Last updated 2026-11-03, v1 build completed & authors updated (Janmejai Singh Minhas & Chaitanya Sharma)._
 
 ## Where we are
 - **Edition: v1 Draft complete.** All 16 planned units (00 through 13 plus Inserts A and B) are fully drafted, verified with cross-model plan checks (Claude Sonnet 4.6 via `agy`), and linted with zero errors (`check: 0 errors`).
-- **Book metrics:** 250 pages, 55,200 total words, 40 media cards, 54 glossary terms.
+- **Authors & Co-creators:** Janmejai Singh Minhas ([LinkedIn](https://linkedin.com/in/janmejai) · [GitHub](https://github.com/janmejai2002)) & Chaitanya Sharma ([LinkedIn](https://www.linkedin.com/in/chaitanya-sharma-b7a5b925b/) · [GitHub](https://github.com/chaitanya-sharma)).
+- **Title & Edition:** `INFERENCE` · `2027 · Draft 0.1` ("Placement Edition" branding removed).
+- **Book metrics:** 252 pages, 55,200 total words, 40 media cards, 54 glossary terms.
 - **Pipeline:** Working cleanly. Markdown → web edition, A4 print book (Paged.js), PDF with bookmarks and clickable table of contents.
-- **Milestone snapshot:** `editions/INFERENCE-v1-draft.pdf` (7.79 MB, 250 pages) generated and committed.
+- **Milestone snapshot:** `editions/INFERENCE-v1-draft.pdf` (7.17 MB, 252 pages) generated and committed.
 - **Proofing:** Full B&W proof rendered to `dist/pages-bw/` via `npm run proof:bw`.
 - **Sources:** 131 sources registered in `content/sources.yml`, 118 verified (13 unverified).
 

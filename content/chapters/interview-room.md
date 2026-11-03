@@ -25,7 +25,7 @@ Employers do not deploy automated hiring tools because machines possess superior
 2. Human recruiters cannot manually read three thousand multi-page resumes or review ten thousand recorded video answers within tight placement schedules.
 3. Organizations deploy automated resume parsers and screening chatbots to filter incoming applicant cohorts down to a reviewable shortlist.
 4. These automated tools match candidate submissions against job requisitions using semantic keyword extraction, credential verification, and standardized scoring benchmarks.
-5. ∴ Before a human partner evaluates your strategic judgment in a case room, your application must survive an automated screening gate that rewards semantic precision and explicit alignment over unstated capability.
+5. Before a human partner evaluates your strategic judgment in a case room, your application must survive an automated screening gate that rewards semantic precision and explicit alignment over unstated capability.
 :::
 
 In corporate recruitment across India, this automation has become standard practice. A 2026 survey of 257 employers by Deloitte India revealed that 72% of surveyed organisations use AI for resume screening, while 48% employ AI-based assessments in their campus selection pipelines [@deloitte-india-campus-2026]. When an applicant tracking system parses a resume, it extracts entities: universities, degree titles, technical tools, functional domains, and quantified achievements. If a job description calls for "credit risk modeling" and your resume highlights "bad loan prediction", an older keyword engine registers a miss, while a modern semantic embedding model scores only a partial match.

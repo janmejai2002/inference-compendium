@@ -33,7 +33,7 @@ Placement-season talk about AI is mostly about ChatGPT, Gemini and Claude. A lot
 3. Writing the logic yourself works when the logic is known, short and stable. "Reject any application without a PAN" needs no learning.
 4. When the pattern has too many inputs, or shifts over time, nobody can write it down. A model can learn it from history, as long as each past case carries its known outcome (this loan defaulted, this one did not). The output is a number, a category or a probability, and it can be checked against what happens later.
 5. Some outputs have no single right answer: a reply to a complaint, a summary of a 40-page contract, a product description. For these you need a model that has absorbed huge amounts of text or images and can produce new content on request.
-6. ∴ Start from the output and the data you have. The tool follows from them. Starting from the tool ("we have ChatGPT, what can it do?") is how projects end up with the wrong one.
+6. Start from the output and the data you have. The tool follows from them. Starting from the tool ("we have ChatGPT, what can it do?") is how projects end up with the wrong one.
 :::
 
 Step 4 has a name in the industry: [[predictive-ai|predictive AI]], also called classic or traditional machine learning. Step 5 is [[generative-ai|generative AI]]. Step 3 is a [[rule-based-system]], which most people would not call AI at all, and that is fine. It is often the right answer.

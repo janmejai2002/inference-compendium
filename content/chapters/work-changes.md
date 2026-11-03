@@ -27,7 +27,7 @@ Evaluating workforce strategy requires balancing aggregate labor stability again
 4. Senior professionals possess the contextual judgment required to evaluate model outputs, allowing them to use AI tools as personal leverage to increase their individual output.
 5. Junior professionals historically learned contextual judgment by performing routine drafting and repetitive analysis under senior apprenticeship.
 6. If automated tools perform routine drafting, firms reduce entry-level hiring in exposed roles while retaining experienced staff, creating an early-career deficit without altering overall corporate headcount.
-7. ∴ Artificial intelligence alters the entry-level apprenticeship ladder and reshapes daily task composition long before it shows up in aggregate unemployment statistics.
+7. Artificial intelligence alters the entry-level apprenticeship ladder and reshapes daily task composition long before it shows up in aggregate unemployment statistics.
 :::
 
 ## Forecasts versus reality: the aggregate picture

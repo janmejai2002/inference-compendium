@@ -29,7 +29,7 @@ Before selecting an algorithm, you must classify the fundamental nature of the b
 2. If the decision logic is known, deterministic, and legally codified, hard-coded conditional rules provide 100% auditability at zero inference cost.
 3. If the decision requires scoring, classifying, or forecasting a numeric outcome based on structured historical patterns, predictive machine learning models optimize statistical accuracy.
 4. If the decision requires synthesizing new text, unstructured documents, conversational responses, or multimodal media, generative foundation models predict probable tokens.
-5. ∴ Starting an AI initiative with a specific model brand is an architectural failure; the mathematical structure of the required business output determines the software machinery.
+5. Starting an AI initiative with a specific model brand is an architectural failure; the mathematical structure of the required business output determines the software machinery.
 :::
 
 Consider credit card fraud detection. A commercial bank processing two million transactions daily does not feed real-time card swipes into a generative chatbot. It routes transactional metadata (timestamp, merchant category, geolocation, rupee volume) into a predictive machine learning classifier. The classifier evaluates structured numerical features and outputs a fraud probability score between 0.00 and 1.00 in four milliseconds. 
@@ -53,7 +53,7 @@ To direct a large language model effectively, you must discard the psychological
 2. The model stores statistical associations and language patterns across its parameters; it does not maintain an internal database of verified external facts.
 3. At inference runtime, the model reads the input context, computes a probability distribution across all known tokens, samples a likely next token, appends it to the sequence, and repeats.
 4. Because the next token depends entirely on preceding tokens, the model's output quality is strictly bounded by the semantic clarity and constraints supplied in the prompt.
-5. ∴ An LLM does not verify real-world truth; it generates the most statistically plausible continuation of the prompt you provide.
+5. An LLM does not verify real-world truth; it generates the most statistically plausible continuation of the prompt you provide.
 :::
 
 This mechanism introduces immediate operational constraints:

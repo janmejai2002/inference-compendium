@@ -26,7 +26,7 @@ This chapter provides a comprehensive practice library: ten end-to-end strategic
 3. Every AI deployment incurs three distinct costs: capital infrastructure (compute, GPUs, data centre power), variable operational expenditure (input and output tokens, API calls), and organizational overhead (human review, error remediation, workflow retraining).
 4. Every AI deployment creates value through one of two mechanisms: reducing unit labor cost per transaction, or accelerating revenue growth by unlocking previously unviable services.
 5. If the variable cost and human review overhead exceed the labor savings, or if the model's error rate disrupts critical operations, the initiative destroys economic value.
-6. ∴ Solving an AI case interview requires walking the entire operational chain: from model capabilities and unit token economics to workflow integration, regulatory compliance, and P&L realization.
+6. Solving an AI case interview requires walking the entire operational chain: from model capabilities and unit token economics to workflow integration, regulatory compliance, and P&L realization.
 :::
 
 ## The four AI case archetypes

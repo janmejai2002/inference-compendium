@@ -134,6 +134,8 @@ function preprocess(state, body) {
   const { sources, glossary } = state;
   let sn = 0;
   const seenTerms = new Set();
+  // Strip leading ∴ in numbered conclusion steps in principle blocks (CSS ::before badge renders the ∴)
+  body = body.replace(/(:::\s*principle[\s\S]*?)(^\s*\d+\.\s*)∴\s*/gm, '$1$2');
   body = body.replace(/^\{\{\s*(watch|read|paper|listen|media)\s+([\w-]+)\s*\}\}\s*$/gm, (_, _k, id) => {
     const s = sources[id];
     if (!s) { state.problems.push(`unknown source "${id}"`); return `<p class="mono">missing source: ${esc(id)}</p>`; }

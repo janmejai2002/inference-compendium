@@ -49,7 +49,7 @@ The same dynamic governs [[inference-cost|inference costs]]. When querying a mod
 3. Lower token costs expand the addressable commercial use cases: tasks that were economically impractical at $20 per million tokens become profitable at $0.07 per million tokens.
 4. Total compute demand is the product of unit price and query volume ($\text{Total Spend} = \text{Price} \times \text{Volume}$).
 5. Because volume expands faster than unit price declines (high price elasticity of demand), aggregate demand for compute power surges.
-6. ∴ Cheaper tokens do not reduce infrastructure spend; they fuel massive capital spending by cloud providers racing to secure chips, land, and power.
+6. Cheaper tokens do not reduce infrastructure spend; they fuel massive capital spending by cloud providers racing to secure chips, land, and power.
 :::
 
 ## The hyperscaler balance sheets: cash flows versus capex

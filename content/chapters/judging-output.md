@@ -47,7 +47,7 @@ The researchers mapped what they termed the [[jagged-frontier|jagged frontier]]:
 4. Because the model outputs the same polished prose on both sides of the frontier, readers cannot discern competence from writing style.
 5. In the BCG field experiment, consultants using GPT-4 on tasks inside the frontier completed 12.2% more tasks and worked 25.1% faster [@hbs-jagged-frontier].
 6. On a business strategy task outside the frontier, consultants without AI solved it correctly 84.5% of the time, while consultants using GPT-4 scored 70.6%, and those given prompting guidance scored only 60.0% [@hbs-jagged-frontier].
-7. ∴ Without external verification, adopting AI on complex business tasks degrades correctness while increasing user confidence.
+7. Without external verification, adopting AI on complex business tasks degrades correctness while increasing user confidence.
 :::
 
 ::: stat 19 percentage points

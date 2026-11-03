@@ -45,7 +45,7 @@ In September 2025, Adam Tauman Kalai and three co-authors set out why models mak
 2. Some things follow consistent patterns, such as spelling. Others are arbitrary, low-frequency facts: a pet's birthday, the title of one dissertation. These "cannot be predicted from patterns alone" [@openai-why-lms-hallucinate].
 3. If a model cannot tell a false statement of that kind from a true one, the pressure of pretraining will produce false ones. Kalai and colleagues call these "errors in binary classification" [@kalai-why-lms-hallucinate].
 4. Later training and public leaderboards grade answers mostly on accuracy. "I don't know" scores zero, the same as a wrong answer. A guess sometimes scores [@kalai-why-lms-hallucinate].
-5. ∴ A model trained and ranked this way learns to guess fluently whenever it lacks the fact. In the authors' words, models are "optimized to be good test-takers" [@kalai-why-lms-hallucinate].
+5. A model trained and ranked this way learns to guess fluently whenever it lacks the fact. In the authors' words, models are "optimized to be good test-takers" [@kalai-why-lms-hallucinate].
 :::
 
 OpenAI's plain-language summary uses the birthday example. Guess a stranger's birthday and you have a 1-in-365 chance of being right; leave it blank and you are certainly scored zero. Over thousands of questions the guesser climbs the leaderboard. The same post reports that when a widely used chatbot was asked for the title of Kalai's PhD dissertation, it gave three different answers, and none was correct [@openai-why-lms-hallucinate].

@@ -32,7 +32,7 @@ An [[agent]] dynamically directs its own process and tool usage [@anthropic-buil
 3. In an autonomous loop, the model inspects the goal and its tools, generates a tool call, reads the software environment's response, and plans its next step.
 4. Each step carries uncertainty: selecting the right tool, supplying valid arguments, interpreting output, and preserving the goal across turns.
 5. In a chain of $n$ independent steps where each step has a success rate $p$, the probability of an error-free run is $p^n$.
-6. ∴ An autonomous agent directing a multi-step task experiences compounding failure. As steps increase, unassisted success drops sharply, even when single steps test well.
+6. An autonomous agent directing a multi-step task experiences compounding failure. As steps increase, unassisted success drops sharply, even when single steps test well.
 :::
 
 Anthropic notes that while agents provide flexibility on open-ended problems, autonomy creates higher execution costs and compounding errors [@anthropic-building-effective-agents].

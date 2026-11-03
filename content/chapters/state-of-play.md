@@ -64,7 +64,7 @@ When advising corporate leadership, frame model selection as an optimization bet
 2. Inference pricing reflects this compute disparity: frontier output costs $10 to $50 per million tokens, whereas distilled output costs $0.50 per million tokens.
 3. In typical enterprise workloads (entity extraction, summarization, formatting, semantic search filtering), tasks do not require frontier reasoning depth.
 4. Distilled models achieve high accuracy on structured tasks when provided with unambiguous instructions and few-shot examples.
-5. ∴ Cost-effective enterprise architecture implements an automated router: cheap models handle high-volume routine tasks, escalating only complex, ambiguous, or high-liability queries to frontier models.
+5. Cost-effective enterprise architecture implements an automated router: cheap models handle high-volume routine tasks, escalating only complex, ambiguous, or high-liability queries to frontier models.
 :::
 
 According to the Stanford AI Index 2026 Report, benchmark performance on SWE-bench Verified surged from 60% to near 100% within twelve months, while organizational enterprise AI adoption reached 88% [@stanford-ai-index-2026-takeaways]. As autonomous software workflows expand, raw token consumption multiplies exponentially. In a system where an agent executes twenty consecutive tool calls to process an invoice, using a frontier model for every call makes unit economics unsustainable.

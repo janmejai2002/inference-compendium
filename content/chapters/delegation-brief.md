@@ -25,7 +25,7 @@ Chapter 2 showed that a large language model writes by predicting the next token
 2. Its training holds patterns from a vast amount of public text. It holds nothing about your client's distributors, your partner's preferences or what Monday's review needs.
 3. When the prompt leaves something out, the model still has to pick a next token. It fills the gap with what is most likely across all the text it has seen, which is the generic, average answer.
 4. "Summarise these" gives it a task and no goal, reader, format or standard. Every one of those is filled with the average.
-5. ∴ Whatever you leave out of the brief, the model fills with an average guess. The quality of the output is capped by what the brief supplies.
+5. Whatever you leave out of the brief, the model fills with an average guess. The quality of the output is capped by what the brief supplies.
 :::
 
 So a vague prompt gets a fluent, plausible, useless answer. The fix is the one you would apply to a human: say what you want, why, for whom, from what material, in what shape.
