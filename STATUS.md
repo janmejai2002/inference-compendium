@@ -1,14 +1,16 @@
 # Status
 
-_Last updated 2026-11-03, front cover & landing page redesigned with Thinking, Fast and Slow cognitive architecture._
+_Last updated 2026-11-03, clean magazine-grade front cover & web design restored per DESIGN.md._
 
 ## Where we are
-- **Edition: v1 Draft complete & Cover Re-architected.** All 16 planned units (00 through 13 plus Inserts A and B) are fully drafted, verified with cross-model plan checks (Claude Sonnet 4.6 via `agy`), and linted with zero errors (`check: 0 errors`).
-- **Front Cover & Web Hero:** Redesigned into a museum-grade editorial masterwork embodying Daniel Kahneman's *Thinking, Fast and Slow* concepts:
-  - **System 1 (Statistical Reflex):** Autoregressive next-token prediction matrix with empirical attention weights across *"Will AI replace the analyst or make the analyst ?"*.
-  - **System 2 (Deliberative Judgment):** Strategic reasoning framework in the upper causal mask containing base-rate audits, error cost asymmetry, token unit economics, and executive decision logic.
-  - **Web Front Page:** Added interactive attention inspection HUD, live System 1 vs 2 mode toggles, comparative cognitive bento cards, curriculum track filters, and executive proof metrics (252 pages, 16 chapters, 131 sources, 8 tracks, 10 cases).
-- **Authors & Co-creators:** Janmejai Singh Minhas ([LinkedIn](https://linkedin.com/in/janmejai) · [GitHub](https://github.com/janmejai2002)) & Chaitanya Sharma ([LinkedIn](https://www.linkedin.com/in/chaitanya-sharma-b7a5b925b/) · [GitHub](https://github.com/chaitanya-sharma)).
+- **Edition: v1 Draft complete.** All 16 planned units (00 through 13 plus Inserts A and B) are fully drafted, verified with cross-model plan checks (Claude Sonnet 4.6 via `agy`), and linted with zero errors (`check: 0 errors`).
+- **Front Cover & First Page:** Restored to the clean, authentic, magazine-grade design language specified in `docs/DESIGN.md`:
+  - **Wordmark & Identity:** Giant title `INFERENCE.` with cobalt `#8593FF` full stop.
+  - **Byline & Authors:** Prominently attributes Janmejai Singh Minhas ([LinkedIn](https://linkedin.com/in/janmejai) · [GitHub](https://github.com/janmejai2002)) & Chaitanya Sharma ([LinkedIn](https://www.linkedin.com/in/chaitanya-sharma-b7a5b925b/) · [GitHub](https://github.com/chaitanya-sharma)) with links in byline and colophon.
+  - **Attention Matrix:** Clean mathematical causal self-attention matrix over *"Will AI replace the analyst or make the analyst ?"* with opacity-shaded cells on the lower triangle and subtle mask dots on the upper triangle (no intrusive System 2 overlays or text clutter).
+  - **Purpose Statement:** One clear sentence explaining why the compendium exists: *"Every B-school recruiter now asks about AI. Most compendiums still don't teach it. This one starts from first principles and ends in the interview room."*
+  - **Live Edition QR:** High-resolution SVG QR code linking to the live GitHub Pages edition (`https://janmejai2002.github.io/inference-compendium/`).
+- **Authors & Co-creators:** Janmejai Singh Minhas & Chaitanya Sharma.
 - **Title & Edition:** `INFERENCE` · `2027 · Draft 0.1`.
 - **Book metrics:** 252 pages, 55,200 total words, 40 media cards, 54 glossary terms.
 - **Pipeline & Deployment:** Working cleanly. Markdown → web edition, A4 print book (Paged.js), PDF with bookmarks and clickable table of contents. Automated GitHub Pages workflow (`.github/workflows/deploy.yml`) continuously deploys to `https://janmejai2002.github.io/inference-compendium/` on every push to `main`.

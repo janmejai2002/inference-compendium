@@ -249,165 +249,48 @@ ${html}
 // cell how much it "looks at" an earlier token. Upper triangle is masked, as in
 // a real decoder. Weights are illustrative, shaped like real heads (a sink on
 // token 0, a strong diagonal, and a few semantic links).
-// Incorporates Daniel Kahneman's Thinking, Fast and Slow concept:
-// - Lower triangle: System 1 (Fast, statistical reflex, autoregressive next-word prediction)
-// - Upper triangle: System 2 (Slow, deliberative reasoning, causal masking, business judgment)
 export function attentionMatrix(sentence, {
-  cell = 36,
+  cell = 34,
   fg = '#8593FF',
-  label = 'rgba(255,255,255,.75)',
-  mask = 'rgba(255,255,255,.12)',
-  font = 11,
-  interactive = false,
-  showDualSystem = true
+  label = 'rgba(255,255,255,.7)',
+  mask = 'rgba(255,255,255,.14)',
+  font = 11
 } = {}) {
   const toks = sentence.split(/\s+/).filter(Boolean);
   const n = toks.length;
-  const padLeft = 104;
-  const padTop = 100;
-  const padRight = 24;
-  const padBottom = 42;
-  const width = padLeft + n * cell + padRight;
-  const height = padTop + n * cell + padBottom;
-
+  const pad = 96;
+  const size = pad + n * cell;
   const hash = (i, j) => {
     const x = Math.sin(i * 12.9898 + j * 78.233) * 43758.5453;
     return x - Math.floor(x);
   };
   const lower = toks.map((t) => t.toLowerCase().replace(/[^a-z?]/g, ''));
-
-  let out = `<svg class="attention-matrix-svg" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Attention matrix over sentence: ${esc(sentence)}">`;
-  
-  // Background subtle datum grid
-  out += `<defs>
-    <pattern id="datum-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.6" fill="${mask}" opacity="0.4"/>
-    </pattern>
-  </defs>`;
-
-  // Axes indicators
-  out += `<text x="${padLeft - 10}" y="${padTop - 28}" text-anchor="end" font-family="Archivo, sans-serif" font-weight="700" font-size="8" letter-spacing="0.14em" fill="${fg}">Q (QUERY) ↓</text>`;
-  out += `<text x="${padLeft + 4}" y="${padTop - 42}" font-family="Archivo, sans-serif" font-weight="700" font-size="8" letter-spacing="0.14em" fill="${fg}">K (KEY: CONTEXT) →</text>`;
-
-  // Precompute attention weights
-  const weights = [];
+  let out = `<svg viewBox="0 0 ${size} ${size}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Attention matrix over the sentence: ${esc(sentence)}">`;
   for (let i = 0; i < n; i++) {
     const raw = [];
     for (let j = 0; j <= i; j++) {
-      let w = 0.16 + hash(i, j) * 0.22;
-      if (j === i) w += 0.88;
-      if (j === 0) w += 0.58;
-      if (lower[i] === lower[j] && i !== j) w += 1.55;
-      if (lower[i] === '?' && ['replace', 'make', 'ai'].includes(lower[j])) w += 1.15;
-      if (lower[i] === 'make' && lower[j] === 'replace') w += 0.95;
-      if (lower[i] === 'analyst' && lower[j] === 'replace') w += 1.05;
-      if (lower[i] === 'analyst' && lower[j] === 'make') w += 1.05;
+      let w = 0.15 + hash(i, j) * 0.25;
+      if (j === i) w += 0.9;
+      if (j === 0) w += 0.6;
+      if (lower[i] === lower[j] && i !== j) w += 1.6;
+      if (lower[i] === '?' && ['replace', 'make', 'ai'].includes(lower[j])) w += 1.1;
+      if (lower[i] === 'make' && lower[j] === 'replace') w += 0.9;
       raw.push(w);
     }
     const sum = raw.reduce((a, b) => a + b, 0);
-    const row = [];
-    for (let j = 0; j <= i; j++) {
-      const a = Math.min(1, (raw[j] / sum) * 2.15 + 0.05);
-      row.push(a);
-    }
-    weights.push(row);
-  }
-
-  const isDarkCanvas = !label.includes('var(') && !fg.includes('var(');
-  const highlightTokColor = isDarkCanvas ? '#FFFFFF' : 'var(--ink)';
-
-  // Upper triangle (System 2 & Causal Masking)
-  if (showDualSystem) {
-    // Deliberative reasoning schematic container (placed safely in upper-right triangle: cols 4-9, rows 0-3)
-    const s2X = padLeft + 3.8 * cell;
-    const s2Y = padTop - 8;
-    const s2W = (n - 3.8) * cell - 4;
-    const s2H = 2.75 * cell;
-
-    out += `<g class="s2-schematic" opacity="0.95">`;
-    out += `<rect x="${s2X}" y="${s2Y}" width="${s2W}" height="${s2H}" rx="5" fill="${isDarkCanvas ? 'rgba(255,255,255,0.02)' : 'var(--paper)'}" stroke="${mask}" stroke-dasharray="3 3"/>`;
-    out += `<text x="${s2X + 8}" y="${s2Y + 13}" font-family="Archivo, sans-serif" font-weight="800" font-stretch="85%" font-size="8" letter-spacing="0.12em" fill="${fg}">SYSTEM 2 · DELIBERATIVE REASONING</text>`;
-    out += `<text x="${s2X + 8}" y="${s2Y + 23}" font-family="Literata, serif" font-style="italic" font-size="7" fill="${label}" opacity="0.85">What autoregressive prediction cannot see, executive judgment must audit.</text>`;
-
-    // 4 strategic decision pills
-    const pillW = (s2W - 18) / 2;
-    const pills = [
-      ['01', 'Base-Rate Audit', 'Kahneman calibration'],
-      ['02', 'Cost Asymmetry', 'False Pos vs False Neg'],
-      ['03', 'Unit Economics', 'Inference $/1k vs labor'],
-      ['04', 'Strategic Move', 'Workflow redesign choice']
-    ];
-    pills.forEach(([num, t1, t2], idx) => {
-      const px = s2X + 6 + (idx % 2) * (pillW + 6);
-      const py = s2Y + 28 + Math.floor(idx / 2) * 24;
-      out += `<rect x="${px}" y="${py}" width="${pillW}" height="20" rx="3" fill="${isDarkCanvas ? 'rgba(255,255,255,0.03)' : 'var(--paper-2)'}" stroke="${mask}"/>`;
-      out += `<text x="${px + 5}" y="${py + 9}" font-family="Archivo, sans-serif" font-weight="700" font-size="6.2" fill="${fg}">${num} · ${t1}</text>`;
-      out += `<text x="${px + 5}" y="${py + 16.5}" font-family="IBM Plex Mono, monospace" font-size="5.2" fill="${label}" opacity="0.8">${t2}</text>`;
-    });
-
-    // Formulas
-    out += `<text x="${s2X + 8}" y="${s2Y + s2H - 7}" font-family="IBM Plex Mono, monospace" font-size="6" fill="${fg}" opacity="0.85">Attention(Q,K,V) = softmax(QKᵀ / √d) V  ·  E[Value] = ∑ P(s) · U(d, s)</text>`;
-    out += `</g>`;
-
-    // Causal mask diagonal boundary
-    const diagPath = [];
-    for (let i = 0; i <= n; i++) {
-      const dx = padLeft + i * cell;
-      const dy = padTop + i * cell;
-      if (i === 0) diagPath.push(`M ${dx} ${dy}`);
-      else diagPath.push(`L ${dx} ${dy - cell} L ${dx} ${dy}`);
-    }
-    out += `<path d="${diagPath.join(' ')}" fill="none" stroke="${fg}" stroke-width="1.2" stroke-dasharray="3 2" opacity="0.6"/>`;
-    out += `<text transform="translate(${padLeft + n * cell - 8}, ${padTop + n * cell - 12}) rotate(-45)" font-family="IBM Plex Mono, monospace" font-size="7" font-weight="600" fill="${fg}" opacity="0.85">CAUSAL MASK (PAST → FUTURE) →</text>`;
-  }
-
-  // Draw cells
-  for (let i = 0; i < n; i++) {
     for (let j = 0; j < n; j++) {
-      const x = padLeft + j * cell;
-      const y = padTop + i * cell;
-
+      const x = pad + j * cell, y = pad + i * cell;
       if (j > i) {
-        // Masked upper cell
-        out += `<circle cx="${x + cell / 2}" cy="${y + cell / 2}" r="1.4" fill="${mask}" opacity="0.45"/>`;
+        out += `<circle cx="${x + cell / 2}" cy="${y + cell / 2}" r="1.6" fill="${mask}"/>`;
         continue;
       }
-
-      const a = weights[i][j];
-      const isHigh = a > 0.65;
-      const cellFill = fg;
-      const interactiveAttr = interactive
-        ? ` class="mat-cell" data-row="${i}" data-col="${j}" data-q="${esc(toks[i])}" data-k="${esc(toks[j])}" data-val="${(a * 100).toFixed(0)}"`
-        : '';
-
-      out += `<rect x="${x + 1.5}" y="${y + 1.5}" width="${cell - 3}" height="${cell - 3}" rx="3" fill="${cellFill}" fill-opacity="${a.toFixed(3)}" stroke="${isDarkCanvas ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.05)'}" stroke-width="0.8"${interactiveAttr}/>`;
-
-      // Percentage label inside cell
-      if (cell >= 34 && a >= 0.28) {
-        const txtColor = a > 0.62 ? '#FFFFFF' : 'rgba(255,255,255,0.75)';
-        out += `<text x="${x + cell / 2}" y="${y + cell / 2 + 2.8}" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="7.5" font-weight="${isHigh ? '600' : '400'}" fill="${txtColor}" pointer-events="none">${(a * 100).toFixed(0)}</text>`;
-      }
+      const a = Math.min(1, (raw[j] / sum) * 2.2 + 0.04);
+      out += `<rect x="${x + 1.5}" y="${y + 1.5}" width="${cell - 3}" height="${cell - 3}" rx="2" fill="${fg}" fill-opacity="${a.toFixed(3)}"/>`;
     }
-
-    // Row label (Query)
-    const isKeyToken = ['analyst', 'replace', 'make', 'ai'].includes(lower[i]);
-    const qWeight = isKeyToken ? '700' : '400';
-    const qColor = isKeyToken ? highlightTokColor : label;
-    const qInteractive = interactive ? ` class="mat-tok mat-q" data-row="${i}"` : '';
-    out += `<text x="${padLeft - 10}" y="${padTop + i * cell + cell / 2 + font / 3}" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="${font}" font-weight="${qWeight}" fill="${qColor}"${qInteractive}>${esc(toks[i])}</text>`;
-
-    // Col label (Key)
-    const kWeight = isKeyToken ? '700' : '400';
-    const kColor = isKeyToken ? highlightTokColor : label;
-    const kInteractive = interactive ? ` class="mat-tok mat-k" data-col="${i}"` : '';
-    out += `<text transform="translate(${padLeft + i * cell + cell / 2 + font / 3}, ${padTop - 12}) rotate(-90)" font-family="IBM Plex Mono, monospace" font-size="${font}" font-weight="${kWeight}" fill="${kColor}"${kInteractive}>${esc(toks[i])}</text>`;
+    out += `<text x="${pad - 10}" y="${pad + i * cell + cell / 2 + font / 3}" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="${font}" fill="${label}">${esc(toks[i])}</text>`;
+    out += `<text transform="translate(${pad + i * cell + cell / 2 + font / 3}, ${pad - 10}) rotate(-90)" font-family="IBM Plex Mono, monospace" font-size="${font}" fill="${label}">${esc(toks[i])}</text>`;
   }
-
-  // System 1 label on bottom
-  out += `<text x="${padLeft}" y="${height - 14}" font-family="Archivo, sans-serif" font-weight="700" font-stretch="90%" font-size="8" letter-spacing="0.14em" fill="${fg}">SYSTEM 1 · STATISTICAL ATTENTION DISTRIBUTION (P(w_t | w_&lt;t))</text>`;
-
-  out += '</svg>';
-  return out;
+  return out + '</svg>';
 }
 
 // Render a loose Markdown snippet as chapter prose (used by the design book's live specimens).
