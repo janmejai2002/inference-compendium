@@ -261,7 +261,7 @@ parts:
           - {title: Responsible AI in hiring (BCG careers), url: https://careers.bcg.com/global/en/careers-in-ai/responsible-ai-in-hiring, tier: B}
           - {title: McKinsey AI-Assisted Interview Privacy Notice, url: https://www.mckinsey.com/ai-assisted-interview-privacy-notice, tier: B}
           - {title: Where McKinsey and Consulting Go From Here (HBR IdeaCast 1060), url: https://hbr.org/podcast/2026/01/where-mckinsey-and-consulting-go-from-here, tier: B}
-        status: planned
+        status: draft
 
   - id: p4
     n: IV

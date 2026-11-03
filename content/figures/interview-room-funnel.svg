@@ -1,0 +1,41 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The AI recruitment funnel and candidate evaluation matrix. On the left, the recruitment pipeline shows AI screening resumes (72% of firms) and assessments (48%) before human partner interviews. On the right, the judgment evaluation rubric tests candidates on prompting, reviewing, challenging, and deciding.">
+  <text class="t-display" x="20" y="26" font-size="15">The Screening Pipeline</text>
+  <text class="t-display" x="350" y="26" font-size="15">The Judgment Rubric in AI Rounds</text>
+
+  <!-- Left: The Recruitment Pipeline -->
+  <rect class="paper acc-s" x="20" y="42" width="300" height="42" rx="4" stroke-width="1.5"/>
+  <text x="32" y="60" font-size="10.5" font-weight="bold">1. AI Resume Parsing (72% of firms)</text>
+  <text x="32" y="74" font-size="9">Keyword extraction, semantic matching, qualification gates</text>
+
+  <rect class="paper acc-s" x="35" y="90" width="270" height="42" rx="4" stroke-width="1.5"/>
+  <text x="47" y="108" font-size="10.5" font-weight="bold">2. Automated Assessments (48%)</text>
+  <text x="47" y="122" font-size="9">Chatbot screening (McKinsey Mia), game-based tests</text>
+
+  <rect class="wash acc-s" x="50" y="138" width="240" height="46" rx="4" stroke-width="2"/>
+  <text class="t-display" x="62" y="158" font-size="11">3. Human Case &amp; Fit Interviews</text>
+  <text x="62" y="172" font-size="9">BCG &amp; McKinsey rule: humans make all final decisions</text>
+
+  <rect class="paper acc-s" x="65" y="190" width="210" height="40" rx="4" stroke-width="1.5"/>
+  <text x="77" y="208" font-size="10" font-weight="bold">4. Final Offer Selection</text>
+  <text x="77" y="220" font-size="8.5" fill="#555">BCG admitted &lt;1% of 1.7M applicants</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="335" x2="335" y1="20" y2="255" stroke-width="1"/>
+
+  <!-- Right: Judgment Rubric -->
+  <rect class="paper acc-s" x="350" y="42" width="270" height="48" rx="4" stroke-width="1.5"/>
+  <text x="362" y="62" font-size="10.5" font-weight="bold">A. Prompt with Context &amp; Constraints</text>
+  <text x="362" y="76" font-size="9">Never ask open questions; state business scope and format</text>
+
+  <rect class="paper acc-s" x="350" y="96" width="270" height="48" rx="4" stroke-width="1.5"/>
+  <text x="362" y="116" font-size="10.5" font-weight="bold">B. Audit Citations &amp; Math</text>
+  <text x="362" y="130" font-size="9">Spot hallucinated data, verify units, recalculate margins</text>
+
+  <rect class="paper acc-s" x="350" y="150" width="270" height="48" rx="4" stroke-width="1.5"/>
+  <text x="362" y="170" font-size="10.5" font-weight="bold">C. Challenge Underlying Logic</text>
+  <text x="362" y="184" font-size="9">Test boundary conditions; ask what must be true to hold</text>
+
+  <rect class="wash acc-s" x="350" y="204" width="270" height="46" rx="4" stroke-width="2"/>
+  <text class="t-display" x="362" y="224" font-size="11">D. Synthesize &amp; Own the Advice</text>
+  <text x="362" y="238" font-size="9">The model generates options; the candidate owns judgment</text>
+</svg>

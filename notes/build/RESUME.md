@@ -6,10 +6,10 @@ Updated 2026-11-02.
 - Step 1: `content/toc.yml` (16 units, explicit n for opener 00 and inserts A/B; render.mjs honours `n`), `docs/TOC-RATIONALE.md`. Questions + seed_sources merged from packets.
 - Step 2: `notes/build/BRIEF.md` (house rules, corrections, NotebookLM notebook map), `notes/build/CHAPTER-TASK.md`, `PACKET-TASK.md`.
 - Step 3: all 16 packets in `notes/build/<id>-packet.md`. Allowlist updated.
-- Drafts committed (12): kinds-of-ai, next-word-machine (+ NotebookLM cross-check), confidently-wrong, delegation-brief, your-documents, models-that-act, judging-output, who-pays, pilots-stall, work-changes, consulting-firm, ai-casebook.
+- Drafts committed (13): kinds-of-ai, next-word-machine (+ NotebookLM cross-check), confidently-wrong, delegation-brief, your-documents, models-that-act, judging-output, who-pays, pilots-stall, work-changes, consulting-firm, ai-casebook, interview-room.
 
 ## Next (handed to Antigravity, 2026-11-02: prompts/04-v1-build-antigravity.md)
-- Order: interview-room, state-of-play, india-briefing, ai-in-one-sitting.
+- Order: state-of-play, india-briefing, ai-in-one-sitting.
 - Then ship (step 3 of prompt 04). main is ahead of origin; push at the end.
 
 ## Friction to log (workflow-scout)
