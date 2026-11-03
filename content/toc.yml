@@ -29,7 +29,7 @@ parts:
           - {title: AI Is Reshaping Jobs Faster Than Companies Are Reshaping Work, url: https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work, tier: B}
           - {title: 'Inside the AI Index: 12 Takeaways from the 2026 Report', url: https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report, tier: A}
           - {title: Large Language Models explained briefly, url: https://www.youtube.com/watch?v=LPZh9BOjkQs, tier: A}
-        status: planned
+        status: draft
 
   - id: p1
     n: I
