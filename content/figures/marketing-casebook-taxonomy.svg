@@ -1,0 +1,41 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The marketing AI casebook taxonomy: The four strategic case archetypes on the left, and the quantitative estimation models on the right.">
+  <text class="t-display" x="20" y="26" font-size="15">Four Strategic Marketing Cases</text>
+  <text class="t-display" x="350" y="26" font-size="15">Four Quantitative Sizing Models</text>
+
+  <!-- Left: 4 Case Archetypes -->
+  <rect class="paper acc-s" x="20" y="42" width="300" height="46" rx="4" stroke-width="1.5"/>
+  <text x="32" y="60" font-size="10.5" font-weight="bold">1. FMCG Indic Voice Commerce</text>
+  <text x="32" y="76" font-size="9">1.2M kirana universe, ASR/TTS unit economics, 25.3x ROI</text>
+
+  <rect class="paper acc-s" x="20" y="94" width="300" height="46" rx="4" stroke-width="1.5"/>
+  <text x="32" y="112" font-size="10.5" font-weight="bold">2. D2C Creative In-Housing Economics</text>
+  <text x="32" y="128" font-size="9">Agency retainer vs. AI engine, creative hit-rate, CAC drop</text>
+
+  <rect class="paper acc-s" x="20" y="146" width="300" height="46" rx="4" stroke-width="1.5"/>
+  <text x="32" y="164" font-size="10.5" font-weight="bold">3. Marketplace Dynamic Coupon Uplift</text>
+  <text x="32" y="180" font-size="9">CATE causal uplift, stopping &#8377;103.6Cr subsidy leakage</text>
+
+  <rect class="paper acc-s" x="20" y="198" width="300" height="46" rx="4" stroke-width="1.5"/>
+  <text x="32" y="216" font-size="10.5" font-weight="bold">4. Telecom Churn &amp; Retention Outreach</text>
+  <text x="32" y="232" font-size="9">XGBoost risk scoring, &#8377;1.80 voice bot vs. &#8377;180 call centre</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="335" x2="335" y1="20" y2="255" stroke-width="1"/>
+
+  <!-- Right: 4 Guesstimates -->
+  <rect class="paper acc-s" x="350" y="42" width="270" height="46" rx="4" stroke-width="1.5"/>
+  <text x="362" y="60" font-size="10.5" font-weight="bold">Guesstimate 1: Creative Personalization</text>
+  <text x="362" y="76" font-size="9">1.2B impressions: Modular compositing (&#8377;3.08L) vs. $48M API</text>
+
+  <rect class="paper acc-s" x="350" y="94" width="270" height="46" rx="4" stroke-width="1.5"/>
+  <text x="362" y="112" font-size="10.5" font-weight="bold">Guesstimate 2: Bayesian MMM Budgeting</text>
+  <text x="362" y="128" font-size="9">&#8377;60Cr budget, Hill saturation &amp; marginal ROAS equalization</text>
+
+  <rect class="paper acc-s" x="350" y="146" width="270" height="46" rx="4" stroke-width="1.5"/>
+  <text x="362" y="164" font-size="10.5" font-weight="bold">Guesstimate 3: Synthetic Focus Groups</text>
+  <text x="362" y="180" font-size="9">1,000 FGDs: &#8377;2.53L in 35 min vs. &#8377;5.64Cr in 4.5 months</text>
+
+  <rect class="wash acc-s" x="350" y="198" width="270" height="46" rx="4" stroke-width="2"/>
+  <text class="t-display" x="362" y="216" font-size="10.5">Guesstimate 4: Creative Fatigue Decay</text>
+  <text x="362" y="232" font-size="9">Frequency accumulation, CTR decay, &gt;2,000x refresh ROI</text>
+</svg>

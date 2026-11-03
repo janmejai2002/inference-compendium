@@ -265,6 +265,37 @@ parts:
 
   - id: p4
     n: IV
+    title: Marketing & Brand Strategy
+    track: marketing
+    deck: Generative creative at scale, synthetic consumer panels, modern attribution, and the brand safety frontier.
+    chapters:
+      - id: creative-at-scale
+        title: "Creative at scale: production, localization, and agency economics"
+        deck: "Virtual studios, localized video across 22 Indic languages, the collapse of digital asset marginal cost, and the agency retainer model."
+        tracks: [marketing]
+        prereq: [next-word-machine, kinds-of-ai]
+        status: draft
+      - id: synthetic-audiences-and-attribution
+        title: "Synthetic panels, MMM, and modern marketing measurement"
+        deck: "LLMs as focus groups, algorithmic homophily traps, Bayesian Media Mix Modeling (Meridian & Robyn), and predictive customer lifetime value."
+        tracks: [marketing]
+        prereq: [judging-output, creative-at-scale]
+        status: draft
+      - id: brand-safety-boundary
+        title: "The brand safety boundary: hallucinations, IP, and consumer trust"
+        deck: "Trademark liabilities, toxic synthetic outputs, deepfake brand hijacking, ASCI regulatory guidelines, and consumer backlash."
+        tracks: [marketing]
+        prereq: [confidently-wrong, judging-output]
+        status: draft
+      - id: marketing-casebook
+        title: "The Marketing AI casebook & interview room"
+        deck: "Eight end-to-end marketing cases and estimation problems across FMCG, D2C, E-commerce, and Quick-Commerce, each with a model answer."
+        tracks: [marketing]
+        prereq: [creative-at-scale, synthetic-audiences-and-attribution, brand-safety-boundary]
+        status: draft
+
+  - id: p5
+    n: V
     title: Inserts
     track: strategy
     deck: Short, dated pages that the web edition replaces every term.

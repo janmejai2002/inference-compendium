@@ -1,0 +1,72 @@
+<svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="End-to-end pipeline of generative creative at scale. Master 3D digital twins and prompt seeds pass through diffusion video rendering, Indic speech synthesis with lip-sync, an automated brand safety and ASCI regulatory gate, and finally into algorithmic ad auction networks.">
+  <text x="24" y="24" font-size="11" class="ink">END-TO-END GENERATIVE CREATIVE PIPELINE</text>
+  
+  <!-- Step 1: Master Twin -->
+  <rect class="wash" x="20" y="38" width="105" height="58"/>
+  <rect class="ink-s" x="20" y="38" width="105" height="58" fill="none" stroke-width="1"/>
+  <text x="72" y="60" text-anchor="middle" font-size="12" class="t-display ink">Master Twin</text>
+  <text x="72" y="76" text-anchor="middle" font-size="9" class="ink">3D CAD / OpenUSD</text>
+  <text x="72" y="87" text-anchor="middle" font-size="9" class="ink">product mesh</text>
+
+  <!-- Arrow 1 -> 2 -->
+  <line class="ink-s" x1="125" y1="67" x2="143" y2="67" stroke-width="1.5"/>
+  <polygon class="ink" points="147,67 141,63 141,71"/>
+
+  <!-- Step 2: Generative Video -->
+  <rect class="wash" x="147" y="38" width="105" height="58"/>
+  <rect class="ink-s" x="147" y="38" width="105" height="58" fill="none" stroke-width="1"/>
+  <text x="200" y="60" text-anchor="middle" font-size="12" class="t-display ink">Diffusion Video</text>
+  <text x="200" y="76" text-anchor="middle" font-size="9" class="ink">LoRA scene render</text>
+  <text x="200" y="87" text-anchor="middle" font-size="9" class="ink">modular video hooks</text>
+
+  <!-- Arrow 2 -> 3 -->
+  <line class="ink-s" x1="252" y1="67" x2="270" y2="67" stroke-width="1.5"/>
+  <polygon class="ink" points="274,67 268,63 268,71"/>
+
+  <!-- Step 3: Indic Speech -->
+  <rect class="wash" x="274" y="38" width="105" height="58"/>
+  <rect class="ink-s" x="274" y="38" width="105" height="58" fill="none" stroke-width="1"/>
+  <text x="326" y="60" text-anchor="middle" font-size="12" class="t-display ink">Indic Speech</text>
+  <text x="326" y="76" text-anchor="middle" font-size="9" class="ink">Sarvam Bulbul TTS</text>
+  <text x="326" y="87" text-anchor="middle" font-size="9" class="ink">22 Indic dialects</text>
+
+  <!-- Arrow 3 -> 4 -->
+  <line class="ink-s" x1="379" y1="67" x2="397" y2="67" stroke-width="1.5"/>
+  <polygon class="ink" points="401,67 395,63 395,71"/>
+
+  <!-- Step 4: Safety & ASCI -->
+  <rect class="wash" x="401" y="38" width="105" height="58"/>
+  <rect class="ink-s" x="401" y="38" width="105" height="58" fill="none" stroke-width="1"/>
+  <text x="453" y="60" text-anchor="middle" font-size="12" class="t-display ink">Safety Gate</text>
+  <text x="453" y="76" text-anchor="middle" font-size="9" class="ink">ASCI disclosure</text>
+  <text x="453" y="87" text-anchor="middle" font-size="9" class="ink">brand guardrails</text>
+
+  <!-- Arrow 4 -> 5 -->
+  <line class="ink-s" x1="506" y1="67" x2="524" y2="67" stroke-width="1.5"/>
+  <polygon class="ink" points="528,67 522,63 522,71"/>
+
+  <!-- Step 5: Ad Networks -->
+  <rect class="acc" x="528" y="38" width="95" height="58"/>
+  <text x="575" y="60" text-anchor="middle" font-size="12" class="t-display paper">Ad Delivery</text>
+  <text x="575" y="76" text-anchor="middle" font-size="9" class="paper">Meta Advantage+</text>
+  <text x="575" y="87" text-anchor="middle" font-size="9" class="paper">Google PMax</text>
+
+  <!-- Feedback / Wearout loop -->
+  <polyline class="ink-s" points="575,96 575,138 200,138 200,98" fill="none" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <polygon class="ink" points="200,96 196,102 204,102"/>
+  <text x="387" y="132" text-anchor="middle" font-size="9.5" class="ink">Performance signal feedback (CTR decay &amp; creative fatigue trigger automated refresh)</text>
+
+  <!-- Explanatory footer rule -->
+  <line class="rule-s" x1="20" x2="623" y1="162" y2="162" stroke-width="1"/>
+  <circle class="mk" cx="30" cy="180" r="8"/>
+  <text x="30" y="183" text-anchor="middle" font-size="10" class="ink">1</text>
+  <text x="45" y="183" font-size="10" class="ink">Single master 3D mesh cuts studio reshoots</text>
+
+  <circle class="mk" cx="240" cy="180" r="8"/>
+  <text x="240" y="183" text-anchor="middle" font-size="10" class="ink">2</text>
+  <text x="255" y="183" font-size="10" class="ink">Regional TTS replaces voice talent</text>
+
+  <circle class="mk" cx="445" cy="180" r="8"/>
+  <text x="445" y="183" text-anchor="middle" font-size="10" class="ink">3</text>
+  <text x="460" y="183" font-size="10" class="ink">Selection bottleneck at ad auction</text>
+</svg>

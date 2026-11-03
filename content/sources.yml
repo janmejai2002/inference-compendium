@@ -1532,3 +1532,81 @@ openai-gpt6-1-sol:
   tier: A
   why: "Source for GPT-6.1 Sol delivering near-Astra intelligence for a fifth of the price."
   verified: true
+
+google-meridian:
+  type: paper
+  title: "Meridian: An Open-Source Bayesian Media Mix Model"
+  creator: "Google Marketing Science"
+  publisher: "Google Research"
+  year: 2024
+  url: https://github.com/google/meridian
+  tier: A
+  why: "Google's open-source Bayesian media mix modeling framework incorporating geo-hierarchical data, reach and frequency transformations, and experimental prior calibration."
+  verified: false
+
+meta-robyn:
+  type: paper
+  title: "Robyn: Automated Marketing Mix Modeling (MMM) with Multi-Objective Evolutionary Optimization"
+  creator: "Meta Marketing Science (Gershkovich, Skokan, Wang, Lares)"
+  publisher: "Meta Open Source"
+  year: 2021
+  url: https://facebookexperimental.github.io/Robyn/
+  tier: A
+  why: "Meta's open-source MMM framework utilizing Nevergrad for multi-objective Pareto optimization across model fit and experimental calibration."
+  verified: false
+
+unilever-digital-twins:
+  type: article
+  title: "Unilever Scales Digital Twins Across Global Manufacturing Network with Accenture"
+  creator: "Accenture & Unilever"
+  publisher: "Accenture Newsroom"
+  year: 2026
+  url: https://newsroom.accenture.com/news/2026/unilever-scales-digital-twins-across-global-manufacturing-network-with-accenture
+  tier: B
+  why: "Details Unilever's deployment of over 500 AI applications and 40+ virtual digital twins to halve creative production costs and accelerate supply chain execution."
+  verified: false
+
+argyle-out-of-one-many:
+  type: paper
+  title: "Out of One, Many: Using Language Models to Simulate Human Samples"
+  creator: "Lisa P. Argyle, Ethan C. Busby, Nancy Fulda, Joshua R. Gubler, Christopher M. Rytting, David Wingate"
+  publisher: "Political Analysis (arXiv:2209.06899)"
+  year: 2023
+  url: https://arxiv.org/abs/2209.06899
+  tier: A
+  why: "The foundational empirical paper establishing algorithmic fidelity in language models conditioned on rich demographic prompts to simulate human sub-populations."
+  verified: false
+
+horton-homo-silicus:
+  type: paper
+  title: "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?"
+  creator: "John J. Horton"
+  publisher: "National Bureau of Economic Research (NBER Working Paper 31122)"
+  year: 2023
+  url: https://www.nber.org/papers/w31122
+  tier: A
+  why: "Seminal economic paper modeling LLMs as simulated consumers ('Homo silicus') to test price elasticity, willingness-to-pay, and behavioral biases."
+  verified: false
+
+brand-llm-market-research:
+  type: paper
+  title: "Using LLMs for Market Research"
+  creator: "James Brand, Ayelet Israeli, Donald Ngwe"
+  publisher: "Harvard Business School Working Paper 23-062"
+  year: 2023
+  url: https://www.hbs.edu/faculty/Pages/item.aspx?num=64041
+  tier: A
+  why: "HBS empirical study evaluating language models for consumer conjoint analysis, willingness-to-pay estimation, and customer brand perception."
+  verified: false
+
+asci-genai-guidelines:
+  type: report
+  title: "Guidelines for Responsible Labelling of Synthetically Generated Content in Advertising"
+  creator: "Advertising Standards Council of India (ASCI)"
+  publisher: "ASCI"
+  year: 2024
+  url: https://ascionline.in/
+  tier: A
+  why: "The official Indian regulatory self-regulatory standard mandating prominent disclosures for synthetic influencers and AI-generated commercial media."
+  verified: false
+

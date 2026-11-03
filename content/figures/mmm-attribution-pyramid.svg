@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Modern Marketing Measurement Architecture: a three-tier hierarchy showing Bayesian Media Mix Modeling at the base for macro capital allocation, randomized geo-lift experiments in the middle for causal calibration, and platform bidding algorithms at the top for tactical execution.">
+  <!-- Header / Title -->
+  <rect class="wash" x="140" y="8" width="360" height="36" rx="4"/>
+  <text class="t-display" x="320" y="31" text-anchor="middle" font-size="15">The Modern Marketing Measurement Stack</text>
+
+  <!-- Left Altitude Axis -->
+  <path class="ink-s" d="M 50 270 V 65" fill="none" stroke-width="1.5"/>
+  <path class="ink" d="M 46 73 L 50 63 L 54 73 Z"/>
+  <text x="45" y="165" text-anchor="middle" font-size="10" transform="rotate(-90 45 165)">DECISION CADENCE &amp; STRATEGIC ALTITUDE</text>
+
+  <!-- Top Tier: In-Platform Machine Learning -->
+  <polygon class="paper rule-s" points="320,58 230,122 410,122" stroke-width="1.2"/>
+  <text class="t-display acc" x="320" y="90" text-anchor="middle" font-size="12">In-Platform ML</text>
+  <text x="320" y="105" text-anchor="middle" font-size="9.5">Advantage+ · Performance Max</text>
+  <text x="320" y="116" text-anchor="middle" font-size="8.5">Real-time auction bids (Hourly / Daily)</text>
+
+  <!-- Middle Tier: Incrementality & Geo-Testing -->
+  <polygon class="wash ink-s" points="225,128 415,128 475,200 165,200" stroke-width="1.5"/>
+  <text class="t-display" x="320" y="152" text-anchor="middle" font-size="13">Randomized Geo-Lift Experiments</text>
+  <text x="320" y="170" text-anchor="middle" font-size="10">Matched-market holdouts · A/B cell testing</text>
+  <text class="acc" x="320" y="186" text-anchor="middle" font-size="9.5">Causal ground truth for Bayesian priors (Monthly)</text>
+
+  <!-- Base Tier: Bayesian Media Mix Modeling -->
+  <polygon class="paper acc-s" points="160,206 480,206 550,286 90,286" stroke-width="2"/>
+  <text class="t-display" x="320" y="232" text-anchor="middle" font-size="14">Bayesian Media Mix Modeling (MMM)</text>
+  <text x="320" y="251" text-anchor="middle" font-size="10.5">Google Meridian · Meta Robyn</text>
+  <text x="320" y="267" text-anchor="middle" font-size="9.5">Adstock carryover · Hill saturation · Macro baseline controls</text>
+  <text class="acc" x="320" y="280" text-anchor="middle" font-size="9">Cross-channel budget allocation (Quarterly / Annual)</text>
+
+  <!-- Right Descriptive Annotations -->
+  <!-- Top annotation -->
+  <line class="rule-s" x1="415" y1="90" x2="480" y2="90" stroke-dasharray="3,3"/>
+  <text x="488" y="88" text-anchor="start" font-size="9">Tactical targeting</text>
+  <text x="488" y="100" text-anchor="start" font-size="8.5" fill="#888">High attribution bias</text>
+
+  <!-- Middle annotation -->
+  <line class="rule-s" x1="480" y1="165" x2="525" y2="165" stroke-dasharray="3,3"/>
+  <text x="532" y="162" text-anchor="start" font-size="9">Incrementality anchor</text>
+  <text x="532" y="174" text-anchor="start" font-size="8.5" fill="#888">Isolates organic lift</text>
+
+  <!-- Bottom annotation -->
+  <line class="rule-s" x1="555" y1="245" x2="585" y2="245" stroke-dasharray="3,3"/>
+  <text x="590" y="242" text-anchor="start" font-size="9">Capital steering</text>
+  <text x="590" y="254" text-anchor="start" font-size="8.5" fill="#888">Top-down macro ROI</text>
+
+  <!-- Bottom baseline rule -->
+  <line class="rule-s" x1="60" x2="610" y1="300" y2="300" stroke-width="1"/>
+  <text x="320" y="313" text-anchor="middle" font-size="9">Privacy-safe: aggregates store and geo data without third-party cookies or user-level device tracking</text>
+</svg>

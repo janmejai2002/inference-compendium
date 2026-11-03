@@ -1,0 +1,68 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The four-tier conversational brand safety architecture. Inbound queries pass through semantic jailbreak filters, grounded RAG retrieval, output compliance classifiers, and deterministic human escalation triggers.">
+  <text class="t-display" x="20" y="28" font-size="16">The Four-Tier Brand Safety Guardrail Stack</text>
+  <text class="t-display" x="430" y="28" font-size="16">Failsafe Escalation</text>
+
+  <!-- Left: Guardrail Stack -->
+  <!-- Layer 1: Inbound Firewall -->
+  <rect class="paper acc-s" x="20" y="46" width="370" height="52" rx="4" stroke-width="2"/>
+  <text x="35" y="68" font-size="12" font-weight="bold">Layer 1: Pre-Inference Semantic Firewall</text>
+  <text x="35" y="86" font-size="10">Jailbreak detection · Regex blocklists · PII masking (Aadhaar, PAN) · Intent filter</text>
+
+  <!-- Arrow down -->
+  <path class="ink-s" d="M205 98 V110" fill="none" stroke-width="1.5"/>
+  <path class="ink" d="M202 108 L205 113 L208 108 Z"/>
+
+  <!-- Layer 2: Grounded Inference -->
+  <rect class="paper acc-s" x="20" y="114" width="370" height="52" rx="4" stroke-width="2"/>
+  <text x="35" y="136" font-size="12" font-weight="bold">Layer 2: Grounded RAG with Zero-Shot Refusal</text>
+  <text x="35" y="154" font-size="10">Audited policy corpus · Temperature = 0.0 · Mandatory citation · No extrapolation</text>
+
+  <!-- Arrow down -->
+  <path class="ink-s" d="M205 166 V178" fill="none" stroke-width="1.5"/>
+  <path class="ink" d="M202 176 L205 181 L208 176 Z"/>
+
+  <!-- Layer 3: Post-Inference Classifier -->
+  <rect class="paper acc-s" x="20" y="182" width="370" height="52" rx="4" stroke-width="2"/>
+  <text x="35" y="204" font-size="12" font-weight="bold">Layer 3: Output Compliance &amp; Hallucination Audit</text>
+  <text x="35" y="222" font-size="10">Contractual promise filter (discounts/rates) · Competitor audit · Toxicity check</text>
+
+  <!-- Arrow down -->
+  <path class="ink-s" d="M205 234 V246" fill="none" stroke-width="1.5"/>
+  <path class="ink" d="M202 244 L205 249 L208 244 Z"/>
+
+  <!-- Safe Delivery Box -->
+  <rect class="wash acc-s" x="20" y="250" width="370" height="48" rx="4" stroke-width="2"/>
+  <text x="205" y="272" text-anchor="middle" font-size="12" font-weight="bold">Verified Safe Output Delivery</text>
+  <text x="205" y="288" text-anchor="middle" font-size="10">Delivered to consumer touchpoint (WhatsApp / App / Web)</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="410" x2="410" y1="20" y2="298" stroke-width="1"/>
+
+  <!-- Right: Breach & Escalation -->
+  <!-- Layer 4: Human Escalation Trigger -->
+  <rect class="wash acc-s" x="430" y="46" width="190" height="90" rx="4" stroke-width="2"/>
+  <text class="t-display" x="525" y="72" text-anchor="middle" font-size="13">Layer 4: Deterministic</text>
+  <text class="t-display" x="525" y="90" text-anchor="middle" font-size="13">Human Escalation</text>
+  <text x="525" y="110" text-anchor="middle" font-size="10">Confidence score &lt; 0.95</text>
+  <text x="525" y="124" text-anchor="middle" font-size="10">High user agitation / legal trigger</text>
+
+  <!-- Out-of-bounds rejection -->
+  <rect class="paper rule-s" x="430" y="150" width="190" height="70" rx="4" stroke-width="1"/>
+  <text x="525" y="174" text-anchor="middle" font-size="11" font-weight="bold">Hard-Coded Safe Refusal</text>
+  <text x="525" y="192" text-anchor="middle" font-size="10">"I cannot discuss loans or rates."</text>
+  <text x="525" y="206" text-anchor="middle" font-size="10">Routes to human representative</text>
+
+  <!-- Audit & Inspection -->
+  <rect class="paper rule-s" x="430" y="234" width="190" height="64" rx="4" stroke-width="1"/>
+  <text x="525" y="256" text-anchor="middle" font-size="11" font-weight="bold">Immutable Audit Log</text>
+  <text x="525" y="274" text-anchor="middle" font-size="9">Every token stored for regulatory</text>
+  <text x="525" y="288" text-anchor="middle" font-size="9">inspection (RBI FREE-AI compliance)</text>
+
+  <!-- Lateral arrows to escalation -->
+  <path class="ink-s" d="M390 72 H425" fill="none" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <path class="ink" d="M420 69 L425 72 L420 75 Z"/>
+  <path class="ink-s" d="M390 140 H425" fill="none" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <path class="ink" d="M420 137 L425 140 L420 143 Z"/>
+  <path class="ink-s" d="M390 208 H425" fill="none" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <path class="ink" d="M420 205 L425 208 L420 211 Z"/>
+</svg>
