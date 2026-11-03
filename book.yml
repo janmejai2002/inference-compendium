@@ -15,7 +15,7 @@ publisher: Compiled by Janmejai Singh Minhas and Chaitanya Sharma
 online_url: https://janmejai2002.github.io/inference-compendium/
 license: Free to share with attribution. Not for sale.
 cover_sentence: "Will AI replace the analyst or make the analyst ?"   # tokens on the cover attention matrix
-back_blurb: "Every B-school recruiter now asks about AI. Most compendiums still don't teach it. This one starts from first principles and ends in the interview room."
+back_blurb: "Every recruiter asks about AI, but no syllabus teaches the actual machinery—this compendium starts from first principles and ends in the interview room."
 
 # Placement tracks. Colours live in design/tokens.css as --t-<id>.
 tracks:

@@ -92,14 +92,14 @@ function coverHtml(ctx) {
     </div>
   </a>` : '';
   return `<section class="cover">
-  <div class="masthead"><span>Monograph 01</span><span>First principles</span><span>${esc(book.edition)}</span></div>
+  <div class="masthead"><span>${esc(book.title)} · ${esc(book.subtitle)}</span><span>${esc(book.edition)}</span></div>
   <h1 class="title">${esc(book.title)}<span>${esc(book.title_accent || '')}</span></h1>
   <div class="byline">Curated & compiled by ${formatAuthors(book, { format: 'print-links' })}</div>
   <div class="matrix">${attentionMatrix(book.cover_sentence, { cell: 46, font: 12 })}</div>
-  <div class="tracks">${book.tracks.map((t) => `<span style="background: var(--t-${t.id})"></span>`).join('')}</div>
+  <div class="tracks">${book.tracks.map((t) => `<div class="track-tab"><span class="track-name">${esc(t.name)}</span><span class="track-bar" style="background: var(--t-${t.id})"></span></div>`).join('')}</div>
   <p class="sub">${esc(book.back_blurb)}</p>
   ${qrHtml}
-  <div class="foot"><span>${esc(book.edition)}</span><span>Compiled by ${formatAuthors(book, { format: 'print-links' })}</span></div>
+  <div class="foot"><span>${esc(book.edition)}</span><span>${esc(book.license)}</span></div>
 </section>`;
 }
 
