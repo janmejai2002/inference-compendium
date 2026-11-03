@@ -9,7 +9,7 @@ Updated 2026-11-02.
 - Drafts committed (16): kinds-of-ai, next-word-machine (+ NotebookLM cross-check), confidently-wrong, delegation-brief, your-documents, models-that-act, judging-output, who-pays, pilots-stall, work-changes, consulting-firm, ai-casebook, interview-room, state-of-play, india-briefing, ai-in-one-sitting.
 
 ## Next (handed to Antigravity, 2026-11-02: prompts/04-v1-build-antigravity.md)
-- Ship (step 3 of prompt 04): npm run check, npm run pdf, verify pages, copy to editions/INFERENCE-v1-draft.pdf, update STATUS.md and workflow-log.md, commit and push.
+- Complete: v1 draft shipped (14 units + 2 inserts, 250 pages, zero errors, committed and pushed).
 
 ## Friction to log (workflow-scout)
 - agent-reach YouTube 429s all session; yt-dlp auto-captions worked.

@@ -22,3 +22,11 @@ Agents append what they notice (see `.claude/skills/workflow-scout/SKILL.md`). N
 - seen: session restart killed 3 background jobs; scripts lived in the temp scratchpad → copied pipeline + results into `notes/toc/evidence/videos/` and `evidence/`. Still a candidate: `scripts/research/` + npm entries (needs approval, see PLAN-next.md §B).
 - seen: Gemini synthesis (agy, Flash High) had 3 factual errors in 220 lines; sub-agent ✓ claims never spot-checked → verifier pass proposed (PLAN-next.md §B1).
 - user: edits notes in Zed/Notepad mid-session; Git Bash eats backslashes in `! zed notes\toc\...` → use forward slashes.
+
+## 2026-11-03 · v1 build (Antigravity session)
+- friction: agent-reach YouTube 429s all session; yt-dlp auto-captions worked.
+- friction: Video-scorer `marks` were often wrong (delegation-brief: 5 of 6 off); always re-check in transcript.
+- friction: agy runs take 150-250 s; run in background, capture full output.
+- friction: NotebookLM relogin needs a notebooklm.google.com tab open in Brave before `nlm login`.
+- friction: Unquoted colons in YAML (`why:`, template `deck:`) broke the registry and `npm run new`.
+- result: All 14 units + 2 inserts drafted and verified. Full 250-page print/web/pdf build succeeded with zero errors.
