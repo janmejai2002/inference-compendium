@@ -154,13 +154,11 @@ $$\text{System Success Rate} = p^n$$
 
 Where $p$ is the per-step accuracy and $n$ is the number of dependent execution steps. Even if every individual tool call and extraction step achieves an impressive 95% accuracy ($p = 0.95$), a twelve-step workflow succeeds only 54% of the time ($0.95^{12} \approx 0.540$). Nearly half of all multi-step transactions will fail, corrupt enterprise records, or trigger unhandled execution loops without human intervention.
 
-```
-Step Accuracy (p) │ 3 Steps (p^3) │ 6 Steps (p^6) │ 12 Steps (p^12) │ 20 Steps (p^20)
-──────────────────┼───────────────┼───────────────┼─────────────────┼─────────────────
-90% (0.90)        │ 72.9%         │ 53.1%         │ 28.2%           │ 12.2%
-95% (0.95)        │ 85.7%         │ 73.5%         │ 54.0%           │ 35.8%
-99% (0.99)        │ 97.0%         │ 94.1%         │ 88.6%           │ 81.8%
-```
+| Step Accuracy ($p$) | 3 Steps ($p^3$) | 6 Steps ($p^6$) | 12 Steps ($p^{12}$) | 20 Steps ($p^{20}$) |
+| :--- | :--- | :--- | :--- | :--- |
+| **90% (0.90)** | 72.9% | 53.1% | 28.2% | 12.2% |
+| **95% (0.95)** | 85.7% | 73.5% | 54.0% | 35.8% |
+| **99% (0.99)** | 97.0% | 94.1% | 88.6% | 81.8%|
 
 ### The security threat: prompt injection
 Unlike traditional software, where program executable instructions and user data reside in separate memory channels, large language models process instructions and external data in the exact same natural language stream.

@@ -354,7 +354,7 @@ The following market-sizing and infrastructure estimations illustrate how to app
 ### Guesstimate 10: Capital Outlay to Build a 50 MW Sovereign AI Data Centre in Navi Mumbai
 - **Objective:** Estimate the total capital expenditure (capex) required to construct a 50-megawatt (MW) high-density AI data centre facility in the Navi Mumbai technology corridor.
 - **Decomposition Tree:**
-  $$\text{Total Capex} = \text{Land & Core Building} + \text{Electrical Substation Infrastructure} + \text{Liquid Cooling Plant} + \text{Fit-Out Overhead}$$
+  $$\text{Total Capex} = \text{Land \& Core Building} + \text{Electrical Substation Infrastructure} + \text{Liquid Cooling Plant} + \text{Fit-Out Overhead}$$
 - **Step-by-Step Calculation:**
   1. *Energized Capacity Anchor:* 50 megawatts of utility power provisioning.
   2. *Unit Capital Cost Assumption (Candidate Assumption):* In commercial infrastructure modeling, developing tier-3 high-density AI data centre facilities typically requires between $7.5 million and $9.0 million per energized megawatt (excluding tenant-supplied GPU servers). Assume a working midpoint of $8.25 million per MW (approx. ₹69.3 crore per MW at ₹84/USD).

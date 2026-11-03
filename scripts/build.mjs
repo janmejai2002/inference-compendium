@@ -18,6 +18,19 @@ const CSS = ['tokens', 'components', 'web', 'print', 'specimen'];
 function copyAssets() {
   fs.mkdirSync(path.join(DIST, 'css'), { recursive: true });
   for (const f of CSS) fs.copyFileSync(path.join(ROOT, 'design', `${f}.css`), path.join(DIST, 'css', `${f}.css`));
+  // Copy KaTeX CSS & fonts for mathematical formulas
+  const katexDist = path.join(ROOT, 'node_modules', 'katex', 'dist');
+  if (fs.existsSync(katexDist)) {
+    fs.copyFileSync(path.join(katexDist, 'katex.min.css'), path.join(DIST, 'css', 'katex.min.css'));
+    const fontSrc = path.join(katexDist, 'fonts');
+    const fontDst = path.join(DIST, 'css', 'fonts');
+    if (fs.existsSync(fontSrc)) {
+      fs.mkdirSync(fontDst, { recursive: true });
+      for (const font of fs.readdirSync(fontSrc)) {
+        fs.copyFileSync(path.join(fontSrc, font), path.join(fontDst, font));
+      }
+    }
+  }
   fs.mkdirSync(path.join(DIST, 'js'), { recursive: true });
   fs.copyFileSync(path.join(ROOT, 'node_modules', 'pagedjs', 'dist', 'paged.polyfill.js'), path.join(DIST, 'js', 'paged.polyfill.js'));
 }
@@ -33,6 +46,7 @@ export function shell({ title, css, body, rel = '', bodyClass = '', extraHead = 
 <title>${esc(title)}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="${FONTS}">
+<link rel="stylesheet" href="${rel}css/katex.min.css">
 ${css.map((c) => `<link rel="stylesheet" href="${rel}css/${c}.css">`).join('\n')}
 ${extraHead}
 </head>

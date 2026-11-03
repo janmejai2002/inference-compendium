@@ -97,20 +97,64 @@ mark, .prose mark {
 a.term { color: inherit; }
 
 /* Tables — comparison grids */
+.table-wrap {
+  overflow-x: auto;
+  margin: 1.4em 0 1.6em;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--paper-1);
+}
 .prose table {
-  width: 100%; border-collapse: collapse; margin: 1.2em 0 1.4em;
+  width: 100%; border-collapse: collapse; margin: 0;
   font-family: var(--f-text); font-size: .88em; line-height: 1.4;
   font-variant-numeric: tabular-nums lining-nums;
 }
 .prose thead th {
   font-family: var(--f-display); font-stretch: 110%; font-weight: 700;
-  font-size: var(--s-micro); letter-spacing: .1em; text-transform: uppercase;
+  font-size: var(--s-micro); letter-spacing: .08em; text-transform: uppercase;
   text-align: left; color: var(--ink-2);
-  border-bottom: 2px solid var(--rule-strong); padding: .5em .6em .45em 0;
+  background: var(--paper-2);
+  border-bottom: 2px solid var(--rule-strong); padding: .6em .8em .55em .8em;
 }
-.prose td { border-bottom: 1px solid var(--rule); padding: .55em .6em .55em 0; vertical-align: top; }
+.prose td {
+  border-bottom: 1px solid var(--rule);
+  padding: .6em .8em .6em .8em;
+  vertical-align: middle;
+}
+.prose tbody tr:last-child td {
+  border-bottom: none;
+}
+.prose tbody tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.02);
+}
 .prose td:first-child { font-weight: 600; }
-.table-wrap { overflow-x: auto; }
+
+/* Formulas and mathematical equations */
+.formula {
+  margin: 1.3em 0 1.5em;
+  padding: 0.5em 0;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.formula .katex-display {
+  margin: 0;
+}
+.katex {
+  font-size: 1.05em;
+  color: var(--ink-1);
+}
+.formula .katex {
+  font-size: 1.15em;
+}
+.formula.err {
+  font-family: var(--f-mono);
+  font-size: .85em;
+  color: var(--accent);
+  background: var(--paper-2);
+  padding: .5em;
+  border-radius: 3px;
+}
 
 .prose code { font-family: var(--f-mono); font-size: .86em; background: var(--paper-2); padding: .08em .3em; }
 .prose blockquote {

@@ -8,6 +8,7 @@ import MarkdownIt from 'markdown-it';
 import container from 'markdown-it-container';
 import mark from 'markdown-it-mark';
 import QRCode from 'qrcode';
+import katex from 'katex';
 import { fileURLToPath } from 'node:url';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -151,6 +152,36 @@ function preprocess(state, body) {
   const seenTerms = new Set();
   // Strip leading ∴ in numbered conclusion steps in principle blocks (CSS ::before badge renders the ∴)
   body = body.replace(/(:::\s*principle[\s\S]*?)(^\s*\d+\.\s*)∴\s*/gm, '$1$2');
+
+  // Mathematical formulas:
+  // 1. Display math: $$ ... $$
+  body = body.replace(/\$\$([\s\S]+?)\$\$/g, (_, math) => {
+    try {
+      const rendered = katex.renderToString(math.trim(), {
+        displayMode: true,
+        throwOnError: false,
+        strict: 'ignore'
+      });
+      return `\n\n<div class="formula">${rendered}</div>\n\n`;
+    } catch {
+      return `\n\n<div class="formula"><pre class="math-raw">${esc(math)}</pre></div>\n\n`;
+    }
+  });
+
+  // 2. Inline math: $ ... $ (excluding financial figures like $50 billion or $20.00)
+  body = body.replace(/(?<=^|[\s(])\$(?!\$)([^\$\n]+?)(?<![\s\\])\$(?=[\s,.;:!?)\]]|$)/g, (full, math) => {
+    // Skip if it looks like plain currency (e.g., "50 billion", "20.00", "500 million", "2 per million")
+    if (/^\d+(?:\.\d+)?\s*(?:billion|million|k|trillion|percent|%|per\s+million)?$/i.test(math.trim())) return full;
+    try {
+      return katex.renderToString(math.trim(), {
+        displayMode: false,
+        throwOnError: false,
+        strict: 'ignore'
+      });
+    } catch {
+      return full;
+    }
+  });
   body = body.replace(/^\{\{\s*(watch|read|paper|listen|media)\s+([\w-]+)\s*\}\}\s*$/gm, (_, _k, id) => {
     const s = sources[id];
     if (!s) { state.problems.push(`unknown source "${id}"`); return `<p class="mono">missing source: ${esc(id)}</p>`; }
