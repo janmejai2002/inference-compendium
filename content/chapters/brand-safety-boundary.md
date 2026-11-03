@@ -130,8 +130,8 @@ Direct prompt injection attacks represent the conversational equivalent of brand
 
 When a public chatbot possesses all three capabilities, an external attacker can supply an indirect prompt injection that commands the system to exfiltrate private records, broadcast unauthorized corporate announcements, or defame partners. ==When an automated consumer agent combines access to internal customer databases with unconstrained outbound messaging, it satisfies the lethal trifecta and becomes an open target for adversarial brand hijacking.==
 
-::: stat ₹100 crore equity shock in 20 minutes
-When an unconstrained conversational agent makes an unauthorized contractual promise or a synthetic deepfake of a corporate executive spreads across social channels, immediate equity impairment outpaces legal and communications containment teams.
+::: stat ₹100 crore
+Equity impairment in under 20 minutes when an unconstrained conversational agent makes an unauthorized contractual promise or a synthetic deepfake of a corporate executive spreads across social channels, outpacing legal and crisis response teams.
 <span class="src">Source: [@asci-genai-guidelines]</span>
 :::
 

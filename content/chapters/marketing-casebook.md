@@ -40,7 +40,7 @@ Modern commercial strategy cases cluster into four distinct problem archetypes a
 
 {{figure marketing-casebook-taxonomy | The marketing AI casebook taxonomy: The four strategic case archetypes on the left, and the quantitative estimation models on the right. | Sources: ASCI (2024); Google Marketing Science (2024); Meta Marketing Science (2021); Sarvam AI (2026)}}
 
-::: stat ₹3.08 lakh vs USD 48 million
+::: stat ₹3.08L vs $48M
 The annual compute cost of personalizing 1.2 billion ad impressions for 20 million shoppers using modular edge compositing, compared to the brute-force cost of generating every impression in real time through diffusion APIs.
 <span class="src">Sources: Sarvam AI (2026) [@sarvam-bulbul-v4-flash]; Google Marketing Science (2024) [@google-meridian]</span>
 :::

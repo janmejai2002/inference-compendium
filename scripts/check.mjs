@@ -45,6 +45,13 @@ for (const c of ctx.chapters.filter((x) => x.file)) {
   const r = renderChapter(c, ctx, 'print');
   r.problems.forEach((p) => errors.push(`${c.id}: ${p}`));
   r.cited.forEach((x) => cited.add(x));
+  
+  // Guard against escaped HTML tag leakage (e.g., from KaTeX math in container headers)
+  const textWithoutCode = r.html.replace(/<pre[\s\S]*?<\/pre>/g, '').replace(/<code[\s\S]*?<\/code>/g, '');
+  if (/&lt;(?:span|div|math|p|table|tr|td|th|a|aside|header)[\s\S]{0,30}&gt;/.test(textWithoutCode)) {
+    errors.push(`${c.id}: contains escaped HTML tag leak (&lt;span...&gt;) in rendered prose`);
+  }
+
   for (const k of ['title', 'deck', 'hook', 'objectives']) if (!c[k]) warns.push(`${c.id}: front matter missing "${k}"`);
   if (!/::: recap/.test(c.body)) warns.push(`${c.id}: no night-before recap`);
   if (!/::: check/.test(c.body)) warns.push(`${c.id}: no Check yourself block`);

@@ -146,8 +146,8 @@ $$\text{CAC}_{\text{max}, i} = \text{pLTV}_i \times \text{Target Margin Ratio}$$
 
 ## The evidence
 
-::: stat 70% non-incremental coupon burn
-In quick-commerce discount campaigns, geo-lift holdout tests reveal that up to 70% of promotional coupon redemptions subsidize transactions that customers would have placed at full price, turning an apparent 4.2x last-click ROAS into a net cash burn.
+::: stat 70%
+Of promotional coupon redemptions in quick-commerce discount campaigns subsidize transactions that customers would have placed at full price anyway, turning an apparent 4.2x last-click ROAS into a net cash burn.
 <span class="src">Source: [@brand-llm-market-research]</span>
 :::
 

@@ -48,9 +48,9 @@ $$\lim_{n \to \infty} \frac{\partial C_{\text{gen}}}{\partial n} = c_{\text{asse
 
 ==When asset generation cost falls to the price of electricity and inference tokens, production scarcity gives way to distribution scrutiny: the real expense is the media spend burned by ad auctions testing low-converting synthetic variants.==
 
-::: stat $C_{\text{asset}} \to 0$ vs $C_{\text{distribution}} \uparrow$
-500+ enterprise AI applications and 40+ virtual factory twins deployed across Unilever reduced creative asset production cycle times by half and lowered studio costs, while programmatic media bidding across automated ad networks absorbed over 85% of total digital budgets.
-<span class="src">Source: [@unilever-digital-twins]</span>
+::: stat ₹4 vs ₹50,000
+The variable cost of generating a localized 15-second video asset via diffusion and Indic speech models versus traditional Mumbai studio production. Unilever deployed 500+ enterprise AI applications to cut production cycle times by half, while programmatic media bidding absorbed over 85% of total digital spend.
+<span class="src">Sources: [@unilever-digital-twins]; [@sarvam-bulbul-v4-flash]</span>
 :::
 
 ## The virtual studio and regional voice synthesis

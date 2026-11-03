@@ -12,11 +12,11 @@ _Last updated 2026-11-03, Marketing & Brand Strategy Track (Part IV) complete an
   - **Live Edition QR:** High-resolution SVG QR code linking to the live GitHub Pages edition (`https://janmejai2002.github.io/inference-compendium/`).
 - **Authors & Co-creators:** Janmejai Singh Minhas & Chaitanya Sharma.
 - **Title & Edition:** `INFERENCE` · `2027 · Draft 0.2 (Marketing Track)`.
-- **Book metrics:** 344 pages, 71,536 total words, 49 media cards, 61 glossary terms.
+- **Book metrics:** 338 pages, 71,536 total words, 49 media cards, 61 glossary terms.
 - **Pipeline & Deployment:** Working cleanly. Markdown → web edition, A4 print book (Paged.js), PDF with bookmarks and clickable table of contents. Automated GitHub Pages workflow (`.github/workflows/deploy.yml`) continuously deploys to `https://janmejai2002.github.io/inference-compendium/` on every push to `main`.
 - **Live Edition QR:** Interactive and printable SVG QR code added to the front cover and back cover pointing to the live online edition.
 - **Milestone snapshots:**
-  - `editions/INFERENCE-v2-marketing-draft.pdf` (9.24 MB, 344 pages) generated and committed.
+  - `editions/INFERENCE-v2-marketing-draft.pdf` (8.99 MB, 338 pages) generated and committed.
   - `editions/INFERENCE-v1-draft.pdf` (7.17 MB, 252 pages) preserved.
 - **Proofing:** Full B&W proof rendered to `dist/pages-bw/` via `npm run proof:bw`.
 - **Sources:** 138 sources registered in `content/sources.yml`, 118 verified (20 unverified).
