@@ -284,7 +284,7 @@ parts:
           - {title: Introducing Claude Fable 5.1 and Claude Mythos 5.1, url: https://www.anthropic.com/claude-fable-and-mythos-5-1, tier: A}
           - {title: 'Gemini 4 Argon: Built to solve your hardest problems', url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/, tier: A}
           - {title: 'Inside the AI Index: 12 Takeaways from the 2026 Report', url: https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report, tier: A}
-        status: planned
+        status: draft
       - id: india-briefing
         n: B
         title: India briefing

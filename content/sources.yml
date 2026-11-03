@@ -1323,3 +1323,212 @@ fortune-mckinsey-ai-hiring:
   tier: B
   why: "Reported account of the McKinsey final-round pilot where candidates prompt AI, review its output, and apply judgment."
   verified: true
+
+openai-gpt6-astra:
+  type: article
+  title: "GPT-6 Astra: A new generation of intelligence"
+  creator: "OpenAI"
+  publisher: "OpenAI"
+  year: 2026
+  url: https://openai.com/index/gpt-6-astra/
+  tier: A
+  why: "The originator page for OpenAI's frontier model, with price and rollout. Benchmarks are the lab's own, so read them as claims."
+  verified: true
+
+openai-gpt6-sol-luna:
+  type: article
+  title: "Introducing GPT-6 Sol and Luna"
+  creator: "OpenAI"
+  publisher: "OpenAI"
+  year: 2026
+  url: https://openai.com/index/introducing-gpt-6-sol-and-luna/
+  tier: A
+  why: "Shows the cheaper tier ladder and a 50 percent API price cut in one release."
+  verified: true
+
+openai-model-release-notes:
+  type: article
+  title: "Model Release Notes"
+  creator: "OpenAI"
+  publisher: "OpenAI Help Center"
+  year: 2026
+  url: https://help.openai.com/en/articles/9624314-model-release-notes
+  tier: A
+  why: "Dated list of OpenAI model releases (GPT-6.1 Terra, 26 Oct 2026). Rolling page, cite with access date."
+  verified: true
+
+anthropic-fable-mythos-5-1:
+  type: article
+  title: "Introducing Claude Fable 5.1 and Claude Mythos 5.1"
+  creator: "Anthropic"
+  publisher: "Anthropic"
+  year: 2026
+  url: https://www.anthropic.com/claude-fable-and-mythos-5-1
+  tier: A
+  why: "Primary page for Anthropic's frontier model and why one model ships under two names."
+  verified: true
+
+anthropic-opus-5-5:
+  type: article
+  title: "Introducing Claude Opus 5.5"
+  creator: "Anthropic"
+  publisher: "Anthropic"
+  year: 2026
+  url: https://www.anthropic.com/news/claude-opus-5-5
+  tier: A
+  why: "Dated release (22 Sep 2026) with per-million-token pricing."
+  verified: true
+
+anthropic-haiku-5-5:
+  type: article
+  title: "Introducing Claude Haiku 5.5"
+  creator: "Anthropic"
+  publisher: "Anthropic"
+  year: 2026
+  url: https://www.anthropic.com/news/claude-haiku-5-5
+  tier: A
+  why: "Source for the small-model price fall ($0.10 vs $1.00 input per million tokens)."
+  verified: true
+
+google-gemini-4-argon:
+  type: article
+  title: "Gemini 4 Argon: Built to solve your hardest problems"
+  creator: "Koray Kavukcuoglu"
+  publisher: "Google"
+  year: 2026
+  url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+  tier: A
+  why: "Google's launch post (13 Oct 2026) with availability and introductory price."
+  verified: true
+
+google-ai-updates-sep-2026:
+  type: article
+  title: "The latest AI news we announced in September 2026"
+  creator: "Google"
+  publisher: "Google"
+  year: 2026
+  url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/
+  tier: A
+  why: "One-page Google roundup (2 Oct 2026) covering Gemini 3.8 and Gemini Notebook."
+  verified: true
+
+xai-grok-4-7:
+  type: article
+  title: "Introducing Grok 4.7"
+  creator: "xAI"
+  publisher: "xAI"
+  year: 2026
+  url: https://x.ai/news/grok-4-7
+  tier: A
+  why: "Dated xAI flagship release (21 Sep 2026)."
+  verified: true
+
+mistral-large-4:
+  type: article
+  title: "Mistral Large 4 (Le Chonk) is now open weight"
+  creator: "Mistral AI"
+  publisher: "Mistral"
+  year: 2026
+  url: https://mistral.ai/news/mistral-large-4-oss/
+  tier: A
+  why: "The leading European open-weight model, dated 29 Oct 2026."
+  verified: true
+
+meta-muse-spark-1-1:
+  type: article
+  title: "Introducing Muse Spark 1.1"
+  creator: "Meta Superintelligence Labs"
+  publisher: "Meta AI"
+  year: 2026
+  url: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/
+  tier: A
+  why: "Meta's latest model post (9 Jul 2026), showing a slower cadence than the other big labs."
+  verified: true
+
+sarvam-bulbul-v4-flash:
+  type: article
+  title: "Introducing Bulbul V4 Flash"
+  creator: "Sarvam AI"
+  publisher: "Sarvam AI"
+  year: 2026
+  url: https://www.sarvam.ai/blogs/bulbul-v4-flash
+  tier: A
+  why: "Indian-language speech model from an Indian lab, 13 Oct 2026."
+  verified: false
+
+pib-dpdp-rules-2025:
+  type: report
+  title: "Government notifies DPDP Rules to empower citizens and protect privacy"
+  creator: "Ministry of Electronics & IT"
+  publisher: "Press Information Bureau"
+  year: 2025
+  url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190014&reg=3&lang=2
+  tier: A
+  why: "The government's own summary of the DPDP Rules: 18-month phase-in, consent notices, 90-day response window, Significant Data Fiduciary audits."
+  verified: true
+
+rbi-free-ai-2025:
+  type: report
+  title: "Report of the Committee to develop a Framework for Responsible and Ethical Enablement of AI (FREE-AI) in the Financial Sector"
+  creator: "Reserve Bank of India"
+  publisher: "Reserve Bank of India"
+  year: 2025
+  url: https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61018
+  tier: A
+  why: "The regulator's own release: 7 Sutras and 26 recommendations for AI in Indian finance."
+  verified: true
+
+meity-ai-governance-guidelines-2025:
+  type: report
+  title: "India AI Governance Guidelines: Enabling Safe and Trusted AI Innovation"
+  creator: "Ministry of Electronics & IT, IndiaAI Mission"
+  publisher: "Government of India"
+  year: 2025
+  url: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf
+  tier: A
+  why: "States that a separate AI law is not needed now, adopts the seven sutras, and gives the Aug 2025 compute and dataset numbers."
+  verified: true
+
+pib-indiaai-mission-2024:
+  type: report
+  title: "Cabinet Approves Ambitious IndiaAI Mission to Strengthen the AI Innovation Ecosystem"
+  creator: "Cabinet, Government of India"
+  publisher: "Press Information Bureau"
+  year: 2024
+  url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012355
+  tier: A
+  why: "The original approval: Rs 10,371.92 crore and the seven components of the Mission."
+  verified: true
+
+pib-ai-impact-summit-2026:
+  type: report
+  title: "India AI Impact Summit 2026: Landmark Global Declaration and Major AI Investment Commitments"
+  creator: "Ministry of Electronics & IT"
+  publisher: "Press Information Bureau"
+  year: 2026
+  url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2234343&reg=3&lang=1
+  tier: A
+  why: "Government account of the Feb 2026 summit: 92 endorsements, 13 frontier commitments, 20,000 more GPUs. Investment figures are expectations."
+  verified: true
+
+anthropic-india-brief-2026:
+  type: report
+  title: "India Country Brief: The Anthropic Economic Index"
+  creator: "Ruth Appel"
+  publisher: "Anthropic"
+  year: 2026
+  url: https://www.anthropic.com/research/india-brief-economic-index
+  tier: A
+  why: "Primary data on how India uses a frontier assistant: 5.8% of Claude.ai use, 45.2% software tasks, low per-capita use."
+  verified: true
+
+openai-gpt6-1-sol:
+  type: article
+  title: "Introducing GPT-6.1 Sol"
+  creator: "OpenAI"
+  publisher: "OpenAI"
+  year: 2026
+  url: https://openai.com/index/introducing-gpt-6-1-sol/
+  tier: A
+  why: "Source for GPT-6.1 Sol delivering near-Astra intelligence for a fifth of the price."
+  verified: true
