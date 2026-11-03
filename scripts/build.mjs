@@ -12,7 +12,7 @@ import { buildSpecimen } from './lib/specimen.mjs';
 
 const DIST = path.join(ROOT, 'dist');
 const DEV = process.env.COMPENDIUM_DEV === '1';
-const FONTS = 'https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=IBM+Plex+Mono:wght@400;500;600&display=swap';
+const FONTS = 'https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap';
 const CSS = ['tokens', 'components', 'web', 'print', 'specimen'];
 
 function copyAssets() {
@@ -75,8 +75,8 @@ function contents(ctx, { print = false, rel = '' } = {}) {
     const written = !!c.file;
     const meta = written ? `${readingTimes(c).full} min` : '';
     const inner = `<span class="n">${c.n}</span><span class="t">${esc(c.title)}${c.deck && !print ? `<span class="d">${esc(c.deck)}</span>` : ''}</span><span class="m">${meta}</span>`;
-    if (!written) return `<div class="toc-row planned">${inner}</div>`;
-    return `<a class="toc-row" href="${print ? `#ch-${c.id}` : `${rel}ch/${c.id}.html`}">${inner}</a>`;
+    if (!written) return `<div class="toc-row planned" data-track="${c.track}">${inner}</div>`;
+    return `<a class="toc-row" data-track="${c.track}" data-tracks="${[c.track, ...(c.tracks || [])].join(' ')}" href="${print ? `#ch-${c.id}` : `${rel}ch/${c.id}.html`}">${inner}</a>`;
   }).join('')}</div>
 </section>`).join('\n');
 }
@@ -92,12 +92,35 @@ function coverHtml(ctx) {
     </div>
   </a>` : '';
   return `<section class="cover">
-  <h1 class="title">${esc(book.title)}<span>${esc(book.title_accent || '')}</span></h1>
-  <div class="matrix">${attentionMatrix(book.cover_sentence, { cell: 46, font: 12 })}</div>
-  <div class="tracks">${book.tracks.map((t) => `<span style="background: var(--t-${t.id})"></span>`).join('')}</div>
-  <p class="sub">${esc(book.subtitle)}</p>
-  ${qrHtml}
-  <div class="foot"><span>${esc(book.edition)}</span><span>Compiled by ${formatAuthors(book, { format: 'print-links' })}</span></div>
+  <div class="cover-frame-corner tl">+</div>
+  <div class="cover-frame-corner tr">+</div>
+  <div class="cover-frame-corner bl">+</div>
+  <div class="cover-frame-corner br">+</div>
+  <div class="masthead">
+    <span>MONOGRAPH 01 · B-SCHOOL SPECIFICATION</span>
+    <span>FIRST PRINCIPLES × STRATEGIC JUDGMENT</span>
+    <span>2027 · DRAFT 0.1</span>
+  </div>
+  <div class="cover-header">
+    <h1 class="title">${esc(book.title)}<span>${esc(book.title_accent || '')}</span></h1>
+    <div class="cover-kicker">THE DUAL-SYSTEM COMPENDIUM FOR THE BUSINESS MIND</div>
+  </div>
+  <div class="matrix">${attentionMatrix(book.cover_sentence, { cell: 38, font: 11, fg: '#8593FF', showDualSystem: true })}</div>
+  <div class="tracks">${book.tracks.map((t) => `<div class="track-tab" style="--t-color: var(--t-${t.id})"><span class="track-bar"></span><span class="track-code">${t.short}</span></div>`).join('')}</div>
+  <div class="cover-bottom">
+    <div class="cover-thesis">
+      <p class="thesis-main">The machine predicts the next word. The business mind decides the next move.</p>
+      <p class="thesis-sub">Deconstructing artificial intelligence from transformer self-attention to enterprise unit economics, agent reliability, and placement interview strategy.</p>
+      <div class="cover-specs">
+        <span>252 PAGES</span> · <span>16 CHAPTERS</span> · <span>131 PRIMARY SOURCES</span> · <span>8 TRACKS</span> · <span>0 FABRICATIONS</span>
+      </div>
+    </div>
+    ${qrHtml}
+  </div>
+  <div class="foot">
+    <span>EDITION: ${esc(book.edition)} · UNRESTRICTED CIRCULATION</span>
+    <span>Curated & compiled by ${formatAuthors(book, { format: 'print-links' })}</span>
+  </div>
 </section>`;
 }
 
@@ -229,25 +252,234 @@ ${r.html}
 
 function home(ctx) {
   const { book } = ctx;
-  const body = `<header class="topbar"><a class="wordmark" href="index.html">${esc(book.title)}<span>${esc(book.title_accent || '')}</span></a><span class="where">${esc(book.edition)}</span>
-<nav><a href="design.html">Design book</a><a href="print.html">Print preview</a><a href="${esc(book.title)}.pdf">PDF</a></nav></header>
+  const body = `<header class="topbar">
+  <div style="display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;">
+    <a class="wordmark" href="index.html">${esc(book.title)}<span>${esc(book.title_accent || '')}</span></a>
+    <div class="live-badge"><span class="pulse-dot"></span> 2027 · Draft 0.1 · Live Edition</div>
+  </div>
+  <nav>
+    <a href="#framework">Thinking Fast & Slow</a>
+    <a href="#tracks">Tracks</a>
+    <a href="#contents">Chapters</a>
+    <a href="design.html">Design book</a>
+    <a href="print.html">Print preview</a>
+    <a class="btn primary" style="padding:0.45em 0.85em;font-size:0.75rem;" href="${esc(book.title)}.pdf" download>PDF (252p)</a>
+  </nav>
+</header>
 <section class="home-hero">
-  <div>
-    <div class="kicker">${esc(book.edition)}</div>
-    <h1>${esc(book.title)}<span>${esc(book.title_accent || '')}</span></h1>
-    <p class="sub">${esc(book.subtitle)}. ${esc(book.back_blurb)}</p>
-    <div class="byline" style="margin: 1.2rem 0; font-family: var(--f-mono); font-size: 0.85rem; color: var(--ink-2);">
+  <div class="hero-content">
+    <div class="hero-kicker">Executive Monograph · Indian B-School Edition · 2027</div>
+    <h1 class="hero-title">${esc(book.title)}<span>${esc(book.title_accent || '')}</span></h1>
+    <div class="hero-thesis">
+      <div class="thesis-lead">The machine predicts the next word.</div>
+      <div class="thesis-follow">The business mind decides the next move.</div>
+    </div>
+    <p class="hero-desc">Every B-school recruiter now asks about AI. Most compendiums still don't teach it. This one deconstructs artificial intelligence from first principles — contrasting the fast, associative reflex of generative models (<b>System 1</b>) with the slow, deliberate strategic verification required in consulting, finance, and product leadership (<b>System 2</b>).</p>
+    <div class="hero-byline">
       Curated & compiled by ${formatAuthors(book, { format: 'html-links' })}
     </div>
-    <div class="actions"><a class="btn primary" href="#contents">Start reading</a><a class="btn" href="design.html">See the design book</a></div>
+    <div class="hero-actions">
+      <a class="btn primary" href="#contents">Explore 16 Chapters →</a>
+      <a class="btn secondary" href="${esc(book.title)}.pdf" download>Download A4 PDF (252p) ↓</a>
+      <a class="btn ghost" href="#framework">Dual-System Framework ↓</a>
+    </div>
+    <div class="hero-metrics">
+      <div class="metric-item"><span class="metric-val">252</span><span class="metric-lbl">Pages</span></div>
+      <div class="metric-item"><span class="metric-val">16</span><span class="metric-lbl">Chapters</span></div>
+      <div class="metric-item"><span class="metric-val">131</span><span class="metric-lbl">Primary Sources</span></div>
+      <div class="metric-item"><span class="metric-val">8</span><span class="metric-lbl">Tracks</span></div>
+      <div class="metric-item"><span class="metric-val">10</span><span class="metric-lbl">Worked Cases</span></div>
+    </div>
   </div>
-  <div class="matrix">${attentionMatrix(book.cover_sentence, { cell: 40, fg: 'var(--accent)', label: 'var(--ink-2)', mask: 'var(--rule)', font: 12 })}</div>
+  <div class="hero-visual">
+    <div class="matrix-card">
+      <div class="matrix-card-header">
+        <div class="matrix-card-title">
+          <span class="matrix-card-kicker">Self-Attention Tensor · Head #7</span>
+          <span class="matrix-card-sub">Will AI replace the analyst or make the analyst ?</span>
+        </div>
+        <div class="matrix-modes">
+          <button class="mode-tab active" id="tab-s1" type="button">System 1: Reflex</button>
+          <button class="mode-tab" id="tab-s2" type="button">System 2: Reason</button>
+        </div>
+      </div>
+      <div class="matrix-svg-wrap">
+        ${attentionMatrix(book.cover_sentence, { cell: 38, font: 11, fg: 'var(--accent)', label: 'var(--ink-2)', mask: 'var(--rule)', interactive: true, showDualSystem: true })}
+      </div>
+      <div class="matrix-hud" id="matrix-hud">
+        <div class="hud-top">
+          <span class="hud-status"><span class="hud-dot"></span> <span id="hud-mode">System 1: Statistical Association (Reflex)</span></span>
+          <span class="hud-weight" id="hud-weight">Hover cell to inspect</span>
+        </div>
+        <div class="hud-query" id="hud-query">Move cursor over any token or matrix cell to inspect attention weights.</div>
+        <div class="hud-takeaway" id="hud-takeaway">The machine generates tokens via associative reflex; executive value begins with verifying the output.</div>
+      </div>
+    </div>
+  </div>
 </section>
+
+<section class="home-framework" id="framework">
+  <div class="framework-header">
+    <div class="framework-kicker">01 · The Cognitive Dichotomy</div>
+    <h2 class="framework-title">Thinking, Fast and Slow in the Age of AI</h2>
+    <p class="framework-intro">Why Daniel Kahneman's Nobel Prize-winning framework is the single most valuable mental model for understanding modern artificial intelligence and succeeding in MBA placement interviews.</p>
+  </div>
+  <div class="framework-grid">
+    <div class="framework-card">
+      <div class="system-tag s1">System 1 · The Generative Reflex</div>
+      <h3 class="framework-card-h">The Next-Word Machine</h3>
+      <p class="framework-card-thesis">"A model predicts the next word. It does not know what is true; it knows what statistically follows."</p>
+      <div class="framework-specs">
+        <div class="f-spec-row">
+          <span class="f-spec-k">Mechanism</span>
+          <span class="f-spec-v">Autoregressive transformer calculating conditional probability distributions P(w<sub>t</sub> | w<sub>&lt;t</sub>) across billions of parameters.</span>
+        </div>
+        <div class="f-spec-row">
+          <span class="f-spec-k">Cognitive Speed</span>
+          <span class="f-spec-v">120+ tokens/second. Zero deliberation, instant associative retrieval, zero voluntary control.</span>
+        </div>
+        <div class="f-spec-row">
+          <span class="f-spec-k">The B-School Trap</span>
+          <span class="f-spec-v"><b>The Illusion of Competence.</b> Because output is grammatically fluent and immediate, analysts mistake linguistic confidence for factual accuracy.</span>
+        </div>
+        <div class="f-spec-row">
+          <span class="f-spec-k">Failure Modes</span>
+          <span class="f-spec-v">Hallucination, sycophancy, base-rate neglect, confidence without calibration, jagged capability frontier.</span>
+        </div>
+      </div>
+      <div class="framework-links">
+        <b>Core Chapters:</b>
+        <a href="ch/kinds-of-ai.html">01 · Kinds of AI</a>
+        <a href="ch/next-word-machine.html">02 · Next-Word Machine</a>
+        <a href="ch/confidently-wrong.html">03 · Confidently Wrong</a>
+        <a href="ch/models-that-act.html">06 · Models That Act</a>
+      </div>
+    </div>
+
+    <div class="framework-card">
+      <div class="system-tag s2">System 2 · The Deliberative Mind</div>
+      <h3 class="framework-card-h">Strategic Executive Judgment</h3>
+      <p class="framework-card-thesis">"Judgment is the bottleneck. In an economy of abundant tokens, rent shifts to verification and problem framing."</p>
+      <div class="framework-specs">
+        <div class="f-spec-row">
+          <span class="f-spec-k">Mechanism</span>
+          <span class="f-spec-v">Effortful, structured reasoning that frames decisions, audits priors, models payoff matrices, and allocates capital under uncertainty.</span>
+        </div>
+        <div class="f-spec-row">
+          <span class="f-spec-k">Cognitive Speed</span>
+          <span class="f-spec-v">Slow, reflective, hypothesis-driven. Evaluating counterfactuals and checking edge cases before client sign-off.</span>
+        </div>
+        <div class="f-spec-row">
+          <span class="f-spec-k">The Business Edge</span>
+          <span class="f-spec-v"><b>The Asymmetric Cost of Error.</b> A model does not care if an approval is wrong; an NBFC loses capital. System 2 governs the decision boundary.</span>
+        </div>
+        <div class="f-spec-row">
+          <span class="f-spec-k">Executive Tools</span>
+          <span class="f-spec-v">Evals, base-rate calibration, token unit economics ($/1k tokens), capacity reallocation, workflow redesign.</span>
+        </div>
+      </div>
+      <div class="framework-links">
+        <b>Core Chapters:</b>
+        <a href="ch/judging-output.html">07 · Judging Output</a>
+        <a href="ch/who-pays.html">08 · Who Pays</a>
+        <a href="ch/pilots-stall.html">09 · Why Pilots Stall</a>
+        <a href="ch/consulting-firm.html">11 · Consulting Firm</a>
+        <a href="ch/ai-casebook.html">12 · AI Casebook</a>
+        <a href="ch/interview-room.html">13 · Interview Room</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-tracks-sec" id="tracks">
+  <div class="framework-kicker">02 · Placement Track Lenses</div>
+  <h2 class="framework-title" style="font-size:clamp(2rem, 3.5vw, 2.8rem);">Curriculum Paths by Placement Domain</h2>
+  <p class="framework-intro" style="margin-bottom:1.2rem;">Click any domain to highlight relevant chapters and curriculum paths across the compendium:</p>
+  <div class="track-filters">
+    <button class="track-btn active" data-track="all" type="button"><span class="t-dot" style="--btn-color: var(--ink)"></span> All Chapters (16)</button>
+    ${book.tracks.map((t) => `<button class="track-btn" data-track="${t.id}" style="--btn-color: var(--t-${t.id})" type="button"><span class="t-dot"></span> ${esc(t.name)}</button>`).join('')}
+  </div>
+</section>
+
 <main class="home-toc" id="contents">${contents(ctx)}</main>
-<footer class="home-foot" style="margin: 4rem auto 2rem; max-width: 1200px; padding: 2rem 1.5rem 0; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; font-family: var(--f-mono); font-size: 0.8rem; color: var(--ink-3);">
-  <span>${esc(book.title)} · ${esc(book.edition)}</span>
-  <span>Curated & compiled by ${formatAuthors(book, { format: 'html-links' })}</span>
-</footer>`;
+
+<footer class="home-foot" style="margin: 4rem auto 2rem; max-width: 1200px; padding: 2.5rem 1.5rem 0; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; flex-wrap:wrap; gap:1rem; font-family: var(--f-mono); font-size: 0.8rem; color: var(--ink-3);">
+  <div>
+    <b>${esc(book.title)}</b> · ${esc(book.edition)} · ${esc(book.license)}
+  </div>
+  <div>
+    Curated & compiled by ${formatAuthors(book, { format: 'html-links' })}
+  </div>
+</footer>
+
+<script>
+(() => {
+  // Attention Matrix HUD & Interaction
+  const cells = document.querySelectorAll('.mat-cell');
+  const toks = document.querySelectorAll('.mat-tok');
+  const hudQuery = document.getElementById('hud-query');
+  const hudWeight = document.getElementById('hud-weight');
+  const hudTakeaway = document.getElementById('hud-takeaway');
+  const hudMode = document.getElementById('hud-mode');
+  const tabS1 = document.getElementById('tab-s1');
+  const tabS2 = document.getElementById('tab-s2');
+  const s2Schematic = document.querySelector('.s2-schematic');
+
+  const takeaways = {
+    'replace-analyst': { s1: 'Strong statistical correlation. In training corpora, automation verbs heavily attend to occupational nouns.', s2: 'System 2 Audit: Assess task composition. Automated draft synthesis shifts human value to verification and client sign-off.' },
+    'make-analyst': { s1: 'Augmentation head. High associative weight across human-in-the-loop and intelligence amplification contexts.', s2: 'System 2 Audit: The Jevons paradox of intelligence: cheaper tokens increase total enterprise demand for calibrated analysts.' },
+    '?-replace': { s1: 'Terminal token resolves causal interrogative toward automation anxiety.', s2: 'System 2 Audit: Recruiters ask this in round 1. A winning candidate distinguishes statistical prediction from executive judgment.' },
+    '?-make': { s1: 'Terminal token resolves interrogative toward augmentation and strategic leverage.', s2: 'System 2 Audit: The consultant who understands agent failure modes leads the client engagement.' },
+    'default': { s1: 'The autoregressive decoder computes self-attention across historical tokens at 120+ tokens/second.', s2: 'System 2 reasoning audits priors, models the false-positive cost, and frames the strategic decision.' }
+  };
+
+  cells.forEach(c => {
+    c.addEventListener('mouseenter', () => {
+      const q = c.dataset.q, k = c.dataset.k, val = c.dataset.val;
+      if (hudQuery) hudQuery.innerHTML = 'Query: <b>\"' + q + '\"</b> attends to Context: <b>\"' + k + '\"</b>';
+      if (hudWeight) hudWeight.innerText = 'Attention Weight: ' + val + '%';
+      const key = (q + '-' + k).toLowerCase();
+      const info = takeaways[key] || takeaways['default'];
+      if (hudTakeaway) hudTakeaway.innerText = tabS2 && tabS2.classList.contains('active') ? info.s2 : info.s1;
+    });
+  });
+
+  if (tabS1 && tabS2) {
+    tabS1.addEventListener('click', () => {
+      tabS1.classList.add('active'); tabS2.classList.remove('active');
+      if (hudMode) hudMode.innerText = 'System 1: Statistical Association (Reflex)';
+      if (s2Schematic) s2Schematic.style.opacity = '0.35';
+    });
+    tabS2.addEventListener('click', () => {
+      tabS2.classList.add('active'); tabS1.classList.remove('active');
+      if (hudMode) hudMode.innerText = 'System 2: Deliberative Reasoning (Judgment)';
+      if (s2Schematic) s2Schematic.style.opacity = '1';
+    });
+  }
+
+  // Track filtering on TOC
+  const trackBtns = document.querySelectorAll('.track-btn');
+  const tocRows = document.querySelectorAll('.home-toc .toc-row');
+  trackBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      trackBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const track = btn.dataset.track;
+      tocRows.forEach(row => {
+        if (!track || track === 'all') {
+          row.style.opacity = '1';
+          row.style.borderColor = '';
+        } else {
+          const match = (row.dataset.tracks || '').includes(track);
+          row.style.opacity = match ? '1' : '0.22';
+          if (match) row.style.borderColor = 'var(--t-' + track + ')';
+          else row.style.borderColor = '';
+        }
+      });
+    });
+  });
+})();
+</script>`;
   return shell({
     title: `${book.title} — ${book.subtitle}`,
     css: ['tokens', 'components', 'web'],

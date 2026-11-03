@@ -1,11 +1,15 @@
 # Status
 
-_Last updated 2026-11-03, v1 build completed & authors updated (Janmejai Singh Minhas & Chaitanya Sharma)._
+_Last updated 2026-11-03, front cover & landing page redesigned with Thinking, Fast and Slow cognitive architecture._
 
 ## Where we are
-- **Edition: v1 Draft complete.** All 16 planned units (00 through 13 plus Inserts A and B) are fully drafted, verified with cross-model plan checks (Claude Sonnet 4.6 via `agy`), and linted with zero errors (`check: 0 errors`).
+- **Edition: v1 Draft complete & Cover Re-architected.** All 16 planned units (00 through 13 plus Inserts A and B) are fully drafted, verified with cross-model plan checks (Claude Sonnet 4.6 via `agy`), and linted with zero errors (`check: 0 errors`).
+- **Front Cover & Web Hero:** Redesigned into a museum-grade editorial masterwork embodying Daniel Kahneman's *Thinking, Fast and Slow* concepts:
+  - **System 1 (Statistical Reflex):** Autoregressive next-token prediction matrix with empirical attention weights across *"Will AI replace the analyst or make the analyst ?"*.
+  - **System 2 (Deliberative Judgment):** Strategic reasoning framework in the upper causal mask containing base-rate audits, error cost asymmetry, token unit economics, and executive decision logic.
+  - **Web Front Page:** Added interactive attention inspection HUD, live System 1 vs 2 mode toggles, comparative cognitive bento cards, curriculum track filters, and executive proof metrics (252 pages, 16 chapters, 131 sources, 8 tracks, 10 cases).
 - **Authors & Co-creators:** Janmejai Singh Minhas ([LinkedIn](https://linkedin.com/in/janmejai) · [GitHub](https://github.com/janmejai2002)) & Chaitanya Sharma ([LinkedIn](https://www.linkedin.com/in/chaitanya-sharma-b7a5b925b/) · [GitHub](https://github.com/chaitanya-sharma)).
-- **Title & Edition:** `INFERENCE` · `2027 · Draft 0.1` ("Placement Edition" branding removed).
+- **Title & Edition:** `INFERENCE` · `2027 · Draft 0.1`.
 - **Book metrics:** 252 pages, 55,200 total words, 40 media cards, 54 glossary terms.
 - **Pipeline & Deployment:** Working cleanly. Markdown → web edition, A4 print book (Paged.js), PDF with bookmarks and clickable table of contents. Automated GitHub Pages workflow (`.github/workflows/deploy.yml`) continuously deploys to `https://janmejai2002.github.io/inference-compendium/` on every push to `main`.
 - **Live Edition QR:** Interactive and printable SVG QR code added to the front cover and back cover pointing to the live online edition.

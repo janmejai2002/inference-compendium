@@ -49,6 +49,7 @@
   --f-display: 'Archivo', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
   --f-text:    'Literata', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
   --f-mono:    'IBM Plex Mono', ui-monospace, 'Cascadia Mono', Consolas, monospace;
+  --f-serif:   'Instrument Serif', 'Literata', Georgia, serif;
 
   /* Scale (rem — print sets the root size, so everything rescales together) */
   --s-micro: .6875rem;

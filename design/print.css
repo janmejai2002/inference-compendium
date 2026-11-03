@@ -90,33 +90,201 @@ h2 + .fig, h3 + .fig { break-before: avoid; page-break-before: avoid; }
 .print .media-qr span { font-size: 5pt; }
 
 /* ---------- Cover ---------- */
-.cover { page: cover; position: relative; width: 210mm; height: 297mm; overflow: hidden; background: var(--ink); color: #fff; break-after: page; }
-.cover .matrix { position: absolute; left: 14mm; right: 14mm; top: 64mm; }
-.cover .matrix svg { width: 100%; height: auto; display: block; }
-.cover .masthead { position: absolute; left: 14mm; right: 14mm; top: 12mm; display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid rgba(255,255,255,.35); padding-bottom: 3mm;
-  font-family: var(--f-display); font-stretch: 118%; font-weight: 650; font-size: 7pt; letter-spacing: .16em; text-transform: uppercase; color: rgba(255,255,255,.8); }
-.cover .title { position: absolute; left: 12mm; right: 12mm; top: 20mm; margin: 0; font-family: var(--f-display); font-weight: 900; font-stretch: 62%; font-size: 118pt; line-height: .8; letter-spacing: -.02em; color: #fff; }
+.cover {
+  page: cover;
+  position: relative;
+  width: 210mm;
+  height: 297mm;
+  overflow: hidden;
+  background: #0B0E1E;
+  color: #fff;
+  break-after: page;
+}
+
+.cover-frame-corner {
+  position: absolute;
+  font-family: var(--f-mono);
+  font-size: 11pt;
+  color: rgba(255, 255, 255, 0.25);
+  line-height: 1;
+  pointer-events: none;
+}
+.cover-frame-corner.tl { left: 8mm; top: 8mm; }
+.cover-frame-corner.tr { right: 8mm; top: 8mm; }
+.cover-frame-corner.bl { left: 8mm; bottom: 8mm; }
+.cover-frame-corner.br { right: 8mm; bottom: 8mm; }
+
+.cover .masthead {
+  position: absolute;
+  left: 14mm;
+  right: 14mm;
+  top: 12mm;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+  padding-bottom: 2.5mm;
+  font-family: var(--f-display);
+  font-stretch: 118%;
+  font-weight: 700;
+  font-size: 6.5pt;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .82);
+}
+
+.cover-header {
+  position: absolute;
+  left: 12mm;
+  right: 14mm;
+  top: 18mm;
+}
+
+.cover .title {
+  margin: 0;
+  font-family: var(--f-display);
+  font-weight: 900;
+  font-stretch: 62%;
+  font-size: 104pt;
+  line-height: .78;
+  letter-spacing: -.03em;
+  color: #fff;
+}
 .cover .title span { color: #8593FF; }
-.cover .sub { position: absolute; left: 14mm; bottom: 36mm; width: 120mm; margin: 0; font-family: var(--f-text); font-style: italic; font-size: 17pt; line-height: 1.25; color: #fff; }
-.cover .foot { position: absolute; left: 14mm; right: 14mm; bottom: 14mm; display: flex; justify-content: space-between; gap: 6mm; border-top: 1px solid rgba(255,255,255,.35); padding-top: 3mm;
-  font-family: var(--f-mono); font-size: 7pt; color: rgba(255,255,255,.75); }
-.cover .tracks { position: absolute; right: 0; top: 64mm; display: grid; gap: 1.5mm; }
-.cover .tracks span { display: block; width: 8mm; height: 14mm; }
+
+.cover-kicker {
+  margin-top: 2.5mm;
+  font-family: var(--f-display);
+  font-stretch: 115%;
+  font-weight: 750;
+  font-size: 7.2pt;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: #8593FF;
+}
+
+.cover .matrix {
+  position: absolute;
+  left: 11mm;
+  right: 18mm;
+  top: 55mm;
+}
+.cover .matrix svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cover .tracks {
+  position: absolute;
+  right: 0;
+  top: 57mm;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6mm;
+}
+.cover .track-tab {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.5mm;
+  padding-right: 2mm;
+}
+.cover .track-bar {
+  display: block;
+  width: 4.5mm;
+  height: 12.5mm;
+  background: var(--t-color);
+  border-radius: 1px 0 0 1px;
+}
+.cover .track-code {
+  font-family: var(--f-mono);
+  font-size: 5.6pt;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.05em;
+  width: 5mm;
+  text-align: right;
+}
+
+.cover-bottom {
+  position: absolute;
+  left: 14mm;
+  right: 14mm;
+  bottom: 18mm;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8mm;
+  align-items: end;
+}
+
+.cover-thesis {
+  max-width: 136mm;
+}
+.cover-thesis .thesis-main {
+  margin: 0 0 2mm;
+  font-family: var(--f-serif, var(--f-text));
+  font-style: italic;
+  font-size: 15.5pt;
+  line-height: 1.2;
+  color: #fff;
+}
+.cover-thesis .thesis-sub {
+  margin: 0 0 3mm;
+  font-family: var(--f-text);
+  font-size: 7.6pt;
+  line-height: 1.38;
+  color: rgba(255, 255, 255, 0.82);
+}
+.cover-specs {
+  display: flex;
+  gap: 2mm;
+  flex-wrap: wrap;
+  font-family: var(--f-mono);
+  font-size: 5.8pt;
+  letter-spacing: 0.08em;
+  color: #8593FF;
+  text-transform: uppercase;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 2mm;
+}
+.cover-specs span { font-weight: 600; }
+
+.cover .foot {
+  position: absolute;
+  left: 14mm;
+  right: 14mm;
+  bottom: 9mm;
+  display: flex;
+  justify-content: space-between;
+  gap: 6mm;
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  padding-top: 2.5mm;
+  font-family: var(--f-mono);
+  font-size: 6.5pt;
+  color: rgba(255, 255, 255, .72);
+}
 
 /* Cover QR code */
 .cover-qr {
-  position: absolute; right: 14mm; bottom: 24mm;
-  display: flex; align-items: center; gap: 3.5mm;
-  text-decoration: none; color: #fff; z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 3mm;
+  text-decoration: none;
+  color: #fff;
+  z-index: 10;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2.2mm 3mm;
+  background: rgba(255, 255, 255, 0.03);
 }
-.cover-qr .qr-box svg { width: 17mm; height: 17mm; display: block; }
-.cover-qr .qr-meta { display: flex; flex-direction: column; gap: 1mm; }
+.cover-qr .qr-box svg { width: 16mm; height: 16mm; display: block; }
+.cover-qr .qr-meta { display: flex; flex-direction: column; gap: 0.8mm; }
 .cover-qr .qr-kicker {
   font-family: var(--f-display); font-stretch: 118%; font-weight: 700;
   font-size: 6.2pt; letter-spacing: .14em; text-transform: uppercase; color: #8593FF;
 }
 .cover-qr .qr-url {
-  font-family: var(--f-mono); font-size: 6.2pt; line-height: 1.35; color: rgba(255,255,255,.75);
+  font-family: var(--f-mono); font-size: 5.8pt; line-height: 1.35; color: rgba(255,255,255,.75);
 }
 
 /* ---------- Front matter ---------- */
