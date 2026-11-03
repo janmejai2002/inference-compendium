@@ -25,6 +25,21 @@ const BLOCK_LABEL = {
 // ---------------------------------------------------------------- data
 export async function loadBook() {
   const book = readYaml('book.yml');
+  const onlineUrl = book.online_url || 'https://janmejai2002.github.io/inference-compendium/';
+  book.online_url = onlineUrl;
+  book.online_qr = await QRCode.toString(onlineUrl, {
+    type: 'svg',
+    margin: 0,
+    errorCorrectionLevel: 'M',
+    color: { dark: '#ffffff', light: '#0000' }
+  });
+  book.online_qr_dark = await QRCode.toString(onlineUrl, {
+    type: 'svg',
+    margin: 0,
+    errorCorrectionLevel: 'M',
+    color: { dark: '#111427', light: '#0000' }
+  });
+
   const toc = readYaml('content/toc.yml');
   const sources = readYaml('content/sources.yml');
   const glossary = readYaml('content/glossary.yml');

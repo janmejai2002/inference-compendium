@@ -7,7 +7,8 @@ _Last updated 2026-11-03, v1 build completed & authors updated (Janmejai Singh M
 - **Authors & Co-creators:** Janmejai Singh Minhas ([LinkedIn](https://linkedin.com/in/janmejai) · [GitHub](https://github.com/janmejai2002)) & Chaitanya Sharma ([LinkedIn](https://www.linkedin.com/in/chaitanya-sharma-b7a5b925b/) · [GitHub](https://github.com/chaitanya-sharma)).
 - **Title & Edition:** `INFERENCE` · `2027 · Draft 0.1` ("Placement Edition" branding removed).
 - **Book metrics:** 252 pages, 55,200 total words, 40 media cards, 54 glossary terms.
-- **Pipeline:** Working cleanly. Markdown → web edition, A4 print book (Paged.js), PDF with bookmarks and clickable table of contents.
+- **Pipeline & Deployment:** Working cleanly. Markdown → web edition, A4 print book (Paged.js), PDF with bookmarks and clickable table of contents. Automated GitHub Pages workflow (`.github/workflows/deploy.yml`) continuously deploys to `https://janmejai2002.github.io/inference-compendium/` on every push to `main`.
+- **Live Edition QR:** Interactive and printable SVG QR code added to the front cover and back cover pointing to the live online edition.
 - **Milestone snapshot:** `editions/INFERENCE-v1-draft.pdf` (7.17 MB, 252 pages) generated and committed.
 - **Proofing:** Full B&W proof rendered to `dist/pages-bw/` via `npm run proof:bw`.
 - **Sources:** 131 sources registered in `content/sources.yml`, 118 verified (13 unverified).

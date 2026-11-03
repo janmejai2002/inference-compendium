@@ -103,6 +103,22 @@ h2 + .fig, h3 + .fig { break-before: avoid; page-break-before: avoid; }
 .cover .tracks { position: absolute; right: 0; top: 64mm; display: grid; gap: 1.5mm; }
 .cover .tracks span { display: block; width: 8mm; height: 14mm; }
 
+/* Cover QR code */
+.cover-qr {
+  position: absolute; right: 14mm; bottom: 24mm;
+  display: flex; align-items: center; gap: 3.5mm;
+  text-decoration: none; color: #fff; z-index: 10;
+}
+.cover-qr .qr-box svg { width: 17mm; height: 17mm; display: block; }
+.cover-qr .qr-meta { display: flex; flex-direction: column; gap: 1mm; }
+.cover-qr .qr-kicker {
+  font-family: var(--f-display); font-stretch: 118%; font-weight: 700;
+  font-size: 6.2pt; letter-spacing: .14em; text-transform: uppercase; color: #8593FF;
+}
+.cover-qr .qr-url {
+  font-family: var(--f-mono); font-size: 6.2pt; line-height: 1.35; color: rgba(255,255,255,.75);
+}
+
 /* ---------- Front matter ---------- */
 .front { page: front; break-before: page; }
 .front h1 { font-family: var(--f-display); font-weight: 880; font-stretch: 70%; font-size: 3.4rem; line-height: .92; margin: 0 0 6mm; letter-spacing: -.01em; }
@@ -166,6 +182,20 @@ h2 + .fig, h3 + .fig { break-before: avoid; page-break-before: avoid; }
 .backcover { page: cover; break-before: left; position: relative; width: 210mm; height: 297mm; background: var(--accent); color: #fff; }
 .backcover .blurb { position: absolute; left: 20mm; right: 20mm; top: 40mm; font-family: var(--f-display); font-weight: 850; font-stretch: 70%; font-size: 40pt; line-height: .95; margin: 0; }
 .backcover .fine { position: absolute; left: 20mm; right: 20mm; bottom: 18mm; font-family: var(--f-mono); font-size: 7pt; line-height: 1.5; color: rgba(255,255,255,.85); display: flex; justify-content: space-between; gap: 8mm; border-top: 1px solid rgba(255,255,255,.4); padding-top: 3mm; }
+.backcover-qr {
+  position: absolute; right: 20mm; bottom: 28mm;
+  display: flex; align-items: center; gap: 3.5mm;
+  text-decoration: none; color: #fff; z-index: 10;
+}
+.backcover-qr .qr-box svg { width: 17mm; height: 17mm; display: block; }
+.backcover-qr .qr-meta { display: flex; flex-direction: column; gap: 1mm; }
+.backcover-qr .qr-kicker {
+  font-family: var(--f-display); font-stretch: 118%; font-weight: 700;
+  font-size: 6.2pt; letter-spacing: .14em; text-transform: uppercase; color: #ffffff;
+}
+.backcover-qr .qr-url {
+  font-family: var(--f-mono); font-size: 6.2pt; line-height: 1.35; color: rgba(255,255,255,.85);
+}
 
 /* ---------- Thumb tabs (injected per page by the Paged.js handler) ---------- */
 .thumb { position: absolute; width: 11mm; height: 26mm; display: flex; align-items: center; justify-content: center; background: var(--tab); color: #fff; z-index: 5; }

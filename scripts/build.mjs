@@ -83,11 +83,20 @@ function contents(ctx, { print = false, rel = '' } = {}) {
 
 function coverHtml(ctx) {
   const { book } = ctx;
+  const qrHtml = book.online_qr ? `
+  <a class="cover-qr" href="${esc(book.online_url)}" style="color:inherit;text-decoration:none;">
+    <div class="qr-box">${book.online_qr}</div>
+    <div class="qr-meta">
+      <span class="qr-kicker">Live edition</span>
+      <span class="qr-url">Scan or tap to read online</span>
+    </div>
+  </a>` : '';
   return `<section class="cover">
   <h1 class="title">${esc(book.title)}<span>${esc(book.title_accent || '')}</span></h1>
   <div class="matrix">${attentionMatrix(book.cover_sentence, { cell: 46, font: 12 })}</div>
   <div class="tracks">${book.tracks.map((t) => `<span style="background: var(--t-${t.id})"></span>`).join('')}</div>
   <p class="sub">${esc(book.subtitle)}</p>
+  ${qrHtml}
   <div class="foot"><span>${esc(book.edition)}</span><span>Compiled by ${formatAuthors(book, { format: 'print-links' })}</span></div>
 </section>`;
 }
@@ -159,6 +168,14 @@ function backMatter(ctx, cited, terms) {
 </section>
 <section class="backcover">
   <p class="blurb">${esc(book.back_blurb)}</p>
+  ${book.online_qr ? `
+  <a class="backcover-qr" href="${esc(book.online_url)}" style="color:inherit;text-decoration:none;">
+    <div class="qr-box">${book.online_qr}</div>
+    <div class="qr-meta">
+      <span class="qr-kicker">Live edition</span>
+      <span class="qr-url">janmejai2002.github.io/inference-compendium</span>
+    </div>
+  </a>` : ''}
   <div class="fine"><span>${esc(book.title)}${esc(book.title_accent || '')} ${esc(book.subtitle)} · Curated by ${formatAuthors(book, { format: 'print-links' })}</span><span>${esc(book.edition)}</span></div>
 </section>`;
 }
@@ -302,6 +319,11 @@ export async function build() {
   const pb = printBook(ctx);
   fs.writeFileSync(path.join(DIST, 'print.html'), pb.html);
   await buildSpecimen(ctx, { DIST, shell });
+  const pdfSnapshot = path.join(ROOT, 'editions', 'INFERENCE-v1-draft.pdf');
+  const pdfOut = path.join(DIST, `${ctx.book.title}.pdf`);
+  if (fs.existsSync(pdfSnapshot) && !fs.existsSync(pdfOut)) {
+    fs.copyFileSync(pdfSnapshot, pdfOut);
+  }
   const uniq = [...new Set([...problems, ...pb.problems])];
   uniq.forEach((p) => console.warn(`  ! ${p}`));
   console.log(`built ${written.length}/${ctx.chapters.length} chapters → dist/ in ${Date.now() - t0} ms${uniq.length ? ` (${uniq.length} problems)` : ''}`);
