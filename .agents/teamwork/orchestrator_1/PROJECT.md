@@ -38,7 +38,7 @@
 | M1 | Registries & Configuration | `content/sources.yml`, `content/source-policy.yml`, `content/glossary.yml`, `content/toc.yml`, `book.yml` | none | DONE |
 | M2 | Foundation PM Chapters | `content/chapters/ai-product-lifecycle.md`, `content/chapters/product-architecture-economics.md`, accompanying SVG figures | M1 | DONE |
 | M3 | Advanced PM Chapters & Casebook | `content/chapters/agentic-ux-and-interfaces.md`, `content/chapters/product-casebook.md`, accompanying SVG figures | M1, M2 | DONE |
-| M4 | Verification, Release & Commit | `npm run check`, `npm run build`, `npm run pdf`, copy to `editions/`, update `STATUS.md`, git commit | M2, M3 | IN_PROGRESS |
+| M4 | Verification, Release & Commit | `npm run check`, `npm run build`, `npm run pdf`, copy to `editions/`, update `STATUS.md`, git commit | M2, M3 | DONE |
 
 ## Interface Contracts
 ### M1 Registries ↔ M2/M3 Chapter Authoring
