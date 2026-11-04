@@ -327,6 +327,37 @@ parts:
 
   - id: p6
     n: VI
+    title: Finance & Banking
+    track: finance
+    deck: Algorithmic credit risk, high-stakes FP&A deal copilots, financial crime under RBI FREE-AI, and the finance casebook.
+    chapters:
+      - id: algorithmic-underwriting-and-credit-risk
+        title: "Algorithmic underwriting & credit risk: from logistic regression to foundation models"
+        deck: "Why a 50 bps reduction in credit default rates pays for a bank's entire AI stack: Basel III/IV capital adequacy, IFRS 9 expected credit loss, explainability versus accuracy (SHAP/LIME), and unstructured document underwriting."
+        tracks: [finance]
+        prereq: [kinds-of-ai, your-documents]
+        status: draft
+      - id: financial-copilots-and-deal-diligence
+        title: "GenAI in high-stakes finance: FP&A, deal diligence, and autonomous copilots"
+        deck: "Zero tolerance for hallucination in corporate finance: automated spreading in Virtual Data Rooms, deterministic tool-calling sandboxes, auditing earnings calls, and AI-assisted LBO/DCF financial modeling."
+        tracks: [finance, strategy]
+        prereq: [delegation-brief, judging-output]
+        status: draft
+      - id: financial-crime-fraud-and-rbi-free-ai
+        title: "Financial crime, fraud, and the regulatory boundary: RBI FREE-AI, AML, and explainability"
+        deck: "Mule accounts and real-time transaction laundering on UPI, the base rate fallacy in fraud alerts, RBI FREE-AI governance principles, SEBI algorithmic trading safeguards, and DPDP financial data sovereignty."
+        tracks: [finance]
+        prereq: [judging-output, models-that-act]
+        status: draft
+      - id: finance-casebook
+        title: "The Finance AI casebook & interview room"
+        deck: "Eight fully-worked quantitative finance cases and estimation problems covering SME credit scoring ROI, PE buyout due diligence, retail robo-advisory economics, AML false-positive optimization, and private banking cloud capex."
+        tracks: [finance]
+        prereq: [algorithmic-underwriting-and-credit-risk, financial-copilots-and-deal-diligence, financial-crime-fraud-and-rbi-free-ai]
+        status: draft
+
+  - id: p7
+    n: VII
     title: Inserts
     track: strategy
     deck: Short, dated pages that the web edition replaces every term.

@@ -228,4 +228,118 @@ agentic-ux:
   term: Agentic UX
   def: User interface design patterns engineered for semi-autonomous, proactive AI systems—moving beyond reactive conversational chat bubbles toward ambient heads-up displays (HUDs), interactive canvas surfaces, and graduated human-in-the-loop control gates.
 
+credit-underwriting-engine:
+  term: Credit underwriting engine
+  def: An algorithmic software pipeline that combines structured applicant data (bureau scores, debt-to-income, cash flows) and unstructured inputs (bank statements, GST returns, invoices) to predict default risk and automatically approve, price, or decline a credit facility.
 
+probability-of-default:
+  term: Probability of default (PD)
+  def: An empirical estimate of the likelihood that a borrower will fail to meet contractual debt obligations over a specified horizon (typically 12 months under Basel III and IFRS 9 Stage 1).
+
+pd:
+  term: Probability of default (PD)
+  def: An empirical estimate of the likelihood that a borrower will fail to meet contractual debt obligations over a specified horizon (typically 12 months under Basel III and IFRS 9 Stage 1).
+
+loss-given-default:
+  term: Loss given default (LGD)
+  def: The percentage of an exposure that a lender loses if a borrower defaults, after accounting for collateral liquidation, guarantees, and recovery expenses (LGD = 1 − Recovery Rate).
+
+lgd:
+  term: Loss given default (LGD)
+  def: The percentage of an exposure that a lender loses if a borrower defaults, after accounting for collateral liquidation, guarantees, and recovery expenses (LGD = 1 − Recovery Rate).
+
+exposure-at-default:
+  term: Exposure at default (EAD)
+  def: The total gross monetary amount a bank is exposed to at the exact moment of borrower default, comprising drawn balances and committed but undrawn credit facilities.
+
+ead:
+  term: Exposure at default (EAD)
+  def: The total gross monetary amount a bank is exposed to at the exact moment of borrower default, comprising drawn balances and committed but undrawn credit facilities.
+
+expected-credit-loss:
+  term: Expected credit loss (ECL)
+  def: The monetary value of credit losses a lender expects to absorb over an asset's lifetime, calculated under IFRS 9 and Ind AS 109 as the product of exposure, probability, and loss severity (ECL = EAD × PD × LGD).
+
+ecl:
+  term: Expected credit loss (ECL)
+  def: The monetary value of credit losses a lender expects to absorb over an asset's lifetime, calculated under IFRS 9 and Ind AS 109 as the product of exposure, probability, and loss severity (ECL = EAD × PD × LGD).
+
+financial-spreading:
+  term: Financial spreading
+  def: The process of extracting line items from balance sheets, income statements, and cash flow reports in varied document formats and standardizing them into a structured financial model for ratio analysis and credit evaluation.
+
+rbi-free-ai:
+  term: RBI FREE-AI framework
+  def: "The Reserve Bank of India's governance framework for Responsible and Ethical Enablement of AI in financial services, organized around seven Sutras: fairness, accountability, transparency, resilience, consumer protection, privacy, and contestability."
+
+mule-account-detection:
+  term: Mule account detection
+  def: Algorithmic identification of bank or digital wallet accounts that are created, rented, or hijacked to launder illicit funds and layer fraud proceeds across payment networks before extraction.
+
+explainable-ai-finance:
+  term: Explainable AI in finance (XAI)
+  def: Interpretability methodologies (such as SHAP values, integrated gradients, and surrogate models) that explain individual model decisions to satisfy statutory adverse action notice and regulatory audit mandates.
+
+shap-attribution:
+  term: SHAP attribution
+  def: A cooperative game-theoretic method that calculates Shapley values to quantify the exact marginal contribution of each input variable to a specific model prediction or credit decision.
+
+shap:
+  term: SHAP (SHapley Additive exPlanations)
+  def: A cooperative game-theoretic method that calculates Shapley values to quantify the exact marginal contribution of each input variable to a specific model prediction or credit decision.
+
+virtual-data-room:
+  term: Virtual Data Room (VDR)
+  def: A highly secure, audited online document repository used by investment bankers, private equity sponsors, and legal teams to share sensitive corporate filings during M&A due diligence.
+
+vdr:
+  term: Virtual Data Room (VDR)
+  def: A highly secure, audited online document repository used by investment bankers, private equity sponsors, and legal teams to share sensitive corporate filings during M&A due diligence.
+
+base-rate-fallacy:
+  term: Base rate fallacy
+  def: A statistical cognitive bias where decision-makers or alert systems focus on specific test indicators while ignoring the low prior probability (base rate) of an event, creating enormous false alarm volumes in low-incidence domains like fraud detection.
+
+weight-of-evidence:
+  term: Weight of evidence (WoE)
+  def: A statistical measure used in classical credit scorecards that quantifies the log-odds ratio of default across binned feature segments, enforcing monotonic and auditable linear credit risk scores.
+
+adverse-action-notice:
+  term: Adverse action notice
+  def: A formal regulatory statement provided to a loan applicant detailing the principal legal and financial reasons why their credit application was denied or offered on less favorable terms.
+
+gnpa:
+  term: Gross non-performing assets (GNPA)
+  def: The total value of loans that a bank's borrowers have defaulted on or failed to service for more than 90 days, serving as the benchmark measure of a lending institution's credit quality.
+
+alternative-data-credit:
+  term: Alternative credit data
+  def: Non-traditional information signals (including UPI payment velocity, utility bill records, GST filings, and e-commerce receipts) used to assess the creditworthiness of thin-file borrowers.
+
+cell-level-audit-lineage:
+  term: Cell-level audit lineage
+  def: An immutable provenance trail linking every calculated number in a financial spreadsheet or valuation model directly back to the exact source page, table cell, and bounding box coordinates in the original filing.
+
+deterministic-sandbox:
+  term: Deterministic sandbox
+  def: An isolated computational execution environment where an AI system runs programmatic code (such as Python, SQL, or Excel formulas) to execute financial arithmetic rather than relying on stochastic token generation.
+
+covenant-monitoring:
+  term: Covenant monitoring
+  def: The continuous automated tracking of a borrower's operational and financial ratios (such as DSCR or leverage ceilings) against loan covenants to detect early technical distress before default occurs.
+
+graph-neural-networks:
+  term: Graph neural networks (GNNs)
+  def: Deep learning models designed to process topological and relational graph structures, identifying hidden fraud rings, synthetic identities, and circular money laundering patterns invisible to tabular classifiers.
+
+suspicious-transaction-report:
+  term: Suspicious transaction report (STR)
+  def: A mandatory regulatory document filed by a financial institution with a national financial intelligence unit (such as FIU-IND) whenever a transaction is suspected of criminal or money-laundering ties.
+
+dpdp-financial-localization:
+  term: Financial data localization
+  def: Statutory rules (under RBI directives and DPDP Act provisions) mandating that sensitive financial and payment records of domestic citizens be stored and processed exclusively within domestic physical borders.
+
+synthetic-identity-fraud:
+  term: Synthetic identity fraud
+  def: A sophisticated financial crime where genuine (often stolen) credentials like PAN or Aadhaar are combined with fictitious personal data to create new credit identities that build credit before defaulting.

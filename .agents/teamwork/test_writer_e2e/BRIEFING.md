@@ -1,7 +1,7 @@
-# BRIEFING — 2026-11-03T08:35:00Z
+# BRIEFING — 2026-11-04T16:00:00Z
 
 ## Mission
-Design and implement the comprehensive opaque-box E2E test suite for the INFERENCE v3 Product Management Track expansion, author TEST_INFRA.md, and publish TEST_READY.md.
+Design and implement the comprehensive opaque-box E2E test suite `test/e2e-fin.mjs` for the INFERENCE v4 Finance & Banking Track expansion (Part VI), author `TEST_INFRA.md`, and publish `TEST_READY.md`.
 
 ## 🔒 My Identity
 - Archetype: test_writer
@@ -9,6 +9,8 @@ Design and implement the comprehensive opaque-box E2E test suite for the INFEREN
 - Working directory: C:\Users\Janmejai\compendium\.agents\teamwork\test_writer_e2e\
 - Original parent: 63749ac4-d84d-4275-8f32-53b3635ebc8a
 - Milestone: E2E Test Suite Orchestration
+- Active Parent (2026-11-04): a5372a48-229a-4fc5-8650-1b7734794c36
+- Milestone (2026-11-04): v4 Finance Track E2E Test Infrastructure
 
 ## 🔒 Key Constraints
 - Test code and test documentation ONLY — never implementation code. Escalate implementation bugs.
@@ -16,33 +18,38 @@ Design and implement the comprehensive opaque-box E2E test suite for the INFEREN
 - Output artifacts: test/e2e-pm.mjs, C:\Users\Janmejai\compendium\TEST_INFRA.md, C:\Users\Janmejai\compendium\TEST_READY.md, handoff.md.
 - Ensure test runner can be executed cleanly via node test/e2e-pm.mjs.
 - Verifiable progressive testability and opaque-box test isolation.
+- Exclusive write boundaries for v4: test/e2e-fin.mjs, TEST_INFRA.md, TEST_READY.md (and .agents/teamwork/test_writer_e2e/*).
+- Implement 4-tier, 46-test architecture designed in explorer_1/report.md.
+- Support CLI flags: --tier=N, --bail, --json, --verbose.
 
 ## Current Parent
-- Conversation ID: 63749ac4-d84d-4275-8f32-53b3635ebc8a
-- Updated: 2026-11-03T08:35:00Z
+- Conversation ID: a5372a48-229a-4fc5-8650-1b7734794c36
+- Updated: 2026-11-04T16:00:00Z
 
 ## Task Summary
-- **What to build**: Comprehensive test suite `test/e2e-pm.mjs` verifying all 12 features across M1-M4 using a 4-tier methodology, project test infrastructure doc `TEST_INFRA.md`, and `TEST_READY.md`.
+- **What to build**: Comprehensive test suite `test/e2e-fin.mjs` verifying all 18 features across M1-M4 using a 4-tier, 46-test architecture, project test infrastructure doc `TEST_INFRA.md`, and `TEST_READY.md`.
 - **Success criteria**: Tests cleanly execute, validate all registries, chapters, pedagogy constraints, referential integrity, build & PDF rendering; `TEST_INFRA.md` documents test architecture; `TEST_READY.md` publishes suite readiness.
-- **Interface contracts**: C:\Users\Janmejai\compendium\.agents\teamwork\orchestrator_1\PROJECT.md § Interface Contracts
-- **Code layout**: C:\Users\Janmejai\compendium\.agents\teamwork\orchestrator_1\PROJECT.md § Code Layout
+- **Interface contracts**: C:\Users\Janmejai\compendium\.agents\teamwork\orchestrator\PROJECT.md
+- **Code layout**: C:\Users\Janmejai\compendium\.agents\teamwork\orchestrator\PROJECT.md
 
 ## Key Decisions Made
-- Use native Node.js ESM test suite runner with zero extra dependencies (using project's existing dependencies: js-yaml, gray-matter, markdown-it, katex, etc.).
-- Structure runner into 4 distinct tiers with flag filters (`--tier=1`, `--tier=2`, `--tier=3`, `--tier=4`, `--all`).
-- Provide granular assertion reporting, clear failure diagnostics, and summary statistics.
+- Implemented native Node.js ESM test suite runner `test/e2e-fin.mjs` mirroring `test/e2e-pm.mjs`.
+- Implemented 4 tiers with 46 tests matching the specification from `explorer_1/report.md`.
+- Implemented robust CLI flags: `--tier=N`, `--milestone=M`, `--progressive`, `--bail`, `--json`, `--verbose`.
+- Added specific validation forbidding LaTeX math in `::: stat` info headers to prevent escaped HTML tag leaks.
 
 ## Artifact Index
-- `test/e2e-pm.mjs` — Comprehensive 4-tier E2E test runner
+- `test/e2e-fin.mjs` — Comprehensive 4-tier E2E test runner for v4 Finance Track (46 tests)
 - `TEST_INFRA.md` — Project test architecture and execution specification
 - `TEST_READY.md` — Test suite readiness declaration
 - `progress.md` — Liveness heartbeat and milestone tracker
 - `handoff.md` — 5-component handoff report
+- `changes.md` — Summary of file changes
 
 ## Loaded Skills
 - None required
 
 ## Quality Status
-- **Build/test result**: Pending runner execution
-- **Lint status**: Clean
-- **Tests added/modified**: `test/e2e-pm.mjs` (4 tiers, 28+ distinct E2E verification assertions)
+- **Build/test result**: `node test/e2e-fin.mjs --milestone=M1` passes 100% (3/3 passed). `node test/e2e-fin.mjs --progressive` passes active tests (8 passed, 38 pending, 0 failed).
+- **Lint status**: Clean (scripts/check.mjs passes with 0 errors).
+- **Tests added/modified**: `test/e2e-fin.mjs` (4 tiers, 46 tests).

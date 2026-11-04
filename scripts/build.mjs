@@ -119,7 +119,7 @@ function coverHtml(ctx) {
 
 function howToRead(ctx) {
   const { book } = ctx;
-  const paths = ['consulting', 'marketing', 'product'].map((t) => {
+  const paths = ['consulting', 'marketing', 'product', 'finance'].map((t) => {
     const tr = ctx.trackById[t];
     const list = ctx.chapters.filter((c) => c.track === t || c.track === 'foundations' || (c.tracks || []).includes(t));
     return `<div class="path"><span class="chip" style="--chip: var(--t-${t})">${esc(tr.name)}</span><ol>${list.map((c) => `<li>${c.n} · ${esc(c.title)}</li>`).join('')}</ol></div>`;

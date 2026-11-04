@@ -1,0 +1,112 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zero-Tolerance Financial Copilot Architecture showing VDR ingestion, layout-aware table extraction, LLM formula compiler, deterministic math sandbox, and cell-level provenance lineage.">
+  <!-- Title & Principle Header -->
+  <text class="t-display" x="20" y="24" font-size="15">Zero-Tolerance Financial Copilot Architecture</text>
+  <text x="20" y="38" font-size="8.5" fill="#666">Decoupling stochastic natural language understanding from deterministic numerical computation</text>
+
+  <!-- Stage 1: Unstructured VDR Ingestion -->
+  <rect class="paper acc-s" x="20" y="48" width="112" height="172" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="27" y="66" font-size="10.5">Stage 1: VDR Ingestion</text>
+  <text x="27" y="80" font-size="8" font-weight="bold">Multi-Source Inflow:</text>
+  <text x="27" y="93" font-size="7.8">• 10-K / 10-Q SEC filings</text>
+  <text x="27" y="105" font-size="7.8">• Confidential CIM decks</text>
+  <text x="27" y="117" font-size="7.8">• MCA-21 annual returns</text>
+  <text x="27" y="129" font-size="7.8">• Balance sheet scans</text>
+  <text x="27" y="141" font-size="7.8">• Auditor qualification notes</text>
+  <text x="27" y="159" font-size="8" font-weight="bold">Ingestion Engine:</text>
+  <text x="27" y="171" font-size="7.5">DocLLM &amp; OCR pipeline</text>
+  <text x="27" y="183" font-size="7.5">Document de-duplication</text>
+  <text x="27" y="202" font-size="7.5" fill="#666">PDF / Docx / XLSX formats</text>
+
+  <!-- Arrow 1 to 2 -->
+  <path d="M 132 134 L 142 134 M 138 130 L 143 134 L 138 138" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Stage 2: Layout-Aware Table Extraction -->
+  <rect class="paper acc-s" x="142" y="48" width="112" height="172" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="149" y="66" font-size="10.5">Stage 2: Table Extract</text>
+  <text x="149" y="80" font-size="8" font-weight="bold">Layout-Aware Chunking:</text>
+  <text x="149" y="93" font-size="7.8">• 2D spatial coordinates</text>
+  <text x="149" y="105" font-size="7.8">• Multi-row span headers</text>
+  <text x="149" y="117" font-size="7.8">• Unit/currency detector</text>
+  <text x="149" y="129" font-size="7.8">• Footnote tag linker</text>
+  <text x="149" y="141" font-size="7.8">• Bounding-box metadata</text>
+  <text x="149" y="159" font-size="8" font-weight="bold">Output Representation:</text>
+  <text x="149" y="171" font-size="7.5">Normalized JSON matrix</text>
+  <text x="149" y="183" font-size="7.5">Cell coordinate registry</text>
+  <text x="149" y="202" font-size="7.5" fill="#666">[x0, y0, x1, y1] bbox map</text>
+
+  <!-- Arrow 2 to 3 -->
+  <path d="M 254 134 L 264 134 M 260 130 L 265 134 L 260 138" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Stage 3: LLM Semantic Compiler & Formula Planner -->
+  <rect class="wash acc-s" x="264" y="48" width="112" height="172" rx="4" stroke-width="2"/>
+  <text class="t-display" x="271" y="66" font-size="10.5">Stage 3: LLM Compiler</text>
+  <text x="271" y="80" font-size="8" font-weight="bold">Deterministic Planner:</text>
+  <text x="271" y="93" font-size="7.8">• Financial intent parser</text>
+  <text x="271" y="105" font-size="7.8">• Python AST generator</text>
+  <text x="271" y="117" font-size="7.8">• Formula composition</text>
+  <text x="271" y="129" font-size="7.8" font-weight="bold" fill="#B83A26">• ZERO direct math</text>
+  <text x="271" y="141" font-size="7.8">• Pandas / Excel formulas</text>
+  <text x="271" y="159" font-size="8" font-weight="bold">Core Governance:</text>
+  <text x="271" y="171" font-size="7.5">Model acts exclusively</text>
+  <text x="271" y="183" font-size="7.5">as code planner/compiler</text>
+  <text x="271" y="202" font-size="7.5" fill="#666">Hallucination firewall</text>
+
+  <!-- Arrow 3 to 4 -->
+  <path d="M 376 134 L 386 134 M 382 130 L 387 134 L 382 138" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Stage 4: Deterministic Sandbox Tool Execution -->
+  <rect class="paper acc-s" x="386" y="48" width="112" height="172" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="393" y="66" font-size="10.5">Stage 4: Math Sandbox</text>
+  <text x="393" y="80" font-size="8" font-weight="bold">Execution Engine:</text>
+  <text x="393" y="93" font-size="7.8">• Isolated Python runtime</text>
+  <text x="393" y="105" font-size="7.8">• IEEE 754 float precision</text>
+  <text x="393" y="117" font-size="7.8">• Double-entry checks</text>
+  <text x="393" y="129" font-size="7.8">• Balance sheet balance</text>
+  <text x="393" y="141" font-size="7.8">• Debt covenant ratios</text>
+  <text x="393" y="159" font-size="8" font-weight="bold">Mathematical Trust:</text>
+  <text x="393" y="171" font-size="7.5">Deterministic evaluation</text>
+  <text x="393" y="183" font-size="7.5">Verifiable 1 + 1 = 2</text>
+  <text x="393" y="202" font-size="7.5" fill="#666">WASM / Pyodide sandbox</text>
+
+  <!-- Arrow 4 to 5 -->
+  <path d="M 498 134 L 508 134 M 504 130 L 509 134 L 504 138" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Stage 5: Cell-Level Lineage Verification Gate -->
+  <rect class="paper acc-s" x="508" y="48" width="112" height="172" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="515" y="66" font-size="10.5">Stage 5: Audit Lineage</text>
+  <text x="515" y="80" font-size="8" font-weight="bold">Provenance Gate:</text>
+  <text x="515" y="93" font-size="7.8">• SHA-256 source hash</text>
+  <text x="515" y="105" font-size="7.8">• Document ID &amp; page #</text>
+  <text x="515" y="117" font-size="7.8">• Visual bounding rectangle</text>
+  <text x="515" y="129" font-size="7.8">• Audit trail timestamp</text>
+  <text x="515" y="141" font-size="7.8">• Formula lineage graph</text>
+  <text x="515" y="159" font-size="8" font-weight="bold">Lineage Inspector:</text>
+  <text x="515" y="171" font-size="7.5">Click cell to open PDF</text>
+  <text x="515" y="183" font-size="7.5">Instant human review</text>
+  <text x="515" y="202" font-size="7.5" fill="#666">Zero unanchored figures</text>
+
+  <!-- Arrow down to Bottom Output Box -->
+  <path d="M 320 220 L 320 234 M 316 230 L 320 235 L 324 230" stroke="currentColor" fill="none" stroke-width="1.4"/>
+
+  <!-- Bottom Output: Audited Financial Model & Diligence Memo -->
+  <rect class="wash acc-s" x="20" y="236" width="600" height="82" rx="4" stroke-width="1.8"/>
+  <text class="t-display" x="32" y="254" font-size="11.5">Deliverable: Audited Financial Model &amp; Deal Diligence Memorandum</text>
+
+  <!-- Column 1 -->
+  <text x="32" y="270" font-size="8.5" font-weight="bold">Institutional LBO / DCF Model</text>
+  <text x="32" y="282" font-size="8">• 3-statement automated spreading</text>
+  <text x="32" y="294" font-size="8">• Dynamic debt schedule &amp; revolver</text>
+  <text x="32" y="306" font-size="8" fill="#666">Returns matrix (IRR, MoIC)</text>
+
+  <!-- Column 2 -->
+  <text x="235" y="270" font-size="8.5" font-weight="bold">Cell-Level Provenance Inspector</text>
+  <text x="235" y="282" font-size="8">• Click any figure to highlight PDF bbox</text>
+  <text x="235" y="294" font-size="8">• Cryptographic checksum verification</text>
+  <text x="235" y="306" font-size="8" fill="#666">Eliminates analyst manual cross-checking</text>
+
+  <!-- Column 3 -->
+  <text x="445" y="270" font-size="8.5" font-weight="bold">Investment Committee Sign-Off</text>
+  <text x="445" y="282" font-size="8">• Automated covenant breach warnings</text>
+  <text x="445" y="294" font-size="8">• Audit trail for statutory diligence</text>
+  <text x="445" y="306" font-size="8" fill="#666">PE / M&amp;A institutional standard</text>
+</svg>

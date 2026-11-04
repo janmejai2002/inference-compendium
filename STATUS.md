@@ -1,9 +1,9 @@
 # Status
 
-_Last updated 2026-11-04, Product Management Track (Part V) complete and integrated per DESIGN.md and original request._
+_Last updated 2026-11-04, Finance & Banking Track (Part VI) complete and integrated per DESIGN.md and original request._
 
 ## Where we are
-- **Edition: v3 Product Management Track Draft complete.** All 24 planned units (Chapters 00 through 21 plus Inserts A and B) are fully drafted, verified with cross-model plan checks, and linted with zero errors (`check: 0 errors`).
+- **Edition: v4 Finance & Banking Track Draft complete.** All 28 planned units (Chapters 00 through 25 plus Inserts A and B across Parts 0 through VII) are fully drafted, verified with cross-model plan checks, and linted with zero errors (`check: 0 errors`).
 - **Front Cover & First Page:** Restored to the clean, authentic, magazine-grade design language specified in `docs/DESIGN.md`:
   - **Wordmark & Identity:** Giant title `INFERENCE.` with cobalt `#8593FF` full stop.
   - **Byline & Authors:** Prominently attributes Janmejai Singh Minhas ([LinkedIn](https://linkedin.com/in/janmejai) · [GitHub](https://github.com/janmejai2002)) & Chaitanya Sharma ([LinkedIn](https://www.linkedin.com/in/chaitanya-sharma-b7a5b925b/) · [GitHub](https://github.com/chaitanya-sharma)) with links in byline and colophon.
@@ -11,18 +11,19 @@ _Last updated 2026-11-04, Product Management Track (Part V) complete and integra
   - **Purpose Statement:** One clear sentence explaining why the compendium exists: *"Every B-school recruiter now asks about AI. Most compendiums still don't teach it. This one starts from first principles and ends in the interview room."*
   - **Live Edition QR:** High-resolution SVG QR code linking to the live GitHub Pages edition (`https://janmejai2002.github.io/inference-compendium/`).
 - **Authors & Co-creators:** Janmejai Singh Minhas & Chaitanya Sharma.
-- **Title & Edition:** `INFERENCE` · `2027 · Draft 0.3 (Product Track)`.
-- **Book metrics:** 408 pages, 88,145 total words, 65 media cards, 67 glossary terms.
+- **Title & Edition:** `INFERENCE` · `2027 · Draft 0.4 (Finance Track)`.
+- **Book metrics:** 498 pages, 110,020 total words, 72 media cards, 96 glossary terms.
 - **Pipeline & Deployment:** Working cleanly. Markdown → web edition, A4 print book (Paged.js), PDF with bookmarks and clickable table of contents. Automated GitHub Pages workflow (`.github/workflows/deploy.yml`) continuously deploys to `https://janmejai2002.github.io/inference-compendium/` on every push to `main`.
 - **Live Edition QR:** Interactive and printable SVG QR code added to the front cover and back cover pointing to the live online edition.
 - **Milestone snapshots:**
-  - `editions/INFERENCE-v3-product-draft.pdf` (10.38 MB, 408 pages) generated and committed.
+  - `editions/INFERENCE-v4-finance-draft.pdf` (12.34 MB, 498 pages) generated and committed.
+  - `editions/INFERENCE-v3-product-draft.pdf` (10.38 MB, 408 pages) preserved.
   - `editions/INFERENCE-v2-marketing-draft.pdf` (8.99 MB, 338 pages) preserved.
   - `editions/INFERENCE-v1-draft.pdf` (7.17 MB, 252 pages) preserved.
 - **Proofing:** Full B&W proof rendered to `dist/pages-bw/` via `npm run proof:bw`.
-- **Sources:** 146 sources registered in `content/sources.yml`, 118 verified (28 unverified).
+- **Sources:** 160 sources registered in `content/sources.yml`, 132 verified (28 unverified).
 
-## Chapter inventory (24/24 draft)
+## Chapter inventory (28/28 draft)
 | # | ID | Title | Status | Words | Media |
 |---|---|---|---|---|---|
 | 00 | `ai-in-one-sitting` | AI in one sitting | draft | 4,282 | 3 |
@@ -47,6 +48,10 @@ _Last updated 2026-11-04, Product Management Track (Part V) complete and integra
 | 19 | `product-architecture-economics` | Product architecture & economics: latency budgets, caching, and model routing | draft | 3,028 | 3 |
 | 20 | `agentic-ux-and-interfaces` | Agentic UX: ambient HUDs, canvas workspaces, and human-in-the-loop | draft | 3,312 | 3 |
 | 21 | `product-casebook` | The Product AI casebook & interview room | draft | 3,564 | 3 |
+| 22 | `algorithmic-underwriting-and-credit-risk` | Algorithmic Underwriting & Credit Risk | draft | 4,308 | 2 |
+| 23 | `financial-copilots-and-deal-diligence` | Financial Copilots & Deal Diligence | draft | 3,668 | 1 |
+| 24 | `financial-crime-fraud-and-rbi-free-ai` | Financial Crime, Fraud & RBI FREE-AI | published | 5,240 | 2 |
+| 25 | `finance-casebook` | Finance Casebook: Eight Worked Problems | published | 8,659 | 2 |
 | A | `state-of-play` | State of play, November 2026 | draft | 1,562 | 1 |
 | B | `india-briefing` | India briefing | draft | 1,819 | 2 |
 

@@ -1,0 +1,78 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Real-Time AML &amp; Fraud Detection Funnel under RBI FREE-AI showing payment streaming, heuristic filtering, GNN mule account detection, Bayesian base rate fallacy calibration, and human-signed FIU-IND STR generation.">
+  <!-- Title & Principle Header -->
+  <text class="t-display" x="20" y="24" font-size="15">Real-Time AML &amp; Fraud Detection Funnel</text>
+  <text class="t-display" x="350" y="24" font-size="15">RBI FREE-AI Governance &amp; Math</text>
+  <text x="20" y="38" font-size="8.5" fill="#666">Layered defense balancing sub-50ms payment throughput with base rate fallacy containment</text>
+
+  <!-- Left: The Screening Funnel -->
+  <!-- Tier 1: Streaming Ingress -->
+  <rect class="paper acc-s" x="20" y="46" width="300" height="42" rx="4" stroke-width="1.5"/>
+  <text x="32" y="63" font-size="10.5" font-weight="bold">1. Payment Streaming Ingress (40M tx/day)</text>
+  <text x="32" y="77" font-size="8.5">Real-time UPI/IMPS switch · Sub-50ms strict latency SLA budget</text>
+
+  <!-- Arrow down 1 -->
+  <path d="M 170 88 L 170 96 M 166 92 L 170 97 L 174 92" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Tier 2: Fast Heuristics & Velocity Filter -->
+  <rect class="paper acc-s" x="35" y="98" width="270" height="42" rx="4" stroke-width="1.5"/>
+  <text x="47" y="115" font-size="10.5" font-weight="bold">2. Fast Velocity &amp; Device Filter (99.5% Pass)</text>
+  <text x="47" y="129" font-size="8.5">Rules engine, blacklist, geofence, device fingerprint (latency &lt; 15ms)</text>
+
+  <!-- Arrow down 2 -->
+  <path d="M 170 140 L 170 148 M 166 144 L 170 149 L 174 144" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Tier 3: Graph Anomaly & Entity Resolution Engine -->
+  <rect class="paper acc-s" x="50" y="150" width="240" height="46" rx="4" stroke-width="1.5"/>
+  <text x="62" y="167" font-size="10.5" font-weight="bold">3. GNN &amp; Mule Ring Detector (0.5%)</text>
+  <text x="62" y="181" font-size="8.5">200k tx/day · Cyclic flows, mule clusters, rapid cash layering</text>
+
+  <!-- Arrow down 3 -->
+  <path d="M 170 196 L 170 204 M 166 200 L 170 205 L 174 200" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Tier 4: Calibrated ML Filter & Base Rate Mitigation -->
+  <rect class="paper acc-s" x="65" y="206" width="210" height="46" rx="4" stroke-width="1.5"/>
+  <text x="77" y="223" font-size="10" font-weight="bold">4. Calibrated High-Recall ML (0.05%)</text>
+  <text x="77" y="237" font-size="8.5">20k alerts/day · Asymmetric cost matrix filtering</text>
+
+  <!-- Arrow down 4 -->
+  <path d="M 170 252 L 170 260 M 166 256 L 170 261 L 174 256" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Tier 5: GenAI Narrative STR Dossier & Human Sign-off -->
+  <rect class="wash acc-s" x="80" y="262" width="180" height="54" rx="4" stroke-width="2"/>
+  <text class="t-display" x="90" y="279" font-size="10" fill="#2337E6">5. GenAI STR Dossier</text>
+  <text x="90" y="293" font-size="8" font-weight="bold">Top 200 High-Priority Cases/Day</text>
+  <text x="90" y="305" font-size="8" fill="#666">Drafts FIU-IND STR · Human Sign-off</text>
+
+  <!-- Vertical Divider -->
+  <line class="rule-s" x1="335" x2="335" y1="20" y2="318" stroke-width="1"/>
+
+  <!-- Right: Governance & Mathematical Pillars -->
+  <!-- Pillar A: Base Rate Fallacy Containment -->
+  <rect class="paper acc-s" x="350" y="46" width="270" height="58" rx="4" stroke-width="1.5"/>
+  <text x="362" y="63" font-size="10.5" font-weight="bold">A. Base Rate Fallacy Containment</text>
+  <text x="362" y="77" font-size="8.5">Prevalence p(Fraud) = 0.01%. An uncalibrated 99%</text>
+  <text x="362" y="89" font-size="8.5">accurate model yields 98% false alerts! Asymmetric loss</text>
+  <text x="362" y="99" font-size="8" fill="#666">matrix and threshold tuning ensure investigator ROI.</text>
+
+  <!-- Pillar B: MuleHunter.AI & Graph Topology -->
+  <rect class="paper acc-s" x="350" y="110" width="270" height="58" rx="4" stroke-width="1.5"/>
+  <text x="362" y="127" font-size="10.5" font-weight="bold">B. Graph Topology &amp; Mule Networks</text>
+  <text x="362" y="141" font-size="8.5">Sub-50ms graph traversal identifies cyclic rings, dynamic</text>
+  <text x="362" y="153" font-size="8.5">entity resolution across SIM/UPI IDs, and rapid liquidity</text>
+  <text x="362" y="163" font-size="8" fill="#666">drainage (₹50k routed to 20 mules and cashed in &lt;120s).</text>
+
+  <!-- Pillar C: Statutory Human Sign-Off & FIU-IND Reporting -->
+  <rect class="paper acc-s" x="350" y="174" width="270" height="58" rx="4" stroke-width="1.5"/>
+  <text x="362" y="191" font-size="10.5" font-weight="bold">C. Mandatory PMLA Statutory Sign-Off</text>
+  <text x="362" y="205" font-size="8.5">Under Indian PMLA, algorithms cannot file statutory</text>
+  <text x="362" y="217" font-size="8.5">STRs unattended. Principal Officer reviews synthesized</text>
+  <text x="362" y="227" font-size="8" fill="#666">narrative dossier and carries personal legal accountability.</text>
+
+  <!-- Bottom: RBI FREE-AI Mandate Card -->
+  <rect class="wash acc-s" x="350" y="238" width="270" height="78" rx="4" stroke-width="1.8"/>
+  <text class="t-display" x="362" y="255" font-size="11">The RBI FREE-AI Governance Contract</text>
+  <text x="362" y="271" font-size="8.5">• <tspan font-weight="bold">Fairness:</tspan> Zero demographic or regional bias in account freezes</text>
+  <text x="362" y="283" font-size="8.5">• <tspan font-weight="bold">Resilience:</tspan> Circuit breakers for model drift &amp; false-cascade cascades</text>
+  <text x="362" y="295" font-size="8.5">• <tspan font-weight="bold">Explainability:</tspan> Visual subgraph audit trail for every STR filed</text>
+  <text x="362" y="307" font-size="8" fill="#666">DPDP Act compliance: sovereign on-prem financial data custody</text>
+</svg>
