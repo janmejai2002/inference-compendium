@@ -1,0 +1,80 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Left: The four-tier AI evaluation pyramid from deterministic unit tests to human ground truth. Right: Continuous canary deployment gating and automated drift circuit breaker.">
+  <text class="t-display" x="20" y="26" font-size="15">The AI Evaluation Pyramid</text>
+  <text class="t-display" x="350" y="26" font-size="15">Canary Gating &amp; Drift Defense</text>
+
+  <!-- Left: The 4-Tier Pyramid -->
+  <!-- Tier 1: Deterministic Unit Tests -->
+  <rect class="paper acc-s" x="20" y="42" width="300" height="46" rx="4" stroke-width="1.5"/>
+  <text x="32" y="60" font-size="11" font-weight="bold">1. Deterministic Unit Tests &amp; Regex</text>
+  <text x="32" y="74" font-size="9.5">JSON schema, PII scrubbers, banned terms (&lt;5ms · ₹0.0001)</text>
+
+  <!-- Escalation arrow 1 -->
+  <path d="M 170 90 L 170 98 M 165 94 L 170 99 L 175 94" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Tier 2: Heuristic & Semantic Graders -->
+  <rect class="paper acc-s" x="35" y="100" width="270" height="46" rx="4" stroke-width="1.5"/>
+  <text x="47" y="118" font-size="11" font-weight="bold">2. Heuristics &amp; Semantic Parsers</text>
+  <text x="47" y="132" font-size="9.5">Levenshtein, BLEU/ROUGE, SQL AST checks (50ms · ₹0.005)</text>
+
+  <!-- Escalation arrow 2 -->
+  <path d="M 170 148 L 170 156 M 165 152 L 170 157 L 175 152" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Tier 3: LLM-as-a-Judge -->
+  <rect class="paper acc-s" x="55" y="158" width="230" height="46" rx="4" stroke-width="1.5"/>
+  <text x="67" y="176" font-size="11" font-weight="bold">3. Calibrated LLM-as-a-Judge</text>
+  <text x="67" y="190" font-size="9.5">Swap-evals, rubric scoring, Cohen's κ ≥ 0.80 (800ms · ₹0.25)</text>
+
+  <!-- Escalation arrow 3 -->
+  <path d="M 170 206 L 170 214 M 165 210 L 170 215 L 175 210" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Tier 4: Human Ground Truth -->
+  <rect class="wash acc-s" x="80" y="216" width="180" height="46" rx="4" stroke-width="2"/>
+  <text class="t-display" x="92" y="234" font-size="11.5">4. Human Ground Truth</text>
+  <text x="92" y="248" font-size="9">Stratified audit panel (Days · ₹35)</text>
+
+  <text x="20" y="284" font-size="10.5">Higher tiers add semantic nuance but multiply latency.</text>
+  <text x="20" y="300" font-size="10.5" font-weight="bold">High-velocity teams catch 85% of bugs in Tiers 1 &amp; 2.</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="335" x2="335" y1="20" y2="315" stroke-width="1"/>
+
+  <!-- Right: Canary Gating & Circuit Breaker -->
+  <!-- Canary Stage 1 & 2 -->
+  <rect class="paper acc-s" x="350" y="42" width="130" height="50" rx="4" stroke-width="1.5"/>
+  <text x="360" y="60" font-size="10.5" font-weight="bold">Stage 1: 2% Traffic</text>
+  <text x="360" y="74" font-size="9">Shadow eval (30 min)</text>
+  <text x="360" y="85" font-size="8.5" fill="#666">Zero user blast radius</text>
+
+  <path d="M 483 67 L 497 67 M 493 62 L 498 67 L 493 72" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <rect class="paper acc-s" x="500" y="42" width="120" height="50" rx="4" stroke-width="1.5"/>
+  <text x="510" y="60" font-size="10.5" font-weight="bold">Stage 2: 10% Pilot</text>
+  <text x="510" y="74" font-size="9">Live canary (2 hrs)</text>
+  <text x="510" y="85" font-size="8.5" fill="#666">Telemetry comparison</text>
+
+  <!-- Down connector -->
+  <path d="M 560 94 L 560 106 L 415 106 L 415 116 M 410 112 L 415 117 L 420 112" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Canary Stage 3 & 4 -->
+  <rect class="paper acc-s" x="350" y="118" width="130" height="50" rx="4" stroke-width="1.5"/>
+  <text x="360" y="136" font-size="10.5" font-weight="bold">Stage 3: 50% Staged</text>
+  <text x="360" y="150" font-size="9">Peak load burn (6 hrs)</text>
+  <text x="360" y="161" font-size="8.5" fill="#666">Latency distribution check</text>
+
+  <path d="M 483 143 L 497 143 M 493 138 L 498 143 L 493 148" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <rect class="paper acc-s" x="500" y="118" width="120" height="50" rx="4" stroke-width="1.5"/>
+  <text x="510" y="136" font-size="10.5" font-weight="bold">Stage 4: 100% Full</text>
+  <text x="510" y="150" font-size="9">Global production</text>
+  <text x="510" y="161" font-size="8.5" fill="#666">Continuous monitoring</text>
+
+  <!-- Automated Circuit Breaker Box -->
+  <rect class="wash acc-s" x="350" y="184" width="270" height="78" rx="4" stroke-width="2"/>
+  <text class="t-display" x="362" y="204" font-size="11.5">Automated Circuit Breaker Policy</text>
+  <text x="362" y="220" font-size="9.5">Trigger: LLM Judge error rate delta Δ ≥ 1.5% OR</text>
+  <text x="362" y="233" font-size="9.5">critical safety violation flags exceed 0.1% on canary.</text>
+  <text x="362" y="249" font-size="9.5" font-weight="bold">Action: Automatic rollback to cached weights in 30s.</text>
+
+  <text x="350" y="284" font-size="10.5">Never deploy un-gated foundation model updates.</text>
+  <text x="350" y="300" font-size="10.5">Canary pipelines turn catastrophic drift into safe telemetry.</text>
+</svg>

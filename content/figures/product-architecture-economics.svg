@@ -1,0 +1,70 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Left: End-to-end latency budget breakdown against Card-Moran-Newell human cognitive perception thresholds. Right: Three-tier cascade model routing topology slashing costs by 82.9%.">
+  <text class="t-display" x="20" y="26" font-size="15">The End-to-End Latency Budget</text>
+  <text class="t-display" x="350" y="26" font-size="15">Three-Tier Cascade Model Routing</text>
+
+  <!-- Left: Latency Budget Breakdown -->
+  <!-- Hop 1: Network Transit -->
+  <rect class="paper acc-s" x="20" y="42" width="300" height="42" rx="4" stroke-width="1.5"/>
+  <text x="32" y="60" font-size="10.5" font-weight="bold">1. Network Transit &amp; Handshake</text>
+  <text x="32" y="74" font-size="9">Client TLS, DNS, edge ingress routing (100ms)</text>
+
+  <!-- Hop 2: Semantic Retrieval -->
+  <rect class="paper acc-s" x="20" y="90" width="300" height="42" rx="4" stroke-width="1.5"/>
+  <text x="32" y="108" font-size="10.5" font-weight="bold">2. Retrieval &amp; Semantic Context</text>
+  <text x="32" y="122" font-size="9">Vector search, hybrid BM25, re-ranking (150ms)</text>
+
+  <!-- Hop 3: TTFT Prefill -->
+  <rect class="paper acc-s" x="20" y="138" width="300" height="42" rx="4" stroke-width="1.5"/>
+  <text x="32" y="156" font-size="10.5" font-weight="bold">3. Time-to-First-Token (TTFT)</text>
+  <text x="32" y="170" font-size="9">Prompt attention prefill compute (250ms with Cache)</text>
+
+  <!-- Hop 4: Streaming Generation -->
+  <rect class="wash acc-s" x="20" y="186" width="300" height="42" rx="4" stroke-width="2"/>
+  <text class="t-display" x="32" y="204" font-size="11">4. Streaming Token Generation</text>
+  <text x="32" y="218" font-size="9">30 tokens @ 60 TPS (Perceived wait = 0ms once streaming)</text>
+
+  <!-- Perception Boundaries -->
+  <line class="rule-s" x1="20" x2="320" y1="242" y2="242" stroke-width="1"/>
+  <text x="20" y="258" font-size="10" font-weight="bold">Card-Moran-Newell Cognitive Thresholds:</text>
+  <text x="20" y="274" font-size="9.5">• 100ms: Instantaneous action (direct manipulation)</text>
+  <text x="20" y="288" font-size="9.5">• 1,000ms: Unbroken thought flow (Interactive SLA target)</text>
+  <text x="20" y="302" font-size="9.5">• 10,000ms: Total task abandonment limit</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="335" x2="335" y1="20" y2="315" stroke-width="1"/>
+
+  <!-- Right: Cascade Model Routing Topology -->
+  <!-- Tier 1: Semantic Cache & Rules -->
+  <rect class="paper acc-s" x="350" y="42" width="270" height="48" rx="4" stroke-width="1.5"/>
+  <text x="362" y="60" font-size="11" font-weight="bold">Tier 1: Semantic Cache &amp; Rules</text>
+  <text x="362" y="74" font-size="9.5">42% volume · ₹0.002/call · p95 = 45ms latency</text>
+  <text x="362" y="84" font-size="8.5" fill="#666">Deterministic lookups, status checks, FAQs</text>
+
+  <!-- Arrow to Tier 2 -->
+  <path d="M 485 90 L 485 96 M 480 93 L 485 98 L 490 93" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Tier 2: Fine-Tuned 8B SLM -->
+  <rect class="paper acc-s" x="350" y="98" width="270" height="48" rx="4" stroke-width="1.5"/>
+  <text x="362" y="116" font-size="11" font-weight="bold">Tier 2: Fine-Tuned 8B SLM</text>
+  <text x="362" y="130" font-size="9.5">43% volume · ₹0.040/call · p95 = 240ms latency</text>
+  <text x="362" y="140" font-size="8.5" fill="#666">Gated by confidence score threshold θ ≥ 0.88</text>
+
+  <!-- Arrow to Tier 3 -->
+  <path d="M 485 146 L 485 152 M 480 149 L 485 154 L 490 149" stroke="currentColor" fill="none" stroke-width="1.2"/>
+
+  <!-- Tier 3: Frontier Reasoning Model -->
+  <rect class="paper acc-s" x="350" y="154" width="270" height="48" rx="4" stroke-width="1.5"/>
+  <text x="362" y="172" font-size="11" font-weight="bold">Tier 3: Frontier Reasoning Engine</text>
+  <text x="362" y="186" font-size="9.5">15% volume · ₹0.850/call · p95 = 1,850ms latency</text>
+  <text x="362" y="196" font-size="8.5" fill="#666">Complex reasoning, multi-step analysis, edge cases</text>
+
+  <!-- Aggregate Payoff Block -->
+  <rect class="wash acc-s" x="350" y="210" width="270" height="66" rx="4" stroke-width="2"/>
+  <text class="t-display" x="362" y="228" font-size="11.5">Cascade Economic &amp; Latency Impact</text>
+  <text x="362" y="244" font-size="9.5">Monthly Spend: ₹8.50 Cr → ₹1.46 Cr (82.9% savings)</text>
+  <text x="362" y="258" font-size="9.5" font-weight="bold">Average Latency: 2,100ms → 399.6ms (5.25× speedup)</text>
+  <text x="362" y="270" font-size="8.5" fill="#666">Context caching break-even Q* ≈ 2 queries per TTL</text>
+
+  <text x="350" y="296" font-size="10.5">Route simple queries away from frontier models.</text>
+  <text x="350" y="312" font-size="10.5">Match model capability directly to task complexity.</text>
+</svg>

@@ -296,6 +296,37 @@ parts:
 
   - id: p5
     n: V
+    title: Product Management
+    track: product
+    deck: Evals as product specs, latency budgets and caching economics, ambient agentic UX, and the PM casebook.
+    chapters:
+      - id: ai-product-lifecycle
+        title: "The AI product lifecycle: evals as specs, test suites, and drift"
+        deck: "Why product requirement documents fail for stochastic systems, how golden evaluation suites become living product contracts, LLM-as-a-judge calibration, and managing model drift in production."
+        tracks: [product]
+        prereq: [judging-output]
+        status: draft
+      - id: product-architecture-economics
+        title: "Product architecture and economics: latency budgets, caching, and routing"
+        deck: "The technical trade-offs behind responsive AI products: dissecting TTFT and TPS, prompt caching economics, cascade routing topologies, and the strategic build-versus-buy frontier."
+        tracks: [product, strategy]
+        prereq: [next-word-machine, who-pays]
+        status: draft
+      - id: agentic-ux-and-interfaces
+        title: "Agentic UX: ambient HUDs, canvas workspaces, and human-in-the-loop"
+        deck: "Transcending the chat bubble: proactive agentic assistance, collaborative canvas architectures, cognitive ergonomics, and designing trusted human-in-the-loop control loops."
+        tracks: [product]
+        prereq: [models-that-act]
+        status: draft
+      - id: product-casebook
+        title: "The Product AI casebook & interview room"
+        deck: "Eight fully-worked quantitative PM cases and estimation problems covering context caching ROI, cascade routing economics, eval harness calibration, agentic latency budgets, and build-vs-buy TCO."
+        tracks: [product]
+        prereq: [ai-product-lifecycle, product-architecture-economics, agentic-ux-and-interfaces]
+        status: draft
+
+  - id: p6
+    n: VI
     title: Inserts
     track: strategy
     deck: Short, dated pages that the web edition replaces every term.

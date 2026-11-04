@@ -1610,3 +1610,92 @@ asci-genai-guidelines:
   why: "The official Indian regulatory self-regulatory standard mandating prominent disclosures for synthetic influencers and AI-generated commercial media."
   verified: false
 
+openai-evals-framework:
+  type: article
+  title: "OpenAI Evals: A Framework for Evaluating LLMs and LLM Systems"
+  creator: "OpenAI"
+  publisher: "OpenAI Open Source & Developer Platform"
+  year: 2024
+  url: https://github.com/openai/evals
+  tier: A
+  why: "The foundational open-source evaluation harness establishing automated benchmarking, deterministic unit assertions, and model-graded evaluation protocols."
+  verified: false
+
+anthropic-context-caching:
+  type: article
+  title: "Prompt Caching with Claude: Architecture, Latency Budgets, and Economics"
+  creator: "Anthropic"
+  publisher: "Anthropic Engineering & Developer Docs"
+  year: 2024
+  url: https://claude.com/resources/articles/prompt-caching
+  tier: A
+  why: "The technical standard defining key-value (KV) context cache persistence, demonstrating up to 90% input cost reductions and 85% latency improvements for long prompts."
+  verified: false
+
+anthropic-prompt-engineering-interactive:
+  type: article
+  title: "Anthropic Interactive Prompt Engineering Tutorial and Best Practices"
+  creator: "Anthropic"
+  publisher: "Anthropic Documentation"
+  year: 2025
+  url: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
+  tier: A
+  why: "Defines systematic prompt iteration as product engineering: XML tagging, chain-of-thought conditioning, few-shot distribution matching, and guardrail specification."
+  verified: false
+
+google-gemini-long-context:
+  type: paper
+  title: "Gemini 1.5: Unlocking Multimodal Understanding Across Millions of Tokens of Context"
+  creator: "Mnasri, Reid, Savinov, et al. (Gemini Team)"
+  publisher: "Google DeepMind (arXiv:2403.05530)"
+  year: 2024
+  url: https://arxiv.org/abs/2403.05530
+  tier: A
+  why: "The seminal long-context architecture paper demonstrating near-perfect (>99%) Needle In A Haystack retrieval across 1M+ tokens, shifting product architectures from chunked RAG to full-context caching."
+  verified: false
+
+cagan-transformed-ai:
+  type: book
+  title: "Transformed: Moving to the Product Operating Model"
+  creator: "Marty Cagan and Silicon Valley Product Group (SVPG)"
+  publisher: "Wiley"
+  year: 2024
+  url: https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/
+  tier: B
+  why: "The definitive authority on modern product operating models, adapting the four core product risks (value, usability, feasibility, viability) to non-deterministic, AI-driven technologies."
+  verified: false
+
+cagan-svpg-ai-risk:
+  type: article
+  title: "AI and the Four Product Risks: Managing Non-Deterministic Feasibility and Value"
+  creator: "Marty Cagan"
+  publisher: "Silicon Valley Product Group (SVPG Insights)"
+  year: 2024
+  url: https://www.svpg.com/four-big-risks/
+  tier: B
+  why: "Analyzes why classical product requirement documents fail for stochastic systems, requiring product discovery through rapid prototype evaluation and statistical guardrails."
+  verified: false
+
+zheng-judging-llm-as-judge:
+  type: paper
+  title: "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena"
+  creator: "Lianmin Zheng, Wei-Lin Chiang, Hao Zhang, et al."
+  publisher: "NeurIPS 2023 (arXiv:2306.05685)"
+  year: 2023
+  url: https://arxiv.org/abs/2306.05685
+  tier: A
+  why: "The originating empirical paper establishing LLM-as-a-judge methodologies, quantifying position bias, verbosity bias, and self-enhancement bias, and proposing calibration protocols."
+  verified: false
+
+card-moran-newell-psychology-hci:
+  type: book
+  title: "The Psychology of Human-Computer Interaction"
+  creator: "Stuart K. Card, Thomas P. Moran, Allen Newell"
+  publisher: "CRC Press / Lawrence Erlbaum Associates"
+  year: 1983
+  url: https://www.taylorfrancis.com/books/mono/10.1201/9780203736166/psychology-human-computer-interaction-stuart-card
+  tier: A
+  why: "The foundational cognitive science text establishing human latency perception thresholds (0.1s instant, 1.0s thought flow, 10s task boundary) that govern modern AI latency budgets."
+  verified: false
+
+

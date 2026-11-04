@@ -44,6 +44,7 @@ A:   # primary sources and originators
   - nature.com
   - science.org
   - karpathy.ai
+  - taylorfrancis.com
 B:   # established editorial and analysis
   - fortune.com
   - deloitte.com
@@ -69,6 +70,7 @@ B:   # established editorial and analysis
   - the-ken.com
   - economictimes.indiatimes.com
   - knowledge.wharton.upenn.edu
+  - svpg.com
 C:   # platforms: the CREATOR decides the tier, not the platform. A source here may be
   - simonwillison.net
   - hamel.dev

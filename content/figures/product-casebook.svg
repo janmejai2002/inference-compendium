@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The AI product management casebook taxonomy: Four strategic production cases on the left, and four quantitative estimation models on the right.">
+  <text class="t-display" x="20" y="24" font-size="14" font-weight="bold">Four Strategic Production Cases</text>
+  <text class="t-display" x="345" y="24" font-size="14" font-weight="bold">Four Quantitative Sizing Models</text>
+
+  <!-- Left: 4 Strategic Cases -->
+  <rect class="paper acc-s" x="20" y="38" width="305" height="60" rx="4" stroke-width="1.5"/>
+  <text x="32" y="56" font-size="10.5" font-weight="bold">1. Quick-Commerce Automated Refunds</text>
+  <text x="32" y="72" font-size="8.8">1.5M orders/day · Tri-tier ROC gating (θL=0.15, θH=0.72)</text>
+  <text x="32" y="86" font-size="8.2" fill="#555">BPO load -79% · Net value creation ₹54.1 Cr/year</text>
+
+  <rect class="paper acc-s" x="20" y="106" width="305" height="60" rx="4" stroke-width="1.5"/>
+  <text x="32" y="124" font-size="10.5" font-weight="bold">2. FinTech Multi-Tier Cascade Routing</text>
+  <text x="32" y="140" font-size="8.8">10M queries/mo · Cache (42%) → 8B SLM (43%) → Frontier (15%)</text>
+  <text x="32" y="154" font-size="8.2" fill="#555">₹8.50Cr → ₹1.45Cr (-82.9%) · Latency 2,100ms → 400ms</text>
+
+  <rect class="paper acc-s" x="20" y="174" width="305" height="60" rx="4" stroke-width="1.5"/>
+  <text x="32" y="192" font-size="10.5" font-weight="bold">3. LegalTech Prompt Caching vs. RAG</text>
+  <text x="32" y="208" font-size="8.8">120k token contracts · Q*=2 break-even query velocity</text>
+  <text x="32" y="222" font-size="8.2" fill="#555">TTFT 7.2s → 650ms · 14.3x risk-adjusted cost advantage</text>
+
+  <rect class="paper acc-s" x="20" y="242" width="305" height="60" rx="4" stroke-width="1.5"/>
+  <text x="32" y="260" font-size="10.5" font-weight="bold">4. Human-in-the-Loop Escalation Gates</text>
+  <text x="32" y="276" font-size="8.8">Invoice matching · 450:1 cost asymmetry · θ*=0.933</text>
+  <text x="32" y="290" font-size="8.2" fill="#555">Graduated blast radius tiers · ₹18.4 Cr fraud stopped</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="332" x2="332" y1="18" y2="312" stroke-width="1"/>
+
+  <!-- Right: 4 Quantitative Sizing Models -->
+  <rect class="paper acc-s" x="345" y="38" width="275" height="60" rx="4" stroke-width="1.5"/>
+  <text x="357" y="56" font-size="10.5" font-weight="bold">Sizing 1: Agent Latency Budgeting</text>
+  <text x="357" y="72" font-size="8.8">Card-Moran-Newell 1.0s flow · Speculative decode 160 TPS</text>
+  <text x="357" y="86" font-size="8.2" fill="#555">TTFT 280ms · Turnaround 20.0s → 1.8s (91% drop)</text>
+
+  <rect class="paper acc-s" x="345" y="106" width="275" height="60" rx="4" stroke-width="1.5"/>
+  <text x="357" y="124" font-size="10.5" font-weight="bold">Sizing 2: CI/CD Eval Statistical Power</text>
+  <text x="357" y="140" font-size="8.8">Two-proportion z-test · α=0.05, 1-β=0.80, Δ=1.5%</text>
+  <text x="357" y="154" font-size="8.2" fill="#555">n=1,863 golden cases · $4.48/PR run ($89.60/day)</text>
+
+  <rect class="paper acc-s" x="345" y="174" width="275" height="60" rx="4" stroke-width="1.5"/>
+  <text x="357" y="192" font-size="10.5" font-weight="bold">Sizing 3: Synthetic Data vs. Human Labels</text>
+  <text x="357" y="208" font-size="8.8">50k records · 65% yield + 5% human audit panel</text>
+  <text x="357" y="222" font-size="8.2" fill="#555">₹9.07L in 48h vs. ₹32.09L in 10.4 wks (71.8% savings)</text>
+
+  <rect class="wash acc-s" x="345" y="242" width="275" height="60" rx="4" stroke-width="2"/>
+  <text class="t-display" x="357" y="260" font-size="10.5" font-weight="bold">Sizing 4: TCO GPU Cluster Crossover</text>
+  <text x="357" y="276" font-size="8.8">50k docs/mo · $9,050/mo GPU vs. $675/mo API</text>
+  <text x="357" y="290" font-size="8.2" fill="#555">V*=670,370 docs/mo volume crossover tipping point</text>
+</svg>
