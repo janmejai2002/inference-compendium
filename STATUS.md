@@ -1,9 +1,17 @@
 # Status
 
-_Last updated 2026-11-04, Finance & Banking Track (Part VI) complete and integrated per DESIGN.md and original request._
+_Last updated 2026-11-07, Web edition upgraded with interactive placement track filters, instant client-side search, topbar theme switcher (Light/Dark), in-chapter navigation jump, and 28-chapter audit._
 
 ## Where we are
-- **Edition: v4 Finance & Banking Track Draft complete.** All 28 planned units (Chapters 00 through 25 plus Inserts A and B across Parts 0 through VII) are fully drafted, verified with cross-model plan checks, and linted with zero errors (`check: 0 errors`).
+- **Edition: v4 Finance & Banking Track Draft complete + Web Edition 2.0.** All 28 planned units (Chapters 00 through 25 plus Inserts A and B across Parts 0 through VII) are fully drafted, verified with cross-model plan checks, and linted with zero errors (`check: 0 errors`).
+- **Web Edition 2.0:**
+  - **Interactive Placement Track Filter:** Home page now has instantaneous filter pills for `All Tracks (28)`, `Foundations (8)`, `Consulting (13)`, `Marketing (4)`, `Product (4)`, and `Finance (4)`.
+  - **Real-Time Live Search:** Fast in-memory search bar filters chapters, topics, and cases without page reloads.
+  - **Pedagogy & Reading Guide:** The "Three ways to read this book" (The night before / The week before / Every day) guide is featured on the web home page.
+  - **Theme Switcher:** Topbar toggle for Dark / Light / Auto mode with `localStorage` persistence and zero-flicker boot script.
+  - **In-Chapter Quick Switcher:** Seamless chapter jump `<select>` in topbar so readers don't need to exit back to contents.
+  - **SVG Rendering Fix:** Stripped blank lines within SVG figures, eliminating all 40 occurrences of invalid `<p>` injection inside SVG elements.
+  - **Dynamic PDF Delivery:** Download PDF button now serves the complete 498-page v4 finance draft (`INFERENCE-v4-finance-draft.pdf`, 12.93 MB) rather than the legacy v1 draft.
 - **Front Cover & First Page:** Restored to the clean, authentic, magazine-grade design language specified in `docs/DESIGN.md`:
   - **Wordmark & Identity:** Giant title `INFERENCE.` with cobalt `#8593FF` full stop.
   - **Byline & Authors:** Prominently attributes Janmejai Singh Minhas ([LinkedIn](https://linkedin.com/in/janmejai) · [GitHub](https://github.com/janmejai2002)) & Chaitanya Sharma ([LinkedIn](https://www.linkedin.com/in/chaitanya-sharma-b7a5b925b/) · [GitHub](https://github.com/chaitanya-sharma)) with links in byline and colophon.
