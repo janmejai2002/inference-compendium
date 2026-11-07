@@ -33,7 +33,7 @@ Placement-season talk about AI is mostly about ChatGPT, Gemini and Claude. A lot
 3. Writing the logic yourself works when the logic is known, short and stable. "Reject any application without a PAN" needs no learning.
 4. When the pattern has too many inputs, or shifts over time, nobody can write it down. A model can learn it from history, as long as each past case carries its known outcome (this loan defaulted, this one did not). The output is a number, a category or a probability, and it can be checked against what happens later.
 5. Some outputs have no single right answer: a reply to a complaint, a summary of a 40-page contract, a product description. For these you need a model that has absorbed huge amounts of text or images and can produce new content on request.
-6. Start from the output and the data you have. The tool follows from them. Starting from the tool ("we have ChatGPT, what can it do?") is how projects end up with the wrong one.
+6. ==Start from the output and the data you have. The tool follows from them. Starting from the tool ("we have ChatGPT, what can it do?") is how projects end up with the wrong one.==
 :::
 
 Step 4 has a name in the industry: [[predictive-ai|predictive AI]], also called classic or traditional machine learning. Step 5 is [[generative-ai|generative AI]]. Step 3 is a [[rule-based-system]], which most people would not call AI at all, and that is fine. It is often the right answer.
@@ -70,7 +70,7 @@ Real projects blur the figure in three ways.
 
 **The two are often used together.** A telecom can use a churn model to list the 50,000 subscribers most likely to leave next month, then use a generative model to draft a retention message for each segment. A bank can use a language model to read loan documents and pull out fields (income, employer, existing EMIs) that then feed a predictive credit model.
 
-**Rules still win some fights.** A rule is transparent: anyone can read it, a regulator can audit it, and it never drifts. If the logic is known and stable, a learned model adds cost and opacity for little gain. Learned models earn their place when the pattern has too many inputs or keeps changing, as fraud does. Frame rules versus learning as a decision you make for each problem.
+**Rules still win some fights.** A rule is transparent: anyone can read it, a regulator can audit it, and it never drifts. ==If the logic is known and stable, a learned model adds cost and opacity for little gain.== Learned models earn their place when the pattern has too many inputs or keeps changing, as fraud does. Frame rules versus learning as a decision you make for each problem.
 
 ::: myth
 **Myth.** AI means ChatGPT and its rivals, and the money in AI is in chatbots.
@@ -111,7 +111,8 @@ Break underwriting into its decisions and ask, for each one, what the output mus
 3. **What does the applicant earn and owe?** The facts sit in bank statements, salary slips and ID documents, as PDFs and phone photos. Pulling them into fields is reading work. **Generative model** (or a document-reading tool), with a person checking a sample. This is where the two-to-three-day delay lives.
 4. **What do we tell a rejected applicant?** A clear letter, in the applicant's language, that gives the reason. Content with many right answers, inside rules about what must be said. **Generative model**, drafting from a template, reviewed before sending.
 
-So the CEO's instinct is half right. The demo points at step 3, where a language model can cut time. It should not touch step 2. Asking a chatbot "should we lend to this person?" produces a fluent opinion that nobody can score against outcomes. The default decision has to come from a model trained on the lender's own labelled history and tested on loans it did not train on.
+So the CEO's instinct is half right. The demo points at step 3, where a language model can cut time. It should not touch step 2. ==Asking a chatbot "should we lend to this person?" produces a fluent opinion that nobody can score against outcomes; the default decision has to come from a model trained on the lender's own labelled history.==
+
 
 #### Your move
 The CEO replies: "Fine, but the scorecard is five years old and the borrower mix has changed." What does that tell you about step 2, and what data would you ask for first? (Hint: think about labels, and how recent they are.)

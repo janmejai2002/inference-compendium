@@ -1,0 +1,2110 @@
+[
+  {
+    "id": "ai-in-one-sitting",
+    "n": "00",
+    "title": "AI in one sitting",
+    "deck": "All of Part I in ten pages, written to double as the night-before recap.",
+    "part": "p0",
+    "partTitle": "Start here",
+    "track": "foundations",
+    "words": 4323,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "ai-in-one-sitting",
+      "title": "AI in one sitting",
+      "deck": "All of Part I in ten pages, written to double as the night-before recap.",
+      "level": "Zero to one",
+      "tracks": [
+        "consulting"
+      ],
+      "hook": "A consumer goods CEO in Mumbai tells your consulting engagement team: 'Our teams use ChatGPT all day to draft emails and slides, yet our operating margins have not moved by a single basis point. Either AI is an over-hyped toy, or we are deploying it completely wrong.' How do you explain the gap between universal individual adoption and flat corporate earnings, and what are the five architectural questions you ask before recommending a single rupee of further AI capital expenditure?",
+      "objectives": [
+        "**Explain** why individual AI fluency fails to generate enterprise earnings before interest and taxes (EBIT) without workflow redesign.",
+        "**Contrast** rule-based, predictive, and generative AI models across data requirements, cost structures, and error profiles.",
+        "**Apply** the core principles of token mechanics, contextual retrieval (RAG), and agentic workflows to business problem solving.",
+        "**Execute** the four-step audit protocol (prompt, review, challenge, decide) to prevent automation bias and catastrophic hallucinations."
+      ]
+    },
+    "blocks": {
+      "principles": 2,
+      "concepts": 1,
+      "cases": 1,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 1,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 6,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "apply",
+      "recall",
+      "judge"
+    ],
+    "answerItemsCount": 6,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 0,
+    "mediaCardsCount": 3,
+    "highlightsCount": 1,
+    "citesCount": 20,
+    "sidenotesCount": 0,
+    "glossaryCount": 0,
+    "displayMathCount": 2,
+    "inlineMathCount": 15,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 19.4,
+    "stdevLen": 11,
+    "calloutIssues": []
+  },
+  {
+    "id": "kinds-of-ai",
+    "n": "01",
+    "title": "Not all AI is ChatGPT",
+    "deck": "Predictive models and generative models solve different business problems. Pick the wrong one and the project fails before it starts.",
+    "part": "p1",
+    "partTitle": "Foundations",
+    "track": "foundations",
+    "words": 3330,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "kinds-of-ai",
+      "title": "Not all AI is ChatGPT",
+      "deck": "Predictive models and generative models solve different business problems. Pick the wrong one and the project fails before it starts.",
+      "level": "Zero to one",
+      "tracks": [
+        "foundations",
+        "consulting"
+      ],
+      "status": "draft",
+      "hook": "A lender's credit head says: \"We have bought an enterprise ChatGPT licence. Let's use it to decide who gets a loan.\" Before you open a single spreadsheet, what is wrong with that plan?",
+      "objectives": [
+        "**Distinguish** rules, predictive models and generative models by what each one outputs.",
+        "**Classify** a business problem by its output and its data, and name the kind of AI it needs.",
+        "**Explain** why most of the estimated value of AI sits outside chatbots.",
+        "**Recommend** a mix of predictive and generative tools for a client case, and say how each would be checked."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 2,
+      "cases": 1,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 1,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "apply",
+      "explain",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 2,
+    "highlightsCount": 2,
+    "citesCount": 8,
+    "sidenotesCount": 0,
+    "glossaryCount": 7,
+    "displayMathCount": 0,
+    "inlineMathCount": 0,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 17.6,
+    "stdevLen": 10.4,
+    "calloutIssues": []
+  },
+  {
+    "id": "next-word-machine",
+    "n": "02",
+    "title": "A model predicts the next word",
+    "deck": "Every chatbot answer is built one small piece at a time, by a machine that guesses what comes next. Once you see the loop, you can explain its fluency, its mistakes and its bill.",
+    "part": "p1",
+    "partTitle": "Foundations",
+    "track": "foundations",
+    "words": 3552,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "next-word-machine",
+      "title": "A model predicts the next word",
+      "deck": "Every chatbot answer is built one small piece at a time, by a machine that guesses what comes next. Once you see the loop, you can explain its fluency, its mistakes and its bill.",
+      "level": "Zero to one",
+      "tracks": [
+        "foundations",
+        "consulting"
+      ],
+      "hook": "A bank runs the same support bot on the same kind of customer chats, once in English and once in Hindi. The Hindi bill comes out several times higher, at the same price list. What is the bank paying for?",
+      "objectives": [
+        "**Explain** how a large language model writes an answer one token at a time, and why the same question can get different answers.",
+        "**Describe** what parameters are and why more parameters, data and compute made models better in a predictable way.",
+        "**Estimate** the cost of an AI task from tokens, price per million tokens and volume.",
+        "**Judge** when language, input length or answer length will move an AI budget by multiples."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 3,
+      "cases": 1,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 1,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 4,
+    "citesCount": 20,
+    "sidenotesCount": 1,
+    "glossaryCount": 8,
+    "displayMathCount": 0,
+    "inlineMathCount": 0,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 18.3,
+    "stdevLen": 10.8,
+    "calloutIssues": []
+  },
+  {
+    "id": "confidently-wrong",
+    "n": "03",
+    "title": "Why models are confidently wrong",
+    "deck": "Pretraining, fine-tuning and human feedback explain both the fluency and the invented facts. Bias enters at the same stages. Once you see how a chatbot is trained, you know when to trust it and what to check.",
+    "part": "p1",
+    "partTitle": "Foundations",
+    "track": "foundations",
+    "words": 3433,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "confidently-wrong",
+      "title": "Why models are confidently wrong",
+      "deck": "Pretraining, fine-tuning and human feedback explain both the fluency and the invented facts. Bias enters at the same stages. Once you see how a chatbot is trained, you know when to trust it and what to check.",
+      "level": "Zero to one",
+      "tracks": [
+        "foundations",
+        "consulting"
+      ],
+      "hook": "On the same set of fact questions, one AI model gets 24% right and another gets 22%. The first is also wrong 75% of the time; the second is wrong 26% of the time. A leaderboard that counts only right answers ranks the first one higher. Which would you let near a client deck, and why does the leaderboard disagree with you?",
+      "objectives": [
+        "**Describe** the three stages that turn a text predictor into a chat assistant: pretraining, fine-tuning and feedback from human raters.",
+        "**Explain** why a model trained and graded this way produces confident, fluent falsehoods, and why newer models still do.",
+        "**Evaluate** an accuracy figure for an AI tool by asking what it counts as an error and what it does with \"I don't know\".",
+        "**Identify** where bias and invented facts can enter an AI use case, and who must check the output before it reaches a client."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 3,
+      "cases": 1,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 1,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 5,
+    "citesCount": 35,
+    "sidenotesCount": 0,
+    "glossaryCount": 4,
+    "displayMathCount": 0,
+    "inlineMathCount": 0,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 18.6,
+    "stdevLen": 11.8,
+    "calloutIssues": []
+  },
+  {
+    "id": "delegation-brief",
+    "n": "04",
+    "title": "A prompt is a delegation brief",
+    "deck": "Instructions, context, examples and iteration. The AI labs and their sharpest critic agree on a short checklist, and disagree about the magic words. This chapter gives you the checklist and the evidence for dropping the magic.",
+    "part": "p1",
+    "partTitle": "Foundations",
+    "track": "foundations",
+    "words": 3276,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "delegation-brief",
+      "title": "A prompt is a delegation brief",
+      "deck": "Instructions, context, examples and iteration. The AI labs and their sharpest critic agree on a short checklist, and disagree about the magic words. This chapter gives you the checklist and the evidence for dropping the magic.",
+      "level": "Zero to one",
+      "tracks": [
+        "foundations",
+        "consulting"
+      ],
+      "hook": "Two associates give the same AI tool the same 300 distributor complaints. One writes 'You are a world-class supply-chain consultant. I will tip you ₹10,000. Summarise these.' The other writes six plain lines a new joiner would need. Which output can go to the client on Monday, and which of the first associate's extra words did any work?",
+      "objectives": [
+        "**Explain** why a model can only work with what the prompt gives it, using the next-token loop from chapter 2.",
+        "**Write** a six-part delegation brief for a business task: goal, audience, context, example, format, doubts.",
+        "**Distinguish** practices that controlled tests support from prompting folklore that they do not.",
+        "**Judge** a claim that some phrase improves answers, by designing a simple test of it."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 1,
+      "cases": 1,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 2,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "judge",
+      "transfer"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 2,
+    "citesCount": 17,
+    "sidenotesCount": 0,
+    "glossaryCount": 5,
+    "displayMathCount": 0,
+    "inlineMathCount": 0,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 19.5,
+    "stdevLen": 14.1,
+    "calloutIssues": []
+  },
+  {
+    "id": "your-documents",
+    "n": "05",
+    "title": "Giving the model your documents",
+    "deck": "Retrieval and embeddings in plain words, why \"ChatGPT on our data\" is hard, and what leaks. The hard part is choosing what the model gets to read, and who else gets to read it.",
+    "part": "p1",
+    "partTitle": "Foundations",
+    "track": "foundations",
+    "words": 3528,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "your-documents",
+      "title": "Giving the model your documents",
+      "deck": "Retrieval and embeddings in plain words, why \"ChatGPT on our data\" is hard, and what leaks. The hard part is choosing what the model gets to read, and who else gets to read it.",
+      "level": "Zero to one",
+      "tracks": [
+        "foundations",
+        "consulting",
+        "finance"
+      ],
+      "hook": "Suppose a firm loads ten years of engagement decks into an internal chatbot. Asked for a client's FY24 EBITDA margin, it answers 14.2% and cites a real slide. The slide belongs to a different client. The model invented nothing. What broke, and who should have caught it?",
+      "objectives": [
+        "**Explain** how retrieval-augmented generation lets a model answer from your documents without retraining it.",
+        "**Diagnose** a wrong answer from a document chatbot by tracing it to the file, the chunk, the search or the model.",
+        "**Decide** when to paste documents straight into the prompt and when to build a retrieval system.",
+        "**Assess** what leaves the firm when staff give an AI tool company or customer data, and what India's DPDP Act asks of the firm."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 2,
+      "cases": 1,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 2,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 3,
+    "citesCount": 18,
+    "sidenotesCount": 0,
+    "glossaryCount": 5,
+    "displayMathCount": 0,
+    "inlineMathCount": 0,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 19.8,
+    "stdevLen": 11.4,
+    "calloutIssues": []
+  },
+  {
+    "id": "models-that-act",
+    "n": "06",
+    "title": "Agents: models that act, and how they break",
+    "deck": "Tools, multi-step execution and failure rates. Why giving an AI model agency is fundamentally a security architecture problem, and why the arithmetic of multi-step probability governs production.",
+    "part": "p1",
+    "partTitle": "Foundations",
+    "track": "foundations",
+    "words": 3470,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "models-that-act",
+      "title": "Agents: models that act, and how they break",
+      "deck": "Tools, multi-step execution and failure rates. Why giving an AI model agency is fundamentally a security architecture problem, and why the arithmetic of multi-step probability governs production.",
+      "level": "Zero to one",
+      "tracks": [
+        "foundations",
+        "consulting"
+      ],
+      "hook": "A client wants an AI agent that reads supplier emails, extracts invoice PDFs, and automatically updates their SAP enterprise ledger. The model tests at 95% accuracy per step across 12 steps. Why will it fail roughly every other time in production, and how could a two-line note on a supplier's invoice trigger an unauthorized wire transfer?",
+      "objectives": [
+        "**Distinguish** a rigid workflow from an autonomous agent using Anthropic's definition.",
+        "**Calculate** how single-step accuracy compounds into failure across multi-step execution chains.",
+        "**Explain** prompt injection and Simon Willison's lethal trifecta of agent security.",
+        "**Design** architectural safeguards, role boundaries, and circuit breakers that keep an agent safe in production."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 2,
+      "cases": 1,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 1,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "apply",
+      "explain",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 1,
+    "citesCount": 26,
+    "sidenotesCount": 0,
+    "glossaryCount": 4,
+    "displayMathCount": 3,
+    "inlineMathCount": 9,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 17.2,
+    "stdevLen": 9.5,
+    "calloutIssues": []
+  },
+  {
+    "id": "judging-output",
+    "n": "07",
+    "title": "Judging AI output is the job now",
+    "deck": "Error rates, base rates, false positives and evals. Why fluent prose creates an illusion of competence, and how a four-step protocol (prompt, review, challenge, decide) protects client decisions.",
+    "part": "p1",
+    "partTitle": "Foundations",
+    "track": "foundations",
+    "words": 3554,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "judging-output",
+      "title": "Judging AI output is the job now",
+      "deck": "Error rates, base rates, false positives and evals. Why fluent prose creates an illusion of competence, and how a four-step protocol (prompt, review, challenge, decide) protects client decisions.",
+      "level": "Zero to one",
+      "tracks": [
+        "foundations",
+        "consulting"
+      ],
+      "hook": "A vendor pitches an AI compliance tool boasting '90% accuracy' to an Indian distributor processing 1,000 monthly invoices. The system flags 67 invoices for fraud. Why are nearly three out of four flags false alarms, and why did 758 BCG consultants perform 19 percentage points worse when using AI on a task outside its frontier?",
+      "objectives": [
+        "**Calculate** precision and false-alarm rates using base-rate arithmetic and a 2x2 confusion matrix.",
+        "**Explain** automation bias and why fluent text causes analysts to suspend critical thinking.",
+        "**Apply** the four-step judgment protocol (Prompt, Review, Challenge, Decide) to business analysis.",
+        "**Design** a structured evaluation suite using 20 to 50 real task failures."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 2,
+      "cases": 1,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 1,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 1,
+    "citesCount": 22,
+    "sidenotesCount": 0,
+    "glossaryCount": 5,
+    "displayMathCount": 1,
+    "inlineMathCount": 13,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 16.6,
+    "stdevLen": 9.1,
+    "calloutIssues": []
+  },
+  {
+    "id": "who-pays",
+    "n": "08",
+    "title": "Who pays for intelligence",
+    "deck": "Inference cost, chips, data centres, clouds, labs, and enterprise buyers. Why the price per token collapsed 280-fold while hyperscalers spend $50 billion a quarter on infrastructure, and who carries the financial risk.",
+    "part": "p2",
+    "partTitle": "AI in business",
+    "track": "strategy",
+    "words": 3608,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "who-pays",
+      "title": "Who pays for intelligence",
+      "deck": "Inference cost, chips, data centres, clouds, labs, and enterprise buyers. Why the price per token collapsed 280-fold while hyperscalers spend $50 billion a quarter on infrastructure, and who carries the financial risk.",
+      "level": "Zero to one",
+      "tracks": [
+        "consulting",
+        "finance"
+      ],
+      "hook": "In 18 months, the cost of generating one million tokens collapsed 280-fold, falling from $20 to $0.07. Yet in a single quarter, Alphabet spent $51.4 billion on capital equipment and reported negative free cash flow. If intelligence is becoming cheap to query, why is building it costing hundreds of billions of dollars, and who is footing the bill?",
+      "objectives": [
+        "**Trace** the six layers of the AI capital stack from foundries and chip designers to enterprise APIs.",
+        "**Explain** Jevons' paradox in AI: why a 280-fold drop in unit token cost drives massive increases in total compute spend.",
+        "**Analyze** hyperscaler capital allocation, comparing operating cash flows against multi-billion-dollar capex commitments.",
+        "**Evaluate** private equity and M&A proposals for data centres and AI startups using capacity, power, and margin economics."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 1,
+      "cases": 1,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 1,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 1,
+    "citesCount": 32,
+    "sidenotesCount": 0,
+    "glossaryCount": 4,
+    "displayMathCount": 0,
+    "inlineMathCount": 1,
+    "slopCount": 3,
+    "slopFindings": [
+      {
+        "name": "unprecedented",
+        "match": "unprecedented",
+        "line": 31
+      },
+      {
+        "name": "unprecedented",
+        "match": "unprecedented",
+        "line": 67
+      },
+      {
+        "name": "unprecedented",
+        "match": "unprecedented",
+        "line": 197
+      }
+    ],
+    "trailingIngsCount": 2,
+    "trailingIngs": [
+      {
+        "match": ", demonstrating",
+        "line": 54
+      },
+      {
+        "match": ", highlighting",
+        "line": 105
+      }
+    ],
+    "meanLen": 20,
+    "stdevLen": 10.4,
+    "calloutIssues": []
+  },
+  {
+    "id": "pilots-stall",
+    "n": "09",
+    "title": "Why AI pilots stall",
+    "deck": "Most enterprises deploy artificial intelligence and few see profit from it. The gap is change management, capacity reallocation, and workflow redesign.",
+    "part": "p2",
+    "partTitle": "AI in business",
+    "track": "strategy",
+    "words": 4107,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "pilots-stall",
+      "title": "Why AI pilots stall",
+      "deck": "Most enterprises deploy artificial intelligence and few see profit from it. The gap is change management, capacity reallocation, and workflow redesign.",
+      "level": "Zero to one",
+      "tracks": [
+        "consulting",
+        "operations",
+        "hr"
+      ],
+      "hook": "A mid-size automotive components manufacturer in Pune introduces an AI assistant to generate supplier audit reports, cutting drafting time by 60%. Yet six months later, operating costs have not dropped, output has not increased, and gross margin remains flat. Why do individual productivity gains fail to reach corporate earnings?",
+      "objectives": [
+        "**Diagnose** the gap between widespread individual AI adoption and flat enterprise EBIT contribution.",
+        "**Explain** the difference between tool deployment and workflow redesign using McKinsey and BCG empirical data.",
+        "**Analyze** time leakage: why 42% of regular frontline workers save a day a week while enterprise profits remain unchanged.",
+        "**Design** an end-to-end pilot intervention that links task automation to capacity reallocation and P&L metrics."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 1,
+      "cases": 1,
+      "lenses": 3,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 2,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 1,
+    "citesCount": 25,
+    "sidenotesCount": 0,
+    "glossaryCount": 3,
+    "displayMathCount": 0,
+    "inlineMathCount": 0,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 18.1,
+    "stdevLen": 8.9,
+    "calloutIssues": []
+  },
+  {
+    "id": "work-changes",
+    "n": "10",
+    "title": "How the work changes",
+    "deck": "What the empirical evidence on jobs reveals: a quiet split between aggregate labor stability and early-career divergence, shifting task profiles, and where India stands.",
+    "part": "p2",
+    "partTitle": "AI in business",
+    "track": "strategy",
+    "words": 3803,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "work-changes",
+      "title": "How the work changes",
+      "deck": "What the empirical evidence on jobs reveals: a quiet split between aggregate labor stability and early-career divergence, shifting task profiles, and where India stands.",
+      "level": "Zero to one",
+      "tracks": [
+        "consulting",
+        "hr"
+      ],
+      "hook": "Your client, a 40,000-person Indian technology services firm, asks whether generative AI allows it to cut its annual campus graduate intake by 40%. The chief technology officer argues that coding assistants make juniors 30% faster; the head of human resources warns that cutting entry-level cohorts will hollow out the firm's future leadership pipeline. How do you advise the board?",
+      "objectives": [
+        "**Analyze** the empirical split in labor data: aggregate employment stability versus the 19% hiring deficit for young workers in exposed occupations.",
+        "**Contrast** executive forecasts with realized outcomes using McKinsey, Stanford, and Yale Budget Lab evidence.",
+        "**Explain** the shifting composition of white-collar work, where managing and evaluating AI output displaces manual drafting.",
+        "**Evaluate** India's labor posture using Anthropic's Economic Index and Deloitte's campus workforce benchmarks."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 1,
+      "cases": 1,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 2,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 1,
+    "citesCount": 30,
+    "sidenotesCount": 0,
+    "glossaryCount": 3,
+    "displayMathCount": 0,
+    "inlineMathCount": 0,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 18.8,
+    "stdevLen": 9.7,
+    "calloutIssues": []
+  },
+  {
+    "id": "consulting-firm",
+    "n": "11",
+    "title": "What AI does to a consulting firm",
+    "deck": "The jagged-frontier empirical trial, firm-built assistants and agents, outcome-based fee structures, and the structural debate over the junior pyramid.",
+    "part": "p3",
+    "partTitle": "Consulting",
+    "track": "consulting",
+    "words": 4008,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "consulting-firm",
+      "title": "What AI does to a consulting firm",
+      "deck": "The jagged-frontier empirical trial, firm-built assistants and agents, outcome-based fee structures, and the structural debate over the junior pyramid.",
+      "level": "Zero to one",
+      "tracks": [
+        "consulting"
+      ],
+      "hook": "A global retail bank hires a strategy consulting firm to redesign its commercial lending process, demanding a fee structure tied strictly to loan turnaround time rather than hourly billing. At the same time, the bank's chief executive asks why they should pay premium hourly rates for junior analysts if an AI model can build the first-draft presentation decks. How does the consulting firm defend its value and price its advice?",
+      "objectives": [
+        "**Analyze** the empirical findings of the Dell'Acqua et al. randomized trial on 758 BCG consultants, differentiating performance inside versus outside the jagged technological frontier.",
+        "**Examine** the deployment of proprietary firm-wide AI tools and software agents at McKinsey and BCG.",
+        "**Evaluate** the commercial transition from time-and-materials billing toward outcome-based and performance-linked fee structures.",
+        "**Debate** the structural future of the consulting talent pyramid, contrasting Big Four intake reductions with elite strategy firm hiring models."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 1,
+      "cases": 1,
+      "lenses": 1,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 1,
+    "citesCount": 23,
+    "sidenotesCount": 0,
+    "glossaryCount": 4,
+    "displayMathCount": 0,
+    "inlineMathCount": 0,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 1,
+    "trailingIngs": [
+      {
+        "match": ", demonstrating",
+        "line": 63
+      }
+    ],
+    "meanLen": 20.9,
+    "stdevLen": 10.3,
+    "calloutIssues": []
+  },
+  {
+    "id": "ai-casebook",
+    "n": "12",
+    "title": "The INFERENCE AI casebook",
+    "deck": "Ten enterprise cases and ten quantitative guesstimates covering due diligence, pilot turnarounds, token unit economics, and sovereign compute sizing.",
+    "part": "p3",
+    "partTitle": "Consulting",
+    "track": "consulting",
+    "words": 7757,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "ai-casebook",
+      "title": "The INFERENCE AI casebook",
+      "deck": "Ten enterprise cases and ten quantitative guesstimates covering due diligence, pilot turnarounds, token unit economics, and sovereign compute sizing.",
+      "level": "Zero to one",
+      "tracks": [
+        "consulting"
+      ],
+      "hook": "In an elite management consulting interview, the partner hands you an unstructured dilemma: 'A private equity firm wants to acquire a Bengaluru-based AI customer service startup for ₹400 crore. The founder claims an 80% automated resolution rate. How do you determine whether this company has a defensible technology moat or is merely an expensive wrapper around third-party APIs?' How do you structure your due diligence?",
+      "objectives": [
+        "**Master** the four primary AI consulting case archetypes: technology due diligence, value-chain use-case prioritization, pilot diagnostic turnaround, and commercial pricing restructuring.",
+        "**Decompose** complex technical claims into auditable operational metrics, evaluating true containment rates, workflow integration, and human-in-the-loop review overhead.",
+        "**Execute** rigorous market and infrastructure guesstimates using grounded Indian benchmarks, connecting consumer prompts to token volumes, GPU-hours, and data centre megawatt capacity.",
+        "**Synthesize** business strategy with technical guardrails, balancing unit economics, regulatory compliance, and organizational change management."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 1,
+      "cases": 0,
+      "lenses": 1,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 1,
+    "citesCount": 12,
+    "sidenotesCount": 0,
+    "glossaryCount": 3,
+    "displayMathCount": 50,
+    "inlineMathCount": 5,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 1,
+    "trailingIngs": [
+      {
+        "match": ", reflecting",
+        "line": 193
+      }
+    ],
+    "meanLen": 17.2,
+    "stdevLen": 7.9,
+    "calloutIssues": []
+  },
+  {
+    "id": "interview-room",
+    "n": "13",
+    "title": "The interview room",
+    "deck": "Being screened by AI, AI-assisted case rounds, and the questions to expect with the shape of a strong answer.",
+    "part": "p3",
+    "partTitle": "Consulting",
+    "track": "consulting",
+    "words": 4642,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "interview-room",
+      "title": "The interview room",
+      "deck": "Being screened by AI, AI-assisted case rounds, and the questions to expect with the shape of a strong answer.",
+      "level": "Zero to one",
+      "tracks": [
+        "consulting"
+      ],
+      "hook": "Two candidates submit identical summer project results to an Indian tech consultancy. One writes 'built a loan-default dashboard using SQL', while the other writes 'led credit risk analytics, automating underwriting workflows'. Both describe the same eight weeks of work. One application vanishes into a digital rejection queue within four minutes; the other reaches an associate partner for a shortlist interview. What happened in those four minutes?",
+      "objectives": [
+        "**Explain** how automated screening and AI resume parsing filter campus applicant pools before human review.",
+        "**Navigate** the boundary between legitimate preparation with generative AI tools and disqualifying policy breaches.",
+        "**Apply** the four-step audit protocol (prompt, review, challenge, decide) in AI-assisted case interviews.",
+        "**Structure** defensible answers to 20 core AI questions across definitions, judgment, case problems, and ethics."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 2,
+      "cases": 1,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 2,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 1,
+    "citesCount": 18,
+    "sidenotesCount": 0,
+    "glossaryCount": 0,
+    "displayMathCount": 0,
+    "inlineMathCount": 0,
+    "slopCount": 1,
+    "slopFindings": [
+      {
+        "name": "double-edged sword",
+        "match": "double-edged",
+        "line": 99
+      }
+    ],
+    "trailingIngsCount": 2,
+    "trailingIngs": [
+      {
+        "match": ", ensuring",
+        "line": 208
+      },
+      {
+        "match": ", ensuring",
+        "line": 221
+      }
+    ],
+    "meanLen": 18.5,
+    "stdevLen": 10,
+    "calloutIssues": []
+  },
+  {
+    "id": "creative-at-scale",
+    "n": "14",
+    "title": "Creative at scale: production, localization, and agency economics",
+    "deck": "Virtual studios, localized video across 22 Indic languages, the collapse of digital asset marginal cost, and the agency retainer model.",
+    "part": "p4",
+    "partTitle": "Marketing & Brand Strategy",
+    "track": "marketing",
+    "words": 3708,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "creative-at-scale",
+      "title": "Creative at scale: production, localization, and agency economics",
+      "deck": "Virtual studios, localized video across 22 Indic languages, the collapse of digital asset marginal cost, and the agency retainer model.",
+      "level": "Zero to one",
+      "tracks": [
+        "marketing"
+      ],
+      "hook": "Why can an FMCG giant now produce 10,000 localized video ad variants for the cost of a single Mumbai studio shoot, yet 90% of those synthetic assets fail to generate a single incremental conversion? How does generative technology alter the economics of brand creative?",
+      "objectives": [
+        "**Derive** the economic collapse of marginal digital creative cost ($C_{\\text{asset}} \\to 0$) and its structural implications for creative agency retainers.",
+        "**Map** the end-to-end generative creative pipeline from 3D virtual twins to regional Indic speech synthesis across Tier 2 and Tier 3 markets.",
+        "**Evaluate** the dynamic between creative volume, audience ad fatigue, and algorithmic bidding on automated ad networks (Meta Advantage+, Google Performance Max).",
+        "**Structure** an executive recommendation for a CMO balancing in-house generative tooling against agency strategic stewardship."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 3,
+      "cases": 1,
+      "lenses": 1,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 5,
+    "citesCount": 7,
+    "sidenotesCount": 0,
+    "glossaryCount": 4,
+    "displayMathCount": 7,
+    "inlineMathCount": 21,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 1,
+    "trailingIngs": [
+      {
+        "match": ", ensuring",
+        "line": 143
+      }
+    ],
+    "meanLen": 22.4,
+    "stdevLen": 10.5,
+    "calloutIssues": []
+  },
+  {
+    "id": "synthetic-audiences-and-attribution",
+    "n": "15",
+    "title": "Synthetic panels, MMM, and modern marketing measurement",
+    "deck": "LLMs as focus groups, algorithmic homophily traps, Bayesian Media Mix Modeling (Meridian & Robyn), and predictive customer lifetime value.",
+    "part": "p4",
+    "partTitle": "Marketing & Brand Strategy",
+    "track": "marketing",
+    "words": 3860,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "synthetic-audiences-and-attribution",
+      "title": "Synthetic panels, MMM, and modern marketing measurement",
+      "deck": "LLMs as focus groups, algorithmic homophily traps, Bayesian Media Mix Modeling (Meridian & Robyn), and predictive customer lifetime value.",
+      "level": "Zero to one",
+      "tracks": [
+        "marketing"
+      ],
+      "status": "draft",
+      "hook": "Can an artificial intelligence language model tell you whether a ₹49 sachet of anti-dandruff shampoo will sell in rural Bihar before you ship a single unit? Why are consumer brands rushing to replace human focus groups with silicon personas, and where does that simulation create catastrophic false confidence?",
+      "objectives": [
+        "**Assess** the epistemic validity and algorithmic homophily failure modes of LLM-simulated consumer focus groups ('Homo silicus').",
+        "**Contrast** deterministic cookie-based multi-touch attribution (MTA) with modern privacy-safe Bayesian Media Mix Modeling (MMM).",
+        "**Formulate** the mathematical mechanics of Bayesian MMM, including Adstock carryover and Hill saturation transformations.",
+        "**Apply** predictive customer lifetime value (pLTV) models to optimize promotional discounting on quick-commerce platforms."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 3,
+      "cases": 1,
+      "lenses": 1,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "apply",
+      "explain",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 2,
+    "highlightsCount": 5,
+    "citesCount": 11,
+    "sidenotesCount": 0,
+    "glossaryCount": 4,
+    "displayMathCount": 6,
+    "inlineMathCount": 26,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 18.5,
+    "stdevLen": 10.3,
+    "calloutIssues": []
+  },
+  {
+    "id": "brand-safety-boundary",
+    "n": "16",
+    "title": "The brand safety boundary: hallucinations, IP, and consumer trust",
+    "deck": "Trademark liabilities, toxic synthetic outputs, deepfake brand hijacking, ASCI regulatory guidelines, and consumer backlash.",
+    "part": "p4",
+    "partTitle": "Marketing & Brand Strategy",
+    "track": "marketing",
+    "words": 4309,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "brand-safety-boundary",
+      "title": "The brand safety boundary: hallucinations, IP, and consumer trust",
+      "deck": "Trademark liabilities, toxic synthetic outputs, deepfake brand hijacking, ASCI regulatory guidelines, and consumer backlash.",
+      "level": "Zero to one",
+      "tracks": [
+        "marketing"
+      ],
+      "prereq": [
+        "confidently-wrong",
+        "judging-output"
+      ],
+      "hook": "A consumer brand takes thirty years to accumulate trust, but a single unauthorized, hallucinated promotional discount or culturally tone-deaf synthetic video can erase ₹100 crore in brand equity in twenty minutes. Where does the brand safety boundary lie when an enterprise deploys generative models directly to consumers?",
+      "objectives": [
+        "**Analyze** the legal and reputational asymmetry of generative brand trust, evaluating hallucination risks and automated contract liabilities.",
+        "**Examine** copyright and intellectual property infringement liabilities in generative training data (Getty Images v. Stability AI).",
+        "**Interpret** the regulatory mandates of the Advertising Standards Council of India (ASCI) regarding synthetic influencers and GenAI labelling.",
+        "**Architect** an enterprise-grade multi-layer brand safety guardrail system for consumer-facing conversational AI."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 3,
+      "cases": 1,
+      "lenses": 1,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 2,
+    "highlightsCount": 5,
+    "citesCount": 6,
+    "sidenotesCount": 0,
+    "glossaryCount": 3,
+    "displayMathCount": 3,
+    "inlineMathCount": 5,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 18.4,
+    "stdevLen": 10.3,
+    "calloutIssues": []
+  },
+  {
+    "id": "marketing-casebook",
+    "n": "17",
+    "title": "The Marketing AI casebook & interview room",
+    "deck": "Eight end-to-end marketing cases and estimation problems across FMCG, D2C, E-commerce, and Quick-Commerce, each with a model answer.",
+    "part": "p4",
+    "partTitle": "Marketing & Brand Strategy",
+    "track": "marketing",
+    "words": 9412,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "marketing-casebook",
+      "title": "The Marketing AI casebook & interview room",
+      "deck": "Eight end-to-end marketing cases and estimation problems across FMCG, D2C, E-commerce, and Quick-Commerce, each with a model answer.",
+      "level": "Zero to one",
+      "tracks": [
+        "marketing"
+      ],
+      "hook": "In an executive marketing interview, the Chief Commercial Officer challenges you: 'Our D2C brand spends ₹45 crore annually on Meta and Google. Ad fatigue cuts our click-through rates in half every three weeks. The agency wants a 50% retainer hike to produce more variants, while our head of performance wants to fire the agency and generate 1,500 ads a month using AI tools. How do you evaluate this decision, and what is the exact economic tipping point?' How do you structure your answer?",
+      "objectives": [
+        "**Decompose** enterprise marketing dilemmas into auditable unit economics, linking model inference costs directly to gross margin and customer acquisition cost.",
+        "**Master** the four core marketing case archetypes: conversational commerce infrastructure, creative agency in-housing economics, dynamic discount personalization, and predictive customer retention.",
+        "**Execute** quantitative market and compute guesstimates across generative asset personalization, Bayesian media mix modeling, synthetic consumer panels, and creative fatigue decay.",
+        "**Synthesize** algorithmic optimization with real-world marketing constraints, balancing model performance against brand equity, channel saturation, and regulatory disclosure."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 1,
+      "cases": 0,
+      "lenses": 1,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": true,
+    "tryCodeLanguages": [
+      "heuristic:none"
+    ],
+    "figuresCount": 1,
+    "mediaCardsCount": 2,
+    "highlightsCount": 7,
+    "citesCount": 2,
+    "sidenotesCount": 0,
+    "glossaryCount": 6,
+    "displayMathCount": 47,
+    "inlineMathCount": 130,
+    "slopCount": 1,
+    "slopFindings": [
+      {
+        "name": "unprecedented",
+        "match": "unprecedented",
+        "line": 522
+      }
+    ],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 18.5,
+    "stdevLen": 10.2,
+    "calloutIssues": []
+  },
+  {
+    "id": "ai-product-lifecycle",
+    "n": "18",
+    "title": "The AI product lifecycle: evals as specs, test suites, and drift",
+    "deck": "Why product requirement documents fail for stochastic systems, how golden evaluation suites become living product contracts, LLM-as-a-judge calibration, and managing model drift in production.",
+    "part": "p5",
+    "partTitle": "Product Management",
+    "track": "product",
+    "words": 3595,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "ai-product-lifecycle",
+      "title": "The AI product lifecycle: evals as specs, test suites, and drift",
+      "deck": "Why product requirement documents fail for stochastic systems, how golden evaluation suites become living product contracts, LLM-as-a-judge calibration, and managing model drift in production.",
+      "level": "Zero to one",
+      "tracks": [
+        "product",
+        "consulting"
+      ],
+      "prereq": [
+        "judging-output"
+      ],
+      "hook": "An Indian quick-commerce unicorn deploys an autonomous customer support agent. In sandbox testing, it resolved 94% of refund disputes cleanly. Within forty-eight hours of full rollout across Bengaluru, customer escalations surged by 300% as the model hallucinated instant UPI refund vouchers. How do you design an evaluation suite that catches behavioral regressions before code touches production?",
+      "objectives": [
+        "**Deconstruct** why classical deterministic PRDs fail for probabilistic AI systems, establishing statistical tolerances and confidence intervals as the new product contract.",
+        "**Architect** a multi-tier evaluation pyramid: from deterministic unit assertions and heuristic checks to calibrated LLM-as-a-judge pipelines and human ground truth.",
+        "**Calibrate** automated LLM judges against human expert annotators, systematically mitigating position bias, verbosity bias, and self-enhancement distortion.",
+        "**Formulate** an operational defense against model drift, data shift, and silent upstream updates using continuous canary deployments and automated circuit breakers."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 2,
+      "cases": 1,
+      "lenses": 3,
+      "interviews": 1,
+      "myths": 1,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "apply",
+      "explain",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 6,
+    "citesCount": 6,
+    "sidenotesCount": 0,
+    "glossaryCount": 2,
+    "displayMathCount": 2,
+    "inlineMathCount": 26,
+    "slopCount": 2,
+    "slopFindings": [
+      {
+        "name": "transformative",
+        "match": "transformative",
+        "line": 185
+      },
+      {
+        "name": "unprecedented",
+        "match": "unprecedented",
+        "line": 185
+      }
+    ],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 17.5,
+    "stdevLen": 8.9,
+    "calloutIssues": []
+  },
+  {
+    "id": "product-architecture-economics",
+    "n": "19",
+    "title": "Product architecture and economics: latency budgets, caching, and routing",
+    "deck": "The technical trade-offs behind responsive AI products: dissecting TTFT and TPS, prompt caching economics, cascade routing topologies, and the strategic build-versus-buy frontier.",
+    "part": "p5",
+    "partTitle": "Product Management",
+    "track": "product",
+    "words": 3955,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "product-architecture-economics",
+      "title": "Product architecture and economics: latency budgets, caching, and routing",
+      "deck": "The technical trade-offs behind responsive AI products: dissecting TTFT and TPS, prompt caching economics, cascade routing topologies, and the strategic build-versus-buy frontier.",
+      "level": "Zero to one",
+      "tracks": [
+        "product",
+        "strategy"
+      ],
+      "prereq": [
+        "next-word-machine",
+        "who-pays"
+      ],
+      "hook": "An Indian fintech unicorn launches an AI conversational search engine for mutual funds. The model achieves 96% retrieval accuracy, but median response latency is 8.4 seconds and every turn costs ₹12 in commercial API fees. User retention plummets by 68% in six weeks as customers abandon the search bar for legacy filters, while cloud bills threaten product gross margins. As lead PM, how do you re-architect latency and compute unit economics without sacrificing answer intelligence?",
+      "objectives": [
+        "**Deconstruct** the end-to-end AI latency equation, isolating Time-to-First-Token ($TTFT$) and Tokens-Per-Second ($TPS$) against human cognitive perception thresholds.",
+        "**Derive** the mathematical break-even query velocity ($Q^*$) for KV context caching, evaluating write creation surcharges against read discounts.",
+        "**Architect** a multi-tier cascade model routing topology that balances deterministic filters, local small language models, and frontier reasoning engines along a Pareto frontier.",
+        "**Formulate** an executive Total Cost of Ownership (TCO) decision model evaluating commercial proprietary APIs against dedicated self-hosted open-source models."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 3,
+      "cases": 1,
+      "lenses": 3,
+      "interviews": 1,
+      "myths": 1,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "apply",
+      "explain",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 6,
+    "citesCount": 6,
+    "sidenotesCount": 0,
+    "glossaryCount": 3,
+    "displayMathCount": 11,
+    "inlineMathCount": 56,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 17.4,
+    "stdevLen": 10,
+    "calloutIssues": []
+  },
+  {
+    "id": "agentic-ux-and-interfaces",
+    "n": "20",
+    "title": "Agentic UX: ambient HUDs, canvas workspaces, and human-in-the-loop",
+    "deck": "Transcending the chat bubble: proactive agentic assistance, collaborative canvas architectures, cognitive ergonomics, and designing trusted human-in-the-loop control loops.",
+    "part": "p5",
+    "partTitle": "Product Management",
+    "track": "product",
+    "words": 3554,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "agentic-ux-and-interfaces",
+      "title": "Agentic UX: ambient HUDs, canvas workspaces, and human-in-the-loop",
+      "deck": "Transcending the chat bubble: proactive agentic assistance, collaborative canvas architectures, cognitive ergonomics, and designing trusted human-in-the-loop control loops.",
+      "level": "Zero to one",
+      "tracks": [
+        "product"
+      ],
+      "prereq": [
+        "models-that-act"
+      ],
+      "hook": "An enterprise software vendor spends ₹15 crore developing a conversational AI assistant for its 120,000 sales representatives. After six months, daily active usage languishes at 11%, with reps reporting that typing natural language prompts into a chatbot drawer takes longer than manually updating dropdown menus. Meanwhile, software engineers at the same company spend eight hours a day inside agentic code editors without opening a single chat window. Why does the conversational interface fail for enterprise workflows, and how do you design proactive, ambient interfaces that users actually adopt?",
+      "objectives": [
+        "**Deconstruct** the cognitive and interaction failure modes of conversational chat interfaces, calculating the interaction cost tax across typing, prompt formulation, and context switching.",
+        "**Apply** the Card-Moran-Newell perceptual thresholds and the 1.2-Second Glance Rule to architect low-dopamine, ambient user surfaces that surface intelligence directly at the point of action.",
+        "**Architect** graduated Human-in-the-Loop (HITL) control mechanisms, mapping agent autonomy levels (L1–L5) against blast radius severity through irreversible action circuit breakers.",
+        "**Engineer** resilient error-recovery workflows: implementing state checkpointing, reversible ghost diffs, progressive disclosure dialogues, and transparent audit trails."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 2,
+      "cases": 1,
+      "lenses": 3,
+      "interviews": 1,
+      "myths": 1,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "apply",
+      "explain",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 6,
+    "citesCount": 8,
+    "sidenotesCount": 0,
+    "glossaryCount": 2,
+    "displayMathCount": 0,
+    "inlineMathCount": 5,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 20.4,
+    "stdevLen": 10.5,
+    "calloutIssues": []
+  },
+  {
+    "id": "product-casebook",
+    "n": "21",
+    "title": "The Product AI casebook & interview room",
+    "deck": "Eight fully-worked quantitative PM cases and estimation problems covering context caching ROI, cascade routing economics, eval harness calibration, agentic latency budgets, and build-vs-buy TCO.",
+    "part": "p5",
+    "partTitle": "Product Management",
+    "track": "product",
+    "words": 5190,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "product-casebook",
+      "title": "The Product AI casebook & interview room",
+      "deck": "Eight fully-worked quantitative PM cases and estimation problems covering context caching ROI, cascade routing economics, eval harness calibration, agentic latency budgets, and build-vs-buy TCO.",
+      "level": "Advanced",
+      "tracks": [
+        "product",
+        "consulting"
+      ],
+      "prereq": [
+        "ai-product-lifecycle",
+        "product-architecture-economics",
+        "agentic-ux-and-interfaces"
+      ],
+      "hook": "In an executive PM interview at an Indian fintech unicorn, the Head of Product challenges you: 'We spend ₹18 crore annually on frontier reasoning models for our credit analysis and merchant underwriting assistant. Our p95 latency is 6.2 seconds, causing 38% user drop-off. The engineering team proposes fine-tuning an open-source 8B model, while our AI architect insists on prompt caching and a cascade router. Walk me through the unit economics, derive the exact break-even volumes, and present an executive migration roadmap.' How do you structure your answer?",
+      "objectives": [
+        "**Deconstruct** complex AI product trade-offs into rigorous, auditable mathematical models linking compute costs directly to gross margin and user retention.",
+        "**Master** the four strategic AI product cases: Quick-Commerce automated refund fraud trade-offs, three-tier cascade routing, legal contract KV context caching break-even, and human-in-the-loop escalation calibration.",
+        "**Execute** quantitative PM estimation across multi-agent latency budgets, eval suite statistical power, synthetic test data generation frontiers, and self-hosted GPU cluster crossover volume.",
+        "**Synthesize** technical engineering constraints with commercial business outcomes, defending product decisions in executive boardrooms and senior PM interview loops."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 1,
+      "cases": 8,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 3,
+    "highlightsCount": 6,
+    "citesCount": 5,
+    "sidenotesCount": 0,
+    "glossaryCount": 6,
+    "displayMathCount": 22,
+    "inlineMathCount": 103,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 22.7,
+    "stdevLen": 10.7,
+    "calloutIssues": []
+  },
+  {
+    "id": "algorithmic-underwriting-and-credit-risk",
+    "n": "22",
+    "title": "Algorithmic underwriting & credit risk: from logistic regression to foundation models",
+    "deck": "Why a 50 bps reduction in credit default rates pays for a bank's entire AI stack: Basel III/IV capital adequacy, IFRS 9 expected credit loss, explainability versus accuracy (SHAP/LIME), and unstructured document underwriting.",
+    "part": "p6",
+    "partTitle": "Finance & Banking",
+    "track": "finance",
+    "words": 4373,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "algorithmic-underwriting-and-credit-risk",
+      "title": "Algorithmic underwriting & credit risk: from logistic regression to foundation models",
+      "deck": "Why a 50 bps reduction in credit default rates pays for a bank's entire AI stack: Basel III/IV capital adequacy, IFRS 9 expected credit loss, explainability versus accuracy (SHAP/LIME), and unstructured document underwriting.",
+      "level": "Zero to one",
+      "tracks": [
+        "finance"
+      ],
+      "prereq": [
+        "kinds-of-ai",
+        "your-documents"
+      ],
+      "hook": "Why a 50 bps reduction in gross non-performing assets (GNPAs) delivers more profit to a ₹50,000 crore bank than doubling its digital marketing budget—and why credit risk committees reject LLM 'black boxes'.",
+      "objectives": [
+        "**Deconstruct** the regulatory tension between predictive model performance and statutory explainability under Basel III/IV capital adequacy frameworks.",
+        "**Derive** the expected credit loss ($ECL$) formulation under IFRS 9, modeling the interaction between Probability of Default ($PD$), Loss Given Default ($LGD$), and Exposure at Default ($EAD$).",
+        "**Evaluate** post-hoc explainability techniques (SHAP and LIME) versus intrinsically interpretable Generalized Additive Models (GAMs) in statutory adverse action notices.",
+        "**Architect** a dual-core underwriting pipeline integrating classical tree-based tabular credit engines with multimodal foundation models for unstructured GSTN, bank statement, and collateral analysis."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 2,
+      "cases": 1,
+      "lenses": 3,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "apply",
+      "explain",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 2,
+    "highlightsCount": 6,
+    "citesCount": 9,
+    "sidenotesCount": 0,
+    "glossaryCount": 11,
+    "displayMathCount": 9,
+    "inlineMathCount": 48,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 1,
+    "trailingIngs": [
+      {
+        "match": ", ensuring",
+        "line": 211
+      }
+    ],
+    "meanLen": 20.7,
+    "stdevLen": 9.9,
+    "calloutIssues": []
+  },
+  {
+    "id": "financial-copilots-and-deal-diligence",
+    "n": "23",
+    "title": "GenAI in high-stakes finance: FP&A, deal diligence, and autonomous copilots",
+    "deck": "Zero tolerance for hallucination in corporate finance: automated spreading in Virtual Data Rooms, deterministic tool-calling sandboxes, auditing earnings calls, and AI-assisted LBO/DCF financial modeling.",
+    "part": "p6",
+    "partTitle": "Finance & Banking",
+    "track": "finance",
+    "words": 4376,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "financial-copilots-and-deal-diligence",
+      "title": "GenAI in high-stakes finance: FP&A, deal diligence, and autonomous copilots",
+      "deck": "Zero tolerance for hallucination in corporate finance: automated spreading in Virtual Data Rooms, deterministic tool-calling sandboxes, auditing earnings calls, and AI-assisted LBO/DCF financial modeling.",
+      "level": "Zero to one",
+      "tracks": [
+        "finance",
+        "strategy"
+      ],
+      "prereq": [
+        "delegation-brief",
+        "judging-output"
+      ],
+      "order": 23,
+      "audio": false,
+      "keywords": "financial spreading, virtual data room, cell-level audit lineage, deterministic sandbox, covenant monitoring, Morgan Stanley, J.P. Morgan DocLLM",
+      "hook": "An investment banking analyst spends 80 hours spreading financial statements across 15 target subsidiaries; an LLM does it in 3 minutes—but inverts an EBITDA adjustment that swings enterprise valuation by ₹500 crore. As deal lead, how do you architect a financial copilot that eliminates hallucinations with mathematical certainty?",
+      "objectives": [
+        "**Deconstruct** the architectural requirements of zero-tolerance financial workflows, contrasting stochastic natural language generation with deterministic code execution.",
+        "**Formulate** the end-to-end automated financial spreading pipeline across Virtual Data Rooms (VDRs), preserving cell-level audit lineage from primary SEC/MCA filings to financial models.",
+        "**Audit** generative AI outputs across high-stakes earnings calls, debt covenant compliance, and M&A quality of earnings (QoE) analyses.",
+        "**Design** an enterprise governance framework combining multi-agent reconciliation with human-in-the-loop audit gates for PE buyout and corporate FP&A models."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 3,
+      "cases": 1,
+      "lenses": 3,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "apply",
+      "explain",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 1,
+    "highlightsCount": 6,
+    "citesCount": 4,
+    "sidenotesCount": 0,
+    "glossaryCount": 5,
+    "displayMathCount": 18,
+    "inlineMathCount": 25,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 15.6,
+    "stdevLen": 9.5,
+    "calloutIssues": []
+  },
+  {
+    "id": "financial-crime-fraud-and-rbi-free-ai",
+    "n": "24",
+    "title": "Financial crime, fraud, and the regulatory boundary: RBI FREE-AI, AML, and explainability",
+    "deck": "Mule accounts and real-time transaction laundering on UPI, the base rate fallacy in fraud alerts, RBI FREE-AI governance principles, SEBI algorithmic trading safeguards, and DPDP financial data sovereignty.",
+    "track": "finance",
+    "words": 7049,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "financial-crime-fraud-and-rbi-free-ai",
+      "title": "Financial crime, fraud, and the regulatory boundary: RBI FREE-AI, AML, and explainability",
+      "deck": "Mule accounts and real-time transaction laundering on UPI, the base rate fallacy in fraud alerts, RBI FREE-AI governance principles, SEBI algorithmic trading safeguards, and DPDP financial data sovereignty.",
+      "level": "Zero to one",
+      "part": "p6",
+      "track": "finance",
+      "tracks": [
+        "finance"
+      ],
+      "status": "published",
+      "order": 24,
+      "prereq": [
+        "judging-output",
+        "models-that-act"
+      ],
+      "prereqs": [
+        "judging-output",
+        "models-that-act"
+      ],
+      "hook": "In 45 minutes, a coordinated cyber-syndicate routes ₹120 crore through 8,000 mule accounts across 12 digital payment apps. Legacy rules flag 15%; Graph AI identifies 88%—while generating 40,000 false alarms.",
+      "objectives": [
+        "**Expose** the mathematical base rate fallacy in financial fraud detection, quantifying the operational burden of false positives in high-throughput payment rails.",
+        "**Analyze** graph representation learning and Graph Neural Networks (GNNs) for detecting mule account networks and real-time transaction laundering on UPI.",
+        "**Deconstruct** the Reserve Bank of India (RBI) FREE-AI Committee regulatory framework: Fairness, Resilience, Ethics, and Explainability.",
+        "**Synthesize** anti-money laundering (AML) operations with statutory data sovereignty under the Digital Personal Data Protection (DPDP) Act and SEBI algorithmic trading directives."
+      ],
+      "keywords": "fraud detection, base rate fallacy, mule account detection, RBI FREE-AI, graph neural networks, suspicious transaction report, DPDP localization",
+      "audio": false
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 3,
+      "cases": 1,
+      "lenses": 3,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 1,
+    "mediaCardsCount": 2,
+    "highlightsCount": 6,
+    "citesCount": 11,
+    "sidenotesCount": 0,
+    "glossaryCount": 9,
+    "displayMathCount": 8,
+    "inlineMathCount": 68,
+    "slopCount": 1,
+    "slopFindings": [
+      {
+        "name": "unprecedented",
+        "match": "unprecedented",
+        "line": 295
+      }
+    ],
+    "trailingIngsCount": 2,
+    "trailingIngs": [
+      {
+        "match": ", highlighting",
+        "line": 203
+      },
+      {
+        "match": ", ensuring",
+        "line": 234
+      }
+    ],
+    "meanLen": 20.6,
+    "stdevLen": 11.5,
+    "calloutIssues": []
+  },
+  {
+    "id": "finance-casebook",
+    "n": "25",
+    "title": "The Finance AI casebook & interview room",
+    "deck": "Eight fully-worked quantitative finance cases and estimation problems covering SME credit scoring ROI, PE buyout due diligence, retail robo-advisory economics, AML false-positive optimization, and private banking cloud capex.",
+    "part": "p6",
+    "partTitle": "Finance & Banking",
+    "track": "finance",
+    "words": 8722,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "finance-casebook",
+      "title": "The Finance AI casebook & interview room",
+      "deck": "Eight fully-worked quantitative finance cases and estimation problems covering SME credit scoring ROI, PE buyout due diligence, retail robo-advisory economics, AML false-positive optimization, and private banking cloud capex.",
+      "level": "Advanced",
+      "tracks": [
+        "finance"
+      ],
+      "prereq": [
+        "algorithmic-underwriting-and-credit-risk",
+        "financial-copilots-and-deal-diligence",
+        "financial-crime-fraud-and-rbi-free-ai"
+      ],
+      "hook": "In an executive committee meeting at a premier financial institution, the Chief Risk Officer and Chief Financial Officer challenge you: 'We are evaluating ₹150 crore of capital expenditure to modernize our commercial underwriting, M&A deal diligence, and compliance operations with artificial intelligence. Walk us through the exact unit economics, regulatory capital relief under Basel III/IV, false-positive tradeoffs, and 3-year TCO. Prove to the Board that this investment expands return on equity without exposing the balance sheet to catastrophic risk.' How do you structure your answer?",
+      "objectives": [
+        "**Deconstruct** ambiguous financial dilemmas into auditable, mathematically rigorous models linking machine learning deployments directly to regulatory capital relief, GNPA compression, and return on equity.",
+        "**Master** the four strategic corporate finance cases: commercial SME lending underwriting ROI, private equity M&A due diligence, retail wealth management robo-advisory economics, and anti-money laundering false-positive triage.",
+        "**Execute** quantitative estimations across on-premise private banking GPU cluster TCO, continuous corporate debt covenant monitoring, NBFC back-office automation valuation, and algorithmic trading liquidity shock buffers.",
+        "**Synthesize** statutory regulatory mandates (RBI FREE-AI, Basel III/IV, IFRS 9) with balance-sheet impact to defend high-stakes financial proposals in boardroom reviews and senior executive interviews."
+      ],
+      "keywords": [
+        "quantitative finance cases",
+        "SME lending",
+        "M&A due diligence",
+        "robo-advisory economics",
+        "fraud operations optimization",
+        "AI infrastructure TCO",
+        "covenant monitoring",
+        "NBFC valuation",
+        "algorithmic trading buffers"
+      ],
+      "audio": false,
+      "order": 25,
+      "status": "published"
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 1,
+      "cases": 8,
+      "lenses": 2,
+      "interviews": 1,
+      "myths": 0,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 1,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 5,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "transfer",
+      "judge"
+    ],
+    "answerItemsCount": 5,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 0,
+    "mediaCardsCount": 2,
+    "highlightsCount": 6,
+    "citesCount": 16,
+    "sidenotesCount": 0,
+    "glossaryCount": 17,
+    "displayMathCount": 50,
+    "inlineMathCount": 87,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 25.5,
+    "stdevLen": 9.7,
+    "calloutIssues": []
+  },
+  {
+    "id": "state-of-play",
+    "n": "A",
+    "title": "State of play, November 2026",
+    "deck": "The current frontier models, workhorse tiers, and open weights, dated November 2026. Out of date by design; check the web edition.",
+    "part": "p7",
+    "partTitle": "Inserts",
+    "track": "strategy",
+    "words": 1585,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "state-of-play",
+      "title": "State of play, November 2026",
+      "deck": "The current frontier models, workhorse tiers, and open weights, dated November 2026. Out of date by design; check the web edition.",
+      "level": "Zero to one",
+      "tracks": [
+        "strategy"
+      ],
+      "hook": "A Mumbai financial services enterprise asks your advisory team to select a single AI model for all 5,000 employees. One vendor pitches their flagship frontier model at $50 per million output tokens; another pitches a distilled tier at $0.50. Both claim number-one benchmark rankings. How do you evaluate the tradeoff, and why does standardising on a single model guarantee that the client either overpays or underperforms?",
+      "objectives": [
+        "**Categorise** current models into frontier reasoning, enterprise workhorse, and open-weight tiers.",
+        "**Evaluate** model pricing dynamics and the economic logic of tiered model routing.",
+        "**Distinguish** between vendor benchmark marketing and production evaluation realities."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 0,
+      "cases": 1,
+      "lenses": 0,
+      "interviews": 0,
+      "myths": 1,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 0,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 4,
+    "bloomLevels": [
+      "recall",
+      "explain",
+      "apply",
+      "judge"
+    ],
+    "answerItemsCount": 4,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 0,
+    "mediaCardsCount": 1,
+    "highlightsCount": 1,
+    "citesCount": 25,
+    "sidenotesCount": 0,
+    "glossaryCount": 0,
+    "displayMathCount": 0,
+    "inlineMathCount": 0,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 0,
+    "trailingIngs": [],
+    "meanLen": 19.6,
+    "stdevLen": 9.7,
+    "calloutIssues": []
+  },
+  {
+    "id": "india-briefing",
+    "n": "B",
+    "title": "India briefing",
+    "deck": "DPDP Act, RBI FREE-AI, the IndiaAI Mission and how India uses AI, in two pages.",
+    "part": "p7",
+    "partTitle": "Inserts",
+    "track": "strategy",
+    "words": 1843,
+    "exists": true,
+    "fmMissing": [],
+    "fm": {
+      "id": "india-briefing",
+      "title": "India briefing",
+      "deck": "DPDP Act, RBI FREE-AI, the IndiaAI Mission and how India uses AI, in two pages.",
+      "level": "Zero to one",
+      "tracks": [
+        "consulting",
+        "finance"
+      ],
+      "hook": "A consumer finance startup in Mumbai deploys an AI agent to read personal bank statements and score credit applications. The founder assumes that because India has no dedicated 'Artificial Intelligence Act', deployment is unregulated. Within sixty days, the company faces audit inquiries from both the Reserve Bank of India and the Data Protection Board. Which statutory duties did the founder overlook, and why is deploying AI in India subject to strict liability even without an AI-specific statute?",
+      "objectives": [
+        "**Explain** the compliance mandates of the DPDP Act 2023 and the 2025 Rules for automated AI systems.",
+        "**Apply** the RBI FREE-AI framework's 7 Sutras to financial technology and enterprise workflows.",
+        "**Analyze** India's national AI infrastructure under the IndiaAI Mission and empirical usage patterns from the Anthropic Economic Index."
+      ]
+    },
+    "blocks": {
+      "principles": 1,
+      "concepts": 0,
+      "cases": 1,
+      "lenses": 0,
+      "interviews": 0,
+      "myths": 2,
+      "stats": 1,
+      "pulls": 0,
+      "tries": 0,
+      "checks": 1,
+      "answers": 1,
+      "recaps": 1
+    },
+    "recapLinesCount": 5,
+    "checkQuestionsCount": 4,
+    "bloomLevels": [
+      "recall",
+      "recall",
+      "explain",
+      "judge"
+    ],
+    "answerItemsCount": 4,
+    "tryHasCode": false,
+    "tryCodeLanguages": [],
+    "figuresCount": 0,
+    "mediaCardsCount": 2,
+    "highlightsCount": 1,
+    "citesCount": 31,
+    "sidenotesCount": 0,
+    "glossaryCount": 0,
+    "displayMathCount": 0,
+    "inlineMathCount": 0,
+    "slopCount": 0,
+    "slopFindings": [],
+    "trailingIngsCount": 1,
+    "trailingIngs": [
+      {
+        "match": ", ensuring",
+        "line": 83
+      }
+    ],
+    "meanLen": 22.8,
+    "stdevLen": 10.1,
+    "calloutIssues": []
+  }
+]

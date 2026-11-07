@@ -235,12 +235,11 @@ To identify the persuadable cohort, we deploy a Causal Forest to estimate the Co
 $$\tau_i(D) = \mathbb{E}\big[Y_i(D) - Y_i(0) \mid X_i\big]$$
 Where $Y_i \in \{0, 1\}$ represents the purchase outcome, $D$ is the discount treatment depth, and $X_i$ is a feature vector containing historical order frequency, category margin, cart value, app session depth, and recency.
 
-```
-Cart Abandoners (8,000,000 Users)
- ├── Sure Things (45% · 3.60M users) ─── Organic Conversion: 68% ─── Action: Offer ₹0 Discount
- ├── Lost Causes (30% · 2.40M users) ─── Conversion with Promo: <4% ─ Action: Offer ₹0 Discount
- └── Persuadables (25% · 2.00M users) ── Lift: 12% → 48% (τ = +36%) ─ Action: Dynamic ₹50 to ₹150
-```
+| Customer Segment | Population Share (Users) | Baseline vs Counterfactual | Optimal Intervention |
+|---|---:|---|---|
+| **Sure Things** | 45% (3.60M users) | Organic Conversion: 68% | Offer ₹0 Discount |
+| **Lost Causes** | 30% (2.40M users) | Conversion with Promo: < 4% | Offer ₹0 Discount |
+| **Persuadables** | 25% (2.00M users) | Lift: 12% → 48% ($\tau = +36\%$) | Dynamic ₹50 to ₹150 |
 
 **2. Empirical Segmentation Breakdown:**
 Historical randomized holdout tests across the 8 million abandoned cart sessions reveal the underlying population distribution:
@@ -373,18 +372,14 @@ The following guesstimates illustrate the mathematical trees, operational benchm
 Estimate the total annual cloud compute, API token, and edge content delivery network ($CDN$) expenses required to deliver dynamically personalized display banners and short-form video ad creatives for 20 million active online shoppers during a 12-week Indian festive shopping season (October to December).
 
 #### The mathematical tree
-```
-20 Million Active Shoppers
- └── 5 Ad Impressions / Week × 12 Weeks = 60 Impressions / Shopper
-      └── Total Quarterly Delivery: 1.20 Billion Ad Impressions
-           ├── Architecture A: Naive Real-Time Diffusion ($48 Million / ₹408 Crore) → UNVIABLE
-           └── Architecture B: Modular Compositing & Edge Assembly (₹3.08 Lakh) → PRODUCTION GRADE
-                ├── 5,000 Product Cutout Renders (ComfyUI Batch): ₹17,000
-                ├── 200 Cultural Background Environments: ₹850
-                ├── 500 6-Second Video Motion Loops: ₹51,000
-                ├── 4,000 Dynamic Copy Hooks (LLM Generation): ₹15
-                └── 1.20 Billion Edge CDN Compositing Requests: ₹2,40,000
-```
+| Modular Asset Component | Generation Mechanism & Volume | Total Cost (₹) |
+|---|---|---:|
+| Product Cutout Renders | ComfyUI Batch (5,000 renders) | ₹17,000 |
+| Cultural Backgrounds | 200 Environment Variations | ₹850 |
+| Video Motion Loops | 500 6-Second Video Loops | ₹51,000 |
+| Dynamic Copy Hooks | LLM Generation (4,000 hooks) | ₹15 |
+| Edge CDN Compositing | 1.20 Billion CDN Requests | ₹2,40,000 |
+| **Total Production Spend** | **1.20 Billion Delivered Impressions** | **₹3,08,865** |
 
 #### Step-by-step calculation
 1. **Audience & Impression Volume Funnel:**
@@ -459,14 +454,14 @@ Based on calibrated geo-lift experimentation and Bayesian priors (Meridian & Rob
 #### Sized allocation and revenue optimization
 Solving the marginal equalization condition across the ₹60 crore budget produces the optimal capital deployment:
 
-```
-Total Marketing Capital: ₹60.00 Crore
- ├── TV & Connected OTT: ₹21.00 Crore (35%) ─── Brand anchor, high ceiling, 40% organic baseline lift
- ├── Meta Performance Ads: ₹18.00 Crore (30%) ── Visual discovery engine, scales to K = ₹18Cr
- ├── Google Search / PMax: ₹9.00 Crore (15%) ─── Intent capture, capped just past saturation K = ₹8Cr
- ├── Quick-Commerce Media: ₹6.00 Crore (10%) ── High-intent impulse accessories, saturates at ₹6Cr
- └── Regional OOH & In-Store: ₹6.00 Crore (10%) ─ Store cluster footfall driver, 150 retail locations
-```
+| Marketing Channel | Allocation (₹ Crore) | Share (%) | Saturation Parameter ($K$) & Strategic Role |
+|---|---:|---:|---|
+| TV & Connected OTT | ₹21.00 | 35% | Brand anchor, high ceiling, 40% organic baseline lift |
+| Meta Performance Ads | ₹18.00 | 30% | Visual discovery engine, scales to $K = \text{₹}18\text{Cr}$ |
+| Google Search / PMax | ₹9.00 | 15% | Intent capture, capped just past saturation $K = \text{₹}8\text{Cr}$ |
+| Quick-Commerce Media | ₹6.00 | 10% | High-intent impulse accessories, saturates at ₹6Cr |
+| Regional OOH & In-Store | ₹6.00 | 10% | Store cluster footfall driver, 150 retail locations |
+| **Total Marketing Capital** | **₹60.00** | **100%** | **Equi-Marginal ROAS Equilibrium** |
 
 | Acquisition Channel | Budget Allocation | Share of Spend | Effective Incremental ROAS | Incremental Revenue |
 | :--- | :--- | :--- | :--- | :--- |
@@ -532,7 +527,7 @@ To evaluate 500 new flavor, packaging, and brand positioning concepts, the brand
 | **Physical Sensory Feedback** | Real taste, smell, mouthfeel | Zero physical sensory perception | Critical epistemic boundary |
 
 #### Epistemic boundaries and recommendation
-==Synthetic consumer panels offer unprecedented velocity for linguistic and conceptual screening, but they cannot simulate physical sensory experience, cash liquidity constraints, or the status signaling inherent in discretionary spending.==
+==Synthetic consumer panels screen linguistic concepts in thirty minutes rather than five months, but they cannot simulate physical sensory experience, cash liquidity constraints, or the status signaling inherent in discretionary spending.==
 
 Never rely on synthetic focus groups to validate food taste, beverage sweetness, or final pricing willingness-to-pay. Instead, construct a two-phase hybrid research protocol:
 1. **Upstream Concept Funnel (Synthetic):** Run 1,000 synthetic focus groups in 35 minutes for ₹2.53 lakh to screen 500 candidate packaging taglines, narrative concepts, and ingredient claims. Filter out the bottom 494 concepts based on clarity and brand alignment.

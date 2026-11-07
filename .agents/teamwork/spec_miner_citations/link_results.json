@@ -1,0 +1,198 @@
+[
+  {
+    "id": "3b1b-neural-network",
+    "status": 200,
+    "originalUrl": "https://www.youtube.com/watch?v=aircAruvnKk",
+    "finalUrl": "https://www.youtube.com/watch?v=aircAruvnKk",
+    "title": "But what is a neural network? | Deep learning chapter 1 - YouTube"
+  },
+  {
+    "id": "wolfram-chatgpt",
+    "status": 200,
+    "originalUrl": "https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/",
+    "finalUrl": "https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/",
+    "title": "What Is ChatGPT Doing … and Why Does It Work?&mdash;Stephen Wolfram Writings"
+  },
+  {
+    "id": "hbs-jagged-frontier",
+    "status": 200,
+    "originalUrl": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+    "finalUrl": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+    "title": "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality - Working Paper - Faculty & Research - Harvard Business School"
+  },
+  {
+    "id": "mollick-centaurs",
+    "status": 200,
+    "originalUrl": "https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged",
+    "finalUrl": "https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged",
+    "title": "Centaurs and Cyborgs on the Jagged Frontier"
+  },
+  {
+    "id": "stanford-ai-index",
+    "status": 200,
+    "originalUrl": "https://hai.stanford.edu/ai-index",
+    "finalUrl": "https://hai.stanford.edu/ai-index",
+    "title": "AI Index | Stanford HAI"
+  },
+  {
+    "id": "hbr-simple-economics-machine-intelligence",
+    "status": 200,
+    "originalUrl": "https://hbr.org/2016/11/the-simple-economics-of-machine-intelligence",
+    "finalUrl": "https://hbr.org/2016/11/the-simple-economics-of-machine-intelligence",
+    "title": "The Simple Economics of Machine Intelligence"
+  },
+  {
+    "id": "anthropic-project-vend",
+    "status": 200,
+    "originalUrl": "https://www.anthropic.com/research/project-vend-1",
+    "finalUrl": "https://www.anthropic.com/research/project-vend-1",
+    "title": "Project Vend: Can Claude run a small shop? \\ Anthropic"
+  },
+  {
+    "id": "willison-lethal-trifecta",
+    "status": 200,
+    "originalUrl": "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/",
+    "finalUrl": "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/",
+    "title": "The lethal trifecta for AI agents: private data, untrusted content, and external communication"
+  },
+  {
+    "id": "ibm-agent-skills",
+    "status": 200,
+    "originalUrl": "https://www.youtube.com/watch?v=Lg-meK5IU8Q",
+    "finalUrl": "https://www.youtube.com/watch?v=Lg-meK5IU8Q",
+    "title": "What AI Agent Skills Are and How They Work - YouTube"
+  },
+  {
+    "id": "hbr-ideacast-sternfels",
+    "status": 200,
+    "originalUrl": "https://hbr.org/podcast/2026/01/where-mckinsey-and-consulting-go-from-here",
+    "finalUrl": "https://hbr.org/podcast/2026/01/where-mckinsey-and-consulting-go-from-here",
+    "title": "Where McKinsey&mdash;and Consulting&mdash;Go From Here"
+  },
+  {
+    "id": "epoch-inference-price-trends",
+    "status": 200,
+    "originalUrl": "https://epoch.ai/data-insights/llm-inference-price-trends",
+    "finalUrl": "https://epoch.ai/data-insights/llm-inference-price-trends",
+    "title": "LLM inference prices have fallen rapidly but unequally across tasks | Epoch AI"
+  },
+  {
+    "id": "boyle-big-tech-debt",
+    "status": 200,
+    "originalUrl": "https://www.youtube.com/watch?v=NufJ7g63KSY",
+    "finalUrl": "https://www.youtube.com/watch?v=NufJ7g63KSY",
+    "title": "Why Wall Street is Ignoring Big Tech&#39;s Debt - YouTube"
+  },
+  {
+    "id": "sarvam-bulbul-v4-flash",
+    "status": 200,
+    "originalUrl": "https://www.sarvam.ai/blogs/bulbul-v4-flash",
+    "finalUrl": "https://www.sarvam.ai/blogs/bulbul-v4-flash",
+    "title": "Introducing Bulbul V4 Flash text-to-speech for India | Sarvam AI"
+  },
+  {
+    "id": "google-meridian",
+    "status": 200,
+    "originalUrl": "https://github.com/google/meridian",
+    "finalUrl": "https://github.com/google/meridian",
+    "title": "GitHub - google/meridian: Meridian is an MMM framework that enables advertisers to set up and run their own in-house models. · GitHub"
+  },
+  {
+    "id": "meta-robyn",
+    "status": 200,
+    "originalUrl": "https://facebookexperimental.github.io/Robyn/",
+    "finalUrl": "https://facebookexperimental.github.io/Robyn/",
+    "title": "Robyn"
+  },
+  {
+    "id": "unilever-digital-twins",
+    "status": 200,
+    "originalUrl": "https://newsroom.accenture.com/news/2026/unilever-scales-digital-twins-across-global-manufacturing-network-with-accenture",
+    "finalUrl": "https://newsroom.accenture.com/news/2026/unilever-scales-digital-twins-across-global-manufacturing-network-with-accenture",
+    "title": "Unilever Scales Digital Twins Across Global Manufacturing Network with Accenture"
+  },
+  {
+    "id": "argyle-out-of-one-many",
+    "status": 200,
+    "originalUrl": "https://arxiv.org/abs/2209.06899",
+    "finalUrl": "https://arxiv.org/abs/2209.06899",
+    "title": "[2209.06899] Out of One, Many: Using Language Models to Simulate Human Samples"
+  },
+  {
+    "id": "horton-homo-silicus",
+    "status": 200,
+    "originalUrl": "https://www.nber.org/papers/w31122",
+    "finalUrl": "https://www.nber.org/papers/w31122",
+    "title": "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus? | NBER"
+  },
+  {
+    "id": "brand-llm-market-research",
+    "status": 200,
+    "originalUrl": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64041",
+    "finalUrl": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64041",
+    "title": "When Scenario Planning Fails - Article - Faculty & Research - Harvard Business School"
+  },
+  {
+    "id": "asci-genai-guidelines",
+    "status": 200,
+    "originalUrl": "https://ascionline.in/",
+    "finalUrl": "https://www.ascionline.in/",
+    "title": "Advertising Standards Council of India (ASCI) – Self-Regulation in Advertising"
+  },
+  {
+    "id": "openai-evals-framework",
+    "status": 200,
+    "originalUrl": "https://github.com/openai/evals",
+    "finalUrl": "https://github.com/openai/evals",
+    "title": "GitHub - openai/evals: Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks. · GitHub"
+  },
+  {
+    "id": "anthropic-context-caching",
+    "status": 200,
+    "originalUrl": "https://claude.com/resources/articles/prompt-caching",
+    "finalUrl": "https://claude.com/resources/articles/prompt-caching",
+    "title": "Prompt caching with Claude | Claude by Anthropic"
+  },
+  {
+    "id": "anthropic-prompt-engineering-interactive",
+    "status": 200,
+    "originalUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
+    "finalUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
+    "title": "Prompt engineering overview - Claude Platform Docs"
+  },
+  {
+    "id": "google-gemini-long-context",
+    "status": 200,
+    "originalUrl": "https://arxiv.org/abs/2403.05530",
+    "finalUrl": "https://arxiv.org/abs/2403.05530",
+    "title": "[2403.05530] Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context"
+  },
+  {
+    "id": "cagan-transformed-ai",
+    "status": 200,
+    "originalUrl": "https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/",
+    "finalUrl": "https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/",
+    "title": "TRANSFORMED: Moving to the Product Operating Model - Silicon Valley Product Group : Silicon Valley Product Group"
+  },
+  {
+    "id": "cagan-svpg-ai-risk",
+    "status": 200,
+    "originalUrl": "https://www.svpg.com/four-big-risks/",
+    "finalUrl": "https://www.svpg.com/four-big-risks/",
+    "title": "The Four Big Risks - Silicon Valley Product Group : Silicon Valley Product Group"
+  },
+  {
+    "id": "zheng-judging-llm-as-judge",
+    "status": 200,
+    "originalUrl": "https://arxiv.org/abs/2306.05685",
+    "finalUrl": "https://arxiv.org/abs/2306.05685",
+    "title": "[2306.05685] Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena"
+  },
+  {
+    "id": "card-moran-newell-psychology-hci",
+    "status": 200,
+    "originalUrl": "https://www.taylorfrancis.com/books/mono/10.1201/9780203736166/psychology-human-computer-interaction-stuart-card",
+    "finalUrl": "https://www.taylorfrancis.com/books/mono/10.1201/9780203736166/psychology-human-computer-interaction-stuart-card",
+    "title": "The Psychology of Human-Computer Interaction | Stuart K. Card | Taylor"
+  }
+]

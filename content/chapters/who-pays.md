@@ -41,7 +41,7 @@ In economic theory, when the unit cost of an input falls, one might expect total
 
 This phenomenon is explained by **Jevons' paradox**: an economic principle formulated in 1865 by William Stanley Jevons. Observing British coal consumption after James Watt introduced more fuel-efficient steam engines, Jevons discovered that making an engine more efficient did not reduce national coal demand. Instead, because efficiency made steam power cheaper and more viable across hundreds of new industries, total coal consumption surged exponentially.
 
-The same dynamic governs [[inference-cost|inference costs]]. When querying a model cost several cents per call, companies used AI selectively for high-value executive summaries. When cost dropped to pennies per thousand queries, developers embedded AI into real-time search, automated customer service agents, background code compilation, and continuous data processing. Cheaper tokens increased total demand by orders of magnitude, requiring hyperscalers to expand their physical infrastructure at an unprecedented pace.
+The same dynamic governs [[inference-cost|inference costs]]. When querying a model cost several cents per call, companies used AI selectively for high-value executive summaries. When cost dropped to pennies per thousand queries, developers embedded AI into real-time search, automated customer service agents, background code compilation, and continuous data processing. Cheaper tokens increased total demand by orders of magnitude, forcing hyperscalers to expand their physical server capacity at record speed.
 
 ::: principle Build it from zero
 1. An AI model requires compute hardware (GPUs, power, cooling) both to train its weights and to generate output tokens during inference.
@@ -49,7 +49,7 @@ The same dynamic governs [[inference-cost|inference costs]]. When querying a mod
 3. Lower token costs expand the addressable commercial use cases: tasks that were economically impractical at $20 per million tokens become profitable at $0.07 per million tokens.
 4. Total compute demand is the product of unit price and query volume ($\text{Total Spend} = \text{Price} \times \text{Volume}$).
 5. Because volume expands faster than unit price declines (high price elasticity of demand), aggregate demand for compute power surges.
-6. Cheaper tokens do not reduce infrastructure spend; they fuel massive capital spending by cloud providers racing to secure chips, land, and power.
+6. ==Cheaper tokens do not reduce infrastructure spend; they fuel massive capital spending by cloud providers racing to secure chips, land, and power.==
 :::
 
 ## The hyperscaler balance sheets: cash flows versus capex
@@ -64,20 +64,20 @@ Alphabet's capital expenditures in a single quarter (Q3 2026, ended 30 September
 :::
 
 - **Alphabet:** In the third quarter of 2026, Alphabet recorded property and equipment purchases of $51.4 billion [@alphabet-q3-2026]. Operating cash flow was $42.3 billion, resulting in negative quarterly free cash flow of -$9.07 billion [@alphabet-q3-2026]. While Google Cloud grew 103% year-over-year to $30.7 billion, cash spent on data centres and hardware outpaced operations [@alphabet-q3-2026].
-- **Microsoft:** For its fiscal first quarter 2027 (ended September 2026), Microsoft reported additions to property and equipment of $39.4 billion, more than double the $19.4 billion spent in the same quarter a year earlier [@microsoft-fy27-q1]. Azure revenue reached $33.2 billion, up 48% [@microsoft-fy27-q1]. Microsoft also reported a commercial [[remaining-performance-obligation|remaining performance obligation]] (contracted future revenue backlog) of $677 billion, up 73%, demonstrating why the company continues to build capacity [@microsoft-fy27-q1].
+- **Microsoft:** For its fiscal first quarter 2027 (ended September 2026), Microsoft reported additions to property and equipment of $39.4 billion, more than double the $19.4 billion spent in the same quarter a year earlier [@microsoft-fy27-q1]. Azure revenue reached $33.2 billion, up 48% [@microsoft-fy27-q1]. Microsoft also reported a commercial [[remaining-performance-obligation|remaining performance obligation]] (contracted future revenue backlog) of $677 billion, up 73%. This massive backlog explains why the company continues to accelerate capital expenditure [@microsoft-fy27-q1].
 - **Amazon:** AWS generated $46.0 billion in third-quarter revenue, up 39% [@amazon-q3-2026]. However, Amazon projected full-year 2026 capital expenditures of approximately $220 billion, with trailing twelve-month free cash flow turning to an outflow of -$42.4 billion, compared to positive $14.8 billion in the prior period [@amazon-q3-2026].
 - **Meta:** Despite having no public cloud business to rent out compute, Meta reported third-quarter capital expenditures of $34.9 billion (narrowly exceeding its operating cash flow of $32.8 billion) and set full-year 2026 capex guidance between $135 billion and $145 billion [@meta-q3-2026].
 
 Stanford HAI's AI Index 2026 recorded that total corporate AI investment reached $581.69 billion in 2025, up 129.9% year-over-year [@stanford-ai-index-2026-economy].
 
-The financial model of hyperscalers relies on an aggressive capital conversion: converting current operational profits and balance sheet cash into long-life physical computing assets, betting that enterprise adoption will generate sustained recurring revenue before the hardware depreciates.
+==The financial model of hyperscalers relies on an aggressive capital conversion: converting current operational profits and balance sheet cash into long-life physical computing assets before the hardware depreciates.==
 
 ::: concept Capex versus opex
 **Plain words.** Capital expenditure ([[capex]]) is money spent upfront to buy physical assets that last years (such as data centres, land, generators, and server racks). Operational expenditure ([[opex]]) is money spent continuously to run daily operations (such as paying an electric utility bill or purchasing monthly AI model API tokens).
 
 **Analogy.** Buying a power plant versus paying a monthly electricity bill. A hyperscaler building a ₹10,000 crore data centre makes a long-term capex bet. An enterprise paying ₹5 per 10,000 tokens consumes AI as flexible opex.
 
-**Misconception.** "Because cloud AI is sold as opex to businesses, the whole AI boom is capital-light." Enterprise software buyers treat AI as opex, but hyperscalers must make unprecedented capex investments to supply that compute. The capital intensity was not eliminated; it was shifted onto the cloud providers' balance sheets.
+**Misconception.** "Because cloud AI is sold as opex to businesses, the whole AI boom is capital-light." Enterprise software buyers treat AI as opex, but hyperscalers must commit tens of billions in quarterly capex to supply that compute. The capital intensity was not eliminated; it was shifted onto the cloud providers' balance sheets.
 :::
 
 ## The debt layer and circular financing
@@ -90,7 +90,7 @@ At the same time, venture capital funding for frontier model labs has reached so
 
 This ecosystem has given rise to what financial analyst Patrick Boyle describes as circular vendor financing [@boyle-big-tech-debt]. In a circular financing structure, a major chip designer or cloud provider invests equity capital into a foundation model lab; the lab immediately uses those funds to sign multi-billion-dollar compute contracts with that exact cloud provider or purchase hardware from that chipmaker.
 
-While circular transactions accelerate deployment, they obscure true organic market demand. If a tech giant provides capital to a startup that returns the capital as cloud revenue, the reported revenue growth reflects balance-sheet reallocation rather than end-customer purchasing power [@boyle-big-tech-debt].
+While circular transactions accelerate deployment, they obscure true organic market demand. ==If a tech giant provides capital to a startup that returns the capital as cloud revenue, the reported revenue growth reflects balance-sheet reallocation rather than end-customer purchasing power [@boyle-big-tech-debt].==
 
 ::: myth
 **Myth.** Big Tech companies fund the AI buildout purely out of retained software profits without taking on financial risk.
@@ -115,7 +115,7 @@ By subsidizing access to compute hardware, the state absorbs a portion of the ca
 #### The situation
 A Mumbai private equity fund evaluates acquiring a 40% equity stake (valued at ₹5,000 crore) in a regional data centre developer with operational campuses in Navi Mumbai and an upcoming site in Chennai.
 
-The developer projects rapid revenue growth from rising enterprise AI demand, highlighting a planned 120-megawatt (MW) campus, land parcels, and utility MoUs.
+The developer projects rapid revenue growth from rising enterprise AI demand, citing a planned 120-megawatt (MW) campus, acquired land parcels, and executed utility MoUs.
 
 #### The decision
 The PE deal team audits the technical and financial stack:
@@ -130,7 +130,7 @@ The deal team restructures the investment:
 - Requires the developer to convert at least 60% of prospective AI capacity into multi-year "take-or-pay" contracts before drawing down Phase 2 funds.
 
 #### Your move
-In data centre M&A, never value a facility on square footage or vague "AI demand." Value the asset on energized megawatts, grid interconnect agreements, liquid cooling readiness, and tenant creditworthiness.
+==In data centre M&A, never value a facility on square footage or vague "AI demand": value the asset on energized megawatts, grid interconnect agreements, liquid cooling readiness, and tenant creditworthiness.==
 :::
 
 ## Where this shows up at work
@@ -207,7 +207,7 @@ Review the calculation. Notice how small per-token costs compound into significa
 ::: recap The night-before page
 1. The AI capital stack spans six layers: equipment (ASML), foundries (TSMC), chip designers (Nvidia), data centres, cloud hyperscalers, and model labs. Physical bottlenecks concentrate in Taiwan and specialized power grids.
 2. Jevons' paradox drives the boom: a 280-fold drop in unit token costs made AI viable across thousands of new tasks, causing total compute demand and infrastructure spending to surge.
-3. Hyperscalers are funding the buildout with unprecedented cash commitments: Alphabet spent $51.4B on capex in Q3 2026, pushing quarterly free cash flow negative (-$9.07B), while Amazon projected $220B in 2026 capex.
+3. Hyperscalers are funding the buildout with historic cash commitments: Alphabet spent $51.4B on capex in Q3 2026, pushing quarterly free cash flow negative (-$9.07B), while Amazon projected $220B in 2026 capex.
 4. Debt and circular financing carry structural risk: Oracle holds $125B in debt against a $664B backlog, while chipmakers and cloud giants invest equity into labs that return the capital as compute contracts.
 5. India subsidizes compute access: the IndiaAI Mission deployed 38,000+ GPUs at an average of ₹65/hour under a ₹10,371.92 crore plan, lowering barriers for domestic innovation.
 :::

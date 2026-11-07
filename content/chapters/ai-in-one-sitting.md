@@ -20,6 +20,8 @@ The empirical evidence confirms this gap. In its global study *The State of AI i
 
 In campus placement interviews and corporate leadership reviews, reciting high-level marketing buzzwords signals naive complacency. To advise clients or direct teams, you must understand the underlying machinery: where it creates economic leverage, where it breaks, and how to verify its outputs.
 
+{{figure ai-in-one-sitting-stack | The Enterprise AI Value Stack: From Silicon to P&L | Source: Chapter analysis}}
+
 ## Kinds of AI: the three machinery families
 
 Before selecting an algorithm, you must classify the fundamental nature of the business problem. Organizations waste millions of rupees by deploying generative language models on tasks that classic statistical machine learning solved a decade ago.
@@ -34,7 +36,7 @@ Before selecting an algorithm, you must classify the fundamental nature of the b
 
 Consider credit card fraud detection. A commercial bank processing two million transactions daily does not feed real-time card swipes into a generative chatbot. It routes transactional metadata (timestamp, merchant category, geolocation, rupee volume) into a predictive machine learning classifier. The classifier evaluates structured numerical features and outputs a fraud probability score between 0.00 and 1.00 in four milliseconds. 
 
-The Reserve Bank of India implemented this exact separation when deploying MuleHunter.AI, a specialized predictive classifier designed to detect mule accounts across commercial banks [@rbi-dev-reg-policies-2024-12]. Conversely, when a customer disputes a flagged transaction and demands a written explanation, a generative language model ingests the classifier's structured risk features and drafts a clear, empathetic notification. Predictive models score; generative models communicate; rule-based engines enforce policy boundaries.
+The Reserve Bank of India implemented this exact separation when deploying MuleHunter.AI, a specialized predictive classifier designed to detect mule accounts across commercial banks [@rbi-dev-reg-policies-2024-12]. Conversely, when a customer disputes a flagged transaction and demands a written explanation, a generative language model ingests the classifier's structured risk features and drafts a clear, empathetic notification. ==Predictive models score; generative models communicate; rule-based engines enforce policy boundaries.==
 
 ::: concept Predictive AI vs Generative AI
 **Plain words.** Predictive AI analyzes structured rows and columns of historical data to forecast a number or classify a category (will this borrower default, how many pallets will ship). Generative AI analyzes unstructured text, audio, and code to synthesize entirely new content.
@@ -89,7 +91,7 @@ None of these three stages incorporates an external verification engine that che
 ::: myth
 **Myth.** As artificial intelligence models scale in parameter count, hallucinations will naturally disappear.
 
-**Reality.** Hallucination is an intrinsic feature of probabilistic next-token generation, not a temporary bug. Scaling parameters improves fluency and benchmark recall on common facts, but models still fabricate citations and figures when queried on domain-specific edge cases [@kalai-why-lms-hallucinate]. Enterprise workflows must implement external ground-truth validation rather than relying on model self-correction.
+**Reality.** ==Hallucination is an intrinsic feature of probabilistic next-token generation, not a temporary bug.== Scaling parameters improves fluency and benchmark recall on common facts, but models still fabricate citations and figures when queried on domain-specific edge cases [@kalai-why-lms-hallucinate]. Enterprise workflows must implement external ground-truth validation rather than relying on model self-correction.
 :::
 
 ## Directing the machine: a prompt is a delegation brief
@@ -139,7 +141,7 @@ While conceptually straightforward, enterprise RAG systems frequently fail in pr
 - *Lost-in-the-middle phenomena:* When context windows are packed with dozens of retrieved chunks, models reliably attend to information placed at the very beginning and very end of the prompt, while overlooking critical caveats positioned in the middle.
 
 ### Privacy and fiduciary liability
-Pasting sensitive enterprise files into external AI tools creates immediate statutory exposure. Under India's Digital Personal Data Protection (DPDP) Act, 2023, the deploying enterprise is the Data Fiduciary [@dpdp-act-2023]. Fiduciary liability cannot be contracted away: if an employee pastes unredacted customer bank statements into a consumer chatbot whose terms permit model retraining, the enterprise bears direct statutory liability for the data breach, facing penalties up to ₹250 crore [@dpdp-act-2023].
+Pasting sensitive enterprise files into external AI tools creates immediate statutory exposure. ==Under India's Digital Personal Data Protection (DPDP) Act, 2023, fiduciary liability cannot be contracted away: deploying enterprises bear direct statutory liability for customer data leaks.== If an employee pastes unredacted customer bank statements into a consumer chatbot whose terms permit model retraining, the enterprise bears direct statutory liability for the data breach, facing penalties up to ₹250 crore [@dpdp-act-2023].
 
 ## Models that act: agents and compounding failure
 
@@ -152,7 +154,7 @@ In an autonomous agent workflow, each individual step relies on the successful e
 
 $$\text{System Success Rate} = p^n$$
 
-Where $p$ is the per-step accuracy and $n$ is the number of dependent execution steps. Even if every individual tool call and extraction step achieves an impressive 95% accuracy ($p = 0.95$), a twelve-step workflow succeeds only 54% of the time ($0.95^{12} \approx 0.540$). Nearly half of all multi-step transactions will fail, corrupt enterprise records, or trigger unhandled execution loops without human intervention.
+Where $p$ is the per-step accuracy and $n$ is the number of dependent execution steps. ==Even if every individual tool call and extraction step achieves an impressive 95% accuracy ($p = 0.95$), a twelve-step workflow succeeds only 54% of the time ($0.95^{12} \approx 0.540$).== Nearly half of all multi-step transactions will fail, corrupt enterprise records, or trigger unhandled execution loops without human intervention.
 
 | Step Accuracy ($p$) | 3 Steps ($p^3$) | 6 Steps ($p^6$) | 12 Steps ($p^{12}$) | 20 Steps ($p^{20}$) |
 | :--- | :--- | :--- | :--- | :--- |

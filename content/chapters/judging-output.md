@@ -33,7 +33,7 @@ A 2025 Microsoft Research and Carnegie Mellon study of 319 knowledge workers con
 
 **Analogy.** Driving with a navigation app. When the GPS map confidently instructs you to turn right into an alley, you turn without checking whether the street sign says "One Way: Do Not Enter." The system's perceived authority overrides your own eyes.
 
-**Misconception.** "Smart, well-trained consultants are immune to automation bias." Controlled studies show that domain experts fall victim to automation complacency just as often as juniors. Expertise only protects you when you follow a structured verification protocol.
+**Misconception.** "Smart, well-trained consultants are immune to automation bias." Controlled studies show that domain experts fall victim to automation complacency just as often as juniors. ==Expertise only protects you from automation complacency when you follow a structured verification protocol.==
 :::
 
 This trap becomes acute because AI capabilities do not advance evenly. In a landmark field experiment, researchers from Harvard Business School, Wharton, MIT, and the Boston Consulting Group examined 758 BCG management consultants working on realistic corporate strategy tasks [@hbs-jagged-frontier].
@@ -47,7 +47,7 @@ The researchers mapped what they termed the [[jagged-frontier|jagged frontier]]:
 4. Because the model outputs the same polished prose on both sides of the frontier, readers cannot discern competence from writing style.
 5. In the BCG field experiment, consultants using GPT-4 on tasks inside the frontier completed 12.2% more tasks and worked 25.1% faster [@hbs-jagged-frontier].
 6. On a business strategy task outside the frontier, consultants without AI solved it correctly 84.5% of the time, while consultants using GPT-4 scored 70.6%, and those given prompting guidance scored only 60.0% [@hbs-jagged-frontier].
-7. Without external verification, adopting AI on complex business tasks degrades correctness while increasing user confidence.
+7. ==Without external verification, adopting AI on complex business tasks degrades correctness while increasing user confidence.==
 :::
 
 ::: stat 19 percentage points
@@ -102,7 +102,7 @@ If the operations team does not understand base rates, one of two failures occur
 ::: myth
 **Myth.** A tool with 90% detection accuracy ensures that 9 out of 10 alerts represent genuine problems.
 
-**Reality.** When the underlying base rate is small (such as fraud at 2%), false alarms from the large healthy population vastly outnumber true detections. In our distributor case, 73% of alerts are false alarms. You cannot interpret an error rate without knowing the base rate and constructing a 2x2 matrix.
+**Reality.** ==When the underlying base rate is small, false alarms from the large healthy population vastly outnumber true detections: you cannot interpret an error rate without constructing a 2x2 matrix.== In our distributor case, 73% of alerts are false alarms.
 :::
 
 ## The four-step judgment protocol
@@ -129,7 +129,7 @@ Subject the output to deliberate adversarial inquiry:
 - "Which of these numbers is an estimate rather than a measured historical fact?"
 
 ### 4. Decide and sign off
-The model drafts; the human decides. An AI tool cannot sign an audit opinion, submit a regulatory filing, or present to a board. The professional who signs owns full legal and reputational accountability for the analysis.
+==The model drafts; the human decides: an AI tool cannot sign an audit opinion, and the professional who signs owns full legal and reputational accountability.==
 
 ## Building evals: how teams test output
 

@@ -35,17 +35,12 @@ When you manage a probabilistic product without an automated [[eval-harness]], y
 
 Mature AI product organizations structure their testing infrastructure like an industrial manufacturing inspection line. They do not run every test case through a multi-billion-parameter reasoning model. Instead, they organize testing into a four-tier evaluation pyramid, filtering candidate model completions through fast, inexpensive checks before escalating ambiguous outputs to complex graders.
 
-```
-                  ┌──────────────────────┐
-                  │ 4. Human Audit Panel │  Hours/Days · ₹35/review
-               ┌──┴──────────────────────┴──┐
-               │ 3. Calibrated LLM-as-Judge │  800ms · ₹0.25/call
-            ┌──┴────────────────────────────┴──┐
-            │ 2. Heuristics & Semantic Parsers │  50ms · ₹0.005/call
-         ┌──┴──────────────────────────────────┴──┐
-         │ 1. Deterministic Unit Tests & Regex    │  <5ms · ₹0.0001/call
-         └────────────────────────────────────────┘
-```
+| Evaluation Tier | Methodology | Execution Latency | Unit Cost |
+|---|---|---:|---:|
+| **Tier 1** | Deterministic Unit Tests & Regex | < 5 ms | ₹0.0001 / call |
+| **Tier 2** | Heuristics & Semantic Parsers | 50 ms | ₹0.005 / call |
+| **Tier 3** | Calibrated LLM-as-a-Judge | 800 ms | ₹0.25 / call |
+| **Tier 4** | Human Audit Panel | Hours / Days | ₹35.00 / review |
 
 The base tier executes deterministic unit tests and regular expression validators. These assertions inspect raw API payloads in under five milliseconds without initiating model inference:
 - **Schema Validation:** Does the completion parse as valid JSON conforming strictly to your target Pydantic schema?

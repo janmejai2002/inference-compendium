@@ -1,7 +1,7 @@
 ---
 id: creative-at-scale
 title: "Creative at scale: production, localization, and agency economics"
-deck: "Virtual studios, localized video across 22 Indic languages, the collapse of digital asset marginal cost, and the agency retainer model."
+deck: "Virtual studios, localized video across 11 Indian languages, the collapse of digital asset marginal cost, and the agency retainer model."
 level: Zero to one
 tracks: [marketing]
 hook: "Why can an FMCG giant now produce 10,000 localized video ad variants for the cost of a single Mumbai studio shoot, yet 90% of those synthetic assets fail to generate a single incremental conversion? How does generative technology alter the economics of brand creative?"
@@ -49,13 +49,13 @@ $$\lim_{n \to \infty} \frac{\partial C_{\text{gen}}}{\partial n} = c_{\text{asse
 ==When asset generation cost falls to the price of electricity and inference tokens, production scarcity gives way to distribution scrutiny: the real expense is the media spend burned by ad auctions testing low-converting synthetic variants.==
 
 ::: stat ₹4 vs ₹50,000
-The variable cost of generating a localized 15-second video asset via diffusion and Indic speech models versus traditional Mumbai studio production. Unilever deployed 500+ enterprise AI applications to cut production cycle times by half, while programmatic media bidding absorbed over 85% of total digital spend.
+The variable cost of generating a localized 15-second video asset via diffusion and Indic speech models versus traditional Mumbai studio production. While Unilever and Accenture scaled 40+ industrial digital twins across manufacturing plants alongside 500+ enterprise AI applications [@unilever-digital-twins], marketing teams deployed separate generative pipelines (such as Brand DNAi) to accelerate localized asset delivery by up to 50%, while programmatic media bidding absorbed over 85% of total digital spend.
 <span class="src">Sources: [@unilever-digital-twins]; [@sarvam-bulbul-v4-flash]</span>
 :::
 
 ## The virtual studio and regional voice synthesis
 
-Producing thousands of personalized assets requires an integrated pipeline rather than standalone prompts in a web interface. Consumer goods leaders like Unilever assemble virtual studio pipelines that bridge 3D computer graphics and generative diffusion [@unilever-digital-twins].
+Producing thousands of personalized assets requires an integrated pipeline rather than standalone prompts in a web interface. Just as consumer goods enterprises built industrial digital twins for manufacturing equipment [@unilever-digital-twins], marketing organizations assemble virtual product studios that bridge 3D computer graphics and generative diffusion to render photorealistic brand packaging.
 
 ::: concept Virtual digital twin
 **Plain words.** A precise 3D digital model of a physical product, its packaging, and materials, rendered in software so it can be placed into any synthetic background with correct lighting, shadows, and reflections.
@@ -67,7 +67,7 @@ Producing thousands of personalized assets requires an integrated pipeline rathe
 
 In this architecture, the product itself is never left to a generative model's imagination. Diffusion models frequently distort brand logos, warp typography, or hallucinate illegible ingredient lists. Instead, the physical product packaging remains a mathematically verified 3D mesh. The background scene, ambient lighting, human hands, and contextual settings are generated via diffusion models conditioned on brand visual tokens.
 
-{{figure creative-scale-pipeline | The end-to-end generative creative pipeline, from master 3D asset to algorithmic ad delivery. While asset creation costs collapse, performance signals from ad wearout must loop back to trigger automated creative refreshes before auction penalties take effect. | Sources: Unilever digital twins case study [@unilever-digital-twins]; Sarvam AI Indic voice benchmarks [@sarvam-bulbul-v4-flash]}}
+{{figure creative-scale-pipeline | The end-to-end generative creative pipeline, from master 3D asset to algorithmic ad delivery. While asset creation costs collapse, performance signals from ad wearout must loop back to trigger automated creative refreshes before auction penalties take effect. | Sources: Enterprise digital twins case study [@unilever-digital-twins]; Sarvam AI Indic voice benchmarks [@sarvam-bulbul-v4-flash]}}
 
 Once visual assets are rendered, localization requires regional speech. In a multilingual market like India, where consumers converse across 22 officially recognized languages and hundreds of regional dialects, generic English or stilted standard Hindi voice-overs fail to build emotional resonance.
 
@@ -79,7 +79,7 @@ Once visual assets are rendered, localization requires regional speech. In a mul
 **Misconception.** "Translating English text into Hindi script and running it through a standard text-to-speech engine produces authentic localization." Standard text-to-speech systems lack Indian phonological tokens and natural prosody, creating robotic audio that Indian consumers immediately reject as synthetic spam.
 :::
 
-Foundation models engineered specifically for Indian linguistic contexts, such as Sarvam AI's Bulbul V4 Flash, deliver sub-second text-to-speech inference with natural prosodic contours across Hindi, Tamil, Telugu, Bengali, Kannada, Marathi, and Gujarati [@sarvam-bulbul-v4-flash]. ==Synthetic localization succeeds only when phonetics, cadence, and cultural semiotics match regional lived experience rather than machine-translated scripts read by flat synthetic voices.==
+Foundation models engineered specifically for Indian linguistic contexts, such as Sarvam AI's Bulbul V4 Flash, deliver conversational text-to-speech across 11 Indian languages with under 250ms time-to-first-audio (at ₹20 per 10,000 characters) and natural prosodic contours across Hindi, Tamil, Telugu, Bengali, Kannada, Marathi, and Gujarati [@sarvam-bulbul-v4-flash]. ==Synthetic localization succeeds only when phonetics, cadence, and cultural semiotics match regional lived experience rather than machine-translated scripts read by flat synthetic voices.==
 
 ::: concept Dynamic Creative Optimization (DCO)
 **Plain words.** An automated advertising system that combines different headlines, background images, product shots, voices, and calls-to-action in real time to match the profile of the person seeing the ad.
@@ -114,7 +114,7 @@ A drop in CTR from 2.5% to 1.0% causes effective cost per click to jump by 250% 
 | **Cycle time per asset** | 3 to 6 weeks | 15 to 45 minutes | Enables weekly creative refresh to combat fatigue |
 | **Cost per 15s video** | ₹50,000 to ₹1,50,000 | ₹10 to ₹50 | Marginal production expense ceases to constrain volume |
 | **Asset hit rate (ROAS > 2.5x)** | 8% to 15% | 1.5% to 3.5% | Lower average hit rate requires systematic pruning |
-| **Linguistic variations** | 2 to 4 major languages | 10 to 22 regional dialects | Captures Tier 2/3 consumer clusters at low cost |
+| **Linguistic variations (e.g. Sarvam Bulbul V4 Flash)** | 2 to 4 major languages | 11 Indian languages (under 250ms time-to-first-audio) | Native prosody across 224 voice styles [@sarvam-bulbul-v4-flash] |
 | **Primary risk** | High capital lock-in, slow iteration | Media spend leakage in ad exploration | Wasted budget testing bad assets in live auctions |
 | **Compliance check** | Manual pre-broadcast review | Automated brand safety guardrails | Mandatory [[asci-guidelines\|ASCI synthetic disclosure]] tags |
 
@@ -153,7 +153,7 @@ An Indian D2C Ayurvedic personal care brand with ₹120 crore annual revenue pla
 #### The decision
 The brand declined the traditional shoot and built a hybrid generative localization workflow:
 - The team contracted the celebrity for a single three-hour studio session, capturing volumetric 3D scans of her facial expressions, voice samples across phoneme sets, and licensed synthetic digital likeness rights for ninety days across digital channels.
-- An in-house creative technologist used Blender and OpenUSD to create a photorealistic 3D digital twin of the Ayurvedic oil bottle, ensuring exact packaging reflections and label typography.
+- An in-house creative technologist used Blender and OpenUSD to create a photorealistic 3D digital twin of the Ayurvedic oil bottle. The digital twin replicated the physical bottle's packaging reflections and label typography with exact precision.
 - Using a fine-tuned video diffusion pipeline combined with Sarvam AI's Bulbul voice engine, the team generated 600 hyper-localized 15-second video ads. Each variant paired the celebrity's synthetic likeness and voice with region-specific festive rituals (such as Dhanteras preparations in Varanasi, Kali Puja traditions in Kolkata, and Deepavali morning rituals in Madurai).
 - The total production and tooling cost, including celebrity licensing and GPU compute, came to ₹28 lakh, freeing up ₹1.52 crore for digital media deployment.
 
@@ -223,7 +223,7 @@ Review the outputs. Notice how readily the model supplies general dialect words,
 ::: recap The night-before page
 1. Marginal creative asset production cost collapses toward zero ($C_{\text{asset}} \to 0$), shifting the competitive bottleneck from physical production capacity to editorial selection judgment and distribution efficiency.
 2. Enterprise pipelines separate product geometry from environmental generation: master 3D digital twins (OpenUSD) preserve brand packaging integrity, while diffusion models generate dynamic backgrounds and lighting.
-3. Authentic localization requires native Indic phonology (such as Sarvam Bulbul V4 Flash) across regional dialects; literal translation read by standard text-to-speech engines triggers instant consumer rejection.
+3. Authentic localization requires native Indic phonology (such as Sarvam Bulbul V4 Flash across 11 Indian languages with under 250ms latency); literal translation read by standard text-to-speech engines triggers instant consumer rejection.
 4. Unscreened creative volume burns capital: automated ad networks penalize low-relevance synthetic ads through decaying CTRs, directly inflating effective Cost Per Click in the auction.
 5. The agency retainer model must evolve from billing junior production hours to capturing value from high-order brand strategy, cultural insight, and outcome-linked performance incentives.
 :::

@@ -174,44 +174,13 @@ Deploying graph neural networks into live payment switches presents a severe eng
 
 Production financial crime stacks resolve this tension by structuring a five-stage cascading funnel, balancing computational throughput with mathematical recall:
 
-```
-[40,000,000 Raw Ingress Transactions/Day] (Sub-50ms Payment SLA)
-                      │
-                      ▼
-┌────────────────────────────────────────────────────────┐
-│ Stage 1: Ultra-Fast Heuristic & Blacklist Filter       │
-│ - Global VPA blacklist, geofence, device fingerprint   │
-│ - Execution latency: < 5ms · 99.5% Pass Through        │
-└─────────────────────┬──────────────────────────────────┘
-                      │ (200,000 Suspicious Events/Day)
-                      ▼
-┌────────────────────────────────────────────────────────┐
-│ Stage 2: Streaming In-Memory Graph Anomaly Engine      │
-│ - 2-hop topological ring detection, shared hardware    │
-│ - Execution latency: 15–35ms (MuleHunter.AI patterns)  │
-└─────────────────────┬──────────────────────────────────┘
-                      │ (20,000 Flagged Accounts/Day)
-                      ▼
-┌────────────────────────────────────────────────────────┐
-│ Stage 3: Calibrated Bayesian Cost-Matrix Filter        │
-│ - Asymmetric loss thresholding: clears low-risk noise  │
-│ - Isolates top 1% high-confidence systemic cases       │
-└─────────────────────┬──────────────────────────────────┘
-                      │ (200 High-Priority AML Cases/Day)
-                      ▼
-┌────────────────────────────────────────────────────────┐
-│ Stage 4: Generative AI STR Dossier Synthesis Engine    │
-│ - Layout ingestion: bank ledgers, MCA filings, e-KYC   │
-│ - Emits structured FIU-IND narrative dossier & diagram │
-└─────────────────────┬──────────────────────────────────┘
-                      │
-                      ▼
-┌────────────────────────────────────────────────────────┐
-│ Stage 5: Mandatory PMLA Statutory Sign-Off             │
-│ - Bank Principal Officer reviews audited evidence      │
-│ - Human approval required for FIU-IND submission       │
-└────────────────────────────────────────────────────────┘
-```
+| Pipeline Stage | Processing Engine | Latency SLA | Daily Volume Ingestion | Statutory Role |
+|---|---|---:|---:|---|
+| **Stage 1** | Ultra-Fast Heuristic & Blacklist Filter | < 5 ms | 40,000,000 tx/day | Fast edge filter (99.5% pass) |
+| **Stage 2** | Streaming Graph Anomaly Engine | 15–35 ms | 200,000 events/day | 2-hop topological cycle & mule ring detection |
+| **Stage 3** | Calibrated Bayesian Cost-Matrix Filter | 50–100 ms | 20,000 accounts/day | Asymmetric loss thresholding clears noise |
+| **Stage 4** | Generative AI STR Dossier Engine | Async Batch | 200 cases/day | Automated FIU-IND narrative dossier synthesis |
+| **Stage 5** | Mandatory Statutory PMLA Sign-Off | Human Gate | Statutory | Bank Principal Officer verification & submission |
 
 The final two stages of this architecture bridge the gap between algorithmic detection and legal enforcement. Under Section 12 of India's Prevention of Money Laundering Act (PMLA), 2002, and Financial Intelligence Unit-India (FIU-IND) operational guidelines, reporting entities must file a [[suspicious-transaction-report|Suspicious Transaction Report (STR)]] whenever an account exhibits grounds for suspicion.
 
@@ -221,7 +190,7 @@ Historically, drafting a single high-quality STR dossier consumed between four a
 
 Modern AML stacks deploy fine-tuned Large Language Models as narrative synthesis engines. Operating in an offline batch tier immediately behind the calibrated graph detector, the LLM ingests the extracted transaction subgraph, account holder metadata, and historical KYC filings. The system compiles a structured compliance dossier:
 1. **Executive Chronology:** A timestamped narrative detailing the ingress, layering, and extraction of funds.
-2. **Entity Relationship Map:** A tabular breakdown of primary and secondary counter-parties, highlighting shared device fingerprints and rapid balance drainage.
+2. **Entity Relationship Map:** A tabular breakdown of primary and secondary counter-parties that isolates shared device fingerprints and rapid balance drainage.
 3. **Typology Mapping:** Explicit classification against standardized FIU-IND suspicion codes (e.g., *Suspicion of Third-Party Account Operation*, *Sudden Spike in Dormant Account Velocity*).
 
 However, introducing generative models into statutory compliance introduces a strict legal boundary. ==Under Indian anti-money laundering statutes, automated machine learning models cannot file suspicious transaction reports unattended; the Principal Officer carries statutory personal liability for every validated filing.==
@@ -252,7 +221,7 @@ To govern this landscape, the RBI FREE-AI Committee formulated the **7 Sutras**�
 | **Sutra 3** | **Transparency & Explainability** | Black-box opacity is prohibited for high-impact decisions. A customer denied a loan or subjected to an account freeze is legally entitled to adverse action reason codes derived from interpretable features. |
 | **Sutra 4** | **Resilience & Security** | Mandates rigorous stress-testing against adversarial manipulation, data poisoning, and model inversion attacks. Enforces automated circuit breakers that kill failing models in real time. |
 | **Sutra 5** | **Consumer Protection & Contestability** | Financial institutions must provide a clear, friction-free mechanism for consumers to appeal algorithmic decisions to a human compliance officer, backed by a statutory turnaround time. |
-| **Sutra 6** | **Privacy & Data Governance** | Enforces purpose limitation, data minimization, and strict storage localization on Indian soil, ensuring full compliance with the Digital Personal Data Protection Act. |
+| **Sutra 6** | **Privacy & Data Governance** | Enforces purpose limitation, data minimization, and strict storage localization on Indian soil. This guarantees full compliance with the Digital Personal Data Protection Act. |
 | **Sutra 7** | **Ethical Enablement** | Directs AI development toward inclusive economic growth, barring dark patterns, predatory algorithmic pricing, and deceptive automated user nudges. |
 
 ==Under the RBI FREE-AI framework, financial institutions deploying artificial intelligence must maintain full algorithmic contestability, provable bias mitigation, and an unbroken audit trail for every automated decision affecting customer accounts.==
@@ -313,7 +282,7 @@ To launder the stolen capital before the Monday banking clearing window, the syn
 #### The decision
 The payment gateway's risk engineering team switches execution to a newly deployed streaming Graph Neural Network (GNN) anomaly pipeline operating on an in-memory graph database:
 1. **Topological Feature Extraction:** In sub-30ms execution, the graph engine constructs a 2-hop transaction graph around all accounts receiving funds from the compromised corporate node.
-2. **Community Density & Velocity Scoring:** The GNN calculates an unprecedented spike in graph community density ($> 0.82$) paired with an extreme liquidity velocity: $R_{\text{velocity}} = 0.994$ over $\Delta t < 90\text{ seconds}$ across 3,680 interconnected accounts. The model identifies that over 80% of these accounts share common device fingerprints and IP subnets in an offshore cluster.
+2. **Community Density & Velocity Scoring:** The GNN calculates an anomalous spike in graph community density ($> 0.82$) paired with an extreme liquidity velocity: $R_{\text{velocity}} = 0.994$ over $\Delta t < 90\text{ seconds}$ across 3,680 interconnected accounts. The model identifies that over 80% of these accounts share common device fingerprints and IP subnets in an offshore cluster.
 3. **Calibrated Action Funnel:** The bank does not execute a blanket freeze on all accounts. Instead, it triggers a dynamic settlement hold on the 3,680 high-confidence destination nodes while routing transactions to step-up biometric re-authentication.
 
 #### The verdict

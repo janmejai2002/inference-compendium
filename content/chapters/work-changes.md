@@ -27,7 +27,7 @@ Evaluating workforce strategy requires balancing aggregate labor stability again
 4. Senior professionals possess the contextual judgment required to evaluate model outputs, allowing them to use AI tools as personal leverage to increase their individual output.
 5. Junior professionals historically learned contextual judgment by performing routine drafting and repetitive analysis under senior apprenticeship.
 6. If automated tools perform routine drafting, firms reduce entry-level hiring in exposed roles while retaining experienced staff, creating an early-career deficit without altering overall corporate headcount.
-7. Artificial intelligence alters the entry-level apprenticeship ladder and reshapes daily task composition long before it shows up in aggregate unemployment statistics.
+7. ==Artificial intelligence alters the entry-level apprenticeship ladder and reshapes daily task composition long before it shows up in aggregate unemployment statistics.==
 :::
 
 ## Forecasts versus reality: the aggregate picture
@@ -78,7 +78,7 @@ The answer lies in how professional skills develop. Historically, law firms, con
 
 In doing that repetitive work, junior professionals internalized domain patterns, learned company quality standards, and prepared to step into mid-level management.
 
-Generative models perform those exact repetitive tasks at near-zero marginal cost. When a software engineering lead uses an automated coding agent to generate unit test suites and database schemas, the firm needs fewer entry-level coders to support that lead. Senior workers become more productive, but the traditional on-ramp for novice talent narrows.
+Generative models perform those exact repetitive tasks at near-zero marginal cost. When a software engineering lead uses an automated coding agent to generate unit test suites and database schemas, the firm needs fewer entry-level coders to support that lead. ==Senior workers become more productive, but the traditional on-ramp for novice talent narrows.==
 
 ## How the day-to-day job changes
 
@@ -98,7 +98,7 @@ In June 2026, Boston Consulting Group surveyed 11,749 workers across 14 global m
 **Misconception.** "If an occupation has 70% AI exposure, 70% of those workers will lose their jobs." High exposure means the job's daily activities will shift from manual execution to supervisory review, prompt structuring, and client relationship management.
 :::
 
-Knowledge workers are transitioning from primary producers to cognitive editors. Instead of drafting a twenty-page research synthesis from blank paper, an associate directs a retrieval model, audits the citations, challenges the underlying assumptions, and refines the strategic narrative for the client.
+==Knowledge workers are transitioning from primary producers to cognitive editors.== Instead of drafting a twenty-page research synthesis from blank paper, an associate directs a retrieval model, audits the citations, challenges the underlying assumptions, and refines the strategic narrative for the client.
 
 ## Where India stands: usage patterns and campus realities
 
@@ -118,7 +118,7 @@ In August 2026, Deloitte India released its *Campus Workforce Trends 2026* repor
 - **The Skill Premium:** Candidates demonstrating verifiable AI proficiency and data literacy commanded a [[skill-premium|skill premium]] of 20% to 25% over peers with standard qualifications, while advanced analytical problem-solving carried a 10% to 15% compensation lift [@deloitte-india-campus-2026].
 - **The MBA Advantage:** The compensation premium for MBA graduates over traditional undergraduate engineers reached 45% to 50%, with median MBA compensation at Top 10 Indian management institutes reaching ₹27.4 lakh annually (compared to ₹8.4 lakh at Tier 3 institutions) [@deloitte-india-campus-2026].
 
-Campus recruitment continues, with employers filtering aggressively for candidates who possess the cognitive judgment to direct and audit automated systems over candidates who focus solely on manual syntax.
+==Campus recruitment continues, with employers filtering aggressively for candidates who possess the cognitive judgment to direct and audit automated systems over candidates who focus solely on manual syntax.==
 
 ::: case Illustrative · The Bengaluru Technology Services Campus Dilemma
 #### The situation

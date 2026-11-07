@@ -1,0 +1,63 @@
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Enterprise AI Value Stack: A five-tier progression from Raw Silicon and Compute at the foundation, through Foundation Models, Retrieval (RAG), and Autonomous Agents, up to Enterprise P&amp;L Realization at the top. On the right, the McKinsey and BCG adoption-versus-EBIT capture metrics highlight the 6% high-performer threshold.">
+  <text class="t-display" x="20" y="26" font-size="16">The Five-Layer Enterprise AI Value Stack</text>
+  <text class="t-display" x="485" y="26" font-size="15">The 6% EBIT Chasm</text>
+
+  <!-- Left: Five-Tier Stack -->
+  <!-- Layer 5: P&L Realization -->
+  <rect class="wash acc-s" x="20" y="42" width="440" height="46" rx="4" stroke-width="2"/>
+  <text class="t-display" x="35" y="60" font-size="11.5">Layer 5: Enterprise P&amp;L Realization</text>
+  <text x="35" y="76" font-size="9">EBIT margin expansion, workflow redesign, outcome billing, auditable unit economics</text>
+
+  <!-- Layer 4: Autonomous Agents -->
+  <rect class="paper acc-s" x="20" y="94" width="440" height="46" rx="4" stroke-width="1.5"/>
+  <text x="35" y="112" font-size="11" font-weight="bold">Layer 4: Autonomous Agents &amp; Orchestration</text>
+  <text x="35" y="128" font-size="9">Tool use, API function calling, planning loops, human-in-the-loop review gates</text>
+
+  <!-- Layer 3: Retrieval / RAG -->
+  <rect class="paper acc-s" x="20" y="146" width="440" height="46" rx="4" stroke-width="1.5"/>
+  <text x="35" y="164" font-size="11" font-weight="bold">Layer 3: Retrieval-Augmented Generation (RAG)</text>
+  <text x="35" y="180" font-size="9">Enterprise vector stores, cosine similarity, document chunks, hallucination firewall</text>
+
+  <!-- Layer 2: Foundation Models -->
+  <rect class="paper acc-s" x="20" y="198" width="440" height="46" rx="4" stroke-width="1.5"/>
+  <text x="35" y="216" font-size="11" font-weight="bold">Layer 2: Foundation Models (Probabilistic Autocomplete)</text>
+  <text x="35" y="232" font-size="9">Lossy parameter compression, next-token prediction, zero fact provenance</text>
+
+  <!-- Layer 1: Silicon & Compute -->
+  <rect class="paper acc-s" x="20" y="250" width="440" height="46" rx="4" stroke-width="1.5"/>
+  <text x="35" y="268" font-size="11" font-weight="bold">Layer 1: Raw Silicon &amp; Compute Infrastructure</text>
+  <text x="35" y="284" font-size="9">Nvidia GPUs, TSMC lithography, datacenter megawatts, token unit economics</text>
+
+  <!-- Upward Value Arrow Annotations -->
+  <text x="20" y="310" font-size="9.5" fill="#555">&#8593; Value accumulates at the top: tokens are commodities; redesigned operating workflows capture profits.</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="472" x2="472" y1="20" y2="305" stroke-width="1"/>
+
+  <!-- Right: The 6% EBIT Chasm -->
+  <rect class="paper rule-s" x="485" y="42" width="215" height="254" rx="4" stroke-width="1"/>
+  <text x="498" y="64" font-size="11" font-weight="bold">McKinsey / BCG 2026 Audit</text>
+  <line class="rule-s" x1="485" x2="700" y1="72" y2="72" stroke-width="0.5"/>
+
+  <text x="498" y="92" font-size="11" font-weight="bold">80% Individual Use</text>
+  <text x="498" y="106" font-size="8.5" fill="#555">Employees draft text &amp; slides</text>
+  <text x="498" y="118" font-size="8.5" fill="#555">Zero operating margin shift</text>
+
+  <line class="rule-s" x1="498" x2="685" y1="128" y2="128" stroke-width="0.5"/>
+
+  <text x="498" y="148" font-size="11" font-weight="bold">37% Organization EBIT</text>
+  <text x="498" y="162" font-size="8.5" fill="#555">Measurable financial impact</text>
+  <text x="498" y="174" font-size="8.5" fill="#555">Isolated point solutions</text>
+
+  <line class="rule-s" x1="498" x2="685" y1="184" y2="184" stroke-width="0.5"/>
+
+  <text class="t-display" x="498" y="204" font-size="11.5">6% High Performers</text>
+  <text x="498" y="218" font-size="8.5">Capture &ge;5% enterprise EBIT</text>
+  <text x="498" y="230" font-size="8.5">Redesign entire workflow pods</text>
+
+  <line class="rule-s" x1="498" x2="685" y1="240" y2="240" stroke-width="0.5"/>
+
+  <text x="498" y="258" font-size="8.5" font-weight="bold">The Placement Rule:</text>
+  <text x="498" y="272" font-size="8">Judge model outputs, verify</text>
+  <text x="498" y="284" font-size="8">math, and govern the stack.</text>
+</svg>

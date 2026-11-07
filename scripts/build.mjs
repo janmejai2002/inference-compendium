@@ -44,6 +44,13 @@ export function shell({ title, css, body, rel = '', bodyClass = '', extraHead = 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title>
+<script>
+try {
+  var t = localStorage.getItem('theme');
+  if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', t);
+} catch (e) {}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="${FONTS}">
 <link rel="stylesheet" href="${rel}css/katex.min.css">
@@ -203,7 +210,14 @@ function webChapter(c, ctx, i, written) {
   const body = `<header class="topbar" style="--track: var(--t-${c.track})">
   <a class="wordmark" href="../index.html">${esc(ctx.book.title)}<span>${esc(ctx.book.title_accent || '')}</span></a>
   <span class="where">${c.n} · ${esc(c.title)}</span>
-  <button class="mode" id="skim" aria-pressed="false" title="Show only the highlighted skim layer">Skim</button>
+  <div class="ch-select-wrap">
+    <select class="ch-select" aria-label="Jump to chapter" onchange="if(this.value) location.href=this.value">
+      <option value="">Jump to chapter...</option>
+      ${written.map((w) => `<option value="${w.id}.html"${w.id === c.id ? ' selected' : ''}>${w.n} · ${esc(w.title)}</option>`).join('')}
+    </select>
+  </div>
+  <button class="mode" id="skim" aria-pressed="false" title="Show only the highlighted skim layer (Key: S)">Skim</button>
+  <button class="mode" id="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light mode (Key: T)">Theme</button>
   <nav><a href="../index.html#contents">Contents</a><a href="../design.html">Design</a><a href="../print.html">Print</a></nav>
   <span class="progress" id="progress"></span>
 </header>
@@ -217,11 +231,31 @@ ${r.html}
 </main>
 <script>
 (() => {
-  const b = document.getElementById('skim'), p = document.getElementById('progress');
-  const set = (on) => { document.body.classList.toggle('skim', on); b.setAttribute('aria-pressed', on); try { localStorage.setItem('skim', on ? '1' : ''); } catch (e) {} };
-  b.addEventListener('click', () => set(!document.body.classList.contains('skim')));
-  try { if (localStorage.getItem('skim')) set(true); } catch (e) {}
-  addEventListener('scroll', () => { const h = document.documentElement; p.style.width = (100 * h.scrollTop / (h.scrollHeight - h.clientHeight)) + '%'; }, { passive: true });
+  const b = document.getElementById('skim'), p = document.getElementById('progress'), tb = document.getElementById('theme-toggle');
+  const setSkim = (on) => { document.body.classList.toggle('skim', on); if (b) b.setAttribute('aria-pressed', on); try { localStorage.setItem('skim', on ? '1' : ''); } catch (e) {} };
+  if (b) {
+    b.addEventListener('click', () => setSkim(!document.body.classList.contains('skim')));
+    try { if (localStorage.getItem('skim')) setSkim(true); } catch (e) {}
+  }
+  const setTheme = (t) => {
+    document.documentElement.setAttribute('data-theme', t);
+    try { localStorage.setItem('theme', t); } catch (e) {}
+    if (tb) tb.textContent = t === 'dark' ? 'Light' : 'Dark';
+  };
+  const curTheme = document.documentElement.getAttribute('data-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  if (tb) {
+    tb.textContent = curTheme === 'dark' ? 'Light' : 'Dark';
+    tb.addEventListener('click', () => {
+      const cur = document.documentElement.getAttribute('data-theme') || 'light';
+      setTheme(cur === 'dark' ? 'light' : 'dark');
+    });
+  }
+  addEventListener('scroll', () => { const h = document.documentElement; if (p) p.style.width = (100 * h.scrollTop / (h.scrollHeight - h.clientHeight)) + '%'; }, { passive: true });
+  addEventListener('keydown', (e) => {
+    if (e.target.matches('input, textarea, select')) return;
+    if (e.key === 's' || e.key === 'S') { if (b) b.click(); }
+    else if (e.key === 't' || e.key === 'T') { if (tb) tb.click(); }
+  });
 })();
 </script>`;
   return {
@@ -245,8 +279,10 @@ ${r.html}
 
 function home(ctx) {
   const { book } = ctx;
+  const writtenCount = ctx.chapters.filter((c) => c.file).length;
   const body = `<header class="topbar"><a class="wordmark" href="index.html">${esc(book.title)}<span>${esc(book.title_accent || '')}</span></a><span class="where">${esc(book.edition)}</span>
-<nav><a href="#contents">Chapters</a><a href="design.html">Design book</a><a href="print.html">Print preview</a><a class="btn primary" style="padding:0.4em 0.8em;font-size:0.75rem;" href="${esc(book.title)}.pdf" download>PDF</a></nav></header>
+<button class="mode" id="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light mode (Key: T)">Theme</button>
+<nav><a href="#contents">Chapters</a><a href="#how-to-read">Guide</a><a href="design.html">Design book</a><a href="print.html">Print preview</a><a class="btn primary" style="padding:0.4em 0.8em;font-size:0.75rem;" href="${esc(book.title)}.pdf" download>PDF (498p)</a></nav></header>
 <section class="home-hero">
   <div>
     <div class="kicker">${esc(book.edition)}</div>
@@ -255,10 +291,52 @@ function home(ctx) {
     <div class="byline" style="margin: 1.2rem 0; font-family: var(--f-mono); font-size: 0.85rem; color: var(--ink-2);">
       Curated & compiled by ${formatAuthors(book, { format: 'html-links' })}
     </div>
-    <div class="actions"><a class="btn primary" href="#contents">Start reading</a><a class="btn" href="${esc(book.title)}.pdf" download>Download PDF</a><a class="btn" href="design.html">See the design book</a></div>
+    <div class="hero-stats">
+      <span>${writtenCount} Chapters</span>
+      <span>4 Placement Tracks</span>
+      <span>160 Sources</span>
+      <span>498 Pages</span>
+      <span>Free & Open Source</span>
+    </div>
+    <div class="actions" style="margin-top: 1.4rem;"><a class="btn primary" href="#contents">Start reading</a><a class="btn" href="${esc(book.title)}.pdf" download>Download PDF</a><a class="btn" href="#how-to-read">Reading guide</a><a class="btn" href="design.html">Design book</a></div>
   </div>
   <div class="matrix">${attentionMatrix(book.cover_sentence, { cell: 40, fg: 'var(--accent)', label: 'var(--ink-2)', mask: 'var(--rule)', font: 12 })}</div>
 </section>
+<section class="home-guide" id="how-to-read">
+  <div class="kicker">Pedagogy &amp; Strategy</div>
+  <h2 style="font-family: var(--f-display); font-weight: 850; font-size: var(--s-h2); margin: 0.4rem 0 0.8rem; letter-spacing: -0.01em;">Three ways to read this book</h2>
+  <p style="color: var(--ink-2); max-width: 44rem; margin: 0 0 1.2rem; font-size: var(--s-body); line-height: 1.5;">This compendium is dense on purpose. Pick the speed that matches how much time is left before your interview room.</p>
+  <div class="guide-card-grid">
+    <div class="guide-card">
+      <div class="kicker">The night before</div>
+      <h3>Skim layer (10 min/ch)</h3>
+      <p>Read only the highlighted lines and the yellow <b>night-before recap</b> at the end of each chapter. Turn on the <b>Skim</b> toggle at the top of any chapter.</p>
+    </div>
+    <div class="guide-card">
+      <div class="kicker">The week before</div>
+      <h3>Study progression</h3>
+      <p>Read the full text in order. Ideas build from first principles—parameters to tokens to RAG to agent security. Marginal notes provide immediate definitions.</p>
+    </div>
+    <div class="guide-card">
+      <div class="kicker">Every day</div>
+      <h3>Practice &amp; retrieval</h3>
+      <p>Answer <b>Check yourself</b> without looking at answers, then run the <b>Try it yourself</b> prompts in real tools. Active recall beats passive rereading.</p>
+    </div>
+  </div>
+</section>
+<div class="toc-toolbar">
+  <div class="track-filters" role="tablist" aria-label="Filter chapters by track">
+    <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">All Tracks <span class="badge">${writtenCount}</span></button>
+    <button class="filter-tab" data-filter="foundations" role="tab" aria-selected="false" style="--tab-c: var(--t-foundations)">Foundations <span class="badge">8</span></button>
+    <button class="filter-tab" data-filter="consulting" role="tab" aria-selected="false" style="--tab-c: var(--t-consulting)">Consulting <span class="badge">13</span></button>
+    <button class="filter-tab" data-filter="marketing" role="tab" aria-selected="false" style="--tab-c: var(--t-marketing)">Marketing <span class="badge">4</span></button>
+    <button class="filter-tab" data-filter="product" role="tab" aria-selected="false" style="--tab-c: var(--t-product)">Product <span class="badge">4</span></button>
+    <button class="filter-tab" data-filter="finance" role="tab" aria-selected="false" style="--tab-c: var(--t-finance)">Finance <span class="badge">4</span></button>
+  </div>
+  <div class="toc-search-box">
+    <input type="search" id="toc-search" placeholder="Search chapters, cases, topics..." autocomplete="off">
+  </div>
+</div>
 <main class="home-toc" id="contents">${contents(ctx)}</main>
 <footer class="home-foot" style="margin: 4rem auto 2rem; max-width: 1200px; padding: 2.5rem 1.5rem 0; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; flex-wrap:wrap; gap:1rem; font-family: var(--f-mono); font-size: 0.8rem; color: var(--ink-3);">
   <div>
@@ -267,7 +345,68 @@ function home(ctx) {
   <div>
     Curated & compiled by ${formatAuthors(book, { format: 'html-links' })}
   </div>
-</footer>`;
+</footer>
+<script>
+(() => {
+  const tb = document.getElementById('theme-toggle');
+  const setTheme = (t) => {
+    document.documentElement.setAttribute('data-theme', t);
+    try { localStorage.setItem('theme', t); } catch (e) {}
+    if (tb) tb.textContent = t === 'dark' ? 'Light' : 'Dark';
+  };
+  const curTheme = document.documentElement.getAttribute('data-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  if (tb) {
+    tb.textContent = curTheme === 'dark' ? 'Light' : 'Dark';
+    tb.addEventListener('click', () => {
+      const cur = document.documentElement.getAttribute('data-theme') || 'light';
+      setTheme(cur === 'dark' ? 'light' : 'dark');
+    });
+  }
+
+  // Interactive track filter & search
+  const filterTabs = document.querySelectorAll('.filter-tab');
+  const searchInput = document.getElementById('toc-search');
+  const rows = document.querySelectorAll('.toc-row');
+  const parts = document.querySelectorAll('.toc-part');
+
+  let activeTrack = 'all';
+  let searchQuery = '';
+
+  const applyFilters = () => {
+    rows.forEach((row) => {
+      const rowTrack = row.dataset.track || '';
+      const rowTracks = (row.dataset.tracks || '').split(' ');
+      const matchTrack = activeTrack === 'all' || rowTrack === activeTrack || rowTracks.includes(activeTrack);
+      const text = row.textContent.toLowerCase();
+      const matchSearch = !searchQuery || text.includes(searchQuery);
+      const visible = matchTrack && matchSearch;
+      row.classList.toggle('hidden', !visible);
+    });
+
+    parts.forEach((part) => {
+      const visibleRows = part.querySelectorAll('.toc-row:not(.hidden)');
+      part.classList.toggle('hidden', visibleRows.length === 0);
+    });
+  };
+
+  filterTabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      filterTabs.forEach((t) => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      activeTrack = tab.dataset.filter;
+      applyFilters();
+    });
+  });
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim().toLowerCase();
+      applyFilters();
+    });
+  }
+})();
+</script>`;
   return shell({
     title: `${book.title} — ${book.subtitle}`,
     css: ['tokens', 'components', 'web'],
@@ -339,10 +478,16 @@ export async function build() {
   const pb = printBook(ctx);
   fs.writeFileSync(path.join(DIST, 'print.html'), pb.html);
   await buildSpecimen(ctx, { DIST, shell });
-  const pdfSnapshot = path.join(ROOT, 'editions', 'INFERENCE-v1-draft.pdf');
+  const editionsDir = path.join(ROOT, 'editions');
+  const pdfCandidates = fs.existsSync(editionsDir)
+    ? fs.readdirSync(editionsDir)
+        .filter((f) => f.startsWith(`${ctx.book.title}-v`) && f.endsWith('.pdf') && !f.includes('_x'))
+        .sort((a, b) => b.localeCompare(a, undefined, { numeric: true }))
+    : [];
+  const latestSnapshot = pdfCandidates.length ? path.join(editionsDir, pdfCandidates[0]) : null;
   const pdfOut = path.join(DIST, `${ctx.book.title}.pdf`);
-  if (fs.existsSync(pdfSnapshot) && !fs.existsSync(pdfOut)) {
-    fs.copyFileSync(pdfSnapshot, pdfOut);
+  if (latestSnapshot && fs.existsSync(latestSnapshot)) {
+    fs.copyFileSync(latestSnapshot, pdfOut);
   }
   const uniq = [...new Set([...problems, ...pb.problems])];
   uniq.forEach((p) => console.warn(`  ! ${p}`));

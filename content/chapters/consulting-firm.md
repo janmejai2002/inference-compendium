@@ -27,7 +27,7 @@ Navigating this transition requires understanding how cognitive automation resha
 4. Foundation models automate the junior execution layer: drafting presentation decks, extracting table data, and writing initial spreadsheet routines at negligible marginal cost.
 5. As clients recognize that software can produce first-draft deliverables, they resist paying premium hourly rates for routine analytical labor.
 6. To preserve revenue and margins, consulting firms must decouple their fees from junior hours, adopting [[outcome-based-pricing|outcome-based pricing]] and deploying internal AI tools that enhance senior leverage.
-7. Artificial intelligence changes the consulting revenue engine from a labor-arbitrage pyramid into a specialized judgment and technology pod.
+7. ==Artificial intelligence changes the consulting revenue engine from a labor-arbitrage pyramid into a specialized judgment and technology pod.==
 :::
 
 ## The empirical benchmark: BCG and the jagged frontier
@@ -49,7 +49,7 @@ The experiment produced two foundational findings that define the modern advisor
 
 Consultants who trusted the model blindly suffered from automation bias: they accepted fluent, beautifully formatted explanations that were mathematically or logically incorrect.
 
-This dynamic illustrates the [[jagged-frontier|jagged technological frontier]]. Within a consulting engagement, two tasks that appear equally complex to a human manager may sit on opposite sides of the machine's capability boundary. An advisor who cannot judge where that boundary lies introduces severe operational liability into client work.
+This dynamic illustrates the [[jagged-frontier|jagged technological frontier]]. ==Within a consulting engagement, two tasks that appear equally complex to a human manager may sit on opposite sides of the machine's capability boundary.== An advisor who cannot judge where that boundary lies introduces severe operational liability into client work. Ethan Mollick, a co-author of the BCG study, observed that practitioners who navigate this frontier successfully adopt two distinct hybrid working styles: "Centaurs", who strictly partition tasks between human judgment and automated delegation, and "Cyborgs", who continuously integrate human and AI reasoning at every step of a workflow [@mollick-centaurs].
 
 ## Proprietary assistants and the agent workforce
 
@@ -68,12 +68,12 @@ At Boston Consulting Group, artificial intelligence transformed from an internal
 
 ## The commercial shift: from hours to outcomes
 
-When client tasks can be drafted in minutes rather than days, selling consulting services by the hour becomes financially self-defeating.
+==When client tasks can be drafted in minutes rather than days, selling consulting services by the hour becomes financially self-defeating.==
 
 If a project team uses AI tools to complete a financial due diligence engagement in 200 hours instead of 800 hours, billing on a time-and-materials basis cuts the firm's revenue by 75%. To capture the economic surplus created by automation, consulting partnerships are fundamentally restructuring client contracts toward **[[outcome-based-pricing|outcome-based pricing]]**.
 
 - **McKinsey's Global Move:** In a November 2025 financial briefing reported by Business Insider, McKinsey disclosed that approximately one-quarter (25%) of its global fee revenue was generated through outcome-based or performance-linked pricing arrangements [@bi-ai-fees-mbb]. UK Managing Partner Michael Birshan affirmed that the firm was actively shifting towards performance-based partnerships [@bi-ai-fees-mbb].
-- **BCG's AI Engagements:** In May 2026, BCG Chief Executive Christoph Schweizer stated in the Wall Street Journal that for the majority (approximately three-quarters) of the firm's largest AI implementation cases, BCG operated under variable-fee or outcome-linked contracts [@wsj-bcg-schweizer-fees]. Across the firm's entire book of business, outcome-based pricing remained significantly below one-third, demonstrating that while the transition is rapid in technology cases, traditional advisory retains fixed-fee foundations [@wsj-bcg-schweizer-fees].
+- **BCG's AI Engagements:** In May 2026, BCG Chief Executive Christoph Schweizer stated in the Wall Street Journal that for the majority (approximately three-quarters) of the firm's largest AI implementation cases, BCG operated under variable-fee or outcome-linked contracts [@wsj-bcg-schweizer-fees]. Across the firm's entire book of business, outcome-based pricing remained significantly below one-third. Traditional advisory retains its fixed-fee foundations, even as technology practices transition rapidly toward outcome billing [@wsj-bcg-schweizer-fees].
 
 Under an outcome-based contract, a consulting firm bills directly for verified operational results: reducing client supply chain inventory by $50 million, shortening retail bank loan approval turnaround from seven days to twenty-four hours, or cutting customer care operating expenses by 20%.
 
@@ -133,7 +133,7 @@ The partner restructures the commercial contract into a hybrid risk-sharing mode
 The restructured contract was accepted by the bank board. The project achieved its operational milestones in month five, earning the consulting firm ₹5.5 crore in total fees while delivering a 65% reduction in MSME loan processing latency for the bank.
 
 #### Your move
-When negotiating an outcome-based consulting contract, never tie your firm's fees to an aggregate business metric influenced by factors outside your direct operational control. Disaggregate the client's process: tie fee-at-risk milestones to the automated stages you engineer, and establish explicit client operational SLAs for human sign-offs.
+==When negotiating an outcome-based consulting contract, never tie your firm's fees to an aggregate business metric influenced by factors outside your direct operational control.== Disaggregate the client's process: tie fee-at-risk milestones to the automated stages you engineer, and establish explicit client operational SLAs for human sign-offs.
 :::
 
 ## Where this shows up at work

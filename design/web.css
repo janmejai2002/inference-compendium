@@ -108,4 +108,88 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 }
 @media (max-width: 800px) { .home-hero { grid-template-columns: 1fr; } }
 
+/* ---------- Interactive Web Features (Tracks, Search, Guide, Jump) ---------- */
+.mode:hover { color: var(--ink); border-color: var(--ink-2); }
+
+.ch-select-wrap {
+  display: inline-flex; align-items: center; max-width: 220px;
+}
+.ch-select {
+  font-family: var(--f-display); font-size: var(--s-small); font-stretch: 100%; font-weight: 500;
+  color: var(--ink); background: var(--paper); border: 1px solid var(--rule);
+  padding: .3em .6em; border-radius: 3px; max-width: 220px; cursor: pointer;
+  text-overflow: ellipsis; white-space: nowrap; overflow: hidden;
+}
+@media (max-width: 800px) {
+  .ch-select-wrap { display: none; }
+}
+
+.hero-stats {
+  display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.2rem;
+}
+.hero-stats span {
+  font-family: var(--f-mono); font-size: var(--s-micro); letter-spacing: .05em; text-transform: uppercase;
+  background: var(--paper-2); border: 1px solid var(--rule); color: var(--ink-2);
+  padding: .25em .65em; border-radius: 2px;
+}
+
+.home-guide {
+  max-width: 76rem; margin: 0 auto 3rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.guide-card-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; margin-top: 1rem;
+}
+.guide-card {
+  background: var(--paper-2); border: 1px solid var(--rule); padding: 1.25rem 1.4rem; border-radius: 4px;
+}
+.guide-card .kicker {
+  font-family: var(--f-mono); font-size: var(--s-micro); text-transform: uppercase; letter-spacing: .1em; color: var(--accent); margin-bottom: .4rem;
+}
+.guide-card h3 {
+  margin: 0 0 .5rem; font-family: var(--f-display); font-weight: 750; font-size: 1.15rem; color: var(--ink);
+}
+.guide-card p {
+  margin: 0; font-size: var(--s-small); line-height: 1.45; color: var(--ink-2);
+}
+
+.toc-toolbar {
+  max-width: 76rem; margin: 0 auto 1.5rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem;
+}
+.track-filters {
+  display: flex; flex-wrap: wrap; gap: .4rem;
+}
+.filter-tab {
+  font-family: var(--f-display); font-stretch: 110%; font-weight: 650; font-size: var(--s-small);
+  letter-spacing: .04em; text-transform: uppercase;
+  padding: .45em .8em; background: var(--paper-2); border: 1px solid var(--rule); color: var(--ink-2);
+  cursor: pointer; border-radius: 3px; display: inline-flex; align-items: center; gap: .4em;
+  transition: all .15s ease;
+}
+.filter-tab:hover {
+  background: var(--paper-3); color: var(--ink); border-color: var(--ink-3);
+}
+.filter-tab.active {
+  background: var(--tab-c, var(--accent)); color: var(--on-accent, #fff); border-color: var(--tab-c, var(--accent));
+}
+.filter-tab .badge {
+  font-family: var(--f-mono); font-size: .75em; opacity: .85;
+}
+.toc-search-box {
+  flex: 1; min-width: 220px; max-width: 360px;
+}
+.toc-search-box input {
+  width: 100%; font-family: var(--f-text); font-size: var(--s-small);
+  padding: .5em .8em; background: var(--paper); border: 1px solid var(--rule);
+  color: var(--ink); border-radius: 3px; outline: none;
+}
+.toc-search-box input:focus {
+  border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-wash);
+}
+.toc-part.hidden, .toc-row.hidden {
+  display: none !important;
+}
+
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }

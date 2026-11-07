@@ -222,7 +222,7 @@ The competitive moat in digital credit underwriting does not reside in proprieta
 **A strong structure.**
 1. **Monotonicity and Economic Stress Testing:** Unconstrained neural networks learn spurious non-linear patterns. If an applicant reports higher outstanding debt or lower disposable income, the model must never predict lower default risk. Require mathematical proof of monotonic constraints across all financial debt ratios.
 2. **Statutory Explainability and Adverse Action:** Check how the system complies with RBI Digital Lending Guidelines and fair lending laws. The model must produce exact, deterministic local feature attributions (via TreeSHAP) so every rejected applicant receives a legally valid adverse action notice detailing specific financial reasons.
-3. **Data Sovereignty and Covariate Shift:** Audit the training dataset for out-of-time (OOT) validation across a full credit cycle. Telemetry signals that perform well in liquidity booms break during interest rate tightening. Enforce compliance with the Digital Personal Data Protection (DPDP) Act, ensuring personal device data is neither harvested nor stored.
+3. **Data Sovereignty and Covariate Shift:** Audit the training dataset for out-of-time (OOT) validation across a full credit cycle. Telemetry signals that perform well in liquidity booms break during interest rate tightening. Enforce compliance with the Digital Personal Data Protection (DPDP) Act: personal device data must neither be harvested nor stored.
 4. **Recommendation:** Approve a pilot only under a dual-core architecture: use AI for instant document extraction, but pass outputs into an auditable, human-supervised credit risk core with strict risk-tier caps.
 :::
 

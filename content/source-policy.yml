@@ -50,6 +50,7 @@ A:   # primary sources and originators
   - jpmorgan.com
   - morganstanley.com
   - npci.org.in
+  - ascionline.in
 B:   # established editorial and analysis
   - fortune.com
   - deloitte.com
@@ -76,6 +77,10 @@ B:   # established editorial and analysis
   - economictimes.indiatimes.com
   - knowledge.wharton.upenn.edu
   - svpg.com
+  - accenture.com
+  - businessinsider.com
+  - itiger.com
+  - yahoo.com
 C:   # platforms: the CREATOR decides the tier, not the platform. A source here may be
   - simonwillison.net
   - hamel.dev
@@ -84,6 +89,7 @@ C:   # platforms: the CREATOR decides the tier, not the platform. A source here 
   - lawnext.com
   - theregister.com
   - damiencharlotin.com
+  - hrreview.co.uk
      # declared A or B only if `creator` is a named originator (e.g. Karpathy, 3Blue1Brown);
      # check prints a reminder for every such case.
   - youtube.com

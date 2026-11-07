@@ -92,7 +92,7 @@ A non-banking financial company headquartered in Delhi seeks to accelerate perso
 The advisory team structures the deployment to meet statutory mandates:
 1. *Consent architecture:* The digital onboarding flow introduces a standalone consent screen under the DPDP Rules, explicitly stating that customer financial records will be processed by automated models solely for credit evaluation [@pib-dpdp-rules-2025].
 2. *Retention and erasure:* The system stores extracted vectors in an isolated tenant with a 90-day automated purging rule for rejected applicants, fulfilling statutory erasure rights [@pib-dpdp-rules-2025].
-3. *FREE-AI accountability:* Adhering to the RBI Sutras, the credit committee appoints a designated Chief Risk Officer as the named owner of automated underwriting decisions, ensuring automated rejections include specific adverse financial factors [@rbi-free-ai-2025].
+3. *FREE-AI accountability:* Adhering to the RBI Sutras, the credit committee appoints a designated Chief Risk Officer as the named owner of automated underwriting decisions; adverse credit notices must specify the concrete financial factors behind any rejection [@rbi-free-ai-2025].
 
 #### Your move
 When framing an enterprise AI deployment for an Indian client, never treat compliance as an afterthought. Build statutory consent gates, data erasure pipelines, and explainable decision logs directly into the core solution architecture.

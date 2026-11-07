@@ -53,7 +53,7 @@ A parallel investigation by Boston Consulting Group (BCG), *The Widening AI Valu
 
 In August 2025, Fortune highlighted a preliminary study by MIT's NANDA initiative (led by researcher Aditya Challapally) that claimed a "95% failure rate for enterprise AI solutions" [@fortune-mit-95-percent]. The study argued that while 5% of corporate pilots achieved rapid revenue acceleration, the overwhelming majority stalled without producing meaningful P&L results.
 
-While industry practitioners rightly scrutinized the methodology of the MIT study (noting a mixed sample of qualitative interviews and surveys without published confidence intervals), the headline reflected an undeniable corporate reality. Enterprise AI projects rarely fail because the underlying mathematical model is broken. They fail because companies insert high-speed cognitive software into unchanged twentieth-century business processes.
+While industry practitioners rightly scrutinized the methodology of the MIT study (noting a mixed sample of qualitative interviews and surveys without published confidence intervals), the headline reflected an undeniable corporate reality. ==Enterprise AI projects rarely fail because the underlying mathematical model is broken; they fail because companies insert high-speed cognitive software into unchanged twentieth-century business processes.==
 
 ## The mechanics of time leakage
 
@@ -69,7 +69,7 @@ In June 2026, Boston Consulting Group released its *AI at Work 2026* study, surv
 
 This dynamic is known as **time leakage**. When an administrative assistant or financial analyst uses an AI model to compress an eight-hour drafting task into three hours, the organization gains five hours of potential capacity. However, if the employee's quarterly workload targets remain fixed, those five hours dissolve quietly into longer breaks, formatting refinements, personal administrative tasks, or redundant revisions.
 
-Corporate accounting systems do not track theoretical hours. They track cash outflows for payroll, vendor bills, and incoming customer revenue. Unless freed hours are converted into lower contractor spend, reduced overtime, headcount reallocation, or increased sales outreach, the net financial impact on the income statement is zero.
+==Corporate accounting systems do not track theoretical hours: unless freed time is converted into lower contractor spend, reduced overtime, or increased sales outreach, the net financial impact on the income statement is zero.==
 
 BCG discovered that establishing a clear corporate strategy lifted an organization's AI impact by 25 percentage points, compared to a modest 5 percentage point gain achieved by adopting more capable software models [@bcg-ai-at-work-2026]. Management clarity matters five times more than model intelligence.
 
@@ -84,7 +84,7 @@ The proportion of AI high performers that fundamentally redesign their organizat
 <span class="src">Source: McKinsey & Company (2026) [@mckinsey-state-of-ai-2026]</span>
 :::
 
-In organizations where AI contributed more than 5% of EBIT, nearly three-quarters (73%) reported fundamentally redesigning workflows end to end, up from 55% in 2025 [@mckinsey-state-of-ai-2026]. Among all other surveyed companies, only 25% undertook workflow redesign [@mckinsey-state-of-ai-2026]. High performers were also twice as likely to have senior executive commitment and standardized procedures to measure P&L impact [@mckinsey-state-of-ai-2026].
+==In organizations where AI contributed more than 5% of EBIT, nearly three-quarters fundamentally redesigned workflows end to end, compared to just 25% of other enterprises.== High performers were also twice as likely to have senior executive commitment and standardized procedures to measure P&L impact [@mckinsey-state-of-ai-2026].
 
 ::: concept Workflow redesign
 **Plain words.** Rebuilding an operational process from beginning to end around automated capabilities, changing job roles, approval hierarchies, and performance targets, rather than inserting an AI tool into an existing task sequence.
@@ -115,7 +115,7 @@ While Indian IT service providers and enterprises have aggressively piloted gene
 
 This finding aligns directly with corporate hiring patterns. In an analysis of Indian technology and management job descriptions conducted for INFERENCE, requirements for **"change management and user adoption"** appeared in 42% of AI-focused postings, compared to 19% in baseline technology roles. Employers also emphasized "use-case qualification" (31%) and "ROI measurement" (30%).
 
-Enterprise leaders have learned through expensive experience that securing compute infrastructure or fine-tuning open-source models is straightforward. The true barrier is changing how departmental managers, frontline workers, and compliance officers operate daily.
+==The true barrier to enterprise AI value is not securing compute or fine-tuning models; it is changing how departmental managers, frontline workers, and compliance officers operate daily.==
 
 ::: case Illustrative · Pune Auto-Components Supplier Quality Automation
 #### The situation

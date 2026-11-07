@@ -140,7 +140,9 @@ function figure(state, raw, wide) {
   const [id, caption = '', source = ''] = raw.split('|').map((x) => x.trim());
   state.fig += 1;
   const f = path.join(ROOT, 'content', 'figures', `${id}.svg`);
-  const art = fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : `<p class="mono">missing figure: ${esc(id)}</p>`;
+  let art = fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : `<p class="mono">missing figure: ${esc(id)}</p>`;
+  // Strip empty lines so markdown-it will not insert <p> paragraphs inside the SVG
+  art = art.replace(/\r\n/g, '\n').replace(/\n\s*\n+/g, '\n');
   return `<figure class="fig${wide ? ' wide' : ''}" id="fig-${esc(id)}"><div class="fig-art">${art}</div>`
     + `<figcaption><span class="fig-n">Fig ${state.chapter.n}.${state.fig}</span>${state.md.renderInline(caption)}${source ? `<span class="fig-src">${esc(source)}</span>` : ''}</figcaption></figure>`;
 }
@@ -169,7 +171,7 @@ function preprocess(state, body) {
   });
 
   // 2. Inline math: $ ... $ (excluding financial figures like $50 billion or $20.00)
-  body = body.replace(/(?<=^|[\s(])\$(?!\$)([^\$\n]+?)(?<![\s\\])\$(?=[\s,.;:!?)\]]|$)/g, (full, math) => {
+  body = body.replace(/(?<=^|[\s(])\$(?!\$)((?:\\\$|[^\$\n])+?)(?<![\s\\])\$(?=[\s,.;:!?)\]]|$)/g, (full, math) => {
     // Skip if it looks like plain currency (e.g., "50 billion", "20.00", "500 million", "2 per million")
     if (/^\d+(?:\.\d+)?\s*(?:billion|million|k|trillion|percent|%|per\s+million)?$/i.test(math.trim())) return full;
     try {
@@ -244,7 +246,7 @@ export function renderChapter(c, ctx, target = 'web') {
     const tr = ctx.trackById[t];
     return tr ? `<span class="chip" style="--chip: var(--t-${t})">${esc(tr.name)}</span>` : '';
   }).join('');
-  const objectives = (c.objectives || []).map((o) => `<li><span>${state.md.renderInline(o).replace(/<(\/?)strong>/g, '<$1b>')}</span></li>`).join('');
+  const objectives = (c.objectives || []).map((o) => `<li><span>${state.md.renderInline(preprocess(state, o)).replace(/<(\/?)strong>/g, '<$1b>')}</span></li>`).join('');
   const tr = ctx.trackById[c.track] || {};
 
   const opener = `<header class="opener">

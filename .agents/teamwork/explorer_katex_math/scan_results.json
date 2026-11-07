@@ -1,0 +1,1422 @@
+{
+  "katexBlockErrors": [],
+  "katexInlineErrors": [],
+  "delimiterIssues": [
+    {
+      "file": "agentic-ux-and-interfaces.md",
+      "line": 121,
+      "match": "$ Legal Review; Close Date: Nov 15 $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-casebook.md",
+      "line": 153,
+      "match": "$2 per million input tokens and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-casebook.md",
+      "line": 222,
+      "match": "$2 per million input tokens and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-casebook.md",
+      "line": 360,
+      "match": "$7.5 million and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-in-one-sitting.md",
+      "line": 155,
+      "match": "$ is the per-step accuracy and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-in-one-sitting.md",
+      "line": 277,
+      "match": "$: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-product-lifecycle.md",
+      "line": 20,
+      "match": "$ under condition $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-product-lifecycle.md",
+      "line": 27,
+      "match": "$, code executes logic path $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-product-lifecycle.md",
+      "line": 83,
+      "match": "$ over completion $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-product-lifecycle.md",
+      "line": 91,
+      "match": "$ represents the observed proportion of agreement between human raters and the automated judge, and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-product-lifecycle.md",
+      "line": 112,
+      "match": "$ followed by $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-product-lifecycle.md",
+      "line": 230,
+      "match": "$ or critical policy violations exceed $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "ai-product-lifecycle.md",
+      "line": 245,
+      "match": "$ over $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "algorithmic-underwriting-and-credit-risk.md",
+      "line": 33,
+      "match": "$), an estimated annual default probability of $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "algorithmic-underwriting-and-credit-risk.md",
+      "line": 42,
+      "match": "$ | Provision jumps $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "algorithmic-underwriting-and-credit-risk.md",
+      "line": 71,
+      "match": "$ indicates that the bin contains a higher proportion of creditworthy borrowers than defaulters. To determine whether a candidate variable possesses predictive power, risk modelers calculate its Information Value ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "algorithmic-underwriting-and-credit-risk.md",
+      "line": 97,
+      "match": "$ | Superior: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "algorithmic-underwriting-and-credit-risk.md",
+      "line": 117,
+      "match": "$, SHAP calculates the marginal contribution $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "algorithmic-underwriting-and-credit-risk.md",
+      "line": 157,
+      "match": "$, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "algorithmic-underwriting-and-credit-risk.md",
+      "line": 192,
+      "match": "$ to **$",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "algorithmic-underwriting-and-credit-risk.md",
+      "line": 265,
+      "match": "$, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "consulting-firm.md",
+      "line": 64,
+      "match": "$14.4 billion for 2025, up from $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "creative-at-scale.md",
+      "line": 27,
+      "match": "$ represents the fixed expense of studio hire, camera gear, lighting technicians, director retainers, and primary talent contracts (typically ₹25,00,000 to ₹50,00,000). The variable term $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "creative-at-scale.md",
+      "line": 104,
+      "match": "$ is the initial click-through rate of a fresh creative, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "creative-at-scale.md",
+      "line": 218,
+      "match": "$, at the initial 2.4% CTR, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "delegation-brief.md",
+      "line": 61,
+      "match": "$1,000 to $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 125,
+      "match": "$ ARR, implying an Enterprise Value ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 272,
+      "match": "$320,000 = $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 273,
+      "match": "$ continuous. At a Power Usage Effectiveness ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 281,
+      "match": "$1.50 per 1M input tokens, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 326,
+      "match": "$ Compression):* Intervening before corporate value is destroyed limits collateral erosion, compressing $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 352,
+      "match": "$): 6.50% $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 357,
+      "match": "$): $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 358,
+      "match": "$) at 25.17% tax: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 360,
+      "match": "$): $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 370,
+      "match": "$): $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 374,
+      "match": "$ to $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 410,
+      "match": "$, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 509,
+      "match": "$. On a ₹10,000 crore loan book with $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 511,
+      "match": "$. Crossover volume is $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "finance-casebook.md",
+      "line": 512,
+      "match": "$), and regulatory penalty (₹3.50 Cr), totaling ₹119.75 crore. Applying the 15% operational safety factor yields $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-copilots-and-deal-diligence.md",
+      "line": 91,
+      "match": "$ and token $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-copilots-and-deal-diligence.md",
+      "line": 132,
+      "match": "$ represents the change in non-cash Net Working Capital ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-copilots-and-deal-diligence.md",
+      "line": 138,
+      "match": "$ balances the required rates of return on equity ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-copilots-and-deal-diligence.md",
+      "line": 366,
+      "match": "$ EV/EBITDA. Due to a multi-column table transposition, an LLM misallocates a ₹40 crore non-operating gain as operational revenue. Calculate the distortion in Enterprise Value ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-copilots-and-deal-diligence.md",
+      "line": 374,
+      "match": "$. Substituting the misallocated gain: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 35,
+      "match": "$ sensitivity and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 47,
+      "match": "$ represent the event that a given transaction is fraudulent, and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 54,
+      "match": "$ ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 55,
+      "match": "$):** $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 57,
+      "match": "$ to roughly one transaction in ten thousand: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 93,
+      "match": "$ is the unit cost of a false positive (customer friction, transaction drop-off, call center triage), $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 97,
+      "match": "$ in banking is typically two orders of magnitude larger than $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 134,
+      "match": "$, where the set of vertices $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 138,
+      "match": "$ at layer $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 142,
+      "match": "$ is a learnable parameter matrix, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 147,
+      "match": "$):** The absolute ratio of incoming liquidity to outgoing liquidity over a compact temporal window $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 151,
+      "match": "$ in balance retention over $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 316,
+      "match": "$) paired with an extreme liquidity velocity: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 398,
+      "match": "$) produces $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 400,
+      "match": "$. True positives: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "judging-output.md",
+      "line": 147,
+      "match": "$ (at least one success in $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "judging-output.md",
+      "line": 236,
+      "match": "$. Clean scans: 9,900. False Positives: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "kinds-of-ai.md",
+      "line": 83,
+      "match": "$17.7T vs $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "kinds-of-ai.md",
+      "line": 84,
+      "match": "$2.6 trillion to $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "kinds-of-ai.md",
+      "line": 195,
+      "match": "$11T to $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 152,
+      "match": "$ at $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 236,
+      "match": "$ represents the purchase outcome, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 439,
+      "match": "$ represents the incremental revenue generated by spend $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 443,
+      "match": "$ is the maximum potential revenue ceiling, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 449,
+      "match": "$ at low spend, but saturates rapidly because search query volume is strictly bounded by category awareness. Half-saturation point $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 451,
+      "match": "$), saturating at $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 453,
+      "match": "$, but inventory categories are narrow, saturating at $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 455,
+      "match": "$ direct), but exhibits massive geometric carryover ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 559,
+      "match": "$ and the decay constant $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 689,
+      "match": "$ and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 691,
+      "match": "$. At $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "models-that-act.md",
+      "line": 34,
+      "match": "$ independent steps where each step has a success rate $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "models-that-act.md",
+      "line": 74,
+      "match": "$100 for a six-pack of soda that cost $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "next-word-machine.md",
+      "line": 108,
+      "match": "$2 per million input tokens and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "next-word-machine.md",
+      "line": 118,
+      "match": "$2 in, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "next-word-machine.md",
+      "line": 121,
+      "match": "$2 = $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "next-word-machine.md",
+      "line": 123,
+      "match": "$8,400; at 6 times, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "next-word-machine.md",
+      "line": 171,
+      "match": "$2 per million input tokens and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "next-word-machine.md",
+      "line": 179,
+      "match": "$2 = about $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 71,
+      "match": "$ prompt tokens requires $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 86,
+      "match": "$: The cache write creation rate (typically charged at a 25% premium over standard input pricing, e.g., $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 87,
+      "match": "$: The cache read rate for subsequent requests hitting the cached prefix (typically discounted by 80% to 90%, e.g., $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 90,
+      "match": "$). We equate the cumulative cost of serving $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 100,
+      "match": "$, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 145,
+      "match": "$. Queries clearing $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 146,
+      "match": "$ escalate to a frontier model. Latency: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 201,
+      "match": "$ are completed directly. Cost: ₹0.040 per call. Latency: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 202,
+      "match": "$) are routed to the frontier model with full KV context caching over banking regulations. Cost: ₹0.850 per call. Latency: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 237,
+      "match": "$ vs $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 283,
+      "match": "$3.00 per million tokens, cache writes cost $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 291,
+      "match": "$. Substituting the values: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "line": 292,
+      "match": "$). Once $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 61,
+      "match": "$ per call, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 69,
+      "match": "$, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 71,
+      "match": "$): Captures 74% of claims (35,520 tickets/day). The false positive fraud rate is bounded below 0.6%, resulting in daily fraud leakage of $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 72,
+      "match": "$): Captures 21% of claims (10,080 tickets/day). BPO review spend drops to $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 82,
+      "match": "$ ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 111,
+      "match": "$3.00/M input, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 138,
+      "match": "$ context tokens + 500 query tokens = 3,000 tokens ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 139,
+      "match": "$15.00/M tokens = $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 166,
+      "match": "$. Let the baseline fraud/error rate be $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 174,
+      "match": "$ | $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 175,
+      "match": "$ | $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 176,
+      "match": "$ | $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 185,
+      "match": "$ Context Retrieval & Order DB Lookup $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 189,
+      "match": "$): $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 191,
+      "match": "$): $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 205,
+      "match": "$): $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 217,
+      "match": "$, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 218,
+      "match": "$ (for $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 225,
+      "match": "$) and observes 49 successes (98.0%), the 95% Wilson score confidence interval is $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 227,
+      "match": "$0.80/M input, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 229,
+      "match": "$ ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 242,
+      "match": "$ ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 245,
+      "match": "$ prompt, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 247,
+      "match": "$ candidates $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 249,
+      "match": "$ ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 261,
+      "match": "$3.00/1M input, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 264,
+      "match": "$ ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 269,
+      "match": "$14,000/mo) = $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 270,
+      "match": "$ ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 314,
+      "match": "$3.00/M input, $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 317,
+      "match": "$3.75/M, Cache read = $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 339,
+      "match": "$3.75/M tokens, cache reading costs $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 346,
+      "match": "$). Because this uncertainty interval is nearly seven times larger than the 1.5% regression, the test suite is statistically underpowered and will fail to detect real production regressions. Detecting a 1.5% shift at 80% power requires $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 348,
+      "match": "$ using Bayes decision theory: $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 349,
+      "match": "$540 monthly (₹45,900/month). A dedicated GPU cluster carries fixed hardware, networking, and MLOps maintenance costs exceeding $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 7,
+      "match": "$50 per million output tokens; another pitches a distilled tier at $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 24,
+      "match": "$10 / $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 25,
+      "match": "$10 / $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 26,
+      "match": "$2 / $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 28,
+      "match": "$4 / $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 29,
+      "match": "$2 / $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 30,
+      "match": "$1 / $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 31,
+      "match": "$0.10 / $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 32,
+      "match": "$0.10 / $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 39,
+      "match": "$2 per million input tokens and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 45,
+      "match": "$0.10 per million input tokens and $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 47,
+      "match": "$0.10 / $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 64,
+      "match": "$10 to $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 98,
+      "match": "$0.10 in / $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "state-of-play.md",
+      "line": 104,
+      "match": "$10 to $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "synthetic-audiences-and-attribution.md",
+      "line": 88,
+      "match": "$ represents the total aggregate sales volume or revenue in time period $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "synthetic-audiences-and-attribution.md",
+      "line": 90,
+      "match": "$ represents the raw advertising spend or gross rating points (GRPs) in marketing channel $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "synthetic-audiences-and-attribution.md",
+      "line": 102,
+      "match": "$ is the channel-specific decay parameter. A high decay rate ($",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "synthetic-audiences-and-attribution.md",
+      "line": 112,
+      "match": "$ is the shape parameter governing the curvature. When $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "synthetic-audiences-and-attribution.md",
+      "line": 241,
+      "match": "$ and the Hill half-saturation parameter $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "synthetic-audiences-and-attribution.md",
+      "line": 249,
+      "match": "$ measures advertising memory: the geometric rate at which brand awareness persists across subsequent weeks, determining the duration of carryover effects. The Hill half-saturation parameter $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 7,
+      "match": "$20 to $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 36,
+      "match": "$20.00 per million tokens to $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 49,
+      "match": "$20 per million tokens become profitable at $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 62,
+      "match": "$42.3 billion. Capital outlays pushed quarterly free cash flow to negative $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 66,
+      "match": "$51.4 billion [@alphabet-q3-2026]. Operating cash flow was $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 67,
+      "match": "$39.4 billion, more than double the $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 68,
+      "match": "$46.0 billion in third-quarter revenue, up 39% [@amazon-q3-2026]. However, Amazon projected full-year 2026 capital expenditures of approximately $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 69,
+      "match": "$34.9 billion (narrowly exceeding its operating cash flow of $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 87,
+      "match": "$125.0 billion, alongside quarterly capex of $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 89,
+      "match": "$65 billion Series H funding round at a post-money valuation of $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 98,
+      "match": "$42.4 billion), while Oracle carries $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 110,
+      "match": "$15 billion AI hub investment in Visakhapatnam, while AWS committed $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 194,
+      "match": "$51.4 billion in property and equipment purchases against $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 202,
+      "match": "$42.3B − $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 204,
+      "match": "$47 billion in run-rate revenue and OpenAI reaching annualized revenues above $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 210,
+      "match": "$9.07B), while Amazon projected $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "who-pays.md",
+      "line": 211,
+      "match": "$125B in debt against a $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    },
+    {
+      "file": "work-changes.md",
+      "line": 182,
+      "match": "$30) + (100 * 160 * $",
+      "issue": "Inline math delimiter has leading or trailing whitespace ($ math $ or $math $)"
+    }
+  ],
+  "currencyLeaks": [
+    {
+      "file": "ai-casebook.md",
+      "line": 205,
+      "text": "$31.4\\text{ million} + 84.0\\text{ million} = 115.4\\text{ million prompts per day}$",
+      "captured": "31.4\\text{ million} + 84.0\\text{ million} = 115.4\\text{ million prompts per day}",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "algorithmic-underwriting-and-credit-risk.md",
+      "line": 97,
+      "text": "$+4\\text{ to }+8$",
+      "captured": "+4\\text{ to }+8",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "creative-at-scale.md",
+      "line": 9,
+      "text": "$C_{\\\\text{asset}} \\\\to 0$",
+      "captured": "C_{\\\\text{asset}} \\\\to 0",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "creative-at-scale.md",
+      "line": 43,
+      "text": "$c_{\\text{asset}} \\approx \\text{₹}4\\text{ to }\\text{₹}17$",
+      "captured": "c_{\\text{asset}} \\approx \\text{₹}4\\text{ to }\\text{₹}17",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "creative-at-scale.md",
+      "line": 44,
+      "text": "$\\frac{\\partial C_{\\text{gen}}}{\\partial n} \\to 0$",
+      "captured": "\\frac{\\partial C_{\\text{gen}}}{\\partial n} \\to 0",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "creative-at-scale.md",
+      "line": 216,
+      "text": "$\\lim_{n \\to \\infty} \\frac{\\partial C_{\\text{gen}}}{\\partial n} = c_{\\text{asset}} \\approx \\text{₹}4\\text{ to }\\text{₹}17$",
+      "captured": "\\lim_{n \\to \\infty} \\frac{\\partial C_{\\text{gen}}}{\\partial n} = c_{\\text{asset}} \\approx \\text{₹}4\\text{ to }\\text{₹}17",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "creative-at-scale.md",
+      "line": 224,
+      "text": "$C_{\\text{asset}} \\to 0$",
+      "captured": "C_{\\text{asset}} \\to 0",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "line": 151,
+      "text": "$R_{\\text{velocity}} \\to 0$",
+      "captured": "R_{\\text{velocity}} \\to 0",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 27,
+      "text": "$C_{\\text{asset}} \\to 0$",
+      "captured": "C_{\\text{asset}} \\to 0",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 236,
+      "text": "$Y_i \\in \\{0, 1\\}$",
+      "captured": "Y_i \\in \\{0, 1\\}",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 264,
+      "text": "$D_i \\in \\{\\text{₹}50, \\text{₹}75, \\text{₹}100, \\text{₹}150\\}$",
+      "captured": "D_i \\in \\{\\text{₹}50, \\text{₹}75, \\text{₹}100, \\text{₹}150\\}",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 514,
+      "text": "$54 \\times (300 \\text{ in} + 150 \\text{ out}) \\approx 16{,}200 \\text{ input tokens} + 8{,}100 \\text{ output tokens} \\approx 24{,}300\\text{ tokens}$",
+      "captured": "54 \\times (300 \\text{ in} + 150 \\text{ out}) \\approx 16{,}200 \\text{ input tokens} + 8{,}100 \\text{ output tokens} \\approx 24{,}300\\text{ tokens}",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 681,
+      "text": "$C_{\\text{asset}} \\to 0$",
+      "captured": "C_{\\text{asset}} \\to 0",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "line": 700,
+      "text": "$C_{\\text{asset}} \\to 0$",
+      "captured": "C_{\\text{asset}} \\to 0",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 62,
+      "text": "$s \\in [0, 1]$",
+      "captured": "s \\in [0, 1]",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 166,
+      "text": "$p \\in [0, 1]$",
+      "captured": "p \\in [0, 1]",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "product-casebook.md",
+      "line": 241,
+      "text": "$2.2 \\times \\text{₹}29.17 = \\mathbf{\\text{₹}64.17\\text{ per verified record}}$",
+      "captured": "2.2 \\times \\text{₹}29.17 = \\mathbf{\\text{₹}64.17\\text{ per verified record}}",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    },
+    {
+      "file": "synthetic-audiences-and-attribution.md",
+      "line": 102,
+      "text": "$\\alpha_m \\in [0, 1)$",
+      "captured": "\\alpha_m \\in [0, 1)",
+      "issue": "Likely prose/currency range accidentally captured as inline math"
+    }
+  ],
+  "asciiTables": [
+    {
+      "file": "ai-in-one-sitting.md",
+      "startLine": 117,
+      "endLine": 127,
+      "lang": "",
+      "preview": "[User Query] \r\n     │\r\n     ├──► 1. Query Embedding Engine ──► Vector Search against Enterprise Chunk Database\r\n     │                                                │\r\n     │                                                ▼\r"
+    },
+    {
+      "file": "ai-product-lifecycle.md",
+      "startLine": 38,
+      "endLine": 48,
+      "lang": "",
+      "preview": "                  ┌──────────────────────┐\n                  │ 4. Human Audit Panel │  Hours/Days · ₹35/review\n               ┌──┴──────────────────────┴──┐\n               │ 3. Calibrated LLM-as-Judge │  800ms · ₹0.25/call\n            ┌──┴────────────────────────────┴──┐"
+    },
+    {
+      "file": "ai-product-lifecycle.md",
+      "startLine": 97,
+      "endLine": 110,
+      "lang": "",
+      "preview": "       Step 1: Raw Generation          Step 2: Swap-Eval Order Inversion\n   ┌─────────────────────────────┐    ┌─────────────────────────────┐\n   │ Prompt: Judge Candidate A   │    │ Prompt: Judge Candidate B   │\n   │ vs Candidate B              │    │ vs Candidate A              │\n   └──────────────┬──────────────┘    └──────────────┬──────────────┘"
+    },
+    {
+      "file": "financial-copilots-and-deal-diligence.md",
+      "startLine": 259,
+      "endLine": 268,
+      "lang": "",
+      "preview": "Monthly Operational Data Influx ──► [Continuous Copilot Parser]\n                                                │\n                                                ▼\n                                    [DSCR Calculation Engine]\n                                                │"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "startLine": 118,
+      "endLine": 132,
+      "lang": "",
+      "preview": "[Victim Corporate Account] \n          │ (₹50 Cr Stolen)\n          ▼\n   ┌──────┴──────┐\n   ▼             ▼"
+    },
+    {
+      "file": "financial-crime-fraud-and-rbi-free-ai.md",
+      "startLine": 177,
+      "endLine": 214,
+      "lang": "",
+      "preview": "[40,000,000 Raw Ingress Transactions/Day] (Sub-50ms Payment SLA)\n                      │\n                      ▼\n┌────────────────────────────────────────────────────────┐\n│ Stage 1: Ultra-Fast Heuristic & Blacklist Filter       │"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "startLine": 238,
+      "endLine": 243,
+      "lang": "",
+      "preview": "Cart Abandoners (8,000,000 Users)\n ├── Sure Things (45% · 3.60M users) ─── Organic Conversion: 68% ─── Action: Offer ₹0 Discount\n ├── Lost Causes (30% · 2.40M users) ─── Conversion with Promo: <4% ─ Action: Offer ₹0 Discount\n └── Persuadables (25% · 2.00M users) ── Lift: 12% → 48% (τ = +36%) ─ Action: Dynamic ₹50 to ₹150"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "startLine": 376,
+      "endLine": 387,
+      "lang": "",
+      "preview": "20 Million Active Shoppers\n └── 5 Ad Impressions / Week × 12 Weeks = 60 Impressions / Shopper\n      └── Total Quarterly Delivery: 1.20 Billion Ad Impressions\n           ├── Architecture A: Naive Real-Time Diffusion ($48 Million / ₹408 Crore) → UNVIABLE\n           └── Architecture B: Modular Compositing & Edge Assembly (₹3.08 Lakh) → PRODUCTION GRADE"
+    },
+    {
+      "file": "marketing-casebook.md",
+      "startLine": 462,
+      "endLine": 469,
+      "lang": "",
+      "preview": "Total Marketing Capital: ₹60.00 Crore\n ├── TV & Connected OTT: ₹21.00 Crore (35%) ─── Brand anchor, high ceiling, 40% organic baseline lift\n ├── Meta Performance Ads: ₹18.00 Crore (30%) ── Visual discovery engine, scales to K = ₹18Cr\n ├── Google Search / PMax: ₹9.00 Crore (15%) ─── Intent capture, capped just past saturation K = ₹8Cr\n ├── Quick-Commerce Media: ₹6.00 Crore (10%) ── High-intent impulse accessories, saturates at ₹6Cr"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "startLine": 24,
+      "endLine": 36,
+      "lang": "",
+      "preview": "Request Sent                                                          Full Generation\n    │                                                                        │\n    ├─── Network Transit (100ms) ───┤                                        │\n    ├────── DB Retrieval (150ms) ────────┤                                   │\n    ├───────── TTFT Prefill (250ms with Cache) ─────────┤                    │"
+    },
+    {
+      "file": "product-architecture-economics.md",
+      "startLine": 120,
+      "endLine": 142,
+      "lang": "",
+      "preview": "                  ┌───────────────────────────────┐\n                  │    Incoming User Query        │\n                  └──────────────┬────────────────┘\n                                 │\n                   [ Deterministic Rule / Cache ]"
+    }
+  ],
+  "rawLatexLeaks": [],
+  "mathStats": {
+    "agentic-ux-and-interfaces.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 5,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "ai-casebook.md": {
+      "displayMathCount": 50,
+      "inlineMathCount": 5,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "ai-in-one-sitting.md": {
+      "displayMathCount": 2,
+      "inlineMathCount": 15,
+      "currencyCount": 0,
+      "asciiTableBlocks": 1
+    },
+    "ai-product-lifecycle.md": {
+      "displayMathCount": 2,
+      "inlineMathCount": 26,
+      "currencyCount": 0,
+      "asciiTableBlocks": 2
+    },
+    "algorithmic-underwriting-and-credit-risk.md": {
+      "displayMathCount": 9,
+      "inlineMathCount": 52,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "brand-safety-boundary.md": {
+      "displayMathCount": 3,
+      "inlineMathCount": 4,
+      "currencyCount": 1,
+      "asciiTableBlocks": 0
+    },
+    "confidently-wrong.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "consulting-firm.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "creative-at-scale.md": {
+      "displayMathCount": 7,
+      "inlineMathCount": 22,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "delegation-brief.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "finance-casebook.md": {
+      "displayMathCount": 50,
+      "inlineMathCount": 87,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "financial-copilots-and-deal-diligence.md": {
+      "displayMathCount": 18,
+      "inlineMathCount": 25,
+      "currencyCount": 0,
+      "asciiTableBlocks": 1
+    },
+    "financial-crime-fraud-and-rbi-free-ai.md": {
+      "displayMathCount": 8,
+      "inlineMathCount": 68,
+      "currencyCount": 0,
+      "asciiTableBlocks": 2
+    },
+    "india-briefing.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "interview-room.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "judging-output.md": {
+      "displayMathCount": 1,
+      "inlineMathCount": 13,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "kinds-of-ai.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "marketing-casebook.md": {
+      "displayMathCount": 47,
+      "inlineMathCount": 130,
+      "currencyCount": 0,
+      "asciiTableBlocks": 3
+    },
+    "models-that-act.md": {
+      "displayMathCount": 3,
+      "inlineMathCount": 9,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "next-word-machine.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "pilots-stall.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "product-architecture-economics.md": {
+      "displayMathCount": 11,
+      "inlineMathCount": 59,
+      "currencyCount": 0,
+      "asciiTableBlocks": 2
+    },
+    "product-casebook.md": {
+      "displayMathCount": 22,
+      "inlineMathCount": 101,
+      "currencyCount": 2,
+      "asciiTableBlocks": 0
+    },
+    "state-of-play.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "synthetic-audiences-and-attribution.md": {
+      "displayMathCount": 6,
+      "inlineMathCount": 26,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "what-is-a-model.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "who-pays.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 1,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "work-changes.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    },
+    "your-documents.md": {
+      "displayMathCount": 0,
+      "inlineMathCount": 0,
+      "currencyCount": 0,
+      "asciiTableBlocks": 0
+    }
+  }
+}

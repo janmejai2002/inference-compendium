@@ -1,27 +1,15 @@
-# Gate Status Log
+# Gate Status — Iteration 1
 
-## Gate — Iteration 1 (Milestone M3: Chapters 22–25)
+## Gate Evaluation
 | Agent | Role | Verdict | Source |
-|-------|------|---------|--------|
-| worker_ch1 | teamwork_worker | DONE (build passed) | handoff.md |
-| worker_ch2 | teamwork_worker | DONE (build passed) | handoff.md |
-| worker_ch3 | teamwork_worker | DONE (build passed) | handoff.md |
-| worker_ch4 | teamwork_worker | DONE (build passed) | handoff.md |
-| reviewer_1 | teamwork_reviewer | APPROVE | handoff.md |
-| reviewer_2 | teamwork_reviewer | APPROVE | handoff.md |
-| challenger_1 | teamwork_challenger | REQUEST_CHANGES | handoff.md |
-| challenger_2 | teamwork_challenger | REQUEST_CHANGES | handoff.md |
-| auditor_1 | teamwork_auditor | CLEAN | handoff.md |
+|---|---|---|---|
+| worker_m1 | Citation & Source Worker | DONE (0 errors, 0 unverified warnings) | handoff.md |
+| worker_m2 | KaTeX & Table Worker | DONE (0 math leaks, 8 GFM tables) | handoff.md |
+| worker_m3 | Pedagogy & Voice Worker | DONE (voice cleaned, 2 SVGs, highlights densified) | handoff.md |
+| reviewer_citations_pedagogy | Citation & Pedagogy Reviewer | APPROVE | handoff.md |
+| reviewer_katex_math_design | KaTeX Math & Visual Layout Reviewer | PENDING | - |
+| challenger_stress_testing | Pipeline & Syntax Challenger | PENDING | - |
+| challenger_domain_invariants | Quantitative & Sourcing Challenger | PENDING | - |
+| auditor_integrity | Forensic Integrity Auditor | PENDING | - |
 
-Gate Result: **FAIL** (challenger_1 KaTeX rendering delimiters & challenger_2 quantitative arithmetic errors)
-
-## Gate — Iteration 2 (Milestone M3 Remediation)
-| Agent | Role | Verdict | Source |
-|-------|------|---------|--------|
-| explorer_remediation | teamwork_explorer | DONE (blueprint delivered) | handoff.md |
-| worker_remediation | teamwork_worker | DONE (all fixes applied, test suites passed) | handoff.md |
-| challenger_1 harness | test/adversarial-challenger.mjs | APPROVE (68/68 passed, 0 failed) | worker_remediation handoff.md |
-| challenger_2 harness | test/verify_math_part_vi.py | APPROVE (10/10 math invariants verified) | worker_remediation handoff.md |
-| auditor_1 | teamwork_auditor | CLEAN | handoff.md |
-
-Gate Result: **PASS**
+Gate Result: **IN_PROGRESS**

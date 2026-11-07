@@ -47,7 +47,7 @@ Anthropic adds two points. Its overview assumes that before you tune a prompt yo
 
 **Analogy.** The note you leave for a strong intern before you board a flight and go offline. You cannot answer questions mid-task, so everything they need has to be on the page.
 
-**Misconception.** "A good prompt is a clever sentence." A good prompt is usually longer and plainer than a bad one. Its value is in the information it carries, and the phrasing matters much less.
+**Misconception.** "A good prompt is a clever sentence." ==A good prompt is usually longer and plainer than a bad one; its value is in the information it carries, and the phrasing matters much less.==
 :::
 
 One ingredient has its own name. [[few-shot|Few-shot examples]] are a handful of worked input-and-output pairs pasted into the prompt: to get 300 complaints coded into causes, show two complaints already coded the way you want.
@@ -84,7 +84,7 @@ Put the two sides together and the dispute is smaller than it looks. Nobody in t
 ::: myth
 **Myth.** Prompting is dead, so the wording of a request no longer matters.
 
-**Reality.** What faded is the folklore. Context, examples and a stated format are what every lab guide still asks for, and dropping the format instruction hurt accuracy in Report 1 [@wharton-psr1]. A better model needs fewer tricks; it still cannot read your client file unless you paste it in.
+**Reality.** What faded is the folklore. Context, examples and a stated format are what every lab guide still asks for, and dropping the format instruction hurt accuracy in Report 1 [@wharton-psr1]. ==A better model needs fewer tricks; it still cannot read your client file unless you paste it in.==
 :::
 
 ## The checklist
@@ -98,7 +98,7 @@ Six parts, each one a question the model cannot answer for itself.
 5. **Output format.** Table, length, column names, order of sections. A format you can check row by row is one you can trust faster.
 6. **Flag your doubts.** "Mark anything you are unsure of, and say what you assumed." You need those gaps for the review.
 
-Then the step the checklist cannot replace: read the output against your goal and revise the brief. Anthropic's course calls prompting "iterative and experimental", suggests asking "How confident are you about this answer?", and notes that starting a fresh chat sometimes beats correcting one that has gone off track [@anthropic-fluency-prompting]. The model drafts; you decide what goes to the client.
+Then the step the checklist cannot replace: read the output against your goal and revise the brief. Anthropic's course calls prompting "iterative and experimental", suggests asking "How confident are you about this answer?", and notes that starting a fresh chat sometimes beats correcting one that has gone off track [@anthropic-fluency-prompting]. ==The model drafts; you decide what goes to the client.==
 
 ::: case Illustrative · Three hundred distributor complaints
 #### The situation

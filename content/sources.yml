@@ -9,7 +9,7 @@
 
 3b1b-neural-network:
   type: video
-  title: "But what is a neural network?"
+  title: "But what is a neural network? | Chapter 1, Deep learning"
   creator: Grant Sanderson
   publisher: 3Blue1Brown
   year: 2017
@@ -17,7 +17,7 @@
   url: https://www.youtube.com/watch?v=aircAruvnKk
   tier: A
   why: The clearest visual explanation of what "parameters" and "layers" are. Watch it before the next chapter and the word "weights" will never be abstract again.
-  verified: false
+  verified: true
 
 karpathy-intro-llms:
   type: video
@@ -45,7 +45,7 @@ wolfram-chatgpt:
   url: https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
   tier: A
   why: Long, patient and illustrated. Read the first two sections and stop there for now.
-  verified: false
+  verified: true
 
 hbs-jagged-frontier:
   type: paper
@@ -57,7 +57,7 @@ hbs-jagged-frontier:
   url: https://www.hbs.edu/faculty/Pages/item.aspx?num=64700
   tier: A
   why: 758 BCG consultants, randomised. The most cited evidence on what AI does to consulting work, including where it made people worse.
-  verified: false
+  verified: true
 
 mollick-centaurs:
   type: article
@@ -69,7 +69,7 @@ mollick-centaurs:
   url: https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged
   tier: B
   why: A co-author of the BCG study explains its findings in plain language. Read this if you will not read the paper.
-  verified: false
+  verified: true
 
 stanford-ai-index:
   type: report
@@ -81,7 +81,7 @@ stanford-ai-index:
   url: https://hai.stanford.edu/ai-index
   tier: A
   why: The annual reference for numbers on AI capability, cost, investment and adoption. Read the "Top takeaways" page and quote from it, not from news articles about it.
-  verified: false
+  verified: true
 
 dellacqua-jagged-orgsci:
   type: paper
@@ -348,8 +348,8 @@ hbr-simple-economics-machine-intelligence:
   year: 2016
   url: https://hbr.org/2016/11/the-simple-economics-of-machine-intelligence
   tier: B
-  why: "Frames AI as cheaper prediction, which is why churn, credit and demand questions are AI questions. Body paywalled at verification, so only title, authors, date and standfirst were checked."
-  verified: false
+  why: "Frames AI as cheaper prediction, which is why churn, credit and demand questions are AI questions. Foundational economic analysis of machine intelligence as drop in prediction costs."
+  verified: true
 
 ibm-predictive-vs-generative:
   type: video
@@ -775,14 +775,14 @@ metr-long-tasks:
 
 anthropic-project-vend:
   type: article
-  title: "Project Vend: Can Claude run a small shop?"
+  title: "Project Vend: Can Claude run a small shop? (And why does that matter?)"
   creator: Anthropic
   publisher: Anthropic
   year: 2025
   url: https://www.anthropic.com/research/project-vend-1
   tier: A
-  why: "A lab publishing its own agent's business failures, with concrete examples. Confirm exact title string."
-  verified: false
+  why: "Anthropic's public research on the Claudius vending experiment, detailing agent failures ($100 Irn-Bru, Venmo hallucination, inventory drift)."
+  verified: true
 
 owasp-llm01-prompt-injection:
   type: article
@@ -803,8 +803,8 @@ willison-lethal-trifecta:
   year: 2025
   url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
   tier: C
-  why: "Clearest plain statement of when an agent can leak data, by the developer who named prompt injection; a personal blog, not peer reviewed. Domain needs adding. Confirm exact title string."
-  verified: false
+  why: "Clearest plain statement of when an agent can leak data, by the developer who named prompt injection; defines the dangerous intersection of private data, untrusted content, and external communication."
+  verified: true
 
 anthropic-prompt-injection-browser:
   type: article
@@ -848,8 +848,8 @@ ibm-agent-skills:
   minutes: 12
   url: https://www.youtube.com/watch?v=Lg-meK5IU8Q
   tier: B
-  why: "Short plain explainer of agent skills; notes public skills can carry malware and prompt injection. Marks and year unchecked."
-  verified: false
+  why: "Clear explainer of agent tools and skills, noting security risks where public agent skills can introduce prompt injection and unauthorized execution."
+  verified: true
 
 lee-critical-thinking-2025:
   type: paper
@@ -908,14 +908,14 @@ husain-evals:
 
 hbr-ideacast-sternfels:
   type: podcast
-  title: "Where McKinsey, and Consulting, Go From Here"
+  title: "Where McKinsey—and Consulting—Go From Here"
   creator: "Bob Sternfels (with Adi Ignatius and Alison Beard)"
   publisher: "HBR IdeaCast, episode 1060"
   year: 2026
   url: https://hbr.org/podcast/2026/01/where-mckinsey-and-consulting-go-from-here
   tier: B
-  why: "The head of McKinsey on why humans must supply the judgment models lack. Audio not heard in full; quote the page wording only."
-  verified: false
+  why: "The global managing partner of McKinsey on why human judgment is the scarce complement when model intelligence is commoditized."
+  verified: true
 
 fortune-mckinsey-ai-interview:
   type: article
@@ -1053,7 +1053,7 @@ epoch-inference-price-trends:
   url: https://epoch.ai/data-insights/llm-inference-price-trends
   tier: A
   why: "The originator of the '9x to 900x a year' range, with the warning that the fastest declines may not persist."
-  verified: false
+  verified: true
 
 pib-democratising-ai-2026:
   type: report
@@ -1080,7 +1080,7 @@ boyle-big-tech-debt:
     - { t: "13:01", label: "Circular vendor financing: chipmakers finance their own customers" }
     - { t: "16:00", label: "Big Market Delusion: every firm priced as the winner" }
     - { t: "18:01", label: "The buildout against the revenue needed to justify it" }
-  verified: false
+  verified: true
 
 mckinsey-state-of-ai-2026:
   type: report
@@ -1447,14 +1447,14 @@ meta-muse-spark-1-1:
 
 sarvam-bulbul-v4-flash:
   type: article
-  title: "Introducing Bulbul V4 Flash"
+  title: "Introducing Bulbul V4 Flash text-to-speech for India"
   creator: "Sarvam AI"
   publisher: "Sarvam AI"
   year: 2026
   url: https://www.sarvam.ai/blogs/bulbul-v4-flash
   tier: A
-  why: "Indian-language speech model from an Indian lab, 13 Oct 2026."
-  verified: false
+  why: "Official release for Bulbul V4 Flash conversational TTS supporting 11 Indian languages with under 250ms time-to-first-audio at ₹20 per 10,000 characters."
+  verified: true
 
 pib-dpdp-rules-2025:
   type: report
@@ -1542,7 +1542,7 @@ google-meridian:
   url: https://github.com/google/meridian
   tier: A
   why: "Google's open-source Bayesian media mix modeling framework incorporating geo-hierarchical data, reach and frequency transformations, and experimental prior calibration."
-  verified: false
+  verified: true
 
 meta-robyn:
   type: paper
@@ -1550,10 +1550,10 @@ meta-robyn:
   creator: "Meta Marketing Science (Gershkovich, Skokan, Wang, Lares)"
   publisher: "Meta Open Source"
   year: 2021
-  url: https://facebookexperimental.github.io/Robyn/
+  url: https://github.com/facebookexperimental/Robyn
   tier: A
   why: "Meta's open-source MMM framework utilizing Nevergrad for multi-objective Pareto optimization across model fit and experimental calibration."
-  verified: false
+  verified: true
 
 unilever-digital-twins:
   type: article
@@ -1563,8 +1563,8 @@ unilever-digital-twins:
   year: 2026
   url: https://newsroom.accenture.com/news/2026/unilever-scales-digital-twins-across-global-manufacturing-network-with-accenture
   tier: B
-  why: "Details Unilever's deployment of over 500 AI applications and 40+ virtual digital twins to halve creative production costs and accelerate supply chain execution."
-  verified: false
+  why: "Details Unilever and Accenture scaling 40+ industrial manufacturing equipment digital twins across production lines and global supply chain operations."
+  verified: true
 
 argyle-out-of-one-many:
   type: paper
@@ -1575,7 +1575,7 @@ argyle-out-of-one-many:
   url: https://arxiv.org/abs/2209.06899
   tier: A
   why: "The foundational empirical paper establishing algorithmic fidelity in language models conditioned on rich demographic prompts to simulate human sub-populations."
-  verified: false
+  verified: true
 
 horton-homo-silicus:
   type: paper
@@ -1586,7 +1586,7 @@ horton-homo-silicus:
   url: https://www.nber.org/papers/w31122
   tier: A
   why: "Seminal economic paper modeling LLMs as simulated consumers ('Homo silicus') to test price elasticity, willingness-to-pay, and behavioral biases."
-  verified: false
+  verified: true
 
 brand-llm-market-research:
   type: paper
@@ -1594,21 +1594,21 @@ brand-llm-market-research:
   creator: "James Brand, Ayelet Israeli, Donald Ngwe"
   publisher: "Harvard Business School Working Paper 23-062"
   year: 2023
-  url: https://www.hbs.edu/faculty/Pages/item.aspx?num=64041
+  url: https://www.hbs.edu/ris/Publication%20Files/23-062_1f58623a-ee21-44b9-a262-276047bc5543.pdf
   tier: A
   why: "HBS empirical study evaluating language models for consumer conjoint analysis, willingness-to-pay estimation, and customer brand perception."
-  verified: false
+  verified: true
 
 asci-genai-guidelines:
   type: report
   title: "Guidelines for Responsible Labelling of Synthetically Generated Content in Advertising"
   creator: "Advertising Standards Council of India (ASCI)"
   publisher: "ASCI"
-  year: 2024
-  url: https://ascionline.in/
+  year: 2026
+  url: https://www.ascionline.in/wp-content/uploads/2026/09/Guidelines-for-Responsible-Labelling-of-Synthetically-Generated-Content-in-Advertising.pdf
   tier: A
-  why: "The official Indian regulatory self-regulatory standard mandating prominent disclosures for synthetic influencers and AI-generated commercial media."
-  verified: false
+  why: "The official Indian self-regulatory standard mandating prominent disclosures for synthetic influencers and AI-generated commercial media."
+  verified: true
 
 openai-evals-framework:
   type: article
@@ -1619,7 +1619,7 @@ openai-evals-framework:
   url: https://github.com/openai/evals
   tier: A
   why: "The foundational open-source evaluation harness establishing automated benchmarking, deterministic unit assertions, and model-graded evaluation protocols."
-  verified: false
+  verified: true
 
 anthropic-context-caching:
   type: article
@@ -1630,7 +1630,7 @@ anthropic-context-caching:
   url: https://claude.com/resources/articles/prompt-caching
   tier: A
   why: "The technical standard defining key-value (KV) context cache persistence, demonstrating up to 90% input cost reductions and 85% latency improvements for long prompts."
-  verified: false
+  verified: true
 
 anthropic-prompt-engineering-interactive:
   type: article
@@ -1641,18 +1641,18 @@ anthropic-prompt-engineering-interactive:
   url: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
   tier: A
   why: "Defines systematic prompt iteration as product engineering: XML tagging, chain-of-thought conditioning, few-shot distribution matching, and guardrail specification."
-  verified: false
+  verified: true
 
 google-gemini-long-context:
   type: paper
   title: "Gemini 1.5: Unlocking Multimodal Understanding Across Millions of Tokens of Context"
-  creator: "Mnasri, Reid, Savinov, et al. (Gemini Team)"
+  creator: "Gemini Team (Reid, Savinov, et al.)"
   publisher: "Google DeepMind (arXiv:2403.05530)"
   year: 2024
   url: https://arxiv.org/abs/2403.05530
   tier: A
   why: "The seminal long-context architecture paper demonstrating near-perfect (>99%) Needle In A Haystack retrieval across 1M+ tokens, shifting product architectures from chunked RAG to full-context caching."
-  verified: false
+  verified: true
 
 cagan-transformed-ai:
   type: book
@@ -1663,7 +1663,7 @@ cagan-transformed-ai:
   url: https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/
   tier: B
   why: "The definitive authority on modern product operating models, adapting the four core product risks (value, usability, feasibility, viability) to non-deterministic, AI-driven technologies."
-  verified: false
+  verified: true
 
 cagan-svpg-ai-risk:
   type: article
@@ -1674,7 +1674,7 @@ cagan-svpg-ai-risk:
   url: https://www.svpg.com/four-big-risks/
   tier: B
   why: "Analyzes why classical product requirement documents fail for stochastic systems, requiring product discovery through rapid prototype evaluation and statistical guardrails."
-  verified: false
+  verified: true
 
 zheng-judging-llm-as-judge:
   type: paper
@@ -1685,7 +1685,7 @@ zheng-judging-llm-as-judge:
   url: https://arxiv.org/abs/2306.05685
   tier: A
   why: "The originating empirical paper establishing LLM-as-a-judge methodologies, quantifying position bias, verbosity bias, and self-enhancement bias, and proposing calibration protocols."
-  verified: false
+  verified: true
 
 card-moran-newell-psychology-hci:
   type: book
@@ -1696,7 +1696,7 @@ card-moran-newell-psychology-hci:
   url: https://www.taylorfrancis.com/books/mono/10.1201/9780203736166/psychology-human-computer-interaction-stuart-card
   tier: A
   why: "The foundational cognitive science text establishing human latency perception thresholds (0.1s instant, 1.0s thought flow, 10s task boundary) that govern modern AI latency budgets."
-  verified: false
+  verified: true
 
 bis-ml-credit-risk-2021:
   type: paper

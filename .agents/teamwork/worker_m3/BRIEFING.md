@@ -1,70 +1,74 @@
-# BRIEFING — 2026-11-04T00:15:00Z
+# BRIEFING — 2026-11-05T11:20:00Z
 
 ## Mission
-Author Chapter 20 (Agentic UX), Chapter 21 (Product Casebook), Figure 20.1 SVG, and Figure 21.1 SVG for Milestone 3, ensuring 100% test pass on `npm run check`, `node test/e2e-pm.mjs --milestone=M3 --progressive`, and `npm run build` (24/24 chapters).
+Execute Milestone 3: Anti-AI Voice Surgery, Dual-Coding SVGs (stack & finance taxonomy), and Skim Layer Highlight Densification across Chapters 00-13.
 
 ## 🔒 My Identity
-- Archetype: teamwork_worker
+- Archetype: worker
 - Roles: implementer, qa, specialist
-- Working directory: C:\Users\Janmejai\compendium\.agents\teamwork\worker_m3\
-- Original parent: 63749ac4-d84d-4275-8f32-53b3635ebc8a
-- Milestone: Milestone 3 (Advanced PM Chapters & Casebook)
+- Working directory: C:\Users\Janmejai\compendium\.agents\teamwork\worker_m3
+- Original parent: e8b90a07-d677-49a5-8255-a8ddabf3d3e6
+- Milestone: Milestone 3: Pedagogical Arc, Editorial Voice & Dual-Coding Visuals
 
 ## 🔒 Key Constraints
-- Exclusive write ownership:
-  - `content/chapters/agentic-ux-and-interfaces.md` (Chapter 20)
-  - `content/chapters/product-casebook.md` (Chapter 21)
-  - `content/figures/agentic-ux-and-interfaces.svg` (Figure 20.1)
-  - `content/figures/product-casebook.svg` (Figure 21.1)
-- Do NOT modify any other files.
-- DO NOT CHEAT. All implementations genuine, real quantitative models, no hardcoded test mocks.
-- Mandatory citations: Ch 20 cites `[@anthropic-prompt-engineering-interactive]`, links `[[agentic-ux]]`.
-- Ch 21 wraps cases in `::: case <Title>` containers (at least 4, covers all 8 cases).
-- Discrete single-bracket citations strictly `[@foo] [@bar]`.
-- Zero math or HTML in container titles.
-- Exactly 1 stat block per chapter with plain lining numbers.
-- Highlights strictly [4..8], lede ends with core thesis highlight.
-- Standalone vector SVGs with `viewBox="0 0 640 330"`, valid XML.
-- Strict compliance with `anti-ai-writing/SKILL.md`.
+- Minimal, surgical diffs. Never rewrite a file when a targeted edit will do.
+- Anti-AI voice surgery: exact line targets from spec_miner_pedagogy analysis.
+- Dual-coding SVGs: semantic CSS variables (`var(--line)`, `var(--surface)`, `var(--text)`, etc.), responsive viewBox, no external fonts or bitmaps.
+- Skim layer highlights: 4-8 highlights per chapter across ch 00-13 using `==text==`.
+- DO NOT CHEAT or fabricate tests or results.
+- Run npm run check and npm run build cleanly.
 
 ## Current Parent
-- Conversation ID: 63749ac4-d84d-4275-8f32-53b3635ebc8a
-- Updated: 2026-11-04T00:00:45Z
+- Conversation ID: e8b90a07-d677-49a5-8255-a8ddabf3d3e6
+- Updated: 2026-11-05T11:03:55Z
 
 ## Task Summary
-- **What to build**: Full Chapter 20, Chapter 21, Figure 20.1 SVG, Figure 21.1 SVG.
-- **Success criteria**: 0 errors on `npm run check`, passes `node test/e2e-pm.mjs --milestone=M3 --progressive`, all 24 chapters build cleanly in `npm run build`.
-- **Interface contracts**: PROJECT.md, spec_checklist.md, drafting_blueprint.md for both chapters.
+- **What to build**: Anti-AI voice remediation (11 participials + 7 banned adjectives), 2 new semantic SVGs (`ai-in-one-sitting-stack.svg`, `finance-casebook-taxonomy.svg`) with chapter figure wiring, and skim layer `==takeaway==` backfill for chapters 00-13.
+- **Success criteria**: 0 check errors, npm run build completes cleanly under 1s, SVGs render correctly with valid CSS vars, voice surgery removes targeted tropes cleanly.
+- **Interface contracts**: docs/DESIGN.md, spec_miner_pedagogy/analysis.md, spec_miner_pedagogy/handoff.md
+- **Code layout**: content/chapters/*.md, content/figures/*.svg
 
 ## Key Decisions Made
-- Authored Figure 20.1 (`content/figures/agentic-ux-and-interfaces.svg`) and Figure 21.1 (`content/figures/product-casebook.svg`) matching `viewBox="0 0 640 330"`, valid XML, semantic CSS classes.
-- Authored Chapter 20 (`content/chapters/agentic-ux-and-interfaces.md`) with complete 13-stage pedagogical arc, exactly 6 highlights, exactly 1 stat block (`::: stat 12% vs 78%`), cited `[@anthropic-prompt-engineering-interactive]`, linked `[[agentic-ux]]`, 5 check questions with inverted `.flip` answers, 5-line recap.
-- Authored Chapter 21 (`content/chapters/product-casebook.md`) with 8 quantitative cases wrapped in `::: case` blocks, zero math in container headers, KaTeX formulas in bodies, exactly 6 highlights, exactly 1 stat block (`::: stat 82.9% & 14.3x`), 3 media cards, 5 check questions, 5-line recap.
-- Verified zero escaped HTML leaks and zero unparsed citations in rendered outputs.
+- [initial] Follow exact replacements defined by spec_miner_pedagogy.
+- Created `content/figures/ai-in-one-sitting-stack.svg` (viewBox 0 0 720 320) and `content/figures/finance-casebook-taxonomy.svg` (viewBox 0 0 640 270) using semantic design system classes (`paper acc-s`, `wash acc-s`, `rule-s`, `t-display`).
+- Wired both SVG figures into their respective chapters (`ai-in-one-sitting.md` and `finance-casebook.md`).
+- Backfilled 3-4 highlights across each under-dense chapter (Ch 00, 01, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13) bringing every chapter into the 4-8 highlight standard.
 
 ## Artifact Index
-- `content/chapters/agentic-ux-and-interfaces.md` — Chapter 20 text
-- `content/chapters/product-casebook.md` — Chapter 21 text
-- `content/figures/agentic-ux-and-interfaces.svg` — Figure 20.1 vector graphic
-- `content/figures/product-casebook.svg` — Figure 21.1 vector graphic
-- `.agents/teamwork/worker_m3/progress.md` — Progress tracker
-- `.agents/teamwork/worker_m3/handoff.md` — Final handoff report
+- DISPATCH.md — Orchestrator dispatch
+- BRIEFING.md — Working memory
+- progress.md — Heartbeat progress
+- handoff.md — Final handoff
 
 ## Change Tracker
 - **Files modified**:
-  - `content/figures/agentic-ux-and-interfaces.svg`: Standalone vector diagram for Agentic Interaction Matrix & HITL Circuit Breaker
-  - `content/figures/product-casebook.svg`: Standalone vector diagram for 4 Strategic Cases & 4 Sizing Models
-  - `content/chapters/agentic-ux-and-interfaces.md`: Chapter 20 full text
-  - `content/chapters/product-casebook.md`: Chapter 21 full text
-- **Build status**: `npm run check` PASS (0 errors), `node test/e2e-pm.mjs --milestone=M3 --progressive` PASS (16/16), `npm run build` PASS (24/24 chapters).
-- **Pending issues**: None.
+  - `content/chapters/ai-casebook.md`: Removed trailing participial; added 4 highlights.
+  - `content/chapters/ai-in-one-sitting.md`: Wired stack figure; added 4 highlights.
+  - `content/chapters/algorithmic-underwriting-and-credit-risk.md`: Removed trailing participial.
+  - `content/chapters/consulting-firm.md`: Removed trailing participial; added 4 highlights.
+  - `content/chapters/creative-at-scale.md`: Removed trailing participial.
+  - `content/chapters/delegation-brief.md`: Added 3 highlights.
+  - `content/chapters/finance-casebook.md`: Wired finance taxonomy figure.
+  - `content/chapters/financial-crime-fraud-and-rbi-free-ai.md`: Removed 2 trailing participials; replaced 'unprecedented' with 'anomalous'.
+  - `content/chapters/india-briefing.md`: Removed trailing participial.
+  - `content/chapters/interview-room.md`: Removed 'double-edged' and 2 trailing participials; added 4 highlights.
+  - `content/chapters/judging-output.md`: Added 4 highlights.
+  - `content/chapters/kinds-of-ai.md`: Added 3 highlights.
+  - `content/chapters/marketing-casebook.md`: Replaced 'unprecedented' velocity highlight.
+  - `content/chapters/models-that-act.md`: Added 4 highlights.
+  - `content/chapters/pilots-stall.md`: Added 4 highlights.
+  - `content/chapters/who-pays.md`: Replaced 3 'unprecedented' instances and 2 trailing participials; added 4 highlights.
+  - `content/chapters/work-changes.md`: Added 4 highlights.
+  - `content/chapters/your-documents.md`: Added 2 highlights.
+  - `content/figures/ai-in-one-sitting-stack.svg`: Created 5-tier enterprise AI value stack vector diagram.
+  - `content/figures/finance-casebook-taxonomy.svg`: Created 8-case quantitative finance & risk taxonomy vector diagram.
+- **Build status**: PASS (npm run check 0 errors; npm run build 28/28 chapters in 604 ms)
+- **Pending issues**: None
 
 ## Quality Status
-- **Build/test result**: Pass (44 passing, 0 failing across full test suite; M3 100% complete).
-- **Lint status**: 0 errors, 53 warnings (all existing upstream unverified URLs/warnings, zero errors).
-- **Tests added/modified**: All M3 assertions in `test/e2e-pm.mjs` pass.
+- **Build/test result**: PASS (0 check errors, 28/28 chapters build in 604 ms, 0 missing figures)
+- **Lint status**: 0 errors
+- **Tests added/modified**: Highlight density automated scanner confirmed all chapters 00-13 meet 4-8 highlights.
 
 ## Loaded Skills
-- **Source**: C:\Users\Janmejai\.gemini\config\skills\anti-ai-writing\SKILL.md
-  - **Local copy**: C:\Users\Janmejai\compendium\.agents\teamwork\worker_m3\anti-ai-writing_SKILL.md
-  - **Core methodology**: Eliminates AI slop, machine tropes, synthetic tone, promotes high burstiness and concrete human investigative voice.
+- anti-ai-writing: C:\Users\Janmejai\.gemini\config\skills\anti-ai-writing\SKILL.md

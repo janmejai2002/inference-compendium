@@ -1,0 +1,135 @@
+[
+  {
+    "file": "ai-casebook.md",
+    "lineNum": 206,
+    "tag": "trailing -ing",
+    "match": ", reflecting",
+    "lineText": "- **Sanity Check:** 115 million prompts across 1.4 billion people represents roughly 0.08 prompts per capita daily, reflecting India's status as a high absolute volume market with low per-capita saturation (Anthropic ranks India 101st out of 116 countries per capita) [@anthropic-india-brief]."
+  },
+  {
+    "file": "ai-product-lifecycle.md",
+    "lineNum": 199,
+    "tag": "transformative",
+    "match": "transformative",
+    "lineText": "\"Our transformative enterprise platform leverages advanced multi-agent reinforcement learning topologies to dynamically optimize hyper-local supply chain telemetry. By synthesizing real-time traffic congestion vectors, historical delivery nodal bottlenecks, and predictive merchant replenishment signals, we unlock unprecedented operational efficiencies. Our comprehensive end-to-end dashboard empowers dispatch managers with deep visibility, ultimately driving down last-mile fulfillment expenses while fostering sustainable partner retention.\""
+  },
+  {
+    "file": "ai-product-lifecycle.md",
+    "lineNum": 199,
+    "tag": "unprecedented",
+    "match": "unprecedented",
+    "lineText": "\"Our transformative enterprise platform leverages advanced multi-agent reinforcement learning topologies to dynamically optimize hyper-local supply chain telemetry. By synthesizing real-time traffic congestion vectors, historical delivery nodal bottlenecks, and predictive merchant replenishment signals, we unlock unprecedented operational efficiencies. Our comprehensive end-to-end dashboard empowers dispatch managers with deep visibility, ultimately driving down last-mile fulfillment expenses while fostering sustainable partner retention.\""
+  },
+  {
+    "file": "algorithmic-underwriting-and-credit-risk.md",
+    "lineNum": 225,
+    "tag": "trailing -ing",
+    "match": ", ensuring",
+    "lineText": "3. **Data Sovereignty and Covariate Shift:** Audit the training dataset for out-of-time (OOT) validation across a full credit cycle. Telemetry signals that perform well in liquidity booms break during interest rate tightening. Enforce compliance with the Digital Personal Data Protection (DPDP) Act, ensuring personal device data is neither harvested nor stored."
+  },
+  {
+    "file": "consulting-firm.md",
+    "lineNum": 76,
+    "tag": "trailing -ing",
+    "match": ", demonstrating",
+    "lineText": "- **BCG's AI Engagements:** In May 2026, BCG Chief Executive Christoph Schweizer stated in the Wall Street Journal that for the majority (approximately three-quarters) of the firm's largest AI implementation cases, BCG operated under variable-fee or outcome-linked contracts [@wsj-bcg-schweizer-fees]. Across the firm's entire book of business, outcome-based pricing remained significantly below one-third, demonstrating that while the transition is rapid in technology cases, traditional advisory retains fixed-fee foundations [@wsj-bcg-schweizer-fees]."
+  },
+  {
+    "file": "creative-at-scale.md",
+    "lineNum": 156,
+    "tag": "trailing -ing",
+    "match": ", ensuring",
+    "lineText": "- An in-house creative technologist used Blender and OpenUSD to create a photorealistic 3D digital twin of the Ayurvedic oil bottle, ensuring exact packaging reflections and label typography."
+  },
+  {
+    "file": "financial-crime-fraud-and-rbi-free-ai.md",
+    "lineNum": 224,
+    "tag": "trailing -ing",
+    "match": ", highlighting",
+    "lineText": "2. **Entity Relationship Map:** A tabular breakdown of primary and secondary counter-parties, highlighting shared device fingerprints and rapid balance drainage."
+  },
+  {
+    "file": "financial-crime-fraud-and-rbi-free-ai.md",
+    "lineNum": 255,
+    "tag": "trailing -ing",
+    "match": ", ensuring",
+    "lineText": "| **Sutra 6** | **Privacy & Data Governance** | Enforces purpose limitation, data minimization, and strict storage localization on Indian soil, ensuring full compliance with the Digital Personal Data Protection Act. |"
+  },
+  {
+    "file": "financial-crime-fraud-and-rbi-free-ai.md",
+    "lineNum": 316,
+    "tag": "unprecedented",
+    "match": "unprecedented",
+    "lineText": "2. **Community Density & Velocity Scoring:** The GNN calculates an unprecedented spike in graph community density ($> 0.82$) paired with an extreme liquidity velocity: $R_{\\text{velocity}} = 0.994$ over $\\Delta t < 90\\text{ seconds}$ across 3,680 interconnected accounts. The model identifies that over 80% of these accounts share common device fingerprints and IP subnets in an offshore cluster."
+  },
+  {
+    "file": "india-briefing.md",
+    "lineNum": 95,
+    "tag": "trailing -ing",
+    "match": ", ensuring",
+    "lineText": "3. *FREE-AI accountability:* Adhering to the RBI Sutras, the credit committee appoints a designated Chief Risk Officer as the named owner of automated underwriting decisions, ensuring automated rejections include specific adverse financial factors [@rbi-free-ai-2025]."
+  },
+  {
+    "file": "interview-room.md",
+    "lineNum": 112,
+    "tag": "double-edged",
+    "match": "double-edged",
+    "lineText": "Placement committees and campus recruiters view AI as a double-edged operational tool. While resume parsers compress candidate shortlisting timelines from weeks to hours, talent heads remain wary of homogenized applications generated by ChatGPT. Resumes containing distinctive, auditable metrics routinely beat generic, AI-generated prose."
+  },
+  {
+    "file": "interview-room.md",
+    "lineNum": 221,
+    "tag": "trailing -ing",
+    "match": ", ensuring",
+    "lineText": "- **The strong structure:** Address both operational credit risk and ethical consumer rights. While proprietary risk algorithms protect lenders against fraud, unexplainable \"black-box\" rejections violate fundamental principles of financial fairness. Under Reserve Bank of India governance guidelines and global credit norms, borrowers are entitled to know key factors contributing to an adverse credit determination, ensuring redress against flawed training data."
+  },
+  {
+    "file": "interview-room.md",
+    "lineNum": 234,
+    "tag": "trailing -ing",
+    "match": ", ensuring",
+    "lineText": "4. *Document sign-off:* Highlight the exact assumptions requiring client CFO validation, ensuring the engagement team explicitly owns every recommendation."
+  },
+  {
+    "file": "marketing-casebook.md",
+    "lineNum": 535,
+    "tag": "unprecedented",
+    "match": "unprecedented",
+    "lineText": "==Synthetic consumer panels offer unprecedented velocity for linguistic and conceptual screening, but they cannot simulate physical sensory experience, cash liquidity constraints, or the status signaling inherent in discretionary spending.=="
+  },
+  {
+    "file": "who-pays.md",
+    "lineNum": 44,
+    "tag": "unprecedented",
+    "match": "unprecedented",
+    "lineText": "The same dynamic governs [[inference-cost|inference costs]]. When querying a model cost several cents per call, companies used AI selectively for high-value executive summaries. When cost dropped to pennies per thousand queries, developers embedded AI into real-time search, automated customer service agents, background code compilation, and continuous data processing. Cheaper tokens increased total demand by orders of magnitude, requiring hyperscalers to expand their physical infrastructure at an unprecedented pace."
+  },
+  {
+    "file": "who-pays.md",
+    "lineNum": 67,
+    "tag": "trailing -ing",
+    "match": ", demonstrating",
+    "lineText": "- **Microsoft:** For its fiscal first quarter 2027 (ended September 2026), Microsoft reported additions to property and equipment of $39.4 billion, more than double the $19.4 billion spent in the same quarter a year earlier [@microsoft-fy27-q1]. Azure revenue reached $33.2 billion, up 48% [@microsoft-fy27-q1]. Microsoft also reported a commercial [[remaining-performance-obligation|remaining performance obligation]] (contracted future revenue backlog) of $677 billion, up 73%, demonstrating why the company continues to build capacity [@microsoft-fy27-q1]."
+  },
+  {
+    "file": "who-pays.md",
+    "lineNum": 80,
+    "tag": "unprecedented",
+    "match": "unprecedented",
+    "lineText": "**Misconception.** \"Because cloud AI is sold as opex to businesses, the whole AI boom is capital-light.\" Enterprise software buyers treat AI as opex, but hyperscalers must make unprecedented capex investments to supply that compute. The capital intensity was not eliminated; it was shifted onto the cloud providers' balance sheets."
+  },
+  {
+    "file": "who-pays.md",
+    "lineNum": 118,
+    "tag": "trailing -ing",
+    "match": ", highlighting",
+    "lineText": "The developer projects rapid revenue growth from rising enterprise AI demand, highlighting a planned 120-megawatt (MW) campus, land parcels, and utility MoUs."
+  },
+  {
+    "file": "who-pays.md",
+    "lineNum": 210,
+    "tag": "unprecedented",
+    "match": "unprecedented",
+    "lineText": "3. Hyperscalers are funding the buildout with unprecedented cash commitments: Alphabet spent $51.4B on capex in Q3 2026, pushing quarterly free cash flow negative (-$9.07B), while Amazon projected $220B in 2026 capex."
+  }
+]

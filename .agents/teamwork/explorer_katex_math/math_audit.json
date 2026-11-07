@@ -1,0 +1,2760 @@
+{
+  "ai-in-one-sitting.md": [
+    {
+      "line": 69,
+      "type": "display-single",
+      "content": "\\text{Inference Cost} = \\text{Total API Calls} \\times (\\text{Input Tokens} \\times P_{\\text{in}} + \\text{Output Tokens} \\times P_{\\text{out}})"
+    },
+    {
+      "line": 153,
+      "type": "display-single",
+      "content": "\\text{System Success Rate} = p^n"
+    },
+    {
+      "line": 155,
+      "type": "inline-equation",
+      "content": "p = 0.95"
+    },
+    {
+      "line": 155,
+      "type": "inline-equation",
+      "content": "0.95^{12} \\approx 0.540"
+    },
+    {
+      "line": 189,
+      "type": "inline-equation",
+      "content": "9 + 999 = 1,008"
+    },
+    {
+      "line": 190,
+      "type": "inline-equation",
+      "content": "\\frac{9}{1,008} \\approx 0.89\\%"
+    },
+    {
+      "line": 277,
+      "type": "inline-equation",
+      "content": "0.96^{10} \\approx 0.6648"
+    }
+  ],
+  "judging-output.md": [
+    {
+      "line": 80,
+      "type": "inline-equation",
+      "content": "0.05 \\times 980 = 49"
+    },
+    {
+      "line": 96,
+      "type": "display-single",
+      "content": "\\text{Precision} = \\frac{\\text{True Positives}}{\\text{True Positives} + \\text{False Positives}} = \\frac{18}{18 + 49} = \\frac{18}{67} \\approx 0.269 \\quad (26.9\\%)"
+    },
+    {
+      "line": 159,
+      "type": "inline-equation",
+      "content": "0.06 \\times 4,950 = 297"
+    },
+    {
+      "line": 160,
+      "type": "inline-equation",
+      "content": "46 + 297 = 343"
+    },
+    {
+      "line": 161,
+      "type": "inline-equation",
+      "content": "46 / 343 \\approx 13.4\\%"
+    },
+    {
+      "line": 191,
+      "type": "inline-equation",
+      "content": "18 / 67 \\approx 27\\%"
+    },
+    {
+      "line": 236,
+      "type": "inline-equation",
+      "content": "0.90 \\times 100 = 90"
+    },
+    {
+      "line": 236,
+      "type": "inline-equation",
+      "content": "0.08 \\times 9,900 = 792"
+    },
+    {
+      "line": 236,
+      "type": "inline-equation",
+      "content": "90 + 792 = 882"
+    },
+    {
+      "line": 236,
+      "type": "inline-equation",
+      "content": "90 / 882 \\approx 0.102"
+    }
+  ],
+  "who-pays.md": [
+    {
+      "line": 50,
+      "type": "inline-equation",
+      "content": "\\text{Total Spend} = \\text{Price} \\times \\text{Volume}"
+    }
+  ],
+  "ai-casebook.md": [
+    {
+      "line": 154,
+      "type": "display-single",
+      "content": "\\text{Cost per query} = (2{,}000 \\times \\$0.000002) + (500 \\times \\$0.000010) = \\$0.004 + \\$0.005 = \\$0.009\\text{ (approx. ₹0.75)}"
+    },
+    {
+      "line": 155,
+      "type": "display-single",
+      "content": "\\text{Daily API Bill} = 1{,}500{,}000 \\times ₹0.75 = ₹11{,}25{,}000\\text{ (₹41 crore annually)}"
+    },
+    {
+      "line": 157,
+      "type": "display-single",
+      "content": "\\text{Daily GPU Cost} = 64 \\times 24 \\times ₹65 = ₹99{,}840\\text{ (approx. ₹3.65 crore annually)}"
+    },
+    {
+      "line": 170,
+      "type": "display-single",
+      "content": "\\text{Cost per doubt} = (3{,}000 \\times ₹0.0000002) + (1{,}200 \\times ₹0.0000008) = ₹0.0006 + ₹0.00096 = ₹0.00156"
+    },
+    {
+      "line": 171,
+      "type": "display-single",
+      "content": "\\text{Monthly compute cost per power user} = 360 \\times ₹0.00156 \\approx ₹0.56"
+    },
+    {
+      "line": 195,
+      "type": "display-single",
+      "content": "\\text{Daily Prompts} = \\text{Addressable Base} \\times \\text{Adoption Rate} \\times \\text{Daily Active Share} \\times \\text{Prompts per Active User}"
+    },
+    {
+      "line": 205,
+      "type": "inline-equation",
+      "content": "31.4\\text{ million} + 84.0\\text{ million} = 115.4\\text{ million prompts per day}"
+    },
+    {
+      "line": 211,
+      "type": "display-single",
+      "content": "\\text{Monthly Bill} = \\text{Analysts} \\times \\text{Memos/Month} \\times \\text{Tokens/Memo} \\times \\text{Blended Token Price}"
+    },
+    {
+      "line": 215,
+      "type": "display-single",
+      "content": "\\text{Input Tokens per Memo} = 120 \\times 400 \\times 1.3 = 62{,}400\\text{ tokens}"
+    },
+    {
+      "line": 218,
+      "type": "display-single",
+      "content": "\\text{Output Tokens per Memo} = 8 \\times 400 \\times 1.3 \\approx 4{,}160\\text{ tokens (round to 4,500)}"
+    },
+    {
+      "line": 220,
+      "type": "inline-equation",
+      "content": "7{,}200 \\times 75{,}000 = 540\\text{ million input tokens}"
+    },
+    {
+      "line": 221,
+      "type": "inline-equation",
+      "content": "7{,}200 \\times 4{,}500 = 32.4\\text{ million output tokens}"
+    },
+    {
+      "line": 223,
+      "type": "display-single",
+      "content": "\\text{Input Cost} = 540 \\times \\$2.00 = \\$1{,}080"
+    },
+    {
+      "line": 224,
+      "type": "display-single",
+      "content": "\\text{Output Cost} = 32.4 \\times \\$10.00 = \\$324"
+    },
+    {
+      "line": 225,
+      "type": "display-single",
+      "content": "\\text{Total Raw Monthly API Cost} = \\$1{,}404\\text{ (approx. ₹1,18,000)}"
+    },
+    {
+      "line": 232,
+      "type": "display-single",
+      "content": "\\text{Required GPUs} = \\frac{\\text{Peak Tokens per Second}}{\\text{Tokens per Second per GPU}}"
+    },
+    {
+      "line": 236,
+      "type": "display-single",
+      "content": "\\text{Peak Queries per Hour} = \\frac{20{,}000{,}000}{4} = 5{,}000{,}000\\text{ queries/hour}"
+    },
+    {
+      "line": 237,
+      "type": "display-single",
+      "content": "\\text{Peak Queries per Second} = \\frac{5{,}000{,}000}{3{,}600} \\approx 1{,}389\\text{ queries/second}"
+    },
+    {
+      "line": 239,
+      "type": "display-single",
+      "content": "\\text{Aggregate Output Throughput} = 1{,}389 \\times 40 = 55{,}560\\text{ output tokens/second}"
+    },
+    {
+      "line": 242,
+      "type": "display-single",
+      "content": "\\text{Required 8-GPU Nodes} = \\frac{55{,}560}{1{,}200} \\approx 46.3\\text{ nodes (round to 48 nodes)}"
+    },
+    {
+      "line": 243,
+      "type": "display-single",
+      "content": "\\text{Total Active GPUs} = 48 \\times 8 = 384\\text{ GPUs}"
+    },
+    {
+      "line": 245,
+      "type": "display-single",
+      "content": "\\text{Total Provisioned GPUs} \\approx 480\\text{ GPUs}"
+    },
+    {
+      "line": 251,
+      "type": "display-single",
+      "content": "\\text{Power Share} = \\frac{\\text{Total GPU Cluster Power Consumption (MW)}}{\\text{Total Operational Indian Data Centre Capacity (MW)}}"
+    },
+    {
+      "line": 257,
+      "type": "display-single",
+      "content": "\\text{Direct IT Power} = 38{,}000 \\times 1.28\\text{ kW} = 48{,}640\\text{ kW} \\approx 48.64\\text{ MW}"
+    },
+    {
+      "line": 259,
+      "type": "display-single",
+      "content": "\\text{Total Facility Power Draw} = 48.64\\text{ MW} \\times 1.40 \\approx 68.1\\text{ MW}"
+    },
+    {
+      "line": 261,
+      "type": "display-single",
+      "content": "\\text{Share of National Capacity} = \\frac{68.1\\text{ MW}}{1{,}789\\text{ MW}} \\approx 3.81\\%"
+    },
+    {
+      "line": 267,
+      "type": "display-single",
+      "content": "\\text{Annual TAM} = \\text{Addressable White-Collar Workers} \\times \\text{Enterprise Adoption Share} \\times \\text{Annual Seat Price}"
+    },
+    {
+      "line": 274,
+      "type": "display-single",
+      "content": "\\text{Annual TAM} = 3{,}500{,}000\\text{ seats} \\times ₹21{,}600/\\text{year} = ₹75{,}600{,}000{,}000\\text{ (₹7,560 crore or approx. \\$900M)}"
+    },
+    {
+      "line": 280,
+      "type": "display-single",
+      "content": "\\text{Net Hours Saved} = \\text{Junior Staff} \\times \\text{Annual Working Hours} \\times \\text{Gross Speedup} \\times \\text{Net Capacity Capture Rate}"
+    },
+    {
+      "line": 284,
+      "type": "inline-equation",
+      "content": "3{,}000 \\times 2{,}400 = 7{,}200{,}000\\text{ total working hours annually}"
+    },
+    {
+      "line": 286,
+      "type": "display-single",
+      "content": "\\text{Exposed Hours} = 7{,}200{,}000 \\times 0.40 = 2{,}880{,}000\\text{ hours}"
+    },
+    {
+      "line": 287,
+      "type": "display-single",
+      "content": "\\text{Gross Time Saved} = 2{,}880{,}000 \\times 0.251 \\approx 722{,}880\\text{ hours}"
+    },
+    {
+      "line": 289,
+      "type": "display-single",
+      "content": "\\text{Net Reclaimed Productive Hours} = 722{,}880 \\times 0.35 \\approx 253{,}000\\text{ hours annually}"
+    },
+    {
+      "line": 295,
+      "type": "display-single",
+      "content": "\\text{Human Cost/Query} = \\frac{\\text{Fully Loaded Agent Cost}}{\\text{Monthly Resolved Volume}}"
+    },
+    {
+      "line": 296,
+      "type": "display-single",
+      "content": "\\text{AI Cost/Query} = \\text{Model Token Fees} + \\text{Cloud Infrastructure} + (\\text{Escalation Rate} \\times \\text{Human Cost})"
+    },
+    {
+      "line": 301,
+      "type": "display-single",
+      "content": "\\text{Cost per Human Resolution} = \\frac{₹45{,}000}{1{,}430} \\approx ₹31.47\\text{ per ticket}"
+    },
+    {
+      "line": 305,
+      "type": "display-single",
+      "content": "\\text{Token Cost} = (3{,}500 \\times ₹0.00000025) + (600 \\times ₹0.00000100) = ₹0.000875 + ₹0.000600 \\approx ₹0.0015"
+    },
+    {
+      "line": 310,
+      "type": "display-single",
+      "content": "\\text{Blended Effective Cost per Ticket} = (0.70 \\times ₹0.40) + [0.30 \\times (₹0.40 + ₹31.47)]"
+    },
+    {
+      "line": 311,
+      "type": "display-single",
+      "content": "\\text{Blended Cost} = ₹0.28 + (0.30 \\times ₹31.87) = ₹0.28 + ₹9.56 = ₹9.84\\text{ per ticket}"
+    },
+    {
+      "line": 317,
+      "type": "display-single",
+      "content": "\\text{Required Servers} = \\frac{\\text{Peak Transactions per Second} \\times \\text{Inference Latency per Score}}{\\text{Cores per Server}}"
+    },
+    {
+      "line": 321,
+      "type": "display-single",
+      "content": "\\text{Peak Transactions per Hour} = \\frac{210{,}000{,}000}{4} = 52{,}500{,}000\\text{ tx/hour}"
+    },
+    {
+      "line": 322,
+      "type": "display-single",
+      "content": "\\text{Peak Transactions per Second (TPS)} = \\frac{52{,}500{,}000}{3{,}600} \\approx 14{,}583\\text{ TPS (round to 15,000 TPS)}"
+    },
+    {
+      "line": 324,
+      "type": "inline-equation",
+      "content": "1{,}000\\text{ ms} / 20\\text{ ms} = 50"
+    },
+    {
+      "line": 326,
+      "type": "display-single",
+      "content": "\\text{Dedicated Cores at Peak} = \\frac{15{,}000\\text{ TPS}}{50\\text{ TPS/core}} = 300\\text{ dedicated compute cores}"
+    },
+    {
+      "line": 328,
+      "type": "display-single",
+      "content": "\\text{Required Cores with Redundancy} = 300 \\times 3 = 900\\text{ cores}"
+    },
+    {
+      "line": 329,
+      "type": "display-single",
+      "content": "\\text{Total Enterprise Servers} = \\frac{900}{128} \\approx 7\\text{ enterprise servers}"
+    },
+    {
+      "line": 335,
+      "type": "display-single",
+      "content": "\\text{Annual Bill} = (\\text{Total Terabytes Stored} \\times \\text{Storage Rate/TB}) + (\\text{Retrieval Volume} \\times \\text{Egress Rate})"
+    },
+    {
+      "line": 341,
+      "type": "display-single",
+      "content": "\\text{Daily Storage Generation} = 36 + 75 + 60 = 171\\text{ GB per day}"
+    },
+    {
+      "line": 342,
+      "type": "display-single",
+      "content": "\\text{Annual Ingestion} = 171\\text{ GB} \\times 365 \\approx 62{,}415\\text{ GB} \\approx 62.4\\text{ Terabytes (TB) per year}"
+    },
+    {
+      "line": 344,
+      "type": "display-single",
+      "content": "62.4\\text{ TB/year} \\times 7\\text{ years} \\approx 437\\text{ Terabytes}"
+    },
+    {
+      "line": 347,
+      "type": "display-single",
+      "content": "62.4\\text{ TB} \\times ₹1{,}800 \\times 12\\text{ months} = ₹13{,}47{,}840/\\text{year}"
+    },
+    {
+      "line": 349,
+      "type": "display-single",
+      "content": "374.6\\text{ TB} \\times ₹300 \\times 12\\text{ months} = ₹13{,}48{,}560/\\text{year}"
+    },
+    {
+      "line": 351,
+      "type": "display-single",
+      "content": "₹13{,}47{,}840 + ₹13{,}48{,}560 = ₹26{,}96{,}400\\text{ (approx. ₹27 lakh annually)}"
+    },
+    {
+      "line": 357,
+      "type": "display-single",
+      "content": "\\text{Total Capex} = \\text{Land \\& Core Building} + \\text{Electrical Substation Infrastructure} + \\text{Liquid Cooling Plant} + \\text{Fit-Out Overhead}"
+    },
+    {
+      "line": 367,
+      "type": "display-single",
+      "content": "\\text{Total Facility Capex} = ₹1{,}212 + ₹866 + ₹762 + ₹624 = ₹3{,}464\\text{ crore (approx. \\$412 million)}"
+    }
+  ],
+  "creative-at-scale.md": [
+    {
+      "line": 9,
+      "type": "inline-equation",
+      "content": "C_{\\\\text{asset}} \\\\to 0"
+    },
+    {
+      "line": 25,
+      "type": "display-single",
+      "content": "C_{\\text{traditional}} = F_{\\text{studio}} + \\sum_{i=1}^n v_{\\text{edit}, i}"
+    },
+    {
+      "line": 31,
+      "type": "display-single",
+      "content": "C_{\\text{gen}} = F_{\\text{seed}} + n \\cdot \\big(c_{\\text{diffusion}} + c_{\\text{speech}} + c_{\\text{sync}}\\big)"
+    },
+    {
+      "line": 35,
+      "type": "display-single",
+      "content": "c_{\\text{asset}} = c_{\\text{diffusion}} + c_{\\text{speech}} + c_{\\text{sync}} \\approx \\$0.05 \\text{ to } \\$0.20 \\approx \\text{₹}4 \\text{ to } \\text{₹}17"
+    },
+    {
+      "line": 39,
+      "type": "display-single",
+      "content": "\\lim_{n \\to \\infty} \\frac{\\partial C_{\\text{gen}}}{\\partial n} = c_{\\text{asset}} \\to 0"
+    },
+    {
+      "line": 42,
+      "type": "inline-equation",
+      "content": "F_{\\text{studio}} \\ge \\text{₹}25,00,000"
+    },
+    {
+      "line": 42,
+      "type": "inline-equation",
+      "content": "v_{\\text{edit}} \\ge \\text{₹}50,000"
+    },
+    {
+      "line": 43,
+      "type": "inline-equation",
+      "content": "c_{\\text{asset}} \\approx \\text{₹}4\\text{ to }\\text{₹}17"
+    },
+    {
+      "line": 44,
+      "type": "inline-equation",
+      "content": "n \\to \\infty"
+    },
+    {
+      "line": 44,
+      "type": "inline-equation",
+      "content": "\\frac{\\partial C_{\\text{gen}}}{\\partial n} \\to 0"
+    },
+    {
+      "line": 98,
+      "type": "display-single",
+      "content": "\\text{eCPM} = \\text{Bid} \\times P(\\text{Click}) \\times P(\\text{Conversion}) + \\text{Quality Score}"
+    },
+    {
+      "line": 102,
+      "type": "display-single",
+      "content": "\\text{CTR}(t) = \\text{CTR}_0 \\cdot e^{-\\lambda(f(t) - 1)}"
+    },
+    {
+      "line": 104,
+      "type": "inline-equation",
+      "content": "0.20 \\le \\lambda \\le 0.35"
+    },
+    {
+      "line": 108,
+      "type": "display-single",
+      "content": "\\text{CPC}(t) = \\frac{\\text{CPM}}{1000 \\cdot \\text{CTR}(t)}"
+    },
+    {
+      "line": 216,
+      "type": "inline-equation",
+      "content": "\\lim_{n \\to \\infty} \\frac{\\partial C_{\\text{gen}}}{\\partial n} = c_{\\text{asset}} \\approx \\text{₹}4\\text{ to }\\text{₹}17"
+    },
+    {
+      "line": 218,
+      "type": "inline-equation",
+      "content": "\\text{CPC} = \\frac{\\text{CPM}}{1000 \\cdot \\text{CTR}}"
+    },
+    {
+      "line": 218,
+      "type": "inline-equation",
+      "content": "\\text{CPC} = \\frac{240}{1000 \\times 0.024} = \\text{₹}10.00"
+    },
+    {
+      "line": 218,
+      "type": "inline-equation",
+      "content": "\\text{CPC} = \\frac{240}{1000 \\times 0.008} = \\text{₹}30.00"
+    },
+    {
+      "line": 224,
+      "type": "inline-equation",
+      "content": "C_{\\text{asset}} \\to 0"
+    }
+  ],
+  "synthetic-audiences-and-attribution.md": [
+    {
+      "line": 85,
+      "type": "display-single",
+      "content": "Y_t = \\text{Baseline}_t + \\sum_{m=1}^M \\beta_m \\cdot f_{\\text{sat}}\\Big(\\text{Adstock}(X_{m,t}; \\alpha_m); K_m, S_m\\Big) + \\sum_{k=1}^K \\gamma_k Z_{k,t} + \\epsilon_t"
+    },
+    {
+      "line": 100,
+      "type": "display-single",
+      "content": "\\text{Adstock}(X_{m,t}; \\alpha_m) = X_{m,t} + \\alpha_m \\cdot \\text{Adstock}(X_{m,t-1}; \\alpha_m) = \\sum_{l=0}^L \\alpha_m^l X_{m,t-l}"
+    },
+    {
+      "line": 102,
+      "type": "inline-equation",
+      "content": "\\alpha_{\\text{TV}} \\approx 0.70"
+    },
+    {
+      "line": 102,
+      "type": "inline-equation",
+      "content": "\\alpha_{\\text{Search}} \\approx 0.10"
+    },
+    {
+      "line": 108,
+      "type": "display-single",
+      "content": "f_{\\text{sat}}(x; K_m, S_m) = \\frac{x^{S_m}}{K_m^{S_m} + x^{S_m}}"
+    },
+    {
+      "line": 120,
+      "type": "display-single",
+      "content": "\\beta_m \\sim \\mathcal{N}(\\mu_{\\text{prior}, m}, \\sigma_{\\text{prior}, m}^2)"
+    },
+    {
+      "line": 134,
+      "type": "display-single",
+      "content": "\\text{pLTV}_i = \\sum_{t=1}^T \\frac{\\mathbb{E}[\\text{Transactions}_{i,t}] \\times \\mathbb{E}[\\text{Margin}_{i,t}]}{(1 + d)^t}"
+    },
+    {
+      "line": 143,
+      "type": "display-single",
+      "content": "\\text{CAC}_{\\text{max}, i} = \\text{pLTV}_i \\times \\text{Target Margin Ratio}"
+    }
+  ],
+  "marketing-casebook.md": [
+    {
+      "line": 27,
+      "type": "inline-equation",
+      "content": "C_{\\text{asset}} \\to 0"
+    },
+    {
+      "line": 82,
+      "type": "inline-equation",
+      "content": "\\frac{1{,}200{,}000}{250} = 4{,}800"
+    },
+    {
+      "line": 85,
+      "type": "display-single",
+      "content": "4{,}800 \\times \\text{₹}18{,}000 \\times 12 = \\text{₹}103.68\\text{ crore}"
+    },
+    {
+      "line": 97,
+      "type": "display-single",
+      "content": "\\text{Cost}_{\\text{session}} = \\text{₹}0.30 + \\text{₹}0.25 + \\text{₹}0.35 = \\text{₹}0.90\\text{ per completed session}"
+    },
+    {
+      "line": 104,
+      "type": "display-single",
+      "content": "\\text{Incremental Revenue} = 1{,}200{,}000 \\times \\text{₹}4{,}200 \\times 1.7 \\text{ orders/month} \\times 12 \\text{ months} \\times 0.07 = \\text{₹}719.71\\text{ crore}"
+    },
+    {
+      "line": 106,
+      "type": "display-single",
+      "content": "\\text{Incremental Gross Margin} = \\text{₹}719.71\\text{ crore} \\times 0.18 = \\text{₹}129.55\\text{ crore}"
+    },
+    {
+      "line": 108,
+      "type": "display-single",
+      "content": "\\text{Annual Voice Cost} = 1{,}200{,}000 \\times 3.8 \\times 12 \\times \\text{₹}0.90 = 54{,}720{,}000 \\text{ sessions} \\times \\text{₹}0.90 = \\text{₹}4.92\\text{ crore}"
+    },
+    {
+      "line": 110,
+      "type": "display-single",
+      "content": "\\text{Net ROI} = \\frac{\\text{₹}129.55\\text{ crore} - \\text{₹}4.92\\text{ crore}}{\\text{₹}4.92\\text{ crore}} = \\frac{\\text{₹}124.63\\text{ crore}}{\\text{₹}4.92\\text{ crore}} \\approx 25.33\\text{x}"
+    },
+    {
+      "line": 149,
+      "type": "inline-equation",
+      "content": "120 \\times 12 = 1{,}440"
+    },
+    {
+      "line": 151,
+      "type": "display-single",
+      "content": "C_{\\text{agency}} = \\frac{\\text{₹}4{,}80{,}00{,}000}{1{,}440} = \\text{₹}33{,}333\\text{ per asset}"
+    },
+    {
+      "line": 154,
+      "type": "display-single",
+      "content": "\\text{Winning Assets}_{\\text{agency}} = 1{,}440 \\times 0.03 = 43.2 \\approx 43\\text{ winning assets/year}"
+    },
+    {
+      "line": 171,
+      "type": "display-single",
+      "content": "\\text{Total Cost}_{\\text{in-house}} = \\text{₹}1.37\\text{ crore} + \\text{₹}0.28\\text{ crore} = \\text{₹}1.65\\text{ crore}"
+    },
+    {
+      "line": 174,
+      "type": "display-single",
+      "content": "C_{\\text{in-house}} = \\frac{\\text{₹}1{,}65{,}00{,}000}{18{,}000} = \\text{₹}916.67 \\approx \\text{₹}917\\text{ per asset}"
+    },
+    {
+      "line": 180,
+      "type": "display-single",
+      "content": "\\text{Winning Assets}_{\\text{in-house}} = 18{,}000 \\times 0.015 = 270\\text{ winning assets/year}"
+    },
+    {
+      "line": 182,
+      "type": "inline-equation",
+      "content": "f \\le 1.6"
+    },
+    {
+      "line": 185,
+      "type": "display-single",
+      "content": "\\text{New Media Budget Required} = 625{,}000 \\times \\text{₹}580 = \\text{₹}36.25\\text{ crore}"
+    },
+    {
+      "line": 187,
+      "type": "display-single",
+      "content": "\\text{Media Savings} = \\text{₹}45.00\\text{ crore} - \\text{₹}36.25\\text{ crore} = \\text{₹}8.75\\text{ crore}"
+    },
+    {
+      "line": 189,
+      "type": "display-single",
+      "content": "\\text{Net Annual Benefit} = (\\text{₹}4.80\\text{Cr agency} - \\text{₹}1.65\\text{Cr in-house}) + \\text{₹}8.75\\text{Cr media savings} = \\text{₹}11.90\\text{ crore}"
+    },
+    {
+      "line": 216,
+      "type": "inline-equation",
+      "content": "8{,}000{,}000 \\times \\text{₹}150"
+    },
+    {
+      "line": 235,
+      "type": "display-single",
+      "content": "\\tau_i(D) = \\mathbb{E}\\big[Y_i(D) - Y_i(0) \\mid X_i\\big]"
+    },
+    {
+      "line": 248,
+      "type": "inline-equation",
+      "content": "P(Y=1 \\mid D=0) = 68.0\\%"
+    },
+    {
+      "line": 249,
+      "type": "inline-equation",
+      "content": "P(Y=1 \\mid D=150) = 71.0\\%"
+    },
+    {
+      "line": 250,
+      "type": "inline-equation",
+      "content": "\\tau = +3.0\\%"
+    },
+    {
+      "line": 251,
+      "type": "inline-equation",
+      "content": "3.6\\text{M} \\times 0.71 \\times \\text{₹}150 = \\text{₹}38.34\\text{ crore}"
+    },
+    {
+      "line": 253,
+      "type": "inline-equation",
+      "content": "P(Y=1 \\mid D=0) = 1.5\\%"
+    },
+    {
+      "line": 254,
+      "type": "inline-equation",
+      "content": "P(Y=1 \\mid D=150) = 3.8\\%"
+    },
+    {
+      "line": 255,
+      "type": "inline-equation",
+      "content": "\\tau = +2.3\\%"
+    },
+    {
+      "line": 256,
+      "type": "inline-equation",
+      "content": "2.4\\text{M} \\times 0.038 \\times \\text{₹}150 = \\text{₹}1.37\\text{ crore}"
+    },
+    {
+      "line": 258,
+      "type": "inline-equation",
+      "content": "P(Y=1 \\mid D=0) = 12.0\\%"
+    },
+    {
+      "line": 259,
+      "type": "inline-equation",
+      "content": "P(Y=1 \\mid D) = 48.0\\%"
+    },
+    {
+      "line": 260,
+      "type": "inline-equation",
+      "content": "\\tau = +36.0\\%"
+    },
+    {
+      "line": 265,
+      "type": "display-single",
+      "content": "\\max_{D_i} \\Big( \\tau_i(D_i) \\cdot (\\text{Cart Value}_i \\times \\text{Gross Margin \\%} - D_i) - \\text{Inference Cost} \\Big)"
+    },
+    {
+      "line": 268,
+      "type": "display-single",
+      "content": "\\bar{D} = (0.40 \\times 50) + (0.35 \\times 75) + (0.15 \\times 100) + (0.10 \\times 150) = 20 + 26.25 + 15 + 15 = \\text{₹}81.25 \\approx \\text{₹}82"
+    },
+    {
+      "line": 273,
+      "type": "display-single",
+      "content": "\\text{New Spend} = 2{,}000{,}000 \\text{ persuadables} \\times 0.48 \\text{ redemption} \\times \\text{₹}82 = \\text{₹}7.87\\text{ crore}"
+    },
+    {
+      "line": 274,
+      "type": "inline-equation",
+      "content": "2\\text{M} \\times \\text{₹}82 = \\text{₹}16.4\\text{ crore}"
+    },
+    {
+      "line": 277,
+      "type": "display-single",
+      "content": "\\text{Gross Savings} = \\text{₹}120.00\\text{ crore} - \\text{₹}16.40\\text{ crore} = \\text{₹}103.60\\text{ crore}"
+    },
+    {
+      "line": 278,
+      "type": "inline-equation",
+      "content": "3.6\\text{M} \\times 0.03 = 108{,}000"
+    },
+    {
+      "line": 280,
+      "type": "display-single",
+      "content": "\\text{Net Profit Improvement} = \\text{₹}103.60\\text{ crore (savings)} - \\text{₹}3.51\\text{ crore (margin drop)} = \\mathbf{+\\text{₹}100.09\\text{ crore}}"
+    },
+    {
+      "line": 324,
+      "type": "inline-equation",
+      "content": "60{,}000 \\times \\text{₹}180 = \\text{₹}1.08\\text{ crore}"
+    },
+    {
+      "line": 326,
+      "type": "inline-equation",
+      "content": "60{,}000 \\times 0.12 = 7{,}200"
+    },
+    {
+      "line": 328,
+      "type": "display-single",
+      "content": "\\text{Cost per Save}_{\\text{BPO}} = \\frac{\\text{₹}1{,}08{,}00{,}000}{7{,}200} = \\text{₹}1{,}500\\text{ per customer}"
+    },
+    {
+      "line": 334,
+      "type": "inline-equation",
+      "content": "100{,}000 \\times \\text{₹}1.80 = \\text{₹}1{,}80{,}000"
+    },
+    {
+      "line": 336,
+      "type": "inline-equation",
+      "content": "100{,}000 \\times 0.085 = 8{,}500"
+    },
+    {
+      "line": 338,
+      "type": "display-single",
+      "content": "\\text{Cost per Save}_{\\text{GenAI}} = \\frac{\\text{₹}1{,}80{,}000}{8{,}500} = \\text{₹}21.18\\text{ per customer}"
+    },
+    {
+      "line": 342,
+      "type": "display-single",
+      "content": "\\text{Value per Subscriber} = \\text{₹}850 \\times 12 = \\text{₹}10{,}200\\text{ per year}"
+    },
+    {
+      "line": 344,
+      "type": "display-single",
+      "content": "\\text{Annual Value Saved (per cohort)} = 8{,}500 \\times \\text{₹}10{,}200 = \\text{₹}8.67\\text{ crore in annual revenue}"
+    },
+    {
+      "line": 395,
+      "type": "display-single",
+      "content": "N_{\\text{impressions}} = 20{,}000{,}000 \\times 5 \\times 12 = 1{,}200{,}000{,}000 \\text{ impressions (1.2 billion)}"
+    },
+    {
+      "line": 401,
+      "type": "display-single",
+      "content": "\\text{Cost}_{\\text{naive}} = 1{,}200{,}000{,}000 \\times \\$0.04 = \\$48{,}000{,}000 \\approx \\text{₹}408\\text{ crore}"
+    },
+    {
+      "line": 407,
+      "type": "display-single",
+      "content": "\\text{Cost} = 5{,}000 \\times \\$0.04 = \\$200 \\approx \\text{₹}17{,}000"
+    },
+    {
+      "line": 409,
+      "type": "display-single",
+      "content": "\\text{Cost} = 200 \\times \\$0.05 = \\$10 \\approx \\text{₹}850"
+    },
+    {
+      "line": 411,
+      "type": "display-single",
+      "content": "\\text{Cost} = 500 \\times \\$1.20 = \\$600 \\approx \\text{₹}51{,}000"
+    },
+    {
+      "line": 413,
+      "type": "inline-equation",
+      "content": "4{,}000 \\text{ variants} \\times 300 \\text{ tokens} = 1{,}200{,}000 \\text{ tokens}"
+    },
+    {
+      "line": 415,
+      "type": "display-single",
+      "content": "\\text{Cost} = 1.2 \\times \\$0.15 = \\$0.18 \\approx \\text{₹}15"
+    },
+    {
+      "line": 419,
+      "type": "display-single",
+      "content": "\\text{Cost}_{\\text{edge}} = \\frac{1{,}200{,}000{,}000}{100{,}000} \\times \\text{₹}20 = 12{,}000 \\times \\text{₹}20 = \\text{₹}2{,}40{,}000"
+    },
+    {
+      "line": 422,
+      "type": "display-single",
+      "content": "\\text{Total Compute Cost} = \\text{₹}17{,}000 + \\text{₹}850 + \\text{₹}51{,}000 + \\text{₹}15 + \\text{₹}2{,}40{,}000 = \\mathbf{\\text{₹}3{,}08{,}865} \\approx \\$3{,}634"
+    },
+    {
+      "line": 438,
+      "type": "display-single",
+      "content": "\\frac{dR_1(x_1)}{dx_1} = \\frac{dR_2(x_2)}{dx_2} = \\dots = \\frac{dR_m(x_m)}{dx_m} = \\lambda"
+    },
+    {
+      "line": 439,
+      "type": "inline-equation",
+      "content": "\\sum_{m=1}^M x_m = \\text{₹}60\\text{ crore}"
+    },
+    {
+      "line": 442,
+      "type": "display-single",
+      "content": "R_m(x_m) = V_m \\cdot \\frac{x_m^{S_m}}{K_m^{S_m} + x_m^{S_m}}"
+    },
+    {
+      "line": 449,
+      "type": "inline-equation",
+      "content": "K = \\text{₹}8\\text{ crore}"
+    },
+    {
+      "line": 451,
+      "type": "inline-equation",
+      "content": "ROAS \\approx 3.0\\text{x}"
+    },
+    {
+      "line": 451,
+      "type": "inline-equation",
+      "content": "K = \\text{₹}18\\text{ crore}"
+    },
+    {
+      "line": 453,
+      "type": "inline-equation",
+      "content": "K = \\text{₹}6\\text{ crore}"
+    },
+    {
+      "line": 455,
+      "type": "inline-equation",
+      "content": "\\alpha = 0.65"
+    },
+    {
+      "line": 455,
+      "type": "inline-equation",
+      "content": "K = \\text{₹}32\\text{ crore}"
+    },
+    {
+      "line": 457,
+      "type": "inline-equation",
+      "content": "K = \\text{₹}8\\text{ crore}"
+    },
+    {
+      "line": 498,
+      "type": "inline-equation",
+      "content": "\\times 8 = \\text{₹}14{,}400"
+    },
+    {
+      "line": 502,
+      "type": "display-single",
+      "content": "\\text{Cost}_{\\text{physical session}} = \\text{₹}14{,}400 + \\text{₹}22{,}000 + \\text{₹}20{,}000 = \\text{₹}56{,}400"
+    },
+    {
+      "line": 504,
+      "type": "display-single",
+      "content": "\\text{Total Cost}_{\\text{physical}} = 1{,}000 \\times \\text{₹}56{,}400 = \\mathbf{\\text{₹}5.64\\text{ crore}}"
+    },
+    {
+      "line": 506,
+      "type": "display-single",
+      "content": "\\text{Timeline} = \\frac{1{,}000}{10} = 100\\text{ working days} \\approx 4.5\\text{ to 5 calendar months}"
+    },
+    {
+      "line": 511,
+      "type": "inline-equation",
+      "content": "\\times"
+    },
+    {
+      "line": 514,
+      "type": "inline-equation",
+      "content": "54 \\times (300 \\text{ in} + 150 \\text{ out}) \\approx 16{,}200 \\text{ input tokens} + 8{,}100 \\text{ output tokens} \\approx 24{,}300\\text{ tokens}"
+    },
+    {
+      "line": 518,
+      "type": "display-single",
+      "content": "\\text{Cost}_{\\text{synthetic session}} = 0.0243 \\times \\$1.50 = \\$0.03645 \\approx \\text{₹}3.06\\text{ per focus group}"
+    },
+    {
+      "line": 520,
+      "type": "display-single",
+      "content": "\\text{Compute Cost} = 1{,}000 \\times \\text{₹}3.06 = \\text{₹}3{,}060"
+    },
+    {
+      "line": 523,
+      "type": "display-single",
+      "content": "\\text{Total Cost}_{\\text{synthetic}} = \\text{₹}3{,}060 + \\text{₹}2{,}50{,}000 = \\mathbf{\\text{₹}2{,}53{,}060} \\approx \\text{₹}2.53\\text{ lakh}"
+    },
+    {
+      "line": 553,
+      "type": "display-single",
+      "content": "f(t) = 1 + \\frac{\\text{Cumulative Impressions}(t)}{\\text{Addressable Audience Size}}"
+    },
+    {
+      "line": 558,
+      "type": "display-single",
+      "content": "\\text{CTR}(t) = \\text{CTR}_0 \\cdot e^{-\\lambda(f(t) - 1)}"
+    },
+    {
+      "line": 559,
+      "type": "inline-equation",
+      "content": "\\text{CTR}_0 = 2.50\\%"
+    },
+    {
+      "line": 559,
+      "type": "inline-equation",
+      "content": "\\lambda = 0.25"
+    },
+    {
+      "line": 563,
+      "type": "display-single",
+      "content": "\\text{Total Value} = \\text{Bid} \\times \\text{Estimated Action Rate} + \\text{User Value Score}"
+    },
+    {
+      "line": 565,
+      "type": "display-single",
+      "content": "\\text{CPC}(t) = \\frac{\\text{CPM}}{1000 \\cdot \\text{CTR}(t)}"
+    },
+    {
+      "line": 567,
+      "type": "display-single",
+      "content": "\\text{CAC}(t) = \\frac{\\text{CPC}(t)}{\\text{Conversion Rate}} = \\frac{\\text{CPC}(t)}{0.032}"
+    },
+    {
+      "line": 573,
+      "type": "inline-equation",
+      "content": "f = 1.10"
+    },
+    {
+      "line": 574,
+      "type": "inline-equation",
+      "content": "\\text{CTR} = 2.50\\% \\times e^{-0.25(1.10 - 1)} = 2.50\\% \\times e^{-0.025} \\approx 2.44\\%"
+    },
+    {
+      "line": 575,
+      "type": "inline-equation",
+      "content": "\\text{CPC} = \\frac{\\text{₹}200}{1000 \\times 0.0244} = \\text{₹}8.20"
+    },
+    {
+      "line": 576,
+      "type": "inline-equation",
+      "content": "\\text{CAC} = \\frac{\\text{₹}8.20}{0.032} = \\text{₹}256.25"
+    },
+    {
+      "line": 577,
+      "type": "inline-equation",
+      "content": "\\frac{\\text{₹}30{,}00{,}000}{\\text{₹}256.25} = 11{,}707\\text{ orders}"
+    },
+    {
+      "line": 578,
+      "type": "inline-equation",
+      "content": "11{,}707 \\times \\text{₹}1{,}800 = \\text{₹}2.11\\text{ crore}"
+    },
+    {
+      "line": 579,
+      "type": "inline-equation",
+      "content": "\\frac{\\text{₹}2.11\\text{Cr}}{\\text{₹}0.30\\text{Cr}} = \\mathbf{7.03\\text{x}}"
+    },
+    {
+      "line": 582,
+      "type": "inline-equation",
+      "content": "f = 3.20"
+    },
+    {
+      "line": 583,
+      "type": "inline-equation",
+      "content": "\\text{CTR} = 2.50\\% \\times e^{-0.25(3.20 - 1)} = 2.50\\% \\times e^{-0.55} \\approx 1.44\\%"
+    },
+    {
+      "line": 584,
+      "type": "inline-equation",
+      "content": "\\text{CPC} = \\frac{\\text{₹}200}{1000 \\times 0.0144} = \\text{₹}13.89"
+    },
+    {
+      "line": 585,
+      "type": "inline-equation",
+      "content": "\\text{CAC} = \\frac{\\text{₹}13.89}{0.032} = \\text{₹}434.06"
+    },
+    {
+      "line": 586,
+      "type": "inline-equation",
+      "content": "\\frac{\\text{₹}30{,}00{,}000}{\\text{₹}434.06} = 6{,}911\\text{ orders}"
+    },
+    {
+      "line": 587,
+      "type": "inline-equation",
+      "content": "6{,}911 \\times \\text{₹}1{,}800 = \\text{₹}1.24\\text{ crore}"
+    },
+    {
+      "line": 588,
+      "type": "inline-equation",
+      "content": "\\frac{\\text{₹}1.24\\text{Cr}}{\\text{₹}0.30\\text{Cr}} = \\mathbf{4.13\\text{x}}"
+    },
+    {
+      "line": 591,
+      "type": "inline-equation",
+      "content": "f = 5.80"
+    },
+    {
+      "line": 592,
+      "type": "inline-equation",
+      "content": "\\text{CTR} = 2.50\\% \\times e^{-0.25(5.80 - 1)} = 2.50\\% \\times e^{-1.20} \\approx 0.75\\%"
+    },
+    {
+      "line": 593,
+      "type": "inline-equation",
+      "content": "\\text{CPC} = \\frac{\\text{₹}200}{1000 \\times 0.0075} = \\text{₹}26.67"
+    },
+    {
+      "line": 594,
+      "type": "inline-equation",
+      "content": "\\text{CAC} = \\frac{\\text{₹}26.67}{0.032} = \\text{₹}833.44"
+    },
+    {
+      "line": 595,
+      "type": "inline-equation",
+      "content": "\\frac{\\text{₹}30{,}00{,}000}{\\text{₹}833.44} = 3{,}599\\text{ orders}"
+    },
+    {
+      "line": 596,
+      "type": "inline-equation",
+      "content": "3{,}599 \\times \\text{₹}1{,}800 = \\text{₹}64.78\\text{ lakh}"
+    },
+    {
+      "line": 597,
+      "type": "inline-equation",
+      "content": "\\frac{\\text{₹}0.65\\text{Cr}}{\\text{₹}0.30\\text{Cr}} = \\mathbf{2.16\\text{x}}"
+    },
+    {
+      "line": 600,
+      "type": "inline-equation",
+      "content": "f \\le 1.60"
+    },
+    {
+      "line": 603,
+      "type": "inline-equation",
+      "content": "ROAS \\approx 6.33\\text{x}"
+    },
+    {
+      "line": 605,
+      "type": "inline-equation",
+      "content": "ROAS \\approx 4.12\\text{x}"
+    },
+    {
+      "line": 606,
+      "type": "inline-equation",
+      "content": "ROAS \\approx 6.33\\text{x}"
+    },
+    {
+      "line": 608,
+      "type": "display-single",
+      "content": "\\text{Incremental Revenue} = \\text{₹}22.80\\text{ crore} - \\text{₹}14.85\\text{ crore} = \\mathbf{\\text{₹}7.95\\text{ crore}}"
+    },
+    {
+      "line": 611,
+      "type": "display-single",
+      "content": "\\text{ROI} = \\frac{\\text{₹}7{,}95{,}00{,}000 - \\text{₹}1{,}80{,}000}{\\text{₹}1{,}80{,}000} \\approx \\mathbf{441\\text{x}}"
+    },
+    {
+      "line": 681,
+      "type": "inline-equation",
+      "content": "C_{\\text{asset}} \\to 0"
+    },
+    {
+      "line": 690,
+      "type": "inline-equation",
+      "content": "P(Y=1 \\mid D=0) \\approx 70\\%"
+    },
+    {
+      "line": 691,
+      "type": "inline-equation",
+      "content": "\\text{CTR}(t) = \\text{CTR}_0 \\cdot e^{-\\lambda(f(t) - 1)}"
+    },
+    {
+      "line": 691,
+      "type": "inline-equation",
+      "content": "f = 4.5"
+    },
+    {
+      "line": 691,
+      "type": "inline-equation",
+      "content": "\\lambda = 0.25"
+    },
+    {
+      "line": 691,
+      "type": "inline-equation",
+      "content": "CPC = \\text{CPM} / (1000 \\cdot \\text{CTR})"
+    },
+    {
+      "line": 691,
+      "type": "inline-equation",
+      "content": "CAC = \\text{CPC} / \\text{Conversion Rate}"
+    },
+    {
+      "line": 700,
+      "type": "inline-equation",
+      "content": "C_{\\text{asset}} \\to 0"
+    }
+  ],
+  "ai-product-lifecycle.md": [
+    {
+      "line": 89,
+      "type": "display-single",
+      "content": "\\kappa = \\frac{P_o - P_e}{1 - P_e}"
+    },
+    {
+      "line": 91,
+      "type": "inline-equation",
+      "content": "P_o = 0.88"
+    },
+    {
+      "line": 91,
+      "type": "inline-equation",
+      "content": "P_e = 0.50"
+    },
+    {
+      "line": 93,
+      "type": "display-single",
+      "content": "\\kappa = \\frac{0.88 - 0.50}{1.00 - 0.50} = \\frac{0.38}{0.50} = 0.76"
+    },
+    {
+      "line": 95,
+      "type": "inline-equation",
+      "content": "\\kappa \\ge 0.80"
+    },
+    {
+      "line": 230,
+      "type": "inline-equation",
+      "content": "\\Delta \\ge 1.5\\%"
+    },
+    {
+      "line": 246,
+      "type": "inline-equation",
+      "content": "\\ge 1.5\\%"
+    },
+    {
+      "line": 253,
+      "type": "inline-equation",
+      "content": "\\kappa \\ge 0.80"
+    }
+  ],
+  "product-architecture-economics.md": [
+    {
+      "line": 40,
+      "type": "display-single",
+      "content": "\\text{Latency}_{\\text{total}} = T_{\\text{network}} + T_{\\text{queue}} + TTFT + \\frac{N_{\\text{output}}}{TPS}"
+    },
+    {
+      "line": 49,
+      "type": "inline-equation",
+      "content": "\\ge 40\\text{ TPS}"
+    },
+    {
+      "line": 86,
+      "type": "inline-equation",
+      "content": "1.25\\times"
+    },
+    {
+      "line": 87,
+      "type": "inline-equation",
+      "content": "0.10\\times\\text{--}0.20\\times"
+    },
+    {
+      "line": 88,
+      "type": "inline-equation",
+      "content": "1.00\\times"
+    },
+    {
+      "line": 92,
+      "type": "display-single",
+      "content": "C_{\\text{write}} + (Q - 1) \\cdot C_{\\text{read}} = Q \\cdot C_{\\text{uncached}}"
+    },
+    {
+      "line": 96,
+      "type": "display-single",
+      "content": "C_{\\text{write}} - C_{\\text{read}} = Q \\cdot (C_{\\text{uncached}} - C_{\\text{read}})"
+    },
+    {
+      "line": 98,
+      "type": "display-single",
+      "content": "Q^* = \\frac{C_{\\text{write}} - C_{\\text{read}}}{C_{\\text{uncached}} - C_{\\text{read}}}"
+    },
+    {
+      "line": 100,
+      "type": "inline-equation",
+      "content": "C_{\\text{write}} = \\"
+    },
+    {
+      "line": 100,
+      "type": "inline-equation",
+      "content": "C_{\\text{read}} = \\"
+    },
+    {
+      "line": 102,
+      "type": "display-single",
+      "content": "Q^* = \\frac{3.75 - 0.30}{3.00 - 0.30} = \\frac{3.45}{2.70} \\approx 1.28"
+    },
+    {
+      "line": 104,
+      "type": "inline-equation",
+      "content": "\\lceil 1.28 \\rceil = 2"
+    },
+    {
+      "line": 144,
+      "type": "inline-equation",
+      "content": "p95 \\le 45\\text{ms}"
+    },
+    {
+      "line": 145,
+      "type": "inline-equation",
+      "content": "\\theta \\ge 0.88"
+    },
+    {
+      "line": 145,
+      "type": "inline-equation",
+      "content": "p95 \\le 240\\text{ms}"
+    },
+    {
+      "line": 146,
+      "type": "inline-equation",
+      "content": "p95 \\approx 1{,}850\\text{ms}"
+    },
+    {
+      "line": 177,
+      "type": "inline-equation",
+      "content": "2 \\times \\"
+    },
+    {
+      "line": 178,
+      "type": "inline-equation",
+      "content": "\\approx \\text{₹}15\\text{ lakh/month}"
+    },
+    {
+      "line": 182,
+      "type": "display-single",
+      "content": "\\text{Spend}_{\\text{API}} = \\sum (\\text{Input Tokens} \\times P_{\\text{in}}) + \\sum (\\text{Output Tokens} \\times P_{\\text{out}})"
+    },
+    {
+      "line": 186,
+      "type": "display-single",
+      "content": "V^* = \\frac{\\text{Fixed Monthly Compute \\& Headcount Overhead}}{C_{\\text{commercial API}} - C_{\\text{self-hosted compute}}}"
+    },
+    {
+      "line": 196,
+      "type": "inline-equation",
+      "content": "p95 = 5.4\\text{ seconds}"
+    },
+    {
+      "line": 200,
+      "type": "inline-equation",
+      "content": "p95 = 45\\text{ms}"
+    },
+    {
+      "line": 201,
+      "type": "inline-equation",
+      "content": "\\theta \\ge 0.88"
+    },
+    {
+      "line": 201,
+      "type": "inline-equation",
+      "content": "p95 = 240\\text{ms}"
+    },
+    {
+      "line": 202,
+      "type": "inline-equation",
+      "content": "p95 = 1{,}850\\text{ms}"
+    },
+    {
+      "line": 206,
+      "type": "inline-equation",
+      "content": "10{,}000{,}000 \\times \\text{₹}8.50 = \\mathbf{\\text{₹}8.500\\text{ crore/month}}"
+    },
+    {
+      "line": 208,
+      "type": "display-single",
+      "content": "\\text{Spend} = (4.2\\text{M} \\times \\text{₹}0.002) + (4.3\\text{M} \\times \\text{₹}0.040) + (1.5\\text{M} \\times \\text{₹}0.850)"
+    },
+    {
+      "line": 209,
+      "type": "display-single",
+      "content": "\\text{Spend} = \\text{₹}0.0084\\text{ Cr} + \\text{₹}0.1720\\text{ Cr} + \\text{₹}1.2750\\text{ Cr} = \\mathbf{\\text{₹}1.4554\\text{ crore/month}}"
+    },
+    {
+      "line": 210,
+      "type": "inline-equation",
+      "content": "\\text{₹}8.500\\text{ Cr} - \\text{₹}1.4554\\text{ Cr} = \\mathbf{\\text{₹}7.0446\\text{ crore/month}}\\quad (\\mathbf{82.9\\%\\text{ reduction}})"
+    },
+    {
+      "line": 212,
+      "type": "display-single",
+      "content": "\\text{Latency}_{\\text{avg}} = (0.42 \\times 45) + (0.43 \\times 240) + (0.15 \\times 1{,}850) = 18.9 + 103.2 + 277.5 = \\mathbf{399.6\\text{ms}}"
+    },
+    {
+      "line": 240,
+      "type": "inline-equation",
+      "content": "\\ge 40\\text{ TPS}"
+    },
+    {
+      "line": 247,
+      "type": "inline-equation",
+      "content": "100 + 150 + 50 + 400 + 100 = \\mathbf{800\\text{ms}}"
+    },
+    {
+      "line": 265,
+      "type": "inline-equation",
+      "content": "1{,}000{,}000 \\times \\"
+    },
+    {
+      "line": 267,
+      "type": "display-single",
+      "content": "\\text{Cost} = (400{,}000 \\times \\$0.0001) + (450{,}000 \\times \\$0.0020) + (150{,}000 \\times \\$0.0300) = \\$40 + \\$900 + \\$4{,}500 = \\mathbf{\\$5{,}440}"
+    },
+    {
+      "line": 268,
+      "type": "inline-equation",
+      "content": "30{,}000 \\to \\"
+    },
+    {
+      "line": 291,
+      "type": "inline-equation",
+      "content": "Q^* = \\frac{C_{\\text{write}} - C_{\\text{read}}}{C_{\\text{uncached}} - C_{\\text{read}}}"
+    },
+    {
+      "line": 291,
+      "type": "inline-equation",
+      "content": "Q^* = \\frac{3.75 - 0.30}{3.00 - 0.30} = \\frac{3.45}{2.70} \\approx 1.28"
+    },
+    {
+      "line": 292,
+      "type": "inline-equation",
+      "content": "\\approx 8\\text{ tokens/sec}"
+    },
+    {
+      "line": 298,
+      "type": "inline-equation",
+      "content": "\\ge 40\\text{ TPS}"
+    }
+  ],
+  "product-casebook.md": [
+    {
+      "line": 61,
+      "type": "inline-equation",
+      "content": "C_{\\text{infer}} = \\text{₹}0.40"
+    },
+    {
+      "line": 65,
+      "type": "inline-equation",
+      "content": "\\theta_L \\le s < \\theta_H"
+    },
+    {
+      "line": 66,
+      "type": "inline-equation",
+      "content": "s \\ge \\theta_H"
+    },
+    {
+      "line": 68,
+      "type": "display-single",
+      "content": "\\text{Total Daily Cost} = N \\cdot \\left[ C_{\\text{infer}} + P(s < \\theta_L) \\cdot C_{\\text{fraud\\_leak}} + P(\\theta_L \\le s < \\theta_H) \\cdot C_{\\text{review}} + P(s \\ge \\theta_L \\mid \\text{Honest}) \\cdot C_{\\text{churn}} \\right]"
+    },
+    {
+      "line": 69,
+      "type": "inline-equation",
+      "content": "N = 48{,}000"
+    },
+    {
+      "line": 69,
+      "type": "inline-equation",
+      "content": "C_{\\text{infer}} = \\text{₹}0.40"
+    },
+    {
+      "line": 69,
+      "type": "inline-equation",
+      "content": "C_{\\text{review}} = \\text{₹}24.00"
+    },
+    {
+      "line": 69,
+      "type": "inline-equation",
+      "content": "C_{\\text{churn}} = \\text{₹}18{,}000 \\times 0.08 = \\text{₹}1{,}440"
+    },
+    {
+      "line": 70,
+      "type": "inline-equation",
+      "content": "\\theta_L = 0.15, \\theta_H = 0.72"
+    },
+    {
+      "line": 71,
+      "type": "inline-equation",
+      "content": "35{,}520 \\times 0.006 \\times \\text{₹}220 = \\text{₹}46{,}886"
+    },
+    {
+      "line": 72,
+      "type": "inline-equation",
+      "content": "0.15 \\le s < 0.72"
+    },
+    {
+      "line": 72,
+      "type": "inline-equation",
+      "content": "10{,}080 \\times \\text{₹}24 = \\text{₹}2{,}41{,}920"
+    },
+    {
+      "line": 73,
+      "type": "inline-equation",
+      "content": "s \\ge 0.72"
+    },
+    {
+      "line": 76,
+      "type": "inline-equation",
+      "content": "48{,}000 \\times \\text{₹}24 = \\text{₹}11{,}52{,}000\\text{/day}"
+    },
+    {
+      "line": 78,
+      "type": "display-single",
+      "content": "\\text{Spend}_{\\text{infer}} = 48{,}000 \\times \\text{₹}0.40 = \\text{₹}19{,}200"
+    },
+    {
+      "line": 79,
+      "type": "display-single",
+      "content": "\\text{Spend}_{\\text{human}} = 10{,}080 \\times \\text{₹}24.00 = \\text{₹}2{,}41{,}920"
+    },
+    {
+      "line": 80,
+      "type": "display-single",
+      "content": "\\text{Spend}_{\\text{fraud\\_leak}} = \\text{₹}46{,}886"
+    },
+    {
+      "line": 81,
+      "type": "display-single",
+      "content": "\\text{Total Daily Spend} = \\text{₹}19{,}200 + \\text{₹}2{,}41{,}920 + \\text{₹}46{,}886 = \\mathbf{\\text{₹}3{,}08{,}006\\text{/day}}"
+    },
+    {
+      "line": 82,
+      "type": "inline-equation",
+      "content": "\\text{₹}11{,}52{,}000 - \\text{₹}3{,}08{,}006 = \\mathbf{\\text{₹}8{,}43{,}994\\text{/day}}"
+    },
+    {
+      "line": 93,
+      "type": "inline-equation",
+      "content": "10\\text{M} \\times \\text{₹}0.850\\text{/query}"
+    },
+    {
+      "line": 101,
+      "type": "inline-equation",
+      "content": "p95 = 45\\text{ms}"
+    },
+    {
+      "line": 105,
+      "type": "inline-equation",
+      "content": "p \\ge 0.88"
+    },
+    {
+      "line": 107,
+      "type": "inline-equation",
+      "content": "p95 = 240\\text{ms}"
+    },
+    {
+      "line": 111,
+      "type": "inline-equation",
+      "content": "p95 = 1{,}850\\text{ms}"
+    },
+    {
+      "line": 114,
+      "type": "inline-equation",
+      "content": "10{,}000{,}000 \\times \\text{₹}0.850 = \\mathbf{\\text{₹}8.500\\text{ crore/month}}"
+    },
+    {
+      "line": 116,
+      "type": "display-single",
+      "content": "\\text{Spend}_{\\text{Tier1}} = 4{,}200{,}000 \\times \\text{₹}0.002 = \\text{₹}0.0084\\text{ Cr}"
+    },
+    {
+      "line": 117,
+      "type": "display-single",
+      "content": "\\text{Spend}_{\\text{Tier2}} = 4{,}300{,}000 \\times \\text{₹}0.040 = \\text{₹}0.1720\\text{ Cr}"
+    },
+    {
+      "line": 118,
+      "type": "display-single",
+      "content": "\\text{Spend}_{\\text{Tier3}} = 1{,}500{,}000 \\times \\text{₹}0.850 = \\text{₹}1.2750\\text{ Cr}"
+    },
+    {
+      "line": 119,
+      "type": "display-single",
+      "content": "\\text{Total Spend} = \\text{₹}0.0084 + \\text{₹}0.1720 + \\text{₹}1.2750 = \\mathbf{\\text{₹}1.4554\\text{ crore/month}}"
+    },
+    {
+      "line": 120,
+      "type": "inline-equation",
+      "content": "\\text{₹}8.500\\text{ Cr} - \\text{₹}1.4554\\text{ Cr} = \\mathbf{\\text{₹}7.0446\\text{ crore/month}}\\quad (\\mathbf{82.9\\%\\text{ reduction}})"
+    },
+    {
+      "line": 122,
+      "type": "display-single",
+      "content": "\\bar{L} = (0.42 \\times 45) + (0.43 \\times 240) + (0.15 \\times 1{,}850) = 18.9 + 103.2 + 277.5 = \\mathbf{399.6\\text{ ms}}"
+    },
+    {
+      "line": 131,
+      "type": "inline-equation",
+      "content": "k=5"
+    },
+    {
+      "line": 138,
+      "type": "inline-equation",
+      "content": "\\times 500 = 2{,}500"
+    },
+    {
+      "line": 138,
+      "type": "inline-equation",
+      "content": "3.00/M tokens ="
+    },
+    {
+      "line": 139,
+      "type": "inline-equation",
+      "content": "15.00/M tokens ="
+    },
+    {
+      "line": 141,
+      "type": "inline-equation",
+      "content": "25.00 = \\"
+    },
+    {
+      "line": 142,
+      "type": "inline-equation",
+      "content": "3.5000 = \\mathbf{\\"
+    },
+    {
+      "line": 144,
+      "type": "inline-equation",
+      "content": "\\times \\"
+    },
+    {
+      "line": 145,
+      "type": "inline-equation",
+      "content": "\\times \\"
+    },
+    {
+      "line": 146,
+      "type": "inline-equation",
+      "content": "(1{,}000 \\times \\"
+    },
+    {
+      "line": 146,
+      "type": "inline-equation",
+      "content": "15.00/1\\text{M}) = \\"
+    },
+    {
+      "line": 147,
+      "type": "inline-equation",
+      "content": "0.0090 = \\mathbf{\\"
+    },
+    {
+      "line": 148,
+      "type": "inline-equation",
+      "content": "0.008 \\times \\"
+    },
+    {
+      "line": 149,
+      "type": "inline-equation",
+      "content": "0.2000 = \\mathbf{\\"
+    },
+    {
+      "line": 151,
+      "type": "display-single",
+      "content": "\\text{Cost}_{\\text{Cache}}(Q) \\le \\text{Cost}_{\\text{RAG}}(Q)"
+    },
+    {
+      "line": 152,
+      "type": "display-single",
+      "content": "\\$0.450 + Q \\times \\$0.2450 \\le Q \\times \\$3.5185 \\implies Q \\ge \\frac{0.450}{3.5185 - 0.2450} = \\frac{0.450}{3.2735} \\approx \\mathbf{0.14\\text{ queries}}"
+    },
+    {
+      "line": 161,
+      "type": "inline-equation",
+      "content": "C_{\\text{FP}} = 0.45 \\times \\text{₹}1{,}80{,}000 = \\text{₹}81{,}000"
+    },
+    {
+      "line": 162,
+      "type": "inline-equation",
+      "content": "C_{\\text{FN}} = \\text{₹}180"
+    },
+    {
+      "line": 163,
+      "type": "inline-equation",
+      "content": "\\frac{C_{\\text{FP}}}{C_{\\text{FN}}} = \\frac{\\text{₹}81{,}000}{\\text{₹}180} = \\mathbf{450:1}"
+    },
+    {
+      "line": 166,
+      "type": "inline-equation",
+      "content": "1 - \\pi = 0.03"
+    },
+    {
+      "line": 168,
+      "type": "display-single",
+      "content": "\\theta^* = \\frac{C_{\\text{FP}} \\cdot (1 - \\pi)}{C_{\\text{FP}} \\cdot (1 - \\pi) + C_{\\text{FN}} \\cdot \\pi} = \\frac{81{,}000 \\times 0.03}{(81{,}000 \\times 0.03) + (180 \\times 0.97)} = \\frac{2{,}430}{2{,}430 + 174.6} = \\mathbf{0.933}"
+    },
+    {
+      "line": 174,
+      "type": "inline-equation",
+      "content": "\\theta_1 = 0.75"
+    },
+    {
+      "line": 175,
+      "type": "inline-equation",
+      "content": "\\theta_2 = 0.933"
+    },
+    {
+      "line": 176,
+      "type": "inline-equation",
+      "content": "\\theta_3 = 1.000"
+    },
+    {
+      "line": 185,
+      "type": "inline-equation",
+      "content": "\\to"
+    },
+    {
+      "line": 185,
+      "type": "inline-equation",
+      "content": "\\to"
+    },
+    {
+      "line": 185,
+      "type": "inline-equation",
+      "content": "\\to"
+    },
+    {
+      "line": 193,
+      "type": "inline-equation",
+      "content": "2 \\times 1{,}400\\text{ms} = 2{,}800\\text{ms}"
+    },
+    {
+      "line": 194,
+      "type": "inline-equation",
+      "content": "2 \\times \\frac{300}{50} = 12{,}000\\text{ms}"
+    },
+    {
+      "line": 195,
+      "type": "inline-equation",
+      "content": "\\frac{200}{50} = 4{,}000\\text{ms}"
+    },
+    {
+      "line": 197,
+      "type": "display-single",
+      "content": "T_{\\text{total}} = 120 + 650 + 450 + 2{,}800 + 12{,}000 + 4{,}000 = \\mathbf{20{,}020\\text{ ms}}\\quad (\\mathbf{20.02\\text{ seconds}})"
+    },
+    {
+      "line": 205,
+      "type": "inline-equation",
+      "content": "120\\text{ms} + 150\\text{ms} + 280\\text{ms} = \\mathbf{550\\text{ ms}}"
+    },
+    {
+      "line": 205,
+      "type": "inline-equation",
+      "content": "\\le 1.0\\text{s}"
+    },
+    {
+      "line": 206,
+      "type": "inline-equation",
+      "content": "\\frac{200}{160} = 1{,}250\\text{ms}"
+    },
+    {
+      "line": 212,
+      "type": "inline-equation",
+      "content": "\\alpha = 0.05"
+    },
+    {
+      "line": 212,
+      "type": "inline-equation",
+      "content": "\\beta = 0.20"
+    },
+    {
+      "line": 216,
+      "type": "display-single",
+      "content": "n = \\frac{\\left(z_{\\alpha/2}\\sqrt{2\\bar{p}(1-\\bar{p})} + z_\\beta\\sqrt{p_1(1-p_1) + p_2(1-p_2)}\\right)^2}{(p_1 - p_2)^2}"
+    },
+    {
+      "line": 217,
+      "type": "inline-equation",
+      "content": "p_1 = 0.980"
+    },
+    {
+      "line": 217,
+      "type": "inline-equation",
+      "content": "p_2 = 0.965"
+    },
+    {
+      "line": 217,
+      "type": "inline-equation",
+      "content": "\\Delta = 0.015"
+    },
+    {
+      "line": 217,
+      "type": "inline-equation",
+      "content": "\\bar{p} = 0.9725"
+    },
+    {
+      "line": 218,
+      "type": "inline-equation",
+      "content": "z_{\\alpha/2} = 1.96"
+    },
+    {
+      "line": 218,
+      "type": "inline-equation",
+      "content": "\\alpha = 0.05"
+    },
+    {
+      "line": 218,
+      "type": "inline-equation",
+      "content": "z_\\beta = 0.84"
+    },
+    {
+      "line": 220,
+      "type": "display-single",
+      "content": "\\bar{p}(1-\\bar{p}) = 0.9725 \\times 0.0275 = 0.026744 \\implies \\sqrt{2 \\times 0.026744} = 0.23127"
+    },
+    {
+      "line": 221,
+      "type": "display-single",
+      "content": "\\sqrt{p_1(1-p_1) + p_2(1-p_2)} = \\sqrt{(0.98 \\times 0.02) + (0.965 \\times 0.035)} = \\sqrt{0.053375} = 0.23103"
+    },
+    {
+      "line": 222,
+      "type": "display-single",
+      "content": "\\text{Numerator} = (1.96 \\times 0.23127 + 0.84 \\times 0.23103)^2 = (0.45329 + 0.19407)^2 = (0.64736)^2 \\approx 0.41908"
+    },
+    {
+      "line": 223,
+      "type": "display-single",
+      "content": "\\text{Denominator} = (0.015)^2 = 0.000225"
+    },
+    {
+      "line": 224,
+      "type": "display-single",
+      "content": "n = \\frac{0.41908}{0.000225} \\approx \\mathbf{1{,}863\\text{ test cases}}"
+    },
+    {
+      "line": 225,
+      "type": "inline-equation",
+      "content": "n=50"
+    },
+    {
+      "line": 228,
+      "type": "inline-equation",
+      "content": "(1{,}863 \\times 1{,}500 \\times \\"
+    },
+    {
+      "line": 228,
+      "type": "inline-equation",
+      "content": "4.00/1\\text{M}) = \\"
+    },
+    {
+      "line": 228,
+      "type": "inline-equation",
+      "content": "2.24 = \\mathbf{\\"
+    },
+    {
+      "line": 229,
+      "type": "inline-equation",
+      "content": "20 \\times \\"
+    },
+    {
+      "line": 229,
+      "type": "inline-equation",
+      "content": "\\approx \\"
+    },
+    {
+      "line": 241,
+      "type": "inline-equation",
+      "content": "2.2 \\times \\text{₹}29.17 = \\mathbf{\\text{₹}64.17\\text{ per verified record}}"
+    },
+    {
+      "line": 242,
+      "type": "inline-equation",
+      "content": "50{,}000 \\times \\text{₹}64.17 = \\mathbf{\\text{₹}32{,}08{,}500}"
+    },
+    {
+      "line": 242,
+      "type": "inline-equation",
+      "content": "\\approx \\"
+    },
+    {
+      "line": 247,
+      "type": "inline-equation",
+      "content": "N_{\\text{raw}} = \\frac{50{,}000}{0.65} = 76{,}923"
+    },
+    {
+      "line": 247,
+      "type": "inline-equation",
+      "content": "\\implies 76{,}923 \\times (\\text{₹}0.82 + \\text{₹}0.15) = \\mathbf{\\text{₹}7{,}46{,}153}"
+    },
+    {
+      "line": 249,
+      "type": "inline-equation",
+      "content": "\\text{₹}7{,}46{,}153 + \\text{₹}1{,}60{,}425 = \\mathbf{\\text{₹}9{,}06{,}578}"
+    },
+    {
+      "line": 249,
+      "type": "inline-equation",
+      "content": "\\approx \\"
+    },
+    {
+      "line": 250,
+      "type": "inline-equation",
+      "content": "\\text{₹}32.09\\text{L} - \\text{₹}9.07\\text{L} = \\mathbf{\\text{₹}23.02\\text{ lakh}}"
+    },
+    {
+      "line": 263,
+      "type": "display-single",
+      "content": "c_{\\text{API}} = \\left(\\frac{2{,}500}{1\\text{M}} \\times \\$3.00\\right) + \\left(\\frac{400}{1\\text{M}} \\times \\$15.00\\right) = \\$0.0075 + \\$0.0060 = \\mathbf{\\$0.0135\\text{ per record}}\\quad (\\approx \\text{₹}1.15)"
+    },
+    {
+      "line": 264,
+      "type": "inline-equation",
+      "content": "50{,}000 \\times \\"
+    },
+    {
+      "line": 264,
+      "type": "inline-equation",
+      "content": "\\approx \\text{₹}57{,}375\\text{/month}"
+    },
+    {
+      "line": 269,
+      "type": "inline-equation",
+      "content": "14,000/mo) ="
+    },
+    {
+      "line": 270,
+      "type": "inline-equation",
+      "content": "F_{\\text{self}} = \\"
+    },
+    {
+      "line": 270,
+      "type": "inline-equation",
+      "content": "3{,}500 = \\mathbf{\\"
+    },
+    {
+      "line": 272,
+      "type": "display-single",
+      "content": "V^* \\times c_{\\text{API}} = F_{\\text{self}} \\implies V^* = \\frac{F_{\\text{self}}}{c_{\\text{API}}} = \\frac{\\$9{,}050}{\\$0.0135} \\approx \\mathbf{670{,}370\\text{ records/month}}"
+    },
+    {
+      "line": 317,
+      "type": "inline-equation",
+      "content": "3.75/M, Cache read ="
+    },
+    {
+      "line": 338,
+      "type": "inline-equation",
+      "content": "n=50"
+    },
+    {
+      "line": 346,
+      "type": "inline-equation",
+      "content": "n=1{,}863"
+    },
+    {
+      "line": 347,
+      "type": "inline-equation",
+      "content": "Q^* = \\frac{C_{\\text{write}} - C_{\\text{read}}}{C_{\\text{uncached}} - C_{\\text{read}}} = \\frac{\\"
+    },
+    {
+      "line": 347,
+      "type": "inline-equation",
+      "content": "0.30} = \\frac{\\"
+    },
+    {
+      "line": 347,
+      "type": "inline-equation",
+      "content": "2.70} \\approx \\mathbf{1.28\\text{ queries}}"
+    },
+    {
+      "line": 348,
+      "type": "inline-equation",
+      "content": "\\theta^* = \\frac{C_{\\text{FP}}(1 - \\pi)}{C_{\\text{FP}}(1 - \\pi) + C_{\\text{FN}}\\pi}"
+    },
+    {
+      "line": 348,
+      "type": "inline-equation",
+      "content": "\\ge 0.88"
+    },
+    {
+      "line": 349,
+      "type": "inline-equation",
+      "content": "V^* \\approx 670{,}370"
+    }
+  ],
+  "algorithmic-underwriting-and-credit-risk.md": [
+    {
+      "line": 27,
+      "type": "display-single",
+      "content": "LGD = 1 - \\text{Recovery Rate}"
+    },
+    {
+      "line": 31,
+      "type": "display-single",
+      "content": "ECL = EAD \\times PD \\times LGD"
+    },
+    {
+      "line": 33,
+      "type": "inline-equation",
+      "content": "LGD = 60\\%"
+    },
+    {
+      "line": 35,
+      "type": "display-single",
+      "content": "ECL = \\text{₹}10{,}00,000 \\times 0.035 \\times 0.60 = \\mathbf{\\text{₹}21{,}000}"
+    },
+    {
+      "line": 41,
+      "type": "inline-equation",
+      "content": "ECL = EAD \\times PD_{12\\text{m}} \\times LGD"
+    },
+    {
+      "line": 42,
+      "type": "inline-equation",
+      "content": "ECL = \\sum_{t=1}^{T} \\frac{EAD_t \\times PD_t \\times LGD_t}{(1 + r)^t}"
+    },
+    {
+      "line": 42,
+      "type": "inline-equation",
+      "content": "3\\times\\text{--}8\\times"
+    },
+    {
+      "line": 69,
+      "type": "display-single",
+      "content": "\\text{WoE}_i = \\ln \\left( \\frac{\\% \\text{ Non-Defaults}_i}{\\% \\text{ Defaults}_i} \\right) = \\ln \\left( \\frac{\\text{Good}_i / \\text{Good}_{\\text{total}}}{\\text{Bad}_i / \\text{Bad}_{\\text{total}}} \\right)"
+    },
+    {
+      "line": 73,
+      "type": "display-single",
+      "content": "IV = \\sum_{i=1}^{m} \\left( \\frac{\\text{Good}_i}{\\text{Good}_{\\text{total}}} - \\frac{\\text{Bad}_i}{\\text{Bad}_{\\text{total}}} \\right) \\times \\text{WoE}_i"
+    },
+    {
+      "line": 77,
+      "type": "inline-equation",
+      "content": "0.02 \\le IV < 0.10"
+    },
+    {
+      "line": 78,
+      "type": "inline-equation",
+      "content": "0.10 \\le IV < 0.30"
+    },
+    {
+      "line": 79,
+      "type": "inline-equation",
+      "content": "0.30 \\le IV \\le 0.50"
+    },
+    {
+      "line": 84,
+      "type": "display-single",
+      "content": "\\ln\\left(\\frac{PD}{1 - PD}\\right) = \\beta_0 + \\sum_{j=1}^{k} \\beta_j \\cdot \\text{WoE}_{j}(x)"
+    },
+    {
+      "line": 119,
+      "type": "display-single",
+      "content": "\\phi_i(x) = \\sum_{S \\subseteq F \\setminus \\{i\\}} \\frac{|S|!(|F| - |S| - 1)!}{|F|!} \\left[ f(S \\cup \\{i\\}) - f(S) \\right]"
+    },
+    {
+      "line": 122,
+      "type": "inline-equation",
+      "content": "\\sum_{i} \\phi_i(x) = f(x) - E[f(x)]"
+    },
+    {
+      "line": 124,
+      "type": "inline-equation",
+      "content": "\\phi_i = 0"
+    },
+    {
+      "line": 177,
+      "type": "inline-equation",
+      "content": "LGD = 50\\%"
+    },
+    {
+      "line": 179,
+      "type": "display-single",
+      "content": "\\text{Annual Credit Loss} = \\text{₹}12{,}000\\text{ Cr} \\times 0.038 \\times 0.50 = \\mathbf{\\text{₹}228.00\\text{ crore/year}}"
+    },
+    {
+      "line": 194,
+      "type": "display-single",
+      "content": "\\Delta \\text{Credit Loss} = \\text{₹}12{,}000\\text{ Cr} \\times 0.0065 \\times 0.50 = \\mathbf{\\text{₹}39.00\\text{ crore/year}}"
+    },
+    {
+      "line": 265,
+      "type": "inline-equation",
+      "content": "EAD = \\text{₹}40{,}00{,}000"
+    },
+    {
+      "line": 265,
+      "type": "inline-equation",
+      "content": "PD = 4.0\\% = 0.04"
+    },
+    {
+      "line": 265,
+      "type": "inline-equation",
+      "content": "= 35\\%"
+    },
+    {
+      "line": 265,
+      "type": "inline-equation",
+      "content": "LGD = 1 - 0.35 = 0.65"
+    },
+    {
+      "line": 265,
+      "type": "inline-equation",
+      "content": "ECL = \\text{₹}40{,}00{,}000 \\times 0.04 \\times 0.65 = \\mathbf{\\text{₹}1{,}04{,}000}"
+    },
+    {
+      "line": 273,
+      "type": "inline-equation",
+      "content": "EAD \\times PD \\times LGD"
+    }
+  ],
+  "financial-copilots-and-deal-diligence.md": [
+    {
+      "line": 25,
+      "type": "display-single",
+      "content": "P(w_t \\mid w_1, w_2, \\dots, w_{t-1}) = \\text{softmax}(z_t)"
+    },
+    {
+      "line": 29,
+      "type": "display-single",
+      "content": "\\text{Assets} \\equiv \\text{Liabilities} + \\text{Shareholders' Equity}"
+    },
+    {
+      "line": 31,
+      "type": "display-single",
+      "content": "\\Delta \\text{Cash} \\equiv \\text{Cash Flow from Operations} + \\text{Cash Flow from Investing} + \\text{Cash Flow from Financing}"
+    },
+    {
+      "line": 37,
+      "type": "display-single",
+      "content": "EV = \\text{EBITDA}_{\\text{normalized}} \\times M_{\\text{EV/EBITDA}}"
+    },
+    {
+      "line": 41,
+      "type": "display-single",
+      "content": "\\Delta EV = \\Delta \\text{EBITDA}_{\\text{adj}} \\times M_{\\text{EV/EBITDA}}"
+    },
+    {
+      "line": 43,
+      "type": "inline-equation",
+      "content": "10.0\\times"
+    },
+    {
+      "line": 45,
+      "type": "display-single",
+      "content": "\\Delta EV = \\text{₹}50\\text{ crore} \\times 10.0 = \\mathbf{\\text{₹}500\\text{ crore}}"
+    },
+    {
+      "line": 89,
+      "type": "display-single",
+      "content": "\\mathbf{b}_i = [x_{0,i}, y_{0,i}, x_{1,i}, y_{1,i}]"
+    },
+    {
+      "line": 93,
+      "type": "display-single",
+      "content": "A_{ij} = \\text{Attention}_{\\text{text}}(\\mathbf{t}_i, \\mathbf{t}_j) + \\text{Attention}_{\\text{spatial}}(\\mathbf{b}_i, \\mathbf{b}_j)"
+    },
+    {
+      "line": 125,
+      "type": "display-single",
+      "content": "FCFF = \\text{EBIT} \\times (1 - t) + D\\&A - \\text{CapEx} - \\Delta NWC"
+    },
+    {
+      "line": 136,
+      "type": "display-single",
+      "content": "EV = \\sum_{t=1}^{T} \\frac{FCFF_t}{(1 + WACC)^t} + \\frac{FCFF_{T+1}}{(WACC - g)(1 + WACC)^T}"
+    },
+    {
+      "line": 140,
+      "type": "display-single",
+      "content": "WACC = \\left( \\frac{E}{V} \\times r_e \\right) + \\left( \\frac{D}{V} \\times r_d \\times (1 - t) \\right)"
+    },
+    {
+      "line": 144,
+      "type": "display-single",
+      "content": "MoIC = \\frac{\\text{Exit Equity Value}}{\\text{Entry Equity Value}},\\quad IRR = (MoIC)^{1/n} - 1"
+    },
+    {
+      "line": 249,
+      "type": "inline-equation",
+      "content": "1.35\\times"
+    },
+    {
+      "line": 250,
+      "type": "inline-equation",
+      "content": "3.50\\times"
+    },
+    {
+      "line": 251,
+      "type": "inline-equation",
+      "content": "3.00\\times"
+    },
+    {
+      "line": 255,
+      "type": "display-single",
+      "content": "DSCR = \\frac{\\text{Net Operating Income}}{\\text{Total Debt Service}} = \\frac{\\text{EBITDA} - \\text{CapEx}}{\\text{Principal Repayments} + \\text{Interest Expenses}}"
+    },
+    {
+      "line": 290,
+      "type": "display-single",
+      "content": "\\text{Reported EBITDA} = \\text{₹}220\\text{ crore},\\quad \\text{Agreed EV Multiple} = 10.5\\times"
+    },
+    {
+      "line": 291,
+      "type": "display-single",
+      "content": "\\text{Initial Gross Enterprise Value} = \\text{₹}220\\text{ Cr} \\times 10.5 = \\mathbf{\\text{₹}2{,}310\\text{ crore}}"
+    },
+    {
+      "line": 294,
+      "type": "display-single",
+      "content": "\\Delta \\text{Purchase Price} = -\\text{₹}74\\text{ crore}"
+    },
+    {
+      "line": 297,
+      "type": "display-single",
+      "content": "\\text{IRR}_{\\text{unadjusted}} = 19.8\\%,\\quad \\text{IRR}_{\\text{renegotiated}} = \\mathbf{24.2\\%}"
+    },
+    {
+      "line": 354,
+      "type": "display-single",
+      "content": "\\text{EBITDA}_{\\text{audited}} = \\text{Operating Profit} + D\\&A + \\text{Valid Non-Recurring Items}"
+    },
+    {
+      "line": 366,
+      "type": "inline-equation",
+      "content": "9.5\\times"
+    },
+    {
+      "line": 374,
+      "type": "inline-equation",
+      "content": "\\Delta EV = \\Delta \\text{EBITDA}_{\\text{adj}} \\times M_{\\text{EV/EBITDA}}"
+    },
+    {
+      "line": 374,
+      "type": "inline-equation",
+      "content": "\\Delta EV = \\text{₹}40\\text{ crore} \\times 9.5 = \\mathbf{\\text{₹}380\\text{ crore}}"
+    }
+  ],
+  "financial-crime-fraud-and-rbi-free-ai.md": [
+    {
+      "line": 51,
+      "type": "display-single",
+      "content": "P(F \\mid \\text{Alert}) = \\frac{P(\\text{Alert} \\mid F) \\cdot P(F)}{P(\\text{Alert} \\mid F) \\cdot P(F) + P(\\text{Alert} \\mid \\neg F) \\cdot P(\\neg F)}"
+    },
+    {
+      "line": 54,
+      "type": "inline-equation",
+      "content": "P(\\text{Alert} \\mid F) = 0.99"
+    },
+    {
+      "line": 55,
+      "type": "inline-equation",
+      "content": "P(\\text{Alert} \\mid \\neg F) = 0.01"
+    },
+    {
+      "line": 57,
+      "type": "inline-equation",
+      "content": "\\pi = P(F)"
+    },
+    {
+      "line": 57,
+      "type": "inline-equation",
+      "content": "\\pi = 0.0001"
+    },
+    {
+      "line": 57,
+      "type": "inline-equation",
+      "content": "P(\\neg F) = 0.9999"
+    },
+    {
+      "line": 61,
+      "type": "display-single",
+      "content": "P(F \\mid \\text{Alert}) = \\frac{0.99 \\times 0.0001}{0.99 \\times 0.0001 + 0.01 \\times 0.9999}"
+    },
+    {
+      "line": 63,
+      "type": "display-single",
+      "content": "P(F \\mid \\text{Alert}) = \\frac{0.000099}{0.000099 + 0.009999} = \\frac{0.000099}{0.010098} \\approx 0.009804 \\approx 0.98\\%"
+    },
+    {
+      "line": 67,
+      "type": "inline-equation",
+      "content": "N = 40{,}000{,}000"
+    },
+    {
+      "line": 71,
+      "type": "inline-equation",
+      "content": "\\pi = 0.01\\%"
+    },
+    {
+      "line": 91,
+      "type": "display-single",
+      "content": "\\mathcal{L}(\\theta) = C_{\\text{FP}} \\cdot \\text{FPR}(\\theta) \\cdot (1 - \\pi) + C_{\\text{FN}} \\cdot (1 - \\text{TPR}(\\theta)) \\cdot \\pi"
+    },
+    {
+      "line": 95,
+      "type": "display-single",
+      "content": "\\theta^* = \\frac{C_{\\text{FP}} \\cdot (1 - \\pi)}{C_{\\text{FP}} \\cdot (1 - \\pi) + C_{\\text{FN}} \\cdot \\pi}"
+    },
+    {
+      "line": 134,
+      "type": "inline-equation",
+      "content": "G = (V, E, \\mathcal{T})"
+    },
+    {
+      "line": 140,
+      "type": "display-single",
+      "content": "h_v^{(k)} = \\sigma\\left(W^{(k)} \\cdot \\text{CONCAT}\\left(h_v^{(k-1)}, \\sum_{u \\in \\mathcal{N}(v)} \\alpha_{uv} \\cdot h_u^{(k-1)}\\right)\\right)"
+    },
+    {
+      "line": 145,
+      "type": "inline-equation",
+      "content": "A \\to B \\to C \\to A"
+    },
+    {
+      "line": 149,
+      "type": "display-single",
+      "content": "R_{\\text{velocity}} = \\frac{|\\Delta B_{\\text{in}} - \\Delta B_{\\text{out}}|}{\\Delta t}"
+    },
+    {
+      "line": 151,
+      "type": "inline-equation",
+      "content": "R_{\\text{velocity}} \\to 0"
+    },
+    {
+      "line": 153,
+      "type": "display-single",
+      "content": "\\text{Balance}_{\\text{closing}} = \\text{Balance}_{\\text{opening}} + \\sum \\text{Inflow} - \\sum \\text{Outflow} \\approx 0"
+    },
+    {
+      "line": 218,
+      "type": "inline-equation",
+      "content": "p = 0.942"
+    },
+    {
+      "line": 316,
+      "type": "inline-equation",
+      "content": "R_{\\text{velocity}} = 0.994"
+    },
+    {
+      "line": 347,
+      "type": "inline-equation",
+      "content": "DIR \\ge 0.80"
+    },
+    {
+      "line": 348,
+      "type": "inline-equation",
+      "content": "A \\to B \\to C \\to A"
+    },
+    {
+      "line": 398,
+      "type": "inline-equation",
+      "content": "P(\\text{Fraud} \\mid \\text{Alert}) = \\frac{P(\\text{Alert} \\mid \\text{Fraud}) P(\\text{Fraud})}{P(\\text{Alert} \\mid \\text{Fraud}) P(\\text{Fraud}) + P(\\text{Alert} \\mid \\text{Legit}) P(\\text{Legit})}"
+    },
+    {
+      "line": 398,
+      "type": "inline-equation",
+      "content": "P(\\text{Fraud}) = 0.0001"
+    },
+    {
+      "line": 398,
+      "type": "inline-equation",
+      "content": "0.01 \\times 0.9999 \\approx 0.0100"
+    },
+    {
+      "line": 398,
+      "type": "inline-equation",
+      "content": "0.99 \\times 0.0001 = 0.000099"
+    },
+    {
+      "line": 399,
+      "type": "inline-equation",
+      "content": "A \\to B \\to C \\to A"
+    },
+    {
+      "line": 400,
+      "type": "inline-equation",
+      "content": "10{,}000{,}000 \\times 0.0002 = 2{,}000"
+    },
+    {
+      "line": 400,
+      "type": "inline-equation",
+      "content": "2{,}000 \\times 0.95 = 1{,}900"
+    },
+    {
+      "line": 400,
+      "type": "inline-equation",
+      "content": "9{,}998{,}000 \\times 0.005 = 49{,}990"
+    },
+    {
+      "line": 400,
+      "type": "inline-equation",
+      "content": "1{,}900 + 49{,}990 = 51{,}890"
+    },
+    {
+      "line": 400,
+      "type": "inline-equation",
+      "content": "1{,}900 / 51{,}890 \\approx 3.66\\%"
+    }
+  ],
+  "finance-casebook.md": [
+    {
+      "line": 55,
+      "type": "inline-equation",
+      "content": "5\\times"
+    },
+    {
+      "line": 77,
+      "type": "display-single",
+      "content": "\\text{Baseline Provision} = \\text{AUM} \\times \\text{GNPA} \\times LGD = \\text{₹}10{,}000\\text{ Cr} \\times 4.20\\% \\times 50\\% = \\mathbf{\\text{₹}210.0\\text{ crore/year}}"
+    },
+    {
+      "line": 79,
+      "type": "display-single",
+      "content": "\\text{Baseline Opex} = \\text{₹}10{,}000\\text{ Cr} \\times 3.50\\% = \\mathbf{\\text{₹}350.0\\text{ crore/year}}"
+    },
+    {
+      "line": 81,
+      "type": "display-single",
+      "content": "\\text{Baseline PBT} = \\text{NIM} - \\text{Provision} - \\text{Opex} = \\text{₹}475.0\\text{ Cr} - \\text{₹}210.0\\text{ Cr} - \\text{₹}350.0\\text{ Cr} = -\\text{₹}85.0\\text{ crore}"
+    },
+    {
+      "line": 94,
+      "type": "display-single",
+      "content": "\\Delta \\text{GNPA} = 4.20\\% - 3.60\\% = 0.60\\%\\quad (\\mathbf{60\\text{ basis points}})"
+    },
+    {
+      "line": 95,
+      "type": "display-single",
+      "content": "\\Delta \\text{Provision} = \\text{AUM} \\times \\Delta \\text{GNPA} \\times LGD = \\text{₹}10{,}000\\text{ Cr} \\times 0.0060 \\times 0.50 = \\mathbf{\\text{₹}30.0\\text{ crore/year}}"
+    },
+    {
+      "line": 97,
+      "type": "display-single",
+      "content": "\\Delta \\text{Opex} = \\text{AUM} \\times 0.80\\% = \\text{₹}10{,}000\\text{ Cr} \\times 0.0080 = \\mathbf{\\text{₹}80.0\\text{ crore/year}}"
+    },
+    {
+      "line": 99,
+      "type": "display-single",
+      "content": "\\Delta PBT = \\Delta \\text{Provision Savings} + \\Delta \\text{Opex Savings} = \\text{₹}30.0\\text{ Cr} + \\text{₹}80.0\\text{ Cr} = \\mathbf{\\text{₹}110.0\\text{ crore/year}}"
+    },
+    {
+      "line": 102,
+      "type": "inline-equation",
+      "content": "t = 25.17\\%"
+    },
+    {
+      "line": 103,
+      "type": "display-single",
+      "content": "\\Delta PAT = \\Delta PBT \\times (1 - t) = \\text{₹}110.0\\text{ Cr} \\times (1 - 0.2517) = \\mathbf{\\text{₹}82.31\\text{ crore/year}}"
+    },
+    {
+      "line": 105,
+      "type": "display-single",
+      "content": "\\Delta ROA_{\\text{pre-tax}} = \\frac{\\Delta PBT}{\\text{AUM}} = \\frac{\\text{₹}110.0\\text{ Cr}}{\\text{₹}10{,}000\\text{ Cr}} = \\mathbf{+1.10\\%}\\quad (\\mathbf{+110\\text{ basis points}})"
+    },
+    {
+      "line": 108,
+      "type": "display-single",
+      "content": "\\Delta ROE = \\frac{\\Delta PAT}{\\text{Allocated Equity}} = \\frac{\\text{₹}82.31\\text{ Cr}}{\\text{₹}1{,}000\\text{ Cr}} = \\mathbf{+8.23\\%}\\quad (\\mathbf{+823\\text{ basis points}})"
+    },
+    {
+      "line": 125,
+      "type": "inline-equation",
+      "content": "6.0\\times"
+    },
+    {
+      "line": 141,
+      "type": "inline-equation",
+      "content": "6.0\\times \\text{₹}33\\text{ Cr} = \\text{₹}198\\text{ Cr}"
+    },
+    {
+      "line": 149,
+      "type": "inline-equation",
+      "content": "12.0\\times"
+    },
+    {
+      "line": 150,
+      "type": "display-single",
+      "content": "\\Delta EV_{\\text{exit}} = (\\text{EBITDA}_{\\text{optimized}} - \\text{EBITDA}_{\\text{baseline}}) \\times M_{\\text{EV/EBITDA}}"
+    },
+    {
+      "line": 151,
+      "type": "display-single",
+      "content": "\\Delta EV_{\\text{exit}} = (\\text{₹}420\\text{ Cr} - \\text{₹}300\\text{ Cr}) \\times 12.0 = \\text{₹}120\\text{ Cr} \\times 12.0 = \\mathbf{\\text{₹}1{,}440.0\\text{ crore}}"
+    },
+    {
+      "line": 153,
+      "type": "display-single",
+      "content": "\\text{Total Enterprise Value Created} = \\text{Entry Haircut (₹85 Cr)} + \\text{Fee Savings (₹2.2 Cr)} + \\Delta EV_{\\text{exit}}\\text{ (₹1,440 Cr)} = \\mathbf{\\text{₹}1{,}527.2\\text{ crore}}"
+    },
+    {
+      "line": 171,
+      "type": "inline-equation",
+      "content": "80{,}000 / 500 = 160"
+    },
+    {
+      "line": 173,
+      "type": "display-single",
+      "content": "\\text{Baseline Personnel Spend} = 500 \\times \\text{₹}24.0\\text{ lakh} = \\mathbf{\\text{₹}120.0\\text{ crore/year}}"
+    },
+    {
+      "line": 175,
+      "type": "display-single",
+      "content": "\\text{Annual Gross Fee Revenue} = \\text{₹}40{,}000\\text{ Cr} \\times 0.75\\% = \\mathbf{\\text{₹}300.0\\text{ crore/year}}"
+    },
+    {
+      "line": 182,
+      "type": "inline-equation",
+      "content": "5\\times"
+    },
+    {
+      "line": 187,
+      "type": "display-single",
+      "content": "\\text{Required Advisors} = \\frac{80{,}000\\text{ clients}}{800\\text{ clients/advisor}} = \\mathbf{100\\text{ advisors}}"
+    },
+    {
+      "line": 189,
+      "type": "display-single",
+      "content": "\\Delta \\text{Payroll} = (500 - 100) \\times \\text{₹}24.0\\text{ lakh} = 400 \\times \\text{₹}24.0\\text{ lakh} = \\mathbf{\\text{₹}96.0\\text{ crore/year}}"
+    },
+    {
+      "line": 192,
+      "type": "display-single",
+      "content": "\\text{Retained AUM Capital} = \\text{₹}40{,}000\\text{ Cr} \\times (10.0\\% - 5.5\\%) = \\text{₹}40{,}000\\text{ Cr} \\times 4.5\\% = \\mathbf{\\text{₹}1{,}800.0\\text{ crore}}"
+    },
+    {
+      "line": 194,
+      "type": "display-single",
+      "content": "\\Delta \\text{Fee Revenue} = \\text{₹}1{,}800.0\\text{ Cr} \\times 0.75\\% = \\mathbf{\\text{₹}13.5\\text{ crore/year}}"
+    },
+    {
+      "line": 196,
+      "type": "display-single",
+      "content": "\\text{Total Annual Pre-Tax Value} = \\Delta \\text{Payroll Savings} + \\Delta \\text{Fee Revenue} = \\text{₹}96.0\\text{ Cr} + \\text{₹}13.5\\text{ Cr} = \\mathbf{\\text{₹}109.5\\text{ crore/year}}"
+    },
+    {
+      "line": 198,
+      "type": "inline-equation",
+      "content": "\\frac{\\text{₹}300.0\\text{ Cr} - \\text{₹}120.0\\text{ Cr}}{\\text{₹}300.0\\text{ Cr}} = \\mathbf{60.0\\%}"
+    },
+    {
+      "line": 200,
+      "type": "display-single",
+      "content": "\\text{Optimized Margin} = \\frac{\\text{₹}313.5\\text{ Cr} - \\text{₹}24.0\\text{ Cr}}{\\text{₹}313.5\\text{ Cr}} = \\frac{\\text{₹}289.5\\text{ Cr}}{\\text{₹}313.5\\text{ Cr}} = \\mathbf{92.3\\%}"
+    },
+    {
+      "line": 218,
+      "type": "display-single",
+      "content": "\\text{Monthly Alerts} = 250{,}000{,}000 \\times 0.002 = \\mathbf{500{,}000\\text{ alerts/month}}"
+    },
+    {
+      "line": 219,
+      "type": "inline-equation",
+      "content": "\\pi = 0.005\\%"
+    },
+    {
+      "line": 221,
+      "type": "display-single",
+      "content": "\\text{False Positives} = 500{,}000 - 12{,}500 = \\mathbf{487{,}500\\text{ false alerts/month}}\\quad (\\mathbf{97.5\\%\\text{ false alarm rate}})"
+    },
+    {
+      "line": 223,
+      "type": "display-single",
+      "content": "\\text{Baseline Monthly Investigation Spend} = 500{,}000 \\times \\text{₹}150 = \\mathbf{\\text{₹}7.50\\text{ crore/month}}\\quad (\\mathbf{\\text{₹}90.0\\text{ crore/year}})"
+    },
+    {
+      "line": 235,
+      "type": "display-single",
+      "content": "\\text{Spend}_{\\text{automated}} = 325{,}000 \\times \\text{₹}2.00 = \\text{₹}6{,}50{,}000\\text{/month} = \\mathbf{\\text{₹}0.065\\text{ crore/month}}"
+    },
+    {
+      "line": 237,
+      "type": "display-single",
+      "content": "\\text{Spend}_{\\text{human}} = 175{,}000 \\times \\text{₹}50.00 = \\text{₹}87{,}50{,}000\\text{/month} = \\mathbf{\\text{₹}0.875\\text{ crore/month}}"
+    },
+    {
+      "line": 239,
+      "type": "display-single",
+      "content": "\\text{Spend}_{\\text{optimized}} = \\text{₹}0.065\\text{ Cr} + \\text{₹}0.875\\text{ Cr} = \\mathbf{\\text{₹}0.940\\text{ crore/month}}"
+    },
+    {
+      "line": 241,
+      "type": "display-single",
+      "content": "\\Delta \\text{Spend}_{\\text{monthly}} = \\text{₹}7.500\\text{ Cr} - \\text{₹}0.940\\text{ Cr} = \\mathbf{\\text{₹}6.560\\text{ crore/month}}\\quad (\\mathbf{87.5\\%\\text{ cost reduction}})"
+    },
+    {
+      "line": 242,
+      "type": "display-single",
+      "content": "\\Delta \\text{Spend}_{\\text{annual}} = \\text{₹}6.560\\text{ Cr} \\times 12 = \\mathbf{\\text{₹}78.72\\text{ crore/year}}"
+    },
+    {
+      "line": 270,
+      "type": "inline-equation",
+      "content": "20\\text{M} \\times 2{,}300 = \\mathbf{46.0\\text{ billion tokens/month}}"
+    },
+    {
+      "line": 272,
+      "type": "inline-equation",
+      "content": "320,000 ="
+    },
+    {
+      "line": 273,
+      "type": "inline-equation",
+      "content": "55.08 \\times 8{,}760\\text{ h} = 482{,}491\\text{ kWh}"
+    },
+    {
+      "line": 277,
+      "type": "inline-equation",
+      "content": "\\text{₹}0.53\\text{ Cr} + \\text{₹}0.36\\text{ Cr} + \\text{₹}0.70\\text{ Cr} + \\text{₹}2.30\\text{ Cr} = \\mathbf{\\text{₹}3.89\\text{ crore/year}}"
+    },
+    {
+      "line": 279,
+      "type": "display-single",
+      "content": "\\text{TCO}_{\\text{On-Prem}} = \\text{₹}12.75\\text{ Cr (Capex)} + (3 \\times \\text{₹}3.89\\text{ Cr (Opex)}) = \\text{₹}12.75\\text{ Cr} + \\text{₹}11.67\\text{ Cr} = \\mathbf{\\text{₹}24.42\\text{ crore}}"
+    },
+    {
+      "line": 283,
+      "type": "display-single",
+      "content": "c_{\\text{API}} = \\left(\\frac{2{,}000}{1\\text{M}} \\times \\$1.50\\right) + \\left(\\frac{300}{1\\text{M}} \\times \\$6.00\\right) = \\$0.0030 + \\$0.0018 = \\$0.0048\\text{ per query}\\quad (\\approx \\mathbf{\\text{₹}0.408\\text{ per query}})"
+    },
+    {
+      "line": 284,
+      "type": "inline-equation",
+      "content": "20{,}000{,}000 \\times \\text{₹}0.408 \\times 12 = \\text{₹}97{,}920{,}000 = \\mathbf{\\text{₹}9.792\\text{ crore/year}}"
+    },
+    {
+      "line": 286,
+      "type": "display-single",
+      "content": "\\text{TCO}_{\\text{Cloud}} = 3 \\times \\text{₹}9.792\\text{ Cr} = \\mathbf{\\text{₹}29.38\\text{ crore}}"
+    },
+    {
+      "line": 288,
+      "type": "display-single",
+      "content": "\\text{Annualized On-Prem Fixed Cost} = \\frac{\\text{₹}12.75\\text{ Cr}}{3} + \\text{₹}3.89\\text{ Cr} = \\text{₹}4.25\\text{ Cr} + \\text{₹}3.89\\text{ Cr} = \\mathbf{\\text{₹}8.14\\text{ crore/year}}"
+    },
+    {
+      "line": 289,
+      "type": "display-single",
+      "content": "V^* = \\frac{\\text{Annualized Fixed On-Prem Cost}}{c_{\\text{API}}} = \\frac{\\text{₹}8{,}14{,}00{,}000}{\\text{₹}0.408} \\approx \\mathbf{199{,}509{,}804\\text{ queries/year}}\\quad (\\approx \\mathbf{16.63\\text{ million queries/month}})"
+    },
+    {
+      "line": 290,
+      "type": "inline-equation",
+      "content": "\\text{₹}29.38\\text{ Cr} - \\text{₹}24.42\\text{ Cr} = \\text{₹}4.96\\text{ crore}"
+    },
+    {
+      "line": 312,
+      "type": "inline-equation",
+      "content": "< 3.5\\times"
+    },
+    {
+      "line": 312,
+      "type": "inline-equation",
+      "content": "ISCR > 2.25\\times"
+    },
+    {
+      "line": 312,
+      "type": "inline-equation",
+      "content": "> 1.20\\times"
+    },
+    {
+      "line": 320,
+      "type": "display-single",
+      "content": "\\text{Losses}_{\\text{baseline}} = \\text{₹}1{,}000.0\\text{ Cr} \\times 55.0\\% = \\mathbf{\\text{₹}550.0\\text{ crore/year}}"
+    },
+    {
+      "line": 328,
+      "type": "display-single",
+      "content": "\\text{Losses}_{\\text{optimized}} = \\text{₹}500.0\\text{ Cr} \\times 40.0\\% = \\mathbf{\\text{₹}200.0\\text{ crore/year}}"
+    },
+    {
+      "line": 330,
+      "type": "display-single",
+      "content": "\\Delta \\text{Losses} = \\text{₹}550.0\\text{ Cr} - \\text{₹}200.0\\text{ Cr} = \\mathbf{\\text{₹}350.0\\text{ crore/year}}"
+    },
+    {
+      "line": 333,
+      "type": "display-single",
+      "content": "\\text{Total Annual Value} = \\text{₹}350.0\\text{ Cr (Loss Mitigation)} + \\text{₹}3.75\\text{ Cr (Waiver Fees)} = \\mathbf{\\text{₹}353.75\\text{ crore/year}}"
+    },
+    {
+      "line": 354,
+      "type": "display-single",
+      "content": "\\text{Baseline Opex} = \\text{₹}600.0\\text{ Cr} \\times 48.0\\% = \\mathbf{\\text{₹}288.0\\text{ crore/year}}"
+    },
+    {
+      "line": 357,
+      "type": "inline-equation",
+      "content": "\\text{₹}600.0\\text{ Cr} - \\text{₹}288.0\\text{ Cr} - \\text{₹}120.0\\text{ Cr} = \\mathbf{\\text{₹}192.0\\text{ crore/year}}"
+    },
+    {
+      "line": 358,
+      "type": "inline-equation",
+      "content": "\\text{₹}192.0\\text{ Cr} \\times (1 - 0.2517) = \\mathbf{\\text{₹}143.67\\text{ crore/year}}"
+    },
+    {
+      "line": 360,
+      "type": "inline-equation",
+      "content": "\\frac{\\text{₹}143.67\\text{ Cr}}{\\text{₹}1{,}000\\text{ Cr}} = \\mathbf{14.37\\%}"
+    },
+    {
+      "line": 361,
+      "type": "inline-equation",
+      "content": "1.80\\times"
+    },
+    {
+      "line": 362,
+      "type": "display-single",
+      "content": "\\text{Baseline Market Capitalization} = 1.80 \\times \\text{₹}1{,}000.0\\text{ Cr} = \\mathbf{\\text{₹}1{,}800.0\\text{ crore}}\\quad (P/E = 12.5\\times)"
+    },
+    {
+      "line": 369,
+      "type": "inline-equation",
+      "content": "\\text{₹}600.0\\text{ Cr} - \\text{₹}235.5\\text{ Cr} - \\text{₹}108.0\\text{ Cr} = \\mathbf{\\text{₹}256.5\\text{ crore/year}}"
+    },
+    {
+      "line": 370,
+      "type": "inline-equation",
+      "content": "\\text{₹}256.5\\text{ Cr} \\times (1 - 0.2517) = \\mathbf{\\text{₹}191.94\\text{ crore/year}}\\quad (\\mathbf{+33.6\\%\\text{ net earnings growth}})"
+    },
+    {
+      "line": 372,
+      "type": "display-single",
+      "content": "ROE_{\\text{optimized}} = \\frac{\\text{₹}191.94\\text{ Cr}}{\\text{₹}1{,}000.0\\text{ Cr}} = \\mathbf{19.19\\%}\\quad (\\mathbf{+482\\text{ basis points ROE expansion}})"
+    },
+    {
+      "line": 374,
+      "type": "inline-equation",
+      "content": "1.80\\times"
+    },
+    {
+      "line": 374,
+      "type": "inline-equation",
+      "content": "2.40\\times"
+    },
+    {
+      "line": 376,
+      "type": "display-single",
+      "content": "\\text{Market Cap}_{\\text{optimized}} = 2.40 \\times \\text{₹}1{,}000.0\\text{ Cr} = \\mathbf{\\text{₹}2{,}400.0\\text{ crore}}"
+    },
+    {
+      "line": 378,
+      "type": "display-single",
+      "content": "\\Delta \\text{Equity Value} = \\text{₹}2{,}400.0\\text{ Cr} - \\text{₹}1{,}800.0\\text{ Cr} = \\mathbf{\\text{₹}600.0\\text{ crore}}\\quad (\\mathbf{+33.3\\%\\text{ equity market revaluation}})"
+    },
+    {
+      "line": 379,
+      "type": "inline-equation",
+      "content": "14.5\\times"
+    },
+    {
+      "line": 398,
+      "type": "inline-equation",
+      "content": "Q = \\text{₹}1{,}500\\text{ crore}"
+    },
+    {
+      "line": 409,
+      "type": "display-single",
+      "content": "\\text{Slippage} = \\eta \\times \\sigma_{\\text{daily}} \\times \\sqrt{\\frac{Q}{V_{\\text{daily}}}} \\times Q"
+    },
+    {
+      "line": 410,
+      "type": "inline-equation",
+      "content": "Q = \\text{₹}1{,}500\\text{ Cr}"
+    },
+    {
+      "line": 410,
+      "type": "inline-equation",
+      "content": "V_{\\text{daily}} = \\text{₹}10{,}000\\text{ Cr}"
+    },
+    {
+      "line": 410,
+      "type": "inline-equation",
+      "content": "\\sigma_{\\text{daily}} = 2.8\\%"
+    },
+    {
+      "line": 410,
+      "type": "inline-equation",
+      "content": "\\eta = 0.65"
+    },
+    {
+      "line": 411,
+      "type": "display-single",
+      "content": "\\text{Normal Impact} = 0.65 \\times 0.028 \\times \\sqrt{0.15} \\times \\text{₹}1{,}500\\text{ Cr} = 0.0182 \\times 0.3873 \\times \\text{₹}1{,}500\\text{ Cr} \\approx \\text{₹}10.57\\text{ crore}"
+    },
+    {
+      "line": 413,
+      "type": "display-single",
+      "content": "\\text{Stressed Slippage Cost} = 1.85\\% \\times \\text{₹}1{,}500.0\\text{ Cr} = \\mathbf{\\text{₹}27.75\\text{ crore}}"
+    },
+    {
+      "line": 416,
+      "type": "display-single",
+      "content": "\\text{Directional Price Loss} = 4.50\\% \\times \\text{₹}1{,}500.0\\text{ Cr} = \\mathbf{\\text{₹}67.50\\text{ crore}}"
+    },
+    {
+      "line": 419,
+      "type": "display-single",
+      "content": "\\text{Incremental Margin Demand} = 1.40\\% \\times \\text{₹}1{,}500.0\\text{ Cr} = \\mathbf{\\text{₹}21.00\\text{ crore}}"
+    },
+    {
+      "line": 424,
+      "type": "display-single",
+      "content": "\\text{Subtotal Cash Drain} = \\text{₹}27.75\\text{ Cr} + \\text{₹}67.50\\text{ Cr} + \\text{₹}21.00\\text{ Cr} + \\text{₹}3.50\\text{ Cr} = \\mathbf{\\text{₹}119.75\\text{ crore}}"
+    },
+    {
+      "line": 425,
+      "type": "display-single",
+      "content": "\\text{Mandatory Capital Buffer} = \\text{₹}119.75\\text{ Cr} \\times 1.15 = \\mathbf{\\text{₹}137.71\\text{ crore}}\\quad (\\approx \\mathbf{\\text{₹}140\\text{--}145\\text{ crore}})"
+    },
+    {
+      "line": 509,
+      "type": "inline-equation",
+      "content": "\\text{AUM} \\times \\text{GNPA} \\times LGD"
+    },
+    {
+      "line": 509,
+      "type": "inline-equation",
+      "content": "LGD = 50\\%"
+    },
+    {
+      "line": 509,
+      "type": "inline-equation",
+      "content": "\\frac{\\text{₹}82.31\\text{ Cr}}{\\text{₹}1{,}000\\text{ Cr}} = \\mathbf{+8.23\\%}"
+    },
+    {
+      "line": 510,
+      "type": "inline-equation",
+      "content": "Assets = Liabilities + Equity"
+    },
+    {
+      "line": 511,
+      "type": "inline-equation",
+      "content": "\\frac{\\text{₹}12.75\\text{ Cr}}{3} + \\text{₹}3.89\\text{ Cr} = \\text{₹}4.25\\text{ Cr} + \\text{₹}3.89\\text{ Cr} = \\text{₹}8.14\\text{ crore/year}"
+    },
+    {
+      "line": 511,
+      "type": "inline-equation",
+      "content": "V^* = \\frac{\\text{Fixed Annual Cost}}{c_{\\text{API}}} = \\frac{\\text{₹}8{,}14{,}00{,}000}{\\text{₹}0.408} \\approx \\mathbf{199{,}509{,}804\\text{ queries/year}}"
+    },
+    {
+      "line": 512,
+      "type": "inline-equation",
+      "content": "1.85\\% \\times \\text{₹}1{,}500\\text{ Cr} = \\text{₹}27.75\\text{ Cr}"
+    },
+    {
+      "line": 512,
+      "type": "inline-equation",
+      "content": "4.50\\% \\times \\text{₹}1{,}500\\text{ Cr} = \\text{₹}67.50\\text{ Cr}"
+    },
+    {
+      "line": 512,
+      "type": "inline-equation",
+      "content": "1.40\\% \\times \\text{₹}1{,}500\\text{ Cr} = \\text{₹}21.00\\text{ Cr}"
+    },
+    {
+      "line": 512,
+      "type": "inline-equation",
+      "content": "\\text{₹}119.75\\text{ Cr} \\times 1.15 = \\mathbf{\\text{₹}137.71\\text{ crore}}"
+    }
+  ]
+}

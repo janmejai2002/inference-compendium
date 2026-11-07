@@ -21,19 +21,13 @@ In traditional web development, latency optimization focuses on database indexin
 
 Large language models introduce an entirely different physical bottleneck. A transformer does not compute responses in a single clock cycle; it processes requests in two distinct computational phases: prompt prefill and autoregressive token generation.
 
-```
-Request Sent                                                          Full Generation
-    │                                                                        │
-    ├─── Network Transit (100ms) ───┤                                        │
-    ├────── DB Retrieval (150ms) ────────┤                                   │
-    ├───────── TTFT Prefill (250ms with Cache) ─────────┤                    │
-    ├────────────────── Streaming Generation (30 tokens @ 60 TPS = 500ms) ───┤
-    ▼                                                   ▼                    ▼
-   0ms                                                500ms               1,000ms
-                                                        ▲
-                                             User Starts Reading
-                                          (Perceived Wait Ends Here)
-```
+| Latency Phase | Duration (ms) | Cumulative Timeline | Primary Driver / Optimization Seam |
+|---|---:|---:|---|
+| Network Transit | 100 ms | 0 – 100 ms | Client-to-cloud roundtrip transit |
+| Database Retrieval | 150 ms | 100 – 250 ms | Vector search / RAG chunk lookup |
+| TTFT Prefill (Cached) | 250 ms | 250 – 500 ms | KV cache lookup & attention prefill |
+| Streaming Generation | 500 ms | 500 – 1,000 ms | 30 output tokens @ 60 TPS decode speed |
+| **Total Response** | **1,000 ms** | **1.0 s SLA** | **Cognitive flow perception threshold** |
 
 The total end-to-end response time is the additive sum of four distinct components:
 
@@ -265,7 +259,7 @@ Calculations to perform:
 1. Calculate the total monthly expenditure of routing 100% of queries to Tier 3 ($1{,}000{,}000 \times \$0.0300 = \$30{,}000$).
 2. Calculate the weighted monthly expenditure of the three-tier cascade:
    $$\text{Cost} = (400{,}000 \times \$0.0001) + (450{,}000 \times \$0.0020) + (150{,}000 \times \$0.0300) = \$40 + \$900 + \$4{,}500 = \mathbf{\$5{,}440}$$
-3. Verify that the cascade slashes monthly compute expenditure by **81.9%** ($30{,}000 \to \$5{,}440) while reducing weighted average response time from 2,200ms to **462.5ms**.
+3. Verify that the cascade slashes monthly compute expenditure by **81.9%** ($30,000 → $5,440) while reducing weighted average response time from 2,200ms to **462.5ms**.
 :::
 
 ## Recommended reading & media

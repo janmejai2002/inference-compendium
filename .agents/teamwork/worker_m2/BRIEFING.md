@@ -1,81 +1,64 @@
-# BRIEFING — 2026-11-04T16:00:00Z
+# BRIEFING — 2026-11-05T10:58:00Z
 
 ## Mission
-Update publication structure (content/toc.yml and scripts/build.mjs) and author 3 publication-grade vector SVG figures for the Part VI Finance & Banking track with 100% compliance with compendium visual styling and build verification.
+Execute Milestone 2: KaTeX Syntax, Math Invariants & Tabular Layout (fix render.mjs regex and objectives preprocessing, fix LaTeX leaks in product chapters, convert 8 fenced ASCII tables to GFM pipe tables).
 
 ## 🔒 My Identity
-- Archetype: teamwork_worker
+- Archetype: worker_m2
 - Roles: implementer, qa, specialist
 - Working directory: C:\Users\Janmejai\compendium\.agents\teamwork\worker_m2
-- Original parent: 63749ac4-d84d-4275-8f32-53b3635ebc8a
-- Milestone: Milestone 2 (Foundation PM Chapters)
-- Current Milestone: M2 - Part VI Structure, Visuals & Configuration (Finance Track)
-- Current Parent: a5372a48-229a-4fc5-8650-1b7734794c36
+- Original parent: e8b90a07-d677-49a5-8255-a8ddabf3d3e6
+- Milestone: Milestone 2: KaTeX Syntax, Math Invariants & Tabular Layout
 
 ## 🔒 Key Constraints
-- Exclusively own and edit:
-  - content/chapters/ai-product-lifecycle.md
+- EXCLUSIVE WRITE BOUNDARIES (You may ONLY edit these files):
+  - scripts/lib/render.mjs
+  - content/chapters/product-casebook.md
   - content/chapters/product-architecture-economics.md
-  - content/figures/ai-product-lifecycle.svg
-  - content/figures/product-architecture-economics.svg
-- Do not touch any file outside this exclusive list.
-- Genuine implementation only: no cheating, no facade, maintain real state.
-- 13-stage pedagogical arc in both chapters.
-- Exactly 4-8 highlights per chapter (first in lede is thesis).
-- Exactly 1 stat block per chapter (lining-nums).
-- 1-3 media cards per chapter.
-- 4-6 check questions + upside-down answers (.flip).
-- Exactly 5 numbered lines in ::: recap.
-- Zero escaped HTML leaks (no KaTeX inside container header lines!).
-- Anti-ai-writing rules strictly enforced.
-- [Appended for Milestone M2 Finance Track]:
-  - Exclusive write ownership:
-    - content/toc.yml
-    - scripts/build.mjs
-    - content/figures/credit-underwriting-stack.svg
-    - content/figures/financial-copilot-architecture.svg
-    - content/figures/aml-fraud-detection-funnel.svg
-  - Strictly DO NOT write to files owned by worker_m1 or worker_m3.
-  - Follow compendium SVG design language (viewBox="0 0 640 330", CSS classes .t-display, .paper.acc-s, .wash.acc-s, .rule-s, dark/light compatibility).
+  - content/chapters/financial-copilots-and-deal-diligence.md
+  - content/chapters/ai-product-lifecycle.md
+  - content/chapters/marketing-casebook.md
+  - content/chapters/financial-crime-fraud-and-rbi-free-ai.md
+  - .agents/teamwork/worker_m2/*
+- DO NOT CHEAT or hardcode test results.
+- Standard GFM tables, clean KaTeX rendering, 0 leaks, npm run check 0 errors, npm run build passes.
 
 ## Current Parent
-- Conversation ID: a5372a48-229a-4fc5-8650-1b7734794c36
-- Updated: 2026-11-04T16:00:00Z
+- Conversation ID: e8b90a07-d677-49a5-8255-a8ddabf3d3e6
+- Updated: 2026-11-05T10:58:00Z
 
 ## Task Summary
-- **What to build**:
-  1. Insert Part VI (Finance & Banking) and renumber Inserts to Part VII in `content/toc.yml`.
-  2. Add `'finance'` to reading paths in `scripts/build.mjs`.
-  3. Create 3 vector SVG figures: `credit-underwriting-stack.svg`, `financial-copilot-architecture.svg`, `aml-fraud-detection-funnel.svg`.
-- **Success criteria**:
-  - `npm run build` compiles 24/28 chapters in < 500 ms.
-  - `npm run check` passes with 0 errors.
-  - All 3 SVGs render cleanly with proper viewBox, semantic labels, and design tokens.
-  - `changes.md` and `handoff.md` completed.
+- **What to build**: Fix render.mjs regex and frontmatter objectives math preprocessing, fix formula currency leaking raw LaTeX in product-casebook.md and product-architecture-economics.md, convert 8 fenced ASCII tables to standard GFM pipe tables across 5 chapters.
+- **Success criteria**: 0 raw LaTeX leaks, 0 errors in npm run check, successful npm run build.
+- **Interface contracts**: docs/DESIGN.md, docs/PEDAGOGY.md
+- **Code layout**: scripts/lib/render.mjs, content/chapters/*.md
 
 ## Key Decisions Made
-- Part VI formatted with matching structure of Parts 0-5 in `content/toc.yml` (`id: p6`, `n: VI`, `title: Finance & Banking`, `track: finance`, `deck: ...`, `chapters: [...]`).
-- Shifted Inserts to `id: p7`, `n: VII`.
-- Added `'finance'` to `paths` array in `scripts/build.mjs` line 122.
-- SVG figures crafted to 640x330 standard viewBox, using `.t-display`, `.paper.acc-s`, `.wash.acc-s`, `.rule-s`, ensuring complete dark/light mode compatibility.
+- Updated inline math regex in `scripts/lib/render.mjs` line 172 to `(?:\\\$|[^\$\n])+?`, resolving unrendered LaTeX when math formulas contain currency.
+- Wrapped frontmatter objectives in `preprocess(state, o)` in `render.mjs` line 247, enabling math rendering in chapter openers across all tracks.
+- Formatted line 347 in `product-casebook.md` as display math `$$...$$`.
+- Replaced raw `\to` in `product-architecture-economics.md` line 268 with unicode `→`.
+- Converted all 8 cataloged fenced ASCII tables into standard responsive GFM pipe tables.
 
 ## Artifact Index
-- C:\Users\Janmejai\compendium\.agents\teamwork\worker_m2\DISPATCH.md — Dispatch instructions
-- C:\Users\Janmejai\compendium\.agents\teamwork\worker_m2\progress.md — Liveness heartbeat
-- C:\Users\Janmejai\compendium\.agents\teamwork\worker_m2\changes.md — Change log
-- C:\Users\Janmejai\compendium\.agents\teamwork\worker_m2\handoff.md — Handoff report
+- `handoff.md` — 5-component handoff report for Milestone 2 completion
 
 ## Change Tracker
 - **Files modified**:
-  - `content/toc.yml` — Inserted Part VI (p6), shifted Inserts to Part VII (p7), registered 4 finance chapters.
-  - `scripts/build.mjs` — Added `'finance'` to `paths` in `howToRead()`.
-  - `content/figures/credit-underwriting-stack.svg` — Authored Dual-Core Underwriting SVG diagram.
-  - `content/figures/financial-copilot-architecture.svg` — Authored Zero-Tolerance Copilot SVG diagram.
-  - `content/figures/aml-fraud-detection-funnel.svg` — Authored Real-Time AML Funnel SVG diagram.
-- **Build status**: PASS (`node scripts/build.mjs` built 24/28 chapters in 466 ms; `npm run check` 0 errors).
-- **Pending issues**: None.
+  - `scripts/lib/render.mjs`: Escaped dollar support in inline math regex and preprocessing for chapter objectives.
+  - `content/chapters/product-casebook.md`: Display math formatting for break-even formula in answers.
+  - `content/chapters/product-architecture-economics.md`: Clean unicode arrow in cascade reduction line, latency timeline converted to GFM table.
+  - `content/chapters/financial-copilots-and-deal-diligence.md`: Converted 2 fenced ASCII blocks (balance sheet, CoA mapping) to GFM tables.
+  - `content/chapters/ai-product-lifecycle.md`: Converted evaluation pyramid ASCII block to GFM table.
+  - `content/chapters/marketing-casebook.md`: Converted 3 ASCII trees (cart abandoners, modular asset costs, marketing capital mix) to GFM tables.
+  - `content/chapters/financial-crime-fraud-and-rbi-free-ai.md`: Converted AML funnel ASCII block to GFM table.
+- **Build status**: PASS (`node check_real_leaks.mjs`: 0 leaks; `npm run check`: 0 errors; `npm run build`: 28/28 chapters in 657ms)
+- **Pending issues**: None
 
 ## Quality Status
-- **Build/test result**: PASS.
-- **Lint status**: 0 errors.
-- **Tests added/modified**: Verified against `node scripts/build.mjs` and `npm run check`.
+- **Build/test result**: Pass (0 errors, 0 leaks, 28 chapters compiled)
+- **Lint status**: 0 errors
+- **Tests added/modified**: Verified against `check_real_leaks.mjs`
+
+## Loaded Skills
+- None

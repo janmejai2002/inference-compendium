@@ -67,7 +67,7 @@ The following cases represent realistic problem-solving scenarios encountered in
   3. How does the target define its "80% resolution rate"?
 - **The Analytical Core:**
   - *Moat vs. Wrapper:* The candidate discovers that the startup calls frontier model APIs, paying ₹18 crore annually in cloud compute costs. It owns no proprietary model weights; its intellectual property consists of system prompts and API routing scripts.
-  - *The Resolution Illusion:* The reported 80% [[containment-rate|containment rate]] measures sessions where the customer did not press "speak to an agent." However, customer CSAT data reveals that 35% of those "contained" users abandoned the session in frustration and subsequently called the telephone hotline or emailed executive escalations.
+  - *The Resolution Illusion:* ==The reported 80% containment rate measures sessions where the customer did not press "speak to an agent"; customer CSAT data often reveals high abandonment and expensive escalations.==
   - *True Gross Margin:* When accounting for customer re-contacts and the 150 offshore human reviewers employed to verify chat logs, true gross margin drops from 45% to 22%.
 - **Recommendation:** Do not acquire at the proposed ₹400 crore valuation (6.7x ARR). The company lacks defensibility against platform feature expansion by major cloud providers. If the fund proceeds, valuation must be discounted to 2.5x ARR (₹150 crore) to reflect high customer churn and software wrapper vulnerability.
 
@@ -103,7 +103,7 @@ The following cases represent realistic problem-solving scenarios encountered in
 - **The Analytical Core:**
   - *Architecture Separation:* Separate unstructured data extraction from credit risk decisioning.
   - *Step 1 (Extraction via LLM):* Use multimodal foundation models to ingest smartphone screenshots of gig delivery partner app dashboards, extracting historical weekly earnings, customer ratings, completed trips, and cancellation rates.
-  - *Step 2 (Scoring via Auditable Predictive ML):* Feed extracted structured metrics into an auditable gradient-boosted decision tree (such as XGBoost) to compute default probability. Never allow a generative language model to make the final lending decision; language models produce non-deterministic, unexplainable underwriting outcomes.
+  - *Step 2 (Scoring via Auditable Predictive ML):* Feed extracted structured metrics into an auditable gradient-boosted decision tree (such as XGBoost) to compute default probability. ==Never allow a generative language model to make the final lending decision; language models produce non-deterministic, unexplainable underwriting outcomes.==
   - *Bias & Fraud Defenses:* Implement fraud detection for forged app screenshots (metadata analysis, font verification) and audit the scoring model for demographic and regional lending bias.
 - **Recommendation:** Implement a tiered credit pipeline: applications with verified 6-month earnings exceeding ₹25,000/month and trip consistency above 90% receive automated sanctioning; borderline cases route to a human credit officer. Target a 4.5% non-performing asset (NPA) ceiling.
 
@@ -128,7 +128,7 @@ The following cases represent realistic problem-solving scenarios encountered in
   2. How do clients measure delivery quality and developer productivity?
 - **The Analytical Core:**
   - *The T&M Trap:* In an hourly contract, efficiency reduces billable volume. If hours drop 30% and rates drop 25%, revenue collapses by nearly 50%.
-  - *Contract Renegotiation:* Transition clients from T&M hourly staffing to "managed capacity pods" or fixed-fee outcome deliverables. Propose committing to a 40% increase in sprint feature delivery volume while maintaining total contract billing.
+  - *Contract Renegotiation:* ==In an hourly contract, efficiency reduces billable volume: transition clients from T&M hourly staffing to managed capacity pods or fixed-fee outcome deliverables.== Propose committing to a 40% increase in sprint feature delivery volume while maintaining total contract billing.
   - *Senior Leverage:* Reorganize developer ratios from 1 senior architect overseeing 5 junior coders to 1 architect directing 2 trained "AI pilots," increasing firm gross margin per engagement from 32% to 46%.
 - **Recommendation:** Offer clients a 10% discount on legacy maintenance contracts conditional on transitioning to two-year fixed-fee modernizations; bundle automated security auditing and automated test generation as value-added services.
 
@@ -203,7 +203,7 @@ The following market-sizing and infrastructure estimations illustrate how to app
      - *Light / Occasional Users (70% = 7.84 million):* 4 prompts per day (email drafting, quick lookups) = 31.4 million prompts.
      - *Power Users / Developers / Students (30% = 3.36 million):* 25 prompts per day (coding, research, content creation) = 84.0 million prompts.
   7. *Total Daily Prompts:* $31.4\text{ million} + 84.0\text{ million} = 115.4\text{ million prompts per day}$.
-- **Sanity Check:** 115 million prompts across 1.4 billion people represents roughly 0.08 prompts per capita daily, reflecting India's status as a high absolute volume market with low per-capita saturation (Anthropic ranks India 101st out of 116 countries per capita) [@anthropic-india-brief].
+- **Sanity Check:** 115 million prompts across 1.4 billion people represents roughly 0.08 prompts per capita daily. This reflects India's status as a high absolute volume market with low per-capita saturation (Anthropic ranks India 101st out of 116 countries per capita) [@anthropic-india-brief].
 
 ### Guesstimate 2: Monthly Token Bill for a Bank's Credit Memo Assistant
 - **Objective:** Calculate the monthly cloud inference token bill for a corporate bank employing 1,200 commercial credit analysts using a retrieval-augmented LLM to draft underwriting memos.
@@ -259,7 +259,7 @@ The following market-sizing and infrastructure estimations illustrate how to app
      $$\text{Total Facility Power Draw} = 48.64\text{ MW} \times 1.40 \approx 68.1\text{ MW}$$
   6. *Percentage Share:*
      $$\text{Share of National Capacity} = \frac{68.1\text{ MW}}{1{,}789\text{ MW}} \approx 3.81\%$$
-- **Sanity Check:** The IndiaAI compute pool accounts for approximately 3.8% of the country's total energized data centre capacity. This aligns with industry observations that sovereign AI infrastructure represents a focused, high-density fraction of a broader cloud computing market dominated by standard enterprise banking, retail, and government workloads.
+- **Sanity Check:** ==The IndiaAI compute pool accounts for approximately 3.8% of the country's total energized data centre capacity, showing that sovereign AI infrastructure remains a focused, high-density fraction of a broader cloud market.== This aligns with industry observations that sovereign AI infrastructure represents a focused, high-density fraction of a broader cloud computing market dominated by standard enterprise banking, retail, and government workloads.
 
 ### Guesstimate 5: Addressable Market for Paid Enterprise AI Seats in India
 - **Objective:** Estimate the annual total addressable market (TAM) in INR for paid corporate AI assistant licenses (such as ChatGPT Business or Microsoft Copilot) across Indian enterprises.

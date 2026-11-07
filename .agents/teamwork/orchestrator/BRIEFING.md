@@ -1,38 +1,42 @@
-# BRIEFING — 2026-11-04T15:37:30Z
+# BRIEFING — 2026-11-05T11:28:00Z
 
 ## Mission
-Build and integrate the v4 Finance & Banking Track (Part VI) into the INFERENCE publication pipeline as an end-to-end production release following prompts/06-v4-finance-build.md.
+Critically review the entire book (all 28 chapters of INFERENCE — The AI Compendium) with an adversarial council of specialized review agents and perform surgical improvements across defect remediation, source verification, math invariants, KaTeX rendering, pedagogy, voice, formatting, and full verification.
 
 ## 🔒 My Identity
 - Archetype: orchestrator
 - Roles: orchestrator, user_liaison, human_reporter, successor
 - Working directory: C:\Users\Janmejai\compendium\.agents\teamwork\orchestrator\
 - Original parent: parent
-- Original parent conversation ID: 59748ca2-9691-428a-995f-eec118a8ca09
+- Original parent conversation ID: c06f8275-9c96-4ba8-b3f8-f6bf4656da06
 
 ## 🔒 My Workflow
-- **Pattern**: Project Pattern (Dual Track: Implementation Track + E2E Testing Track)
+- **Pattern**: Project Pattern (Dual Track: Implementation/Remediation Track + Quality & Verification Track)
 - **Scope document**: C:\Users\Janmejai\compendium\.agents\teamwork\orchestrator\PROJECT.md
-1. **Decompose**: Survey full scope with 3 Explorers/Spec Miners, establish Feature Inventory, decompose into implementation milestones and parallel E2E testing track.
+1. **Decompose**: Survey completed. Feature Inventory and Milestones M1–M4 defined in PROJECT.md.
 2. **Dispatch & Execute**:
-   - Survey (Step 0): Spawn 3 Explorers/Spec Miners to map the full specification in prompts/06-v4-finance-build.md, docs/PEDAGOGY.md, docs/AUTHORING.md, and existing pipeline.
-   - Dual Track dispatch: Spawn sub-orchestrators for milestones or run iteration loop (Explorer -> Worker -> Reviewer -> Challenger -> Auditor -> Gate).
+   - Survey (Step 0): 3 parallel survey agents completed.
+   - Milestone 1 (M1): `worker_m1` completed. All 28 sources verified, URLs fixed, policy allowlists updated, Ch 14 claims refined, orphan citations re-integrated.
+   - Milestone 2 (M2): `worker_m2` completed. KaTeX inline regex updated, frontmatter objectives preprocessed, currency math cleaned, 8 ASCII tables converted to GFM pipe tables.
+   - Milestone 3 (M3): `worker_m3` completed. 18 anti-ai voice replacements applied, 2 SVGs created, and skim-layer highlights backfilled.
+   - Gate Verification: 2 Reviewers, 2 Challengers, and 1 Forensic Auditor dispatched. `reviewer_citations_pedagogy` delivered APPROVE.
+   - Milestone 4 (M4): QA Verification, PDF Build, Status Update & Release Commit [pending gate pass].
 3. **On failure** (in this order):
    - Retry: nudge stuck agent or re-send task
    - Replace: spawn fresh agent with partial progress
    - Skip: proceed without (only if non-critical; teamwork_auditor NON-SKIPPABLE)
    - Redistribute: split stuck agent's remaining work
    - Redesign: re-partition decomposition
-4. **Succession**: Self-succeed at 16 spawns, write handoff.md, spawn successor.
+4. **Succession**: Self-succeed if spawn count threshold reached.
 - **Work items**:
-  1. Survey & Spec Mapping [in-progress]
-  2. Primary Source Canon & Registry Ingestion (R1) [pending]
-  3. Part VI Structure & SVG Figures (R2) [pending]
-  4. Chapter Authoring (R2, R3) [pending]
-  5. E2E Test Suite Creation (R4) [pending]
-  6. Final Milestone: 100% E2E Pass, Build, PDF, Release Package & Commit (R4) [pending]
-- **Current phase**: 0 (Survey)
-- **Current focus**: Surveying specification sources and mapping full requirements
+  1. Survey & Council Audit (Step 0) [DONE]
+  2. M1: Primary Citation Resolution & Claims Grounding [DONE]
+  3. M2: KaTeX Syntax, Math & Tabular Remediation [DONE]
+  4. M3: Pedagogical Structure, Anti-AI Voice & Dual-Coding Visuals [DONE]
+  5. Gate Evaluation (Reviewers, Challengers, Auditor) [IN_PROGRESS: 1/5 APPROVE]
+  6. M4: Pipeline Verification, PDF Build, Status Update & Git Delivery [pending]
+- **Current phase**: 2B (Gate Verification)
+- **Current focus**: Awaiting verdicts from reviewer_katex_math_design, challenger_stress_testing, challenger_domain_invariants, and auditor_integrity
 
 ## 🔒 Key Constraints
 - Never write, modify, or create source code files directly.
@@ -43,46 +47,38 @@ Build and integrate the v4 Finance & Banking Track (Part VI) into the INFERENCE 
 - Never reuse a subagent after it has delivered its handoff.
 
 ## Current Parent
-- Conversation ID: 59748ca2-9691-428a-995f-eec118a8ca09
-- Updated: 2026-11-04T15:36:00Z
+- Conversation ID: c06f8275-9c96-4ba8-b3f8-f6bf4656da06
+- Updated: 2026-11-05T11:28:00Z
 
 ## Key Decisions Made
-- Project classified as Project Pattern (Long-running greenfield content + software release).
-- Dual track structure selected: Implementation Track + E2E Testing Track.
-- Spawned 3 survey agents: spec_miner_1 (pedagogy & chapters), spec_miner_2 (sources & registry), explorer_1 (pipeline & build).
+- Milestones 1, 2, and 3 successfully implemented and verified.
+- `reviewer_citations_pedagogy` delivered verdict APPROVE.
 
 ## Team Roster
 | Agent | Type | Work Item | Status | Conv ID |
 |-------|------|-----------|--------|---------|
-| spec_miner_1 | teamwork_spec_miner | Survey pedagogy, arc, chapters, math, figures | completed | 1c9cacdc-668d-4054-9669-77f7ba59bd9a |
-| spec_miner_2 | teamwork_spec_miner | Survey sources, policy, glossary schemas & additions | completed | b4ba6787-af75-4d92-ad75-600bad8d3e36 |
-| explorer_1 | teamwork_explorer | Explore pipeline, scripts, book.yml, status, tests | completed | c0516678-d474-435f-aff5-39673f84db2f |
-| worker_m1 | teamwork_worker | Ingest sources, source policy, and glossary (M1) | completed | b3523a74-8331-425d-915f-a60b9adba0b0 |
-| worker_m2 | teamwork_worker | TOC Part VI, build script, 3 SVG figures (M2) | completed | e4eea536-6f24-4c66-8d59-90ff908aae04 |
-| test_writer_e2e | teamwork_test_writer | Create test/e2e-fin.mjs & TEST_INFRA.md (E2E) | completed | 2e140667-cac7-4e63-b551-72f8124d05bf |
-| worker_ch1 | teamwork_worker | Author ch 22 algorithmic-underwriting-and-credit-risk | completed | 55b70b08-6749-47a3-ae41-86c42043cb1a |
-| worker_ch2 | teamwork_worker | Author ch 23 financial-copilots-and-deal-diligence | completed | 5a2d1943-7f9c-4e23-b7b0-06a0b281d48f |
-| worker_ch3 | teamwork_worker | Author ch 24 financial-crime-fraud-and-rbi-free-ai | completed | 0201ec31-f384-4f4d-9c4d-cba2add588c5 |
-| worker_ch4 | teamwork_worker | Author ch 25 finance-casebook (8 problems) | completed | 94d13710-3eec-4b10-92d4-b0e0406d3fe6 |
-| reviewer_1 | teamwork_reviewer | Pedagogical & technical review of Ch 22–25 | completed | cbe96cd1-31e5-4427-9f3e-823df0774265 |
-| reviewer_2 | teamwork_reviewer | Financial domain & regulatory review of Ch 22–25 | completed | 3d50c95b-440a-4bde-b51e-493df001f673 |
-| challenger_1 | teamwork_challenger | Adversarial rendering & pipeline test | completed | 0fd0c5bb-d5ff-40fc-a9cf-76805870b271 |
-| challenger_2 | teamwork_challenger | Adversarial quantitative math audit | completed | 738fe6e7-9d02-439a-aee3-537b28d9bbc1 |
-| auditor_1 | teamwork_auditor | Forensic integrity audit | completed | 74745698-503c-48c3-8f38-c9d8444e85d8 |
-| explorer_remediation | teamwork_explorer | Synthesize remediation plan from challengers | completed | ea1f0d44-eb71-4110-804c-a2c29fe2d565 |
-| worker_remediation | teamwork_worker | Apply surgical remediation fixes | completed | 6912217a-b80b-44a1-bb2a-3e48b22f7bf6 |
-| worker_m4 | teamwork_worker | Release packaging, PDF generation, Git commit | in-progress | f17a41a0-af9c-4edd-9ed9-a6d7c66b8082 |
+| spec_miner_citations | teamwork_spec_miner | Survey & map 28 unverified citations against docs/SOURCES.md | completed | 05aa95ff-138f-43c4-ab61-9db6ef391e35 |
+| explorer_katex_math | teamwork_explorer | Audit 28 chapters for KaTeX formatting, math correctness, invariants & tables | completed | 29de420b-5d3c-445c-b4ac-f129dbba43d5 |
+| spec_miner_pedagogy | teamwork_spec_miner | Audit 28 chapters for 13-part arc, anti-ai voice & design standards | completed | ca436868-e797-4b93-ba1e-58d9d633b5f1 |
+| worker_m1 | teamwork_worker | Ingest verified sources, policy allowlist, Ch 14 claims & orphan citations | completed | 1bba8779-d460-4eb4-a452-746bd0c6c73b |
+| worker_m2 | teamwork_worker | KaTeX inline regex, frontmatter preprocessing, math cleanup & GFM tables | completed | 152e9c19-31eb-4c3d-92a3-3e1fe192be7b |
+| worker_m3 | teamwork_worker | Anti-AI voice surgery, 2 SVGs creation & skim-layer highlights in Ch 00–13 | completed | 6a071ec0-cbd4-4aba-8d8d-7d31692ef68e |
+| reviewer_citations_pedagogy | teamwork_reviewer | Review sourcing, 28 citations resolution, voice & pedagogy | completed (APPROVE) | 9b1889dc-9627-4b26-aa5a-95b3b31a0aea |
+| reviewer_katex_math_design | teamwork_reviewer | Review KaTeX formatting, GFM tables, math syntax & SVG rendering | in-progress | df492104-e155-4f13-8a62-73f0baa2e674 |
+| challenger_stress_testing | teamwork_challenger | Adversarial pipeline, syntax, currency & test suite stress test | in-progress | 8554bb18-1249-4217-a6d3-5e63af64026c |
+| challenger_domain_invariants | teamwork_challenger | Adversarial quantitative formulas, invariant arithmetic & citations verification | in-progress | fb648235-9571-4c1a-8c24-346523b51271 |
+| auditor_integrity | teamwork_auditor | Forensic integrity verification across all changes | in-progress | 70c2b57c-cce7-497a-a837-9da982b1ee02 |
 
 ## Succession Status
 - Succession required: no
-- Spawn count: 18 / 128
-- Pending subagents: f17a41a0-af9c-4edd-9ed9-a6d7c66b8082
+- Spawn count: 11 / 16
+- Pending subagents: df492104-e155-4f13-8a62-73f0baa2e674, 8554bb18-1249-4217-a6d3-5e63af64026c, fb648235-9571-4c1a-8c24-346523b51271, 70c2b57c-cce7-497a-a837-9da982b1ee02
 - Predecessor: none
 - Successor: none
 
 ## Active Timers
-- Heartbeat cron: a5372a48-229a-4fc5-8650-1b7734794c36/task-296
-- Safety timer: a5372a48-229a-4fc5-8650-1b7734794c36/task-346
+- Heartbeat cron: e8b90a07-d677-49a5-8255-a8ddabf3d3e6/task-26
+- Safety timer: none
 
 ## Artifact Index
 - C:\Users\Janmejai\compendium\.agents\teamwork\ORIGINAL_REQUEST.md — Authoritative user request
@@ -90,3 +86,8 @@ Build and integrate the v4 Finance & Banking Track (Part VI) into the INFERENCE 
 - C:\Users\Janmejai\compendium\.agents\teamwork\orchestrator\BRIEFING.md — Working memory
 - C:\Users\Janmejai\compendium\.agents\teamwork\orchestrator\progress.md — Liveness & status tracking
 - C:\Users\Janmejai\compendium\.agents\teamwork\orchestrator\PROJECT.md — Global architecture, feature inventory, milestones
+- C:\Users\Janmejai\compendium\.agents\teamwork\orchestrator\GATE_STATUS.md — Gate status ledger
+- C:\Users\Janmejai\compendium\.agents\teamwork\worker_m1\handoff.md — Milestone 1 handoff
+- C:\Users\Janmejai\compendium\.agents\teamwork\worker_m2\handoff.md — Milestone 2 handoff
+- C:\Users\Janmejai\compendium\.agents\teamwork\worker_m3\handoff.md — Milestone 3 handoff
+- C:\Users\Janmejai\compendium\.agents\teamwork\reviewer_citations_pedagogy\handoff.md — Citation/Pedagogy review handoff

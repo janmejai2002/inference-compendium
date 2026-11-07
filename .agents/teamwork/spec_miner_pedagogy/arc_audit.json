@@ -1,0 +1,2592 @@
+[
+  {
+    "id": "ai-in-one-sitting",
+    "n": "00",
+    "part": "p0",
+    "title": "AI in one sitting",
+    "words": 4323,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "A consumer goods CEO in Mumbai tells your consulting engagement team: 'Our teams use ChatGPT all day to draft emails and slides, yet our operating margins have not moved by a single basis point. Either AI is an over-hyped toy, or we are deploying it completely wrong.' How do you explain the gap between universal individual adoption and flat corporate earnings, and what are the five architectural questions you ask before recommending a single rupee of further AI capital expenditure?",
+        "vignetteTitle": "Kinds of AI: the three machinery families"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 2,
+        "displayMath": 2
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 1,
+        "figures": 0
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 1,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 0
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 1,
+        "firstHighlight": "The hiring and promotion test in management has moved from 'do you know about AI..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "3b1b-llm-briefly",
+          "mckinsey-state-of-ai-2026",
+          "bcg-ai-at-work-2026"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 6,
+        "aCount": 6,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "apply",
+          "recall",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "kinds-of-ai",
+    "n": "01",
+    "part": "p1",
+    "title": "Not all AI is ChatGPT",
+    "words": 3330,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "A lender's credit head says: \"We have bought an enterprise ChatGPT licence. Let's use it to decide who gets a loan.\" Before you open a single spreadsheet, what is wrong with that plan?",
+        "vignetteTitle": "Three ways to order milk"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 2,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 1,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 2,
+        "firstHighlight": "Before you pick an AI tool, ask what the output must be: a number, a category, o..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 2,
+        "cards": [
+          "ibm-predictive-vs-generative",
+          "mgi-genai-economic-potential"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "apply",
+          "explain",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "next-word-machine",
+    "n": "02",
+    "part": "p1",
+    "title": "A model predicts the next word",
+    "words": 3552,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "A bank runs the same support bot on the same kind of customer chats, once in English and once in Hindi. The Hindi bill comes out several times higher, at the same price list. What is the bank paying for?",
+        "vignetteTitle": "Predict, pick, repeat"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 3,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 1,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 4,
+        "firstHighlight": "A large language model is the same bet at enormous scale: given the text so far,..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "3b1b-llm-briefly",
+          "karpathy-intro-llms",
+          "wolfram-chatgpt"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "confidently-wrong",
+    "n": "03",
+    "part": "p1",
+    "title": "Why models are confidently wrong",
+    "words": 3433,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "On the same set of fact questions, one AI model gets 24% right and another gets 22%. The first is also wrong 75% of the time; the second is wrong 26% of the time. A leaderboard that counts only right answers ranks the first one higher. Which would you let near a client deck, and why does the leaderboard disagree with you?",
+        "vignetteTitle": "How a chatbot is made, in three stages"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 3,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 1,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 5,
+        "firstHighlight": "Chatbots are trained and graded like students in an exam with no negative markin..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "ibm-rlhf-explained",
+          "openai-why-lms-hallucinate",
+          "ibm-rag-vs-finetuning"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "delegation-brief",
+    "n": "04",
+    "part": "p1",
+    "title": "A prompt is a delegation brief",
+    "words": 3276,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "Two associates give the same AI tool the same 300 distributor complaints. One writes 'You are a world-class supply-chain consultant. I will tip you ₹10,000. Summarise these.' The other writes six plain lines a new joiner would need. Which output can go to the client on Monday, and which of the first associate's extra words did any work?",
+        "vignetteTitle": "Why the brief is all the model has"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 1,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 2,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 2,
+        "firstHighlight": "A prompt is a delegation brief, and the model is a capable new joiner who knows ..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "anthropic-fluency-prompting",
+          "wharton-psr3",
+          "claude-prompting-best-practices"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "judge",
+          "transfer"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "your-documents",
+    "n": "05",
+    "part": "p1",
+    "title": "Giving the model your documents",
+    "words": 3528,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "Suppose a firm loads ten years of engagement decks into an internal chatbot. Asked for a client's FY24 EBITDA margin, it answers 14.2% and cites a real slide. The slide belongs to a different client. The model invented nothing. What broke, and who should have caught it?",
+        "vignetteTitle": "Two places a model can know things from"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 2,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 2,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": false,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 3,
+        "firstHighlight": "A model answering from your documents has the same job: it is only as good as th..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "ibm-what-is-rag",
+          "anthropic-contextual-retrieval",
+          "dpdp-act-2023"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "models-that-act",
+    "n": "06",
+    "part": "p1",
+    "title": "Agents: models that act, and how they break",
+    "words": 3470,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "A client wants an AI agent that reads supplier emails, extracts invoice PDFs, and automatically updates their SAP enterprise ledger. The model tests at 95% accuracy per step across 12 steps. Why will it fail roughly every other time in production, and how could a two-line note on a supplier's invoice trigger an unauthorized wire transfer?",
+        "vignetteTitle": "Workflows versus agents"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 3
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 2,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 1,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 1,
+        "firstHighlight": "An agent is a model given tools and autonomy to direct its own steps; the moment..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "ibm-agent-skills",
+          "willison-lethal-trifecta",
+          "anthropic-building-effective-agents"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "apply",
+          "explain",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "judging-output",
+    "n": "07",
+    "part": "p1",
+    "title": "Judging AI output is the job now",
+    "words": 3554,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "A vendor pitches an AI compliance tool boasting '90% accuracy' to an Indian distributor processing 1,000 monthly invoices. The system flags 67 invoices for fraud. Why are nearly three out of four flags false alarms, and why did 758 BCG consultants perform 19 percentage points worse when using AI on a task outside its frontier?",
+        "vignetteTitle": "The illusion of competence and the jagged frontier"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 1
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 2,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 1,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 1,
+        "firstHighlight": "Judging AI output is now the core job of the knowledge worker: verifying facts a..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "ibm-llm-as-judge",
+          "hbs-jagged-frontier",
+          "anthropic-demystifying-evals"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "who-pays",
+    "n": "08",
+    "part": "p2",
+    "title": "Who pays for intelligence",
+    "words": 3608,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "In 18 months, the cost of generating one million tokens collapsed 280-fold, falling from $20 to $0.07. Yet in a single quarter, Alphabet spent $51.4 billion on capital equipment and reported negative free cash flow. If intelligence is becoming cheap to query, why is building it costing hundreds of billions of dollars, and who is footing the bill?",
+        "vignetteTitle": "The value chain: from silicon to software"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 1,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 1,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 1,
+        "firstHighlight": "The price of an individual AI token has collapsed, but aggregate capital expendi..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "boyle-big-tech-debt",
+          "stanford-ai-index-2026-economy",
+          "alphabet-q3-2026"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "pilots-stall",
+    "n": "09",
+    "part": "p2",
+    "title": "Why AI pilots stall",
+    "words": 4107,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": false,
+        "hook": "A mid-size automotive components manufacturer in Pune introduces an AI assistant to generate supplier audit reports, cutting drafting time by 60%. Yet six months later, operating costs have not dropped, output has not increased, and gross margin remains flat. Why do individual productivity gains fail to reach corporate earnings?",
+        "vignetteTitle": "The idea, from zero"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": false
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 1,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 2
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 3
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 1,
+        "firstHighlight": "Individual productivity gains do not translate into operating profits unless the..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "mckinsey-state-of-ai-2026",
+          "bcg-widening-ai-value-gap",
+          "bcg-ai-at-work-2026"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "work-changes",
+    "n": "10",
+    "part": "p2",
+    "title": "How the work changes",
+    "words": 3803,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": false,
+        "hook": "Your client, a 40,000-person Indian technology services firm, asks whether generative AI allows it to cut its annual campus graduate intake by 40%. The chief technology officer argues that coding assistants make juniors 30% faster; the head of human resources warns that cutting entry-level cohorts will hollow out the firm's future leadership pipeline. How do you advise the board?",
+        "vignetteTitle": "The idea, from zero"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": false
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 1,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 2
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 1,
+        "firstHighlight": "The labor market is not experiencing an aggregate collapse; it is undergoing a s..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "mckinsey-ai-job-losses",
+          "stanford-canaries",
+          "yale-budget-lab-ai-labor"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "consulting-firm",
+    "n": "11",
+    "part": "p3",
+    "title": "What AI does to a consulting firm",
+    "words": 4008,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": false,
+        "hook": "A global retail bank hires a strategy consulting firm to redesign its commercial lending process, demanding a fee structure tied strictly to loan turnaround time rather than hourly billing. At the same time, the bank's chief executive asks why they should pay premium hourly rates for junior analysts if an AI model can build the first-draft presentation decks. How does the consulting firm defend its value and price its advice?",
+        "vignetteTitle": "The idea, from zero"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": false
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 1,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 1
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 1,
+        "firstHighlight": "Artificial intelligence is unbundling management consulting, forcing firms to sh..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "economist-mckinsey-crown",
+          "dellacqua-jagged-orgsci",
+          "ft-pyramid-salary-freeze"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "ai-casebook",
+    "n": "12",
+    "part": "p3",
+    "title": "The INFERENCE AI casebook",
+    "words": 7757,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": false,
+        "hook": "In an elite management consulting interview, the partner hands you an unstructured dilemma: 'A private equity firm wants to acquire a Bengaluru-based AI customer service startup for ₹400 crore. The founder claims an 80% automated resolution rate. How do you determine whether this company has a defensible technology moat or is merely an expensive wrapper around third-party APIs?' How do you structure your due diligence?",
+        "vignetteTitle": "The idea, from zero"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": false
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 50
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 1,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": false,
+        "cases": 0,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 1
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 1,
+        "firstHighlight": "Excelling in modern consulting interviews requires treating artificial intellige..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "cw-india-dc-h1-2026",
+          "anthropic-api-pricing",
+          "openai-chatgpt-business-pricing"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "interview-room",
+    "n": "13",
+    "part": "p3",
+    "title": "The interview room",
+    "words": 4642,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "Two candidates submit identical summer project results to an Indian tech consultancy. One writes 'built a loan-default dashboard using SQL', while the other writes 'led credit risk analytics, automating underwriting workflows'. Both describe the same eight weeks of work. One application vanishes into a digital rejection queue within four minutes; the other reaches an associate partner for a shortlist interview. What happened in those four minutes?",
+        "vignetteTitle": "The screening funnel"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 2,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 2,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 1,
+        "firstHighlight": "The interview tests whether you can direct an AI model and catch where it breaks..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "bcg-responsible-ai-hiring",
+          "mckinsey-ai-interview-notice",
+          "fortune-mckinsey-ai-hiring"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "creative-at-scale",
+    "n": "14",
+    "part": "p4",
+    "title": "Creative at scale: production, localization, and agency economics",
+    "words": 3708,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "Why can an FMCG giant now produce 10,000 localized video ad variants for the cost of a single Mumbai studio shoot, yet 90% of those synthetic assets fail to generate a single incremental conversion? How does generative technology alter the economics of brand creative?",
+        "vignetteTitle": "The collapse of marginal creative cost"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 7
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 3,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 1
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": false,
+        "lenses": 1
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 5,
+        "firstHighlight": "The collapse of marginal creative asset production cost shifts the economic bott..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "unilever-digital-twins",
+          "sarvam-bulbul-v4-flash",
+          "asci-genai-guidelines"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "synthetic-audiences-and-attribution",
+    "n": "15",
+    "part": "p4",
+    "title": "Synthetic panels, MMM, and modern marketing measurement",
+    "words": 3860,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "Can an artificial intelligence language model tell you whether a ₹49 sachet of anti-dandruff shampoo will sell in rural Bihar before you ship a single unit? Why are consumer brands rushing to replace human focus groups with silicon personas, and where does that simulation create catastrophic false confidence?",
+        "vignetteTitle": "The ₹30 lakh focus group dilemma"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 6
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 3,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": false,
+        "lenses": 1
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 5,
+        "firstHighlight": "Synthetic consumer panels simulate the conversational fluency of focus groups wi..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 2,
+        "cards": [
+          "google-meridian",
+          "argyle-out-of-one-many"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "apply",
+          "explain",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "brand-safety-boundary",
+    "n": "16",
+    "part": "p4",
+    "title": "The brand safety boundary: hallucinations, IP, and consumer trust",
+    "words": 4309,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "A consumer brand takes thirty years to accumulate trust, but a single unauthorized, hallucinated promotional discount or culturally tone-deaf synthetic video can erase ₹100 crore in brand equity in twenty minutes. Where does the brand safety boundary lie when an enterprise deploys generative models directly to consumers?",
+        "vignetteTitle": "Defining the core safety boundaries"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 3
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 3,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 1
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 1
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 5,
+        "firstHighlight": "Brand trust is an accumulated capital asset that decays exponentially with opera..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 2,
+        "cards": [
+          "asci-genai-guidelines",
+          "willison-lethal-trifecta"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "marketing-casebook",
+    "n": "17",
+    "part": "p4",
+    "title": "The Marketing AI casebook & interview room",
+    "words": 9412,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "In an executive marketing interview, the Chief Commercial Officer challenges you: 'Our D2C brand spends ₹45 crore annually on Meta and Google. Ad fatigue cuts our click-through rates in half every three weeks. The agency wants a 50% retainer hike to produce more variants, while our head of performance wants to fire the agency and generate 1,500 ads a month using AI tools. How do you evaluate this decision, and what is the exact economic tipping point?' How do you structure your answer?",
+        "vignetteTitle": "The idea, from zero"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 47
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 1,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 0,
+        "tables": 5
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 1
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 7,
+        "firstHighlight": "Excelling in modern marketing leadership requires treating artificial intelligen..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 2,
+        "cards": [
+          "google-meridian",
+          "meta-robyn"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "ai-product-lifecycle",
+    "n": "18",
+    "part": "p5",
+    "title": "The AI product lifecycle: evals as specs, test suites, and drift",
+    "words": 3595,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "An Indian quick-commerce unicorn deploys an autonomous customer support agent. In sandbox testing, it resolved 94% of refund disputes cleanly. Within forty-eight hours of full rollout across Bengaluru, customer escalations surged by 300% as the model hallucinated instant UPI refund vouchers. How do you design an evaluation suite that catches behavioral regressions before code touches production?",
+        "vignetteTitle": "The collapse of the deterministic PRD"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 2
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 2,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 1,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 3
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 6,
+        "firstHighlight": "In the era of probabilistic machine intelligence, a static Product Requirements ..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "zheng-judging-llm-as-judge",
+          "openai-evals-framework",
+          "cagan-svpg-ai-risk"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "apply",
+          "explain",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "product-architecture-economics",
+    "n": "19",
+    "part": "p5",
+    "title": "Product architecture and economics: latency budgets, caching, and routing",
+    "words": 3955,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "An Indian fintech unicorn launches an AI conversational search engine for mutual funds. The model achieves 96% retrieval accuracy, but median response latency is 8.4 seconds and every turn costs ₹12 in commercial API fees. User retention plummets by 68% in six weeks as customers abandon the search bar for legacy filters, while cloud bills threaten product gross margins. As lead PM, how do you re-architect latency and compute unit economics without sacrificing answer intelligence?",
+        "vignetteTitle": "Deconstructing the latency equation"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 11
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 3,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 1,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 3
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 6,
+        "firstHighlight": "In generative product engineering, latency is not a technical afterthought—it is..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "anthropic-context-caching",
+          "google-gemini-long-context",
+          "card-moran-newell-psychology-hci"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "apply",
+          "explain",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "agentic-ux-and-interfaces",
+    "n": "20",
+    "part": "p5",
+    "title": "Agentic UX: ambient HUDs, canvas workspaces, and human-in-the-loop",
+    "words": 3554,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "An enterprise software vendor spends ₹15 crore developing a conversational AI assistant for its 120,000 sales representatives. After six months, daily active usage languishes at 11%, with reps reporting that typing natural language prompts into a chatbot drawer takes longer than manually updating dropdown menus. Meanwhile, software engineers at the same company spend eight hours a day inside agentic code editors without opening a single chat window. Why does the conversational interface fail for enterprise workflows, and how do you design proactive, ambient interfaces that users actually adopt?",
+        "vignetteTitle": "The interaction cost of the conversational box"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 2,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 1,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 1
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": false,
+        "lenses": 3
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 6,
+        "firstHighlight": "Treating a conversational chat box as the universal interface for artificial int..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "card-moran-newell-psychology-hci",
+          "anthropic-prompt-engineering-interactive",
+          "cagan-transformed-ai"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "apply",
+          "explain",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "product-casebook",
+    "n": "21",
+    "part": "p5",
+    "title": "The Product AI casebook & interview room",
+    "words": 5190,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "In an executive PM interview at an Indian fintech unicorn, the Head of Product challenges you: 'We spend ₹18 crore annually on frontier reasoning models for our credit analysis and merchant underwriting assistant. Our p95 latency is 6.2 seconds, causing 38% user drop-off. The engineering team proposes fine-tuning an open-source 8B model, while our AI architect insists on prompt caching and a cascade router. Walk me through the unit economics, derive the exact break-even volumes, and present an executive migration roadmap.' How do you structure your answer?",
+        "vignetteTitle": "The quantitative laws of AI product management"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 22
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 1,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 8,
+        "tables": 1
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 6,
+        "firstHighlight": "In artificial intelligence product management, qualitative intuition is an expen..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 3,
+        "cards": [
+          "anthropic-context-caching",
+          "openai-evals-framework",
+          "google-gemini-long-context"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "algorithmic-underwriting-and-credit-risk",
+    "n": "22",
+    "part": "p6",
+    "title": "Algorithmic underwriting & credit risk: from logistic regression to foundation models",
+    "words": 4373,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "Why a 50 bps reduction in gross non-performing assets (GNPAs) delivers more profit to a ₹50,000 crore bank than doubling its digital marketing budget—and why credit risk committees reject LLM 'black boxes'.",
+        "vignetteTitle": "The asymmetric physics of credit risk"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 9
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 2,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 2
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 3
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 6,
+        "firstHighlight": "In retail and commercial banking, predictive underwriting models do not merely f..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 2,
+        "cards": [
+          "bis-ml-credit-risk-2021",
+          "ifrs-9-ecl-standard-2014"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "apply",
+          "explain",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "financial-copilots-and-deal-diligence",
+    "n": "23",
+    "part": "p6",
+    "title": "GenAI in high-stakes finance: FP&A, deal diligence, and autonomous copilots",
+    "words": 4376,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "An investment banking analyst spends 80 hours spreading financial statements across 15 target subsidiaries; an LLM does it in 3 minutes—but inverts an EBITDA adjustment that swings enterprise valuation by ₹500 crore. As deal lead, how do you architect a financial copilot that eliminates hallucinations with mathematical certainty?",
+        "vignetteTitle": "The zero-tolerance invariant: Why hallucination is fatal in finance"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 18
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 3,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 1
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 3
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 6,
+        "firstHighlight": "In corporate finance and investment banking, generative models must never calcul..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 1,
+        "cards": [
+          "jpmorgan-docllm-2024"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "apply",
+          "explain",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "financial-crime-fraud-and-rbi-free-ai",
+    "n": "24",
+    "title": "Financial crime, fraud, and the regulatory boundary: RBI FREE-AI, AML, and explainability",
+    "words": 7049,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "In 45 minutes, a coordinated cyber-syndicate routes ₹120 crore through 8,000 mule accounts across 12 digital payment apps. Legacy rules flag 15%; Graph AI identifies 88%—while generating 40,000 false alarms.",
+        "vignetteTitle": "The base rate fallacy in fraud detection"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 8
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 3,
+        "figures": 1
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 1
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 2
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 3
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 6,
+        "firstHighlight": "In high-velocity financial crime detection, isolated transaction scoring fails a..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 2,
+        "cards": [
+          "rbi-free-ai-2025",
+          "sebi-algo-trading-consultation-2021"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "finance-casebook",
+    "n": "25",
+    "part": "p6",
+    "title": "The Finance AI casebook & interview room",
+    "words": 8722,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "In an executive committee meeting at a premier financial institution, the Chief Risk Officer and Chief Financial Officer challenge you: 'We are evaluating ₹150 crore of capital expenditure to modernize our commercial underwriting, M&A deal diligence, and compliance operations with artificial intelligence. Walk us through the exact unit economics, regulatory capital relief under Basel III/IV, false-positive tradeoffs, and 3-year TCO. Prove to the Board that this investment expands return on equity without exposing the balance sheet to catastrophic risk.' How do you structure your answer?",
+        "vignetteTitle": "The quantitative laws of AI in corporate finance"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 50
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": true,
+        "concepts": 1,
+        "figures": 0
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 0,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": true,
+        "figures": 0
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 8,
+        "tables": 9
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": true,
+        "lenses": 2
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": true,
+        "eval": "valid_prompt",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 6,
+        "firstHighlight": "In executive financial leadership and investment banking, artificial intelligenc..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 2,
+        "cards": [
+          "jpmorgan-llm-finance-2023",
+          "bis-ml-credit-risk-2021"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 5,
+        "aCount": 5,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "transfer",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "state-of-play",
+    "n": "A",
+    "part": "p7",
+    "title": "State of play, November 2026",
+    "words": 1585,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "A Mumbai financial services enterprise asks your advisory team to select a single AI model for all 5,000 employees. One vendor pitches their flagship frontier model at $50 per million output tokens; another pitches a distilled tier at $0.50. Both claim number-one benchmark rankings. How do you evaluate the tradeoff, and why does standardising on a single model guarantee that the client either overpays or underperforms?",
+        "vignetteTitle": "The model landscape (November 2026)"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": false,
+        "concepts": 0,
+        "figures": 0
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 1,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": false,
+        "figures": 0
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": false,
+        "lenses": 0
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": false,
+        "eval": "missing",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 1,
+        "firstHighlight": "Model selection is an architectural portfolio decision, not a single brand choic..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 1,
+        "cards": [
+          "stanford-ai-index-2026-takeaways"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 4,
+        "aCount": 4,
+        "bloom": [
+          "recall",
+          "explain",
+          "apply",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  },
+  {
+    "id": "india-briefing",
+    "n": "B",
+    "part": "p7",
+    "title": "India briefing",
+    "words": 1843,
+    "elements": {
+      "1": {
+        "name": "Core Hook & Vignette",
+        "pass": true,
+        "hook": "A consumer finance startup in Mumbai deploys an AI agent to read personal bank statements and score credit applications. The founder assumes that because India has no dedicated 'Artificial Intelligence Act', deployment is unregulated. Within sixty days, the company faces audit inquiries from both the Reserve Bank of India and the Data Protection Board. Which statutory duties did the founder overlook, and why is deploying AI in India subject to strict liability even without an AI-specific statute?",
+        "vignetteTitle": "Personal data governance: the DPDP Act and 2025 Rules"
+      },
+      "2": {
+        "name": "Historical / Intuitive Genesis",
+        "pass": true
+      },
+      "3": {
+        "name": "Mathematical / Conceptual Formalization",
+        "pass": true,
+        "count": 1,
+        "displayMath": 0
+      },
+      "4": {
+        "name": "Architecture / Engineering Blueprint",
+        "pass": false,
+        "concepts": 0,
+        "figures": 0
+      },
+      "5": {
+        "name": "Real-World Failure Mode / War Story",
+        "pass": true,
+        "myths": 2,
+        "stats": 1
+      },
+      "6": {
+        "name": "Modern Implementation & Code / Diagram",
+        "pass": false,
+        "figures": 0
+      },
+      "7": {
+        "name": "Benchmarks & Trade-off Matrix",
+        "pass": true,
+        "cases": 1,
+        "tables": 0
+      },
+      "8": {
+        "name": "Frontier & 2026+ Outlook",
+        "pass": false,
+        "lenses": 0
+      },
+      "9": {
+        "name": "MBA Try it Prompt (No Code)",
+        "pass": false,
+        "eval": "missing",
+        "codeCheck": "clean"
+      },
+      "10": {
+        "name": "Highlighted Thesis (==...==)",
+        "pass": true,
+        "count": 1,
+        "firstHighlight": "India regulates AI through existing statutory anchors—data protection, financial..."
+      },
+      "11": {
+        "name": "Media Card / Curated Artifacts",
+        "pass": true,
+        "count": 2,
+        "cards": [
+          "pib-dpdp-rules-2025",
+          "anthropic-india-brief-2026"
+        ]
+      },
+      "12": {
+        "name": "Check Questions & Answers",
+        "pass": true,
+        "qCount": 4,
+        "aCount": 4,
+        "bloom": [
+          "recall",
+          "recall",
+          "explain",
+          "judge"
+        ]
+      },
+      "13": {
+        "name": "5-Line Night-Before Recap",
+        "pass": true,
+        "lineCount": 5
+      }
+    }
+  }
+]

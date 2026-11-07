@@ -32,7 +32,7 @@ An [[agent]] dynamically directs its own process and tool usage [@anthropic-buil
 3. In an autonomous loop, the model inspects the goal and its tools, generates a tool call, reads the software environment's response, and plans its next step.
 4. Each step carries uncertainty: selecting the right tool, supplying valid arguments, interpreting output, and preserving the goal across turns.
 5. In a chain of $n$ independent steps where each step has a success rate $p$, the probability of an error-free run is $p^n$.
-6. An autonomous agent directing a multi-step task experiences compounding failure. As steps increase, unassisted success drops sharply, even when single steps test well.
+6. ==An autonomous agent directing a multi-step task experiences compounding failure: as steps increase, unassisted success drops sharply, even when single steps test well.==
 :::
 
 Anthropic notes that while agents provide flexibility on open-ended problems, autonomy creates higher execution costs and compounding errors [@anthropic-building-effective-agents].
@@ -59,7 +59,7 @@ Over a 12-step chain, reliability falls to:
 
 $$0.95^{12} \approx 0.540 \quad (54.0\%)$$
 
-A system with 95% single-step accuracy fails nearly half the time when asked to complete 12 steps unattended. Even if model tuning lifts per-step reliability to 99%, a 50-step chain achieves only:
+==A system with 95% single-step accuracy fails nearly half the time when asked to complete 12 steps unattended.== Even if model tuning lifts per-step reliability to 99%, a 50-step chain achieves only:
 
 $$0.99^{50} \approx 0.605 \quad (60.5\%)$$
 
@@ -112,7 +112,7 @@ The attack success rate achieved by Anthropic's improved safeguards against brow
 <span class="src">Source: [@anthropic-prompt-injection-browser]</span>
 :::
 
-When an agent holds all three, an attacker controlling untrusted content can command the model to read private records and transmit them outside. Willison notes that the only reliable protection is to break the combination entirely [@willison-lethal-trifecta].
+When an agent holds all three, an attacker controlling untrusted content can command the model to read private records and transmit them outside. ==When an agent holds private data, untrusted inputs, and external communication, the only reliable protection is to break the combination entirely.==
 
 System prompt rules and text filters do not remove the danger. In November 2025, Anthropic evaluated prompt injection defences on browser-equipped models [@anthropic-prompt-injection-browser]. On Claude Opus 4.5, attacks succeeded 8.0% of the time without safeguards and 1.4% with improved safeguards [@anthropic-prompt-injection-browser]. On Claude Sonnet 4.5, safeguards cut attack success from 13.8% to 1.9% [@anthropic-prompt-injection-browser]. While this marks progress, Anthropic stressed that prompt injection remains unsolved, and a 1% failure rate in an autonomous agent carries substantial operational risk [@anthropic-prompt-injection-browser].
 
@@ -128,7 +128,7 @@ Securing an enterprise AI deployment demands architectural design, not faith in 
 
 1. **Break the Lethal Trifecta:** If an agent reads untrusted external data, remove its external communication tools and isolate it from private databases. If it accesses sensitive records, restrict it to verified internal inputs.
 2. **Asymmetric Privilege and Ephemeral Workers:** Decompose tasks across specialized workers. An extractor model parses untrusted text in a sandboxed environment with zero tool access, emitting only a structured JSON schema. A deterministic script validates the fields. An executor tool acts only after validation passes.
-3. **Human Authorization for Irreversible Actions:** Automated tools should hold read-only permissions by default. Any action that transfers money, alters master records, or deletes data requires out-of-band confirmation from an authorized person.
+3. **Human Authorization for Irreversible Actions:** Automated tools should hold read-only permissions by default. ==Any action that transfers money, alters master records, or deletes data requires out-of-band confirmation from an authorized person.==
 
 ::: case Illustrative · The NBFC Invoice Processing Agent
 #### The situation

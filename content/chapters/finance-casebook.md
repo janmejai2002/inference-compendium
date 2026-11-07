@@ -59,6 +59,8 @@ The quantitative problems in this chapter span the major operational and strateg
 | **Est 3** | NBFC Valuation Rerating | Cost-to-income compression driving ROE and Price-to-Book expansion | RBI NBFC Scale-Based Regulation; DuPont ROE decomposition |
 | **Est 4** | Algo Trading Liquidity Shock | Quantifying capital liquidity buffers for multi-agent flash crashes | SEBI Algorithmic Trading Guidelines [@sebi-algo-trading-consultation-2021]; Value-at-Risk ($VaR_{99\%}$) |
 
+{{figure finance-casebook-taxonomy | Quantitative Finance & Risk Taxonomy: Eight Worked Cases | Source: Chapter analysis}}
+
 ::: stat 18 days to 3 days
 The compression in commercial SME loan underwriting turnaround time achieved by automated GSTN and bank statement spreading, alongside a 60 bps reduction in gross non-performing assets on a ₹10,000 crore portfolio.
 <span class="src">Sources: [@bis-ml-credit-risk-2021] [@jpmorgan-llm-finance-2023]</span>

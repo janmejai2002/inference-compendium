@@ -1,0 +1,5808 @@
+{
+  "renderedKatexErrors": [],
+  "unrenderedLatexInHtml": [
+    {
+      "chapter": "ai-in-one-sitting",
+      "matches": [
+        "\\frac{9}"
+      ]
+    },
+    {
+      "chapter": "judging-output",
+      "matches": [
+        "\\frac{\\text{True Positives}",
+        "\\frac{18}",
+        "\\frac{18}"
+      ]
+    },
+    {
+      "chapter": "ai-casebook",
+      "matches": [
+        "\\frac{\\text{Peak Tokens per Second}",
+        "\\frac{20{,}",
+        "\\frac{5{,}",
+        "\\frac{55{,}",
+        "\\frac{\\text{Total GPU Cluster Power Consumption (MW)}",
+        "\\frac{68.1\\text{ MW}",
+        "\\frac{\\text{Fully Loaded Agent Cost}",
+        "\\frac{₹45{,}",
+        "\\frac{\\text{Peak Transactions per Second}",
+        "\\frac{210{,}",
+        "\\frac{52{,}",
+        "\\frac{15{,}",
+        "\\frac{900}"
+      ]
+    },
+    {
+      "chapter": "creative-at-scale",
+      "matches": [
+        "\\frac{\\partial C_{\\text{gen}",
+        "\\frac{\\partial C_{\\text{gen}",
+        "\\frac{\\text{CPM}",
+        "\\frac{\\partial C_{\\text{gen}",
+        "\\frac{\\text{CPM}",
+        "\\frac{240}",
+        "\\frac{240}"
+      ]
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "matches": [
+        "\\beta_m",
+        "\\alpha_m",
+        "\\gamma_k",
+        "\\epsilon_t",
+        "\\epsilon_t",
+        "\\mathcal{N}",
+        "\\sigma^2",
+        "\\alpha_m",
+        "\\alpha_m",
+        "\\alpha_m",
+        "\\alpha_m",
+        "\\alpha_m",
+        "\\frac{x^{S_m}",
+        "\\beta_m",
+        "\\mathcal{N}",
+        "\\frac{\\mathbb{E}",
+        "\\mathbb{E}",
+        "\\mathbb{E}",
+        "\\mathbb{E}"
+      ]
+    },
+    {
+      "chapter": "brand-safety-boundary",
+      "matches": [
+        "\\int_0"
+      ]
+    },
+    {
+      "chapter": "marketing-casebook",
+      "matches": [
+        "\\frac{1{,}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\mathbb{E}",
+        "\\bar{D}",
+        "\\mathbf{+\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\frac{1{,}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{dR_1(x_1)}",
+        "\\frac{dR_2(x_2)}",
+        "\\frac{dR_m(x_m)}",
+        "\\frac{x_m^{S_m}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{1{,}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{\\text{Cumulative Impressions}",
+        "\\frac{\\text{CPM}",
+        "\\frac{\\text{CPC}",
+        "\\frac{\\text{CPC}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{7.03\\text{x}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{4.13\\text{x}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{2.16\\text{x}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{441\\text{x}",
+        "\\frac{dR}"
+      ]
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "matches": [
+        "\\frac{P_o - P_e}",
+        "\\frac{0.88 - 0.50}",
+        "\\frac{0.38}"
+      ]
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "matches": [
+        "\\frac{N_{\\text{output}",
+        "\\frac{C_{\\text{write}",
+        "\\frac{3.75 - 0.30}",
+        "\\frac{3.45}",
+        "\\frac{\\text{Fixed Monthly Compute \\&amp; Headcount Overhead}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{82.9%\\text{ reduction}",
+        "\\mathbf{399.6\\text{ms}",
+        "\\mathbf{800\\text{ms}",
+        "\\mathbf{\\$5{,}",
+        "\\frac{C_{\\text{write}",
+        "\\frac{3.75 - 0.30}",
+        "\\frac{3.45}"
+      ]
+    },
+    {
+      "chapter": "agentic-ux-and-interfaces",
+      "matches": [
+        "\\mathbf{241.7\\text{ hours monthly}"
+      ]
+    },
+    {
+      "chapter": "product-casebook",
+      "matches": [
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{82.9%\\text{ reduction}",
+        "\\bar{L}",
+        "\\mathbf{399.6\\text{ ms}",
+        "\\mathbf{$0.0185\\text{ per query}",
+        "\\mathbf{$3.5185\\text{ per query}",
+        "\\mathbf{$0.450}",
+        "\\mathbf{$0.0360}",
+        "\\mathbf{$0.0450\\text{ per query}",
+        "\\mathbf{$0.2450\\text{ per query}",
+        "\\frac{0.450}",
+        "\\frac{0.450}",
+        "\\mathbf{0.14\\text{ queries}",
+        "\\frac{C_{\\text{FP}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{450:1}",
+        "\\frac{C_{\\text{FP}",
+        "\\frac{81{,}",
+        "\\frac{2{,}",
+        "\\mathbf{0.933}",
+        "\\frac{300}",
+        "\\frac{200}",
+        "\\mathbf{20{,}",
+        "\\mathbf{20.02\\text{ seconds}",
+        "\\mathbf{550\\text{ ms}",
+        "\\frac{200}",
+        "\\mathbf{1{,}",
+        "\\frac{\\left(z_{\\alpha/2}",
+        "\\sqrt{2\\bar{p}",
+        "\\bar{p}",
+        "\\sqrt{p_1(1-p_1) + p_2(1-p_2)}",
+        "\\bar{p}",
+        "\\bar{p}",
+        "\\bar{p}",
+        "\\sqrt{2 \\times 0.026744}",
+        "\\sqrt{p_1(1-p_1) + p_2(1-p_2)}",
+        "\\sqrt{(0.98 \\times 0.02) + (0.965 \\times 0.035)}",
+        "\\sqrt{0.053375}",
+        "\\frac{0.41908}",
+        "\\mathbf{1{,}",
+        "\\mathbf{$4.48}",
+        "\\mathbf{$89.60\\text{/day}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{50{,}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{2{,}",
+        "\\frac{400}",
+        "\\mathbf{\\$0.0135\\text{ per record}",
+        "\\mathbf{$675\\text{/month}",
+        "\\mathbf{$3{,}",
+        "\\mathbf{$450\\text{/month}",
+        "\\mathbf{$1{,}",
+        "\\mathbf{$3{,}",
+        "\\mathbf{$9{,}",
+        "\\frac{F_{\\text{self}",
+        "\\frac{\\$9{,}",
+        "\\mathbf{670{,}",
+        "\\frac{C_{\\text{write}",
+        "\\frac{$3.75 - $0.30}",
+        "\\frac{$3.45}",
+        "\\mathbf{1.28\\text{ queries}",
+        "\\frac{C_{\\text{FP}"
+      ]
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "matches": [
+        "\\mathbf{\\text{₹}",
+        "\\frac{EAD_t \\times PD_t \\times LGD_t}",
+        "\\frac{\\% \\text{ Non-Defaults}",
+        "\\frac{\\text{Good}",
+        "\\frac{\\text{Good}",
+        "\\frac{\\text{Bad}",
+        "\\frac{PD}",
+        "\\beta_0",
+        "\\beta_j",
+        "\\phi_i",
+        "\\phi_i",
+        "\\frac{|S|!(|F| - |S| - 1)!}",
+        "\\phi_i",
+        "\\phi_i",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}"
+      ]
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "matches": [
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{b}",
+        "\\mathbf{t}",
+        "\\mathbf{t}",
+        "\\mathbf{b}",
+        "\\mathbf{b}",
+        "\\frac{FCFF_t}",
+        "\\frac{FCFF_{T+1}",
+        "\\frac{E}",
+        "\\frac{D}",
+        "\\frac{\\text{Exit Equity Value}",
+        "\\frac{\\text{Net Operating Income}",
+        "\\frac{\\text{EBITDA}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{24.2\\%}",
+        "\\mathbf{\\text{₹}"
+      ]
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "matches": [
+        "\\frac{P(\\text{Alert}",
+        "\\frac{0.99 \\times 0.0001}",
+        "\\frac{0.000099}",
+        "\\frac{0.000099}",
+        "\\mathcal{L}",
+        "\\frac{C_{\\text{FP}",
+        "\\mathcal{T}",
+        "\\mathcal{T}",
+        "\\mathcal{N}",
+        "\\mathcal{N}",
+        "\\frac{|\\Delta B_{\\text{in}",
+        "\\frac{P(\\text{Alert}"
+      ]
+    },
+    {
+      "chapter": "finance-casebook",
+      "matches": [
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{60\\text{ basis points}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{\\Delta PBT}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{+1.10\\%}",
+        "\\mathbf{+110\\text{ basis points}",
+        "\\frac{\\Delta PAT}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{+8.23\\%}",
+        "\\mathbf{+823\\text{ basis points}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{80{,}",
+        "\\mathbf{100\\text{ advisors}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{60.0%}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{92.3\\%}",
+        "\\mathbf{500{,}",
+        "\\mathbf{487{,}",
+        "\\mathbf{97.5\\%\\text{ false alarm rate}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{87.5\\%\\text{ cost reduction}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{46.0\\text{ billion tokens/month}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{2{,}",
+        "\\frac{300}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{\\text{Annualized Fixed On-Prem Cost}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{199{,}",
+        "\\mathbf{16.63\\text{ million queries/month}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{14.37%}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{+33.6%\\text{ net earnings growth}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{19.19\\%}",
+        "\\mathbf{+482\\text{ basis points ROE expansion}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{+33.3\\%\\text{ equity market revaluation}",
+        "\\sqrt{\\frac{Q}",
+        "\\sqrt{0.15}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\mathbf{\\text{₹}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{+8.23%}",
+        "\\frac{\\text{₹}",
+        "\\frac{\\text{Fixed Annual Cost}",
+        "\\frac{\\text{₹}",
+        "\\mathbf{199{,}",
+        "\\mathbf{\\text{₹}"
+      ]
+    }
+  ],
+  "escapedHtmlTagLeaks": [],
+  "asciiTables": [
+    {
+      "chapter": "ai-in-one-sitting",
+      "file": "content\\chapters\\ai-in-one-sitting.md",
+      "startLine": 117,
+      "endLine": 127,
+      "lang": "",
+      "preview": "[User Query] \r\n     │\r\n     ├──► 1. Query Embedding Engine ──► Vector Search against Enterprise Chunk Database\r\n     │                                                │\r\n     │                                                ▼\r\n     └──► 2. Ingest Top Retrieved Chunks ──► Assemble Prompt with Document Evidence\r\n                                                      │\r\n                                                      ▼\r"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "file": "content\\chapters\\marketing-casebook.md",
+      "startLine": 238,
+      "endLine": 243,
+      "lang": "",
+      "preview": "Cart Abandoners (8,000,000 Users)\n ├── Sure Things (45% · 3.60M users) ─── Organic Conversion: 68% ─── Action: Offer ₹0 Discount\n ├── Lost Causes (30% · 2.40M users) ─── Conversion with Promo: <4% ─ Action: Offer ₹0 Discount\n └── Persuadables (25% · 2.00M users) ── Lift: 12% → 48% (τ = +36%) ─ Action: Dynamic ₹50 to ₹150"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "file": "content\\chapters\\marketing-casebook.md",
+      "startLine": 376,
+      "endLine": 387,
+      "lang": "",
+      "preview": "20 Million Active Shoppers\n └── 5 Ad Impressions / Week × 12 Weeks = 60 Impressions / Shopper\n      └── Total Quarterly Delivery: 1.20 Billion Ad Impressions\n           ├── Architecture A: Naive Real-Time Diffusion ($48 Million / ₹408 Crore) → UNVIABLE\n           └── Architecture B: Modular Compositing & Edge Assembly (₹3.08 Lakh) → PRODUCTION GRADE\n                ├── 5,000 Product Cutout Renders (ComfyUI Batch): ₹17,000\n                ├── 200 Cultural Background Environments: ₹850\n                ├── 500 6-Second Video Motion Loops: ₹51,000"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "file": "content\\chapters\\marketing-casebook.md",
+      "startLine": 462,
+      "endLine": 469,
+      "lang": "",
+      "preview": "Total Marketing Capital: ₹60.00 Crore\n ├── TV & Connected OTT: ₹21.00 Crore (35%) ─── Brand anchor, high ceiling, 40% organic baseline lift\n ├── Meta Performance Ads: ₹18.00 Crore (30%) ── Visual discovery engine, scales to K = ₹18Cr\n ├── Google Search / PMax: ₹9.00 Crore (15%) ─── Intent capture, capped just past saturation K = ₹8Cr\n ├── Quick-Commerce Media: ₹6.00 Crore (10%) ── High-intent impulse accessories, saturates at ₹6Cr\n └── Regional OOH & In-Store: ₹6.00 Crore (10%) ─ Store cluster footfall driver, 150 retail locations"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "file": "content\\chapters\\ai-product-lifecycle.md",
+      "startLine": 38,
+      "endLine": 48,
+      "lang": "",
+      "preview": "                  ┌──────────────────────┐\n                  │ 4. Human Audit Panel │  Hours/Days · ₹35/review\n               ┌──┴──────────────────────┴──┐\n               │ 3. Calibrated LLM-as-Judge │  800ms · ₹0.25/call\n            ┌──┴────────────────────────────┴──┐\n            │ 2. Heuristics & Semantic Parsers │  50ms · ₹0.005/call\n         ┌──┴──────────────────────────────────┴──┐\n         │ 1. Deterministic Unit Tests & Regex    │  <5ms · ₹0.0001/call"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "file": "content\\chapters\\ai-product-lifecycle.md",
+      "startLine": 97,
+      "endLine": 110,
+      "lang": "",
+      "preview": "       Step 1: Raw Generation          Step 2: Swap-Eval Order Inversion\n   ┌─────────────────────────────┐    ┌─────────────────────────────┐\n   │ Prompt: Judge Candidate A   │    │ Prompt: Judge Candidate B   │\n   │ vs Candidate B              │    │ vs Candidate A              │\n   └──────────────┬──────────────┘    └──────────────┬──────────────┘\n                  │                                  │\n                  ▼                                  ▼\n             Verdict: A                         Verdict: B (Consistent!)"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "file": "content\\chapters\\product-architecture-economics.md",
+      "startLine": 24,
+      "endLine": 36,
+      "lang": "",
+      "preview": "Request Sent                                                          Full Generation\n    │                                                                        │\n    ├─── Network Transit (100ms) ───┤                                        │\n    ├────── DB Retrieval (150ms) ────────┤                                   │\n    ├───────── TTFT Prefill (250ms with Cache) ─────────┤                    │\n    ├────────────────── Streaming Generation (30 tokens @ 60 TPS = 500ms) ───┤\n    ▼                                                   ▼                    ▼\n   0ms                                                500ms               1,000ms"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "file": "content\\chapters\\product-architecture-economics.md",
+      "startLine": 120,
+      "endLine": 142,
+      "lang": "",
+      "preview": "                  ┌───────────────────────────────┐\n                  │    Incoming User Query        │\n                  └──────────────┬────────────────┘\n                                 │\n                   [ Deterministic Rule / Cache ]\n                                 │\n            ┌────────────────────┴────────────────────┐\n            ▼ Match (42%)                             ▼ Miss (58%)"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "file": "content\\chapters\\financial-copilots-and-deal-diligence.md",
+      "startLine": 259,
+      "endLine": 268,
+      "lang": "",
+      "preview": "Monthly Operational Data Influx ──► [Continuous Copilot Parser]\n                                                │\n                                                ▼\n                                    [DSCR Calculation Engine]\n                                                │\n                 ┌──────────────────────────────┴──────────────────────────────┐\n                 ▼ Headroom > 25 bps                                           ▼ Headroom < 25 bps\n    [Covenant Compliant Log]                                       [Early Warning Alert to CRO]"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "file": "content\\chapters\\financial-crime-fraud-and-rbi-free-ai.md",
+      "startLine": 118,
+      "endLine": 132,
+      "lang": "",
+      "preview": "[Victim Corporate Account] \n          │ (₹50 Cr Stolen)\n          ▼\n   ┌──────┴──────┐\n   ▼             ▼\n[Mule 1]      [Mule 2]     ◄── Layer 1 (Fan-Out: Dispersion)\n   │             │\n ┌─┴─┐         ┌─┴─┐"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "file": "content\\chapters\\financial-crime-fraud-and-rbi-free-ai.md",
+      "startLine": 177,
+      "endLine": 214,
+      "lang": "",
+      "preview": "[40,000,000 Raw Ingress Transactions/Day] (Sub-50ms Payment SLA)\n                      │\n                      ▼\n┌────────────────────────────────────────────────────────┐\n│ Stage 1: Ultra-Fast Heuristic & Blacklist Filter       │\n│ - Global VPA blacklist, geofence, device fingerprint   │\n│ - Execution latency: < 5ms · 99.5% Pass Through        │\n└─────────────────────┬──────────────────────────────────┘"
+    }
+  ],
+  "mathDelimitersWithSpaces": [],
+  "currencyMathCollisions": [],
+  "allFormulas": [
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 150,
+      "type": "inline",
+      "raw": "p^n"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 155,
+      "type": "inline",
+      "raw": "p"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 155,
+      "type": "inline",
+      "raw": "n"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 155,
+      "type": "inline",
+      "raw": "p = 0.95"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 155,
+      "type": "inline",
+      "raw": "0.95^{12} \\approx 0.540"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 157,
+      "type": "inline",
+      "raw": "p"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 157,
+      "type": "inline",
+      "raw": "p^3"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 157,
+      "type": "inline",
+      "raw": "p^6"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 157,
+      "type": "inline",
+      "raw": "p^{12}"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 157,
+      "type": "inline",
+      "raw": "p^{20}"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 189,
+      "type": "inline",
+      "raw": "9 + 999 = 1,008"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 190,
+      "type": "inline",
+      "raw": "\\frac{9}{1,008} \\approx 0.89\\%"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 277,
+      "type": "inline",
+      "raw": "p^n"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 277,
+      "type": "inline",
+      "raw": "0.96^{10} \\approx 0.6648"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 286,
+      "type": "inline",
+      "raw": "p^n"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 69,
+      "type": "display",
+      "raw": "\\text{Inference Cost} = \\text{Total API Calls} \\times (\\text{Input Tokens} \\times P_{\\text{in}} + \\text{Output Tokens} \\times P_{\\text{out}})"
+    },
+    {
+      "chapter": "ai-in-one-sitting",
+      "line": 153,
+      "type": "display",
+      "raw": "\\text{System Success Rate} = p^n"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 34,
+      "type": "inline",
+      "raw": "n"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 34,
+      "type": "inline",
+      "raw": "p"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 34,
+      "type": "inline",
+      "raw": "p^n"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 54,
+      "type": "inline",
+      "raw": "p = 0.95"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 169,
+      "type": "inline",
+      "raw": "p^n"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 172,
+      "type": "inline",
+      "raw": "p^n"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 216,
+      "type": "inline",
+      "raw": "0.95^{10} \\approx 0.599"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 224,
+      "type": "inline",
+      "raw": "p^n"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 224,
+      "type": "inline",
+      "raw": "0.95^{12} \\approx 54\\%"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 56,
+      "type": "display",
+      "raw": "0.95^{10} \\approx 0.599 \\quad (59.9\\%)"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 60,
+      "type": "display",
+      "raw": "0.95^{12} \\approx 0.540 \\quad (54.0\\%)"
+    },
+    {
+      "chapter": "models-that-act",
+      "line": 64,
+      "type": "display",
+      "raw": "0.99^{50} \\approx 0.605 \\quad (60.5\\%)"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 80,
+      "type": "inline",
+      "raw": "0.05 \\times 980 = 49"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 147,
+      "type": "inline",
+      "raw": "pass@k"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 147,
+      "type": "inline",
+      "raw": "k"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 147,
+      "type": "inline",
+      "raw": "pass^k"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 147,
+      "type": "inline",
+      "raw": "k"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 159,
+      "type": "inline",
+      "raw": "0.06 \\times 4,950 = 297"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 160,
+      "type": "inline",
+      "raw": "46 + 297 = 343"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 161,
+      "type": "inline",
+      "raw": "46 / 343 \\approx 13.4\\%"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 191,
+      "type": "inline",
+      "raw": "18 / 67 \\approx 27\\%"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 236,
+      "type": "inline",
+      "raw": "0.90 \\times 100 = 90"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 236,
+      "type": "inline",
+      "raw": "0.08 \\times 9,900 = 792"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 236,
+      "type": "inline",
+      "raw": "90 + 792 = 882"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 236,
+      "type": "inline",
+      "raw": "90 / 882 \\approx 0.102"
+    },
+    {
+      "chapter": "judging-output",
+      "line": 96,
+      "type": "display",
+      "raw": "\\text{Precision} = \\frac{\\text{True Positives}}{\\text{True Positives} + \\text{False Positives}} = \\frac{18}{18 + 49} = \\frac{18}{67} \\approx 0.269 \\quad (26.9\\%)"
+    },
+    {
+      "chapter": "who-pays",
+      "line": 50,
+      "type": "inline",
+      "raw": "\\text{Total Spend} = \\text{Price} \\times \\text{Volume}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 205,
+      "type": "inline",
+      "raw": "31.4\\text{ million} + 84.0\\text{ million} = 115.4\\text{ million prompts per day}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 220,
+      "type": "inline",
+      "raw": "7{,}200 \\times 75{,}000 = 540\\text{ million input tokens}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 221,
+      "type": "inline",
+      "raw": "7{,}200 \\times 4{,}500 = 32.4\\text{ million output tokens}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 284,
+      "type": "inline",
+      "raw": "3{,}000 \\times 2{,}400 = 7{,}200{,}000\\text{ total working hours annually}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 324,
+      "type": "inline",
+      "raw": "1{,}000\\text{ ms} / 20\\text{ ms} = 50"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 154,
+      "type": "display",
+      "raw": "\\text{Cost per query} = (2{,}000 \\times \\$0.000002) + (500 \\times \\$0.000010) = \\$0.004 + \\$0.005 = \\$0.009\\text{ (approx. ₹0.75)}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 155,
+      "type": "display",
+      "raw": "\\text{Daily API Bill} = 1{,}500{,}000 \\times ₹0.75 = ₹11{,}25{,}000\\text{ (₹41 crore annually)}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 157,
+      "type": "display",
+      "raw": "\\text{Daily GPU Cost} = 64 \\times 24 \\times ₹65 = ₹99{,}840\\text{ (approx. ₹3.65 crore annually)}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 170,
+      "type": "display",
+      "raw": "\\text{Cost per doubt} = (3{,}000 \\times ₹0.0000002) + (1{,}200 \\times ₹0.0000008) = ₹0.0006 + ₹0.00096 = ₹0.00156"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 171,
+      "type": "display",
+      "raw": "\\text{Monthly compute cost per power user} = 360 \\times ₹0.00156 \\approx ₹0.56"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 195,
+      "type": "display",
+      "raw": "\\text{Daily Prompts} = \\text{Addressable Base} \\times \\text{Adoption Rate} \\times \\text{Daily Active Share} \\times \\text{Prompts per Active User}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 211,
+      "type": "display",
+      "raw": "\\text{Monthly Bill} = \\text{Analysts} \\times \\text{Memos/Month} \\times \\text{Tokens/Memo} \\times \\text{Blended Token Price}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 215,
+      "type": "display",
+      "raw": "\\text{Input Tokens per Memo} = 120 \\times 400 \\times 1.3 = 62{,}400\\text{ tokens}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 218,
+      "type": "display",
+      "raw": "\\text{Output Tokens per Memo} = 8 \\times 400 \\times 1.3 \\approx 4{,}160\\text{ tokens (round to 4,500)}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 223,
+      "type": "display",
+      "raw": "\\text{Input Cost} = 540 \\times \\$2.00 = \\$1{,}080"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 224,
+      "type": "display",
+      "raw": "\\text{Output Cost} = 32.4 \\times \\$10.00 = \\$324"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 225,
+      "type": "display",
+      "raw": "\\text{Total Raw Monthly API Cost} = \\$1{,}404\\text{ (approx. ₹1,18,000)}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 232,
+      "type": "display",
+      "raw": "\\text{Required GPUs} = \\frac{\\text{Peak Tokens per Second}}{\\text{Tokens per Second per GPU}}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 236,
+      "type": "display",
+      "raw": "\\text{Peak Queries per Hour} = \\frac{20{,}000{,}000}{4} = 5{,}000{,}000\\text{ queries/hour}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 237,
+      "type": "display",
+      "raw": "\\text{Peak Queries per Second} = \\frac{5{,}000{,}000}{3{,}600} \\approx 1{,}389\\text{ queries/second}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 239,
+      "type": "display",
+      "raw": "\\text{Aggregate Output Throughput} = 1{,}389 \\times 40 = 55{,}560\\text{ output tokens/second}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 242,
+      "type": "display",
+      "raw": "\\text{Required 8-GPU Nodes} = \\frac{55{,}560}{1{,}200} \\approx 46.3\\text{ nodes (round to 48 nodes)}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 243,
+      "type": "display",
+      "raw": "\\text{Total Active GPUs} = 48 \\times 8 = 384\\text{ GPUs}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 245,
+      "type": "display",
+      "raw": "\\text{Total Provisioned GPUs} \\approx 480\\text{ GPUs}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 251,
+      "type": "display",
+      "raw": "\\text{Power Share} = \\frac{\\text{Total GPU Cluster Power Consumption (MW)}}{\\text{Total Operational Indian Data Centre Capacity (MW)}}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 257,
+      "type": "display",
+      "raw": "\\text{Direct IT Power} = 38{,}000 \\times 1.28\\text{ kW} = 48{,}640\\text{ kW} \\approx 48.64\\text{ MW}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 259,
+      "type": "display",
+      "raw": "\\text{Total Facility Power Draw} = 48.64\\text{ MW} \\times 1.40 \\approx 68.1\\text{ MW}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 261,
+      "type": "display",
+      "raw": "\\text{Share of National Capacity} = \\frac{68.1\\text{ MW}}{1{,}789\\text{ MW}} \\approx 3.81\\%"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 267,
+      "type": "display",
+      "raw": "\\text{Annual TAM} = \\text{Addressable White-Collar Workers} \\times \\text{Enterprise Adoption Share} \\times \\text{Annual Seat Price}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 274,
+      "type": "display",
+      "raw": "\\text{Annual TAM} = 3{,}500{,}000\\text{ seats} \\times ₹21{,}600/\\text{year} = ₹75{,}600{,}000{,}000\\text{ (₹7,560 crore or approx. \\$900M)}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 280,
+      "type": "display",
+      "raw": "\\text{Net Hours Saved} = \\text{Junior Staff} \\times \\text{Annual Working Hours} \\times \\text{Gross Speedup} \\times \\text{Net Capacity Capture Rate}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 286,
+      "type": "display",
+      "raw": "\\text{Exposed Hours} = 7{,}200{,}000 \\times 0.40 = 2{,}880{,}000\\text{ hours}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 287,
+      "type": "display",
+      "raw": "\\text{Gross Time Saved} = 2{,}880{,}000 \\times 0.251 \\approx 722{,}880\\text{ hours}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 289,
+      "type": "display",
+      "raw": "\\text{Net Reclaimed Productive Hours} = 722{,}880 \\times 0.35 \\approx 253{,}000\\text{ hours annually}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 295,
+      "type": "display",
+      "raw": "\\text{Human Cost/Query} = \\frac{\\text{Fully Loaded Agent Cost}}{\\text{Monthly Resolved Volume}}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 296,
+      "type": "display",
+      "raw": "\\text{AI Cost/Query} = \\text{Model Token Fees} + \\text{Cloud Infrastructure} + (\\text{Escalation Rate} \\times \\text{Human Cost})"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 301,
+      "type": "display",
+      "raw": "\\text{Cost per Human Resolution} = \\frac{₹45{,}000}{1{,}430} \\approx ₹31.47\\text{ per ticket}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 305,
+      "type": "display",
+      "raw": "\\text{Token Cost} = (3{,}500 \\times ₹0.00000025) + (600 \\times ₹0.00000100) = ₹0.000875 + ₹0.000600 \\approx ₹0.0015"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 310,
+      "type": "display",
+      "raw": "\\text{Blended Effective Cost per Ticket} = (0.70 \\times ₹0.40) + [0.30 \\times (₹0.40 + ₹31.47)]"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 311,
+      "type": "display",
+      "raw": "\\text{Blended Cost} = ₹0.28 + (0.30 \\times ₹31.87) = ₹0.28 + ₹9.56 = ₹9.84\\text{ per ticket}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 317,
+      "type": "display",
+      "raw": "\\text{Required Servers} = \\frac{\\text{Peak Transactions per Second} \\times \\text{Inference Latency per Score}}{\\text{Cores per Server}}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 321,
+      "type": "display",
+      "raw": "\\text{Peak Transactions per Hour} = \\frac{210{,}000{,}000}{4} = 52{,}500{,}000\\text{ tx/hour}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 322,
+      "type": "display",
+      "raw": "\\text{Peak Transactions per Second (TPS)} = \\frac{52{,}500{,}000}{3{,}600} \\approx 14{,}583\\text{ TPS (round to 15,000 TPS)}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 326,
+      "type": "display",
+      "raw": "\\text{Dedicated Cores at Peak} = \\frac{15{,}000\\text{ TPS}}{50\\text{ TPS/core}} = 300\\text{ dedicated compute cores}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 328,
+      "type": "display",
+      "raw": "\\text{Required Cores with Redundancy} = 300 \\times 3 = 900\\text{ cores}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 329,
+      "type": "display",
+      "raw": "\\text{Total Enterprise Servers} = \\frac{900}{128} \\approx 7\\text{ enterprise servers}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 335,
+      "type": "display",
+      "raw": "\\text{Annual Bill} = (\\text{Total Terabytes Stored} \\times \\text{Storage Rate/TB}) + (\\text{Retrieval Volume} \\times \\text{Egress Rate})"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 341,
+      "type": "display",
+      "raw": "\\text{Daily Storage Generation} = 36 + 75 + 60 = 171\\text{ GB per day}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 342,
+      "type": "display",
+      "raw": "\\text{Annual Ingestion} = 171\\text{ GB} \\times 365 \\approx 62{,}415\\text{ GB} \\approx 62.4\\text{ Terabytes (TB) per year}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 344,
+      "type": "display",
+      "raw": "62.4\\text{ TB/year} \\times 7\\text{ years} \\approx 437\\text{ Terabytes}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 347,
+      "type": "display",
+      "raw": "62.4\\text{ TB} \\times ₹1{,}800 \\times 12\\text{ months} = ₹13{,}47{,}840/\\text{year}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 349,
+      "type": "display",
+      "raw": "374.6\\text{ TB} \\times ₹300 \\times 12\\text{ months} = ₹13{,}48{,}560/\\text{year}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 351,
+      "type": "display",
+      "raw": "₹13{,}47{,}840 + ₹13{,}48{,}560 = ₹26{,}96{,}400\\text{ (approx. ₹27 lakh annually)}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 357,
+      "type": "display",
+      "raw": "\\text{Total Capex} = \\text{Land \\& Core Building} + \\text{Electrical Substation Infrastructure} + \\text{Liquid Cooling Plant} + \\text{Fit-Out Overhead}"
+    },
+    {
+      "chapter": "ai-casebook",
+      "line": 367,
+      "type": "display",
+      "raw": "\\text{Total Facility Capex} = ₹1{,}212 + ₹866 + ₹762 + ₹624 = ₹3{,}464\\text{ crore (approx. \\$412 million)}"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 9,
+      "type": "inline",
+      "raw": "C_{\\\\text{asset}} \\\\to 0"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 27,
+      "type": "inline",
+      "raw": "F_{\\text{studio}}"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 27,
+      "type": "inline",
+      "raw": "v_{\\text{edit}, i}"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 27,
+      "type": "inline",
+      "raw": "i"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 33,
+      "type": "inline",
+      "raw": "F_{\\text{seed}}"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 37,
+      "type": "inline",
+      "raw": "n"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 42,
+      "type": "inline",
+      "raw": "F_{\\text{studio}} \\ge \\text{₹}25,00,000"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 42,
+      "type": "inline",
+      "raw": "v_{\\text{edit}} \\ge \\text{₹}50,000"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 43,
+      "type": "inline",
+      "raw": "c_{\\text{asset}} \\approx \\text{₹}4\\text{ to }\\text{₹}17"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 44,
+      "type": "inline",
+      "raw": "n \\to \\infty"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 44,
+      "type": "inline",
+      "raw": "\\frac{\\partial C_{\\text{gen}}}{\\partial n} \\to 0"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 100,
+      "type": "inline",
+      "raw": "P(\\text{Click})"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 100,
+      "type": "inline",
+      "raw": "P(\\text{Conversion})"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 104,
+      "type": "inline",
+      "raw": "\\text{CTR}_0"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 104,
+      "type": "inline",
+      "raw": "f(t)"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 104,
+      "type": "inline",
+      "raw": "\\lambda"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 104,
+      "type": "inline",
+      "raw": "0.20 \\le \\lambda \\le 0.35"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 216,
+      "type": "inline",
+      "raw": "\\lim_{n \\to \\infty} \\frac{\\partial C_{\\text{gen}}}{\\partial n} = c_{\\text{asset}} \\approx \\text{₹}4\\text{ to }\\text{₹}17"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 218,
+      "type": "inline",
+      "raw": "\\text{CPC} = \\frac{\\text{CPM}}{1000 \\cdot \\text{CTR}}"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 218,
+      "type": "inline",
+      "raw": "\\text{CPC} = \\frac{240}{1000 \\times 0.024} = \\text{₹}10.00"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 218,
+      "type": "inline",
+      "raw": "\\text{CPC} = \\frac{240}{1000 \\times 0.008} = \\text{₹}30.00"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 224,
+      "type": "inline",
+      "raw": "C_{\\text{asset}} \\to 0"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 25,
+      "type": "display",
+      "raw": "C_{\\text{traditional}} = F_{\\text{studio}} + \\sum_{i=1}^n v_{\\text{edit}, i}"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 31,
+      "type": "display",
+      "raw": "C_{\\text{gen}} = F_{\\text{seed}} + n \\cdot \\big(c_{\\text{diffusion}} + c_{\\text{speech}} + c_{\\text{sync}}\\big)"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 35,
+      "type": "display",
+      "raw": "c_{\\text{asset}} = c_{\\text{diffusion}} + c_{\\text{speech}} + c_{\\text{sync}} \\approx \\$0.05 \\text{ to } \\$0.20 \\approx \\text{₹}4 \\text{ to } \\text{₹}17"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 39,
+      "type": "display",
+      "raw": "\\lim_{n \\to \\infty} \\frac{\\partial C_{\\text{gen}}}{\\partial n} = c_{\\text{asset}} \\to 0"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 98,
+      "type": "display",
+      "raw": "\\text{eCPM} = \\text{Bid} \\times P(\\text{Click}) \\times P(\\text{Conversion}) + \\text{Quality Score}"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 102,
+      "type": "display",
+      "raw": "\\text{CTR}(t) = \\text{CTR}_0 \\cdot e^{-\\lambda(f(t) - 1)}"
+    },
+    {
+      "chapter": "creative-at-scale",
+      "line": 108,
+      "type": "display",
+      "raw": "\\text{CPC}(t) = \\frac{\\text{CPM}}{1000 \\cdot \\text{CTR}(t)}"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 35,
+      "type": "inline",
+      "raw": "WTP_{\\text{synthetic}} \\gg WTP_{\\text{actual}}"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 88,
+      "type": "inline",
+      "raw": "Y_t"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 88,
+      "type": "inline",
+      "raw": "t"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 89,
+      "type": "inline",
+      "raw": "\\text{Baseline}_t"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 90,
+      "type": "inline",
+      "raw": "X_{m,t}"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 90,
+      "type": "inline",
+      "raw": "m"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 90,
+      "type": "inline",
+      "raw": "t"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 91,
+      "type": "inline",
+      "raw": "Z_{k,t}"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 92,
+      "type": "inline",
+      "raw": "\\epsilon_t \\sim \\mathcal{N}(0, \\sigma^2)"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 94,
+      "type": "inline",
+      "raw": "X_{m,t}"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 102,
+      "type": "inline",
+      "raw": "\\alpha_m \\in [0, 1)"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 102,
+      "type": "inline",
+      "raw": "\\alpha_{\\text{TV}} \\approx 0.70"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 102,
+      "type": "inline",
+      "raw": "\\alpha_{\\text{Search}} \\approx 0.10"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 111,
+      "type": "inline",
+      "raw": "K_m > 0"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 112,
+      "type": "inline",
+      "raw": "S_m > 0"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 112,
+      "type": "inline",
+      "raw": "S_m > 1"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 122,
+      "type": "inline",
+      "raw": "\\mu_{\\text{prior}, m}"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 132,
+      "type": "inline",
+      "raw": "T"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 138,
+      "type": "inline",
+      "raw": "\\mathbb{E}[\\text{Transactions}_{i,t}]"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 139,
+      "type": "inline",
+      "raw": "\\mathbb{E}[\\text{Margin}_{i,t}]"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 141,
+      "type": "inline",
+      "raw": "\\text{pLTV}_i"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 241,
+      "type": "inline",
+      "raw": "\\alpha"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 241,
+      "type": "inline",
+      "raw": "K"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 249,
+      "type": "inline",
+      "raw": "\\alpha"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 249,
+      "type": "inline",
+      "raw": "K"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 249,
+      "type": "inline",
+      "raw": "K"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 85,
+      "type": "display",
+      "raw": "Y_t = \\text{Baseline}_t + \\sum_{m=1}^M \\beta_m \\cdot f_{\\text{sat}}\\Big(\\text{Adstock}(X_{m,t}; \\alpha_m); K_m, S_m\\Big) + \\sum_{k=1}^K \\gamma_k Z_{k,t} + \\epsilon_t"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 100,
+      "type": "display",
+      "raw": "\\text{Adstock}(X_{m,t}; \\alpha_m) = X_{m,t} + \\alpha_m \\cdot \\text{Adstock}(X_{m,t-1}; \\alpha_m) = \\sum_{l=0}^L \\alpha_m^l X_{m,t-l}"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 108,
+      "type": "display",
+      "raw": "f_{\\text{sat}}(x; K_m, S_m) = \\frac{x^{S_m}}{K_m^{S_m} + x^{S_m}}"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 120,
+      "type": "display",
+      "raw": "\\beta_m \\sim \\mathcal{N}(\\mu_{\\text{prior}, m}, \\sigma_{\\text{prior}, m}^2)"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 134,
+      "type": "display",
+      "raw": "\\text{pLTV}_i = \\sum_{t=1}^T \\frac{\\mathbb{E}[\\text{Transactions}_{i,t}] \\times \\mathbb{E}[\\text{Margin}_{i,t}]}{(1 + d)^t}"
+    },
+    {
+      "chapter": "synthetic-audiences-and-attribution",
+      "line": 143,
+      "type": "display",
+      "raw": "\\text{CAC}_{\\text{max}, i} = \\text{pLTV}_i \\times \\text{Target Margin Ratio}"
+    },
+    {
+      "chapter": "brand-safety-boundary",
+      "line": 25,
+      "type": "inline",
+      "raw": "T"
+    },
+    {
+      "chapter": "brand-safety-boundary",
+      "line": 27,
+      "type": "inline",
+      "raw": "\\delta"
+    },
+    {
+      "chapter": "brand-safety-boundary",
+      "line": 145,
+      "type": "inline",
+      "raw": "T=0.0"
+    },
+    {
+      "chapter": "brand-safety-boundary",
+      "line": 198,
+      "type": "inline",
+      "raw": "T=0.0"
+    },
+    {
+      "chapter": "brand-safety-boundary",
+      "line": 26,
+      "type": "display",
+      "raw": "\\text{Equity}(T) = \\int_0^T e^{-\\delta(T-t)} \\cdot \\text{TrustSignal}(t) \\, dt"
+    },
+    {
+      "chapter": "brand-safety-boundary",
+      "line": 30,
+      "type": "display",
+      "raw": "P(w_t \\mid w_1, w_2, \\dots, w_{t-1})"
+    },
+    {
+      "chapter": "brand-safety-boundary",
+      "line": 34,
+      "type": "display",
+      "raw": "\\Delta \\text{Equity} = -f(\\text{Public Outrage}, \\text{Regulatory Sanction}, \\text{Legal Liability})"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 26,
+      "type": "inline",
+      "raw": "CAC"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 26,
+      "type": "inline",
+      "raw": "LTV"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 27,
+      "type": "inline",
+      "raw": "C_{\\text{asset}} \\to 0"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 28,
+      "type": "inline",
+      "raw": "ROAS"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 28,
+      "type": "inline",
+      "raw": "\\tau"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 36,
+      "type": "inline",
+      "raw": "ASR"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 36,
+      "type": "inline",
+      "raw": "TTS"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 73,
+      "type": "inline",
+      "raw": "AOV"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 80,
+      "type": "inline",
+      "raw": "1{,}200{,}000"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 82,
+      "type": "inline",
+      "raw": "\\frac{1{,}200{,}000}{250} = 4{,}800"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 92,
+      "type": "inline",
+      "raw": "ASR"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 94,
+      "type": "inline",
+      "raw": "TTS"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 100,
+      "type": "inline",
+      "raw": "AOV"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 109,
+      "type": "inline",
+      "raw": "ROI"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 124,
+      "type": "inline",
+      "raw": "KPIs"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 131,
+      "type": "inline",
+      "raw": "ARR"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 131,
+      "type": "inline",
+      "raw": "CAC"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 135,
+      "type": "inline",
+      "raw": "CTR"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 149,
+      "type": "inline",
+      "raw": "120 \\times 12 = 1{,}440"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 152,
+      "type": "inline",
+      "raw": "ROAS > 3.0\\text{x}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 152,
+      "type": "inline",
+      "raw": "> \\text{₹}5\\text{ lakh}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 182,
+      "type": "inline",
+      "raw": "f \\le 1.6"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 214,
+      "type": "inline",
+      "raw": "MAU"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 216,
+      "type": "inline",
+      "raw": "8{,}000{,}000 \\times \\text{₹}150"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 216,
+      "type": "inline",
+      "raw": "ROAS"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 234,
+      "type": "inline",
+      "raw": "CATE"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 236,
+      "type": "inline",
+      "raw": "Y_i \\in \\{0, 1\\}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 236,
+      "type": "inline",
+      "raw": "D"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 236,
+      "type": "inline",
+      "raw": "X_i"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 248,
+      "type": "inline",
+      "raw": "P(Y=1 \\mid D=0) = 68.0\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 249,
+      "type": "inline",
+      "raw": "P(Y=1 \\mid D=150) = 71.0\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 250,
+      "type": "inline",
+      "raw": "\\tau = +3.0\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 251,
+      "type": "inline",
+      "raw": "3.6\\text{M} \\times 0.71 \\times \\text{₹}150 = \\text{₹}38.34\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 253,
+      "type": "inline",
+      "raw": "P(Y=1 \\mid D=0) = 1.5\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 254,
+      "type": "inline",
+      "raw": "P(Y=1 \\mid D=150) = 3.8\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 255,
+      "type": "inline",
+      "raw": "\\tau = +2.3\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 256,
+      "type": "inline",
+      "raw": "2.4\\text{M} \\times 0.038 \\times \\text{₹}150 = \\text{₹}1.37\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 258,
+      "type": "inline",
+      "raw": "P(Y=1 \\mid D=0) = 12.0\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 259,
+      "type": "inline",
+      "raw": "P(Y=1 \\mid D) = 48.0\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 260,
+      "type": "inline",
+      "raw": "\\tau = +36.0\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 264,
+      "type": "inline",
+      "raw": "D_i \\in \\{\\text{₹}50, \\text{₹}75, \\text{₹}100, \\text{₹}150\\}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 274,
+      "type": "inline",
+      "raw": "2\\text{M} \\times \\text{₹}82 = \\text{₹}16.4\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 278,
+      "type": "inline",
+      "raw": "3.6\\text{M} \\times 0.03 = 108{,}000"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 294,
+      "type": "inline",
+      "raw": "ARPU"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 311,
+      "type": "inline",
+      "raw": "MNP"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 313,
+      "type": "inline",
+      "raw": "RAN"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 324,
+      "type": "inline",
+      "raw": "60{,}000 \\times \\text{₹}180 = \\text{₹}1.08\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 326,
+      "type": "inline",
+      "raw": "60{,}000 \\times 0.12 = 7{,}200"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 334,
+      "type": "inline",
+      "raw": "100{,}000 \\times \\text{₹}1.80 = \\text{₹}1{,}80{,}000"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 336,
+      "type": "inline",
+      "raw": "100{,}000 \\times 0.085 = 8{,}500"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 341,
+      "type": "inline",
+      "raw": "ARPU"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 341,
+      "type": "inline",
+      "raw": "ARR"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 373,
+      "type": "inline",
+      "raw": "CDN"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 413,
+      "type": "inline",
+      "raw": "4{,}000 \\text{ variants} \\times 300 \\text{ tokens} = 1{,}200{,}000 \\text{ tokens}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 439,
+      "type": "inline",
+      "raw": "R_m(x_m)"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 439,
+      "type": "inline",
+      "raw": "x_m"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 439,
+      "type": "inline",
+      "raw": "m"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 439,
+      "type": "inline",
+      "raw": "\\sum_{m=1}^M x_m = \\text{₹}60\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 443,
+      "type": "inline",
+      "raw": "V_m"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 443,
+      "type": "inline",
+      "raw": "K_m"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 443,
+      "type": "inline",
+      "raw": "S_m"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 449,
+      "type": "inline",
+      "raw": "ROAS"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 449,
+      "type": "inline",
+      "raw": "K = \\text{₹}8\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 451,
+      "type": "inline",
+      "raw": "ROAS \\approx 3.0\\text{x}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 451,
+      "type": "inline",
+      "raw": "K = \\text{₹}18\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 453,
+      "type": "inline",
+      "raw": "ROAS"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 453,
+      "type": "inline",
+      "raw": "K = \\text{₹}6\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 455,
+      "type": "inline",
+      "raw": "1.6\\text{x}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 455,
+      "type": "inline",
+      "raw": "\\alpha = 0.65"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 455,
+      "type": "inline",
+      "raw": "K = \\text{₹}32\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 457,
+      "type": "inline",
+      "raw": "K = \\text{₹}8\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 481,
+      "type": "inline",
+      "raw": "ROAS"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 490,
+      "type": "inline",
+      "raw": "FGDs"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 498,
+      "type": "inline",
+      "raw": "\\times 8 = \\text{₹}14{,}400"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 511,
+      "type": "inline",
+      "raw": "\\times"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 514,
+      "type": "inline",
+      "raw": "54 \\times (300 \\text{ in} + 150 \\text{ out}) \\approx 16{,}200 \\text{ input tokens} + 8{,}100 \\text{ output tokens} \\approx 24{,}300\\text{ tokens}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 552,
+      "type": "inline",
+      "raw": "f(t)"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 554,
+      "type": "inline",
+      "raw": "CPM"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 554,
+      "type": "inline",
+      "raw": "15\\text{M} / 4\\text{M}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 557,
+      "type": "inline",
+      "raw": "CTR"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 559,
+      "type": "inline",
+      "raw": "\\text{CTR}_0 = 2.50\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 559,
+      "type": "inline",
+      "raw": "\\lambda = 0.25"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 564,
+      "type": "inline",
+      "raw": "CPC"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 566,
+      "type": "inline",
+      "raw": "AOV"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 566,
+      "type": "inline",
+      "raw": "CAC"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 573,
+      "type": "inline",
+      "raw": "f = 1.10"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 574,
+      "type": "inline",
+      "raw": "\\text{CTR} = 2.50\\% \\times e^{-0.25(1.10 - 1)} = 2.50\\% \\times e^{-0.025} \\approx 2.44\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 575,
+      "type": "inline",
+      "raw": "\\text{CPC} = \\frac{\\text{₹}200}{1000 \\times 0.0244} = \\text{₹}8.20"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 576,
+      "type": "inline",
+      "raw": "\\text{CAC} = \\frac{\\text{₹}8.20}{0.032} = \\text{₹}256.25"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 577,
+      "type": "inline",
+      "raw": "\\frac{\\text{₹}30{,}00{,}000}{\\text{₹}256.25} = 11{,}707\\text{ orders}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 578,
+      "type": "inline",
+      "raw": "11{,}707 \\times \\text{₹}1{,}800 = \\text{₹}2.11\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 579,
+      "type": "inline",
+      "raw": "\\frac{\\text{₹}2.11\\text{Cr}}{\\text{₹}0.30\\text{Cr}} = \\mathbf{7.03\\text{x}}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 582,
+      "type": "inline",
+      "raw": "f = 3.20"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 583,
+      "type": "inline",
+      "raw": "\\text{CTR} = 2.50\\% \\times e^{-0.25(3.20 - 1)} = 2.50\\% \\times e^{-0.55} \\approx 1.44\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 584,
+      "type": "inline",
+      "raw": "\\text{CPC} = \\frac{\\text{₹}200}{1000 \\times 0.0144} = \\text{₹}13.89"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 585,
+      "type": "inline",
+      "raw": "\\text{CAC} = \\frac{\\text{₹}13.89}{0.032} = \\text{₹}434.06"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 586,
+      "type": "inline",
+      "raw": "\\frac{\\text{₹}30{,}00{,}000}{\\text{₹}434.06} = 6{,}911\\text{ orders}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 587,
+      "type": "inline",
+      "raw": "6{,}911 \\times \\text{₹}1{,}800 = \\text{₹}1.24\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 588,
+      "type": "inline",
+      "raw": "\\frac{\\text{₹}1.24\\text{Cr}}{\\text{₹}0.30\\text{Cr}} = \\mathbf{4.13\\text{x}}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 591,
+      "type": "inline",
+      "raw": "f = 5.80"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 592,
+      "type": "inline",
+      "raw": "\\text{CTR} = 2.50\\% \\times e^{-0.25(5.80 - 1)} = 2.50\\% \\times e^{-1.20} \\approx 0.75\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 593,
+      "type": "inline",
+      "raw": "\\text{CPC} = \\frac{\\text{₹}200}{1000 \\times 0.0075} = \\text{₹}26.67"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 594,
+      "type": "inline",
+      "raw": "\\text{CAC} = \\frac{\\text{₹}26.67}{0.032} = \\text{₹}833.44"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 595,
+      "type": "inline",
+      "raw": "\\frac{\\text{₹}30{,}00{,}000}{\\text{₹}833.44} = 3{,}599\\text{ orders}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 596,
+      "type": "inline",
+      "raw": "3{,}599 \\times \\text{₹}1{,}800 = \\text{₹}64.78\\text{ lakh}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 597,
+      "type": "inline",
+      "raw": "\\frac{\\text{₹}0.65\\text{Cr}}{\\text{₹}0.30\\text{Cr}} = \\mathbf{2.16\\text{x}}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 600,
+      "type": "inline",
+      "raw": "f \\le 1.60"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 602,
+      "type": "inline",
+      "raw": "CAC"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 603,
+      "type": "inline",
+      "raw": "ROAS \\approx 6.33\\text{x}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 605,
+      "type": "inline",
+      "raw": "ROAS \\approx 4.12\\text{x}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 606,
+      "type": "inline",
+      "raw": "ROAS \\approx 6.33\\text{x}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 610,
+      "type": "inline",
+      "raw": "ROI"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 681,
+      "type": "inline",
+      "raw": "C_{\\text{asset}} \\to 0"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 683,
+      "type": "inline",
+      "raw": "CAC"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 689,
+      "type": "inline",
+      "raw": "CPM"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 689,
+      "type": "inline",
+      "raw": "CPC"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 690,
+      "type": "inline",
+      "raw": "P(Y=1 \\mid D=0) \\approx 70\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 690,
+      "type": "inline",
+      "raw": "10\\text{--}15\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 690,
+      "type": "inline",
+      "raw": "40\\text{--}50\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 691,
+      "type": "inline",
+      "raw": "\\text{CTR}(t) = \\text{CTR}_0 \\cdot e^{-\\lambda(f(t) - 1)}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 691,
+      "type": "inline",
+      "raw": "f = 4.5"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 691,
+      "type": "inline",
+      "raw": "\\lambda = 0.25"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 691,
+      "type": "inline",
+      "raw": "CPC = \\text{CPM} / (1000 \\cdot \\text{CTR})"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 691,
+      "type": "inline",
+      "raw": "CTR"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 691,
+      "type": "inline",
+      "raw": "CPC"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 691,
+      "type": "inline",
+      "raw": "+141\\%"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 691,
+      "type": "inline",
+      "raw": "CAC = \\text{CPC} / \\text{Conversion Rate}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 691,
+      "type": "inline",
+      "raw": "ROAS"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 700,
+      "type": "inline",
+      "raw": "C_{\\text{asset}} \\to 0"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 702,
+      "type": "inline",
+      "raw": "\\frac{dR}{dx}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 85,
+      "type": "display",
+      "raw": "4{,}800 \\times \\text{₹}18{,}000 \\times 12 = \\text{₹}103.68\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 97,
+      "type": "display",
+      "raw": "\\text{Cost}_{\\text{session}} = \\text{₹}0.30 + \\text{₹}0.25 + \\text{₹}0.35 = \\text{₹}0.90\\text{ per completed session}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 104,
+      "type": "display",
+      "raw": "\\text{Incremental Revenue} = 1{,}200{,}000 \\times \\text{₹}4{,}200 \\times 1.7 \\text{ orders/month} \\times 12 \\text{ months} \\times 0.07 = \\text{₹}719.71\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 106,
+      "type": "display",
+      "raw": "\\text{Incremental Gross Margin} = \\text{₹}719.71\\text{ crore} \\times 0.18 = \\text{₹}129.55\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 108,
+      "type": "display",
+      "raw": "\\text{Annual Voice Cost} = 1{,}200{,}000 \\times 3.8 \\times 12 \\times \\text{₹}0.90 = 54{,}720{,}000 \\text{ sessions} \\times \\text{₹}0.90 = \\text{₹}4.92\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 110,
+      "type": "display",
+      "raw": "\\text{Net ROI} = \\frac{\\text{₹}129.55\\text{ crore} - \\text{₹}4.92\\text{ crore}}{\\text{₹}4.92\\text{ crore}} = \\frac{\\text{₹}124.63\\text{ crore}}{\\text{₹}4.92\\text{ crore}} \\approx 25.33\\text{x}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 151,
+      "type": "display",
+      "raw": "C_{\\text{agency}} = \\frac{\\text{₹}4{,}80{,}00{,}000}{1{,}440} = \\text{₹}33{,}333\\text{ per asset}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 154,
+      "type": "display",
+      "raw": "\\text{Winning Assets}_{\\text{agency}} = 1{,}440 \\times 0.03 = 43.2 \\approx 43\\text{ winning assets/year}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 171,
+      "type": "display",
+      "raw": "\\text{Total Cost}_{\\text{in-house}} = \\text{₹}1.37\\text{ crore} + \\text{₹}0.28\\text{ crore} = \\text{₹}1.65\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 174,
+      "type": "display",
+      "raw": "C_{\\text{in-house}} = \\frac{\\text{₹}1{,}65{,}00{,}000}{18{,}000} = \\text{₹}916.67 \\approx \\text{₹}917\\text{ per asset}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 180,
+      "type": "display",
+      "raw": "\\text{Winning Assets}_{\\text{in-house}} = 18{,}000 \\times 0.015 = 270\\text{ winning assets/year}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 185,
+      "type": "display",
+      "raw": "\\text{New Media Budget Required} = 625{,}000 \\times \\text{₹}580 = \\text{₹}36.25\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 187,
+      "type": "display",
+      "raw": "\\text{Media Savings} = \\text{₹}45.00\\text{ crore} - \\text{₹}36.25\\text{ crore} = \\text{₹}8.75\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 189,
+      "type": "display",
+      "raw": "\\text{Net Annual Benefit} = (\\text{₹}4.80\\text{Cr agency} - \\text{₹}1.65\\text{Cr in-house}) + \\text{₹}8.75\\text{Cr media savings} = \\text{₹}11.90\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 235,
+      "type": "display",
+      "raw": "\\tau_i(D) = \\mathbb{E}\\big[Y_i(D) - Y_i(0) \\mid X_i\\big]"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 265,
+      "type": "display",
+      "raw": "\\max_{D_i} \\Big( \\tau_i(D_i) \\cdot (\\text{Cart Value}_i \\times \\text{Gross Margin \\%} - D_i) - \\text{Inference Cost} \\Big)"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 268,
+      "type": "display",
+      "raw": "\\bar{D} = (0.40 \\times 50) + (0.35 \\times 75) + (0.15 \\times 100) + (0.10 \\times 150) = 20 + 26.25 + 15 + 15 = \\text{₹}81.25 \\approx \\text{₹}82"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 273,
+      "type": "display",
+      "raw": "\\text{New Spend} = 2{,}000{,}000 \\text{ persuadables} \\times 0.48 \\text{ redemption} \\times \\text{₹}82 = \\text{₹}7.87\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 277,
+      "type": "display",
+      "raw": "\\text{Gross Savings} = \\text{₹}120.00\\text{ crore} - \\text{₹}16.40\\text{ crore} = \\text{₹}103.60\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 280,
+      "type": "display",
+      "raw": "\\text{Net Profit Improvement} = \\text{₹}103.60\\text{ crore (savings)} - \\text{₹}3.51\\text{ crore (margin drop)} = \\mathbf{+\\text{₹}100.09\\text{ crore}}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 328,
+      "type": "display",
+      "raw": "\\text{Cost per Save}_{\\text{BPO}} = \\frac{\\text{₹}1{,}08{,}00{,}000}{7{,}200} = \\text{₹}1{,}500\\text{ per customer}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 338,
+      "type": "display",
+      "raw": "\\text{Cost per Save}_{\\text{GenAI}} = \\frac{\\text{₹}1{,}80{,}000}{8{,}500} = \\text{₹}21.18\\text{ per customer}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 342,
+      "type": "display",
+      "raw": "\\text{Value per Subscriber} = \\text{₹}850 \\times 12 = \\text{₹}10{,}200\\text{ per year}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 344,
+      "type": "display",
+      "raw": "\\text{Annual Value Saved (per cohort)} = 8{,}500 \\times \\text{₹}10{,}200 = \\text{₹}8.67\\text{ crore in annual revenue}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 395,
+      "type": "display",
+      "raw": "N_{\\text{impressions}} = 20{,}000{,}000 \\times 5 \\times 12 = 1{,}200{,}000{,}000 \\text{ impressions (1.2 billion)}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 401,
+      "type": "display",
+      "raw": "\\text{Cost}_{\\text{naive}} = 1{,}200{,}000{,}000 \\times \\$0.04 = \\$48{,}000{,}000 \\approx \\text{₹}408\\text{ crore}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 407,
+      "type": "display",
+      "raw": "\\text{Cost} = 5{,}000 \\times \\$0.04 = \\$200 \\approx \\text{₹}17{,}000"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 409,
+      "type": "display",
+      "raw": "\\text{Cost} = 200 \\times \\$0.05 = \\$10 \\approx \\text{₹}850"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 411,
+      "type": "display",
+      "raw": "\\text{Cost} = 500 \\times \\$1.20 = \\$600 \\approx \\text{₹}51{,}000"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 415,
+      "type": "display",
+      "raw": "\\text{Cost} = 1.2 \\times \\$0.15 = \\$0.18 \\approx \\text{₹}15"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 419,
+      "type": "display",
+      "raw": "\\text{Cost}_{\\text{edge}} = \\frac{1{,}200{,}000{,}000}{100{,}000} \\times \\text{₹}20 = 12{,}000 \\times \\text{₹}20 = \\text{₹}2{,}40{,}000"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 422,
+      "type": "display",
+      "raw": "\\text{Total Compute Cost} = \\text{₹}17{,}000 + \\text{₹}850 + \\text{₹}51{,}000 + \\text{₹}15 + \\text{₹}2{,}40{,}000 = \\mathbf{\\text{₹}3{,}08{,}865} \\approx \\$3{,}634"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 438,
+      "type": "display",
+      "raw": "\\frac{dR_1(x_1)}{dx_1} = \\frac{dR_2(x_2)}{dx_2} = \\dots = \\frac{dR_m(x_m)}{dx_m} = \\lambda"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 442,
+      "type": "display",
+      "raw": "R_m(x_m) = V_m \\cdot \\frac{x_m^{S_m}}{K_m^{S_m} + x_m^{S_m}}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 502,
+      "type": "display",
+      "raw": "\\text{Cost}_{\\text{physical session}} = \\text{₹}14{,}400 + \\text{₹}22{,}000 + \\text{₹}20{,}000 = \\text{₹}56{,}400"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 504,
+      "type": "display",
+      "raw": "\\text{Total Cost}_{\\text{physical}} = 1{,}000 \\times \\text{₹}56{,}400 = \\mathbf{\\text{₹}5.64\\text{ crore}}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 506,
+      "type": "display",
+      "raw": "\\text{Timeline} = \\frac{1{,}000}{10} = 100\\text{ working days} \\approx 4.5\\text{ to 5 calendar months}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 518,
+      "type": "display",
+      "raw": "\\text{Cost}_{\\text{synthetic session}} = 0.0243 \\times \\$1.50 = \\$0.03645 \\approx \\text{₹}3.06\\text{ per focus group}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 520,
+      "type": "display",
+      "raw": "\\text{Compute Cost} = 1{,}000 \\times \\text{₹}3.06 = \\text{₹}3{,}060"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 523,
+      "type": "display",
+      "raw": "\\text{Total Cost}_{\\text{synthetic}} = \\text{₹}3{,}060 + \\text{₹}2{,}50{,}000 = \\mathbf{\\text{₹}2{,}53{,}060} \\approx \\text{₹}2.53\\text{ lakh}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 553,
+      "type": "display",
+      "raw": "f(t) = 1 + \\frac{\\text{Cumulative Impressions}(t)}{\\text{Addressable Audience Size}}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 558,
+      "type": "display",
+      "raw": "\\text{CTR}(t) = \\text{CTR}_0 \\cdot e^{-\\lambda(f(t) - 1)}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 563,
+      "type": "display",
+      "raw": "\\text{Total Value} = \\text{Bid} \\times \\text{Estimated Action Rate} + \\text{User Value Score}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 565,
+      "type": "display",
+      "raw": "\\text{CPC}(t) = \\frac{\\text{CPM}}{1000 \\cdot \\text{CTR}(t)}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 567,
+      "type": "display",
+      "raw": "\\text{CAC}(t) = \\frac{\\text{CPC}(t)}{\\text{Conversion Rate}} = \\frac{\\text{CPC}(t)}{0.032}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 608,
+      "type": "display",
+      "raw": "\\text{Incremental Revenue} = \\text{₹}22.80\\text{ crore} - \\text{₹}14.85\\text{ crore} = \\mathbf{\\text{₹}7.95\\text{ crore}}"
+    },
+    {
+      "chapter": "marketing-casebook",
+      "line": 611,
+      "type": "display",
+      "raw": "\\text{ROI} = \\frac{\\text{₹}7{,}95{,}00{,}000 - \\text{₹}1{,}80{,}000}{\\text{₹}1{,}80{,}000} \\approx \\mathbf{441\\text{x}}"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 20,
+      "type": "inline",
+      "raw": "X"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 20,
+      "type": "inline",
+      "raw": "C"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 20,
+      "type": "inline",
+      "raw": "P"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 20,
+      "type": "inline",
+      "raw": "Y"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 27,
+      "type": "inline",
+      "raw": "X"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 27,
+      "type": "inline",
+      "raw": "P"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 27,
+      "type": "inline",
+      "raw": "Y"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 83,
+      "type": "inline",
+      "raw": "A"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 83,
+      "type": "inline",
+      "raw": "B"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 83,
+      "type": "inline",
+      "raw": "A"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 87,
+      "type": "inline",
+      "raw": "\\kappa"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 91,
+      "type": "inline",
+      "raw": "P_o"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 91,
+      "type": "inline",
+      "raw": "P_e"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 91,
+      "type": "inline",
+      "raw": "P_o = 0.88"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 91,
+      "type": "inline",
+      "raw": "P_e = 0.50"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 95,
+      "type": "inline",
+      "raw": "\\kappa \\ge 0.80"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 112,
+      "type": "inline",
+      "raw": "A/B"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 112,
+      "type": "inline",
+      "raw": "B/A"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 230,
+      "type": "inline",
+      "raw": "\\Delta \\ge 1.5\\%"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 230,
+      "type": "inline",
+      "raw": "0.1\\%"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 245,
+      "type": "inline",
+      "raw": "A"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 245,
+      "type": "inline",
+      "raw": "B"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 245,
+      "type": "inline",
+      "raw": "A/B"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 245,
+      "type": "inline",
+      "raw": "B/A"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 246,
+      "type": "inline",
+      "raw": "\\ge 1.5\\%"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 253,
+      "type": "inline",
+      "raw": "\\kappa \\ge 0.80"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 89,
+      "type": "display",
+      "raw": "\\kappa = \\frac{P_o - P_e}{1 - P_e}"
+    },
+    {
+      "chapter": "ai-product-lifecycle",
+      "line": 93,
+      "type": "display",
+      "raw": "\\kappa = \\frac{0.88 - 0.50}{1.00 - 0.50} = \\frac{0.38}{0.50} = 0.76"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 10,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 10,
+      "type": "inline",
+      "raw": "TPS"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 11,
+      "type": "inline",
+      "raw": "Q^*"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 43,
+      "type": "inline",
+      "raw": "T_{\\text{network}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 44,
+      "type": "inline",
+      "raw": "T_{\\text{queue}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 45,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 46,
+      "type": "inline",
+      "raw": "N_{\\text{output}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 47,
+      "type": "inline",
+      "raw": "TPS"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 49,
+      "type": "inline",
+      "raw": "\\ge 40\\text{ TPS}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 54,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 54,
+      "type": "inline",
+      "raw": "N_{\\text{output}} / TPS"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 71,
+      "type": "inline",
+      "raw": "N"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 71,
+      "type": "inline",
+      "raw": "O(N^2)"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 86,
+      "type": "inline",
+      "raw": "C_{\\text{write}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 86,
+      "type": "inline",
+      "raw": "1.25\\times"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 87,
+      "type": "inline",
+      "raw": "C_{\\text{read}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 87,
+      "type": "inline",
+      "raw": "0.10\\times\\text{--}0.20\\times"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 88,
+      "type": "inline",
+      "raw": "C_{\\text{uncached}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 88,
+      "type": "inline",
+      "raw": "1.00\\times"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 90,
+      "type": "inline",
+      "raw": "Q^*"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 90,
+      "type": "inline",
+      "raw": "Q"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 94,
+      "type": "inline",
+      "raw": "Q^*"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 104,
+      "type": "inline",
+      "raw": "\\lceil 1.28 \\rceil = 2"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 144,
+      "type": "inline",
+      "raw": "p95 \\le 45\\text{ms}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 145,
+      "type": "inline",
+      "raw": "\\theta"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 145,
+      "type": "inline",
+      "raw": "\\theta \\ge 0.88"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 145,
+      "type": "inline",
+      "raw": "p95 \\le 240\\text{ms}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 146,
+      "type": "inline",
+      "raw": "\\theta < 0.88"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 146,
+      "type": "inline",
+      "raw": "p95 \\approx 1{,}850\\text{ms}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 178,
+      "type": "inline",
+      "raw": "\\approx \\text{₹}15\\text{ lakh/month}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 184,
+      "type": "inline",
+      "raw": "V^*"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 196,
+      "type": "inline",
+      "raw": "p95 = 5.4\\text{ seconds}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 200,
+      "type": "inline",
+      "raw": "p95 = 45\\text{ms}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 201,
+      "type": "inline",
+      "raw": "\\theta \\ge 0.88"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 201,
+      "type": "inline",
+      "raw": "p95 = 240\\text{ms}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 202,
+      "type": "inline",
+      "raw": "\\theta < 0.88"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 202,
+      "type": "inline",
+      "raw": "p95 = 1{,}850\\text{ms}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 206,
+      "type": "inline",
+      "raw": "10{,}000{,}000 \\times \\text{₹}8.50 = \\mathbf{\\text{₹}8.500\\text{ crore/month}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 210,
+      "type": "inline",
+      "raw": "\\text{₹}8.500\\text{ Cr} - \\text{₹}1.4554\\text{ Cr} = \\mathbf{\\text{₹}7.0446\\text{ crore/month}}\\quad (\\mathbf{82.9\\%\\text{ reduction}})"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 233,
+      "type": "inline",
+      "raw": "p95"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 237,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 237,
+      "type": "inline",
+      "raw": "TPS"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 240,
+      "type": "inline",
+      "raw": "\\ge 40\\text{ TPS}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 245,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 247,
+      "type": "inline",
+      "raw": "100 + 150 + 50 + 400 + 100 = \\mathbf{800\\text{ms}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 248,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 249,
+      "type": "inline",
+      "raw": "< 150\\text{ms}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 283,
+      "type": "inline",
+      "raw": "Q^*"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 284,
+      "type": "inline",
+      "raw": "TPS"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 284,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 285,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 291,
+      "type": "inline",
+      "raw": "Q^* = \\frac{C_{\\text{write}} - C_{\\text{read}}}{C_{\\text{uncached}} - C_{\\text{read}}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 291,
+      "type": "inline",
+      "raw": "Q^* = \\frac{3.75 - 0.30}{3.00 - 0.30} = \\frac{3.45}{2.70} \\approx 1.28"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 292,
+      "type": "inline",
+      "raw": "\\approx 8\\text{ tokens/sec}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 292,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 294,
+      "type": "inline",
+      "raw": "V^*"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 298,
+      "type": "inline",
+      "raw": "\\ge 40\\text{ TPS}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 299,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 300,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 40,
+      "type": "display",
+      "raw": "\\text{Latency}_{\\text{total}} = T_{\\text{network}} + T_{\\text{queue}} + TTFT + \\frac{N_{\\text{output}}}{TPS}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 92,
+      "type": "display",
+      "raw": "C_{\\text{write}} + (Q - 1) \\cdot C_{\\text{read}} = Q \\cdot C_{\\text{uncached}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 96,
+      "type": "display",
+      "raw": "C_{\\text{write}} - C_{\\text{read}} = Q \\cdot (C_{\\text{uncached}} - C_{\\text{read}})"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 98,
+      "type": "display",
+      "raw": "Q^* = \\frac{C_{\\text{write}} - C_{\\text{read}}}{C_{\\text{uncached}} - C_{\\text{read}}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 102,
+      "type": "display",
+      "raw": "Q^* = \\frac{3.75 - 0.30}{3.00 - 0.30} = \\frac{3.45}{2.70} \\approx 1.28"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 182,
+      "type": "display",
+      "raw": "\\text{Spend}_{\\text{API}} = \\sum (\\text{Input Tokens} \\times P_{\\text{in}}) + \\sum (\\text{Output Tokens} \\times P_{\\text{out}})"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 186,
+      "type": "display",
+      "raw": "V^* = \\frac{\\text{Fixed Monthly Compute \\& Headcount Overhead}}{C_{\\text{commercial API}} - C_{\\text{self-hosted compute}}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 208,
+      "type": "display",
+      "raw": "\\text{Spend} = (4.2\\text{M} \\times \\text{₹}0.002) + (4.3\\text{M} \\times \\text{₹}0.040) + (1.5\\text{M} \\times \\text{₹}0.850)"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 209,
+      "type": "display",
+      "raw": "\\text{Spend} = \\text{₹}0.0084\\text{ Cr} + \\text{₹}0.1720\\text{ Cr} + \\text{₹}1.2750\\text{ Cr} = \\mathbf{\\text{₹}1.4554\\text{ crore/month}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 212,
+      "type": "display",
+      "raw": "\\text{Latency}_{\\text{avg}} = (0.42 \\times 45) + (0.43 \\times 240) + (0.15 \\times 1{,}850) = 18.9 + 103.2 + 277.5 = \\mathbf{399.6\\text{ms}}"
+    },
+    {
+      "chapter": "product-architecture-economics",
+      "line": 267,
+      "type": "display",
+      "raw": "\\text{Cost} = (400{,}000 \\times \\$0.0001) + (450{,}000 \\times \\$0.0020) + (150{,}000 \\times \\$0.0300) = \\$40 + \\$900 + \\$4{,}500 = \\mathbf{\\$5{,}440}"
+    },
+    {
+      "chapter": "agentic-ux-and-interfaces",
+      "line": 121,
+      "type": "inline",
+      "raw": "\\to"
+    },
+    {
+      "chapter": "agentic-ux-and-interfaces",
+      "line": 121,
+      "type": "inline",
+      "raw": "\\to"
+    },
+    {
+      "chapter": "agentic-ux-and-interfaces",
+      "line": 121,
+      "type": "inline",
+      "raw": "\\to"
+    },
+    {
+      "chapter": "agentic-ux-and-interfaces",
+      "line": 208,
+      "type": "inline",
+      "raw": "(90\\text{s} - 3\\text{s}) \\times 10{,}000 = 870{,}000\\text{ seconds} \\approx \\mathbf{241.7\\text{ hours monthly}}"
+    },
+    {
+      "chapter": "agentic-ux-and-interfaces",
+      "line": 209,
+      "type": "inline",
+      "raw": "\\ge 95\\%"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 26,
+      "type": "inline",
+      "raw": "Q^*"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 53,
+      "type": "inline",
+      "raw": "AOV"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 54,
+      "type": "inline",
+      "raw": "LTV"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 61,
+      "type": "inline",
+      "raw": "C_{\\text{infer}} = \\text{₹}0.40"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 61,
+      "type": "inline",
+      "raw": "800\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 62,
+      "type": "inline",
+      "raw": "s \\in [0, 1]"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 64,
+      "type": "inline",
+      "raw": "s < \\theta_L"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 65,
+      "type": "inline",
+      "raw": "\\theta_L \\le s < \\theta_H"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 66,
+      "type": "inline",
+      "raw": "s \\ge \\theta_H"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 69,
+      "type": "inline",
+      "raw": "N = 48{,}000"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 69,
+      "type": "inline",
+      "raw": "C_{\\text{infer}} = \\text{₹}0.40"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 69,
+      "type": "inline",
+      "raw": "C_{\\text{review}} = \\text{₹}24.00"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 69,
+      "type": "inline",
+      "raw": "C_{\\text{churn}} = \\text{₹}18{,}000 \\times 0.08 = \\text{₹}1{,}440"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 70,
+      "type": "inline",
+      "raw": "\\theta_L = 0.15, \\theta_H = 0.72"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 71,
+      "type": "inline",
+      "raw": "s < 0.15"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 71,
+      "type": "inline",
+      "raw": "35{,}520 \\times 0.006 \\times \\text{₹}220 = \\text{₹}46{,}886"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 72,
+      "type": "inline",
+      "raw": "0.15 \\le s < 0.72"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 72,
+      "type": "inline",
+      "raw": "10{,}080 \\times \\text{₹}24 = \\text{₹}2{,}41{,}920"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 73,
+      "type": "inline",
+      "raw": "s \\ge 0.72"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 76,
+      "type": "inline",
+      "raw": "48{,}000 \\times \\text{₹}24 = \\text{₹}11{,}52{,}000\\text{/day}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 82,
+      "type": "inline",
+      "raw": "\\text{₹}11{,}52{,}000 - \\text{₹}3{,}08{,}006 = \\mathbf{\\text{₹}8{,}43{,}994\\text{/day}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 82,
+      "type": "inline",
+      "raw": "\\mathbf{\\text{₹}30.8\\text{ crore/year}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 84,
+      "type": "inline",
+      "raw": "\\mathbf{\\text{₹}54.1\\text{ crore/year}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 93,
+      "type": "inline",
+      "raw": "10\\text{M} \\times \\text{₹}0.850\\text{/query}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 101,
+      "type": "inline",
+      "raw": "p95 = 45\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 105,
+      "type": "inline",
+      "raw": "p \\ge 0.88"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 107,
+      "type": "inline",
+      "raw": "p95 = 240\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 111,
+      "type": "inline",
+      "raw": "p95 = 1{,}850\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 114,
+      "type": "inline",
+      "raw": "10{,}000{,}000 \\times \\text{₹}0.850 = \\mathbf{\\text{₹}8.500\\text{ crore/month}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 120,
+      "type": "inline",
+      "raw": "\\text{₹}8.500\\text{ Cr} - \\text{₹}1.4554\\text{ Cr} = \\mathbf{\\text{₹}7.0446\\text{ crore/month}}\\quad (\\mathbf{82.9\\%\\text{ reduction}})"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 131,
+      "type": "inline",
+      "raw": "k=5"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 138,
+      "type": "inline",
+      "raw": "\\times 500 = 2{,}500"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 150,
+      "type": "inline",
+      "raw": "Q^*"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 161,
+      "type": "inline",
+      "raw": "C_{\\text{FP}} = 0.45 \\times \\text{₹}1{,}80{,}000 = \\text{₹}81{,}000"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 162,
+      "type": "inline",
+      "raw": "C_{\\text{FN}} = \\text{₹}180"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 163,
+      "type": "inline",
+      "raw": "\\frac{C_{\\text{FP}}}{C_{\\text{FN}}} = \\frac{\\text{₹}81{,}000}{\\text{₹}180} = \\mathbf{450:1}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 166,
+      "type": "inline",
+      "raw": "p \\in [0, 1]"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 166,
+      "type": "inline",
+      "raw": "1 - \\pi = 0.03"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 167,
+      "type": "inline",
+      "raw": "\\theta^*"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 174,
+      "type": "inline",
+      "raw": "< \\text{₹}10{,}000"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 174,
+      "type": "inline",
+      "raw": "\\theta_1 = 0.75"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 175,
+      "type": "inline",
+      "raw": "\\text{₹}10{,}000\\text{--}\\text{₹}2{,}00{,}000"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 175,
+      "type": "inline",
+      "raw": "\\theta_2 = 0.933"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 176,
+      "type": "inline",
+      "raw": "> \\text{₹}2{,}00{,}000"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 176,
+      "type": "inline",
+      "raw": "\\theta_3 = 1.000"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 185,
+      "type": "inline",
+      "raw": "\\to"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 185,
+      "type": "inline",
+      "raw": "\\to"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 185,
+      "type": "inline",
+      "raw": "\\to"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 189,
+      "type": "inline",
+      "raw": "T_{\\text{net}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 189,
+      "type": "inline",
+      "raw": "120\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 190,
+      "type": "inline",
+      "raw": "650\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 191,
+      "type": "inline",
+      "raw": "T_{\\text{data}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 191,
+      "type": "inline",
+      "raw": "450\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 193,
+      "type": "inline",
+      "raw": "2 \\times 1{,}400\\text{ms} = 2{,}800\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 194,
+      "type": "inline",
+      "raw": "2 \\times \\frac{300}{50} = 12{,}000\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 195,
+      "type": "inline",
+      "raw": "\\frac{200}{50} = 4{,}000\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 200,
+      "type": "inline",
+      "raw": "150\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 201,
+      "type": "inline",
+      "raw": "280\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 202,
+      "type": "inline",
+      "raw": "160\\text{ TPS}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 203,
+      "type": "inline",
+      "raw": "200\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 205,
+      "type": "inline",
+      "raw": "TTFT"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 205,
+      "type": "inline",
+      "raw": "120\\text{ms} + 150\\text{ms} + 280\\text{ms} = \\mathbf{550\\text{ ms}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 205,
+      "type": "inline",
+      "raw": "\\le 1.0\\text{s}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 206,
+      "type": "inline",
+      "raw": "\\frac{200}{160} = 1{,}250\\text{ms}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 207,
+      "type": "inline",
+      "raw": "\\mathbf{1{,}800\\text{ ms}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 212,
+      "type": "inline",
+      "raw": "\\alpha = 0.05"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 212,
+      "type": "inline",
+      "raw": "\\beta = 0.20"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 217,
+      "type": "inline",
+      "raw": "p_1 = 0.980"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 217,
+      "type": "inline",
+      "raw": "p_2 = 0.965"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 217,
+      "type": "inline",
+      "raw": "\\Delta = 0.015"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 217,
+      "type": "inline",
+      "raw": "\\bar{p} = 0.9725"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 218,
+      "type": "inline",
+      "raw": "z_{\\alpha/2} = 1.96"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 218,
+      "type": "inline",
+      "raw": "\\alpha = 0.05"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 218,
+      "type": "inline",
+      "raw": "z_\\beta = 0.84"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 225,
+      "type": "inline",
+      "raw": "n=50"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 225,
+      "type": "inline",
+      "raw": "[89.5\\%, 99.6\\%]"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 240,
+      "type": "inline",
+      "raw": "\\implies \\text{₹}29.17"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 241,
+      "type": "inline",
+      "raw": "2.2 \\times \\text{₹}29.17 = \\mathbf{\\text{₹}64.17\\text{ per verified record}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 242,
+      "type": "inline",
+      "raw": "50{,}000 \\times \\text{₹}64.17 = \\mathbf{\\text{₹}32{,}08{,}500}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 245,
+      "type": "inline",
+      "raw": "1{,}200"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 247,
+      "type": "inline",
+      "raw": "N_{\\text{raw}} = \\frac{50{,}000}{0.65} = 76{,}923"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 247,
+      "type": "inline",
+      "raw": "\\implies 76{,}923 \\times (\\text{₹}0.82 + \\text{₹}0.15) = \\mathbf{\\text{₹}7{,}46{,}153}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 248,
+      "type": "inline",
+      "raw": "\\mathbf{\\text{₹}1{,}60{,}425}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 249,
+      "type": "inline",
+      "raw": "\\text{₹}7{,}46{,}153 + \\text{₹}1{,}60{,}425 = \\mathbf{\\text{₹}9{,}06{,}578}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 250,
+      "type": "inline",
+      "raw": "\\text{₹}32.09\\text{L} - \\text{₹}9.07\\text{L} = \\mathbf{\\text{₹}23.02\\text{ lakh}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 257,
+      "type": "inline",
+      "raw": "V^*"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 264,
+      "type": "inline",
+      "raw": "\\approx \\text{₹}57{,}375\\text{/month}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 270,
+      "type": "inline",
+      "raw": "\\approx \\text{₹}7{,}69{,}250\\text{/month}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 271,
+      "type": "inline",
+      "raw": "V^*"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 285,
+      "type": "inline",
+      "raw": "V^*"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 338,
+      "type": "inline",
+      "raw": "n=50"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 345,
+      "type": "inline",
+      "raw": "s < \\theta_L"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 346,
+      "type": "inline",
+      "raw": "[89.5\\%, 99.6\\%]"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 346,
+      "type": "inline",
+      "raw": "n=1{,}863"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 348,
+      "type": "inline",
+      "raw": "\\theta^*"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 348,
+      "type": "inline",
+      "raw": "\\theta^* = \\frac{C_{\\text{FP}}(1 - \\pi)}{C_{\\text{FP}}(1 - \\pi) + C_{\\text{FN}}\\pi}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 348,
+      "type": "inline",
+      "raw": "C_{\\text{FP}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 348,
+      "type": "inline",
+      "raw": "C_{\\text{FN}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 348,
+      "type": "inline",
+      "raw": "\\theta^*"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 348,
+      "type": "inline",
+      "raw": "\\ge 0.88"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 349,
+      "type": "inline",
+      "raw": "V^* \\approx 670{,}370"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 68,
+      "type": "display",
+      "raw": "\\text{Total Daily Cost} = N \\cdot \\left[ C_{\\text{infer}} + P(s < \\theta_L) \\cdot C_{\\text{fraud\\_leak}} + P(\\theta_L \\le s < \\theta_H) \\cdot C_{\\text{review}} + P(s \\ge \\theta_L \\mid \\text{Honest}) \\cdot C_{\\text{churn}} \\right]"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 78,
+      "type": "display",
+      "raw": "\\text{Spend}_{\\text{infer}} = 48{,}000 \\times \\text{₹}0.40 = \\text{₹}19{,}200"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 79,
+      "type": "display",
+      "raw": "\\text{Spend}_{\\text{human}} = 10{,}080 \\times \\text{₹}24.00 = \\text{₹}2{,}41{,}920"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 80,
+      "type": "display",
+      "raw": "\\text{Spend}_{\\text{fraud\\_leak}} = \\text{₹}46{,}886"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 81,
+      "type": "display",
+      "raw": "\\text{Total Daily Spend} = \\text{₹}19{,}200 + \\text{₹}2{,}41{,}920 + \\text{₹}46{,}886 = \\mathbf{\\text{₹}3{,}08{,}006\\text{/day}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 116,
+      "type": "display",
+      "raw": "\\text{Spend}_{\\text{Tier1}} = 4{,}200{,}000 \\times \\text{₹}0.002 = \\text{₹}0.0084\\text{ Cr}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 117,
+      "type": "display",
+      "raw": "\\text{Spend}_{\\text{Tier2}} = 4{,}300{,}000 \\times \\text{₹}0.040 = \\text{₹}0.1720\\text{ Cr}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 118,
+      "type": "display",
+      "raw": "\\text{Spend}_{\\text{Tier3}} = 1{,}500{,}000 \\times \\text{₹}0.850 = \\text{₹}1.2750\\text{ Cr}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 119,
+      "type": "display",
+      "raw": "\\text{Total Spend} = \\text{₹}0.0084 + \\text{₹}0.1720 + \\text{₹}1.2750 = \\mathbf{\\text{₹}1.4554\\text{ crore/month}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 122,
+      "type": "display",
+      "raw": "\\bar{L} = (0.42 \\times 45) + (0.43 \\times 240) + (0.15 \\times 1{,}850) = 18.9 + 103.2 + 277.5 = \\mathbf{399.6\\text{ ms}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 151,
+      "type": "display",
+      "raw": "\\text{Cost}_{\\text{Cache}}(Q) \\le \\text{Cost}_{\\text{RAG}}(Q)"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 152,
+      "type": "display",
+      "raw": "\\$0.450 + Q \\times \\$0.2450 \\le Q \\times \\$3.5185 \\implies Q \\ge \\frac{0.450}{3.5185 - 0.2450} = \\frac{0.450}{3.2735} \\approx \\mathbf{0.14\\text{ queries}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 168,
+      "type": "display",
+      "raw": "\\theta^* = \\frac{C_{\\text{FP}} \\cdot (1 - \\pi)}{C_{\\text{FP}} \\cdot (1 - \\pi) + C_{\\text{FN}} \\cdot \\pi} = \\frac{81{,}000 \\times 0.03}{(81{,}000 \\times 0.03) + (180 \\times 0.97)} = \\frac{2{,}430}{2{,}430 + 174.6} = \\mathbf{0.933}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 197,
+      "type": "display",
+      "raw": "T_{\\text{total}} = 120 + 650 + 450 + 2{,}800 + 12{,}000 + 4{,}000 = \\mathbf{20{,}020\\text{ ms}}\\quad (\\mathbf{20.02\\text{ seconds}})"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 216,
+      "type": "display",
+      "raw": "n = \\frac{\\left(z_{\\alpha/2}\\sqrt{2\\bar{p}(1-\\bar{p})} + z_\\beta\\sqrt{p_1(1-p_1) + p_2(1-p_2)}\\right)^2}{(p_1 - p_2)^2}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 220,
+      "type": "display",
+      "raw": "\\bar{p}(1-\\bar{p}) = 0.9725 \\times 0.0275 = 0.026744 \\implies \\sqrt{2 \\times 0.026744} = 0.23127"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 221,
+      "type": "display",
+      "raw": "\\sqrt{p_1(1-p_1) + p_2(1-p_2)} = \\sqrt{(0.98 \\times 0.02) + (0.965 \\times 0.035)} = \\sqrt{0.053375} = 0.23103"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 222,
+      "type": "display",
+      "raw": "\\text{Numerator} = (1.96 \\times 0.23127 + 0.84 \\times 0.23103)^2 = (0.45329 + 0.19407)^2 = (0.64736)^2 \\approx 0.41908"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 223,
+      "type": "display",
+      "raw": "\\text{Denominator} = (0.015)^2 = 0.000225"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 224,
+      "type": "display",
+      "raw": "n = \\frac{0.41908}{0.000225} \\approx \\mathbf{1{,}863\\text{ test cases}}"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 263,
+      "type": "display",
+      "raw": "c_{\\text{API}} = \\left(\\frac{2{,}500}{1\\text{M}} \\times \\$3.00\\right) + \\left(\\frac{400}{1\\text{M}} \\times \\$15.00\\right) = \\$0.0075 + \\$0.0060 = \\mathbf{\\$0.0135\\text{ per record}}\\quad (\\approx \\text{₹}1.15)"
+    },
+    {
+      "chapter": "product-casebook",
+      "line": 272,
+      "type": "display",
+      "raw": "V^* \\times c_{\\text{API}} = F_{\\text{self}} \\implies V^* = \\frac{F_{\\text{self}}}{c_{\\text{API}}} = \\frac{\\$9{,}050}{\\$0.0135} \\approx \\mathbf{670{,}370\\text{ records/month}}"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 11,
+      "type": "inline",
+      "raw": "ECL"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 11,
+      "type": "inline",
+      "raw": "PD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 11,
+      "type": "inline",
+      "raw": "LGD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 11,
+      "type": "inline",
+      "raw": "EAD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 33,
+      "type": "inline",
+      "raw": "EAD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 33,
+      "type": "inline",
+      "raw": "3.5\\%"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 33,
+      "type": "inline",
+      "raw": "PD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 33,
+      "type": "inline",
+      "raw": "40\\%"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 33,
+      "type": "inline",
+      "raw": "LGD = 60\\%"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 41,
+      "type": "inline",
+      "raw": "ECL = EAD \\times PD_{12\\text{m}} \\times LGD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 42,
+      "type": "inline",
+      "raw": "ECL = \\sum_{t=1}^{T} \\frac{EAD_t \\times PD_t \\times LGD_t}{(1 + r)^t}"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 42,
+      "type": "inline",
+      "raw": "3\\times\\text{--}8\\times"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 43,
+      "type": "inline",
+      "raw": ">90"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 48,
+      "type": "inline",
+      "raw": "2\\%\\text{--}4\\%"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 48,
+      "type": "inline",
+      "raw": "100\\%"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 67,
+      "type": "inline",
+      "raw": "i"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 71,
+      "type": "inline",
+      "raw": "\\text{WoE}_i"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 71,
+      "type": "inline",
+      "raw": "IV"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 76,
+      "type": "inline",
+      "raw": "IV < 0.02"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 77,
+      "type": "inline",
+      "raw": "0.02 \\le IV < 0.10"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 78,
+      "type": "inline",
+      "raw": "0.10 \\le IV < 0.30"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 79,
+      "type": "inline",
+      "raw": "0.30 \\le IV \\le 0.50"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 80,
+      "type": "inline",
+      "raw": "IV > 0.50"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 97,
+      "type": "inline",
+      "raw": "0.72\\text{--}0.78"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 97,
+      "type": "inline",
+      "raw": "0.79\\text{--}0.86"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 97,
+      "type": "inline",
+      "raw": "+4\\text{ to }+8"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 97,
+      "type": "inline",
+      "raw": "0.68\\text{--}0.74"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 97,
+      "type": "inline",
+      "raw": ">0.92"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 113,
+      "type": "inline",
+      "raw": "82\\%"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 113,
+      "type": "inline",
+      "raw": "58\\%"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 117,
+      "type": "inline",
+      "raw": "f(x)"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 117,
+      "type": "inline",
+      "raw": "\\phi_i(x)"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 117,
+      "type": "inline",
+      "raw": "i"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 117,
+      "type": "inline",
+      "raw": "S"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 121,
+      "type": "inline",
+      "raw": "F"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 122,
+      "type": "inline",
+      "raw": "\\sum_{i} \\phi_i(x) = f(x) - E[f(x)]"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 124,
+      "type": "inline",
+      "raw": "\\phi_i = 0"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 157,
+      "type": "inline",
+      "raw": "PD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 157,
+      "type": "inline",
+      "raw": "LGD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 157,
+      "type": "inline",
+      "raw": "EAD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 177,
+      "type": "inline",
+      "raw": "LGD = 50\\%"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 192,
+      "type": "inline",
+      "raw": "3.80\\%"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 264,
+      "type": "inline",
+      "raw": "EAD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 264,
+      "type": "inline",
+      "raw": "PD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 264,
+      "type": "inline",
+      "raw": "LGD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 265,
+      "type": "inline",
+      "raw": "EAD = \\text{₹}40{,}00{,}000"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 265,
+      "type": "inline",
+      "raw": "PD = 4.0\\% = 0.04"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 265,
+      "type": "inline",
+      "raw": "= 35\\%"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 265,
+      "type": "inline",
+      "raw": "LGD = 1 - 0.35 = 0.65"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 265,
+      "type": "inline",
+      "raw": "65\\%"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 265,
+      "type": "inline",
+      "raw": "ECL = \\text{₹}40{,}00{,}000 \\times 0.04 \\times 0.65 = \\mathbf{\\text{₹}1{,}04{,}000}"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 273,
+      "type": "inline",
+      "raw": "EAD \\times PD \\times LGD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 27,
+      "type": "display",
+      "raw": "LGD = 1 - \\text{Recovery Rate}"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 31,
+      "type": "display",
+      "raw": "ECL = EAD \\times PD \\times LGD"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 35,
+      "type": "display",
+      "raw": "ECL = \\text{₹}10{,}00,000 \\times 0.035 \\times 0.60 = \\mathbf{\\text{₹}21{,}000}"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 69,
+      "type": "display",
+      "raw": "\\text{WoE}_i = \\ln \\left( \\frac{\\% \\text{ Non-Defaults}_i}{\\% \\text{ Defaults}_i} \\right) = \\ln \\left( \\frac{\\text{Good}_i / \\text{Good}_{\\text{total}}}{\\text{Bad}_i / \\text{Bad}_{\\text{total}}} \\right)"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 73,
+      "type": "display",
+      "raw": "IV = \\sum_{i=1}^{m} \\left( \\frac{\\text{Good}_i}{\\text{Good}_{\\text{total}}} - \\frac{\\text{Bad}_i}{\\text{Bad}_{\\text{total}}} \\right) \\times \\text{WoE}_i"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 84,
+      "type": "display",
+      "raw": "\\ln\\left(\\frac{PD}{1 - PD}\\right) = \\beta_0 + \\sum_{j=1}^{k} \\beta_j \\cdot \\text{WoE}_{j}(x)"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 119,
+      "type": "display",
+      "raw": "\\phi_i(x) = \\sum_{S \\subseteq F \\setminus \\{i\\}} \\frac{|S|!(|F| - |S| - 1)!}{|F|!} \\left[ f(S \\cup \\{i\\}) - f(S) \\right]"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 179,
+      "type": "display",
+      "raw": "\\text{Annual Credit Loss} = \\text{₹}12{,}000\\text{ Cr} \\times 0.038 \\times 0.50 = \\mathbf{\\text{₹}228.00\\text{ crore/year}}"
+    },
+    {
+      "chapter": "algorithmic-underwriting-and-credit-risk",
+      "line": 194,
+      "type": "display",
+      "raw": "\\Delta \\text{Credit Loss} = \\text{₹}12{,}000\\text{ Cr} \\times 0.0065 \\times 0.50 = \\mathbf{\\text{₹}39.00\\text{ crore/year}}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 43,
+      "type": "inline",
+      "raw": "10.0\\times"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 52,
+      "type": "inline",
+      "raw": "M_{\\text{EV/EBITDA}}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 91,
+      "type": "inline",
+      "raw": "i"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 91,
+      "type": "inline",
+      "raw": "j"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 128,
+      "type": "inline",
+      "raw": "\\text{EBIT}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 129,
+      "type": "inline",
+      "raw": "t"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 130,
+      "type": "inline",
+      "raw": "D\\&A"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 131,
+      "type": "inline",
+      "raw": "\\text{CapEx}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 132,
+      "type": "inline",
+      "raw": "\\Delta NWC"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 132,
+      "type": "inline",
+      "raw": "\\text{Current Assets excluding cash} - \\text{Current Liabilities excluding short-term debt}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 134,
+      "type": "inline",
+      "raw": "EV"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 134,
+      "type": "inline",
+      "raw": "WACC"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 138,
+      "type": "inline",
+      "raw": "WACC"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 138,
+      "type": "inline",
+      "raw": "r_e"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 138,
+      "type": "inline",
+      "raw": "r_d"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 249,
+      "type": "inline",
+      "raw": "1.35\\times"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 250,
+      "type": "inline",
+      "raw": "3.50\\times"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 251,
+      "type": "inline",
+      "raw": "3.00\\times"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 293,
+      "type": "inline",
+      "raw": "\\Delta \\text{Debt}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 326,
+      "type": "inline",
+      "raw": "[x_0, y_0, x_1, y_1]"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 327,
+      "type": "inline",
+      "raw": "Assets - Liabilities - Equity \\neq 0"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 366,
+      "type": "inline",
+      "raw": "9.5\\times"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 366,
+      "type": "inline",
+      "raw": "\\Delta EV"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 374,
+      "type": "inline",
+      "raw": "\\Delta EV = \\Delta \\text{EBITDA}_{\\text{adj}} \\times M_{\\text{EV/EBITDA}}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 374,
+      "type": "inline",
+      "raw": "\\Delta EV = \\text{₹}40\\text{ crore} \\times 9.5 = \\mathbf{\\text{₹}380\\text{ crore}}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 25,
+      "type": "display",
+      "raw": "P(w_t \\mid w_1, w_2, \\dots, w_{t-1}) = \\text{softmax}(z_t)"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 29,
+      "type": "display",
+      "raw": "\\text{Assets} \\equiv \\text{Liabilities} + \\text{Shareholders' Equity}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 31,
+      "type": "display",
+      "raw": "\\Delta \\text{Cash} \\equiv \\text{Cash Flow from Operations} + \\text{Cash Flow from Investing} + \\text{Cash Flow from Financing}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 37,
+      "type": "display",
+      "raw": "EV = \\text{EBITDA}_{\\text{normalized}} \\times M_{\\text{EV/EBITDA}}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 41,
+      "type": "display",
+      "raw": "\\Delta EV = \\Delta \\text{EBITDA}_{\\text{adj}} \\times M_{\\text{EV/EBITDA}}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 45,
+      "type": "display",
+      "raw": "\\Delta EV = \\text{₹}50\\text{ crore} \\times 10.0 = \\mathbf{\\text{₹}500\\text{ crore}}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 89,
+      "type": "display",
+      "raw": "\\mathbf{b}_i = [x_{0,i}, y_{0,i}, x_{1,i}, y_{1,i}]"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 93,
+      "type": "display",
+      "raw": "A_{ij} = \\text{Attention}_{\\text{text}}(\\mathbf{t}_i, \\mathbf{t}_j) + \\text{Attention}_{\\text{spatial}}(\\mathbf{b}_i, \\mathbf{b}_j)"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 125,
+      "type": "display",
+      "raw": "FCFF = \\text{EBIT} \\times (1 - t) + D\\&A - \\text{CapEx} - \\Delta NWC"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 136,
+      "type": "display",
+      "raw": "EV = \\sum_{t=1}^{T} \\frac{FCFF_t}{(1 + WACC)^t} + \\frac{FCFF_{T+1}}{(WACC - g)(1 + WACC)^T}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 140,
+      "type": "display",
+      "raw": "WACC = \\left( \\frac{E}{V} \\times r_e \\right) + \\left( \\frac{D}{V} \\times r_d \\times (1 - t) \\right)"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 144,
+      "type": "display",
+      "raw": "MoIC = \\frac{\\text{Exit Equity Value}}{\\text{Entry Equity Value}},\\quad IRR = (MoIC)^{1/n} - 1"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 255,
+      "type": "display",
+      "raw": "DSCR = \\frac{\\text{Net Operating Income}}{\\text{Total Debt Service}} = \\frac{\\text{EBITDA} - \\text{CapEx}}{\\text{Principal Repayments} + \\text{Interest Expenses}}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 290,
+      "type": "display",
+      "raw": "\\text{Reported EBITDA} = \\text{₹}220\\text{ crore},\\quad \\text{Agreed EV Multiple} = 10.5\\times"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 291,
+      "type": "display",
+      "raw": "\\text{Initial Gross Enterprise Value} = \\text{₹}220\\text{ Cr} \\times 10.5 = \\mathbf{\\text{₹}2{,}310\\text{ crore}}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 294,
+      "type": "display",
+      "raw": "\\Delta \\text{Purchase Price} = -\\text{₹}74\\text{ crore}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 297,
+      "type": "display",
+      "raw": "\\text{IRR}_{\\text{unadjusted}} = 19.8\\%,\\quad \\text{IRR}_{\\text{renegotiated}} = \\mathbf{24.2\\%}"
+    },
+    {
+      "chapter": "financial-copilots-and-deal-diligence",
+      "line": 354,
+      "type": "display",
+      "raw": "\\text{EBITDA}_{\\text{audited}} = \\text{Operating Profit} + D\\&A + \\text{Valid Non-Recurring Items}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 34,
+      "type": "inline",
+      "raw": "0.01\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 35,
+      "type": "inline",
+      "raw": "99\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 35,
+      "type": "inline",
+      "raw": "99\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 47,
+      "type": "inline",
+      "raw": "F"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 47,
+      "type": "inline",
+      "raw": "\\neg F"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 47,
+      "type": "inline",
+      "raw": "\\text{Alert}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 49,
+      "type": "inline",
+      "raw": "P(F \\mid \\text{Alert})"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 54,
+      "type": "inline",
+      "raw": "P(\\text{Alert} \\mid F) = 0.99"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 54,
+      "type": "inline",
+      "raw": "99\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 55,
+      "type": "inline",
+      "raw": "1 - \\text{Specificity}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 55,
+      "type": "inline",
+      "raw": "P(\\text{Alert} \\mid \\neg F) = 0.01"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 55,
+      "type": "inline",
+      "raw": "1\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 57,
+      "type": "inline",
+      "raw": "\\pi = P(F)"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 57,
+      "type": "inline",
+      "raw": "\\pi = 0.0001"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 57,
+      "type": "inline",
+      "raw": "0.01\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 57,
+      "type": "inline",
+      "raw": "P(\\neg F) = 0.9999"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 57,
+      "type": "inline",
+      "raw": "99.99\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 67,
+      "type": "inline",
+      "raw": "N = 40{,}000{,}000"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 71,
+      "type": "inline",
+      "raw": "\\pi = 0.01\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 72,
+      "type": "inline",
+      "raw": "99.99\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 86,
+      "type": "inline",
+      "raw": "AUC"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 93,
+      "type": "inline",
+      "raw": "C_{\\text{FP}}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 93,
+      "type": "inline",
+      "raw": "C_{\\text{FN}}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 93,
+      "type": "inline",
+      "raw": "\\theta"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 93,
+      "type": "inline",
+      "raw": "\\theta^*"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 97,
+      "type": "inline",
+      "raw": "C_{\\text{FN}}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 97,
+      "type": "inline",
+      "raw": "C_{\\text{FP}}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 134,
+      "type": "inline",
+      "raw": "G = (V, E, \\mathcal{T})"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 134,
+      "type": "inline",
+      "raw": "V"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 134,
+      "type": "inline",
+      "raw": "E"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 134,
+      "type": "inline",
+      "raw": "\\mathcal{T}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 136,
+      "type": "inline",
+      "raw": "G"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 138,
+      "type": "inline",
+      "raw": "v \\in V"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 138,
+      "type": "inline",
+      "raw": "k"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 138,
+      "type": "inline",
+      "raw": "h_v^{(k)}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 138,
+      "type": "inline",
+      "raw": "\\mathcal{N}(v)"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 142,
+      "type": "inline",
+      "raw": "W^{(k)}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 142,
+      "type": "inline",
+      "raw": "\\sigma"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 142,
+      "type": "inline",
+      "raw": "\\alpha_{uv}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 145,
+      "type": "inline",
+      "raw": "A \\to B \\to C \\to A"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 147,
+      "type": "inline",
+      "raw": "R_{\\text{velocity}}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 147,
+      "type": "inline",
+      "raw": "\\Delta t"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 151,
+      "type": "inline",
+      "raw": "R_{\\text{velocity}} \\to 0"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 151,
+      "type": "inline",
+      "raw": "\\Delta t < 120\\text{ seconds}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 218,
+      "type": "inline",
+      "raw": "p = 0.942"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 316,
+      "type": "inline",
+      "raw": "> 0.82"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 316,
+      "type": "inline",
+      "raw": "R_{\\text{velocity}} = 0.994"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 316,
+      "type": "inline",
+      "raw": "\\Delta t < 90\\text{ seconds}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 328,
+      "type": "inline",
+      "raw": "LTV"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 328,
+      "type": "inline",
+      "raw": "CAC"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 347,
+      "type": "inline",
+      "raw": "DIR \\ge 0.80"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 348,
+      "type": "inline",
+      "raw": "A \\to B \\to C \\to A"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 348,
+      "type": "inline",
+      "raw": "R_{\\text{velocity}} > 0.95"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 398,
+      "type": "inline",
+      "raw": "P(\\text{Fraud} \\mid \\text{Alert}) = \\frac{P(\\text{Alert} \\mid \\text{Fraud}) P(\\text{Fraud})}{P(\\text{Alert} \\mid \\text{Fraud}) P(\\text{Fraud}) + P(\\text{Alert} \\mid \\text{Legit}) P(\\text{Legit})}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 398,
+      "type": "inline",
+      "raw": "P(\\text{Fraud}) = 0.0001"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 398,
+      "type": "inline",
+      "raw": "99.99\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 398,
+      "type": "inline",
+      "raw": "0.01 \\times 0.9999 \\approx 0.0100"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 398,
+      "type": "inline",
+      "raw": "0.99 \\times 0.0001 = 0.000099"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 398,
+      "type": "inline",
+      "raw": "0.98\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 399,
+      "type": "inline",
+      "raw": "[\\text{Amount}, \\text{Timestamp}, \\text{Merchant}]"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 399,
+      "type": "inline",
+      "raw": "A \\to B \\to C \\to A"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 399,
+      "type": "inline",
+      "raw": "R_{\\text{velocity}}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 400,
+      "type": "inline",
+      "raw": "10{,}000{,}000 \\times 0.0002 = 2{,}000"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 400,
+      "type": "inline",
+      "raw": "2{,}000 \\times 0.95 = 1{,}900"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 400,
+      "type": "inline",
+      "raw": "9{,}998{,}000"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 400,
+      "type": "inline",
+      "raw": "9{,}998{,}000 \\times 0.005 = 49{,}990"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 400,
+      "type": "inline",
+      "raw": "1{,}900 + 49{,}990 = 51{,}890"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 400,
+      "type": "inline",
+      "raw": "1{,}900 / 51{,}890 \\approx 3.66\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 51,
+      "type": "display",
+      "raw": "P(F \\mid \\text{Alert}) = \\frac{P(\\text{Alert} \\mid F) \\cdot P(F)}{P(\\text{Alert} \\mid F) \\cdot P(F) + P(\\text{Alert} \\mid \\neg F) \\cdot P(\\neg F)}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 61,
+      "type": "display",
+      "raw": "P(F \\mid \\text{Alert}) = \\frac{0.99 \\times 0.0001}{0.99 \\times 0.0001 + 0.01 \\times 0.9999}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 63,
+      "type": "display",
+      "raw": "P(F \\mid \\text{Alert}) = \\frac{0.000099}{0.000099 + 0.009999} = \\frac{0.000099}{0.010098} \\approx 0.009804 \\approx 0.98\\%"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 91,
+      "type": "display",
+      "raw": "\\mathcal{L}(\\theta) = C_{\\text{FP}} \\cdot \\text{FPR}(\\theta) \\cdot (1 - \\pi) + C_{\\text{FN}} \\cdot (1 - \\text{TPR}(\\theta)) \\cdot \\pi"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 95,
+      "type": "display",
+      "raw": "\\theta^* = \\frac{C_{\\text{FP}} \\cdot (1 - \\pi)}{C_{\\text{FP}} \\cdot (1 - \\pi) + C_{\\text{FN}} \\cdot \\pi}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 140,
+      "type": "display",
+      "raw": "h_v^{(k)} = \\sigma\\left(W^{(k)} \\cdot \\text{CONCAT}\\left(h_v^{(k-1)}, \\sum_{u \\in \\mathcal{N}(v)} \\alpha_{uv} \\cdot h_u^{(k-1)}\\right)\\right)"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 149,
+      "type": "display",
+      "raw": "R_{\\text{velocity}} = \\frac{|\\Delta B_{\\text{in}} - \\Delta B_{\\text{out}}|}{\\Delta t}"
+    },
+    {
+      "chapter": "financial-crime-fraud-and-rbi-free-ai",
+      "line": 153,
+      "type": "display",
+      "raw": "\\text{Balance}_{\\text{closing}} = \\text{Balance}_{\\text{opening}} + \\sum \\text{Inflow} - \\sum \\text{Outflow} \\approx 0"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 31,
+      "type": "inline",
+      "raw": "WACC"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 55,
+      "type": "inline",
+      "raw": "5\\times"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 60,
+      "type": "inline",
+      "raw": "VaR_{99\\%}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 74,
+      "type": "inline",
+      "raw": "TAT"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 78,
+      "type": "inline",
+      "raw": "Opex"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 80,
+      "type": "inline",
+      "raw": "NIM"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 98,
+      "type": "inline",
+      "raw": "\\Delta PBT"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 101,
+      "type": "inline",
+      "raw": "ROA"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 102,
+      "type": "inline",
+      "raw": "t = 25.17\\%"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 104,
+      "type": "inline",
+      "raw": "ROA"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 106,
+      "type": "inline",
+      "raw": "ROE"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 111,
+      "type": "inline",
+      "raw": "\\Delta PBT"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 125,
+      "type": "inline",
+      "raw": "6.0\\times"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 125,
+      "type": "inline",
+      "raw": "EV"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 141,
+      "type": "inline",
+      "raw": "6.0\\times \\text{₹}33\\text{ Cr} = \\text{₹}198\\text{ Cr}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 149,
+      "type": "inline",
+      "raw": "12.0\\times"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 156,
+      "type": "inline",
+      "raw": "\\Delta EV_{\\text{exit}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 171,
+      "type": "inline",
+      "raw": "80{,}000 / 500 = 160"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 182,
+      "type": "inline",
+      "raw": "5\\times"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 198,
+      "type": "inline",
+      "raw": "\\frac{\\text{₹}300.0\\text{ Cr} - \\text{₹}120.0\\text{ Cr}}{\\text{₹}300.0\\text{ Cr}} = \\mathbf{60.0\\%}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 219,
+      "type": "inline",
+      "raw": "\\pi = 0.005\\%"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 228,
+      "type": "inline",
+      "raw": "R_{\\text{velocity}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 264,
+      "type": "inline",
+      "raw": "V^*"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 270,
+      "type": "inline",
+      "raw": "20\\text{M} \\times 2{,}300 = \\mathbf{46.0\\text{ billion tokens/month}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 273,
+      "type": "inline",
+      "raw": "40.8\\text{ kW}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 273,
+      "type": "inline",
+      "raw": "PUE"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 273,
+      "type": "inline",
+      "raw": "55.08\\text{ kW}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 273,
+      "type": "inline",
+      "raw": "55.08 \\times 8{,}760\\text{ h} = 482{,}491\\text{ kWh}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 277,
+      "type": "inline",
+      "raw": "\\text{₹}0.53\\text{ Cr} + \\text{₹}0.36\\text{ Cr} + \\text{₹}0.70\\text{ Cr} + \\text{₹}2.30\\text{ Cr} = \\mathbf{\\text{₹}3.89\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 284,
+      "type": "inline",
+      "raw": "20{,}000{,}000 \\times \\text{₹}0.408 \\times 12 = \\text{₹}97{,}920{,}000 = \\mathbf{\\text{₹}9.792\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 287,
+      "type": "inline",
+      "raw": "V^*"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 290,
+      "type": "inline",
+      "raw": "\\text{₹}29.38\\text{ Cr} - \\text{₹}24.42\\text{ Cr} = \\text{₹}4.96\\text{ crore}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 293,
+      "type": "inline",
+      "raw": "\\text{TCO}_{\\text{Cloud}} - \\text{TCO}_{\\text{On-Prem}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 312,
+      "type": "inline",
+      "raw": "< 3.5\\times"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 312,
+      "type": "inline",
+      "raw": "ISCR > 2.25\\times"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 312,
+      "type": "inline",
+      "raw": "> 1.20\\times"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 318,
+      "type": "inline",
+      "raw": "LGD"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 326,
+      "type": "inline",
+      "raw": "LGD"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 326,
+      "type": "inline",
+      "raw": "LGD"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 347,
+      "type": "inline",
+      "raw": "C/I"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 351,
+      "type": "inline",
+      "raw": "AUM"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 352,
+      "type": "inline",
+      "raw": "NIM"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 352,
+      "type": "inline",
+      "raw": "\\implies"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 352,
+      "type": "inline",
+      "raw": "NII"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 353,
+      "type": "inline",
+      "raw": "Opex"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 357,
+      "type": "inline",
+      "raw": "PBT"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 357,
+      "type": "inline",
+      "raw": "\\text{₹}600.0\\text{ Cr} - \\text{₹}288.0\\text{ Cr} - \\text{₹}120.0\\text{ Cr} = \\mathbf{\\text{₹}192.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 358,
+      "type": "inline",
+      "raw": "PAT"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 358,
+      "type": "inline",
+      "raw": "\\text{₹}192.0\\text{ Cr} \\times (1 - 0.2517) = \\mathbf{\\text{₹}143.67\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 359,
+      "type": "inline",
+      "raw": "BV"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 360,
+      "type": "inline",
+      "raw": "ROE"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 360,
+      "type": "inline",
+      "raw": "\\frac{\\text{₹}143.67\\text{ Cr}}{\\text{₹}1{,}000\\text{ Cr}} = \\mathbf{14.37\\%}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 361,
+      "type": "inline",
+      "raw": "1.80\\times"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 369,
+      "type": "inline",
+      "raw": "\\text{₹}600.0\\text{ Cr} - \\text{₹}235.5\\text{ Cr} - \\text{₹}108.0\\text{ Cr} = \\mathbf{\\text{₹}256.5\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 370,
+      "type": "inline",
+      "raw": "PAT"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 370,
+      "type": "inline",
+      "raw": "\\text{₹}256.5\\text{ Cr} \\times (1 - 0.2517) = \\mathbf{\\text{₹}191.94\\text{ crore/year}}\\quad (\\mathbf{+33.6\\%\\text{ net earnings growth}})"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 371,
+      "type": "inline",
+      "raw": "ROE"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 374,
+      "type": "inline",
+      "raw": "1.80\\times"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 374,
+      "type": "inline",
+      "raw": "2.40\\times"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 379,
+      "type": "inline",
+      "raw": "14.5\\times"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 393,
+      "type": "inline",
+      "raw": "5\\sigma"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 397,
+      "type": "inline",
+      "raw": "100\\text{ billion INR}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 398,
+      "type": "inline",
+      "raw": "Q = \\text{₹}1{,}500\\text{ crore}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 399,
+      "type": "inline",
+      "raw": "OTR"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 400,
+      "type": "inline",
+      "raw": "5\\sigma"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 410,
+      "type": "inline",
+      "raw": "Q = \\text{₹}1{,}500\\text{ Cr}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 410,
+      "type": "inline",
+      "raw": "V_{\\text{daily}} = \\text{₹}10{,}000\\text{ Cr}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 410,
+      "type": "inline",
+      "raw": "\\sigma_{\\text{daily}} = 2.8\\%"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 410,
+      "type": "inline",
+      "raw": "\\eta = 0.65"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 415,
+      "type": "inline",
+      "raw": "5\\sigma"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 418,
+      "type": "inline",
+      "raw": "EVM"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 422,
+      "type": "inline",
+      "raw": "15\\%"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 445,
+      "type": "inline",
+      "raw": "V^*"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 458,
+      "type": "inline",
+      "raw": "ROE"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 501,
+      "type": "inline",
+      "raw": "ROE"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 503,
+      "type": "inline",
+      "raw": "V^*"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 504,
+      "type": "inline",
+      "raw": "5\\sigma"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 509,
+      "type": "inline",
+      "raw": "\\text{AUM} \\times \\text{GNPA} \\times LGD"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 509,
+      "type": "inline",
+      "raw": "LGD = 50\\%"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 509,
+      "type": "inline",
+      "raw": "\\frac{\\text{₹}82.31\\text{ Cr}}{\\text{₹}1{,}000\\text{ Cr}} = \\mathbf{+8.23\\%}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 510,
+      "type": "inline",
+      "raw": "Assets = Liabilities + Equity"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 511,
+      "type": "inline",
+      "raw": "\\frac{\\text{₹}12.75\\text{ Cr}}{3} + \\text{₹}3.89\\text{ Cr} = \\text{₹}4.25\\text{ Cr} + \\text{₹}3.89\\text{ Cr} = \\text{₹}8.14\\text{ crore/year}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 511,
+      "type": "inline",
+      "raw": "V^* = \\frac{\\text{Fixed Annual Cost}}{c_{\\text{API}}} = \\frac{\\text{₹}8{,}14{,}00{,}000}{\\text{₹}0.408} \\approx \\mathbf{199{,}509{,}804\\text{ queries/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 512,
+      "type": "inline",
+      "raw": "1.85\\% \\times \\text{₹}1{,}500\\text{ Cr} = \\text{₹}27.75\\text{ Cr}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 512,
+      "type": "inline",
+      "raw": "4.50\\% \\times \\text{₹}1{,}500\\text{ Cr} = \\text{₹}67.50\\text{ Cr}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 512,
+      "type": "inline",
+      "raw": "1.40\\% \\times \\text{₹}1{,}500\\text{ Cr} = \\text{₹}21.00\\text{ Cr}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 512,
+      "type": "inline",
+      "raw": "\\text{₹}119.75\\text{ Cr} \\times 1.15 = \\mathbf{\\text{₹}137.71\\text{ crore}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 77,
+      "type": "display",
+      "raw": "\\text{Baseline Provision} = \\text{AUM} \\times \\text{GNPA} \\times LGD = \\text{₹}10{,}000\\text{ Cr} \\times 4.20\\% \\times 50\\% = \\mathbf{\\text{₹}210.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 79,
+      "type": "display",
+      "raw": "\\text{Baseline Opex} = \\text{₹}10{,}000\\text{ Cr} \\times 3.50\\% = \\mathbf{\\text{₹}350.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 81,
+      "type": "display",
+      "raw": "\\text{Baseline PBT} = \\text{NIM} - \\text{Provision} - \\text{Opex} = \\text{₹}475.0\\text{ Cr} - \\text{₹}210.0\\text{ Cr} - \\text{₹}350.0\\text{ Cr} = -\\text{₹}85.0\\text{ crore}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 94,
+      "type": "display",
+      "raw": "\\Delta \\text{GNPA} = 4.20\\% - 3.60\\% = 0.60\\%\\quad (\\mathbf{60\\text{ basis points}})"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 95,
+      "type": "display",
+      "raw": "\\Delta \\text{Provision} = \\text{AUM} \\times \\Delta \\text{GNPA} \\times LGD = \\text{₹}10{,}000\\text{ Cr} \\times 0.0060 \\times 0.50 = \\mathbf{\\text{₹}30.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 97,
+      "type": "display",
+      "raw": "\\Delta \\text{Opex} = \\text{AUM} \\times 0.80\\% = \\text{₹}10{,}000\\text{ Cr} \\times 0.0080 = \\mathbf{\\text{₹}80.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 99,
+      "type": "display",
+      "raw": "\\Delta PBT = \\Delta \\text{Provision Savings} + \\Delta \\text{Opex Savings} = \\text{₹}30.0\\text{ Cr} + \\text{₹}80.0\\text{ Cr} = \\mathbf{\\text{₹}110.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 103,
+      "type": "display",
+      "raw": "\\Delta PAT = \\Delta PBT \\times (1 - t) = \\text{₹}110.0\\text{ Cr} \\times (1 - 0.2517) = \\mathbf{\\text{₹}82.31\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 105,
+      "type": "display",
+      "raw": "\\Delta ROA_{\\text{pre-tax}} = \\frac{\\Delta PBT}{\\text{AUM}} = \\frac{\\text{₹}110.0\\text{ Cr}}{\\text{₹}10{,}000\\text{ Cr}} = \\mathbf{+1.10\\%}\\quad (\\mathbf{+110\\text{ basis points}})"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 108,
+      "type": "display",
+      "raw": "\\Delta ROE = \\frac{\\Delta PAT}{\\text{Allocated Equity}} = \\frac{\\text{₹}82.31\\text{ Cr}}{\\text{₹}1{,}000\\text{ Cr}} = \\mathbf{+8.23\\%}\\quad (\\mathbf{+823\\text{ basis points}})"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 150,
+      "type": "display",
+      "raw": "\\Delta EV_{\\text{exit}} = (\\text{EBITDA}_{\\text{optimized}} - \\text{EBITDA}_{\\text{baseline}}) \\times M_{\\text{EV/EBITDA}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 151,
+      "type": "display",
+      "raw": "\\Delta EV_{\\text{exit}} = (\\text{₹}420\\text{ Cr} - \\text{₹}300\\text{ Cr}) \\times 12.0 = \\text{₹}120\\text{ Cr} \\times 12.0 = \\mathbf{\\text{₹}1{,}440.0\\text{ crore}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 153,
+      "type": "display",
+      "raw": "\\text{Total Enterprise Value Created} = \\text{Entry Haircut (₹85 Cr)} + \\text{Fee Savings (₹2.2 Cr)} + \\Delta EV_{\\text{exit}}\\text{ (₹1,440 Cr)} = \\mathbf{\\text{₹}1{,}527.2\\text{ crore}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 173,
+      "type": "display",
+      "raw": "\\text{Baseline Personnel Spend} = 500 \\times \\text{₹}24.0\\text{ lakh} = \\mathbf{\\text{₹}120.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 175,
+      "type": "display",
+      "raw": "\\text{Annual Gross Fee Revenue} = \\text{₹}40{,}000\\text{ Cr} \\times 0.75\\% = \\mathbf{\\text{₹}300.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 187,
+      "type": "display",
+      "raw": "\\text{Required Advisors} = \\frac{80{,}000\\text{ clients}}{800\\text{ clients/advisor}} = \\mathbf{100\\text{ advisors}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 189,
+      "type": "display",
+      "raw": "\\Delta \\text{Payroll} = (500 - 100) \\times \\text{₹}24.0\\text{ lakh} = 400 \\times \\text{₹}24.0\\text{ lakh} = \\mathbf{\\text{₹}96.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 192,
+      "type": "display",
+      "raw": "\\text{Retained AUM Capital} = \\text{₹}40{,}000\\text{ Cr} \\times (10.0\\% - 5.5\\%) = \\text{₹}40{,}000\\text{ Cr} \\times 4.5\\% = \\mathbf{\\text{₹}1{,}800.0\\text{ crore}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 194,
+      "type": "display",
+      "raw": "\\Delta \\text{Fee Revenue} = \\text{₹}1{,}800.0\\text{ Cr} \\times 0.75\\% = \\mathbf{\\text{₹}13.5\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 196,
+      "type": "display",
+      "raw": "\\text{Total Annual Pre-Tax Value} = \\Delta \\text{Payroll Savings} + \\Delta \\text{Fee Revenue} = \\text{₹}96.0\\text{ Cr} + \\text{₹}13.5\\text{ Cr} = \\mathbf{\\text{₹}109.5\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 200,
+      "type": "display",
+      "raw": "\\text{Optimized Margin} = \\frac{\\text{₹}313.5\\text{ Cr} - \\text{₹}24.0\\text{ Cr}}{\\text{₹}313.5\\text{ Cr}} = \\frac{\\text{₹}289.5\\text{ Cr}}{\\text{₹}313.5\\text{ Cr}} = \\mathbf{92.3\\%}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 218,
+      "type": "display",
+      "raw": "\\text{Monthly Alerts} = 250{,}000{,}000 \\times 0.002 = \\mathbf{500{,}000\\text{ alerts/month}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 221,
+      "type": "display",
+      "raw": "\\text{False Positives} = 500{,}000 - 12{,}500 = \\mathbf{487{,}500\\text{ false alerts/month}}\\quad (\\mathbf{97.5\\%\\text{ false alarm rate}})"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 223,
+      "type": "display",
+      "raw": "\\text{Baseline Monthly Investigation Spend} = 500{,}000 \\times \\text{₹}150 = \\mathbf{\\text{₹}7.50\\text{ crore/month}}\\quad (\\mathbf{\\text{₹}90.0\\text{ crore/year}})"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 235,
+      "type": "display",
+      "raw": "\\text{Spend}_{\\text{automated}} = 325{,}000 \\times \\text{₹}2.00 = \\text{₹}6{,}50{,}000\\text{/month} = \\mathbf{\\text{₹}0.065\\text{ crore/month}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 237,
+      "type": "display",
+      "raw": "\\text{Spend}_{\\text{human}} = 175{,}000 \\times \\text{₹}50.00 = \\text{₹}87{,}50{,}000\\text{/month} = \\mathbf{\\text{₹}0.875\\text{ crore/month}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 239,
+      "type": "display",
+      "raw": "\\text{Spend}_{\\text{optimized}} = \\text{₹}0.065\\text{ Cr} + \\text{₹}0.875\\text{ Cr} = \\mathbf{\\text{₹}0.940\\text{ crore/month}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 241,
+      "type": "display",
+      "raw": "\\Delta \\text{Spend}_{\\text{monthly}} = \\text{₹}7.500\\text{ Cr} - \\text{₹}0.940\\text{ Cr} = \\mathbf{\\text{₹}6.560\\text{ crore/month}}\\quad (\\mathbf{87.5\\%\\text{ cost reduction}})"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 242,
+      "type": "display",
+      "raw": "\\Delta \\text{Spend}_{\\text{annual}} = \\text{₹}6.560\\text{ Cr} \\times 12 = \\mathbf{\\text{₹}78.72\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 279,
+      "type": "display",
+      "raw": "\\text{TCO}_{\\text{On-Prem}} = \\text{₹}12.75\\text{ Cr (Capex)} + (3 \\times \\text{₹}3.89\\text{ Cr (Opex)}) = \\text{₹}12.75\\text{ Cr} + \\text{₹}11.67\\text{ Cr} = \\mathbf{\\text{₹}24.42\\text{ crore}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 283,
+      "type": "display",
+      "raw": "c_{\\text{API}} = \\left(\\frac{2{,}000}{1\\text{M}} \\times \\$1.50\\right) + \\left(\\frac{300}{1\\text{M}} \\times \\$6.00\\right) = \\$0.0030 + \\$0.0018 = \\$0.0048\\text{ per query}\\quad (\\approx \\mathbf{\\text{₹}0.408\\text{ per query}})"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 286,
+      "type": "display",
+      "raw": "\\text{TCO}_{\\text{Cloud}} = 3 \\times \\text{₹}9.792\\text{ Cr} = \\mathbf{\\text{₹}29.38\\text{ crore}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 288,
+      "type": "display",
+      "raw": "\\text{Annualized On-Prem Fixed Cost} = \\frac{\\text{₹}12.75\\text{ Cr}}{3} + \\text{₹}3.89\\text{ Cr} = \\text{₹}4.25\\text{ Cr} + \\text{₹}3.89\\text{ Cr} = \\mathbf{\\text{₹}8.14\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 289,
+      "type": "display",
+      "raw": "V^* = \\frac{\\text{Annualized Fixed On-Prem Cost}}{c_{\\text{API}}} = \\frac{\\text{₹}8{,}14{,}00{,}000}{\\text{₹}0.408} \\approx \\mathbf{199{,}509{,}804\\text{ queries/year}}\\quad (\\approx \\mathbf{16.63\\text{ million queries/month}})"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 320,
+      "type": "display",
+      "raw": "\\text{Losses}_{\\text{baseline}} = \\text{₹}1{,}000.0\\text{ Cr} \\times 55.0\\% = \\mathbf{\\text{₹}550.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 328,
+      "type": "display",
+      "raw": "\\text{Losses}_{\\text{optimized}} = \\text{₹}500.0\\text{ Cr} \\times 40.0\\% = \\mathbf{\\text{₹}200.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 330,
+      "type": "display",
+      "raw": "\\Delta \\text{Losses} = \\text{₹}550.0\\text{ Cr} - \\text{₹}200.0\\text{ Cr} = \\mathbf{\\text{₹}350.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 333,
+      "type": "display",
+      "raw": "\\text{Total Annual Value} = \\text{₹}350.0\\text{ Cr (Loss Mitigation)} + \\text{₹}3.75\\text{ Cr (Waiver Fees)} = \\mathbf{\\text{₹}353.75\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 354,
+      "type": "display",
+      "raw": "\\text{Baseline Opex} = \\text{₹}600.0\\text{ Cr} \\times 48.0\\% = \\mathbf{\\text{₹}288.0\\text{ crore/year}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 362,
+      "type": "display",
+      "raw": "\\text{Baseline Market Capitalization} = 1.80 \\times \\text{₹}1{,}000.0\\text{ Cr} = \\mathbf{\\text{₹}1{,}800.0\\text{ crore}}\\quad (P/E = 12.5\\times)"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 372,
+      "type": "display",
+      "raw": "ROE_{\\text{optimized}} = \\frac{\\text{₹}191.94\\text{ Cr}}{\\text{₹}1{,}000.0\\text{ Cr}} = \\mathbf{19.19\\%}\\quad (\\mathbf{+482\\text{ basis points ROE expansion}})"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 376,
+      "type": "display",
+      "raw": "\\text{Market Cap}_{\\text{optimized}} = 2.40 \\times \\text{₹}1{,}000.0\\text{ Cr} = \\mathbf{\\text{₹}2{,}400.0\\text{ crore}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 378,
+      "type": "display",
+      "raw": "\\Delta \\text{Equity Value} = \\text{₹}2{,}400.0\\text{ Cr} - \\text{₹}1{,}800.0\\text{ Cr} = \\mathbf{\\text{₹}600.0\\text{ crore}}\\quad (\\mathbf{+33.3\\%\\text{ equity market revaluation}})"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 409,
+      "type": "display",
+      "raw": "\\text{Slippage} = \\eta \\times \\sigma_{\\text{daily}} \\times \\sqrt{\\frac{Q}{V_{\\text{daily}}}} \\times Q"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 411,
+      "type": "display",
+      "raw": "\\text{Normal Impact} = 0.65 \\times 0.028 \\times \\sqrt{0.15} \\times \\text{₹}1{,}500\\text{ Cr} = 0.0182 \\times 0.3873 \\times \\text{₹}1{,}500\\text{ Cr} \\approx \\text{₹}10.57\\text{ crore}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 413,
+      "type": "display",
+      "raw": "\\text{Stressed Slippage Cost} = 1.85\\% \\times \\text{₹}1{,}500.0\\text{ Cr} = \\mathbf{\\text{₹}27.75\\text{ crore}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 416,
+      "type": "display",
+      "raw": "\\text{Directional Price Loss} = 4.50\\% \\times \\text{₹}1{,}500.0\\text{ Cr} = \\mathbf{\\text{₹}67.50\\text{ crore}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 419,
+      "type": "display",
+      "raw": "\\text{Incremental Margin Demand} = 1.40\\% \\times \\text{₹}1{,}500.0\\text{ Cr} = \\mathbf{\\text{₹}21.00\\text{ crore}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 424,
+      "type": "display",
+      "raw": "\\text{Subtotal Cash Drain} = \\text{₹}27.75\\text{ Cr} + \\text{₹}67.50\\text{ Cr} + \\text{₹}21.00\\text{ Cr} + \\text{₹}3.50\\text{ Cr} = \\mathbf{\\text{₹}119.75\\text{ crore}}"
+    },
+    {
+      "chapter": "finance-casebook",
+      "line": 425,
+      "type": "display",
+      "raw": "\\text{Mandatory Capital Buffer} = \\text{₹}119.75\\text{ Cr} \\times 1.15 = \\mathbf{\\text{₹}137.71\\text{ crore}}\\quad (\\approx \\mathbf{\\text{₹}140\\text{--}145\\text{ crore}})"
+    }
+  ]
+}
