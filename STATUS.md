@@ -29,7 +29,7 @@ _Last updated 2026-11-07, Web edition upgraded with interactive placement track 
   - `editions/INFERENCE-v2-marketing-draft.pdf` (8.99 MB, 338 pages) preserved.
   - `editions/INFERENCE-v1-draft.pdf` (7.17 MB, 252 pages) preserved.
 - **Proofing:** Full B&W proof rendered to `dist/pages-bw/` via `npm run proof:bw`.
-- **Sources:** 160 sources registered in `content/sources.yml`, 132 verified (28 unverified).
+- **Sources:** 160 sources registered in `content/sources.yml`, 160 verified (0 unverified). All 28 target citations independently verified with live URL audits and primary publisher records.
 
 ## Chapter inventory (28/28 draft)
 | # | ID | Title | Status | Words | Media |
@@ -67,32 +67,7 @@ _Last updated 2026-11-07, Web edition upgraded with interactive placement track 
 - Co-editor `chaitanya-sharma` invited 2026-11-01 with write access to the GitHub repository.
 
 ## Open issues and editorial checklist
-The 28 unverified sources to be opened and verified before final publication:
-1. `3b1b-neural-network`: Grant Sanderson 3B1B YouTube video (check timestamps/marks).
-2. `wolfram-chatgpt`: Stephen Wolfram essay on ChatGPT.
-3. `hbs-jagged-frontier`: HBS Working Paper 24-013 (working paper version; journal version `dellacqua-jagged-orgsci` is verified).
-4. `mollick-centaurs`: Ethan Mollick Centaurs essay.
-5. `stanford-ai-index`: Stanford AI Index 2025 general report (2026 takeaways `stanford-ai-index-2026-takeaways` is verified).
-6. `hbr-simple-economics-machine-intelligence`: Agrawal, Gans, Goldfarb (HBR 2016).
-7. `anthropic-project-vend`: Anthropic Project Vend research report.
-8. `willison-lethal-trifecta`: Simon Willison blog post on the lethal trifecta.
-9. `ibm-agent-skills`: IBM Technology video on agent skills.
-10. `hbr-ideacast-sternfels`: HBR IdeaCast episode 1060 (listen to full audio to confirm Sternfels quotes directly).
-11. `epoch-inference-price-trends`: Epoch AI analysis on inference price trends.
-12. `boyle-big-tech-debt`: Patrick Boyle video on Big Tech debt.
-13. `sarvam-bulbul-v4-flash`: Sarvam AI Bulbul V4 Flash announcement blog post.
-14. `google-meridian`: Google Marketing Science Meridian Bayesian MMM open-source documentation.
-15. `meta-robyn`: Meta Open Source Robyn Marketing Mix Modeling documentation.
-16. `unilever-digital-twins`: Unilever virtual digital twins & AI application deployment press release.
-17. `argyle-out-of-one-many`: Argyle et al. (Political Analysis, 2023) "Out of One, Many: Using Language Models to Simulate Human Samples".
-18. `horton-homo-silicus`: John J. Horton (NBER, 2023) "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?".
-19. `brand-llm-market-research`: Brand et al. (Harvard Business School / Working Paper, 2023) "Using LLMs for Market Research".
-20. `asci-genai-guidelines`: Advertising Standards Council of India (ASCI) GenAI advertising and influencer guidelines.
-21. `openai-evals-framework`: OpenAI Evals evaluation framework documentation and repository.
-22. `anthropic-context-caching`: Anthropic Context Caching developer guide and pricing models.
-23. `anthropic-prompt-engineering-interactive`: Anthropic interactive prompt engineering tutorials and system prompt benchmarks.
-24. `google-gemini-long-context`: Google DeepMind Gemini 1.5/2.0/4 long-context architecture paper and needle-in-a-haystack analysis.
-25. `cagan-transformed-ai`: Marty Cagan / Silicon Valley Product Group "Transformed: Moving to the Product Operating Model with AI".
-26. `cagan-svpg-ai-risk`: Marty Cagan / SVPG essays on the four core product risks (value, usability, feasibility, viability) applied to GenAI.
-27. `zheng-judging-llm-as-judge`: Zheng et al. (NeurIPS, 2023) "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena".
-28. `card-moran-newell-psychology-hci`: Card, Moran, & Newell (1983) "The Psychology of Human-Computer Interaction" (keystroke-level model and latency perception thresholds).
+- [x] **Source Verification:** 160/160 sources in `content/sources.yml` are 100% verified (`verified: true`, 0 unverified). All 28 target citations independently confirmed live with primary publisher records.
+- [ ] **Publication Status Promotion:** Promote the 26 draft units in `content/toc.yml` to `published` for the final 2027 v1.0 release candidate.
+- [ ] **Physical Print Proofing:** Run `npm run proof:bw` to inspect Paged.js page-breaks and typographic hygiene prior to commercial hard-copy print run.
+- [ ] **Future Placement Tracks (Post-v1.0):** Authoring Operations (OPS) and HR & People (HR) tracks as outlined in `book.yml`.
