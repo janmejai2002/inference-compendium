@@ -32,9 +32,9 @@
 
   <!-- Right: 3 Redesign Levers -->
   <rect class="paper acc-s" x="350" y="42" width="270" height="60" rx="4" stroke-width="1.5"/>
-  <text x="362" y="62" font-size="11" font-weight="bold">A. End-to-End Process Redesign</text>
-  <text x="362" y="78" font-size="9.5">Do not insert AI into legacy routes. Cut steps,</text>
-  <text x="362" y="92" font-size="9.5">collapse sign-off tiers, and restructure role handoffs.</text>
+  <text x="362" y="60" font-size="10.5" font-weight="bold">A. End-to-End Process Redesign</text>
+  <text x="362" y="74" font-size="8.5">Do not insert AI into legacy routes. Cut steps,</text>
+  <text x="362" y="88" font-size="8.5">collapse sign-off tiers, and restructure handoffs.</text>
 
   <rect class="paper acc-s" x="350" y="112" width="270" height="60" rx="4" stroke-width="1.5"/>
   <text x="362" y="132" font-size="11" font-weight="bold">B. Capacity Reallocation</text>

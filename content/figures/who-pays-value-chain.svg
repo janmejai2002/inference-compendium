@@ -36,8 +36,8 @@
 
   <!-- Right: 2026 Corporate Capex & Debt Reality -->
   <rect class="paper rule-s" x="380" y="44" width="240" height="242" rx="4" stroke-width="1"/>
-  <text x="395" y="68" font-size="11" font-weight="bold">Company (Q3 2026)</text>
-  <text x="545" y="68" font-size="11" font-weight="bold">Financial Reality</text>
+  <text x="395" y="68" font-size="10.5" font-weight="bold">Company (Q3 2026)</text>
+  <text x="530" y="68" font-size="9.5" font-weight="bold">Financial State</text>
   <line class="rule-s" x1="380" x2="620" y1="76" y2="76" stroke-width="1"/>
 
   <text x="395" y="96" font-size="11" font-weight="bold">Alphabet</text>
@@ -73,5 +73,6 @@
   <text x="545" y="264" font-size="10">Capex ≈ OCF</text>
   <text x="545" y="278" font-size="9">Q3 Capex $34.9B</text>
 
-  <text x="380" y="306" font-size="10">Source: SEC filings (Alphabet, Oracle), corporate releases (Oct 2026)</text>
+  <text x="380" y="304" font-size="8.5">Source: SEC filings (Alphabet, Oracle)</text>
+  <text x="380" y="318" font-size="8.5">&amp; corporate releases (Oct 2026)</text>
 </svg>

@@ -25,17 +25,17 @@
   <!-- Right: Diamond / Pod Structure -->
   <rect class="paper acc-s" x="360" y="42" width="250" height="48" rx="4" stroke-width="1.5"/>
   <text x="372" y="62" font-size="10.5" font-weight="bold">Partners &amp; Industry Directors</text>
-  <text x="372" y="77" font-size="9">Strategic relationship, thesis generation, risk ownership</text>
+  <text x="372" y="77" font-size="8">Strategic thesis, relationships, risk ownership</text>
 
   <rect class="wash acc-s" x="350" y="96" width="270" height="56" rx="4" stroke-width="2"/>
   <text class="t-display" x="362" y="116" font-size="11.5">AI Engine &amp; Internal Agents</text>
-  <text x="362" y="132" font-size="9">McKinsey Lilli (75%+ adoption) &amp; 20,000 agents;</text>
-  <text x="362" y="144" font-size="8.5" fill="#555">automated synthesis, slide generation, benchmark parsing</text>
+  <text x="362" y="132" font-size="8.5">McKinsey Lilli (75%+ adoption) &amp; 20,000 agents;</text>
+  <text x="362" y="144" font-size="8" fill="#555">automated synthesis, slide gen, benchmark parsing</text>
 
   <rect class="paper acc-s" x="370" y="158" width="230" height="48" rx="4" stroke-width="1.5"/>
   <text x="382" y="178" font-size="10.5" font-weight="bold">Compact Associate Pods</text>
-  <text x="382" y="193" font-size="9">Auditing output, testing boundaries, client immersion</text>
+  <text x="382" y="193" font-size="7.8">Auditing output, boundary testing, immersion</text>
 
   <text x="485" y="222" text-anchor="middle" font-size="9.5" font-weight="bold">Outcome &amp; Value-Based Pricing</text>
-  <text x="485" y="238" text-anchor="middle" font-size="8.5" fill="#555">McKinsey ~25% outcome fees; BCG variable on 75% of AI cases</text>
+  <text x="485" y="238" text-anchor="middle" font-size="8" fill="#555">McKinsey ~25% outcome fees; BCG variable on 75% of AI cases</text>
 </svg>
