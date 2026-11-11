@@ -343,3 +343,51 @@ dpdp-financial-localization:
 synthetic-identity-fraud:
   term: Synthetic identity fraud
   def: A sophisticated financial crime where genuine (often stolen) credentials like PAN or Aadhaar are combined with fictitious personal data to create new credit identities that build credit before defaulting.
+
+predictive-maintenance:
+  term: Predictive maintenance (PdM)
+  def: A condition-based maintenance strategy using continuous sensor telemetry, frequency spectrum analysis, and machine learning to forecast equipment degradation and schedule repairs before functional downtime occurs.
+
+overall-equipment-effectiveness:
+  term: Overall equipment effectiveness (OEE)
+  def: The benchmark manufacturing productivity metric measuring the product of equipment availability, operational performance speed, and output quality rate (OEE = Availability × Performance × Quality).
+
+remaining-useful-life:
+  term: Remaining useful life (RUL)
+  def: The estimated operational operating time or cycles remaining before an industrial asset, component, or mechanical bearing fails or degrades below certified operating tolerances.
+
+weibull-hazard-rate:
+  term: Weibull hazard modeling
+  def: A survival analysis distribution modeling physical asset failure probability over time, where shape parameter β distinguishes infant mortality (β < 1), random operational failures (β = 1), and mechanical wear-out (β > 1).
+
+digital-twin:
+  term: Digital twin
+  def: A dynamic, bidirectional software representation of a physical machine or industrial process synchronized continuously via telemetry to simulate operational states, predict faults, and optimize operating setpoints.
+
+bullwhip-effect:
+  term: Bullwhip effect
+  def: The progressive amplification of demand variability upstream in a multi-echelon supply chain caused by batch ordering, transmission lags, price promotions, and shortage gaming.
+
+demand-sensing:
+  term: Demand sensing
+  def: High-frequency probabilistic forecasting that ingests near-real-time downstream signals (daily point-of-sale data, hyper-local weather, search queries, channel footfalls) to compress short-horizon inventory uncertainty.
+
+multi-echelon-inventory-optimization:
+  term: Multi-echelon inventory optimization (MEIO)
+  def: A mathematical approach that optimizes safety stock placement holistically across all levels of a distribution network (mother plants, central warehouses, regional hubs, dark stores) rather than buffering each stage in isolation.
+
+autonomous-mobile-robot:
+  term: Autonomous mobile robot (AMR)
+  def: An industrial logistics vehicle that uses onboard LiDAR, computer vision, and simultaneous localization and mapping (SLAM) algorithms to navigate dynamic warehouse floors autonomously without fixed physical magnetic tracks.
+
+dark-store:
+  term: Dark store
+  def: A compact, hyper-local micro-fulfillment center situated inside dense urban residential catchments, optimized exclusively for algorithmic goods-to-person picking and sub-15-minute quick-commerce order dispatch.
+
+automated-optical-inspection:
+  term: Automated optical inspection (AOI)
+  def: High-speed computer vision systems paired with edge deep learning classifiers that inspect components on high-throughput assembly lines, detecting surface defects, soldering anomalies, and dimensional deviations in real time.
+
+inspection-error-tradeoff:
+  term: False rejection vs escape rate
+  def: The fundamental operational trade-off in automated inspection between Type I error (false alarms that needlessly scrap conforming parts) and Type II error (escaped defective units that reach customers, triggering recalls and brand liability).

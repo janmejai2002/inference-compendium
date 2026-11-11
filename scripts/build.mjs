@@ -126,7 +126,7 @@ function coverHtml(ctx) {
 
 function howToRead(ctx) {
   const { book } = ctx;
-  const paths = ['consulting', 'marketing', 'product', 'finance'].map((t) => {
+  const paths = ['consulting', 'marketing', 'product', 'operations', 'finance'].map((t) => {
     const tr = ctx.trackById[t];
     const list = ctx.chapters.filter((c) => c.track === t || c.track === 'foundations' || (c.tracks || []).includes(t));
     return `<div class="path"><span class="chip" style="--chip: var(--t-${t})">${esc(tr.name)}</span><ol>${list.map((c) => `<li>${c.n} · ${esc(c.title)}</li>`).join('')}</ol></div>`;
@@ -282,7 +282,7 @@ function home(ctx) {
   const writtenCount = ctx.chapters.filter((c) => c.file).length;
   const body = `<header class="topbar"><a class="wordmark" href="index.html">${esc(book.title)}<span>${esc(book.title_accent || '')}</span></a><span class="where">${esc(book.edition)}</span>
 <button class="mode" id="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light mode (Key: T)">Theme</button>
-<nav><a href="#contents">Chapters</a><a href="#how-to-read">Guide</a><a href="design.html">Design book</a><a href="print.html">Print preview</a><a class="btn primary" style="padding:0.4em 0.8em;font-size:0.75rem;" href="${esc(book.title)}.pdf" download>PDF (498p)</a></nav></header>
+<nav><a href="#contents">Chapters</a><a href="#how-to-read">Guide</a><a href="design.html">Design book</a><a href="print.html">Print preview</a><a class="btn primary" style="padding:0.4em 0.8em;font-size:0.75rem;" href="${esc(book.title)}.pdf" download>PDF</a></nav></header>
 <section class="home-hero">
   <div>
     <div class="kicker">${esc(book.edition)}</div>
@@ -293,9 +293,9 @@ function home(ctx) {
     </div>
     <div class="hero-stats">
       <span>${writtenCount} Chapters</span>
-      <span>4 Placement Tracks</span>
-      <span>160 Sources</span>
-      <span>498 Pages</span>
+      <span>5 Placement Tracks</span>
+      <span>168 Sources</span>
+      <span>570+ Pages</span>
       <span>Free & Open Source</span>
     </div>
     <div class="actions" style="margin-top: 1.4rem;"><a class="btn primary" href="#contents">Start reading</a><a class="btn" href="${esc(book.title)}.pdf" download>Download PDF</a><a class="btn" href="#how-to-read">Reading guide</a><a class="btn" href="design.html">Design book</a></div>
@@ -331,6 +331,7 @@ function home(ctx) {
     <button class="filter-tab" data-filter="consulting" role="tab" aria-selected="false" style="--tab-c: var(--t-consulting)">Consulting <span class="badge">13</span></button>
     <button class="filter-tab" data-filter="marketing" role="tab" aria-selected="false" style="--tab-c: var(--t-marketing)">Marketing <span class="badge">4</span></button>
     <button class="filter-tab" data-filter="product" role="tab" aria-selected="false" style="--tab-c: var(--t-product)">Product <span class="badge">4</span></button>
+    <button class="filter-tab" data-filter="operations" role="tab" aria-selected="false" style="--tab-c: var(--t-operations)">Operations <span class="badge">4</span></button>
     <button class="filter-tab" data-filter="finance" role="tab" aria-selected="false" style="--tab-c: var(--t-finance)">Finance <span class="badge">4</span></button>
   </div>
   <div class="toc-search-box">

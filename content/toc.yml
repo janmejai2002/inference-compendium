@@ -358,6 +358,37 @@ parts:
 
   - id: p7
     n: VII
+    title: Operations & Supply Chain
+    track: operations
+    deck: Predictive maintenance, probabilistic demand sensing, warehouse robotics, and the operations casebook.
+    chapters:
+      - id: predictive-maintenance-and-industrial-ai
+        title: "Predictive maintenance, industrial IoT, and digital twins: from reactive downtime to remaining useful life"
+        deck: "Sensor fusion, acoustic and vibration telemetry, Weibull hazard rate modeling, remaining useful life (RUL) estimation, and OEE optimization in heavy manufacturing and plant operations."
+        tracks: [operations]
+        prereq: [kinds-of-ai, your-documents]
+        status: published
+      - id: supply-chain-planning-and-autonomous-replenishment
+        title: "Supply chain planning & demand sensing: dampening the bullwhip effect with probabilistic models"
+        deck: "Hierarchical time-series forecasting, cracking multi-echelon inventory safety stocks, real-time demand sensing vs. legacy SAP/ERP batch runs, multimodal logistics optimization (PM GatiShakti), and cold-chain integrity."
+        tracks: [operations, strategy]
+        prereq: [next-word-machine, pilots-stall]
+        status: published
+      - id: warehouse-automation-and-physical-ai
+        title: "Warehouse automation, computer vision, and physical AI: dark stores, AMRs, and quality gates"
+        deck: "Automated optical inspection (AOI) on high-speed lines, Autonomous Mobile Robots (AMRs) and SLAM navigation, dark store picking ergonomics in quick-commerce (Blinkit/Zepto), and human-robot collaboration."
+        tracks: [operations]
+        prereq: [models-that-act, judging-output]
+        status: published
+      - id: operations-casebook
+        title: "The Operations AI casebook & interview room"
+        deck: "Eight fully-worked quantitative operations cases and guesstimates covering plant downtime ROI, dark store micro-fulfillment economics, multi-echelon safety stock sizing, AOI computer vision quality gates, and automated logistics routing."
+        tracks: [operations]
+        prereq: [predictive-maintenance-and-industrial-ai, supply-chain-planning-and-autonomous-replenishment, warehouse-automation-and-physical-ai]
+        status: published
+
+  - id: p8
+    n: VIII
     title: Inserts
     track: strategy
     deck: Short, dated pages that the web edition replaces every term.

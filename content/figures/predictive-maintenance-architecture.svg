@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="End-to-End Industrial Predictive Maintenance and Digital Twin Architecture showing edge sensor ingestion, spectral feature engineering, Weibull RUL prognostics, and automated maintenance triggers.">
+  <!-- Title & Header -->
+  <text class="t-display" x="20" y="24" font-size="15">Predictive Maintenance &amp; Industrial Digital Twin Architecture</text>
+  <text x="20" y="38" font-size="8.5" fill="#666">Continuous telemetry sensor fusion, spectral harmonics, RUL estimation, and automated CMMS triggers</text>
+  <!-- Top Left: Edge Telemetry Ingestion -->
+  <rect class="paper acc-s" x="20" y="46" width="290" height="94" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="32" y="64" font-size="11">1. Edge Sensor Ingestion &amp; Industrial IoT</text>
+  <text x="32" y="77" font-size="8" font-weight="bold">Sensors: Piezo accelerometers, acoustic, thermal, MCSA</text>
+  <text x="32" y="89" font-size="8">• High-frequency vibration telemetry (10 kHz to 50 kHz sampling)</text>
+  <text x="32" y="101" font-size="8">• Acoustic ultrasound emission detecting micro-cracking</text>
+  <text x="32" y="113" font-size="8">• Motor Current Signature Analysis (MCSA) via CT clamps</text>
+  <text x="32" y="126" font-size="7.5" fill="#666">Edge gateways (OPC-UA / MQTT) filter thermal drift &amp; noise</text>
+  <!-- Top Right: Signal Processing & Spectral Feature Extraction -->
+  <rect class="paper acc-s" x="330" y="46" width="290" height="94" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="342" y="64" font-size="11">2. Spectral Feature Engineering &amp; FFT</text>
+  <text x="342" y="77" font-size="8" font-weight="bold">Domain Transforms: Fast Fourier Transform (FFT) &amp; Wavelets</text>
+  <text x="342" y="89" font-size="7.5">• Time-domain: RMS, peak-to-peak, kurtosis</text>
+  <text x="342" y="101" font-size="8">• Harmonic tracking: BPFI, BPFO, BSF, FTF bearing frequencies</text>
+  <text x="342" y="113" font-size="8">• Spectrogram envelope demodulation for low-amplitude impact</text>
+  <text x="342" y="126" font-size="7.5" fill="#666">High-dimensional spectral vector streams directly to core</text>
+  <!-- Arrows to Central Core -->
+  <path d="M 165 140 L 165 152 M 161 148 L 165 153 L 169 148" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <path d="M 475 140 L 475 152 M 471 148 L 475 153 L 479 148" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <!-- Middle: Prognostics, RUL & Digital Twin Core -->
+  <rect class="wash acc-s" x="20" y="154" width="600" height="72" rx="4" stroke-width="2"/>
+  <text class="t-display" x="32" y="172" font-size="12">3. Prognostics Engine, RUL Modeling &amp; Bidirectional Digital Twin</text>
+  <text x="32" y="188" font-size="9" font-weight="bold">Weibull Survival Hazard</text>
+  <text x="32" y="200" font-size="8.5">Hazard function h(t) = (beta/eta)(t/eta)^(beta-1)</text>
+  <text x="32" y="211" font-size="8.5">Models wear-out aging vs random failure</text>
+  <text x="235" y="188" font-size="9" font-weight="bold">RUL Deep Learning Models</text>
+  <text x="235" y="200" font-size="8.5">Temporal CNNs &amp; Transformer encoders</text>
+  <text x="235" y="211" font-size="8.5">Calculates Remaining Useful Life cycles</text>
+  <text x="440" y="188" font-size="9" font-weight="bold">Synchronous Digital Twin</text>
+  <text x="440" y="200" font-size="8.5">Physics simulation vs live sensor delta</text>
+  <text x="440" y="211" font-size="8">Identifies thermal &amp; mechanical stress</text>
+  <!-- Arrows to Action Tiers -->
+  <path d="M 115 226 L 115 240 M 111 236 L 115 241 L 119 236" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <path d="M 320 226 L 320 240 M 316 236 L 320 241 L 324 236" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <path d="M 525 226 L 525 240 M 521 236 L 525 241 L 529 236" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <!-- Bottom: 3 Action Channels -->
+  <!-- Channel 1: Normal Operation -->
+  <rect class="paper acc-s" x="20" y="242" width="190" height="76" rx="4" stroke-width="1.2"/>
+  <text x="30" y="258" font-size="10.5" font-weight="bold" fill="#0B7A5C">Tier 1: Healthy Baselining</text>
+  <text x="30" y="272" font-size="8.5">• Kurtosis &lt; 3.0 · ISO vibration Class I</text>
+  <text x="30" y="284" font-size="8.5">• Estimated RUL &gt; 120 operating days</text>
+  <text x="30" y="296" font-size="8.5" font-weight="bold">Action: Automated Monitoring Log</text>
+  <text x="30" y="308" font-size="8" fill="#666">Continuous background digital audit</text>
+  <!-- Channel 2: Planned Condition-Based Servicing -->
+  <rect class="wash acc-s" x="225" y="242" width="190" height="76" rx="4" stroke-width="1.8"/>
+  <text class="t-display" x="235" y="258" font-size="10.5" fill="#D9720B">Tier 2: Opportunistic Servicing</text>
+  <text x="235" y="272" font-size="8.5">• High-frequency harmonic energy peak</text>
+  <text x="235" y="284" font-size="8.5">• Estimated RUL: 14 to 30 days window</text>
+  <text x="235" y="296" font-size="8.5" font-weight="bold">Action: Stage Spare Parts in ERP</text>
+  <text x="235" y="308" font-size="8" fill="#666">Schedule swap during planned turnaround</text>
+  <!-- Channel 3: Critical Work Order Escalation -->
+  <rect class="paper acc-s" x="430" y="242" width="190" height="76" rx="4" stroke-width="1.2"/>
+  <text x="440" y="258" font-size="10.5" font-weight="bold" fill="#B83A26">Tier 3: Critical Risk Intercept</text>
+  <text x="440" y="272" font-size="8">• Thermal runaway &amp; severe bearing gap</text>
+  <text x="440" y="284" font-size="8">• Estimated RUL &lt; 72 operational hours</text>
+  <text x="440" y="296" font-size="8.5" font-weight="bold">Action: Trigger SAP/Maximo Work Order</text>
+  <text x="440" y="308" font-size="8" fill="#666">Controlled shutdown prevents asset loss</text>
+</svg>

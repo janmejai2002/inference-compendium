@@ -1,0 +1,32 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Operations AI Casebook Taxonomy: Four strategic operations cases on the left, and four quantitative estimation models on the right.">
+  <text class="t-display" x="20" y="26" font-size="15">Four Strategic Operations Cases</text>
+  <text class="t-display" x="350" y="26" font-size="15">Four Quantitative Sizing Models</text>
+  <!-- Left: 4 Strategic Cases -->
+  <rect class="paper acc-s" x="20" y="42" width="300" height="46" rx="4" stroke-width="1.5"/>
+  <text x="32" y="60" font-size="10.5" font-weight="bold">1. Automotive OEM Predictive Maintenance</text>
+  <text x="32" y="75" font-size="8">42 weld robots, vibration FFT, downtime ₹1.8L/min</text>
+  <rect class="paper acc-s" x="20" y="94" width="300" height="46" rx="4" stroke-width="1.5"/>
+  <text x="32" y="112" font-size="10.5" font-weight="bold">2. Quick-Commerce Dark Store Micro-Picking</text>
+  <text x="32" y="127" font-size="8">1,200 SKUs, TSP picker routing, 8-minute dispatch</text>
+  <rect class="paper acc-s" x="20" y="146" width="300" height="46" rx="4" stroke-width="1.5"/>
+  <text x="32" y="164" font-size="10.5" font-weight="bold">3. Chemical Batch Reactor Yield Optimization</text>
+  <text x="32" y="179" font-size="8">Bayesian setpoint tuning, energy cut 14%, OEE gain</text>
+  <rect class="paper acc-s" x="20" y="198" width="300" height="46" rx="4" stroke-width="1.5"/>
+  <text x="32" y="216" font-size="10.5" font-weight="bold">4. Cold-Chain Pharmaceutical Logistics</text>
+  <text x="32" y="231" font-size="8">IoT temperature excursions, dynamic vaccine reroute</text>
+  <!-- Divider -->
+  <line class="rule-s" x1="335" x2="335" y1="20" y2="255" stroke-width="1"/>
+  <!-- Right: 4 Quantitative Sizing Models -->
+  <rect class="paper acc-s" x="350" y="42" width="270" height="46" rx="4" stroke-width="1.5"/>
+  <text x="362" y="60" font-size="10.5" font-weight="bold">Guesstimate 1: AMR Fleet Sizing</text>
+  <text x="362" y="75" font-size="8">150k picks/day, 400k sq ft FC, robot fleet size</text>
+  <rect class="paper acc-s" x="350" y="94" width="270" height="46" rx="4" stroke-width="1.5"/>
+  <text x="362" y="112" font-size="10.5" font-weight="bold">Guesstimate 2: Computer Vision AOI TCO</text>
+  <text x="362" y="127" font-size="8">Edge cameras ($12k) vs manual visual QC labor</text>
+  <rect class="paper acc-s" x="350" y="146" width="270" height="46" rx="4" stroke-width="1.5"/>
+  <text x="362" y="164" font-size="10.5" font-weight="bold">Guesstimate 3: MEIO Safety Stock Release</text>
+  <text x="362" y="179" font-size="8">Lead-time variance down 35%, ₹500 Cr inventory</text>
+  <rect class="wash acc-s" x="350" y="198" width="270" height="46" rx="4" stroke-width="2"/>
+  <text class="t-display" x="362" y="216" font-size="10.5">Guesstimate 4: Dynamic Dispatch Savings</text>
+  <text x="362" y="231" font-size="8">Dynamic clustering vs milk runs, fuel &amp; TAT</text>
+</svg>

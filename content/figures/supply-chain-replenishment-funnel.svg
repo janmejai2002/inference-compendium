@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Probabilistic Demand Sensing and Multi-Echelon Replenishment Funnel showing downstream signal ingestion, hierarchical transformers, MEIO safety stock optimization, and network replenishment execution.">
+  <!-- Title & Header -->
+  <text class="t-display" x="20" y="24" font-size="15">Probabilistic Demand Sensing &amp; Multi-Echelon Inventory Funnel</text>
+  <text x="20" y="38" font-size="8.5" fill="#666">Dampening the bullwhip effect via high-frequency exogenous signals and stochastic safety stock allocation</text>
+  <!-- Top Left: Downstream Signal Ingestion -->
+  <rect class="paper acc-s" x="20" y="46" width="290" height="94" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="32" y="64" font-size="11">1. High-Frequency Downstream Signals</text>
+  <text x="32" y="77" font-size="8" font-weight="bold">Real-time Telemetry: POS, footfalls, search, weather</text>
+  <text x="32" y="89" font-size="8">• Daily distributor secondary sales &amp; store stockouts</text>
+  <text x="32" y="101" font-size="8">• Hyper-local rainfall, temperature, and heatwave vectors</text>
+  <text x="32" y="113" font-size="8">• Regional festival calendars (Diwali, Eid, harvest seasons)</text>
+  <text x="32" y="126" font-size="7.5" fill="#666">Eliminates 30-day reporting lag of legacy ERP monthly batches</text>
+  <!-- Top Right: Probabilistic Time-Series Models -->
+  <rect class="paper acc-s" x="330" y="46" width="290" height="94" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="342" y="64" font-size="11">2. Hierarchical Time-Series Transformers</text>
+  <text x="342" y="77" font-size="8" font-weight="bold">Probabilistic Forecasting: Quantile prediction (P10, P50, P90)</text>
+  <text x="342" y="89" font-size="8">• Multi-horizon attention learning seasonal demand shocks</text>
+  <text x="342" y="101" font-size="8">• Cross-SKU cannibalization &amp; price-elasticity modeling</text>
+  <text x="342" y="113" font-size="8">• Dampens Forrester bullwhip distortion upstream</text>
+  <text x="342" y="126" font-size="7.5" fill="#666">Produces continuous probabilistic demand distributions</text>
+  <!-- Arrows to Central Core -->
+  <path d="M 165 140 L 165 152 M 161 148 L 165 153 L 169 148" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <path d="M 475 140 L 475 152 M 471 148 L 475 153 L 479 148" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <!-- Middle: MEIO & Logistics Optimization Core -->
+  <rect class="wash acc-s" x="20" y="154" width="600" height="72" rx="4" stroke-width="2"/>
+  <text class="t-display" x="32" y="172" font-size="12">3. Multi-Echelon Inventory Optimization (MEIO) &amp; Logistics Core</text>
+  <text x="32" y="188" font-size="9" font-weight="bold">Stochastic Safety Stocks</text>
+  <text x="32" y="200" font-size="8.5">SS = Z * sqrt(L * sigma_D^2 + D^2 * sigma_L^2)</text>
+  <text x="32" y="211" font-size="8.5">Jointly balances lead-time &amp; demand variance</text>
+  <text x="235" y="188" font-size="9" font-weight="bold">Network Decoupling Nodes</text>
+  <text x="235" y="200" font-size="8.5">Central Hub vs Mother Plant vs Dark Store</text>
+  <text x="235" y="211" font-size="8.5">Risk-pooling compresses network working capital</text>
+  <text x="440" y="188" font-size="9" font-weight="bold">PM GatiShakti Multi-Modal</text>
+  <text x="440" y="200" font-size="7.5">Rail vs highway freight switching</text>
+  <text x="440" y="211" font-size="7.5">IoT cold-chain thermal alerts</text>
+  <!-- Arrows to Execution Tiers -->
+  <path d="M 115 226 L 115 240 M 111 236 L 115 241 L 119 236" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <path d="M 320 226 L 320 240 M 316 236 L 320 241 L 324 236" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <path d="M 525 226 L 525 240 M 521 236 L 525 241 L 529 236" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <!-- Bottom: 3 Echelon Execution Channels -->
+  <!-- Echelon 1: Mother Plants -->
+  <rect class="paper acc-s" x="20" y="242" width="190" height="76" rx="4" stroke-width="1.2"/>
+  <text x="30" y="258" font-size="10.5" font-weight="bold" fill="#0B7A5C">Echelon 1: Mother Plant</text>
+  <text x="30" y="272" font-size="8.5">• Optimized batch campaigns &amp; EOQ</text>
+  <text x="30" y="284" font-size="8.5">• Smooth run rates; zero panic spikes</text>
+  <text x="30" y="296" font-size="8.5" font-weight="bold">Action: Automated Master Schedule</text>
+  <text x="30" y="308" font-size="8" fill="#666">Compresses raw material buffer stocks</text>
+  <!-- Echelon 2: Regional DCs -->
+  <rect class="wash acc-s" x="225" y="242" width="190" height="76" rx="4" stroke-width="1.8"/>
+  <text class="t-display" x="235" y="258" font-size="10.5" fill="#D9720B">Echelon 2: Regional Hubs</text>
+  <text x="235" y="272" font-size="8.5">• Dynamic cross-docking &amp; rebalancing</text>
+  <text x="235" y="284" font-size="8.5">• 48-hour forward buffer replenishment</text>
+  <text x="235" y="296" font-size="8.5" font-weight="bold">Action: Inter-DC Stock Balancing</text>
+  <text x="235" y="308" font-size="8" fill="#666">Eliminates regional stockout hoarding</text>
+  <!-- Echelon 3: Urban Dark Stores & Retail -->
+  <rect class="paper acc-s" x="430" y="242" width="190" height="76" rx="4" stroke-width="1.2"/>
+  <text x="440" y="258" font-size="10.5" font-weight="bold" fill="#2337E6">Echelon 3: Urban Dark Stores</text>
+  <text x="440" y="272" font-size="8">• Hyper-local stock replenishment cycles</text>
+  <text x="440" y="284" font-size="8">• Holding days compressed: 42 to 24 days</text>
+  <text x="440" y="296" font-size="8.5" font-weight="bold">Action: Continuous Auto-PO Trigger</text>
+  <text x="440" y="308" font-size="8" fill="#666">Sustains 98.5% on-shelf fill availability</text>
+</svg>

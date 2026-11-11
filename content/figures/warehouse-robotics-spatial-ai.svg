@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Warehouse Automation and Physical AI Architecture showing inbound unloading, AMR fleet swarm coordination, AOI inspection gates, and dark store micro-fulfillment staging.">
+  <!-- Title & Header -->
+  <text class="t-display" x="20" y="24" font-size="15">Warehouse Automation, Physical AI &amp; Spatial Coordination</text>
+  <text x="20" y="38" font-size="8.5" fill="#666">AMR swarm SLAM pathfinding, edge computer vision inspection, and dark store micro-fulfillment ergonomics</text>
+  <!-- Top Left: Inbound Unloading -->
+  <rect class="paper acc-s" x="20" y="46" width="290" height="94" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="32" y="64" font-size="11">1. Inbound Ingestion &amp; De-Palletizing</text>
+  <text x="32" y="77" font-size="8" font-weight="bold">Perception: 3D point-cloud cameras &amp; robotic articulation</text>
+  <text x="32" y="89" font-size="8">• Vision-guided robotic arms unpack mixed-SKU pallets</text>
+  <text x="32" y="101" font-size="8">• Dimensioning sensors scan carton volumetrics in 200ms</text>
+  <text x="32" y="113" font-size="8">• RFID &amp; high-speed barcode tunnel decoding</text>
+  <text x="32" y="126" font-size="7.5" fill="#666">Automated induction into dynamic warehouse inventory ledger</text>
+  <!-- Top Right: AMR Swarm Coordination -->
+  <rect class="paper acc-s" x="330" y="46" width="290" height="94" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="342" y="64" font-size="11">2. AMR Fleet Swarm &amp; Natural SLAM</text>
+  <text x="342" y="77" font-size="8" font-weight="bold">Kinematics: LiDAR odometry &amp; multi-agent routing</text>
+  <text x="342" y="89" font-size="8">• Simultaneous Localization and Mapping (SLAM) in 2D/3D</text>
+  <text x="342" y="101" font-size="7.5">• Conflict-free path reservations prevent gridlock</text>
+  <text x="342" y="113" font-size="8">• Dynamic pod transport lifting 1,000 kg shelving racks</text>
+  <text x="342" y="126" font-size="7.5" fill="#666">Eliminates fixed magnetic floor tape of legacy AGVs</text>
+  <!-- Arrows to Central Core -->
+  <path d="M 165 140 L 165 152 M 161 148 L 165 153 L 169 148" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <path d="M 475 140 L 475 152 M 471 148 L 475 153 L 479 148" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <!-- Middle: Physical AI & Quality Gate Core -->
+  <rect class="wash acc-s" x="20" y="154" width="600" height="72" rx="4" stroke-width="2"/>
+  <text class="t-display" x="32" y="172" font-size="12">3. Edge Computer Vision Quality Gate &amp; Spatial Coordination</text>
+  <text x="32" y="188" font-size="9" font-weight="bold">Automated Optical Inspection</text>
+  <text x="32" y="200" font-size="8.5">Line-scan cameras at 1,200 parts/min</text>
+  <text x="32" y="211" font-size="8.5">Sub-5ms inference detecting surface cracks</text>
+  <text x="235" y="188" font-size="9" font-weight="bold">Type I / Type II Error Tuning</text>
+  <text x="235" y="200" font-size="8.5">False scrap rate vs customer escape risk</text>
+  <text x="235" y="211" font-size="8.5">Calibrated loss functions on packaging lines</text>
+  <text x="440" y="188" font-size="9" font-weight="bold">Dynamic Pick-Path Optimization</text>
+  <text x="440" y="200" font-size="8.5">TSP heuristic routing for pickers</text>
+  <text x="440" y="211" font-size="8">Minimizes foot travel across dense aisles</text>
+  <!-- Arrows to Execution Tiers -->
+  <path d="M 115 226 L 115 240 M 111 236 L 115 241 L 119 236" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <path d="M 320 226 L 320 240 M 316 236 L 320 241 L 324 236" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <path d="M 525 226 L 525 240 M 521 236 L 525 241 L 529 236" stroke="currentColor" fill="none" stroke-width="1.4"/>
+  <!-- Bottom: 3 Operational Stations -->
+  <!-- Station 1: Large FC Goods-to-Person -->
+  <rect class="paper acc-s" x="20" y="242" width="190" height="76" rx="4" stroke-width="1.2"/>
+  <text x="30" y="258" font-size="10.5" font-weight="bold" fill="#0B7A5C">Station 1: Goods-to-Person</text>
+  <text x="30" y="272" font-size="8.5">• Pods delivered directly to pick station</text>
+  <text x="30" y="284" font-size="8.5">• Pick rate: 350 to 450 units/operator-hr</text>
+  <text x="30" y="296" font-size="8.5" font-weight="bold">Role: Central E-Commerce Hubs</text>
+  <text x="30" y="308" font-size="8" fill="#666">Eliminates 15 km daily worker walking</text>
+  <!-- Station 2: Urban Dark Store Picking -->
+  <rect class="wash acc-s" x="225" y="242" width="190" height="76" rx="4" stroke-width="1.8"/>
+  <text class="t-display" x="235" y="258" font-size="10.5" fill="#D9720B">Station 2: Dark Store Pick</text>
+  <text x="235" y="272" font-size="8.5">• Hyper-dense 3,000 sq ft urban floorplan</text>
+  <text x="235" y="284" font-size="8.5">• Sub-90 second pick &amp; bag turnaround</text>
+  <text x="235" y="296" font-size="8.5" font-weight="bold">Role: 10-Minute Quick Commerce</text>
+  <text x="235" y="308" font-size="8" fill="#666">Blinkit/Zepto micro-fulfillment pacing</text>
+  <!-- Station 3: Automated Outbound Dispatch -->
+  <rect class="paper acc-s" x="430" y="242" width="190" height="76" rx="4" stroke-width="1.2"/>
+  <text x="440" y="258" font-size="10.5" font-weight="bold" fill="#2337E6">Station 3: Quality Outbound</text>
+  <text x="440" y="272" font-size="8">• Dual-scale weigh-in-motion verification</text>
+  <text x="440" y="284" font-size="8">• Vision checks missing items &amp; seal gaps</text>
+  <text x="440" y="296" font-size="8.5" font-weight="bold">Role: Automated Dispatch Gate</text>
+  <text x="440" y="308" font-size="7.5" fill="#666">Zero packing errors; rapid staging</text>
+</svg>
