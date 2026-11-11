@@ -4,7 +4,7 @@ title: "Synthetic panels, MMM, and modern marketing measurement"
 deck: "LLMs as focus groups, algorithmic homophily traps, Bayesian Media Mix Modeling (Meridian & Robyn), and predictive customer lifetime value."
 level: Zero to one
 tracks: [marketing]
-status: draft
+status: published
 hook: "Can an artificial intelligence language model tell you whether a ₹49 sachet of anti-dandruff shampoo will sell in rural Bihar before you ship a single unit? Why are consumer brands rushing to replace human focus groups with silicon personas, and where does that simulation create catastrophic false confidence?"
 objectives:
   - "**Assess** the epistemic validity and algorithmic homophily failure modes of LLM-simulated consumer focus groups ('Homo silicus')."

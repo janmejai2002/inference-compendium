@@ -29,7 +29,7 @@ parts:
           - {title: AI Is Reshaping Jobs Faster Than Companies Are Reshaping Work, url: https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work, tier: B}
           - {title: 'Inside the AI Index: 12 Takeaways from the 2026 Report', url: https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report, tier: A}
           - {title: Large Language Models explained briefly, url: https://www.youtube.com/watch?v=LPZh9BOjkQs, tier: A}
-        status: draft
+        status: published
 
   - id: p1
     n: I
@@ -51,7 +51,7 @@ parts:
           - {title: 'RBI Statement on Developmental and Regulatory Policies, 6 Dec 2024 (MuleHunter.AI)', url: https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=59245, tier: A}
           - {title: 'RBI Governor keynote, Global Fintech Fest 2025', url: https://www.rbi.org.in/scripts/BS_SpeechesView.aspx?Id=1525, tier: A}
           - {title: 'The Simple Economics of Machine Intelligence (HBR, 2016)', url: https://hbr.org/2016/11/the-simple-economics-of-machine-intelligence, tier: B}
-        status: draft
+        status: published
       - id: next-word-machine
         title: A model predicts the next word
         deck: Next-token prediction, parameters and why scale matters; tokens and context as your first feel for cost.
@@ -67,7 +67,7 @@ parts:
           - {title: Scaling Laws for Neural Language Models, url: https://arxiv.org/abs/2001.08361, tier: A}
           - {title: Language Model Tokenizers Introduce Unfairness Between Languages, url: https://arxiv.org/abs/2305.15425, tier: A}
           - {title: Understanding and counting tokens, url: https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them, tier: A}
-        status: draft
+        status: published
       - id: confidently-wrong
         title: Why models are confidently wrong
         deck: Pretraining, fine-tuning and feedback explain both the fluency and the hallucinations. Bias enters here too.
@@ -83,7 +83,7 @@ parts:
           - {title: Intro to Large Language Models (Karpathy), url: https://www.youtube.com/watch?v=zjkBMFhNj_g, tier: A}
           - {title: Large Legal Fictions (Dahl et al.), url: https://arxiv.org/abs/2401.01301, tier: A}
           - {title: Indian-BhED (Khandelwal et al.), url: https://arxiv.org/abs/2309.08573, tier: A}
-        status: draft
+        status: published
       - id: delegation-brief
         title: A prompt is a delegation brief
         deck: Instructions, context, examples and iteration. A checklist you can trust, not a bag of tricks.
@@ -99,7 +99,7 @@ parts:
           - {title: Prompt design strategies (Google Gemini API), url: https://ai.google.dev/gemini-api/docs/prompting-strategies, tier: A}
           - {title: Prompting Science Report 3 (Wharton), url: https://arxiv.org/abs/2508.00614, tier: A}
           - {title: 'Lesson 7: Effective prompting techniques (Anthropic)', url: https://www.youtube.com/watch?v=2YCaBqP8muw, tier: A}
-        status: draft
+        status: published
       - id: your-documents
         title: Giving the model your documents
         deck: Retrieval and embeddings in plain words, why "ChatGPT on our data" is hard, and what leaks.
@@ -116,7 +116,7 @@ parts:
           - {title: Lost in the Middle (Liu et al.), url: https://arxiv.org/abs/2307.03172, tier: A}
           - {title: Samsung Bans Staff's AI Use After Spotting ChatGPT Data Leak (Bloomberg), url: https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak, tier: B}
           - {title: 'Digital Personal Data Protection Act, 2023 (MeitY)', url: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf, tier: A}
-        status: draft
+        status: published
       - id: models-that-act
         title: "Agents: models that act, and how they break"
         deck: Tools, multi-step work and failure rates; prompt injection and why an agent is a security question.
@@ -133,7 +133,7 @@ parts:
           - {title: LLM01:2025 Prompt Injection, url: https://genai.owasp.org/llmrisk/llm01-prompt-injection/, tier: B}
           - {title: The lethal trifecta for AI agents, url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/, tier: C}
           - {title: Mitigating the risk of prompt injections in browser use, url: https://www.anthropic.com/research/prompt-injection-defenses, tier: A}
-        status: draft
+        status: published
       - id: judging-output
         title: Judging AI output is the job now
         deck: Error rates, base rates, false positives and evals; a four-step protocol to prompt, review, challenge and decide.
@@ -150,7 +150,7 @@ parts:
           - {title: Demystifying evals for AI agents, url: https://anthropic.com/engineering/demystifying-evals-for-ai-agents, tier: A}
           - {title: Evaluation best practices (OpenAI), url: https://developers.openai.com/api/docs/guides/evaluation-best-practices, tier: A}
           - {title: Your AI Product Needs Evals (Hamel Husain), url: https://hamel.dev/blog/posts/evals/, tier: C}
-        status: draft
+        status: published
 
   - id: p2
     n: II
@@ -173,7 +173,7 @@ parts:
           - {title: 'AI Index Report 2026, Chapter 4: Economy', url: https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf, tier: A}
           - {title: 'Democratising AI in India (PIB, 10 Feb 2026)', url: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf, tier: A}
           - {title: Why Wall Street is Ignoring Big Tech's Debt (Patrick Boyle), url: https://www.youtube.com/watch?v=NufJ7g63KSY, tier: B}
-        status: draft
+        status: published
       - id: pilots-stall
         title: Why AI pilots stall
         deck: Most companies use AI and few see profit from it. The gap is change management and workflow redesign.
@@ -189,7 +189,7 @@ parts:
           - {title: AI Is Reshaping Jobs Faster Than Companies Are Reshaping Work, url: https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work, tier: B}
           - {title: 'MIT report: 95% of generative AI pilots at companies are failing (Fortune)', url: https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/, tier: B}
           - {title: India's AI shift from pilots to performance (EY-CII), url: https://www.ey.com/en_in/newsroom/2025/11/india-s-ai-shift-from-pilots-to-performance-47-percent-of-enterprises-have-multiple-ai-use-cases-live-in-production-ey-cii-report, tier: C}
-        status: draft
+        status: published
       - id: work-changes
         title: How the work changes
         deck: What the evidence on jobs says (a split, not a collapse), what shifts at entry level, and where India stands.
@@ -206,7 +206,7 @@ parts:
           - {title: Evaluating the Impact of AI on the Labor Market (Yale Budget Lab), url: https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs, tier: B}
           - {title: Future of Jobs Report 2025 (WEF press release), url: https://www.weforum.org/media/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces, tier: B}
           - {title: BCG AI at Work 2026, url: https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work, tier: B}
-        status: draft
+        status: published
 
   - id: p3
     n: III
@@ -228,7 +228,7 @@ parts:
           - {title: Is McKinsey losing its crown to AI? (The Economist), url: https://www.youtube.com/watch?v=QXAXNcRs7gQ, tier: B}
           - {title: BCG Reports $14.4 Billion in Revenue, url: https://www.bcg.com/press/23april2026-bcg-revenue-22nd-consecutive-year-growth, tier: B}
           - {title: Top consultancies freeze starting salaries as AI threatens pyramid model (FT), url: https://www.irishtimes.com/business/2025/12/01/top-consultancies-freeze-starting-salaries-as-ai-threatens-pyramid-model, tier: B}
-        status: draft
+        status: published
       - id: ai-casebook
         title: The INFERENCE AI casebook
         deck: Ten cases and ten guesstimates on AI due diligence, adoption, use-case mapping and sizing usage, each with a model answer.
@@ -246,7 +246,7 @@ parts:
           - {title: India Data Centre H1 2026 Update (Cushman & Wakefield), url: https://www.cushmanwakefield.com/en/india/news/2026/09/india-data-centre-h1-2026-update, tier: B}
           - {title: Claude API pricing, url: https://platform.claude.com/docs/en/about-claude/pricing, tier: A}
           - {title: ChatGPT Business pricing, url: https://openai.com/business/pricing/, tier: A}
-        status: draft
+        status: published
       - id: interview-room
         title: The interview room
         deck: Being screened by AI, AI-assisted case rounds, and the questions to expect with the shape of a strong answer.
@@ -261,7 +261,7 @@ parts:
           - {title: Responsible AI in hiring (BCG careers), url: https://careers.bcg.com/global/en/careers-in-ai/responsible-ai-in-hiring, tier: B}
           - {title: McKinsey AI-Assisted Interview Privacy Notice, url: https://www.mckinsey.com/ai-assisted-interview-privacy-notice, tier: B}
           - {title: Where McKinsey and Consulting Go From Here (HBR IdeaCast 1060), url: https://hbr.org/podcast/2026/01/where-mckinsey-and-consulting-go-from-here, tier: B}
-        status: draft
+        status: published
 
   - id: p4
     n: IV
@@ -274,25 +274,25 @@ parts:
         deck: "Virtual studios, localized video across 22 Indic languages, the collapse of digital asset marginal cost, and the agency retainer model."
         tracks: [marketing]
         prereq: [next-word-machine, kinds-of-ai]
-        status: draft
+        status: published
       - id: synthetic-audiences-and-attribution
         title: "Synthetic panels, MMM, and modern marketing measurement"
         deck: "LLMs as focus groups, algorithmic homophily traps, Bayesian Media Mix Modeling (Meridian & Robyn), and predictive customer lifetime value."
         tracks: [marketing]
         prereq: [judging-output, creative-at-scale]
-        status: draft
+        status: published
       - id: brand-safety-boundary
         title: "The brand safety boundary: hallucinations, IP, and consumer trust"
         deck: "Trademark liabilities, toxic synthetic outputs, deepfake brand hijacking, ASCI regulatory guidelines, and consumer backlash."
         tracks: [marketing]
         prereq: [confidently-wrong, judging-output]
-        status: draft
+        status: published
       - id: marketing-casebook
         title: "The Marketing AI casebook & interview room"
         deck: "Eight end-to-end marketing cases and estimation problems across FMCG, D2C, E-commerce, and Quick-Commerce, each with a model answer."
         tracks: [marketing]
         prereq: [creative-at-scale, synthetic-audiences-and-attribution, brand-safety-boundary]
-        status: draft
+        status: published
 
   - id: p5
     n: V
@@ -305,25 +305,25 @@ parts:
         deck: "Why product requirement documents fail for stochastic systems, how golden evaluation suites become living product contracts, LLM-as-a-judge calibration, and managing model drift in production."
         tracks: [product]
         prereq: [judging-output]
-        status: draft
+        status: published
       - id: product-architecture-economics
         title: "Product architecture and economics: latency budgets, caching, and routing"
         deck: "The technical trade-offs behind responsive AI products: dissecting TTFT and TPS, prompt caching economics, cascade routing topologies, and the strategic build-versus-buy frontier."
         tracks: [product, strategy]
         prereq: [next-word-machine, who-pays]
-        status: draft
+        status: published
       - id: agentic-ux-and-interfaces
         title: "Agentic UX: ambient HUDs, canvas workspaces, and human-in-the-loop"
         deck: "Transcending the chat bubble: proactive agentic assistance, collaborative canvas architectures, cognitive ergonomics, and designing trusted human-in-the-loop control loops."
         tracks: [product]
         prereq: [models-that-act]
-        status: draft
+        status: published
       - id: product-casebook
         title: "The Product AI casebook & interview room"
         deck: "Eight fully-worked quantitative PM cases and estimation problems covering context caching ROI, cascade routing economics, eval harness calibration, agentic latency budgets, and build-vs-buy TCO."
         tracks: [product]
         prereq: [ai-product-lifecycle, product-architecture-economics, agentic-ux-and-interfaces]
-        status: draft
+        status: published
 
   - id: p6
     n: VI
@@ -336,25 +336,25 @@ parts:
         deck: "Why a 50 bps reduction in credit default rates pays for a bank's entire AI stack: Basel III/IV capital adequacy, IFRS 9 expected credit loss, explainability versus accuracy (SHAP/LIME), and unstructured document underwriting."
         tracks: [finance]
         prereq: [kinds-of-ai, your-documents]
-        status: draft
+        status: published
       - id: financial-copilots-and-deal-diligence
         title: "GenAI in high-stakes finance: FP&A, deal diligence, and autonomous copilots"
         deck: "Zero tolerance for hallucination in corporate finance: automated spreading in Virtual Data Rooms, deterministic tool-calling sandboxes, auditing earnings calls, and AI-assisted LBO/DCF financial modeling."
         tracks: [finance, strategy]
         prereq: [delegation-brief, judging-output]
-        status: draft
+        status: published
       - id: financial-crime-fraud-and-rbi-free-ai
         title: "Financial crime, fraud, and the regulatory boundary: RBI FREE-AI, AML, and explainability"
         deck: "Mule accounts and real-time transaction laundering on UPI, the base rate fallacy in fraud alerts, RBI FREE-AI governance principles, SEBI algorithmic trading safeguards, and DPDP financial data sovereignty."
         tracks: [finance]
         prereq: [judging-output, models-that-act]
-        status: draft
+        status: published
       - id: finance-casebook
         title: "The Finance AI casebook & interview room"
         deck: "Eight fully-worked quantitative finance cases and estimation problems covering SME credit scoring ROI, PE buyout due diligence, retail robo-advisory economics, AML false-positive optimization, and private banking cloud capex."
         tracks: [finance]
         prereq: [algorithmic-underwriting-and-credit-risk, financial-copilots-and-deal-diligence, financial-crime-fraud-and-rbi-free-ai]
-        status: draft
+        status: published
 
   - id: p7
     n: VII
@@ -377,7 +377,7 @@ parts:
           - {title: Introducing Claude Fable 5.1 and Claude Mythos 5.1, url: https://www.anthropic.com/claude-fable-and-mythos-5-1, tier: A}
           - {title: 'Gemini 4 Argon: Built to solve your hardest problems', url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/, tier: A}
           - {title: 'Inside the AI Index: 12 Takeaways from the 2026 Report', url: https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report, tier: A}
-        status: draft
+        status: published
       - id: india-briefing
         n: B
         title: India briefing
@@ -394,4 +394,4 @@ parts:
           - {title: India AI Governance Guidelines, url: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf, tier: A}
           - {title: Cabinet Approves IndiaAI Mission, url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012355, tier: A}
           - {title: 'India Country Brief: The Anthropic Economic Index', url: https://www.anthropic.com/research/india-brief-economic-index, tier: A}
-        status: draft
+        status: published

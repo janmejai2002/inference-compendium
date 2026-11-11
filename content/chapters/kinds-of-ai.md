@@ -4,7 +4,7 @@ title: Not all AI is ChatGPT
 deck: Predictive models and generative models solve different business problems. Pick the wrong one and the project fails before it starts.
 level: Zero to one
 tracks: [foundations, consulting]
-status: draft
+status: published
 hook: "A lender's credit head says: \"We have bought an enterprise ChatGPT licence. Let's use it to decide who gets a loan.\" Before you open a single spreadsheet, what is wrong with that plan?"
 objectives:
   - "**Distinguish** rules, predictive models and generative models by what each one outputs."
