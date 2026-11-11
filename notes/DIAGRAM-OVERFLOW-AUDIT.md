@@ -51,12 +51,15 @@ The automated render audit discovered that **18 of the 26 architectural diagrams
 
 ---
 
-## Action Plan for the New Chat
+## Status & Verification
 
-1. **Step 1:** Add `overflow: hidden;` to `.fig-art svg` in [`design/components.css`](file:///C:/Users/Janmejai/compendium/design/components.css).
-2. **Step 2 (Batches of 3):** Execute surgical text-wrapping and font-size calibrations on the 18 SVG files in numerical order:
-   - *Batch A (Foundations & Consulting):* Items 1–7 (`models-that-act`, `judging-output`, `who-pays`, `pilots-stall`, `consulting-firm`, `ai-casebook`, `interview-room`).
-   - *Batch B (Marketing & Product):* Items 8–14 (`creative-at-scale`, `synthetic-audiences`, `marketing-casebook`, `ai-product-lifecycle`, `product-architecture-economics`, `agentic-ux`, `product-casebook`).
-   - *Batch C (Finance & Banking):* Items 15–18 (`credit-underwriting`, `financial-copilot`, `aml-fraud-detection`, `finance-casebook`).
-3. **Step 3:** Re-run `node test/inspect_figures.mjs` to verify **0 overflowing elements remain across all 26 diagrams**.
-4. **Step 4:** Re-generate the clean release PDF via `npm run pdf`.
+- **Commit `81939f8`:** Completed Items 1 through 7 (`models-that-act`, `judging-output`, `who-pays`, `pilots-stall`, `consulting-firm`, `ai-casebook`, `interview-room`).
+- **Current Session:**
+  - Added `overflow: hidden;` to `.fig-art svg, .fig-art img` in `design/components.css`.
+  - Completed surgical fixes for Items 8 through 18 (`creative-scale-pipeline`, `mmm-attribution-pyramid`, `marketing-casebook-taxonomy`, `ai-product-lifecycle`, `product-architecture-economics`, `agentic-ux-and-interfaces`, `product-casebook`, `credit-underwriting-stack`, `financial-copilot-architecture`, `aml-fraud-detection-funnel`, `finance-casebook-taxonomy`).
+  - Audited using Playwright (`node test/inspect_figures.mjs`):
+    ```
+    Audited 26 figures across all pages.
+    Figures with text overflowing SVG boundary: 0
+    ```
+  - **Result:** 0 overflows remaining across all 26 figures in the compendium.

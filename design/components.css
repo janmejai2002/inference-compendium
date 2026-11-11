@@ -348,7 +348,7 @@ a.term { color: inherit; }
 /* ---------- Figures ---------- */
 .fig { margin: 1.8em 0; break-inside: avoid; }
 .fig-art { background: var(--paper); }
-.fig-art svg, .fig-art img { display: block; width: 100%; height: auto; }
+.fig-art svg, .fig-art img { display: block; width: 100%; height: auto; overflow: hidden; }
 .fig figcaption { margin-top: .7em; font-family: var(--f-text); font-size: var(--s-small); line-height: 1.4; color: var(--ink-2); max-width: 34rem; }
 .fig-n { font-family: var(--f-display); font-stretch: 110%; font-weight: 750; font-size: .85em; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); margin-right: .5em; }
 .fig-src { display: block; margin-top: .25em; font-family: var(--f-mono); font-size: .85em; color: var(--ink-3); }

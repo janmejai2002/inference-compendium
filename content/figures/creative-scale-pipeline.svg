@@ -54,19 +54,19 @@
   <!-- Feedback / Wearout loop -->
   <polyline class="ink-s" points="575,96 575,138 200,138 200,98" fill="none" stroke-width="1.2" stroke-dasharray="4 3"/>
   <polygon class="ink" points="200,96 196,102 204,102"/>
-  <text x="387" y="132" text-anchor="middle" font-size="9.5" class="ink">Performance signal feedback (CTR decay &amp; creative fatigue trigger automated refresh)</text>
+  <text x="387" y="132" text-anchor="middle" font-size="8.5" class="ink">Performance feedback (CTR decay &amp; fatigue trigger automated refresh)</text>
 
   <!-- Explanatory footer rule -->
   <line class="rule-s" x1="20" x2="623" y1="162" y2="162" stroke-width="1"/>
-  <circle class="mk" cx="30" cy="180" r="8"/>
-  <text x="30" y="183" text-anchor="middle" font-size="10" class="ink">1</text>
-  <text x="45" y="183" font-size="10" class="ink">Single master 3D mesh cuts studio reshoots</text>
+  <circle class="mk" cx="28" cy="180" r="8"/>
+  <text x="28" y="183" text-anchor="middle" font-size="9" class="ink">1</text>
+  <text x="42" y="183" font-size="8.5" class="ink">Master 3D mesh cuts reshoots</text>
 
-  <circle class="mk" cx="240" cy="180" r="8"/>
-  <text x="240" y="183" text-anchor="middle" font-size="10" class="ink">2</text>
-  <text x="255" y="183" font-size="10" class="ink">Regional TTS replaces voice talent</text>
+  <circle class="mk" cx="225" cy="180" r="8"/>
+  <text x="225" y="183" text-anchor="middle" font-size="9" class="ink">2</text>
+  <text x="239" y="183" font-size="8.5" class="ink">Regional TTS replaces voice talent</text>
 
-  <circle class="mk" cx="445" cy="180" r="8"/>
-  <text x="445" y="183" text-anchor="middle" font-size="10" class="ink">3</text>
-  <text x="460" y="183" font-size="10" class="ink">Selection bottleneck at ad auction</text>
+  <circle class="mk" cx="430" cy="180" r="8"/>
+  <text x="430" y="183" text-anchor="middle" font-size="9" class="ink">3</text>
+  <text x="444" y="183" font-size="8.5" class="ink">Bottleneck moves to ad auction</text>
 </svg>

@@ -10,13 +10,13 @@
 
   <rect class="paper acc-s" x="20" y="106" width="305" height="60" rx="4" stroke-width="1.5"/>
   <text x="32" y="124" font-size="10.5" font-weight="bold">2. FinTech Multi-Tier Cascade Routing</text>
-  <text x="32" y="140" font-size="8.8">10M queries/mo · Cache (42%) → 8B SLM (43%) → Frontier (15%)</text>
+  <text x="32" y="140" font-size="8.2">10M queries/mo · Cache (42%) &rarr; SLM (43%) &rarr; Frontier (15%)</text>
   <text x="32" y="154" font-size="8.2" fill="#555">₹8.50Cr → ₹1.45Cr (-82.9%) · Latency 2,100ms → 400ms</text>
 
   <rect class="paper acc-s" x="20" y="174" width="305" height="60" rx="4" stroke-width="1.5"/>
   <text x="32" y="192" font-size="10.5" font-weight="bold">3. LegalTech Prompt Caching vs. RAG</text>
   <text x="32" y="208" font-size="8.8">120k token contracts · Q*=2 break-even query velocity</text>
-  <text x="32" y="222" font-size="8.2" fill="#555">TTFT 7.2s → 650ms · 14.3x risk-adjusted cost advantage</text>
+  <text x="32" y="222" font-size="8" fill="#555">TTFT 7.2s &rarr; 650ms · 14.3x risk-adjusted cost edge</text>
 
   <rect class="paper acc-s" x="20" y="242" width="305" height="60" rx="4" stroke-width="1.5"/>
   <text x="32" y="260" font-size="10.5" font-weight="bold">4. Human-in-the-Loop Escalation Gates</text>
@@ -29,7 +29,7 @@
   <!-- Right: 4 Quantitative Sizing Models -->
   <rect class="paper acc-s" x="345" y="38" width="275" height="60" rx="4" stroke-width="1.5"/>
   <text x="357" y="56" font-size="10.5" font-weight="bold">Sizing 1: Agent Latency Budgeting</text>
-  <text x="357" y="72" font-size="8.8">Card-Moran-Newell 1.0s flow · Speculative decode 160 TPS</text>
+  <text x="357" y="72" font-size="8.2">Card-Moran-Newell 1.0s · Speculative 160 TPS</text>
   <text x="357" y="86" font-size="8.2" fill="#555">TTFT 280ms · Turnaround 20.0s → 1.8s (91% drop)</text>
 
   <rect class="paper acc-s" x="345" y="106" width="275" height="60" rx="4" stroke-width="1.5"/>
@@ -40,7 +40,7 @@
   <rect class="paper acc-s" x="345" y="174" width="275" height="60" rx="4" stroke-width="1.5"/>
   <text x="357" y="192" font-size="10.5" font-weight="bold">Sizing 3: Synthetic Data vs. Human Labels</text>
   <text x="357" y="208" font-size="8.8">50k records · 65% yield + 5% human audit panel</text>
-  <text x="357" y="222" font-size="8.2" fill="#555">₹9.07L in 48h vs. ₹32.09L in 10.4 wks (71.8% savings)</text>
+  <text x="357" y="222" font-size="8" fill="#555">&#8377;9.07L (48h) vs. &#8377;32.09L (10 wks) (72% saved)</text>
 
   <rect class="wash acc-s" x="345" y="242" width="275" height="60" rx="4" stroke-width="2"/>
   <text class="t-display" x="357" y="260" font-size="10.5" font-weight="bold">Sizing 4: TCO GPU Cluster Crossover</text>
