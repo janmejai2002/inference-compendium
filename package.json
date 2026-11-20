@@ -11,6 +11,8 @@
     "proof:bw": "node scripts/build.mjs && node scripts/pdf.mjs --bw",
     "browser:setup": "node scripts/browser-setup.mjs",
     "check": "node scripts/check.mjs",
+    "check:seo": "node test/seo-check.mjs",
+    "og": "node scripts/og-image.mjs",
     "check:links": "node scripts/check.mjs --links",
     "status": "node scripts/status.mjs",
     "new": "node scripts/new-chapter.mjs"

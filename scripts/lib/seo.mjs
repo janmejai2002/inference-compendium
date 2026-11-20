@@ -66,7 +66,7 @@ export function bookLd(ctx) {
     '@context': 'https://schema.org', '@type': 'Book', '@id': absUrl(book) + '#book',
     name: book.title, alternativeHeadline: book.subtitle, description: book.back_blurb, url: absUrl(book),
     author: authorsLd(book), bookEdition: book.edition, inLanguage: 'en', isAccessibleForFree: true,
-    license: book.seo?.license_url, image: absUrl(book, OG_IMAGE),
+    ...(book.seo?.license_url ? { license: book.seo.license_url } : {}), image: absUrl(book, OG_IMAGE),
     hasPart: ctx.chapters.filter((c) => c.file).map((c) => ({ '@type': 'Chapter', name: c.title, url: absUrl(book, `ch/${c.id}.html`) })),
   };
 }
