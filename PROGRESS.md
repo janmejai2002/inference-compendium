@@ -19,3 +19,9 @@
   - ai-in-hiring.md: Rewrote line 288 as Illustrative industry response without 'report'; rewrote recap line 445 as a recommendation; corrected hook from 'rejected every CV' to 'penalized resumes containing the word "women\'s"'.
   - Removed all 33 em-dash asides across prose in all 4 HR chapters per CLAUDE.md rule 6 (left table cells alone).
   - Verification: npm run check -> 0 errors, 17 warnings. Updated REPORT.md.
+- 2026-11-23: Third review pass complete (TASK-a3d5590daa99).
+  - ai-in-hiring.md: Labeled lede scene illustrative, dropped 3 lakh headcount and unsourced 1.5L hours math; cited NYC LL144 statutory daily penalties ($500-$1,500) under [@nyc-dcwp-local-law-144].
+  - hr-copilots-and-people-analytics.md: Made ₹400 ticket cost explicitly hypothetical ('say ₹400 per ticket'); removed unsourced 15-20 hours review cycle figure; tied ₹2.4 crore saving to illustrative bank; cited ₹250 crore penalty with [@pib-dpdp-rules-2025].
+  - workforce-planning-and-skills.md: Labeled practice problem and interview prompt as illustrative.
+  - hr-casebook.md: Labeled Part I cases and Part II guesstimates as illustrative scenarios for interview practice; rephrased ₹4,50,000 fraud ROI context as an illustrative estimate.
+  - Verification: npm run check (0 errors, 17 warnings), inspect_figures (34 figures, 0 overflows). Updated REPORT.md.

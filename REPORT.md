@@ -110,3 +110,36 @@ Total words across HR Track: **16,044 words**.
 ```text
 check: 0 errors, 17 warnings
 ```
+
+
+---
+
+## 7. Summary of Changes in Third Review Pass (TASK-a3d5590daa99)
+
+| Item | Chapter & Location | Original Claim / Issue | Remediation Applied |
+|---|---|---|---|
+| **1** | `ai-in-hiring.md` (line ~16, lede) | 'Tier-1 Indian IT services major employing over three lakh' scene read as a real firm and real numbers. | Labeled scene illustrative in the text (*"Picture a large Indian IT services firm where the graduate intake funnel is staggering: an illustrative annual drive might receive upwards of 1,50,000 applications..."*), dropped the headcount ("over three lakh professionals"), and replaced the unsourced 1,50,000 recruiter hours calculation with *"thousands of recruiter hours, creating an overwhelming operational bottleneck"*. |
+| **2** | `hr-copilots-and-people-analytics.md` (line ~88) | 'managers spend an average of fifteen to twenty hours per review cycle' had no citation. | Removed the unsourced figure; rephrased as: *"In large enterprises, managers spend substantial time each review cycle writing qualitative evaluations for direct reports."* |
+| **3** | `hr-copilots-and-people-analytics.md` (line ~79) | ₹400 ticket cost was stated as an unreferenced fact. | Made explicitly hypothetical: *"traded a visible ticket cost (say ₹400 per ticket) for invisible, catastrophic employee turnover and disengagement."* |
+| **4** | `hr-copilots-and-people-analytics.md` (line ~219) | 'Deflecting 60% of 75,000 monthly tickets at an Indian bank saves over ₹2.4 crore...' sat outside the Illustrative case box without clear connection. | Explicitly anchored to the case box: *"In the illustrative bank above, deflecting 60% of 75,000 monthly tickets saves over ₹2.4 crore annually in outsourced shared-services contractor costs..."* |
+| **5** | `hr-copilots-and-people-analytics.md` (lines 149 & 273) | ₹250 crore statutory penalty under the DPDP Act 2023 was cited at the section level but not on the penalty clause. | Attached direct statutory citation `[@pib-dpdp-rules-2025]` referencing Section 33 penalties up to ₹250 crore. |
+| **6** | `ai-in-hiring.md` (line 256) | Published audit table could be mistaken for real empirical corporate data. | Labeled explicitly: *"Consider an illustrative published summary:"*. |
+| **7** | `ai-in-hiring.md` (line 355) | $500 to $1,500 daily penalties under NYC LL144 lacked direct statutory pin. | Attached direct citation to NYC Admin Code § 20-872 under `[@nyc-dcwp-local-law-144]`. |
+| **8** | `workforce-planning-and-skills.md` (lines 254, 294, 302) | Practice interview questions and check-yourself scenarios contained specific headcount and rupee figures outside cases. | Prefaced with explicit illustrative markers: *"an illustrative 30,000-person financial services back-office"*, *"Consider an illustrative case: an insurance firm employs 500 claims processors..."*, and *"In this illustrative calculation: ..."*. |
+| **9** | `hr-casebook.md` (lines 44, 265, 309, 409, 511) | Case prompts, guesstimates, and fraud ROI context contained figures that could read as unverified industry statistics. | Added explicit editorial guidance notes under Part I and Part II headers: *"All cases in this chapter are illustrative business problem scenarios designed for management interview preparation"* and *"All market sizes, cost structures, and headcount figures in these guesstimates are illustrative baseline parameters"*; relabeled Step 1 to *"Base Parameters (Illustrative Enterprise Profile)"*; and reworded Step 4 ROI context as *"In this illustrative estimation, if an un-caught fraudulent recruit costs an enterprise an estimated ₹4,50,000..."*. |
+
+### Final Chapter Word Counts (Chapters 30–33)
+
+Output from `node scripts/status.mjs`:
+```text
+#   id                          status      track        words  min  media
+30  ai-in-hiring                published   hr           3126   14   2
+31  workforce-planning-and-skillpublished   hr           4064   18   2
+32  hr-copilots-and-people-analypublished   hr           3711   17   2
+33  hr-casebook                 published   hr           5170   24   1
+```
+Total HR Track Words: **16,071 words**.
+
+### Final Verification Results
+- `npm run check`: **0 errors, 17 warnings**
+- `node test/inspect_figures.mjs`: **Audited 34 figures across all pages. Figures with text overflowing SVG boundary: 0**

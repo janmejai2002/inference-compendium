@@ -13,7 +13,7 @@ objectives:
   - "**Formulate** defensive talent acquisition strategies against generative AI resume gaming and candidate-side copilots."
 ---
 
-Every autumn across Indian engineering colleges and business schools, the campus recruitment engine kicks into gear. At a Tier-1 Indian IT services major employing over three lakh professionals, the graduate intake funnel is staggering. A single campus drive receives upwards of 1,50,000 applications for roughly 3,000 entry-level software engineering and analyst positions. For human talent acquisition teams, reviewing this volume manually is an arithmetic impossibility. A seasoned recruiter takes between forty-five seconds and two minutes to skim a single resume for pedigree, grade point average, programming proficiencies, and project experience. Processing 1,50,000 resumes by hand would consume 1,50,000 recruiter hours, the equivalent of seventy-five full-time recruiters working uninterrupted for an entire calendar year just to build the initial interview shortlist.
+Every autumn across Indian engineering colleges and business schools, the campus recruitment engine kicks into gear. Picture a large Indian IT services firm where the graduate intake funnel is staggering: an illustrative annual drive might receive upwards of 1,50,000 applications for roughly 3,000 entry-level software engineering and analyst positions. For human talent acquisition teams, reviewing this volume manually is an arithmetic impossibility. A seasoned recruiter takes between forty-five seconds and two minutes to skim a single resume for pedigree, grade point average, programming proficiencies, and project experience. Processing 1,50,000 resumes by hand would consume thousands of recruiter hours, creating an overwhelming operational bottleneck just to build the initial interview shortlist.
 
 Under this operational pressure, enterprise talent acquisition turned decisively to automation. First came basic Boolean keyword filters inside Applicant Tracking Systems (ATS). Then came natural language processing (NLP) resume parsers. Today, enterprises deploy deep learning rankers, semantic embedding models, and automated video-interview analyzers designed to compress weeks of candidate triage into seconds. A candidate uploads a portable document file; an inference pipeline tokenizes the text, extracts named entities, computes semantic cosine similarity against historical top performers, and assigns a percentile score from 1 to 100.
 
@@ -253,7 +253,7 @@ Effective July 2023 and enforced by the Department of Consumer and Worker Protec
     The Impact Ratio is then computed as $\frac{\text{Scoring Rate}_{\text{group}}}{\text{Scoring Rate}_{\text{highest}}}$.
 
 #### The Anatomy of an NYC Local Law 144 Published Audit Summary
-Under Title 6 RCNY § 5-300, employers must publish a standardized audit table on the public careers section of their website:
+Under Title 6 RCNY § 5-300, employers must publish a standardized audit table on the public careers section of their website. Consider an illustrative published summary:
 
 | EEO Demographic Category | Total Applicants ($N$) | Candidates Selected / Above Median ($S$) | Selection / Scoring Rate | Adverse Impact Ratio ($AIR$) |
 |---|---|---|---|---|
@@ -375,7 +375,7 @@ Product managers designing HR technology platforms must architect bias audits in
 :::
 
 ::: lens finance
-From a corporate risk perspective, deploying un-audited algorithmic screening tools introduces severe material liabilities: Title VII class-action lawsuits, statutory daily fines under NYC LL144 ($500 to $1,500 per violation per day), and massive brand devaluation. Chief Financial Officers now treat talent algorithms as enterprise operational risks requiring independent verification.
+From a corporate risk perspective, deploying un-audited algorithmic screening tools introduces severe material liabilities: Title VII class-action lawsuits, statutory daily fines under NYC LL144 ($500 to $1,500 per violation per day under NYC Admin Code § 20-872 [@nyc-dcwp-local-law-144]), and massive brand devaluation. Chief Financial Officers now treat talent algorithms as enterprise operational risks requiring independent verification.
 :::
 
 ::: interview Evaluating AI screening vendors in an executive interview
