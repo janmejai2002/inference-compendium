@@ -5,7 +5,7 @@ deck: "HR helpdesk agents and deflection, AI-drafted performance reviews and cal
 level: Zero to one
 tracks: [hr]
 prereq: [models-that-act, judging-output]
-hook: "Why an enterprise HR bot boasting a 90% deflection rate caused an employee revolt—and how multinational firms separate legitimate people analytics from illegal workplace surveillance."
+hook: "Why an illustrative enterprise HR bot boasting a 90% deflection rate caused an employee revolt—and how multinational firms separate legitimate people analytics from illegal workplace surveillance."
 objectives:
   - "**Architect** an enterprise HR retrieval-augmented generation (RAG) helpdesk copilot with deterministic trust boundaries."
   - "**Analyze** linguistic and gender disparities in AI-drafted performance reviews using empirical research from Stanford."
@@ -13,13 +13,13 @@ objectives:
   - "**Design** an escalation governance matrix balancing automated ticket deflection against psychological safety and human empathy."
 ---
 
-Inside the headquarters of a global financial institution, the Human Resources executive committee gathered to celebrate what looked like an operational triumph. Three months earlier, the bank had deployed an enterprise conversational AI agent across its internal portal to handle employee inquiries regarding benefits, parental leave, expense claims, and workplace policies. The vendor's dashboard displayed an astonishing figure: a 92% [[deflection-rate|deflection rate]]. More than nine out of every ten employee inquiries were being resolved by the language model without requiring a human HR representative to open a ticket. On paper, operational efficiency had surged, and the shared services cost-per-ticket had collapsed from ₹450 to less than ₹12.
+Consider an illustrative scenario at a global financial institution: the Human Resources executive committee gathered to celebrate what looked like an operational triumph. Three months earlier, the bank had deployed an enterprise conversational AI agent across its internal portal to handle employee inquiries regarding benefits, parental leave, expense claims, and workplace policies. The vendor's dashboard displayed an astonishing figure: a 92% [[deflection-rate|deflection rate]]. More than nine out of every ten employee inquiries were being resolved by the language model without requiring a human HR representative to open a ticket. On paper, operational efficiency had surged, and the shared services cost-per-ticket had collapsed from ₹450 to less than ₹12.
 
-Three weeks later, the annual employee engagement survey results arrived. The Net Promoter Score for the Human Resources function had suffered the steepest collapse in corporate history, plunging by thirty-four points.
+Three weeks later, the annual employee engagement survey results arrived. The Net Promoter Score for the Human Resources function had suffered the steepest collapse in the firm's history, plunging by thirty-four points.
 
 The internal investigation revealed why. The 92% deflection rate was not an index of employee satisfaction; it was an index of employee exhaustion. When staff members reached out with complex, urgent, or emotionally charged questions—such as an employee seeking clarification on emergency medical coverage for a critically ill dependent, or a manager navigating an agonizing performance dispute—the chatbot responded with polite, circular summaries quoting dense, thirty-page PDF policy handbooks. Crucially, the vendor had deliberately concealed the "Speak to a Human HR Specialist" button behind three sub-menus to artificially suppress ticket creation. Employees did not have their problems solved; they simply closed the chat window in disgust and walked away.
 
-The incident illustrates the fundamental paradox of enterprise HR technology. ==The employee data that lets HR answer a question in seconds is the same data that lets a manager watch someone all day; trust, not capability, sets the limit.== Unlike customer service, where a dissatisfied consumer can take their business to a competitor, an employee interacts with HR under conditions of structural dependence. When an organization delegates human vulnerability to an unconstrained token generator or transforms workplace telemetry into punitive surveillance, it strikes directly at the psychological contract that binds an employee to the firm.
+This illustrative scenario captures the fundamental paradox of enterprise HR technology. ==The employee data that lets HR answer a question in seconds is the same data that lets a manager watch someone all day; trust, not capability, sets the limit.== Unlike customer service, where a dissatisfied consumer can take their business to a competitor, an employee interacts with HR under conditions of structural dependence. When an organization delegates human vulnerability to an unconstrained token generator or transforms workplace telemetry into punitive surveillance, it strikes directly at the psychological contract that binds an employee to the firm.
 
 ## The HR helpdesk copilot: RAG architecture and the deflection trap
 
@@ -141,7 +141,7 @@ Enterprise people analytics operates under strict legal boundaries:
 ### 1. EU AI Act Ban on Workplace Emotion Recognition
 Under Article 5(1)(f) of Regulation (EU) 2024/1689, the European Union enacts an outright, unconditional ban on AI systems that infer emotions of natural persons in workplace and educational environments [@eu-ai-act-annex-iii-employment]:
 - **Statutory Scope:** Deploying facial recognition software to detect "frustration" or "focus" on video calls, acoustic speech analyzers to measure employee "stress," or text algorithms that assign emotional states to worker communications is illegal across all EU member states.
-- **Enforcement Timeline:** Prohibited practices apply as of February 2025. Non-compliance carries severe administrative fines up to €35 million or 7% of total worldwide annual turnover.
+- **Enforcement Timeline and Penalties:** Prohibitions on emotion recognition apply as of 2 February 2025 under Article 113(b) of Regulation (EU) 2024/1689 [@eu-ai-act-annex-iii-employment]. Non-compliance with prohibited AI practices carries administrative fines up to €35 million or 7% of total worldwide annual turnover under Article 99(3) [@eu-ai-act-annex-iii-employment].
 
 ### 2. India's Digital Personal Data Protection Act 2023 (DPDP Act)
 In India, employee data processing must satisfy the mandates of the DPDP Act 2023 [@pib-dpdp-rules-2025]:

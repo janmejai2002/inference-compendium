@@ -32,10 +32,10 @@ In their seminal empirical study on labor market exposure, Eloundou, Manning, Mi
 
 $$\alpha = \begin{cases} 1 & \text{if access to an LLM reduces task completion time by } \ge 50\% \text{ without quality degradation} \\ 0 & \text{otherwise} \end{cases}$$
 
-Evaluating all 19,261 O*NET task statements, Eloundou et al. discovered:
-- Approximately **80% of the U.S. workforce** belongs to occupations where at least 10% of work tasks have direct AI exposure ($\alpha = 1$).
-- **19% of workers** belong to occupations where at least 50% of tasks are exposed.
-- Higher-wage knowledge roles—information technology, finance, legal analysis, accounting—exhibit substantially higher task exposure than lower-wage physical occupations.
+Evaluating all 19,261 O*NET task statements, Eloundou et al. discovered [@eloundou-gpts-are-gpts-2023]:
+- Approximately **80% of the U.S. workforce** belongs to occupations where at least 10% of work tasks have direct AI exposure ($\alpha = 1$) [@eloundou-gpts-are-gpts-2023].
+- **19% of workers** belong to occupations where at least 50% of tasks are exposed [@eloundou-gpts-are-gpts-2023].
+- Higher-wage knowledge roles—information technology, finance, legal analysis, accounting—exhibit substantially higher task exposure than lower-wage physical occupations [@eloundou-gpts-are-gpts-2023].
 
 Crucially, global findings from the International Labour Organization (ILO) confirm that task exposure does not equal job destruction [@ilo-genai-jobs-exposure-2023]. Across middle-class clerical and analytical roles, generative AI functions overwhelmingly as an **augmentative technology** rather than an autonomous replacement. When 30% of an analyst's task hours are automated, the employee is rarely terminated; instead, the 30% time dividend is absorbed by expanding output volume, deepening qualitative analysis, or reallocating hours to previously neglected strategic projects.
 
@@ -114,9 +114,9 @@ Faced with massive task reallocation, traditional human resources planning—bui
 ## Sizing the reskilling dividend: The economics of redeployment
 
 The central strategic question facing enterprise leadership is whether to **sever and rehire** or **retain and reskill**. The World Economic Forum's *Future of Jobs Report 2025* highlights the magnitude of this transition [@wef-future-of-jobs-2025]:
-- Globally, employers estimate that **170 million new roles will emerge** by 2030, while **92 million existing roles will be displaced**, generating a net expansion of 78 million employment opportunities.
-- **44% of workers' core skills** will change between 2025 and 2030.
-- More than **6 in 10 workers** will require structured reskilling or upskilling before 2027.
+- Globally, employers estimate that **170 million new roles will emerge** by 2030, while **92 million existing roles will be displaced**, generating a net expansion of 78 million employment opportunities [@wef-future-of-jobs-2025].
+- **44% of workers' core skills** will change between 2025 and 2030 [@wef-future-of-jobs-2025].
+- More than **6 in 10 workers** will require structured reskilling or upskilling before 2027 [@wef-future-of-jobs-2025].
 
 When routine cognitive tasks are automated, naive financial planning suggests laying off redundant junior staff and hiring experienced specialists from the external market. However, rigorous financial modeling demonstrates that internal reskilling almost always yields a superior Net Present Value ($NPV$).
 

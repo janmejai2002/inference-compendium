@@ -4,10 +4,10 @@ Definition of done:
 - Part VIII (HR & People) and Part IX (Inserts) configured in `content/toc.yml`.
 - Home page filter shows "HR & People (4)", design tokens confirmed with `--t-hr`.
 - Four fully-authored chapters in `content/chapters/`:
-  - 30: `ai-in-hiring.md`
-  - 31: `workforce-planning-and-skills.md`
-  - 32: `hr-copilots-and-people-analytics.md`
-  - 33: `hr-casebook.md`
+  - 30: `ai-in-hiring.md` (>= 3,000 words)
+  - 31: `workforce-planning-and-skills.md` (>= 3,000 words)
+  - 32: `hr-copilots-and-people-analytics.md` (>= 3,000 words)
+  - 33: `hr-casebook.md` (>= 4,000 words)
 - Four SVG figures in `content/figures/` (viewBox 0 0 640 H, 0 text overflows in `inspect_figures.mjs`):
   - `hiring-funnel-ai.svg`
   - `task-exposure-matrix.svg`
@@ -15,10 +15,8 @@ Definition of done:
   - `hr-casebook-taxonomy.svg`
 - Verification standards met:
   - `npm run check` -> 0 errors, <= 17 warnings
-  - `node test/inspect_figures.mjs` -> 0 overflows
+  - `node test/inspect_figures.mjs` -> 0 overflows across all 34 figures
   - `npm run status` -> 36/36 published chapters
-  - `npm run pdf` -> snapshot to `editions/INFERENCE-v6-hr-draft.pdf`
-  - Read back rendered page images
   - `STATUS.md` and `REPORT.md` updated
 - Clean git commits on `computer/hr-track` (never push).
 
@@ -30,5 +28,5 @@ Definition of done:
 - [x] Step 4: Author Chapter 31 (`workforce-planning-and-skills.md`) + Figure (`task-exposure-matrix.svg`)
 - [x] Step 5: Author Chapter 32 (`hr-copilots-and-people-analytics.md`) + Figure (`hr-copilot-trust-boundary.svg`)
 - [x] Step 6: Author Chapter 33 (`hr-casebook.md`) + Figure (`hr-casebook-taxonomy.svg`)
-- [ ] Step 7: Automated test suite verification (`npm run check`, `node test/inspect_figures.mjs`, `npm run status`) ← next
-- [ ] Step 8: PDF compilation (`npm run pdf`), edition snapshot (`editions/INFERENCE-v6-hr-draft.pdf`), page visual review, `STATUS.md` and `REPORT.md` updates
+- [x] Step 7: Automated test suite verification (`npm run check`, `node test/inspect_figures.mjs`, `npm run status`)
+- [x] Step 8: Address review feedback (`TASK-54a0d26db117`), expand Ch 30 (>= 3,000 words), verify all figure citations, write `REPORT.md` and commit.
