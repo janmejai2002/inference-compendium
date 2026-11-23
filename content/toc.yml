@@ -398,25 +398,25 @@ parts:
         deck: "What a screening model really is, adverse impact and the four-fifths rule, bias audits under NYC Local Law 144, the EU AI Act's high-risk employment category, DPDP consent, and AI-written applications."
         tracks: [hr]
         prereq: [kinds-of-ai, confidently-wrong]
-        status: draft
+        status: published
       - id: workforce-planning-and-skills
         title: "Workforce planning when the task is the unit: exposure, skills, and reskilling"
         deck: "Task-level AI exposure, skills taxonomies (O*NET, ESCO), build-buy-borrow-bot, reskilling economics, and attrition models with their ethics."
         tracks: [hr, strategy]
         prereq: [work-changes, pilots-stall]
-        status: draft
+        status: published
       - id: hr-copilots-and-people-analytics
         title: "HR copilots, people analytics, and the surveillance line"
         deck: "HR helpdesk agents and deflection, AI-drafted performance reviews and calibration, engagement analytics, productivity monitoring, and what the EU AI Act and DPDP Act forbid or require."
         tracks: [hr]
         prereq: [models-that-act, judging-output]
-        status: draft
+        status: published
       - id: hr-casebook
         title: "The HR & People AI casebook & interview room"
         deck: "Four worked HR cases and four guesstimates: campus screening at scale, BPO reskilling, an HR helpdesk copilot, and an attrition-risk model, with recruiter rubrics."
         tracks: [hr]
         prereq: [ai-in-hiring, workforce-planning-and-skills, hr-copilots-and-people-analytics]
-        status: draft
+        status: published
 
   - id: p9
     n: IX

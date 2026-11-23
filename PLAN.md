@@ -29,6 +29,6 @@ Definition of done:
 - [x] Step 3: Author Chapter 30 (`ai-in-hiring.md`) + Figure (`hiring-funnel-ai.svg`)
 - [x] Step 4: Author Chapter 31 (`workforce-planning-and-skills.md`) + Figure (`task-exposure-matrix.svg`)
 - [x] Step 5: Author Chapter 32 (`hr-copilots-and-people-analytics.md`) + Figure (`hr-copilot-trust-boundary.svg`)
-- [ ] Step 6: Author Chapter 33 (`hr-casebook.md`) + Figure (`hr-casebook-taxonomy.svg`) ← next
-- [ ] Step 7: Automated test suite verification (`npm run check`, `node test/inspect_figures.mjs`, `npm run status`)
+- [x] Step 6: Author Chapter 33 (`hr-casebook.md`) + Figure (`hr-casebook-taxonomy.svg`)
+- [ ] Step 7: Automated test suite verification (`npm run check`, `node test/inspect_figures.mjs`, `npm run status`) ← next
 - [ ] Step 8: PDF compilation (`npm run pdf`), edition snapshot (`editions/INFERENCE-v6-hr-draft.pdf`), page visual review, `STATUS.md` and `REPORT.md` updates
