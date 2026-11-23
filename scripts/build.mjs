@@ -126,7 +126,7 @@ function coverHtml(ctx) {
 
 function howToRead(ctx) {
   const { book } = ctx;
-  const paths = ['consulting', 'marketing', 'product', 'operations', 'finance'].map((t) => {
+  const paths = ['consulting', 'marketing', 'product', 'operations', 'finance', 'hr'].map((t) => {
     const tr = ctx.trackById[t];
     const list = ctx.chapters.filter((c) => c.track === t || c.track === 'foundations' || (c.tracks || []).includes(t));
     return `<div class="path"><span class="chip" style="--chip: var(--t-${t})">${esc(tr.name)}</span><ol>${list.map((c) => `<li>${c.n} · ${esc(c.title)}</li>`).join('')}</ol></div>`;
@@ -293,7 +293,7 @@ function home(ctx) {
     </div>
     <div class="hero-stats">
       <span>${writtenCount} Chapters</span>
-      <span>5 Placement Tracks</span>
+      <span>6 Placement Tracks</span>
       <span>168 Sources</span>
       <span>570+ Pages</span>
       <span>Free & Open Source</span>
@@ -333,6 +333,7 @@ function home(ctx) {
     <button class="filter-tab" data-filter="product" role="tab" aria-selected="false" style="--tab-c: var(--t-product)">Product <span class="badge">4</span></button>
     <button class="filter-tab" data-filter="operations" role="tab" aria-selected="false" style="--tab-c: var(--t-operations)">Operations <span class="badge">4</span></button>
     <button class="filter-tab" data-filter="finance" role="tab" aria-selected="false" style="--tab-c: var(--t-finance)">Finance <span class="badge">4</span></button>
+    <button class="filter-tab" data-filter="hr" role="tab" aria-selected="false" style="--tab-c: var(--t-hr)">HR &amp; People <span class="badge">4</span></button>
   </div>
   <div class="toc-search-box">
     <input type="search" id="toc-search" placeholder="Search chapters, cases, topics..." autocomplete="off">

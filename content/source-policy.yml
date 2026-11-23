@@ -52,6 +52,11 @@ A:   # primary sources and originators
   - morganstanley.com
   - npci.org.in
   - ascionline.in
+  - nyc.gov
+  - europa.eu
+  - eeoc.gov
+  - ilo.org
+  - onetcenter.org
 B:   # established editorial and analysis
   - fortune.com
   - deloitte.com
@@ -82,6 +87,8 @@ B:   # established editorial and analysis
   - businessinsider.com
   - itiger.com
   - yahoo.com
+  - reuters.com
+  - bbc.com
 C:   # platforms: the CREATOR decides the tier, not the platform. A source here may be
   - simonwillison.net
   - hamel.dev
