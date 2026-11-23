@@ -391,3 +391,28 @@ automated-optical-inspection:
 inspection-error-tradeoff:
   term: False rejection vs escape rate
   def: The fundamental operational trade-off in automated inspection between Type I error (false alarms that needlessly scrap conforming parts) and Type II error (escaped defective units that reach customers, triggering recalls and brand liability).
+
+adverse-impact:
+  term: Adverse impact
+  def: A substantially lower selection rate for a protected demographic group compared to the highest-scoring group in an employment decision, conventionally identified by the four-fifths (80%) benchmark.
+
+four-fifths-rule:
+  term: Four-fifths rule (80% rule)
+  def: The regulatory standard under US EEOC Uniform Guidelines where a selection rate for any demographic group that is less than four-fifths (80%) of the rate for the highest group constitutes prima facie evidence of adverse impact.
+
+skills-taxonomy:
+  term: Skills taxonomy
+  def: A standardized hierarchical classification of work capabilities and competencies (such as O*NET or ESCO) that breaks occupations down into granular, measurable skill elements and work activities.
+
+task-exposure:
+  term: Task-level AI exposure
+  def: The proportion of specific work tasks within an occupation whose completion time can be reduced by 50% or more using AI without quality degradation.
+
+deflection-rate:
+  term: Deflection rate
+  def: The proportion of employee inquiries or support tickets resolved autonomously by an HR agent or copilot without requiring human HR intervention.
+
+people-analytics:
+  term: People analytics
+  def: The application of statistical modeling, behavioral telemetry, and predictive algorithms to workforce data to inform talent acquisition, retention, and organizational management.
+

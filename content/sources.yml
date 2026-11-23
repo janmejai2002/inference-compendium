@@ -1961,3 +1961,92 @@ ng-automated-optical-inspection-2023:
   tier: A
   why: "Formalizes data-centric AI methodologies for automated optical inspection (AOI) on industrial assembly lines, analyzing edge latency, synthetic defect augmentation, and Type I vs Type II inspection loss functions."
   verified: true
+
+dastin-amazon-recruiting-bias-2018:
+  type: article
+  title: "Amazon Scraps Secret AI Recruiting Tool That Showed Bias Against Women"
+  creator: "Jeffrey Dastin"
+  publisher: "Reuters"
+  year: 2018
+  url: https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G/
+  tier: B
+  why: "Landmark investigative account of Amazon's experimental Edinburgh machine-learning recruiting engine (2014–2017) penalizing resumes containing the word 'women's' and graduates of all-women's colleges."
+  verified: true
+
+nyc-dcwp-local-law-144:
+  type: report
+  title: "Automated Employment Decision Tools (AEDT) - Local Law 144 of 2021"
+  creator: "NYC Department of Consumer and Worker Protection (DCWP)"
+  publisher: "City of New York"
+  year: 2023
+  url: https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page
+  tier: A
+  why: "Official regulatory rules and enforcement guidance under NYC Administrative Code § 20-870 requiring annual independent bias audits, published selection rates, and candidate notices."
+  verified: true
+
+eeoc-uniform-guidelines-selection:
+  type: report
+  title: "Uniform Guidelines on Employee Selection Procedures (29 CFR Part 1607 - Section 1607.4(D) Four-Fifths Rule)"
+  creator: "Equal Employment Opportunity Commission (EEOC)"
+  publisher: "Equal Employment Opportunity Commission"
+  year: 1978
+  url: https://www.eeoc.gov/laws/guidance/questions-and-answers-clarify-and-provide-common-interpretation-uniform-guidelines
+  tier: A
+  why: "Foundational federal regulatory standard establishing the 80% (four-fifths) selection rate benchmark for identifying prima facie adverse impact under Title VII."
+  verified: true
+
+eu-ai-act-annex-iii-employment:
+  type: report
+  title: "Regulation (EU) 2024/1689: High-Risk AI Systems in Employment and Worker Management (Annex III, Point 4 & Article 5(1)(f))"
+  creator: "European Parliament and Council of the European Union"
+  publisher: "Official Journal of the European Union"
+  year: 2024
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+  tier: A
+  why: "Statutory EU AI Act classifying employment AI (recruitment, evaluation, task allocation) as high-risk under Annex III point 4, and banning emotion recognition in workplaces under Article 5(1)(f)."
+  verified: true
+
+eloundou-gpts-are-gpts-2023:
+  type: paper
+  title: "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models"
+  creator: "Tyna Eloundou, Sam Manning, Pamela Mishkin, Daniel Rock"
+  publisher: "arXiv"
+  year: 2023
+  url: https://arxiv.org/abs/2303.10130
+  tier: A
+  why: "Empirical study examining task-level LLM exposure across 1,016 O*NET occupations, finding ~80% of US workers have at least 10% of tasks exposed and 19% have at least 50% exposed."
+  verified: true
+
+ilo-genai-jobs-exposure-2023:
+  type: report
+  title: "Generative AI and Jobs: A Global Analysis of Potential Effects on Job Quantity and Quality"
+  creator: "Pawel Gmyrek, Janine Berg, David Bescond"
+  publisher: "International Labour Organization (ILO)"
+  year: 2023
+  url: https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and
+  tier: A
+  why: "Comprehensive global labor study decomposing occupational tasks, demonstrating generative AI's impact is overwhelmingly task augmentation rather than complete occupational destruction."
+  verified: true
+
+onet-taxonomy-database:
+  type: report
+  title: "O*NET OnLine: Database of Occupational Titles, Task Lists, and Skill Taxonomies"
+  creator: "National Center for O*NET Development"
+  publisher: "U.S. Department of Labor, Employment and Training Administration"
+  year: 2024
+  url: https://www.onetcenter.org/taxonomy.html
+  tier: A
+  why: "The primary standardized occupational taxonomy cataloging detailed work activities, task elements, and skills competencies used across enterprise workforce planning models."
+  verified: true
+
+correll-gender-feedback-stanford-2021:
+  type: article
+  title: "Research on Gender Bias in Performance Evaluations and Feedback"
+  creator: "Shelley J. Correll, Caroline Simard"
+  publisher: "Stanford University (VMware Women's Leadership Innovation Lab)"
+  year: 2021
+  url: https://womensleadership.stanford.edu/research
+  tier: A
+  why: "Empirical research analyzing corporate performance appraisals, finding women receive significantly more vague, non-actionable feedback and personality critiques ('abrasive') compared to men."
+  verified: true
+

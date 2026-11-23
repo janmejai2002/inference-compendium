@@ -25,8 +25,8 @@ Definition of done:
 ## Steps
 
 - [x] Step 1: Update repo infrastructure (`content/toc.yml`, `scripts/build.mjs`, `content/source-policy.yml`, `PLAN.md`, `PROGRESS.md`)
-- [ ] Step 2: Register & verify HR sources in `content/sources.yml` and terms in `content/glossary.yml` ← next
-- [ ] Step 3: Author Chapter 30 (`ai-in-hiring.md`) + Figure (`hiring-funnel-ai.svg`)
+- [x] Step 2: Register & verify HR sources in `content/sources.yml` and terms in `content/glossary.yml`
+- [ ] Step 3: Author Chapter 30 (`ai-in-hiring.md`) + Figure (`hiring-funnel-ai.svg`) ← next
 - [ ] Step 4: Author Chapter 31 (`workforce-planning-and-skills.md`) + Figure (`task-exposure-matrix.svg`)
 - [ ] Step 5: Author Chapter 32 (`hr-copilots-and-people-analytics.md`) + Figure (`hr-copilot-trust-boundary.svg`)
 - [ ] Step 6: Author Chapter 33 (`hr-casebook.md`) + Figure (`hr-casebook-taxonomy.svg`)
