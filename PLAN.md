@@ -26,9 +26,9 @@ Definition of done:
 
 - [x] Step 1: Update repo infrastructure (`content/toc.yml`, `scripts/build.mjs`, `content/source-policy.yml`, `PLAN.md`, `PROGRESS.md`)
 - [x] Step 2: Register & verify HR sources in `content/sources.yml` and terms in `content/glossary.yml`
-- [ ] Step 3: Author Chapter 30 (`ai-in-hiring.md`) + Figure (`hiring-funnel-ai.svg`) ← next
-- [ ] Step 4: Author Chapter 31 (`workforce-planning-and-skills.md`) + Figure (`task-exposure-matrix.svg`)
-- [ ] Step 5: Author Chapter 32 (`hr-copilots-and-people-analytics.md`) + Figure (`hr-copilot-trust-boundary.svg`)
+- [x] Step 3: Author Chapter 30 (`ai-in-hiring.md`) + Figure (`hiring-funnel-ai.svg`)
+- [x] Step 4: Author Chapter 31 (`workforce-planning-and-skills.md`) + Figure (`task-exposure-matrix.svg`)
+- [ ] Step 5: Author Chapter 32 (`hr-copilots-and-people-analytics.md`) + Figure (`hr-copilot-trust-boundary.svg`) ← next
 - [ ] Step 6: Author Chapter 33 (`hr-casebook.md`) + Figure (`hr-casebook-taxonomy.svg`)
 - [ ] Step 7: Automated test suite verification (`npm run check`, `node test/inspect_figures.mjs`, `npm run status`)
 - [ ] Step 8: PDF compilation (`npm run pdf`), edition snapshot (`editions/INFERENCE-v6-hr-draft.pdf`), page visual review, `STATUS.md` and `REPORT.md` updates

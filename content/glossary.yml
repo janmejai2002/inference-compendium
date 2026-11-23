@@ -416,3 +416,12 @@ people-analytics:
   term: People analytics
   def: The application of statistical modeling, behavioral telemetry, and predictive algorithms to workforce data to inform talent acquisition, retention, and organizational management.
 
+named-entity-recognition:
+  term: Named entity recognition (NER)
+  def: A natural language processing technique that automatically identifies and classifies key informational elements—such as job titles, academic degrees, technical skills, and organizations—from unstructured text.
+
+automated-employment-decision-tools:
+  term: Automated employment decision tool (AEDT)
+  def: Any computational process derived from machine learning, statistical modeling, or artificial intelligence that issues a score, ranking, or recommendation used to substantially assist or replace discretionary human employment decisions.
+
+

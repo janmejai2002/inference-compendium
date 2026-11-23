@@ -1,0 +1,63 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The AI hiring funnel architecture showing candidate application stages, where algorithmic bias enters, and where statutory bias audits measure adverse impact.">
+  <!-- Title & Subtitle -->
+  <text class="t-display" x="20" y="24" font-size="15">The AI Hiring Funnel: Screening Points &amp; The Bias Audit</text>
+  <text x="20" y="38" font-size="8.5" fill="#666">Applicant volume, feature extraction, algorithmic scoring, and regulatory audit checkpoints</text>
+
+  <!-- Funnel Left Column: Top of Funnel & AI Processing -->
+  <!-- Stage 1: Ingestion & Resume Parsing -->
+  <rect class="paper acc-s" x="20" y="48" width="300" height="74" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="32" y="66" font-size="11">1. Application Intake &amp; Resume Parsing</text>
+  <text x="32" y="80" font-size="8" font-weight="bold">Volume: 100,000+ unformatted applicant CVs</text>
+  <text x="32" y="93" font-size="8">• NLP entity extraction: degrees, titles, skills</text>
+  <text x="32" y="106" font-size="8" fill="#B83A26">Bias risk: Non-standard formats &amp; gendered terms</text>
+  <text x="32" y="116" font-size="7.5" fill="#666">Candidates use GenAI CV optimizers to game keywords</text>
+
+  <!-- Arrow Down -->
+  <path d="M 170 122 L 170 134 M 166 130 L 170 135 L 174 130" stroke="currentColor" fill="none" stroke-width="1.4"/>
+
+  <!-- Stage 2: Algorithmic Ranking & Scoring -->
+  <rect class="wash acc-s" x="20" y="136" width="300" height="84" rx="4" stroke-width="1.8"/>
+  <text class="t-display" x="32" y="154" font-size="11">2. Machine Learning Resume Ranker</text>
+  <text x="32" y="168" font-size="8" font-weight="bold">Mechanism: Cosine similarity to top historical hires</text>
+  <text x="32" y="181" font-size="8">• Trained on historical ten-year recruiter decisions</text>
+  <text x="32" y="194" font-size="8">• Proxies: College pedigree, pin code, career gaps</text>
+  <text x="32" y="207" font-size="8" fill="#B83A26">Severe risk: Replicating historical demographic skew</text>
+
+  <!-- Arrow Down -->
+  <path d="M 170 220 L 170 232 M 166 228 L 170 233 L 174 228" stroke="currentColor" fill="none" stroke-width="1.4"/>
+
+  <!-- Stage 3: Asynchronous Assessment -->
+  <rect class="paper acc-s" x="20" y="234" width="300" height="78" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="32" y="252" font-size="11">3. Automated Skills &amp; Video Scoring</text>
+  <text x="32" y="266" font-size="8" font-weight="bold">Filters: Proctored coding tests &amp; audio telemetry</text>
+  <text x="32" y="279" font-size="8">• Psychometric game testing and technical puzzles</text>
+  <text x="32" y="292" font-size="8" fill="#B83A26">EU AI Act: Emotion recognition banned (Art. 5(1)(f))</text>
+  <text x="32" y="304" font-size="7.5" fill="#666">Cutoff threshold eliminates 90% of applicant pool</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="335" x2="335" y1="48" y2="314" stroke-width="1"/>
+
+  <!-- Right Column: Downstream & Audit Boundary (x >= 350, max chars < 45) -->
+  <!-- Stage 4: Interview & Offer -->
+  <rect class="paper acc-s" x="350" y="48" width="270" height="74" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="362" y="66" font-size="11">4. Human Interview &amp; Offer</text>
+  <text x="362" y="80" font-size="8" font-weight="bold">Cohort: Final 3,000 candidates</text>
+  <text x="362" y="93" font-size="8">• Structured behavioral panel interviews</text>
+  <text x="362" y="106" font-size="8">• Copilot rubrics assist interviewers</text>
+  <text x="362" y="116" font-size="7.5" fill="#666">Human in the loop completes hiring loop</text>
+
+  <!-- Audit Box: NYC LL144 & EEOC -->
+  <rect class="wash acc-s" x="350" y="136" width="270" height="176" rx="4" stroke-width="2"/>
+  <text class="t-display" x="362" y="154" font-size="11">5. The Statutory Bias Audit</text>
+  <text x="362" y="169" font-size="8.5" font-weight="bold" fill="#0B7A5C">NYC LL144 &amp; EEOC 4/5ths Rule</text>
+  <text x="362" y="184" font-size="8">• Selection Rate: SR = Selected / Total</text>
+  <text x="362" y="197" font-size="8">• Adverse Impact Ratio: AIR = SR_grp / SR_max</text>
+  <text x="362" y="210" font-size="8">• Statutory threshold: AIR &gt;= 0.80 (80%)</text>
+  <text x="362" y="225" font-size="8.5" font-weight="bold">Mandatory Audit Disclosures</text>
+  <text x="362" y="239" font-size="8">• Annual independent third-party audit</text>
+  <text x="362" y="252" font-size="8">• Publish selection rates by sex &amp; ethnicity</text>
+  <text x="362" y="265" font-size="8">• 10 business-day candidate pre-notice</text>
+  <text x="362" y="280" font-size="8.5" font-weight="bold" fill="#B83A26">EU AI Act High-Risk (Annex III.4)</text>
+  <text x="362" y="294" font-size="8">• Mandatory conformity assessment &amp; logging</text>
+  <text x="362" y="305" font-size="7.5" fill="#666">DPDP Act: Consent notice for processing</text>
+</svg>
