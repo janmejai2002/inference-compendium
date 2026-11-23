@@ -80,3 +80,33 @@ All 34 figures (including the 4 newly authored figures for the HR track: `hiring
 
 built 36/36 chapters → dist/ in 814 ms
 ```
+
+
+---
+
+## 6. Summary of Changes in Second Review Pass (TASK-7829fe5c6a5d)
+
+| Item | Chapter & Location | Original Claim / Issue | Remediation Applied |
+|---|---|---|---|
+| **1** | `workforce-planning-and-skills.md` (lines 116–120) | Ensure WEF 170M / 92M / 78M figures have direct citation `[@wef-future-of-jobs-2025]` and net figure matches report. | Explicitly anchored citation `[@wef-future-of-jobs-2025]` in the lead paragraph and bulleted metrics: 170 million new roles created, 92 million displaced, net expansion of 78 million opportunities (matching the report title: "78 Million New Job Opportunities by 2030"). |
+| **2** | `hr-copilots-and-people-analytics.md` (lines 142, 273, 281), `ai-in-hiring.md` (lines 276, 436, 444), `hr-casebook.md` (line 442) | Emotion recognition in workplaces described as unconditionally or outright banned, omitting Article 5(1)(f) medical/safety exception. | Corrected statutory description across all chapters to reflect Article 5(1)(f) exceptions: prohibited in workplace/education *except where strictly intended for medical or safety reasons* (such as commercial driver fatigue monitoring). |
+| **3** | `ai-in-hiring.md` (lines 288 & 445) | Labeled 'Illustrative industry trend' but stated TA heads 'report adopting' proctored sandboxes (sounded like a sourced fact); recap line 445 stated market shift rather than recommendation. | Reworded line 288 as `*Illustrative industry response:*` stating an expected institutional counter-measure without "report"; rewrote recap line 445 as a direct strategic recommendation: *"To counter generative AI resume flood, organizations should pivot away from asynchronous resume parsing toward synchronous, proctored, blind work-sample assessments."* |
+| **4** | `ai-in-hiring.md` (hook, line 8) | Hook overstated Reuters by stating the model "rejected every CV containing the word women's". | Corrected hook to: *"Why an enterprise screening model penalized resumes containing the word \"women's\" even after engineers stripped gender markers, and how Indian campus recruiters audit algorithms before the law audits them."* |
+| **5** | All 4 HR chapters (`ai-in-hiring`, `workforce-planning`, `hr-copilots`, `hr-casebook`) | Contained 33 em-dash asides in prose forbidden by CLAUDE.md rule 6 (12 in ai-in-hiring, 8 in workforce, 8 in copilots, 5 in casebook). | Rewrote all 33 sentences containing em-dash asides across the 4 chapters using commas, colons, parentheses, or full stops (including both frontmatter hooks). Left table cells and figure files untouched. |
+
+### Final Chapter Status Table (Chapters 30–33)
+
+Output from `node scripts/status.mjs`:
+```text
+#   id                          status      track        words  min  media
+30  ai-in-hiring                published   hr           3130   14   2
+31  workforce-planning-and-skillpublished   hr           4055   18   2
+32  hr-copilots-and-people-analypublished   hr           3703   17   2
+33  hr-casebook                 published   hr           5156   23   1
+```
+Total words across HR Track: **16,044 words**.
+
+### Final Linter Output (`npm run check`)
+```text
+check: 0 errors, 17 warnings
+```

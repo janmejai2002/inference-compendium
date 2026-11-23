@@ -82,7 +82,7 @@ The Selection Rate is defined as $SR = \frac{\text{Shortlisted Candidates}}{\tex
 
 #### Step 2: Root-Cause Feature Auditing
 A forensic decomposition of the embedding weights reveals the structural proxies generating this bias:
-1. **Extracurricular Proxies:** High positive weights assigned to competitive off-campus coding hackathons, late-night open-source commits, and college sports leadership—activities where female students faced structural safety and curfew constraints.
+1. **Extracurricular Proxies:** High positive weights assigned to competitive off-campus coding hackathons, late-night open-source commits, and college sports leadership, activities where female students faced structural safety and curfew constraints.
 2. **Pedigree Correlation:** The model trained on historical company performance data where previous hiring was heavily skewed toward Tier-1 boys' hostels and regional engineering hubs.
 3. **Linguistic Tone:** Resume embeddings rewarded aggressive action verbs ("spearheaded," "dominated") while discounting collaborative terms.
 
@@ -224,7 +224,7 @@ As the Chief Human Resources Officer, you must evaluate this proposal:
 #### Step 1: Deconstruct the Behavioral Trap (The Self-Fulfilling Prophecy)
 Displaying flight-risk scores to store managers triggers a disastrous feedback loop:
 1. **Managerial Confirmation Bias:** When a store manager sees an associate tagged as "78% Flight Risk," the manager subconsciously withdraws trust. The manager assigns the flagged associate to undesirable shifts (late-night closing, weekend stock room) and reserves prime commissions and training for "low-risk" favorites.
-2. **Induced Attrition:** The flagged employee, feeling marginalized and unfairly monitored, experiences rapid morale collapse and resigns. The model records a "True Positive"—falsely validating its predictive power when it actually engineered the departure.
+2. **Induced Attrition:** The flagged employee, feeling marginalized and unfairly monitored, experiences rapid morale collapse and resigns. The model records a "True Positive", falsely validating its predictive power when it actually engineered the departure.
 3. **Goodhart's Law on the Shop Floor:** If POS scanning speed and break duration drive the risk score, cashiers focus on rushing barcode scans rather than engaging customers, degrading customer Net Promoter Score ($NPS$).
 
 #### Step 2: Legal and Regulatory Violations (DPDP Act 2023)
@@ -254,7 +254,7 @@ The Constructive Retention Framework:
        leadership 360-degree review to address toxic local managers
 ```
 
-**Financial Outcome:** By stabilizing shift rosters and addressing toxic store managers, frontline attrition drops from 65% to 48% within twelve months—saving the chain **₹7.8 crore net annually** without surveilling a single employee.
+**Financial Outcome:** By stabilizing shift rosters and addressing toxic store managers, frontline attrition drops from 65% to 48% within twelve months, saving the chain **₹7.8 crore net annually** without surveilling a single employee.
 
 #### Recruiter Rubric: What Separates Candidates
 - **Mediocre Answer:** Recommends buying the tool or building it in-house, focusing on improving the ML model's $F_1$ score and debating feature engineering without realizing the toxic behavioral dynamics it unleashes on the shop floor.
@@ -439,7 +439,7 @@ The following eight interview scenarios represent the toughest questions asked i
 ### Question 3: Workplace Emotion Recognition (Tata / Aditya Birla)
 **Q.** *"Our tech team wants to deploy a computer-vision camera system across our factory floors and call centers to track employee fatigue, stress, and frustration in real time to prevent safety accidents. What is your position?"*
 
-> **Strong Opening:** "I would advise the board to reject camera-based facial emotion recognition outright. Under Article 5(1)(f) of the EU AI Act, workplace emotion recognition is strictly banned as an illegal AI practice, and in India it violates the data minimization principles of the DPDP Act 2023."
+> **Strong Opening:** "I would advise the board to reject camera-based facial emotion recognition. Under Article 5(1)(f) of the EU AI Act, workplace emotion recognition is a prohibited AI practice (outside narrow medical or safety exceptions), and in India it violates the data minimization principles of the DPDP Act 2023."
 
 **Structure of a Strong Answer:**
 1. **Legal Prohibition:** Cite EU AI Act Article 5(1)(f) and potential fines up to €35M / 7% turnover.
@@ -461,7 +461,7 @@ The following eight interview scenarios represent the toughest questions asked i
 ### Question 5: Performance Review Gender Bias (HUL / Mahindra)
 **Q.** *"Managers across our company are using generative AI to write performance reviews. How do we ensure that AI-drafted reviews do not amplify gender and pedigree bias?"*
 
-> **Strong Opening:** "Left unconstrained, LLMs naturally amplify historical evaluation biases—giving women vague praise while penalizing them with personality critiques like 'abrasive,' while rewarding men with concrete outcome metrics. We must implement strict structured prompt templates."
+> **Strong Opening:** "Left unconstrained, LLMs naturally amplify historical evaluation biases: giving women vague praise while penalizing them with personality critiques like 'abrasive,' while rewarding men with concrete outcome metrics. We must implement strict structured prompt templates."
 
 **Structure of a Strong Answer:**
 1. **Cite Stanford Research:** Reference Correll and Simard's findings on the 'abrasiveness trap' and vague feedback.

@@ -13,3 +13,9 @@
   - In `hr-copilots-and-people-analytics.md`: Labeled the opening hook and 92% deflection rate scenario as an Illustrative unnamed firm; cited EU AI Act Article 113(b) and Article 99(3) under `[@eu-ai-act-annex-iii-employment]` for February 2025 prohibition and fines up to EUR 35M / 7%.
   - In `workforce-planning-and-skills.md`: Attached `[@eloundou-gpts-are-gpts-2023]` to 80% / 19% exposure statistics, and `[@wef-future-of-jobs-2025]` to 170M / 92M / 44% / 6 in 10 job transition numbers.
   - Verification: `npm run check` -> 0 errors, 17 warnings. `node test/inspect_figures.mjs` -> 0 overflows across 34 figures. Wrote `REPORT.md`.
+- 2026-11-23: Second review pass complete (TASK-7829fe5c6a5d).
+  - workforce-planning-and-skills.md: Citing WEF 170M / 92M / 78M net figure with [@wef-future-of-jobs-2025].
+  - hr-copilots-and-people-analytics.md, ai-in-hiring.md, hr-casebook.md: Corrected EU AI Act Article 5(1)(f) emotion recognition prohibition to reflect medical and safety exceptions.
+  - ai-in-hiring.md: Rewrote line 288 as Illustrative industry response without 'report'; rewrote recap line 445 as a recommendation; corrected hook from 'rejected every CV' to 'penalized resumes containing the word "women\'s"'.
+  - Removed all 33 em-dash asides across prose in all 4 HR chapters per CLAUDE.md rule 6 (left table cells alone).
+  - Verification: npm run check -> 0 errors, 17 warnings. Updated REPORT.md.

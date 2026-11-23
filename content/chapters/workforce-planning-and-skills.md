@@ -5,7 +5,7 @@ deck: "Task-level AI exposure, skills taxonomies (O*NET, ESCO), build-buy-borrow
 level: Zero to one
 tracks: [hr, strategy]
 prereq: [work-changes, pilots-stall]
-hook: "Why counting jobs by occupational title hides the real impact of artificial intelligence—and how sizing hours freed per task rewrites the economics of enterprise reskilling."
+hook: "Why counting jobs by occupational title hides the real impact of artificial intelligence, and how sizing hours freed per task rewrites the economics of enterprise reskilling."
 objectives:
   - "**Deconstruct** occupational roles into granular task units using standardized taxonomies like O*NET and ESCO."
   - "**Quantify** technical task exposure ($\alpha$) and differentiate between labor substitution (automation) and labor complementation (augmentation)."
@@ -17,7 +17,7 @@ When enterprise leadership debates the future of work, the conversation almost u
 
 Both views suffer from a fatal methodological error: they treat an "occupation" as an indivisible atom of labor.
 
-An enterprise does not employ a monolithic "Credit Analyst," "Human Resources Generalist," or "Supply Chain Planner." It employs a human professional who executes between twenty and fifty distinct, heterogeneous work activities every week. A credit analyst parses balance sheet footnotes, validates tax return formats, extracts bank statement ratios, evaluates borrower management integrity, attends credit committee debates, and negotiates loan covenant exceptions. Some of these activities involve structured pattern matching and lexical extraction—tasks where transformer models operate with superhuman speed. Other activities require contextual skepticism, cross-examination, and organizational negotiation—domains where stochastic models provide zero reliable judgment.
+An enterprise does not employ a monolithic "Credit Analyst," "Human Resources Generalist," or "Supply Chain Planner." It employs a human professional who executes between twenty and fifty distinct, heterogeneous work activities every week. A credit analyst parses balance sheet footnotes, validates tax return formats, extracts bank statement ratios, evaluates borrower management integrity, attends credit committee debates, and negotiates loan covenant exceptions. Some of these activities involve structured pattern matching and lexical extraction, tasks where transformer models operate with superhuman speed. Other activities require contextual skepticism, cross-examination, and organizational negotiation, domains where stochastic models provide zero reliable judgment.
 
 ==AI exposure is measured per task, not per job, so workforce planning has to move from headcount by role to hours by task.== When enterprise leaders stop asking "How many jobs will AI replace?" and start asking "How many task-hours will AI free up, and how should we redeploy that capacity?", strategic workforce planning transforms from defensive headcount reduction into competitive capital allocation.
 
@@ -35,7 +35,7 @@ $$\alpha = \begin{cases} 1 & \text{if access to an LLM reduces task completion t
 Evaluating all 19,261 O*NET task statements, Eloundou et al. discovered [@eloundou-gpts-are-gpts-2023]:
 - Approximately **80% of the U.S. workforce** belongs to occupations where at least 10% of work tasks have direct AI exposure ($\alpha = 1$) [@eloundou-gpts-are-gpts-2023].
 - **19% of workers** belong to occupations where at least 50% of tasks are exposed [@eloundou-gpts-are-gpts-2023].
-- Higher-wage knowledge roles—information technology, finance, legal analysis, accounting—exhibit substantially higher task exposure than lower-wage physical occupations [@eloundou-gpts-are-gpts-2023].
+- Higher-wage knowledge roles (information technology, finance, legal analysis, accounting) exhibit substantially higher task exposure than lower-wage physical occupations [@eloundou-gpts-are-gpts-2023].
 
 Crucially, global findings from the International Labour Organization (ILO) confirm that task exposure does not equal job destruction [@ilo-genai-jobs-exposure-2023]. Across middle-class clerical and analytical roles, generative AI functions overwhelmingly as an **augmentative technology** rather than an autonomous replacement. When 30% of an analyst's task hours are automated, the employee is rarely terminated; instead, the 30% time dividend is absorbed by expanding output volume, deepening qualitative analysis, or reallocating hours to previously neglected strategic projects.
 
@@ -101,7 +101,7 @@ Value of Human Judgment & Empathy
 
 ## The Build-Buy-Borrow-Bot strategic framework
 
-Faced with massive task reallocation, traditional human resources planning—built around static annual headcount budgets—breaks down. Chief Human Resources Officers use an expanded five-element framework: **Build, Buy, Borrow, Bot, and Bounce**:
+Faced with massive task reallocation, traditional human resources planning, built around static annual headcount budgets, breaks down. Chief Human Resources Officers use an expanded five-element framework: **Build, Buy, Borrow, Bot, and Bounce**:
 
 | Strategy | Operational Definition | Best-Fit Scenarios | Economic Trade-off |
 |---|---|---|---|
@@ -113,8 +113,8 @@ Faced with massive task reallocation, traditional human resources planning—bui
 
 ## Sizing the reskilling dividend: The economics of redeployment
 
-The central strategic question facing enterprise leadership is whether to **sever and rehire** or **retain and reskill**. The World Economic Forum's *Future of Jobs Report 2025* highlights the magnitude of this transition [@wef-future-of-jobs-2025]:
-- Globally, employers estimate that **170 million new roles will emerge** by 2030, while **92 million existing roles will be displaced**, generating a net expansion of 78 million employment opportunities [@wef-future-of-jobs-2025].
+The central strategic question facing enterprise leadership is whether to **sever and rehire** or **retain and reskill**. According to the World Economic Forum's *Future of Jobs Report 2025* [@wef-future-of-jobs-2025]:
+- Globally, employers project that **170 million new roles will emerge** by 2030, while **92 million existing roles will be displaced**, generating a net expansion of 78 million employment opportunities [@wef-future-of-jobs-2025].
 - **44% of workers' core skills** will change between 2025 and 2030 [@wef-future-of-jobs-2025].
 - More than **6 in 10 workers** will require structured reskilling or upskilling before 2027 [@wef-future-of-jobs-2025].
 
@@ -124,7 +124,7 @@ When routine cognitive tasks are automated, naive financial planning suggests la
 
 Let $C_{\text{severance}}$ be the total cost of terminating an employee (statutory notice, retrenchment compensation, accrued leave encashment, outplacement advisory).
 
-Let $C_{\text{rehiring}}$ be the fully loaded cost of acquiring an external replacement (recruiter search commissions, signing bonuses, interview panel time, and the "ramp-up drag"—the productivity loss during the 3 to 6 months an external hire takes to reach full organizational efficiency).
+Let $C_{\text{rehiring}}$ be the fully loaded cost of acquiring an external replacement (recruiter search commissions, signing bonuses, interview panel time, and the "ramp-up drag", the productivity loss during the 3 to 6 months an external hire takes to reach full organizational efficiency).
 
 Let $C_{\text{reskilling}}$ be the total cost of putting the existing employee through a structured, multi-week reskilling academy (courseware licensing, dedicated instructor time, computing sandboxes, and absorbed salary during non-productive training hours).
 
@@ -151,7 +151,7 @@ The leadership team conducts a rigorous task-level exposure audit across the 8,0
 | **Customer Retention & Empathy Conversations** | 4 hrs (10%) | $0\%$ | 0.0 hrs | Quadrant 3: Anchor |
 | **Total** | **40 hrs (100%)** | — | **22.4 hrs (56%)** | — |
 
-The copilot automates 22.4 hours out of every 40-hour work week—freeing $56\%$ of aggregate team capacity. In headcount terms, this represents:
+The copilot automates 22.4 hours out of every 40-hour work week, freeing $56\%$ of aggregate team capacity. In headcount terms, this represents:
 
 $$8{,}000 \text{ employees} \times 0.56 = \mathbf{4{,}480\text{ Full-Time Equivalents (FTEs) freed}}$$
 
@@ -298,7 +298,7 @@ Notice how this breakdown instantly disproves the binary claim that "AI will rep
 
 ::: answers
 1. Eloundou et al. (2023) define Task-Level AI Exposure ($\alpha = 1$) as a state where access to a large language model or LLM-powered software reduces the time required for a human worker to complete a specific task by at least 50% without any degradation in output quality.
-2. Labor substitution (automation) occurs when an AI system or software agent assumes full operational execution of a task, driving human labor hours for that specific activity toward zero ($\Delta \text{hours} \to 0$). Labor complementation (augmentation) occurs when AI assists a human worker—handling drafting, data extraction, or synthesis—reducing completion time by 30% to 60%, but where final oversight, contextual judgment, and exception handling remain strictly with the human.
+2. Labor substitution (automation) occurs when an AI system or software agent assumes full operational execution of a task, driving human labor hours for that specific activity toward zero ($\Delta \text{hours} \to 0$). Labor complementation (augmentation) occurs when AI assists a human worker (handling drafting, data extraction, or synthesis), reducing completion time by 30% to 60%, but where final oversight, contextual judgment, and exception handling remain strictly with the human.
 3. Cost of Severance + Rehire per employee: $C_{\text{severance}} + C_{\text{rehiring}} = \text{₹}1{,}50{,}000 + \text{₹}1{,}80{,}000 = \text{₹}3{,}30{,}000$. Cost of Reskilling per employee: $C_{\text{reskilling}} = \text{₹}1{,}10{,}000$. The Net Economic Benefit per employee is $NEB = \text{₹}3{,}30{,}000 - \text{₹}1{,}10{,}000 = \text{₹}2{,}20{,}000$. For 200 employees, total Net Economic Benefit is $200 \times \text{₹}2{,}20{,}000 = \mathbf{\text{₹}4.40\text{ crore}}$ in direct financial savings.
 4. (a) Answering leave carryover FAQs: **Quadrant 2: Automate & Delegate** (High technical exposure, low human judgment). (b) Conducting an exit interview with a senior director: **Quadrant 3: Human Anchor & Protect** (Low technical exposure, high human empathy and political judgment). (c) Synthesizing 360-degree feedback reviews: **Quadrant 1: Augment & Supervise** (High technical exposure for text synthesis, high human judgment for nuance and equity). (d) Inspecting physical fire safety equipment: **Quadrant 4: Streamline & Standardize** (Low technical AI exposure due to physical world interaction, low cognitive judgment).
 5. The proposal should be firmly rejected. Displaying predictive flight-risk scores to line managers triggers the **Self-Fulfilling Prophecy Trap**: managers subconsciously perceive flagged employees as disloyal or already departed, leading them to withhold mentorship, exclude them from critical client assignments, or pass them over for promotion. This marginalization demotivates the employee and directly precipitates the resignation the model predicted, generating a toxic feedback loop that inflates model accuracy while destroying employee retention. Flight-risk telemetry must remain strictly within centralized People Analytics teams to drive systemic, programmatic interventions (compensation reviews, workload balancing, rotational opportunities) rather than manager-level appraisals.
