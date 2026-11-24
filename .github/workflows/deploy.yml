@@ -45,9 +45,13 @@ jobs:
           enablement: true
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
+
+      # 2026-11-24: deploy-pages listed 0 artifacts right after a successful upload (GitHub-side lag); a minute later it saw them.
+      - name: Wait for the artifact to be listed
+        run: sleep 45
 
       - name: Deploy to GitHub Pages
         id: deployment
