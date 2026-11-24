@@ -9,6 +9,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { ROOT, loadBook, renderChapter, attentionMatrix, esc, readingTimes } from './lib/render.mjs';
 import { buildSpecimen } from './lib/specimen.mjs';
+import { seoHead, bookLd, chapterLd, writeSeoFiles } from './lib/seo.mjs';
 
 const DIST = path.join(ROOT, 'dist');
 const DEV = process.env.COMPENDIUM_DEV === '1';
@@ -227,6 +228,7 @@ ${r.html}
 <footer class="ch-foot" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-family: var(--f-mono); font-size: 0.8rem; color: var(--ink-3); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
   <span>${esc(ctx.book.title)} · ${esc(ctx.book.edition)}</span>
   <span>Curated & compiled by ${formatAuthors(ctx.book, { format: 'html-links' })}</span>
+  ${ctx.book.seo?.blog_url ? `<span>More at <a href="${esc(ctx.book.seo.blog_url)}">${esc(ctx.book.seo.blog_name || 'the blog')}</a></span>` : ''}
 </footer>
 </main>
 <script>
@@ -270,7 +272,8 @@ ${r.html}
 <meta property="og:title" content="${esc(c.title)} · ${esc(ctx.book.title)}">
 <meta property="og:description" content="${esc(c.deck || ctx.book.subtitle)}">
 <meta property="og:type" content="article">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+${seoHead(ctx, { rel: `ch/${c.id}.html`, ldObj: chapterLd(c, ctx) })}
 `
     }),
     r
@@ -346,6 +349,9 @@ function home(ctx) {
   <div>
     Curated & compiled by ${formatAuthors(book, { format: 'html-links' })}
   </div>
+  <div>
+    ${book.seo?.blog_url ? `More at <a href="${esc(book.seo.blog_url)}">${esc(book.seo.blog_name || 'the blog')}</a> · ` : ''}<a href="rss.xml">RSS</a>
+  </div>
 </footer>
 <script>
 (() => {
@@ -419,6 +425,7 @@ function home(ctx) {
 <meta property="og:description" content="${esc(book.subtitle)}. ${esc(book.back_blurb)}">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
+${seoHead(ctx, { rel: '', ldObj: bookLd(ctx) })}
 `
   });
 }
@@ -490,6 +497,7 @@ export async function build() {
   if (latestSnapshot && fs.existsSync(latestSnapshot)) {
     fs.copyFileSync(latestSnapshot, pdfOut);
   }
+  writeSeoFiles(ctx, DIST);
   const uniq = [...new Set([...problems, ...pb.problems])];
   uniq.forEach((p) => console.warn(`  ! ${p}`));
   console.log(`built ${written.length}/${ctx.chapters.length} chapters → dist/ in ${Date.now() - t0} ms${uniq.length ? ` (${uniq.length} problems)` : ''}`);

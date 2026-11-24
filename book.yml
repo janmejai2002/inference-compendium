@@ -27,3 +27,10 @@ tracks:
   - { id: finance,     name: Finance,      short: FIN }
   - { id: hr,          name: HR & People,  short: HR  }
   - { id: strategy,    name: Strategy & GM, short: GM }
+
+# Discoverability (scripts/lib/seo.mjs). umami_website_id empty = no analytics script.
+seo:
+  blog_url: https://janmejai2002.github.io/
+  blog_name: wAIbi-sabi
+  license_url: ""
+  umami_website_id: ""
