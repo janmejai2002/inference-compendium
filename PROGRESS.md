@@ -1,0 +1,27 @@
+# Progress Log: INFERENCE HR & People Track (Part VIII)
+
+- 2026-11-23: Session initialized on branch `computer/hr-track`. Baseline check confirmed (0 errors, 17 warnings, 32 chapters). Initialized PLAN.md and PROGRESS.md.
+- 2026-11-23: Step 1 complete. Configured Part VIII (HR & People) and Part IX (Inserts) in content/toc.yml; added HR track filters and reading paths in scripts/build.mjs; updated content/source-policy.yml with regulator and primary domains. Built 32/36 chapters successfully.
+- 2026-11-23: Step 2 complete. Added 6 HR glossary terms and registered 8 primary/originator sources for HR track in content/sources.yml (Dastin/Amazon, NYC DCWP LL144, EEOC Uniform Guidelines, EU AI Act Annex III, Eloundou et al., ILO, O*NET, Correll/Stanford). check: 0 errors.
+- 2026-11-23: Step 3 complete. Authored Chapter 30 (ai-in-hiring.md) and designed hiring-funnel-ai.svg. Covered resume parsing, rankers, adverse impact ratio, four-fifths rule, NYC LL144, EU AI Act Annex III, Amazon case study, and Indian IT campus screening case.
+- 2026-11-23: Step 4 complete. Authored Chapter 31 (workforce-planning-and-skills.md) and designed task-exposure-matrix.svg. Covered O*NET/ESCO skills taxonomies, task exposure alpha (Eloundou et al., ILO), 4-quadrant exposure matrix, Build-Buy-Borrow-Bot, reskilling Net Economic Benefit, and GCC BPO case study. check: 0 errors.
+- 2026-11-23: Step 5 complete. Authored Chapter 32 (hr-copilots-and-people-analytics.md) and designed hr-copilot-trust-boundary.svg. Covered HR RAG copilots, deflection rate traps, Stanford research on gendered performance appraisals (Correll & Simard), employee surveillance limits, EU AI Act emotion ban, DPDP Act, and Indian private bank case study. check: 0 errors, 17 warnings.
+- 2026-11-23: Step 6 complete. Authored Chapter 33 (hr-casebook.md) and designed hr-casebook-taxonomy.svg. Authored 4 strategic cases (Campus screening bias audit, BPO reskilling economics, HR copilot go-live and incident management, Retail store attrition refusal), 4 quantitative estimation models, and 8 executive interview questions. Promoted all 4 HR chapters to published in content/toc.yml. Built 36/36 chapters.
+- 2026-11-23: Step 7 complete. Ran `npm run check` (0 errors, 17 warnings), `node test/inspect_figures.mjs` (34 figures audited, 0 text overflows), and `node scripts/status.mjs` (36/36 chapters published).
+- 2026-11-23: Step 8 complete. Addressed user review feedback (TASK-54a0d26db117):
+  - In `ai-in-hiring.md`: Removed citation `[@deloitte-india-campus-2026]` from vector embeddings description (line 56); accurately quoted Deloitte survey as '86 percent of employers adopt AI in recruitment' (line 286); labeled campus screening shifts toward proctored competency gates as an Illustrative industry trend (line 288); expanded chapter with Hazelwood two-standard-deviation test, NYC LL144 intersectional reporting table with Simpson's Paradox, algorithmic debiasing framework, and candidate-side prompt injection attacks and defensive ingestion hardening, taking word count from 2,439 to 3,115 words.
+  - In `hr-copilots-and-people-analytics.md`: Labeled the opening hook and 92% deflection rate scenario as an Illustrative unnamed firm; cited EU AI Act Article 113(b) and Article 99(3) under `[@eu-ai-act-annex-iii-employment]` for February 2025 prohibition and fines up to EUR 35M / 7%.
+  - In `workforce-planning-and-skills.md`: Attached `[@eloundou-gpts-are-gpts-2023]` to 80% / 19% exposure statistics, and `[@wef-future-of-jobs-2025]` to 170M / 92M / 44% / 6 in 10 job transition numbers.
+  - Verification: `npm run check` -> 0 errors, 17 warnings. `node test/inspect_figures.mjs` -> 0 overflows across 34 figures. Wrote `REPORT.md`.
+- 2026-11-23: Second review pass complete (TASK-7829fe5c6a5d).
+  - workforce-planning-and-skills.md: Citing WEF 170M / 92M / 78M net figure with [@wef-future-of-jobs-2025].
+  - hr-copilots-and-people-analytics.md, ai-in-hiring.md, hr-casebook.md: Corrected EU AI Act Article 5(1)(f) emotion recognition prohibition to reflect medical and safety exceptions.
+  - ai-in-hiring.md: Rewrote line 288 as Illustrative industry response without 'report'; rewrote recap line 445 as a recommendation; corrected hook from 'rejected every CV' to 'penalized resumes containing the word "women\'s"'.
+  - Removed all 33 em-dash asides across prose in all 4 HR chapters per CLAUDE.md rule 6 (left table cells alone).
+  - Verification: npm run check -> 0 errors, 17 warnings. Updated REPORT.md.
+- 2026-11-23: Third review pass complete (TASK-a3d5590daa99).
+  - ai-in-hiring.md: Labeled lede scene illustrative, dropped 3 lakh headcount and unsourced 1.5L hours math; cited NYC LL144 statutory daily penalties ($500-$1,500) under [@nyc-dcwp-local-law-144].
+  - hr-copilots-and-people-analytics.md: Made ₹400 ticket cost explicitly hypothetical ('say ₹400 per ticket'); removed unsourced 15-20 hours review cycle figure; tied ₹2.4 crore saving to illustrative bank; cited ₹250 crore penalty with [@pib-dpdp-rules-2025].
+  - workforce-planning-and-skills.md: Labeled practice problem and interview prompt as illustrative.
+  - hr-casebook.md: Labeled Part I cases and Part II guesstimates as illustrative scenarios for interview practice; rephrased ₹4,50,000 fraud ROI context as an illustrative estimate.
+  - Verification: npm run check (0 errors, 17 warnings), inspect_figures (34 figures, 0 overflows). Updated REPORT.md.

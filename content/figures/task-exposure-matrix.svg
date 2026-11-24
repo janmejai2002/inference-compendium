@@ -1,0 +1,71 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Task-Level AI Exposure Matrix mapping enterprise tasks across AI exposure and value of human judgment, defining the four workforce allocation quadrants.">
+  <!-- Title & Header -->
+  <text class="t-display" x="20" y="24" font-size="15">Task-Level AI Exposure Matrix: The 4 Quadrants</text>
+  <text x="20" y="38" font-size="8.5" fill="#666">Mapping workforce activities by technical exposure and human judgment necessity</text>
+
+  <!-- Left: 2x2 Matrix Plane (x=20 to 320, y=48 to 314) -->
+  <!-- Background Rectangles for 4 Quadrants -->
+  <!-- Top Left: Human Anchor & Protect -->
+  <rect class="paper acc-s" x="20" y="48" width="145" height="128" rx="4" stroke-width="1.2"/>
+  <text class="t-display" x="28" y="64" font-size="9.5" fill="#B83A26">Human Anchor</text>
+  <text x="28" y="76" font-size="7.5" font-weight="bold">Low Exposure · High Judgment</text>
+  <text x="28" y="90" font-size="7.5">• Termination counseling</text>
+  <text x="28" y="102" font-size="7.5">• Executive leadership coaching</text>
+  <text x="28" y="114" font-size="7.5">• Whistleblower investigations</text>
+  <text x="28" y="126" font-size="7.5">• Union &amp; collective bargaining</text>
+  <text x="28" y="140" font-size="7" fill="#666">Strategy: Protect &amp; invest</text>
+
+  <!-- Top Right: Augment & Supervise -->
+  <rect class="wash acc-s" x="175" y="48" width="145" height="128" rx="4" stroke-width="1.8"/>
+  <text class="t-display" x="183" y="64" font-size="9.5" fill="#0B7A5C">Augment &amp; Supervise</text>
+  <text x="183" y="76" font-size="7.5" font-weight="bold">High Exposure · High Judgment</text>
+  <text x="183" y="90" font-size="7.5">• Performance review synthesis</text>
+  <text x="183" y="102" font-size="7.5">• Complex customer escalations</text>
+  <text x="183" y="114" font-size="7.5">• Strategic workforce planning</text>
+  <text x="183" y="126" font-size="7.5">• Talent development design</text>
+  <text x="183" y="140" font-size="7" fill="#666">Strategy: Copilot pairing</text>
+
+  <!-- Bottom Left: Streamline & Standardize -->
+  <rect class="paper acc-s" x="20" y="186" width="145" height="128" rx="4" stroke-width="1.2"/>
+  <text class="t-display" x="28" y="202" font-size="9.5" fill="#666">Streamline</text>
+  <text x="28" y="214" font-size="7.5" font-weight="bold">Low Exposure · Low Judgment</text>
+  <text x="28" y="228" font-size="7.5">• Physical security badge scans</text>
+  <text x="28" y="240" font-size="7.5">• Asset handover verification</text>
+  <text x="28" y="252" font-size="7.5">• Ergonomic site inspections</text>
+  <text x="28" y="264" font-size="7.5">• Statutory compliance sign-offs</text>
+  <text x="28" y="278" font-size="7" fill="#666">Strategy: Standardize SOPs</text>
+
+  <!-- Bottom Right: Automate & Delegate -->
+  <rect class="wash acc-s" x="175" y="186" width="145" height="128" rx="4" stroke-width="1.8"/>
+  <text class="t-display" x="183" y="202" font-size="9.5" fill="#2337E6">Automate &amp; Delegate</text>
+  <text x="183" y="214" font-size="7.5" font-weight="bold">High Exposure · Low Judgment</text>
+  <text x="183" y="228" font-size="7.5">• Level-1 FAQ helpdesk triage</text>
+  <text x="183" y="240" font-size="7.5">• Leave balance inquiry lookups</text>
+  <text x="183" y="252" font-size="7.5">• Automated calendar interview booking</text>
+  <text x="183" y="264" font-size="7.5">• Expense report policy checks</text>
+  <text x="183" y="278" font-size="7" fill="#666">Strategy: Autonomous agents</text>
+
+  <!-- Divider -->
+  <line class="rule-s" x1="335" y1="48" x2="335" y2="314" stroke-width="1"/>
+
+  <!-- Right: Strategic Actions (x >= 350, max chars < 45) -->
+  <rect class="paper acc-s" x="350" y="48" width="270" height="128" rx="4" stroke-width="1.5"/>
+  <text class="t-display" x="362" y="66" font-size="11">1. The Build-Buy-Borrow-Bot Arc</text>
+  <text x="362" y="81" font-size="8" font-weight="bold">• Bot (Automate):</text>
+  <text x="372" y="93" font-size="8">Deflect 50-80% routine task hours</text>
+  <text x="362" y="106" font-size="8" font-weight="bold">• Build (Reskill):</text>
+  <text x="372" y="118" font-size="8">Redeploy internal capacity to Tier-2</text>
+  <text x="362" y="131" font-size="8" font-weight="bold">• Buy &amp; Borrow:</text>
+  <text x="372" y="143" font-size="8">Hire frontier AI architecture leads</text>
+  <text x="362" y="158" font-size="7.5" fill="#666">Taxonomies: O*NET &amp; ESCO skills maps</text>
+
+  <rect class="wash acc-s" x="350" y="186" width="270" height="128" rx="4" stroke-width="2"/>
+  <text class="t-display" x="362" y="204" font-size="11">2. Reskilling ROI vs Severance</text>
+  <text x="362" y="219" font-size="8.5" font-weight="bold" fill="#0B7A5C">The Economic Equivalence:</text>
+  <text x="362" y="233" font-size="8">Net Gain = (Severance + Rehire) - Reskill</text>
+  <text x="362" y="247" font-size="8">• Severance + search: 6-9 months CTC</text>
+  <text x="362" y="260" font-size="8">• Reskilling investment: 1-2 months CTC</text>
+  <text x="362" y="274" font-size="8.5" font-weight="bold">Preserves Domain Knowledge</text>
+  <text x="362" y="288" font-size="8">• Retains institutional client context</text>
+  <text x="362" y="300" font-size="7.5" fill="#666">WEF: 44% core skills shift by 2030</text>
+</svg>

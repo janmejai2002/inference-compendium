@@ -389,6 +389,37 @@ parts:
 
   - id: p8
     n: VIII
+    title: HR & People
+    track: hr
+    deck: AI in hiring, skills-based workforce planning, HR copilots and the surveillance line, and the HR casebook.
+    chapters:
+      - id: ai-in-hiring
+        title: "AI in hiring: screening, assessment, and the bias audit"
+        deck: "What a screening model really is, adverse impact and the four-fifths rule, bias audits under NYC Local Law 144, the EU AI Act's high-risk employment category, DPDP consent, and AI-written applications."
+        tracks: [hr]
+        prereq: [kinds-of-ai, confidently-wrong]
+        status: published
+      - id: workforce-planning-and-skills
+        title: "Workforce planning when the task is the unit: exposure, skills, and reskilling"
+        deck: "Task-level AI exposure, skills taxonomies (O*NET, ESCO), build-buy-borrow-bot, reskilling economics, and attrition models with their ethics."
+        tracks: [hr, strategy]
+        prereq: [work-changes, pilots-stall]
+        status: published
+      - id: hr-copilots-and-people-analytics
+        title: "HR copilots, people analytics, and the surveillance line"
+        deck: "HR helpdesk agents and deflection, AI-drafted performance reviews and calibration, engagement analytics, productivity monitoring, and what the EU AI Act and DPDP Act forbid or require."
+        tracks: [hr]
+        prereq: [models-that-act, judging-output]
+        status: published
+      - id: hr-casebook
+        title: "The HR & People AI casebook & interview room"
+        deck: "Four worked HR cases and four guesstimates: campus screening at scale, BPO reskilling, an HR helpdesk copilot, and an attrition-risk model, with recruiter rubrics."
+        tracks: [hr]
+        prereq: [ai-in-hiring, workforce-planning-and-skills, hr-copilots-and-people-analytics]
+        status: published
+
+  - id: p9
+    n: IX
     title: Inserts
     track: strategy
     deck: Short, dated pages that the web edition replaces every term.

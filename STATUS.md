@@ -1,17 +1,16 @@
 # Status
 
-_Last updated 2026-11-11, Operations & Supply Chain Track (Part VII, Chapters 26–29) authored, verified, and compiled into the publication pipeline with zero errors and zero SVG overflows._
+_Last updated 2026-11-23, HR & People Track (Part VIII, Chapters 30–33) authored, verified, and compiled into the publication pipeline with zero errors and zero SVG overflows._
 
 ## Where we are
-- **Edition: 2027 · Edition 1.0 (Release Candidate — v5 Operations Edition).** All 32 planned units (Chapters 00 through 29 plus Inserts A and B across Parts 0 through VIII) are fully drafted, verified with cross-model plan checks, and linted with zero errors (`check: 0 errors`).
+- **Edition: 2027 · Edition 1.0 (Release Candidate — v6 HR & People Edition).** All 36 planned units (Chapters 00 through 33 plus Inserts A and B across Parts 0 through IX) are fully drafted, verified, and linted with zero errors (`check: 0 errors, 17 warnings`).
 - **Web Edition 2.0:**
-  - **Interactive Placement Track Filter:** Home page now has instantaneous filter pills for `All Tracks (32)`, `Foundations (8)`, `Consulting (13)`, `Marketing (4)`, `Product (4)`, `Operations (4)`, and `Finance (4)`.
+  - **Interactive Placement Track Filter:** Home page now has instantaneous filter pills for `All Tracks (36)`, `Foundations (8)`, `Consulting (13)`, `Marketing (4)`, `Product (4)`, `Operations (4)`, `Finance (4)`, and `HR & People (4)`.
   - **Real-Time Live Search:** Fast in-memory search bar filters chapters, topics, and cases without page reloads.
   - **Pedagogy & Reading Guide:** The "Three ways to read this book" (The night before / The week before / Every day) guide is featured on the web home page.
   - **Theme Switcher:** Topbar toggle for Dark / Light / Auto mode with `localStorage` persistence and zero-flicker boot script.
   - **In-Chapter Quick Switcher:** Seamless chapter jump `<select>` in topbar so readers don't need to exit back to contents.
-  - **SVG Rendering & Zero Overflow:** All 30 SVG figures pass automated headless Chromium geometry audits with zero text overflows (`test/inspect_figures.mjs`).
-  - **Dynamic PDF Delivery:** Download PDF button serves the complete 580-page v5 operations draft (`INFERENCE-v5-operations-draft.pdf`, 14.99 MB).
+  - **SVG Rendering & Zero Overflow:** All 34 SVG figures pass automated headless Chromium geometry audits with zero text overflows (`test/inspect_figures.mjs`).
 - **Front Cover & First Page:** Restored to the clean, authentic, magazine-grade design language specified in `docs/DESIGN.md`:
   - **Wordmark & Identity:** Giant title `INFERENCE.` with cobalt `#8593FF` full stop.
   - **Byline & Authors:** Prominently attributes Janmejai Singh Minhas ([LinkedIn](https://linkedin.com/in/janmejai) · [GitHub](https://github.com/janmejai2002)) & Chaitanya Sharma ([LinkedIn](https://www.linkedin.com/in/chaitanya-sharma-b7a5b925b/) · [GitHub](https://github.com/chaitanya-sharma)) with links in byline and colophon.
@@ -20,19 +19,11 @@ _Last updated 2026-11-11, Operations & Supply Chain Track (Part VII, Chapters 26
   - **Live Edition QR:** High-resolution SVG QR code linking to the live GitHub Pages edition (`https://janmejai2002.github.io/inference-compendium/`).
 - **Authors & Co-creators:** Janmejai Singh Minhas & Chaitanya Sharma.
 - **Title & Edition:** `INFERENCE` · `2027 · Edition 1.0 (Release Candidate)`.
-- **Book metrics:** 580 pages, 134,036 total words, 77 media cards, 108 glossary terms.
-- **Pipeline & Deployment:** Working cleanly. Markdown → web edition, A4 print book (Paged.js), PDF with bookmarks and clickable table of contents. Automated GitHub Pages workflow (`.github/workflows/deploy.yml`) continuously deploys to `https://janmejai2002.github.io/inference-compendium/` on every push to `main`.
-- **Live Edition QR:** Interactive and printable SVG QR code added to the front cover and back cover pointing to the live online edition.
-- **Milestone snapshots:**
-  - `editions/INFERENCE-v5-operations-draft.pdf` (14.99 MB, 580 pages) generated and committed.
-  - `editions/INFERENCE-v4-finance-draft.pdf` (12.34 MB, 498 pages) preserved.
-  - `editions/INFERENCE-v3-product-draft.pdf` (10.38 MB, 408 pages) preserved.
-  - `editions/INFERENCE-v2-marketing-draft.pdf` (8.99 MB, 338 pages) preserved.
-  - `editions/INFERENCE-v1-draft.pdf` (7.17 MB, 252 pages) preserved.
-- **Proofing:** Full B&W proof rendered to `dist/pages-bw/` via `npm run proof:bw`.
-- **Sources:** 170 sources registered in `content/sources.yml`, 170 verified (0 unverified). All 32 target citations independently verified with live URL audits and primary publisher records.
+- **Book metrics:** 36 units, 150,033 total words, 84 media cards, 116 glossary terms.
+- **Pipeline & Deployment:** Working cleanly. Markdown → web edition, A4 print book (Paged.js), PDF with bookmarks and clickable table of contents.
+- **Sources:** 178 sources registered in `content/sources.yml`, 178 verified (0 unverified). All citations independently verified with live URL audits and primary publisher records.
 
-## Chapter inventory (32/32 published)
+## Chapter inventory (36/36 published)
 | # | ID | Title | Status | Words | Media |
 |---|---|---|---|---|---|
 | 00 | `ai-in-one-sitting` | AI in one sitting | published | 4,301 | 3 |
@@ -65,6 +56,10 @@ _Last updated 2026-11-11, Operations & Supply Chain Track (Part VII, Chapters 26
 | 27 | `supply-chain-planning-and-autonomous-replenishment` | Supply Chain Planning & Demand Sensing | published | 4,814 | 2 |
 | 28 | `warehouse-automation-and-physical-ai` | Warehouse Automation, Computer Vision & Physical AI | published | 4,574 | 1 |
 | 29 | `operations-casebook` | Operations Casebook: Eight Worked Problems | published | 5,181 | 1 |
+| 30 | `ai-in-hiring` | AI in Hiring: Screening, Embeddings & Audits | published | 3,115 | 2 |
+| 31 | `workforce-planning-and-skills` | Workforce Planning: Task Exposure & Reskilling | published | 4,059 | 2 |
+| 32 | `hr-copilots-and-people-analytics` | HR Copilots, People Analytics & Surveillance | published | 3,669 | 2 |
+| 33 | `hr-casebook` | HR Casebook: Worked Problems & Guesstimates | published | 5,154 | 1 |
 | A | `state-of-play` | State of play, November 2026 | published | 1,562 | 1 |
 | B | `india-briefing` | India briefing | published | 1,823 | 2 |
 
@@ -72,8 +67,7 @@ _Last updated 2026-11-11, Operations & Supply Chain Track (Part VII, Chapters 26
 - Co-editor `chaitanya-sharma` invited 2026-11-01 with write access to the GitHub repository.
 
 ## Open issues and editorial checklist
-- [x] **Source Verification:** 170/170 sources in `content/sources.yml` are 100% verified (`verified: true`, 0 unverified). All 32 target citations independently confirmed live with primary publisher records.
-- [x] **Publication Status Promotion:** Promoted all 32 units in `content/toc.yml` and frontmatter to `published` for the final 2027 v1.0 release candidate.
-- [x] **Operations & Supply Chain Track (v5):** Fully authored and integrated Part VII (Chapters 26–29) covering predictive maintenance, demand sensing, warehouse robotics, and the operations casebook.
+- [x] **Source Verification:** 178/178 sources in `content/sources.yml` are 100% verified (`verified: true`, 0 unverified). All citations independently confirmed live with primary publisher records.
+- [x] **Publication Status Promotion:** Promoted all 36 units in `content/toc.yml` and frontmatter to `published` for the final 2027 v1.0 release candidate.
+- [x] **HR & People Track (v6):** Fully authored and integrated Part VIII (Chapters 30–33) covering AI in hiring, task exposure & workforce planning, HR copilots & surveillance limits, and the HR casebook.
 - [ ] **Physical Print Proofing:** Run `npm run proof:bw` to inspect Paged.js page-breaks and typographic hygiene prior to commercial hard-copy print run.
-- [ ] **Future Placement Tracks (Post-v1.0):** Authoring HR & People (HR) track as outlined in `book.yml`.
